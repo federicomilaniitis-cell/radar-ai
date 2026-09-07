@@ -57,13 +57,29 @@ def main():
     fonts = re.findall(r'(?i)<link rel="(?:preconnect|stylesheet)"[^>]*fonts\.[^>]*>', testa)
 
     fuori = (
-        "<title>%s</title>\n" % titolo
+        # L'involucro dell'Artifact aggiunge un <meta charset>, ma non ci si
+        # scommette sopra: se manca, i byte UTF-8 vengono letti come Latin-1
+        # e le accentate diventano "Ã¨". Meglio dichiararla noi, per primi.
+        '<meta charset="utf-8">\n'
+        + "<title>%s</title>\n" % titolo
         + "\n".join(fonts) + "\n"
         + "<style>\n" + css + "\n</style>\n"
-        + corpo.replace('<script src="app.js"></script>', "")
+        # Via il richiamo al file esterno, comunque sia scritto: qui il
+        # codice viene incollato per intero poco piu' sotto.
+        + re.sub(r'(?is)<script[^>]*\bsrc=["\']app\.js["\'][^>]*>\s*</script>', "", corpo)
         + '\n<script>\nconst DATI_INCORPORATI = ' + dati + ';\n</script>\n'
         + "<script>\n" + js + "\n</script>\n"
     )
+
+    # Controllo prima di scrivere: se ci fosse gia' del testo rovinato in
+    # partenza, meglio fermarsi che pubblicare una pagina piena di "Ã¨".
+    sospetti = ("Ã¨", "Ã¹", "Ã²", "Ã ", "Ã¬", "Ã©", "Â·", "Â«", "Â»", "â€™", "â€”")
+    trovati = [t for t in sospetti if t in fuori]
+    if trovati:
+        print("FERMO: nei sorgenti c'e' testo con la codifica rovinata: %s"
+              % ", ".join(trovati), file=sys.stderr)
+        print("Controlla che i file siano salvati in UTF-8.", file=sys.stderr)
+        return 1
 
     fuori_path = os.path.join(QUI, "radar-ai-artifact.html")
     with open(fuori_path, "w", encoding="utf-8") as f:
