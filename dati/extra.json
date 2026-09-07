@@ -1,0 +1,118 @@
+{
+ "_nota": "Modelli che OpenRouter non elenca — soprattutto generazione di video e di voce, che non si pagano a token ma a clip o a carattere. Questa parte è curata a mano: va rivista quando esce qualcosa di nuovo. Ogni voce porta la data dell'ultima verifica.",
+ "verificato": "2026-09-08",
+ "modelli": [
+  {
+   "id": "seedance-2", "nome": "Seedance 2", "prov": "ByteDance", "cat": ["video"], "lic": "chiuso",
+   "unit": "clip", "prezzo": 0.60, "rel": "2026-07-01", "q": null,
+   "forte": ["Continuità fra più scene", "Gestisce immagini di riferimento", "Genera l'audio nello stesso passaggio"],
+   "usa": "Produzione vera: sequenze con personaggi che restano coerenti da un'inquadratura all'altra.",
+   "evita": "Clip singole di pochi secondi, dove i concorrenti costano meno."
+  },
+  {
+   "id": "veo-3-1", "nome": "Veo 3.1", "prov": "Google", "cat": ["video"], "lic": "chiuso",
+   "unit": "clip", "prezzo": 0.75, "rel": "2026-05-01", "q": null,
+   "forte": ["4K veri (3840×2160) fino a 60 fotogrammi al secondo", "Audio sincronizzato in un solo passaggio", "La scelta più prudente per un'azienda"],
+   "usa": "Materiale che finisce in onda o su schermo grande.",
+   "evita": "Budget stretti: è la fascia alta del listino."
+  },
+  {
+   "id": "kling-3", "nome": "Kling 3.0", "prov": "Kuaishou", "cat": ["video"], "lic": "chiuso",
+   "unit": "clip", "prezzo": 0.50, "rel": "2026-06-01", "q": null,
+   "forte": ["Il movimento umano più naturale: camminate, gesti, azione", "Circa 0,50 $ a clip"],
+   "usa": "Grandi volumi con persone in movimento.",
+   "evita": "Quando la rifinitura visiva conta più della quantità."
+  },
+  {
+   "id": "sora-2", "nome": "Sora 2", "prov": "OpenAI", "cat": ["video"], "lic": "chiuso",
+   "unit": "clip", "prezzo": 0.80, "rel": "2025-09-30", "q": null, "dismesso": "2026-09-24",
+   "forte": ["La fisica più convincente: pesi, urti, inerzia"],
+   "usa": "Niente di nuovo: l'API si spegne il 24 settembre 2026.",
+   "evita": "Non avviare progetti su questo modello. L'app per il pubblico ha già chiuso il 26 aprile 2026."
+  },
+  {
+   "id": "runway-45", "nome": "Runway Gen-4.5", "prov": "Runway", "cat": ["video"], "lic": "chiuso",
+   "unit": "clip", "prezzo": 0.65, "rel": "2026-04-01", "q": null,
+   "forte": ["Strumenti di montaggio e controllo dentro la piattaforma"],
+   "usa": "Chi lavora dentro un flusso creativo, non solo via API.",
+   "evita": "Automazioni pure da riga di comando."
+  },
+  {
+   "id": "hailuo-23", "nome": "MiniMax Hailuo 2.3", "prov": "MiniMax", "cat": ["video"], "lic": "chiuso",
+   "unit": "clip", "prezzo": 0.45, "rel": "2026-05-01", "q": null,
+   "forte": ["Prezzo aggressivo con una resa stilistica riconoscibile"],
+   "usa": "Contenuti social ad alta frequenza.",
+   "evita": "Realismo documentaristico."
+  },
+  {
+   "id": "wan-27", "nome": "Wan 2.7", "prov": "Alibaba", "cat": ["video"], "lic": "aperto",
+   "unit": "clip", "prezzo": null, "rel": "2026-06-01", "q": null,
+   "forte": ["Pesi aperti: generi in proprio, senza costo per clip"],
+   "usa": "Volumi grandi con infrastruttura tua.",
+   "evita": "Chi non ha schede grafiche a disposizione."
+  },
+  {
+   "id": "eleven-v3", "nome": "Eleven v3", "prov": "ElevenLabs", "cat": ["voce"], "lic": "chiuso",
+   "unit": "1kchar", "prezzo": 0.10, "rel": "2026-01-01", "q": null,
+   "forte": ["Oltre 70 lingue con controllo dell'emozione", "Quarto nella classifica vocale in cieco (Elo 1178)"],
+   "usa": "Doppiaggio, narrazione, voci di marca in più lingue.",
+   "evita": "Lettura in tempo reale: per quello c'è la variante Flash."
+  },
+  {
+   "id": "eleven-flash", "nome": "ElevenLabs Flash v2.5", "prov": "ElevenLabs", "cat": ["voce"], "lic": "chiuso",
+   "unit": "1kchar", "prezzo": 0.05, "rel": "2025-11-01", "q": null,
+   "forte": ["Circa 75 millisecondi di ritardo: il più basso del settore", "32 lingue, metà del prezzo della v3"],
+   "usa": "Conversazione dal vivo, centralini, assistenti che parlano.",
+   "evita": "Recitazione espressiva."
+  },
+  {
+   "id": "stepaudio-25", "nome": "StepAudio 2.5 TTS", "prov": "StepFun", "cat": ["voce"], "lic": "aperto",
+   "unit": "1kchar", "prezzo": null, "rel": "2026-06-01", "q": null,
+   "forte": ["Primo nella classifica vocale in cieco (Elo 1187)", "Batte tutte le voci ElevenLabs nel test"],
+   "usa": "Chi vuole la naturalezza migliore e può ospitare il modello.",
+   "evita": "Chi cerca una piattaforma pronta con assistenza."
+  },
+  {
+   "id": "chatterbox", "nome": "Chatterbox", "prov": "Resemble AI", "cat": ["voce"], "lic": "aperto",
+   "unit": "1kchar", "prezzo": null, "rel": "2025-05-01", "q": null,
+   "forte": ["Nei test in cieco il 63,8% degli ascoltatori l'ha preferita a ElevenLabs", "Gratuita e a sorgente aperto"],
+   "usa": "Voce di qualità a costo zero per chi può ospitarla.",
+   "evita": "Chi ha bisogno di un contratto di assistenza."
+  },
+  {
+   "id": "aura-2", "nome": "Deepgram Aura-2", "prov": "Deepgram", "cat": ["voce"], "lic": "chiuso",
+   "unit": "1kchar", "prezzo": 0.03, "rel": "2025-08-01", "q": null,
+   "forte": ["Circa 90 millisecondi di ritardo, pensata per il tempo reale"],
+   "usa": "Sistemi telefonici e assistenti vocali ad alto volume.",
+   "evita": "Espressività da audiolibro."
+  },
+  {
+   "id": "polly", "nome": "AWS Polly", "prov": "Amazon", "cat": ["voce"], "lic": "chiuso",
+   "unit": "1kchar", "prezzo": 0.004, "rel": "2016-11-01", "q": null,
+   "forte": ["4 $ per milione di caratteri: il più economico del gruppo", "5 milioni di caratteri al mese gratis il primo anno"],
+   "usa": "Annunci, messaggi di sistema, testi funzionali in quantità.",
+   "evita": "Qualunque cosa debba emozionare chi ascolta."
+  },
+  {
+   "id": "flux-2-pro", "nome": "Flux 2 Pro", "prov": "Black Forest Labs", "cat": ["immagine"], "lic": "chiuso",
+   "unit": "immagine", "prezzo": 0.03, "rel": "2026-03-01", "q": null,
+   "forte": ["Il compromesso migliore per un gruppo di lavoro: veloce, versatile, prezzo onesto"],
+   "usa": "La scelta predefinita per la produzione quotidiana di immagini.",
+   "evita": "Il fotorealismo estremo da campagna nazionale."
+  },
+  {
+   "id": "imagen-4-ultra", "nome": "Imagen 4 Ultra", "prov": "Google", "cat": ["immagine"], "lic": "chiuso",
+   "unit": "immagine", "prezzo": 0.054, "rel": "2026-01-01", "q": null,
+   "forte": ["Il tetto qualitativo: fotorealismo e dettaglio"],
+   "usa": "Quando l'immagine è il prodotto: copertine, campagne, stampa.",
+   "evita": "Bozze e prove: costa cinque volte le alternative economiche."
+  },
+  {
+   "id": "z-image-turbo", "nome": "Z-Image Turbo", "prov": "Z.ai", "cat": ["immagine"], "lic": "aperto",
+   "unit": "immagine", "prezzo": 0.01, "rel": "2026-04-01", "q": null,
+   "forte": ["Un centesimo a immagine: il più economico del 2026"],
+   "usa": "Esplorazione, moodboard, varianti da scartare.",
+   "evita": "Consegne finali al cliente."
+  }
+ ]
+}

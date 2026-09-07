@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "radar",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["scripts/servi.py"],
+      "port": 8791,
+      "autoPort": true
+    }
+  ]
+}

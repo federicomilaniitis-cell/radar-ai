@@ -1,0 +1,95 @@
+{
+ "aggiornato": "2026-09-07T22:28:17+00:00",
+ "notizie": [
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-09-07",
+   "titolo": "Dots3-Note Preview (free) viene spento fra 23 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-09-30. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-dots-studio-dots-3-note-preview-free"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-09-07",
+   "titolo": "Nex-N2-Mini viene spento fra 1 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-09-08. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-nex-agi-nex-n2-mini"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-09-07",
+   "titolo": "Nex-N2-Pro viene spento fra 1 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-09-08. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-nex-agi-nex-n2-pro"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-09-07",
+   "titolo": "GLM 4.7 Flash viene spento fra 3 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-09-10. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-z-ai-glm-4-7-flash"
+  },
+  {
+   "tag": "hot",
+   "tagT": "Nuovo modello",
+   "data": "2026-09-03",
+   "titolo": "Qwen3.8 Max (0902): e' disponibile da oggi",
+   "testo": "Qwen3.8 Max (0902) entra nel catalogo. Prezzo: $2 per milione di token in entrata, $6 in uscita. Tiene 1.000.000 token di contesto. Punteggio di intelligenza indipendente: 46,9.",
+   "perche": "Un'opzione in piu' da mettere sul tavolo quando scegli con chi lavorare.",
+   "id": "nuovo-qwen-qwen3-8-max-0902"
+  },
+  {
+   "tag": "hot",
+   "tagT": "Nuovo modello",
+   "data": "2026-09-04",
+   "titolo": "GPT-6 Astra: e' disponibile da oggi",
+   "testo": "GPT-6 Astra entra nel catalogo. Prezzo: $10 per milione di token in entrata, $50 in uscita. Tiene 1.050.000 token di contesto. Punteggio di intelligenza indipendente: 54,7.",
+   "perche": "Un'opzione in piu' da mettere sul tavolo quando scegli con chi lavorare.",
+   "id": "nuovo-openai-gpt-6-astra"
+  },
+  {
+   "tag": "",
+   "tagT": "Nuovo modello",
+   "data": "2026-09-02",
+   "titolo": "Muse Spark 1.3 Contributor: e' disponibile da oggi",
+   "testo": "Muse Spark 1.3 Contributor entra nel catalogo. Prezzo: $0,1 per milione di token in entrata, $0,2 in uscita. Tiene 1.048.576 token di contesto.",
+   "perche": "Un'opzione in piu' da mettere sul tavolo quando scegli con chi lavorare.",
+   "id": "nuovo-meta-muse-spark-1-3-contributor"
+  },
+  {
+   "tag": "",
+   "tagT": "Nuovo modello",
+   "data": "2026-09-02",
+   "titolo": "Muse Spark 1.3: e' disponibile da oggi",
+   "testo": "Muse Spark 1.3 entra nel catalogo. Prezzo: $1,25 per milione di token in entrata, $4,25 in uscita. Tiene 1.048.576 token di contesto.",
+   "perche": "Un'opzione in piu' da mettere sul tavolo quando scegli con chi lavorare.",
+   "id": "nuovo-meta-muse-spark-1-3"
+  },
+  {
+   "tag": "",
+   "tagT": "Nuovo modello",
+   "data": "2026-09-04",
+   "titolo": "GPT-6 Astra Pro: e' disponibile da oggi",
+   "testo": "GPT-6 Astra Pro entra nel catalogo. Prezzo: $10 per milione di token in entrata, $50 in uscita. Tiene 1.050.000 token di contesto.",
+   "perche": "Un'opzione in piu' da mettere sul tavolo quando scegli con chi lavorare.",
+   "id": "nuovo-openai-gpt-6-astra-pro"
+  },
+  {
+   "tag": "",
+   "tagT": "Nuovo modello",
+   "data": "2026-09-04",
+   "titolo": "Ling 3.0 Flash Sante (free): e' disponibile da oggi",
+   "testo": "Ling 3.0 Flash Sante (free) entra nel catalogo. Prezzo: $0 per milione di token in entrata, $0 in uscita. Tiene 262.144 token di contesto.",
+   "perche": "Un'opzione in piu' da mettere sul tavolo quando scegli con chi lavorare.",
+   "id": "nuovo-inclusionai-ling-3-0-flash-sante-free"
+  }
+ ]
+}

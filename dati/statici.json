@@ -1,0 +1,315 @@
+{
+ "_nota": "Le parti della pagina che non cambiano con i listini: il dizionario dei termini, le tecniche per risparmiare, gli scenari del calcolatore e i nomi leggibili dei fornitori. Un fornitore che non è in questo elenco viene mostrato lo stesso, con il nome ricavato dal suo identificativo.",
+ "fornitori": {
+  "openai": "OpenAI",
+  "anthropic": "Anthropic",
+  "google": "Google",
+  "x-ai": "xAI",
+  "meta-llama": "Meta",
+  "meta": "Meta",
+  "mistralai": "Mistral",
+  "deepseek": "DeepSeek",
+  "qwen": "Alibaba (Qwen)",
+  "z-ai": "Z.ai",
+  "moonshotai": "Moonshot AI",
+  "minimax": "MiniMax",
+  "bytedance-seed": "ByteDance",
+  "tencent": "Tencent",
+  "nvidia": "NVIDIA",
+  "cohere": "Cohere",
+  "amazon": "Amazon",
+  "microsoft": "Microsoft",
+  "perplexity": "Perplexity",
+  "ai21": "AI21",
+  "inclusionai": "inclusionAI",
+  "nousresearch": "Nous Research",
+  "ibm-granite": "IBM",
+  "thinkingmachines": "Thinking Machines",
+  "inception": "Inception",
+  "poolside": "Poolside",
+  "aion-labs": "Aion Labs",
+  "sao10k": "Sao10K",
+  "thedrummer": "TheDrummer",
+  "baidu": "Baidu",
+  "stepfun-ai": "StepFun",
+  "arcee-ai": "Arcee",
+  "liquid": "Liquid AI",
+  "allenai": "Allen AI",
+  "opengvlab": "OpenGVLab",
+  "agentica-org": "Agentica",
+  "morph": "Morph",
+  "switchpoint": "Switchpoint",
+  "nex-agi": "Nex AGI",
+  "dots-studio": "Dots Studio",
+  "openrouter": "OpenRouter"
+ },
+ "glossario": {
+  "token": {
+   "n": "Token",
+   "k": "Unità di misura",
+   "d": "Il pezzetto di testo con cui l'AI conta. Non è una parola né una lettera: sta nel mezzo. In italiano una parola vale circa 1,5 token.",
+   "e": "«Buongiorno a tutti» ≈ 5 token. Un milione di token ≈ 700.000 parole, più o meno venti romanzi."
+  },
+  "contesto": {
+   "n": "Finestra di contesto",
+   "k": "Capienza",
+   "d": "Quanto testo il modello riesce a tenere davanti agli occhi in una volta sola: la tua domanda, i documenti allegati e la conversazione precedente, tutto insieme.",
+   "e": "Un milione di token di contesto vuol dire poter allegare l'archivio contratti di un anno e chiedere: «dove abbiamo scritto questa clausola?»"
+  },
+  "input": {
+   "n": "Entrata e uscita",
+   "k": "Le due voci di spesa",
+   "d": "L'entrata è quello che mandi tu, l'uscita è quello che il modello scrive. Si pagano separatamente, e l'uscita costa da 3 a 6 volte di più perché scrivere richiede più calcolo che leggere.",
+   "e": "Mandi 10 pagine e ricevi mezza pagina: paghi molta entrata e poca uscita. Chiedi un articolo di 3.000 parole partendo da una riga: il contrario."
+  },
+  "cache": {
+   "n": "Cache (memoria del prompt)",
+   "k": "Sconto sul ripetuto",
+   "d": "Se rimandi allo stesso modello lo stesso blocco di testo iniziale, il fornitore lo tiene in memoria e la volta dopo te lo fa pagare una frazione.",
+   "e": "Su alcuni modelli la rilettura costa il 2,5% del prezzo pieno. Su un manuale riletto cento volte, la differenza è enorme."
+  },
+  "batch": {
+   "n": "Lavorazione in blocco",
+   "k": "Metà prezzo",
+   "d": "Mandi tante richieste in una volta sola e accetti di ricevere le risposte entro ore invece che in tempo reale. In cambio, sconto del 50%.",
+   "e": "Mille descrizioni prodotto generate durante la notte costano la metà delle stesse mille generate una alla volta di giorno."
+  },
+  "aperto": {
+   "n": "Pesi aperti",
+   "k": "Licenza",
+   "d": "Il modello si può scaricare e far girare su computer tuoi, senza mandare i dati a nessuno. «Aperto» non vuol dire gratis: paghi l'hardware e l'energia invece della bolletta del fornitore.",
+   "e": "Qui li riconosci perché hanno una pagina su Hugging Face, il magazzino pubblico dei modelli scaricabili."
+  },
+  "multimodale": {
+   "n": "Multimodale",
+   "k": "Capacità",
+   "d": "Un modello che capisce più tipi di contenuto: non solo testo, ma anche immagini, audio, video, PDF — nella stessa richiesta.",
+   "e": "Carichi la registrazione di una riunione e il verbale in PDF, e chiedi: «cosa è stato promesso al cliente che non è finito nel verbale?»"
+  },
+  "ragiona": {
+   "n": "Modello di ragionamento",
+   "k": "Tipo",
+   "d": "Un modello che prima di rispondere ragiona per conto suo, passo dopo passo. Sbaglia meno sui problemi complessi, ma è più lento e più caro perché paghi anche i passaggi intermedi.",
+   "e": "Per una verifica contrattuale conviene. Per riscrivere una email è come chiedere a un matematico di firmare una ricevuta."
+  },
+  "indice": {
+   "n": "Indice di intelligenza",
+   "k": "Punteggio",
+   "d": "Il punteggio di Artificial Analysis, un laboratorio indipendente che fa girare a tutti i modelli la stessa batteria di prove e pubblica il risultato. Non è un'opinione: è una misura, sempre la stessa per tutti.",
+   "e": "Va da 0 a circa 60. Sopra 50 sei nella fascia di vertice; sotto 20 è un modello piccolo, buono per compiti meccanici."
+  },
+  "allucinazione": {
+   "n": "Allucinazione",
+   "k": "Rischio",
+   "d": "Quando il modello inventa un dato con la stessa sicurezza con cui riporta un dato vero. Non è un guasto occasionale: è una caratteristica strutturale di come funzionano.",
+   "e": "Un numero di legge, una citazione, un prezzo: se conta, va verificato alla fonte. Sempre."
+  },
+  "latenza": {
+   "n": "Latenza",
+   "k": "Velocità",
+   "d": "Quanto tempo passa prima che arrivi la risposta. Conta soprattutto quando c'è una persona che aspetta, o una voce che deve rispondere al telefono.",
+   "e": "75 millisecondi sono impercettibili in una conversazione. Un secondo è già un silenzio imbarazzante."
+  },
+  "kv": {
+   "n": "KV cache (memoria di lavoro)",
+   "k": "Dentro il modello",
+   "d": "Lo spazio in cui il modello tiene tutto quello che ha già letto nella conversazione in corso. Cresce a ogni token e occupa moltissima memoria sull'hardware.",
+   "e": "È il motivo per cui le conversazioni lunghe rallentano. Metà della ricerca sull'efficienza riguarda come comprimerla."
+  },
+  "rag": {
+   "n": "RAG (ricerca + generazione)",
+   "k": "Architettura",
+   "d": "Invece di allegare tutto l'archivio a ogni domanda, un motore di ricerca pesca solo i tre paragrafi utili e passa quelli al modello. Costa molto meno e sbaglia meno.",
+   "e": "Un'assistenza clienti che consulta 40.000 pagine di manuale: senza RAG è impagabile, con RAG costa centesimi a domanda."
+  },
+  "strumenti": {
+   "n": "Uso di strumenti",
+   "k": "Capacità",
+   "d": "Il modello non risponde soltanto: può chiamare programmi esterni — cercare sul web, leggere un file, scrivere in un gestionale — e usare il risultato.",
+   "e": "È quello che separa una chat da un assistente che lavora davvero al posto tuo."
+  },
+  "agente": {
+   "n": "Agente",
+   "k": "Modo d'uso",
+   "d": "Un modello a cui è permesso agire: cercare, leggere, usare programmi, e ripetere il ciclo finché il compito non è finito.",
+   "e": "«Trova tutti i bandi aperti in Lombardia e mettili in una tabella» è un compito da agente, non da chat."
+  },
+  "finetuning": {
+   "n": "Fine-tuning",
+   "k": "Personalizzazione",
+   "d": "Addestrare ancora un po' un modello esistente sui tuoi esempi, così adotta il tuo stile o il tuo formato. Costa, e va rifatto a ogni nuova versione del modello base.",
+   "e": "Nella maggior parte dei casi istruzioni scritte bene e qualche esempio bastano, e non costano nulla da mantenere."
+  },
+  "quantizzazione": {
+   "n": "Quantizzazione",
+   "k": "Ottimizzazione",
+   "d": "Ridurre la precisione dei numeri dentro il modello per farlo stare in meno memoria. Perde un filo di qualità, guadagna molto in costo e velocità.",
+   "e": "È quello che permette a un modello da 35 miliardi di parametri di girare su un portatile con 32 GB."
+  },
+  "dismissione": {
+   "n": "Dismissione",
+   "k": "Fine vita",
+   "d": "La data in cui il fornitore spegne un modello. Dopo, le richieste smettono di funzionare e chi ci aveva costruito sopra deve spostarsi.",
+   "e": "Qui compaiono in rosso con il conto alla rovescia, perché è il tipo di notizia che fa più danni se te ne accorgi tardi."
+  }
+ },
+ "tecniche": [
+  {
+   "id": "cache",
+   "nome": "Riuso della cache",
+   "min": 50,
+   "max": 90,
+   "diff": "Facile",
+   "cosa": "Il fornitore tiene in memoria la parte iniziale della tua richiesta — le istruzioni, il manuale, il catalogo — e non te la rifà pagare a prezzo pieno la volta dopo.",
+   "come": "Metti all'inizio tutto ciò che non cambia mai e in fondo la parte variabile. Anthropic sconta il 90% (fino al 97,5% sui modelli Fable), OpenAI il 50% in automatico, DeepSeek arriva a 0,007 $ per milione."
+  },
+  {
+   "id": "batch",
+   "nome": "Lavorazione in blocco",
+   "min": 50,
+   "max": 50,
+   "diff": "Facile",
+   "cosa": "Mandi mille richieste tutte insieme e accetti di ricevere le risposte entro qualche ora invece che in due secondi. In cambio paghi metà.",
+   "come": "Vale per tutto ciò che non guarda nessuno mentre succede: analisi notturne, classificazioni di archivio, descrizioni prodotto."
+  },
+  {
+   "id": "corta",
+   "nome": "Mettere un tetto all'uscita",
+   "min": 20,
+   "max": 45,
+   "diff": "Facile",
+   "cosa": "L'uscita costa da 3 a 6 volte l'entrata. Un modello lasciato libero scrive il triplo del necessario, e tu paghi ogni parola di troppo.",
+   "come": "Chiedi esplicitamente la lunghezza («massimo 5 righe», «solo l'elenco puntato») e imposta il limite tecnico di token in uscita."
+  },
+  {
+   "id": "modello",
+   "nome": "Il modello giusto per il compito",
+   "min": 60,
+   "max": 95,
+   "diff": "Facile",
+   "cosa": "Usare il modello di punta per smistare email è come noleggiare un camion per portare la spesa. La maggior parte dei compiti quotidiani gira benissimo su un modello di fascia bassa.",
+   "come": "Fai la prova: prendi 30 casi reali, esegui la stessa cosa sul modello economico e su quello caro, e guarda se la differenza si vede davvero."
+  },
+  {
+   "id": "routing",
+   "nome": "Smistamento automatico",
+   "min": 75,
+   "max": 85,
+   "diff": "Media",
+   "cosa": "Un sistema decide da solo, richiesta per richiesta, se basta il modello economico o se serve quello di frontiera.",
+   "come": "Il lavoro di riferimento (RouteLLM) mostra circa il 95% della qualità di frontiera con un taglio di costo del 75-85%."
+  },
+  {
+   "id": "semantica",
+   "nome": "Cache delle domande simili",
+   "min": 30,
+   "max": 70,
+   "diff": "Media",
+   "cosa": "Se qualcuno ha già chiesto la stessa cosa con parole diverse, riusi la risposta invece di ricomprarla.",
+   "come": "Serve un archivio di domande già viste e un confronto di significato, non di lettere. Elimina dal 30 al 70% delle chiamate ripetute."
+  },
+  {
+   "id": "compressione",
+   "nome": "Compressione del contesto",
+   "min": 40,
+   "max": 80,
+   "diff": "Media",
+   "cosa": "Prima di spedire il testo al modello, un programma toglie le parole che non cambiano la risposta: intestazioni, ripetizioni, cortesie.",
+   "come": "Gli strumenti tipo LLMLingua riducono l'entrata di 2-5 volte con perdita di qualità minima. Rende molto sulle ricerche documentali e sugli storici di conversazione."
+  },
+  {
+   "id": "potatura",
+   "nome": "Potatura del ragionamento",
+   "min": 15,
+   "max": 40,
+   "diff": "Media",
+   "cosa": "I modelli che «ragionano ad alta voce» producono moltissimi token intermedi che paghi come uscita ma non leggi mai.",
+   "come": "Attiva il ragionamento esteso solo dove serve davvero e limita quanto può dilungarsi."
+  },
+  {
+   "id": "kvcache",
+   "nome": "Compressione della memoria di lavoro",
+   "min": 60,
+   "max": 80,
+   "diff": "Tecnica",
+   "cosa": "Dentro il modello, la memoria della conversazione occupa moltissimo spazio. Comprimerla non abbassa il prezzo per token, ma permette di servire molte più richieste con lo stesso hardware.",
+   "come": "Riguarda chi ospita i modelli in proprio. KVzip riduce la memoria di 3-4 volte e dimezza il ritardo; TurboQuant arriva a 5 volte."
+  }
+ ],
+ "scenari": [
+  {
+   "k": "assist",
+   "l": "Assistenza clienti",
+   "req": 8000,
+   "in": 900,
+   "out": 220
+  },
+  {
+   "k": "doc",
+   "l": "Analisi documenti",
+   "req": 400,
+   "in": 12000,
+   "out": 900
+  },
+  {
+   "k": "redaz",
+   "l": "Redazione testi",
+   "req": 600,
+   "in": 500,
+   "out": 1400
+  },
+  {
+   "k": "class",
+   "l": "Classificazione in massa",
+   "req": 20000,
+   "in": 200,
+   "out": 40
+  }
+ ],
+ "categorie": [
+  {
+   "k": "tutto",
+   "l": "Tutto"
+  },
+  {
+   "k": "testo",
+   "l": "Testo e scrittura"
+  },
+  {
+   "k": "ragiona",
+   "l": "Ragionamento"
+  },
+  {
+   "k": "codice",
+   "l": "Codice"
+  },
+  {
+   "k": "agente",
+   "l": "Agenti e strumenti"
+  },
+  {
+   "k": "immagine",
+   "l": "Genera immagini"
+  },
+  {
+   "k": "video",
+   "l": "Genera video"
+  },
+  {
+   "k": "voce",
+   "l": "Genera voce"
+  },
+  {
+   "k": "vista",
+   "l": "Capisce le immagini"
+  },
+  {
+   "k": "videoin",
+   "l": "Capisce i video"
+  },
+  {
+   "k": "documenti",
+   "l": "Legge i PDF"
+  }
+ ]
+}

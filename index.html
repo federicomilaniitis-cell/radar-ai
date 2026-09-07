@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Radar AI</title>
+<meta name="description" content="Il bollettino dei modelli di intelligenza artificiale, in italiano e senza gergo: novità, prezzi, confronti e tecniche per risparmiare token. Si aggiorna da solo.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📡</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="stile.css">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap">
+    <div class="mast-top">
+      <div>
+        <div class="wordmark">RADAR<em>·</em>AI</div>
+        <div class="mast-sub">Il bollettino dei modelli · si aggiorna da solo · scritto per chi non è ingegnere</div>
+      </div>
+      <div class="mast-actions">
+        <button class="icon-btn" id="themeBtn" type="button">◐ Tema</button>
+      </div>
+    </div>
+    <dl class="dateline" id="dateline"></dl>
+  </div>
+</header>
+
+<div class="databar">
+  <div class="wrap">
+    <i class="pulse" id="pulse"></i>
+    <span class="stato" id="statoTxt">Sto leggendo…</span>
+    <span class="dett" id="dettTxt">controllo il catalogo dei modelli</span>
+    <span class="spinta">
+      <button class="btn-agg" id="btnAgg" type="button"><span class="rot">↻</span> Aggiorna ora</button>
+    </span>
+  </div>
+</div>
+
+<nav class="nav">
+  <div class="wrap"><div class="nav-inner" role="tablist" id="tabs"></div></div>
+</nav>
+
+<main class="wrap">
+
+  <!-- PRIMA PAGINA -->
+  <section class="panel" id="p-oggi" role="tabpanel">
+    <div class="front">
+      <div>
+        <article class="lead" id="lead"></article>
+        <div class="rule"></div>
+        <div class="sec-head">
+          <div>
+            <div class="eyebrow">Le altre notizie</div>
+            <h2>Cos'altro è cambiato</h2>
+          </div>
+        </div>
+        <div class="news-grid" id="newsGrid"></div>
+      </div>
+      <aside class="rail">
+        <div class="box">
+          <h4>Date da segnare</h4>
+          <div id="deadlines"></div>
+        </div>
+        <div class="box">
+          <h4>I numeri di oggi</h4>
+          <div id="stats"></div>
+        </div>
+        <div class="box">
+          <h4>Come leggere questa pagina</h4>
+          <p style="font-size:13.5px;color:var(--ink-2)">Le parole con la <b style="border-bottom:2px dotted var(--s2)">sottolineatura punteggiata</b> si cliccano: si apre una scheda che le spiega in una frase. Nessuna nozione data per scontata.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- CATALOGO -->
+  <section class="panel" id="p-modelli" role="tabpanel" hidden>
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">Catalogo</div>
+        <h2>Che cosa devi fare?</h2>
+        <p>Scegli il lavoro, non il modello. Il catalogo arriva in diretta da OpenRouter: quando un fornitore pubblica qualcosa di nuovo, compare qui senza che nessuno debba scriverlo a mano.</p>
+      </div>
+    </div>
+    <div class="filters">
+      <div class="frow"><label>Il lavoro</label><div class="seg" id="fCat"></div></div>
+      <div class="frow"><label>Licenza</label><div class="seg" id="fLic"></div></div>
+      <div class="frow"><label>Budget</label><div class="seg" id="fBudget"></div></div>
+      <div class="frow">
+        <label>Ordina per</label><div class="seg" id="fSort"></div>
+        <input type="search" id="fQ" placeholder="Cerca un nome…" style="margin-left:auto;min-width:170px">
+      </div>
+    </div>
+    <div style="display:flex;justify-content:space-between;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:12px">
+      <div class="eyebrow" id="resCount"></div>
+      <div class="eyebrow" id="cmpCount"></div>
+    </div>
+    <div class="model-grid" id="modelGrid"></div>
+  </section>
+
+  <!-- MAPPA -->
+  <section class="panel" id="p-mappa" role="tabpanel" hidden>
+    <div class="chart-card">
+      <h3>La mappa del mercato: quanto costa, quanto vale</h3>
+      <p class="lede">Ogni punto è un modello di cui esiste un punteggio misurato. Più è <b>in alto</b>, più è bravo; più è <b>a destra</b>, più costa far scrivere. L'angolo in alto a sinistra è l'affare migliore. La scala orizzontale è compressa — ogni tacca vale dieci volte la precedente — perché tra il più economico e il più caro c'è un fattore mille.</p>
+      <div class="chart-scroll"><div id="scatter"></div></div>
+      <div class="legend">
+        <span><i class="swatch" style="background:var(--s1)"></i> Si usa solo via API</span>
+        <span><i class="swatch" style="background:var(--s2)"></i> Pesi aperti: puoi anche scaricarlo</span>
+      </div>
+      <p class="note">Il prezzo mostrato è quello dell'<b>uscita</b> — il testo che il modello scrive — perché è la voce che pesa di più: quasi tutti i fornitori la fanno pagare da 3 a 6 volte l'entrata.</p>
+    </div>
+
+    <div class="chart-card">
+      <h3>La classifica dei punteggi</h3>
+      <p class="lede">I primi venti per punteggio di intelligenza misurato da Artificial Analysis, con accanto quanto costa farli scrivere. Un punteggio alto e una barra corta a destra sono la combinazione che cerchi.</p>
+      <div class="chart-scroll"><div id="rank"></div></div>
+    </div>
+
+    <div class="chart-card">
+      <h3>Chi è uscito, e quando</h3>
+      <p class="lede">Gli ultimi otto mesi in ordine di data. La densità dice tutto: nel 2026 esce qualcosa di rilevante ogni pochi giorni.</p>
+      <div class="chart-scroll"><div id="timeline"></div></div>
+    </div>
+  </section>
+
+  <!-- CONFRONTO -->
+  <section class="panel" id="p-confronto" role="tabpanel" hidden>
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">Testa a testa</div>
+        <h2>Confronta fino a 4 modelli</h2>
+        <p>Aggiungi i candidati dal catalogo (pulsante <b>Confronta</b> su ogni scheda) oppure scegli qui sotto. La tabella mette in fila le stesse voci per tutti, così il paragone è onesto.</p>
+      </div>
+    </div>
+    <div class="filters">
+      <div class="frow">
+        <label>Aggiungi</label>
+        <select id="cmpAdd"><option value="">Scegli un modello…</option></select>
+        <button class="ghost" id="cmpClear" type="button">Svuota</button>
+        <button class="ghost" id="cmpPreset" type="button">I tre migliori + il più economico</button>
+      </div>
+    </div>
+    <div id="cmpEmpty" class="box vuoto">Nessun modello selezionato. Usa il menù qui sopra, o premi <b>I tre migliori + il più economico</b> per vedere subito com'è fatto il confronto.</div>
+    <div id="cmpWrap" hidden>
+      <div class="chart-card">
+        <h3>Prezzo a confronto</h3>
+        <p class="lede">Per ogni modello, la barra chiara è quanto costa leggere e quella piena quanto costa scrivere. Ogni barra porta il suo numero, così non serve misurare a occhio.</p>
+        <div class="chart-scroll"><div id="cmpChart"></div></div>
+      </div>
+      <div class="chart-card">
+        <h3>Scheda tecnica affiancata</h3>
+        <div class="tbl-scroll" style="margin-top:12px"><table class="cmp-table" id="cmpTable"></table></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COSTI -->
+  <section class="panel" id="p-costi" role="tabpanel" hidden>
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">Calcolatore</div>
+        <h2>Quanto ti costerebbe davvero</h2>
+        <p>Descrivi il tuo lavoro in parole normali — quante richieste al mese, quanto testo mandi, quanto ne ricevi — e leggi la spesa mensile stimata per ciascun modello. Nessuna formula da imparare.</p>
+      </div>
+    </div>
+    <div class="filters">
+      <div class="frow"><label>Richieste / mese</label><input type="range" id="cReq" min="10" max="20000" step="10" value="1000"><span class="val" id="cReqV"></span></div>
+      <div class="frow"><label>Parole in entrata</label><input type="range" id="cIn" min="50" max="20000" step="50" value="1200"><span class="val" id="cInV"></span></div>
+      <div class="frow"><label>Parole in uscita</label><input type="range" id="cOut" min="20" max="6000" step="20" value="400"><span class="val" id="cOutV"></span></div>
+      <div class="frow"><label>Scenari pronti</label><div class="seg" id="cPreset"></div></div>
+      <div class="frow"><label>Con la cache</label><div class="seg" id="cCache"></div></div>
+    </div>
+    <div class="chart-card">
+      <h3 id="costTitle">Spesa mensile stimata</h3>
+      <p class="lede" id="costLede"></p>
+      <div class="chart-scroll"><div id="costChart"></div></div>
+      <p class="note">Conversione usata: 1 parola italiana ≈ 1,5 token. È una stima d'ordine di grandezza per confrontare i modelli fra loro, non un preventivo. Prezzi di listino in dollari, esclusi sconti a volume, lavorazione in blocco e fasce orarie.</p>
+      <div class="tbl-scroll" style="margin-top:16px"><table id="costTable"></table></div>
+    </div>
+  </section>
+
+  <!-- RISPARMIO -->
+  <section class="panel" id="p-risparmio" role="tabpanel" hidden>
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">Officina</div>
+        <h2>Come si paga di meno</h2>
+        <p>La bolletta di un'AI non dipende solo dal modello che scegli: dipende soprattutto da <b>come</b> lo usi. Queste sono le tecniche con effetti misurati, dalla più semplice alla più tecnica.</p>
+      </div>
+    </div>
+    <div class="chart-card">
+      <h3>Quanto si risparmia, per tecnica</h3>
+      <p class="lede">Ogni barra copre l'intervallo riportato dalle fonti: l'estremo sinistro è il caso prudente, il destro il caso migliore. I risparmi si sommano solo in parte — chi le combina tutte arriva tipicamente al 60-80% della bolletta.</p>
+      <div class="chart-scroll"><div id="saveChart"></div></div>
+    </div>
+    <div class="cols-2" id="techGrid"></div>
+    <div class="rule"></div>
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">Ricerca</div>
+        <h2>I lavori scientifici più recenti</h2>
+        <p>Presi da arXiv e rinfrescati insieme al resto della pagina: sono le ricerche appena pubblicate su come far costare meno un modello. Titoli in inglese, sono così all'origine.</p>
+      </div>
+    </div>
+    <div class="box" id="papers"></div>
+  </section>
+
+  <!-- GLOSSARIO -->
+  <section class="panel" id="p-glossario" role="tabpanel" hidden>
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">Dizionario</div>
+        <h2>Le parole, tradotte</h2>
+        <p>Tutti i termini che incontri in questa pagina, spiegati con un paragone concreto. Sono gli stessi che si aprono cliccando sulle parole punteggiate.</p>
+      </div>
+    </div>
+    <div class="cols-3" id="glossGrid"></div>
+  </section>
+
+  <footer class="page">
+    <p><b>Da dove arrivano i dati.</b> Il catalogo dei modelli, i prezzi, le date di uscita e i punteggi di intelligenza vengono letti in diretta dall'elenco pubblico di <a href="https://openrouter.ai/api/v1/models" target="_blank" rel="noopener">OpenRouter</a> ogni volta che apri la pagina, e di nuovo ogni volta che premi <b>Aggiorna ora</b>. I punteggi sono misurati da <a href="https://artificialanalysis.ai" target="_blank" rel="noopener">Artificial Analysis</a>, un laboratorio indipendente. I lavori scientifici arrivano da <a href="https://arxiv.org" target="_blank" rel="noopener">arXiv</a>. Nessun elenco di modelli è scritto a mano: un fornitore nuovo entra da solo appena pubblica.</p>
+    <p><b>Cosa resta curato a mano.</b> I modelli che generano video e voce non passano da OpenRouter e non si pagano a token: quelli stanno in <code>dati/extra.json</code> e vanno rivisti quando esce qualcosa. Anche il dizionario e le tecniche di risparmio sono scritti, non calcolati.</p>
+    <p><b>Ogni mattina alle 7:30</b> un'attività automatica rifà il giro, confronta il catalogo di oggi con quello di ieri e scrive le notizie: modelli nuovi, prezzi cambiati, dismissioni annunciate. Se preferisci non aspettare, il pulsante <b>Aggiorna ora</b> in cima rilegge tutto all'istante.</p>
+    <p><b>I prezzi cambiano spesso.</b> Verifica sempre sul listino del fornitore prima di firmare qualcosa.</p>
+    <div class="src">
+      <a href="https://openrouter.ai/models" target="_blank" rel="noopener">OpenRouter</a>
+      <a href="https://artificialanalysis.ai" target="_blank" rel="noopener">Artificial Analysis</a>
+      <a href="https://platform.claude.com/docs/en/about-claude/pricing" target="_blank" rel="noopener">Listino Anthropic</a>
+      <a href="https://developers.openai.com/api/docs/pricing" target="_blank" rel="noopener">Listino OpenAI</a>
+      <a href="https://ai.google.dev/gemini-api/docs/pricing" target="_blank" rel="noopener">Listino Gemini</a>
+      <a href="https://arxiv.org/list/cs.CL/recent" target="_blank" rel="noopener">arXiv</a>
+    </div>
+  </footer>
+</main>
+
+<div class="dock" id="dock">
+  <div class="dock-panel" id="dockPanel" hidden>
+    <div class="dock-head">
+      <div><b>Chiedi al Radar</b><small id="dockStatus">Risponde qui dentro (serve Claude)</small></div>
+      <button type="button" id="dockClose" aria-label="Chiudi la chat">×</button>
+    </div>
+    <div class="dock-prov" id="dockProv"></div>
+    <div class="msgs" id="msgs"></div>
+    <div class="suggest" id="suggest"></div>
+    <form class="composer" id="composer">
+      <input type="text" id="chatInput" placeholder="Es. quale modello per sottotitolare video?" autocomplete="off">
+      <button type="submit" id="chatSend">Invia</button>
+    </form>
+  </div>
+  <button class="dock-toggle" id="dockToggle" type="button">💬 Chiedi al Radar</button>
+</div>
+
+<div class="tip" id="tip"></div>
+
+<script src="app.js"></script>
+</body>
+</html>

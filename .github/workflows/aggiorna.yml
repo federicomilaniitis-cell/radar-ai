@@ -1,0 +1,68 @@
+name: Aggiorna i dati
+
+# Tre modi di partire:
+#  1. da solo, ogni sei ore
+#  2. a mano, dal pulsante "Run workflow" nella scheda Actions
+#  3. a ogni modifica del codice, per rigenerare subito il sito
+on:
+  schedule:
+    - cron: "0 5,11,17,23 * * *"     # orari UTC: 07/13/19/01 in Italia
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths-ignore: ["dati/**", "README.md"]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: radar-ai
+  cancel-in-progress: false
+
+jobs:
+  raccogli:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Raccogli i dati aggiornati
+        run: python scripts/aggiorna.py
+
+      - name: Salva le modifiche
+        run: |
+          git config user.name "Radar AI"
+          git config user.email "actions@github.com"
+          git add dati/
+          if git diff --staged --quiet; then
+            echo "Nessuna novità: non committo."
+          else
+            git commit -m "Dati aggiornati $(date -u '+%d/%m/%Y %H:%M UTC')"
+            git push
+          fi
+
+      - name: Prepara il sito
+        run: |
+          mkdir -p _sito
+          cp index.html stile.css app.js _sito/
+          cp -r dati _sito/dati
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _sito
+
+  pubblica:
+    needs: raccogli
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4

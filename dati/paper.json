@@ -1,0 +1,89 @@
+{
+ "aggiornato": "2026-09-07T22:28:17+00:00",
+ "paper": [
+  {
+   "titolo": "Compression Beyond the Uncompressed: A Two-Stage Training Recipe for Soft Context Compression in RAG",
+   "data": "2026-09-04",
+   "url": "http://arxiv.org/abs/2609.05152v1",
+   "id": "2609.05152v1",
+   "sommario": "Retrieval-Augmented Generation (RAG) enhances language models with external knowledge, but the lengthy retrieved context inflates the input and degrades inference efficiency. Soft context compression encodes each document into a substantially shorter embedding sequence. However, "
+  },
+  {
+   "titolo": "BeaconKV: Key-Value Cache Compression Guided by Beacon Queries for Efficient Large Reasoning Model Inference",
+   "data": "2026-09-04",
+   "url": "http://arxiv.org/abs/2609.04971v1",
+   "id": "2609.04971v1",
+   "sommario": "Large Reasoning Models (LRMs) achieve superior problem-solving through extended Chain-of-Thought (CoT) generation, but the resulting key-value (KV) cache grows linearly with sequence length and creates severe memory bottlenecks, often exceeding GPU capacity for long reasoning tra"
+  },
+  {
+   "titolo": "ARC-Loc: Leveraging Azimuthal Ray Convergence as a Geometric Cue for Direct Cross-View Localization",
+   "data": "2026-09-04",
+   "url": "http://arxiv.org/abs/2609.04965v1",
+   "id": "2609.04965v1",
+   "sommario": "Cross-view localization (CVL) estimates the pose of a ground image by matching it to a geo-referenced satellite image. To bridge the extreme viewpoint gap, mainstream pipelines rely on Bird's-Eye-View (BEV) transformations or 2D-to-3D lifting. However, deriving 3D structures from"
+  },
+  {
+   "titolo": "MCPO: Modality-Contrastive Preference Optimization for Multimodal Chain-of-Thought Compression",
+   "data": "2026-09-04",
+   "url": "http://arxiv.org/abs/2609.04947v1",
+   "id": "2609.04947v1",
+   "sommario": "Recently, multimodal large-scale reasoning models have demonstrated remarkable capabilities in solving complex tasks through long Chains-of-Thought (M-CoT). However, excessively long reasoning trajectories incur substantial computational costs and significant KV-cache pressure. E"
+  },
+  {
+   "titolo": "Forgetting Without Restarting: Execution-State Unlearning for Stateful LLM Agents",
+   "data": "2026-09-04",
+   "url": "http://arxiv.org/abs/2609.04875v1",
+   "id": "2609.04875v1",
+   "sommario": "Long-running LLM agents are stateful: beyond the transcript they accrete compressed summaries, plaintext memory, pending tool plans, and, under every serving API, a KV cache. Yet today's \"forget\" operations delete a plaintext memory record and stop, leaving every artifact derived"
+  },
+  {
+   "titolo": "What Attention Recalls and Recurrence Controls in Hybrid Language Models",
+   "data": "2026-09-03",
+   "url": "http://arxiv.org/abs/2609.04434v1",
+   "id": "2609.04434v1",
+   "sommario": "Hybrid language models combine attention with a fixed-size recurrent state, but the role of each channel remains unclear. We introduce two cache-level interventions. Split-prefill keeps only the KV cache or only the recurrent state from a prefilled context, then generates an answ"
+  },
+  {
+   "titolo": "Why Gated DeltaNet Survives 4-Bit Quantization: NVFP4 W4A4 for the Recurrent Half of a Hybrid 27B LLM",
+   "data": "2026-09-03",
+   "url": "http://arxiv.org/abs/2609.04098v1",
+   "id": "2609.04098v1",
+   "sommario": "Hybrid LLMs pair softmax attention with linear-attention layers such as Gated DeltaNet (GDN), whose recurrent state summarizes the context in fixed size. Early community 4-bit quantizations of Qwen3.8-27B (48 GDN layers, 16 attention layers) left the GDN block in 8- or 16-bit pre"
+  },
+  {
+   "titolo": "VestigeKV: The NoPE-MLA KV Cache Carries Its Own Eviction Signal in a Vestigial Branch",
+   "data": "2026-09-03",
+   "url": "http://arxiv.org/abs/2609.03949v1",
+   "id": "2609.03949v1",
+   "sommario": "The problem. A long-lived KV cache must be compressed before the queries that will read it exist; selection by observed attention (H2O, SnapKV) collapses there (0.00-0.33 needle retrieval on a NoPE MLA model), because a token's importance has not yet been observed. The method. On"
+  },
+  {
+   "titolo": "Almost Free State Prediction Separation",
+   "data": "2026-09-03",
+   "url": "http://arxiv.org/abs/2609.03807v2",
+   "id": "2609.03807v2",
+   "sommario": "A free pause token gives a language model extra compute to form each next-token prediction (as a pause, or thinking, token does) but carries that compute in a parallel prediction stream over a weight-shared backbone rather than as an extra token in the sequence. It improves next-"
+  },
+  {
+   "titolo": "SV-WAM: An Efficient Surround-View World-Action Model for End-to-End Autonomous Driving",
+   "data": "2026-09-03",
+   "url": "http://arxiv.org/abs/2609.03602v1",
+   "id": "2609.03602v1",
+   "sommario": "World models (WMs) have demonstrated strong potential for end-to-end autonomous driving by learning predictive representations of future scene dynamics. However, generating future videos during inference introduces substantial computational overhead, leading many recent driving W"
+  },
+  {
+   "titolo": "What Matters for Aggressive Decoding-Time KV Eviction? Temporal Aggregation and Ranking Preservation",
+   "data": "2026-09-03",
+   "url": "http://arxiv.org/abs/2609.03515v1",
+   "id": "2609.03515v1",
+   "sommario": "Decoding-time KV cache compression research focuses heavily on designing better token scoring functions, while the temporal rule that aggregates scores across decode steps is often treated as an implementation detail. Under aggressive KV compression, we find that exponential-movi"
+  },
+  {
+   "titolo": "GrowPage: On-Demand KV Budgeting for Efficient LLM Reasoning Serving",
+   "data": "2026-09-03",
+   "url": "http://arxiv.org/abs/2609.03494v1",
+   "id": "2609.03494v1",
+   "sommario": "Long-output reasoning has made the key--value (KV) cache a critical memory bottleneck for efficient LLM serving. Existing KV compression methods usually rely on a predefined per-request budget and adjust only which KV states are retained, leaving the total capacity fixed througho"
+  }
+ ]
+}
