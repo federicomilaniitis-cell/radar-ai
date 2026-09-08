@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-09-08T09:18:23+00:00",
+ "aggiornato": "2026-09-08T14:51:00+00:00",
  "notizie": [
   {
    "tag": "crit",
@@ -9,6 +9,69 @@
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-09-30. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-dots-studio-dots-3-note-preview-free"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-08",
+   "titolo": "DeepSeek V4 Flash Vision Exp: il prezzo in entrata scende del 50%",
+   "testo": "Da $0,44 a $0,22 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-deepseek-deepseek-v4-flash-vision-expprompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-08",
+   "titolo": "DeepSeek V4 Flash Vision Exp: il prezzo in uscita scende del 50%",
+   "testo": "Da $1,32 a $0,66 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-deepseek-deepseek-v4-flash-vision-expcompletion"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-08",
+   "titolo": "DeepSeek V4 Pro 0813: il prezzo in entrata scende del 37%",
+   "testo": "Da $1,05 a $0,66 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-deepseek-deepseek-v4-pro-0813prompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-08",
+   "titolo": "DeepSeek V4 Pro 0813: il prezzo in uscita scende del 37%",
+   "testo": "Da $3,15 a $1,98 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-deepseek-deepseek-v4-pro-0813completion"
+  },
+  {
+   "tag": "warn",
+   "tagT": "Prezzo su'",
+   "data": "2026-09-08",
+   "titolo": "Qwen3.5 397B A17B: il prezzo in entrata sale del 41%",
+   "testo": "Da $0,39 a $0,55 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
+   "id": "prezzo-qwen-qwen3-5-397b-a17bprompt"
+  },
+  {
+   "tag": "warn",
+   "tagT": "Prezzo su'",
+   "data": "2026-09-08",
+   "titolo": "Qwen3.5 397B A17B: il prezzo in uscita sale del 50%",
+   "testo": "Da $2,34 a $3,5 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
+   "id": "prezzo-qwen-qwen3-5-397b-a17bcompletion"
+  },
+  {
+   "tag": "warn",
+   "tagT": "Prezzo su'",
+   "data": "2026-09-08",
+   "titolo": "MiniMax M1: il prezzo in entrata sale del 38%",
+   "testo": "Da $0,4 a $0,55 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
+   "id": "prezzo-minimax-minimax-m1prompt"
   },
   {
    "tag": "crit",
@@ -47,33 +110,6 @@
    "id": "prezzo-deepseek-deepseek-v4-flash-0731completion"
   },
   {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-09-08",
-   "titolo": "MiniMax M1: il prezzo in entrata scende del 27%",
-   "testo": "Da $0,55 a $0,4 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-minimax-minimax-m1prompt"
-  },
-  {
-   "tag": "warn",
-   "tagT": "Prezzo su'",
-   "data": "2026-09-08",
-   "titolo": "DeepSeek V4 Flash Vision Exp: il prezzo in entrata sale del 100%",
-   "testo": "Da $0,22 a $0,44 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
-   "id": "prezzo-deepseek-deepseek-v4-flash-vision-expprompt"
-  },
-  {
-   "tag": "warn",
-   "tagT": "Prezzo su'",
-   "data": "2026-09-08",
-   "titolo": "DeepSeek V4 Flash Vision Exp: il prezzo in uscita sale del 100%",
-   "testo": "Da $0,66 a $1,32 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
-   "id": "prezzo-deepseek-deepseek-v4-flash-vision-expcompletion"
-  },
-  {
    "tag": "warn",
    "tagT": "Prezzo su'",
    "data": "2026-09-08",
@@ -108,24 +144,6 @@
    "testo": "Da $1,65 a $0,95 per milione di token in uscita.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
    "id": "prezzo-deepseek-deepseek-chat-v3-1completion"
-  },
-  {
-   "tag": "warn",
-   "tagT": "Prezzo su'",
-   "data": "2026-09-08",
-   "titolo": "DeepSeek V4 Pro 0813: il prezzo in entrata sale del 59%",
-   "testo": "Da $0,66 a $1,05 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
-   "id": "prezzo-deepseek-deepseek-v4-pro-0813prompt"
-  },
-  {
-   "tag": "warn",
-   "tagT": "Prezzo su'",
-   "data": "2026-09-08",
-   "titolo": "DeepSeek V4 Pro 0813: il prezzo in uscita sale del 59%",
-   "testo": "Da $1,98 a $3,15 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
-   "id": "prezzo-deepseek-deepseek-v4-pro-0813completion"
   },
   {
    "tag": "warn",
@@ -198,24 +216,6 @@
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-09-10. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-z-ai-glm-4-7-flash"
-  },
-  {
-   "tag": "hot",
-   "tagT": "Nuovo modello",
-   "data": "2026-09-03",
-   "titolo": "Qwen3.8 Max (0902): e' disponibile da oggi",
-   "testo": "Qwen3.8 Max (0902) entra nel catalogo. Prezzo: $2 per milione di token in entrata, $6 in uscita. Tiene 1.000.000 token di contesto. Punteggio di intelligenza indipendente: 46,9.",
-   "perche": "Un'opzione in piu' da mettere sul tavolo quando scegli con chi lavorare.",
-   "id": "nuovo-qwen-qwen3-8-max-0902"
-  },
-  {
-   "tag": "hot",
-   "tagT": "Nuovo modello",
-   "data": "2026-09-04",
-   "titolo": "GPT-6 Astra: e' disponibile da oggi",
-   "testo": "GPT-6 Astra entra nel catalogo. Prezzo: $10 per milione di token in entrata, $50 in uscita. Tiene 1.050.000 token di contesto. Punteggio di intelligenza indipendente: 54,7.",
-   "perche": "Un'opzione in piu' da mettere sul tavolo quando scegli con chi lavorare.",
-   "id": "nuovo-openai-gpt-6-astra"
   }
  ]
 }

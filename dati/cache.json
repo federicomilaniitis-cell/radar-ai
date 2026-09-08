@@ -1,8 +1,8 @@
 {
- "aggiornato": "2026-09-08T09:18:23+00:00",
+ "aggiornato": "2026-09-08T14:51:00+00:00",
  "aggiornato_it": "8 settembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 353,
+ "totale": 351,
  "modelli": [
   {
    "id": "openai/gpt-6-astra",
@@ -781,9 +781,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000044",
-    "completion": "0.00000132",
-    "input_cache_read": "0.000000014"
+    "prompt": "0.00000022",
+    "completion": "0.00000066",
+    "input_cache_read": "0.000000007"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -875,12 +875,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000112",
-    "completion": "0.00000352",
-    "input_cache_read": "0.000000208"
+    "prompt": "0.000001113",
+    "completion": "0.000003498",
+    "input_cache_read": "0.0000002067"
    },
    "top_provider": {
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 128000
    },
    "supported_parameters": [
     "reasoning",
@@ -1253,9 +1253,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000010494",
-    "completion": "0.0000031482",
-    "input_cache_read": "0.00000003498"
+    "prompt": "0.00000066",
+    "completion": "0.00000198",
+    "input_cache_read": "0.000000022"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -3066,42 +3066,6 @@
    "ha_versione_gratuita": false
   },
   {
-   "id": "nex-agi/nex-n2-mini",
-   "name": "Nex AGI: Nex-N2-Mini",
-   "created": 1782312964,
-   "context_length": 262144,
-   "description": "Nex-N2-Mini is an open-source agentic mixture-of-experts model from Nex AGI, the smaller sibling in the Nex-N2 series. It accepts text and image input and is built for coding, tool use,...",
-   "hugging_face_id": "nex-agi/Nex-N2-Mini",
-   "expiration_date": "2026-09-08",
-   "architecture": {
-    "input_modalities": [
-     "text",
-     "image"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text+image->text"
-   },
-   "pricing": {
-    "prompt": "0.000000025",
-    "completion": "0.0000001",
-    "input_cache_read": "0.0000000025"
-   },
-   "top_provider": {
-    "max_completion_tokens": 235929
-   },
-   "supported_parameters": [
-    "reasoning",
-    "structured_outputs",
-    "tools"
-   ],
-   "reasoning": {
-    "mandatory": false
-   },
-   "ha_versione_gratuita": false
-  },
-  {
    "id": "sakana/fugu-ultra",
    "name": "Sakana: Fugu Ultra",
    "created": 1782276303,
@@ -3444,48 +3408,6 @@
      "intelligence_index": 49.7,
      "coding_index": 76.5,
      "agentic_index": 51
-    }
-   },
-   "ha_versione_gratuita": false
-  },
-  {
-   "id": "nex-agi/nex-n2-pro",
-   "name": "Nex AGI: Nex-N2-Pro",
-   "created": 1780937140,
-   "context_length": 262144,
-   "description": "Nex-N2-Pro is an agentic mixture-of-experts model from Nex AGI, with 17B active parameters out of 397B total. Built on the Qwen3.5 architecture, it accepts text and image input and produces...",
-   "hugging_face_id": "nex-agi/Nex-N2-Pro",
-   "expiration_date": "2026-09-08",
-   "architecture": {
-    "input_modalities": [
-     "text",
-     "image"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text+image->text"
-   },
-   "pricing": {
-    "prompt": "0.00000025",
-    "completion": "0.000001",
-    "input_cache_read": "0.000000025"
-   },
-   "top_provider": {
-    "max_completion_tokens": 235929
-   },
-   "supported_parameters": [
-    "reasoning",
-    "tools"
-   ],
-   "reasoning": {
-    "mandatory": false
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": null,
-     "coding_index": 59.1,
-     "agentic_index": null
     }
    },
    "ha_versione_gratuita": false
@@ -6915,11 +6837,12 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000039",
-    "completion": "0.00000234"
+    "prompt": "0.00000055",
+    "completion": "0.0000035",
+    "input_cache_read": "0.000000225"
    },
    "top_provider": {
-    "max_completion_tokens": 65536
+    "max_completion_tokens": 235929
    },
    "supported_parameters": [
     "reasoning",
@@ -10503,7 +10426,7 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000004",
+    "prompt": "0.00000055",
     "completion": "0.0000022"
    },
    "top_provider": {
