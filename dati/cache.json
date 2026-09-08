@@ -1,9 +1,50 @@
 {
- "aggiornato": "2026-09-08T18:35:02+00:00",
+ "aggiornato": "2026-09-08T19:13:21+00:00",
  "aggiornato_it": "8 settembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 353,
  "modelli": [
+  {
+   "id": "inception/mercury-2.5",
+   "name": "Inception: Mercury 2.5",
+   "created": 1788892137,
+   "context_length": 260000,
+   "description": "Mercury 2.5 is the fastest reasoning LLM, and the latest diffusion LLM (dLLM) from Inception. Instead of generating tokens sequentially, Mercury 2.5 produces and refines multiple tokens in parallel, achieving...",
+   "architecture": {
+    "input_modalities": [
+     "text"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text->text"
+   },
+   "pricing": {
+    "prompt": "0.00000004",
+    "completion": "0.00000015",
+    "input_cache_read": "0.000000004"
+   },
+   "top_provider": {
+    "max_completion_tokens": 65536
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": false,
+    "default_enabled": true,
+    "supported_efforts": [
+     "high",
+     "medium",
+     "low",
+     "none"
+    ],
+    "default_effort": "medium"
+   },
+   "ha_versione_gratuita": false
+  },
   {
    "id": "nex-agi/nex-n2.5-mini:free",
    "name": "Nex AGI: Nex-N2.5-Mini (free)",
@@ -464,48 +505,6 @@
      "coding_index": 81.6,
      "agentic_index": 58
     }
-   },
-   "ha_versione_gratuita": false
-  },
-  {
-   "id": "inception/mercury-2.5-preview",
-   "name": "Inception: Mercury 2.5 Preview",
-   "created": 1788209864,
-   "context_length": 260000,
-   "description": "Mercury 2.5 is the fastest reasoning LLM, and the latest diffusion LLM (dLLM) from Inception. Instead of generating tokens sequentially, Mercury 2.5 produces and refines multiple tokens in parallel, achieving...",
-   "hugging_face_id": "",
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text->text"
-   },
-   "pricing": {
-    "prompt": "0.0000002",
-    "completion": "0.00000075",
-    "input_cache_read": "0.00000002"
-   },
-   "top_provider": {
-    "max_completion_tokens": 65536
-   },
-   "supported_parameters": [
-    "reasoning",
-    "structured_outputs",
-    "tools"
-   ],
-   "reasoning": {
-    "mandatory": false,
-    "default_enabled": true,
-    "supported_efforts": [
-     "high",
-     "medium",
-     "low",
-     "none"
-    ],
-    "default_effort": "medium"
    },
    "ha_versione_gratuita": false
   },
@@ -4897,9 +4896,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000008554",
-    "completion": "0.00000017108",
-    "input_cache_read": "0.000000017108"
+    "prompt": "0.000000084",
+    "completion": "0.000000168",
+    "input_cache_read": "0.0000000168"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -8401,10 +8400,11 @@
    },
    "pricing": {
     "prompt": "0.0000006",
-    "completion": "0.0000025"
+    "completion": "0.0000025",
+    "input_cache_read": "0.00000015"
    },
    "top_provider": {
-    "max_completion_tokens": 235929
+    "max_completion_tokens": 100352
    },
    "supported_parameters": [
     "reasoning",
@@ -10505,7 +10505,7 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000055",
+    "prompt": "0.0000004",
     "completion": "0.0000022"
    },
    "top_provider": {
