@@ -101,15 +101,26 @@ viene ricostruita. L'attività delle 7:30 la rigenera ogni mattina.
 
 ## La chat
 
-Nella pagina c'è un riquadro **Chiedi al Radar** che sa rispondere sui modelli
-usando i dati che hai davanti. Puoi scegliere chi risponde:
+Nella pagina c'è un riquadro **Chiedi al Radar** che risponde sui modelli usando
+i dati che hai davanti, **dentro la pagina stessa**. Al primo utilizzo chiede una
+chiave:
 
-- **Qui dentro** — funziona solo nella versione Artifact su Claude
-- **ChatGPT**, **Gemini**, **Claude** — apre l'app in una scheda nuova con la
-  domanda già scritta, e mette negli appunti anche i dati della pagina
+| Servizio | Nota |
+|---|---|
+| **OpenRouter** | una chiave sola per quasi tutti i modelli del catalogo, gratuiti compresi |
+| **Google Gemini** | il piano gratuito basta per un uso personale |
+| **OpenAI** | serve credito: non c'è un piano gratuito per le chiavi |
+| **Claude** | dentro l'Artifact è già pronto, nessuna chiave |
 
-Nessuna chiave d'accesso è scritta nel codice, e non ce ne sono nel repository:
-una chiave dentro una pagina web sarebbe leggibile da chiunque la apra.
+La chiave viene salvata **solo nel `localStorage` del browser di chi legge** e
+parte soltanto verso il fornitore scelto. Non entra nel repository, non passa da
+GitHub Pages, non finisce in nessun log: non c'è codice lato server in questo
+progetto, quindi non c'è nessun posto dove potrebbe finire.
+
+Nessuna chiave è scritta nel codice, e non ce ne sono nel repository: una chiave
+dentro una pagina web sarebbe leggibile da chiunque la apra. Per Gemini, che
+accetta la chiave solo nell'indirizzo della richiesta, conviene limitarla al
+proprio dominio dalle impostazioni Google.
 
 ---
 
