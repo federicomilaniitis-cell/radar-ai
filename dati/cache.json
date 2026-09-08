@@ -1,9 +1,88 @@
 {
- "aggiornato": "2026-09-08T14:51:00+00:00",
+ "aggiornato": "2026-09-08T18:34:43+00:00",
  "aggiornato_it": "8 settembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 351,
+ "totale": 353,
  "modelli": [
+  {
+   "id": "nex-agi/nex-n2.5-mini:free",
+   "name": "Nex AGI: Nex-N2.5-Mini (free)",
+   "created": 1788890061,
+   "context_length": 262144,
+   "description": "Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file...",
+   "hugging_face_id": "nex-agi/Nex-N2.5-mini",
+   "architecture": {
+    "input_modalities": [
+     "text"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text->text"
+   },
+   "pricing": {
+    "prompt": "0",
+    "completion": "0"
+   },
+   "top_provider": {
+    "max_completion_tokens": 235929
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": false,
+    "supported_efforts": [
+     "high",
+     "medium",
+     "none"
+    ],
+    "default_effort": "high"
+   },
+   "ha_versione_gratuita": true
+  },
+  {
+   "id": "nex-agi/nex-n2.5-pro:free",
+   "name": "Nex AGI: Nex-N2.5-Pro (free)",
+   "created": 1788890050,
+   "context_length": 262144,
+   "description": "Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file...",
+   "hugging_face_id": "nex-agi/Nex-N2.5-Pro",
+   "architecture": {
+    "input_modalities": [
+     "text",
+     "image"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image->text"
+   },
+   "pricing": {
+    "prompt": "0",
+    "completion": "0"
+   },
+   "top_provider": {
+    "max_completion_tokens": 235929
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": false,
+    "supported_efforts": [
+     "high",
+     "medium",
+     "none"
+    ],
+    "default_effort": "high"
+   },
+   "ha_versione_gratuita": true
+  },
   {
    "id": "openai/gpt-6-astra",
    "name": "OpenAI: GPT-6 Astra",
@@ -405,9 +484,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000004",
-    "completion": "0.00000015",
-    "input_cache_read": "0.000000004"
+    "prompt": "0.0000002",
+    "completion": "0.00000075",
+    "input_cache_read": "0.00000002"
    },
    "top_provider": {
     "max_completion_tokens": 65536
@@ -603,12 +682,12 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000007125",
-    "completion": "0.0000002375",
-    "input_cache_read": "0.00000001425"
+    "prompt": "0.000000075",
+    "completion": "0.00000025",
+    "input_cache_read": "0.000000015"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -1253,12 +1332,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000066",
-    "completion": "0.00000198",
-    "input_cache_read": "0.000000022"
+    "prompt": "0.00000057948",
+    "completion": "0.00000173844",
+    "input_cache_read": "0.000000057948"
    },
    "top_provider": {
-    "max_completion_tokens": 384000
+    "max_completion_tokens": 393216
    },
    "supported_parameters": [
     "reasoning",
@@ -2882,9 +2961,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000132",
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033"
+    "prompt": "0.0000000825",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -4772,9 +4851,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000095526",
-    "completion": "0.00000191052",
-    "input_cache_read": "0.000000079605"
+    "prompt": "0.000000949692",
+    "completion": "0.000001899384",
+    "input_cache_read": "0.000000079141"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -4818,9 +4897,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000088606",
-    "completion": "0.000000177212",
-    "input_cache_read": "0.0000000177212"
+    "prompt": "0.00000008554",
+    "completion": "0.00000017108",
+    "input_cache_read": "0.000000017108"
    },
    "top_provider": {
     "max_completion_tokens": 384000
