@@ -76,15 +76,26 @@ python3 scripts/servi.py        # poi apri http://localhost:8791
 Serve un server: aprendo `index.html` con un doppio clic il browser blocca la
 lettura dei file dentro `dati/`.
 
-## Versione per Claude
+## Il file unico da doppio clic
 
 ```bash
 python3 scripts/costruisci_artifact.py
 ```
 
-Produce `radar-ai-artifact.html`, un file unico con tutto dentro. Serve perché
-l'Artifact di Claude non lascia uscire richieste di rete: quella versione mostra
-l'ultima istantanea, in cambio ha la chat che risponde nella pagina stessa.
+Produce due copie identiche di un file autosufficiente — stile, codice e
+un'istantanea dei dati tutto dentro:
+
+- `Radar-AI.html` — da tenere sulla Scrivania e aprire con un doppio clic
+- `radar-ai-artifact.html` — da pubblicare come Artifact su Claude
+
+Aperto con un doppio clic, **il file scarica lo stesso i dati aggiornati**:
+OpenRouter risponde anche alle pagine locali. L'istantanea incorporata entra in
+gioco solo quando manca la rete — o dentro l'Artifact di Claude, che non lascia
+uscire richieste (in cambio lì la chat risponde senza chiedere nessuna chiave).
+
+Quello che **non** si aggiorna da solo in quel file è il codice: se la pagina
+guadagna una funzione nuova, la copia sulla Scrivania resta indietro finché non
+viene ricostruita. L'attività delle 7:30 la rigenera ogni mattina.
 
 ---
 

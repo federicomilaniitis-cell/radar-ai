@@ -81,12 +81,16 @@ def main():
         print("Controlla che i file siano salvati in UTF-8.", file=sys.stderr)
         return 1
 
+    # Due nomi, stesso contenuto: uno per l'Artifact di Claude, uno da
+    # tenere sulla Scrivania e aprire con un doppio clic.
     fuori_path = os.path.join(QUI, "radar-ai-artifact.html")
-    with open(fuori_path, "w", encoding="utf-8") as f:
-        f.write(fuori)
+    doppio_clic = os.path.join(QUI, "Radar-AI.html")
+    for dest in (fuori_path, doppio_clic):
+        with open(dest, "w", encoding="utf-8") as f:
+            f.write(fuori)
 
     kb = os.path.getsize(fuori_path) / 1024
-    print("Scritto radar-ai-artifact.html — %.0f KB, %d modelli nell'istantanea"
+    print("Scritti radar-ai-artifact.html e Radar-AI.html — %.0f KB, %d modelli nell'istantanea"
           % (kb, len(incorporati["cache"].get("modelli", []))))
     if kb > 15000:
         print("ATTENZIONE: sopra il limite di 16 MB degli Artifact.", file=sys.stderr)
