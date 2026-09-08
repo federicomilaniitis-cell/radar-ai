@@ -151,6 +151,48 @@
    "k": "Fine vita",
    "d": "La data in cui il fornitore spegne un modello. Dopo, le richieste smettono di funzionare e chi ci aveva costruito sopra deve spostarsi.",
    "e": "Qui compaiono in rosso con il conto alla rovescia, perché è il tipo di notizia che fa più danni se te ne accorgi tardi."
+  },
+  "maxuscita": {
+   "n": "Massimo in uscita",
+   "k": "Limite",
+   "d": "La quantità massima di testo che il modello può scrivere in una sola risposta. Diversa dal contesto, che è quanto può leggere.",
+   "e": "64.000 token in uscita sono circa 45.000 parole: un capitolo intero. Se chiedi di più, la risposta viene troncata a metà frase."
+  },
+  "unita": {
+   "n": "A token, a clip, a carattere",
+   "k": "Come si paga",
+   "d": "Non tutti i modelli si pagano allo stesso modo. Quelli di testo si pagano a token. Quelli che generano video si pagano a clip prodotta. Le voci si pagano a caratteri letti. Le immagini, a immagine.",
+   "e": "È il motivo per cui un modello video non compare quando filtri per prezzo al milione di token: quel numero, per lui, non esiste proprio."
+  },
+  "chiave": {
+   "n": "Chiave API",
+   "k": "Password per i programmi",
+   "d": "Una lunga stringa di caratteri che dimostra a un fornitore che sei tu. Serve perché un programma — non una persona davanti a uno schermo — possa parlare con il modello e farsi addebitare l'uso.",
+   "e": "È come la carta di credito dell'AI: chi ce l'ha può spendere sul tuo conto. Non va mai incollata in un sito di cui non ti fidi, né mandata a nessuno."
+  },
+  "codicep": {
+   "n": "Punteggio sul codice",
+   "k": "Punteggio",
+   "d": "Quanto va bene il modello nello scrivere e correggere software, misurato a parte dall'intelligenza generale. Un modello può essere colto e scarso a programmare, o viceversa.",
+   "e": "Se non scrivi software questo numero puoi ignorarlo del tutto."
+  },
+  "agenticop": {
+   "n": "Punteggio sugli agenti",
+   "k": "Punteggio",
+   "d": "Quanto è affidabile il modello quando deve lavorare da solo per più passaggi: cercare, leggere, usare programmi, e non perdersi per strada.",
+   "e": "Conta se vuoi dargli un compito e tornare mezz'ora dopo. Non conta se lo usi solo per chattare."
+  },
+  "fornitore": {
+   "n": "Fornitore",
+   "k": "Chi lo fa",
+   "d": "L'azienda o il gruppo che ha costruito il modello e che ti fattura l'uso. Cambiare fornitore vuol dire cambiare contratto, prezzi e regole sui dati.",
+   "e": "OpenAI, Google, Anthropic, Alibaba, DeepSeek. Alcuni sono americani, altri cinesi, altri europei: se hai vincoli sui dati, questa riga conta più del prezzo."
+  },
+  "diretta": {
+   "n": "In diretta",
+   "k": "Freschezza del dato",
+   "d": "Vuol dire che i numeri che stai leggendo sono stati appena scaricati dal catalogo pubblico, non salvati chissà quando. Il pallino verde in alto lo conferma.",
+   "e": "Se diventa arancione, la rete non risponde e stai guardando l'ultima copia salvata: la data è scritta lì accanto."
   }
  },
  "tecniche": [

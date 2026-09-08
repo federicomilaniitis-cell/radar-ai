@@ -82,7 +82,7 @@
       <div>
         <div class="eyebrow">Catalogo</div>
         <h2>Che cosa devi fare?</h2>
-        <p>Scegli il lavoro, non il modello. Il catalogo arriva in diretta da OpenRouter: quando un fornitore pubblica qualcosa di nuovo, compare qui senza che nessuno debba scriverlo a mano.</p>
+        <p>Scegli il lavoro, non il modello. I filtri si sommano fra loro: quello che stai usando è sempre scritto qui sotto, e se la lista si svuota ti dico quale filtro l'ha svuotata. <b>Clicca una scheda</b> per aprirla per intero.</p>
       </div>
     </div>
     <div class="filters">
@@ -94,6 +94,8 @@
         <input type="search" id="fQ" placeholder="Cerca un nome…" style="margin-left:auto;min-width:170px">
       </div>
     </div>
+    <div class="avviso" id="avvisoBudget" hidden></div>
+    <div class="filtri-attivi" id="filtriAttivi" hidden></div>
     <div style="display:flex;justify-content:space-between;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:12px">
       <div class="eyebrow" id="resCount"></div>
       <div class="eyebrow" id="cmpCount"></div>
@@ -240,19 +242,16 @@
 <div class="dock" id="dock">
   <div class="dock-panel" id="dockPanel" hidden>
     <div class="dock-head">
-      <div><b>Chiedi al Radar</b><small id="dockStatus">Risponde qui dentro (serve Claude)</small></div>
+      <div><b>Chiedi al Radar</b><small id="dockStatus">Risponde dentro la pagina</small></div>
       <button type="button" id="dockClose" aria-label="Chiudi la chat">×</button>
     </div>
-    <div class="dock-prov" id="dockProv"></div>
-    <div class="msgs" id="msgs"></div>
-    <div class="suggest" id="suggest"></div>
-    <form class="composer" id="composer">
-      <input type="text" id="chatInput" placeholder="Es. quale modello per sottotitolare video?" autocomplete="off">
-      <button type="submit" id="chatSend">Invia</button>
-    </form>
+    <div class="chat-zona" id="chatZona"></div>
   </div>
   <button class="dock-toggle" id="dockToggle" type="button">💬 Chiedi al Radar</button>
 </div>
+
+<div class="dett-sfondo" id="dettaglioSfondo" hidden></div>
+<aside class="dett" id="dettaglio" hidden role="dialog" aria-label="Scheda del modello"></aside>
 
 <div class="tip" id="tip"></div>
 
