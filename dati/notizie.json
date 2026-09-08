@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-09-08T00:51:59+00:00",
+ "aggiornato": "2026-09-08T09:18:23+00:00",
  "notizie": [
   {
    "tag": "crit",
@@ -27,6 +27,69 @@
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-09-08. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-nex-agi-nex-n2-pro"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-08",
+   "titolo": "DeepSeek V4 Flash 0731: il prezzo in entrata scende del 54%",
+   "testo": "Da $0,14 a $0,065 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-deepseek-deepseek-v4-flash-0731prompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-08",
+   "titolo": "DeepSeek V4 Flash 0731: il prezzo in uscita scende del 36%",
+   "testo": "Da $0,28 a $0,18 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-deepseek-deepseek-v4-flash-0731completion"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-08",
+   "titolo": "MiniMax M1: il prezzo in entrata scende del 27%",
+   "testo": "Da $0,55 a $0,4 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-minimax-minimax-m1prompt"
+  },
+  {
+   "tag": "warn",
+   "tagT": "Prezzo su'",
+   "data": "2026-09-08",
+   "titolo": "DeepSeek V4 Flash Vision Exp: il prezzo in entrata sale del 100%",
+   "testo": "Da $0,22 a $0,44 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
+   "id": "prezzo-deepseek-deepseek-v4-flash-vision-expprompt"
+  },
+  {
+   "tag": "warn",
+   "tagT": "Prezzo su'",
+   "data": "2026-09-08",
+   "titolo": "DeepSeek V4 Flash Vision Exp: il prezzo in uscita sale del 100%",
+   "testo": "Da $0,66 a $1,32 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
+   "id": "prezzo-deepseek-deepseek-v4-flash-vision-expcompletion"
+  },
+  {
+   "tag": "warn",
+   "tagT": "Prezzo su'",
+   "data": "2026-09-08",
+   "titolo": "Qwen3 14B: il prezzo in entrata sale del 90%",
+   "testo": "Da $0,12 a $0,228 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
+   "id": "prezzo-qwen-qwen3-14bprompt"
+  },
+  {
+   "tag": "warn",
+   "tagT": "Prezzo su'",
+   "data": "2026-09-08",
+   "titolo": "Qwen3 14B: il prezzo in uscita sale del 279%",
+   "testo": "Da $0,24 a $0,91 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
+   "id": "prezzo-qwen-qwen3-14bcompletion"
   },
   {
    "tag": "ok",
@@ -153,42 +216,6 @@
    "testo": "GPT-6 Astra entra nel catalogo. Prezzo: $10 per milione di token in entrata, $50 in uscita. Tiene 1.050.000 token di contesto. Punteggio di intelligenza indipendente: 54,7.",
    "perche": "Un'opzione in piu' da mettere sul tavolo quando scegli con chi lavorare.",
    "id": "nuovo-openai-gpt-6-astra"
-  },
-  {
-   "tag": "",
-   "tagT": "Nuovo modello",
-   "data": "2026-09-02",
-   "titolo": "Muse Spark 1.3 Contributor: e' disponibile da oggi",
-   "testo": "Muse Spark 1.3 Contributor entra nel catalogo. Prezzo: $0,1 per milione di token in entrata, $0,2 in uscita. Tiene 1.048.576 token di contesto.",
-   "perche": "Un'opzione in piu' da mettere sul tavolo quando scegli con chi lavorare.",
-   "id": "nuovo-meta-muse-spark-1-3-contributor"
-  },
-  {
-   "tag": "",
-   "tagT": "Nuovo modello",
-   "data": "2026-09-02",
-   "titolo": "Muse Spark 1.3: e' disponibile da oggi",
-   "testo": "Muse Spark 1.3 entra nel catalogo. Prezzo: $1,25 per milione di token in entrata, $4,25 in uscita. Tiene 1.048.576 token di contesto.",
-   "perche": "Un'opzione in piu' da mettere sul tavolo quando scegli con chi lavorare.",
-   "id": "nuovo-meta-muse-spark-1-3"
-  },
-  {
-   "tag": "",
-   "tagT": "Nuovo modello",
-   "data": "2026-09-04",
-   "titolo": "GPT-6 Astra Pro: e' disponibile da oggi",
-   "testo": "GPT-6 Astra Pro entra nel catalogo. Prezzo: $10 per milione di token in entrata, $50 in uscita. Tiene 1.050.000 token di contesto.",
-   "perche": "Un'opzione in piu' da mettere sul tavolo quando scegli con chi lavorare.",
-   "id": "nuovo-openai-gpt-6-astra-pro"
-  },
-  {
-   "tag": "",
-   "tagT": "Nuovo modello",
-   "data": "2026-09-04",
-   "titolo": "Ling 3.0 Flash Sante (free): e' disponibile da oggi",
-   "testo": "Ling 3.0 Flash Sante (free) entra nel catalogo. Prezzo: $0 per milione di token in entrata, $0 in uscita. Tiene 262.144 token di contesto.",
-   "perche": "Un'opzione in piu' da mettere sul tavolo quando scegli con chi lavorare.",
-   "id": "nuovo-inclusionai-ling-3-0-flash-sante-free"
   }
  ]
 }
