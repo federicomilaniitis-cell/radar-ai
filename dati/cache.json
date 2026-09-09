@@ -1,6 +1,6 @@
 {
- "aggiornato": "2026-09-08T19:41:55+00:00",
- "aggiornato_it": "8 settembre 2026",
+ "aggiornato": "2026-09-09T00:58:25+00:00",
+ "aggiornato_it": "9 settembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 353,
  "modelli": [
@@ -525,9 +525,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000001",
-    "completion": "0.00000015",
-    "input_cache_read": "0.00000005"
+    "prompt": "0.00000006",
+    "completion": "0.00000025",
+    "input_cache_read": "0.000000015"
    },
    "top_provider": {
     "max_completion_tokens": 117964
@@ -864,7 +864,7 @@
     "input_cache_read": "0.000000007"
    },
    "top_provider": {
-    "max_completion_tokens": 384000
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -1248,7 +1248,7 @@
     "input_cache_read": "0.00000025"
    },
    "top_provider": {
-    "max_completion_tokens": 262144
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -2960,9 +2960,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000825",
-    "completion": "0.00000033",
-    "input_cache_read": "0.000000020625"
+    "prompt": "0.000000132",
+    "completion": "0.000000528",
+    "input_cache_read": "0.000000033"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -4381,9 +4381,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000025",
-    "completion": "0.000014",
-    "input_cache_read": "0.00000029"
+    "prompt": "0.00000255",
+    "completion": "0.00001275",
+    "input_cache_read": "0.00000025599999"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -4850,9 +4850,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000948126",
-    "completion": "0.000001896252",
-    "input_cache_read": "0.0000000790105"
+    "prompt": "0.00000095526",
+    "completion": "0.00000191052",
+    "input_cache_read": "0.000000079605"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -4896,9 +4896,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000084",
-    "completion": "0.000000168",
-    "input_cache_read": "0.0000000168"
+    "prompt": "0.000000088606",
+    "completion": "0.000000177212",
+    "input_cache_read": "0.0000000177212"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -6020,7 +6020,7 @@
    "id": "nvidia/nemotron-3-super-120b-a12b",
    "name": "NVIDIA: Nemotron 3 Super",
    "created": 1773245239,
-   "context_length": 1000000,
+   "context_length": 262144,
    "description": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications. Built on a hybrid Mamba-Transformer...",
    "hugging_face_id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8",
    "architecture": {
@@ -6041,7 +6041,6 @@
    },
    "supported_parameters": [
     "reasoning",
-    "structured_outputs",
     "tools"
    ],
    "reasoning": {
@@ -8400,11 +8399,10 @@
    },
    "pricing": {
     "prompt": "0.0000006",
-    "completion": "0.0000025",
-    "input_cache_read": "0.00000015"
+    "completion": "0.0000025"
    },
    "top_provider": {
-    "max_completion_tokens": 100352
+    "max_completion_tokens": 235929
    },
    "supported_parameters": [
     "reasoning",
@@ -8983,12 +8981,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000055",
-    "completion": "0.0000022",
-    "input_cache_read": "0.00000011"
+    "prompt": "0.00000043",
+    "completion": "0.00000175",
+    "input_cache_read": "0.00000008"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 16384
    },
    "supported_parameters": [
     "reasoning",
@@ -9401,12 +9399,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000001",
-    "completion": "0.0000011",
-    "input_cache_read": "0.00000007"
+    "prompt": "0.00000009",
+    "completion": "0.0000011"
    },
    "top_provider": {
-    "max_completion_tokens": 235929
+    "max_completion_tokens": 16384
    },
    "supported_parameters": [
     "structured_outputs",
@@ -9656,7 +9653,6 @@
    "context_length": 65536,
    "description": "GLM-4.5V is a vision-language foundation model for multimodal agent applications. Built on a Mixture-of-Experts (MoE) architecture with 106B parameters and 12B activated parameters, it achieves state-of-the-art results in video understanding,...",
    "hugging_face_id": "zai-org/GLM-4.5V",
-   "expiration_date": "2026-12-31",
    "architecture": {
     "input_modalities": [
      "text",
@@ -10505,7 +10501,7 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000004",
+    "prompt": "0.00000055",
     "completion": "0.0000022"
    },
    "top_provider": {
