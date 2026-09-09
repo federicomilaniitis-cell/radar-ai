@@ -1,89 +1,89 @@
 {
- "aggiornato": "2026-09-09T00:58:25+00:00",
+ "aggiornato": "2026-09-09T09:20:54+00:00",
  "paper": [
   {
-   "titolo": "Compression Beyond the Uncompressed: A Two-Stage Training Recipe for Soft Context Compression in RAG",
-   "data": "2026-09-04",
-   "url": "http://arxiv.org/abs/2609.05152v1",
-   "id": "2609.05152v1",
-   "sommario": "Retrieval-Augmented Generation (RAG) enhances language models with external knowledge, but the lengthy retrieved context inflates the input and degrades inference efficiency. Soft context compression encodes each document into a substantially shorter embedding sequence. However, "
+   "titolo": "TontaubeV1: Streaming Text-to-Speech with Hierarchical Codec Modeling and Bounded Context",
+   "data": "2026-09-08",
+   "url": "http://arxiv.org/abs/2609.08703v1",
+   "id": "2609.08703v1",
+   "sommario": "Text-to-speech systems often face a trade-off between natural prosody and efficient inference: higher perceptual quality typically comes at increased computational cost and latency. We present TontaubeV1, a model that preserves natural prosody while enabling streaming from a sing"
   },
   {
-   "titolo": "BeaconKV: Key-Value Cache Compression Guided by Beacon Queries for Efficient Large Reasoning Model Inference",
-   "data": "2026-09-04",
-   "url": "http://arxiv.org/abs/2609.04971v1",
-   "id": "2609.04971v1",
-   "sommario": "Large Reasoning Models (LRMs) achieve superior problem-solving through extended Chain-of-Thought (CoT) generation, but the resulting key-value (KV) cache grows linearly with sequence length and creates severe memory bottlenecks, often exceeding GPU capacity for long reasoning tra"
+   "titolo": "BIO-MEMART: Biometric-Aware KV Cache Memory for Multi-User LLM Agents",
+   "data": "2026-09-08",
+   "url": "http://arxiv.org/abs/2609.08566v1",
+   "id": "2609.08566v1",
+   "sommario": "KV cache is evolving from a serving optimization into an external memory substrate for long-term LLM agents. In a shared multi-user deployment, however, reusable KV blocks introduce a missing access-control question: semantic relevance alone cannot determine whether a memory bloc"
   },
   {
-   "titolo": "ARC-Loc: Leveraging Azimuthal Ray Convergence as a Geometric Cue for Direct Cross-View Localization",
-   "data": "2026-09-04",
-   "url": "http://arxiv.org/abs/2609.04965v1",
-   "id": "2609.04965v1",
-   "sommario": "Cross-view localization (CVL) estimates the pose of a ground image by matching it to a geo-referenced satellite image. To bridge the extreme viewpoint gap, mainstream pipelines rely on Bird's-Eye-View (BEV) transformations or 2D-to-3D lifting. However, deriving 3D structures from"
+   "titolo": "AttnCompress: Dynamic Attention-Guided Trajectory Compression for Software Engineering Agents",
+   "data": "2026-09-08",
+   "url": "http://arxiv.org/abs/2609.08318v1",
+   "id": "2609.08318v1",
+   "sommario": "The transition from human-centric assistance to Autonomous Software Engineering (ASE) agents has enabled the resolution of complex real-world SE tasks. However, the trial-and-error nature of these agents generates lengthy interaction trajectories, creating severe bottlenecks in t"
   },
   {
-   "titolo": "MCPO: Modality-Contrastive Preference Optimization for Multimodal Chain-of-Thought Compression",
-   "data": "2026-09-04",
-   "url": "http://arxiv.org/abs/2609.04947v1",
-   "id": "2609.04947v1",
-   "sommario": "Recently, multimodal large-scale reasoning models have demonstrated remarkable capabilities in solving complex tasks through long Chains-of-Thought (M-CoT). However, excessively long reasoning trajectories incur substantial computational costs and significant KV-cache pressure. E"
+   "titolo": "Jacap: Robust KV Cache Eviction via Jacobian-Based Nonlinear Information Capacity Preservation",
+   "data": "2026-09-08",
+   "url": "http://arxiv.org/abs/2609.08131v1",
+   "id": "2609.08131v1",
+   "sommario": "Key-value (KV) cache eviction is essential for scaling long-context inference in Large Language Models. However, existing policies predominantly rely on empirical heuristics, lacking a rigorous characterization of token utility under the inherently nonlinear softmax attention mec"
   },
   {
-   "titolo": "Forgetting Without Restarting: Execution-State Unlearning for Stateful LLM Agents",
-   "data": "2026-09-04",
-   "url": "http://arxiv.org/abs/2609.04875v1",
-   "id": "2609.04875v1",
-   "sommario": "Long-running LLM agents are stateful: beyond the transcript they accrete compressed summaries, plaintext memory, pending tool plans, and, under every serving API, a KV cache. Yet today's \"forget\" operations delete a plaintext memory record and stop, leaving every artifact derived"
+   "titolo": "Nonparametric heterogeneous causal mediation with orthogonal machine learning",
+   "data": "2026-09-08",
+   "url": "http://arxiv.org/abs/2609.08097v1",
+   "id": "2609.08097v1",
+   "sommario": "Causal mediation analysis decomposes the total effect of an intervention on an outcome into a direct pathway and an indirect pathway transmitted through a mediator, but standard methods typically summarize these pathways using population average effects. In many applications, how"
   },
   {
-   "titolo": "What Attention Recalls and Recurrence Controls in Hybrid Language Models",
-   "data": "2026-09-03",
-   "url": "http://arxiv.org/abs/2609.04434v1",
-   "id": "2609.04434v1",
-   "sommario": "Hybrid language models combine attention with a fixed-size recurrent state, but the role of each channel remains unclear. We introduce two cache-level interventions. Split-prefill keeps only the KV cache or only the recurrent state from a prefilled context, then generates an answ"
+   "titolo": "MetaKV: Adaptive KV Cache Compression for Constrained LLM Inference",
+   "data": "2026-09-07",
+   "url": "http://arxiv.org/abs/2609.07966v1",
+   "id": "2609.07966v1",
+   "sommario": "Key--value (KV) cache compression is an effective way to reduce the memory overhead of large language model (LLM) inference, particularly for long-context workloads. However, existing compression methods make different trade-offs among accuracy, inference latency, and peak KV cac"
   },
   {
-   "titolo": "Why Gated DeltaNet Survives 4-Bit Quantization: NVFP4 W4A4 for the Recurrent Half of a Hybrid 27B LLM",
-   "data": "2026-09-03",
-   "url": "http://arxiv.org/abs/2609.04098v1",
-   "id": "2609.04098v1",
-   "sommario": "Hybrid LLMs pair softmax attention with linear-attention layers such as Gated DeltaNet (GDN), whose recurrent state summarizes the context in fixed size. Early community 4-bit quantizations of Qwen3.8-27B (48 GDN layers, 16 attention layers) left the GDN block in 8- or 16-bit pre"
+   "titolo": "Enabling High-Bandwidth Flash for Generative Recommendation Serving with Write-Aware KV Cache Policy",
+   "data": "2026-09-07",
+   "url": "http://arxiv.org/abs/2609.07175v1",
+   "id": "2609.07175v1",
+   "sommario": "Generative recommendation (GR) systems increasingly leverage user-level KV cache reuse to avoid recomputing long user histories. However, the growing KV cache capacity and bandwidth requirements introduce new challenges for memory system. High-Bandwidth Flash (HBF) provides a pro"
   },
   {
-   "titolo": "VestigeKV: The NoPE-MLA KV Cache Carries Its Own Eviction Signal in a Vestigial Branch",
-   "data": "2026-09-03",
-   "url": "http://arxiv.org/abs/2609.03949v1",
-   "id": "2609.03949v1",
-   "sommario": "The problem. A long-lived KV cache must be compressed before the queries that will read it exist; selection by observed attention (H2O, SnapKV) collapses there (0.00-0.33 needle retrieval on a NoPE MLA model), because a token's importance has not yet been observed. The method. On"
+   "titolo": "Unified AI Gateway: A Framework for Joint Model Routing and KV Cache Management",
+   "data": "2026-09-07",
+   "url": "http://arxiv.org/abs/2609.06940v1",
+   "id": "2609.06940v1",
+   "sommario": "Large language model (LLM) inference increasingly spans models that differ in size, capability, price, and provider. This shift creates two costs for developers. One is the integration cost of choosing among and switching between many models. The other is the inference cost of re"
   },
   {
-   "titolo": "Almost Free State Prediction Separation",
-   "data": "2026-09-03",
-   "url": "http://arxiv.org/abs/2609.03807v2",
-   "id": "2609.03807v2",
-   "sommario": "A free pause token gives a language model extra compute to form each next-token prediction (as a pause, or thinking, token does) but carries that compute in a parallel prediction stream over a weight-shared backbone rather than as an extra token in the sequence. It improves next-"
+   "titolo": "Characterizing Contention-Induced Reliability Collapse in KV-Cache Timing Side Channels for Multi-Tenant LLM Serving",
+   "data": "2026-09-06",
+   "url": "http://arxiv.org/abs/2609.06853v1",
+   "id": "2609.06853v1",
+   "sommario": "Shared key--value (KV) cache reuse improves large language model (LLM) serving, but it can also create a timing side channel that reveals whether a prefix is already cached. Previous work shows that such attacks are possible, but their reliability under realistic multi-tenant con"
   },
   {
-   "titolo": "SV-WAM: An Efficient Surround-View World-Action Model for End-to-End Autonomous Driving",
-   "data": "2026-09-03",
-   "url": "http://arxiv.org/abs/2609.03602v1",
-   "id": "2609.03602v1",
-   "sommario": "World models (WMs) have demonstrated strong potential for end-to-end autonomous driving by learning predictive representations of future scene dynamics. However, generating future videos during inference introduces substantial computational overhead, leading many recent driving W"
+   "titolo": "Reason Through the Latent! Making Latent Visual Reasoning Necessary",
+   "data": "2026-09-06",
+   "url": "http://arxiv.org/abs/2609.06746v1",
+   "id": "2609.06746v1",
+   "sommario": "Latent visual reasoning aims to perform multimodal reasoning through hidden-state computation rather than explicit textual chains of thought. However, visual information being present in a latent state does not imply that the model actually relies on that state when producing its"
   },
   {
-   "titolo": "What Matters for Aggressive Decoding-Time KV Eviction? Temporal Aggregation and Ranking Preservation",
-   "data": "2026-09-03",
-   "url": "http://arxiv.org/abs/2609.03515v1",
-   "id": "2609.03515v1",
-   "sommario": "Decoding-time KV cache compression research focuses heavily on designing better token scoring functions, while the temporal rule that aggregates scores across decode steps is often treated as an implementation detail. Under aggressive KV compression, we find that exponential-movi"
+   "titolo": "ECOKV: Geometry-Aware KV Cache Eviction via Complementary Diversity Metrics",
+   "data": "2026-09-06",
+   "url": "http://arxiv.org/abs/2609.06663v1",
+   "id": "2609.06663v1",
+   "sommario": "Although multimodal Large Language Models (MLLMs) excel in diverse tasks, their scalability remains limited by the memory and computational overhead of KV cache storage. Recent KV cache eviction approaches incorporate a cosine similarity-based diversity metric with importance met"
   },
   {
-   "titolo": "GrowPage: On-Demand KV Budgeting for Efficient LLM Reasoning Serving",
-   "data": "2026-09-03",
-   "url": "http://arxiv.org/abs/2609.03494v1",
-   "id": "2609.03494v1",
-   "sommario": "Long-output reasoning has made the key--value (KV) cache a critical memory bottleneck for efficient LLM serving. Existing KV compression methods usually rely on a predefined per-request budget and adjust only which KV states are retained, leaving the total capacity fixed througho"
+   "titolo": "Linear Algebra Foundations of Efficient Attention: A Phase Reversal in Rank Collapse Under SVD Compression",
+   "data": "2026-09-06",
+   "url": "http://arxiv.org/abs/2609.06341v1",
+   "id": "2609.06341v1",
+   "sommario": "Linear algebra provides the framework of concepts (matrix rank, singular value decomposition (SVD), and eigendecomposition) that modern artificial intelligence employs to encode, compress, and propagate information through neural networks. This paper unifies fourteen separate pee"
   }
  ]
 }
