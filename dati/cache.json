@@ -1,8 +1,8 @@
 {
- "aggiornato": "2026-09-09T14:58:31+00:00",
+ "aggiornato": "2026-09-09T19:34:48+00:00",
  "aggiornato_it": "9 settembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 353,
+ "totale": 352,
  "modelli": [
   {
    "id": "inception/mercury-2.5",
@@ -54,12 +54,13 @@
    "hugging_face_id": "nex-agi/Nex-N2.5-mini",
    "architecture": {
     "input_modalities": [
-     "text"
+     "text",
+     "image"
     ],
     "output_modalities": [
      "text"
     ],
-    "modality": "text->text"
+    "modality": "text+image->text"
    },
    "pricing": {
     "prompt": "0",
@@ -686,7 +687,7 @@
     "input_cache_read": "0.000000015"
    },
    "top_provider": {
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -2960,9 +2961,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000132",
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033"
+    "prompt": "0.0000000825",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -3320,12 +3321,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000966",
-    "completion": "0.000003036",
-    "input_cache_read": "0.0000001932"
+    "prompt": "0.00000028",
+    "completion": "0.00000088",
+    "input_cache_read": "0.000000052"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 128000
    },
    "supported_parameters": [
     "reasoning",
@@ -4896,9 +4897,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000008554",
-    "completion": "0.00000017108",
-    "input_cache_read": "0.000000017108"
+    "prompt": "0.00000007",
+    "completion": "0.00000014",
+    "input_cache_read": "0.000000014"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -9508,37 +9509,6 @@
      "coding_index": 12.1,
      "agentic_index": 0.9
     }
-   },
-   "ha_versione_gratuita": false
-  },
-  {
-   "id": "nousresearch/hermes-4-70b",
-   "name": "Nous: Hermes 4 70B",
-   "created": 1756236182,
-   "context_length": 131072,
-   "description": "Hermes 4 70B is a hybrid reasoning model from Nous Research, built on Meta-Llama-3.1-70B. It introduces the same hybrid mode as the larger 405B release, allowing the model to either...",
-   "hugging_face_id": "NousResearch/Hermes-4-70B",
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text->text"
-   },
-   "pricing": {
-    "prompt": "0.00000013",
-    "completion": "0.0000004"
-   },
-   "top_provider": {
-    "max_completion_tokens": 117964
-   },
-   "supported_parameters": [
-    "reasoning"
-   ],
-   "reasoning": {
-    "mandatory": false
    },
    "ha_versione_gratuita": false
   },
