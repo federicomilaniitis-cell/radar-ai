@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-09-09T09:20:54+00:00",
+ "aggiornato": "2026-09-09T14:58:31+00:00",
  "aggiornato_it": "9 settembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 353,
@@ -941,7 +941,7 @@
    "id": "~z-ai/glm-latest",
    "name": "Z.ai: GLM Latest",
    "created": 1787151053,
-   "context_length": 1310720,
+   "context_length": 1048576,
    "description": "This model always redirects to the latest GLM model from Z.ai.",
    "architecture": {
     "input_modalities": [
@@ -1009,7 +1009,7 @@
    "id": "z-ai/glm-5.3",
    "name": "Z.ai: GLM 5.3",
    "created": 1787086655,
-   "context_length": 1310720,
+   "context_length": 1048576,
    "description": "GLM-5.3 is a large-scale reasoning model from Z.ai, built for complex software engineering and long-horizon agent tasks. It supports text input and output with a 1M-token context window, and improves...",
    "hugging_face_id": "zai-org/GLM-5.3",
    "architecture": {
@@ -1331,12 +1331,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000010494",
-    "completion": "0.0000031482",
-    "input_cache_read": "0.00000003498"
+    "prompt": "0.00000057948",
+    "completion": "0.00000173844",
+    "input_cache_read": "0.000000018438"
    },
    "top_provider": {
-    "max_completion_tokens": 384000
+    "max_completion_tokens": 393216
    },
    "supported_parameters": [
     "reasoning",
@@ -4850,9 +4850,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000095526",
-    "completion": "0.00000191052",
-    "input_cache_read": "0.000000079605"
+    "prompt": "0.00000087",
+    "completion": "0.00000174",
+    "input_cache_read": "0.0000000725"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -4896,9 +4896,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000088606",
-    "completion": "0.000000177212",
-    "input_cache_read": "0.0000000177212"
+    "prompt": "0.00000008554",
+    "completion": "0.00000017108",
+    "input_cache_read": "0.000000017108"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -5281,7 +5281,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": null,
+     "intelligence_index": 26.4,
      "coding_index": 55.8,
      "agentic_index": 25.2
     }

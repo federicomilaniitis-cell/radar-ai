@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-09-09T09:20:54+00:00",
+ "aggiornato": "2026-09-09T14:58:31+00:00",
  "notizie": [
   {
    "tag": "crit",
@@ -9,6 +9,42 @@
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-09-30. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-dots-studio-dots-3-note-preview-free"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-09",
+   "titolo": "DeepSeek V4 Pro 0813: il prezzo in entrata scende del 45%",
+   "testo": "Da $1,05 a $0,579 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-deepseek-deepseek-v4-pro-0813prompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-09",
+   "titolo": "DeepSeek V4 Pro 0813: il prezzo in uscita scende del 45%",
+   "testo": "Da $3,15 a $1,74 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-deepseek-deepseek-v4-pro-0813completion"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-09",
+   "titolo": "DeepSeek V4 Pro 0423: il prezzo in entrata scende del 9%",
+   "testo": "Da $0,955 a $0,87 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-deepseek-deepseek-v4-proprompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-09",
+   "titolo": "DeepSeek V4 Pro 0423: il prezzo in uscita scende del 9%",
+   "testo": "Da $1,91 a $1,74 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-deepseek-deepseek-v4-procompletion"
   },
   {
    "tag": "ok",
@@ -27,24 +63,6 @@
    "testo": "Da $12,75 a $12 per milione di token in uscita.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
    "id": "prezzo--moonshotai-kimi-latestcompletion"
-  },
-  {
-   "tag": "warn",
-   "tagT": "Prezzo su'",
-   "data": "2026-09-09",
-   "titolo": "DeepSeek V4 Pro 0813: il prezzo in entrata sale del 81%",
-   "testo": "Da $0,579 a $1,05 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
-   "id": "prezzo-deepseek-deepseek-v4-pro-0813prompt"
-  },
-  {
-   "tag": "warn",
-   "tagT": "Prezzo su'",
-   "data": "2026-09-09",
-   "titolo": "DeepSeek V4 Pro 0813: il prezzo in uscita sale del 81%",
-   "testo": "Da $1,74 a $3,15 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
-   "id": "prezzo-deepseek-deepseek-v4-pro-0813completion"
   },
   {
    "tag": "warn",
@@ -198,24 +216,6 @@
    "testo": "Da $0,237 a $0,25 per milione di token in uscita.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
    "id": "prezzo--z-ai-glm-flash-latestcompletion"
-  },
-  {
-   "tag": "open",
-   "tagT": "Pesi aperti",
-   "data": "2026-09-08",
-   "titolo": "Nex-N2.5-Mini (free): e' disponibile da oggi",
-   "testo": "Nex-N2.5-Mini (free) entra nel catalogo. Prezzo: $0 per milione di token in entrata, $0 in uscita. Tiene 262.144 token di contesto.",
-   "perche": "Puoi scaricarlo e farlo girare su macchine tue, senza che i dati escano.",
-   "id": "nuovo-nex-agi-nex-n2-5-mini-free"
-  },
-  {
-   "tag": "open",
-   "tagT": "Pesi aperti",
-   "data": "2026-09-08",
-   "titolo": "Nex-N2.5-Pro (free): e' disponibile da oggi",
-   "testo": "Nex-N2.5-Pro (free) entra nel catalogo. Prezzo: $0 per milione di token in entrata, $0 in uscita. Tiene 262.144 token di contesto.",
-   "perche": "Puoi scaricarlo e farlo girare su macchine tue, senza che i dati escano.",
-   "id": "nuovo-nex-agi-nex-n2-5-pro-free"
   }
  ]
 }
