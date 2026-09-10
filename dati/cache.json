@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-09-10T09:20:09+00:00",
+ "aggiornato": "2026-09-10T14:43:28+00:00",
  "aggiornato_it": "10 settembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 353,
@@ -22,15 +22,16 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.0000003",
-    "completion": "0.0000012",
-    "input_cache_read": "0.000000006"
+    "prompt": "0.00000015",
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000003"
    },
    "top_provider": {
     "max_completion_tokens": 384000
    },
    "supported_parameters": [
     "reasoning",
+    "structured_outputs",
     "tools"
    ],
    "reasoning": {
@@ -793,7 +794,6 @@
    "context_length": 1310720,
    "description": "GLM-5.3-Flash is a native multimodal model from Z.ai. It is suited for efficient coding and long-horizon agent tasks. Its hybrid sparse and linear attention architecture maintains accurate long-context behavior while...",
    "hugging_face_id": "zai-org/GLM-5.3-Flash",
-   "expiration_date": "2098-12-31",
    "architecture": {
     "input_modalities": [
      "text",
@@ -806,9 +806,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000075",
-    "completion": "0.00000025",
-    "input_cache_read": "0.000000015"
+    "prompt": "0.00000015",
+    "completion": "0.0000005",
+    "input_cache_read": "0.00000003"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -995,12 +995,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000001085",
+    "prompt": "0.0000010075",
     "completion": "0.00000341",
     "input_cache_read": "0.0000002015"
    },
    "top_provider": {
-    "max_completion_tokens": 128000
+    "max_completion_tokens": 235929
    },
    "supported_parameters": [
     "reasoning",
@@ -1151,7 +1151,6 @@
    "created": 1786680361,
    "context_length": 512000,
    "description": "Dots3-Note Preview is an open-weight mixture-of-experts model from Dots Studio, with 16B active parameters out of 280B total. It is the lightest model in the Dots 3 family and is...",
-   "expiration_date": "2026-09-30",
    "architecture": {
     "input_modalities": [
      "text",
@@ -1373,12 +1372,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000010494",
-    "completion": "0.0000031482",
-    "input_cache_read": "0.00000003498"
+    "prompt": "0.00000065868",
+    "completion": "0.00000197604",
+    "input_cache_read": "0.000000020958"
    },
    "top_provider": {
-    "max_completion_tokens": 384000
+    "max_completion_tokens": 393216
    },
    "supported_parameters": [
     "reasoning",
@@ -3362,12 +3361,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000966",
-    "completion": "0.000003036",
-    "input_cache_read": "0.0000001932"
+    "prompt": "0.00000028",
+    "completion": "0.00000088",
+    "input_cache_read": "0.000000052"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 128000
    },
    "supported_parameters": [
     "reasoning",
@@ -5551,7 +5550,6 @@
    "context_length": 202752,
    "description": "GLM-5V-Turbo is Z.ai’s first native multimodal agent foundation model, built for vision-based coding and agent-driven tasks. It natively handles image, video, and text inputs, excels at long-horizon planning, complex coding,...",
    "hugging_face_id": "",
-   "expiration_date": "2098-12-31",
    "architecture": {
     "input_modalities": [
      "image",
@@ -6030,7 +6028,6 @@
    "context_length": 202752,
    "description": "GLM-5 Turbo is a new model from Z.ai designed for fast inference and strong performance in agent-driven environments such as OpenClaw scenarios. It is deeply optimized for real-world agent workflows...",
    "hugging_face_id": "",
-   "expiration_date": "2098-12-31",
    "architecture": {
     "input_modalities": [
      "text"
@@ -7402,7 +7399,7 @@
    "id": "z-ai/glm-4.7-flash",
    "name": "Z.ai: GLM 4.7 Flash",
    "created": 1768833913,
-   "context_length": 202752,
+   "context_length": 200000,
    "description": "As a 30B-class SOTA model, GLM-4.7-Flash offers a new option that balances performance and efficiency. It is further optimized for agentic coding use cases, strengthening coding capabilities, long-horizon task planning,...",
    "hugging_face_id": "zai-org/GLM-4.7-Flash",
    "architecture": {
@@ -10045,11 +10042,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000009",
-    "completion": "0.0000003"
+    "prompt": "0.00000004815",
+    "completion": "0.00000019305"
    },
    "top_provider": {
-    "max_completion_tokens": 235929
+    "max_completion_tokens": 32000
    },
    "supported_parameters": [
     "structured_outputs",
@@ -10064,7 +10061,6 @@
    "context_length": 131072,
    "description": "GLM-4.5 is our latest flagship foundation model, purpose-built for agent-based applications. It leverages a Mixture-of-Experts (MoE) architecture and supports a context length of up to 128k tokens. GLM-4.5 delivers significantly...",
    "hugging_face_id": "zai-org/GLM-4.5",
-   "expiration_date": "2026-12-31",
    "architecture": {
     "input_modalities": [
      "text"
