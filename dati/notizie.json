@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-09-10T00:45:17+00:00",
+ "aggiornato": "2026-09-10T09:20:09+00:00",
  "notizie": [
   {
    "tag": "crit",
@@ -11,40 +11,49 @@
    "id": "fine-dots-studio-dots-3-note-preview-free"
   },
   {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
+   "tag": "warn",
+   "tagT": "Prezzo su'",
    "data": "2026-09-10",
-   "titolo": "GLM Flash Latest: il prezzo in entrata scende del 7%",
-   "testo": "Da $0,075 a $0,07 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "titolo": "GLM Flash Latest: il prezzo in entrata sale del 7%",
+   "testo": "Da $0,07 a $0,075 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
    "id": "prezzo--z-ai-glm-flash-latestprompt"
   },
   {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
+   "tag": "warn",
+   "tagT": "Prezzo su'",
    "data": "2026-09-10",
-   "titolo": "GLM Flash Latest: il prezzo in uscita scende del 7%",
-   "testo": "Da $0,25 a $0,233 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "titolo": "GLM Flash Latest: il prezzo in uscita sale del 7%",
+   "testo": "Da $0,233 a $0,25 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
    "id": "prezzo--z-ai-glm-flash-latestcompletion"
   },
   {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
+   "tag": "warn",
+   "tagT": "Prezzo su'",
    "data": "2026-09-10",
-   "titolo": "GLM 5.3 Flash: il prezzo in entrata scende del 7%",
-   "testo": "Da $0,075 a $0,07 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "titolo": "GLM 5.3 Flash: il prezzo in entrata sale del 7%",
+   "testo": "Da $0,07 a $0,075 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
    "id": "prezzo-z-ai-glm-5-3-flashprompt"
   },
   {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
+   "tag": "warn",
+   "tagT": "Prezzo su'",
    "data": "2026-09-10",
-   "titolo": "GLM 5.3 Flash: il prezzo in uscita scende del 7%",
-   "testo": "Da $0,25 a $0,233 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "titolo": "GLM 5.3 Flash: il prezzo in uscita sale del 7%",
+   "testo": "Da $0,233 a $0,25 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
    "id": "prezzo-z-ai-glm-5-3-flashcompletion"
+  },
+  {
+   "tag": "open",
+   "tagT": "Pesi aperti",
+   "data": "2026-09-10",
+   "titolo": "DeepSeek V4.1 Flash: e' disponibile da oggi",
+   "testo": "DeepSeek V4.1 Flash entra nel catalogo. Prezzo: $0,3 per milione di token in entrata, $1,2 in uscita. Tiene 1.048.576 token di contesto.",
+   "perche": "Puoi scaricarlo e farlo girare su macchine tue, senza che i dati escano.",
+   "id": "nuovo-deepseek-deepseek-v4-1-flash"
   },
   {
    "tag": "ok",
@@ -207,15 +216,6 @@
    "testo": "Da $0,1 a $0,06 per milione di token in entrata.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
    "id": "prezzo-ibm-granite-granite-4-2-8bprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-09-09",
-   "titolo": "GLM 4.6: il prezzo in entrata scende del 22%",
-   "testo": "Da $0,55 a $0,43 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-z-ai-glm-4-6prompt"
   }
  ]
 }

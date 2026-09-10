@@ -1,6 +1,41 @@
 {
- "aggiornato": "2026-09-10T00:45:17+00:00",
+ "aggiornato": "2026-09-10T09:20:09+00:00",
  "paper": [
+  {
+   "titolo": "Why Is Video Still So Expensive? A Survey of Inference-Efficiency Mechanisms in Video and Audiovisual LLMs",
+   "data": "2026-09-09",
+   "url": "http://arxiv.org/abs/2609.10355v1",
+   "id": "2609.10355v1",
+   "sommario": "Video understanding has rapidly evolved toward video large language models (VideoLLMs): systems that couple video representations with pretrained large language models and condition generation on a textual prompt. Their strong performance on captioning, question answering, retrie"
+  },
+  {
+   "titolo": "KVShareArena: KV-Cache Reuse Across Contexts and Model Checkpoints",
+   "data": "2026-09-09",
+   "url": "http://arxiv.org/abs/2609.10266v1",
+   "id": "2609.10266v1",
+   "sommario": "LLM serving systems already reuse KV caches, but only when the reused text sits at the very start of the prompt. Two growing workloads break this condition: a retrieval-augmented generation server assembles a different set of retrieved chunks for every query, and a multi-agent co"
+  },
+  {
+   "titolo": "AMEND: Audited Margins Enable Nonblocking Drops in GPU-PIM LLM Decoding",
+   "data": "2026-09-09",
+   "url": "http://arxiv.org/abs/2609.09823v1",
+   "id": "2609.09823v1",
+   "sommario": "Autoregressive large language model (LLM) decoding re-reads a growing key-value (KV) cache at every step, so long-context attention is bound by graphics processing unit (GPU) memory bandwidth. Block-sparse attention skips low-contribution KV blocks, but a selector that decides af"
+  },
+  {
+   "titolo": "Fine-Tuning a KV Cache Concatenation-Aware Model or Recomputing KV Caches? Why Not Both?",
+   "data": "2026-09-09",
+   "url": "http://arxiv.org/abs/2609.09768v1",
+   "id": "2609.09768v1",
+   "sommario": "In Retrieval-Augmented Generation (RAG) systems, a large number of retrieved chunks are concatenated to form the input context so that users can receive high-quality responses based on external knowledge. As a result, the input context length increases substantially, leading to a"
+  },
+  {
+   "titolo": "TEFM: Token-Efficient Faithful Modeling for Structured Data",
+   "data": "2026-09-09",
+   "url": "http://arxiv.org/abs/2609.09552v1",
+   "id": "2609.09552v1",
+   "sommario": "In this paper, we solve two fundamental obstacles in applying LLMs to critical domains: token efficiency and faithfulness. To address both constraints jointly, we present TEFM (Token-Efficient Faithful Modeling), a framework designed for structured data analysis in critical domai"
+  },
   {
    "titolo": "TontaubeV1: Streaming Text-to-Speech with Hierarchical Codec Modeling and Bounded Context",
    "data": "2026-09-08",
@@ -23,6 +58,13 @@
    "sommario": "The transition from human-centric assistance to Autonomous Software Engineering (ASE) agents has enabled the resolution of complex real-world SE tasks. However, the trial-and-error nature of these agents generates lengthy interaction trajectories, creating severe bottlenecks in t"
   },
   {
+   "titolo": "Distribution-Consistent Inference for Dynamic Sparse Mixture-of-Experts",
+   "data": "2026-09-08",
+   "url": "http://arxiv.org/abs/2609.09241v1",
+   "id": "2609.09241v1",
+   "sommario": "Mixture-of-Experts (MoE) architectures have emerged as a powerful paradigm for scaling model capacity while preserving efficient inference in large foundation models. However, most MoE models use a fixed top-$k$ expert selection policy, assigning the same expert budget to every t"
+  },
+  {
    "titolo": "Jacap: Robust KV Cache Eviction via Jacobian-Based Nonlinear Information Capacity Preservation",
    "data": "2026-09-08",
    "url": "http://arxiv.org/abs/2609.08131v1",
@@ -32,8 +74,8 @@
   {
    "titolo": "Nonparametric heterogeneous causal mediation with orthogonal machine learning",
    "data": "2026-09-08",
-   "url": "http://arxiv.org/abs/2609.08097v1",
-   "id": "2609.08097v1",
+   "url": "http://arxiv.org/abs/2609.08097v2",
+   "id": "2609.08097v2",
    "sommario": "Causal mediation analysis decomposes the total effect of an intervention on an outcome into a direct pathway and an indirect pathway transmitted through a mediator, but standard methods typically summarize these pathways using population average effects. In many applications, how"
   },
   {
@@ -42,48 +84,6 @@
    "url": "http://arxiv.org/abs/2609.07966v1",
    "id": "2609.07966v1",
    "sommario": "Key--value (KV) cache compression is an effective way to reduce the memory overhead of large language model (LLM) inference, particularly for long-context workloads. However, existing compression methods make different trade-offs among accuracy, inference latency, and peak KV cac"
-  },
-  {
-   "titolo": "Enabling High-Bandwidth Flash for Generative Recommendation Serving with Write-Aware KV Cache Policy",
-   "data": "2026-09-07",
-   "url": "http://arxiv.org/abs/2609.07175v1",
-   "id": "2609.07175v1",
-   "sommario": "Generative recommendation (GR) systems increasingly leverage user-level KV cache reuse to avoid recomputing long user histories. However, the growing KV cache capacity and bandwidth requirements introduce new challenges for memory system. High-Bandwidth Flash (HBF) provides a pro"
-  },
-  {
-   "titolo": "Unified AI Gateway: A Framework for Joint Model Routing and KV Cache Management",
-   "data": "2026-09-07",
-   "url": "http://arxiv.org/abs/2609.06940v1",
-   "id": "2609.06940v1",
-   "sommario": "Large language model (LLM) inference increasingly spans models that differ in size, capability, price, and provider. This shift creates two costs for developers. One is the integration cost of choosing among and switching between many models. The other is the inference cost of re"
-  },
-  {
-   "titolo": "Characterizing Contention-Induced Reliability Collapse in KV-Cache Timing Side Channels for Multi-Tenant LLM Serving",
-   "data": "2026-09-06",
-   "url": "http://arxiv.org/abs/2609.06853v1",
-   "id": "2609.06853v1",
-   "sommario": "Shared key--value (KV) cache reuse improves large language model (LLM) serving, but it can also create a timing side channel that reveals whether a prefix is already cached. Previous work shows that such attacks are possible, but their reliability under realistic multi-tenant con"
-  },
-  {
-   "titolo": "Reason Through the Latent! Making Latent Visual Reasoning Necessary",
-   "data": "2026-09-06",
-   "url": "http://arxiv.org/abs/2609.06746v1",
-   "id": "2609.06746v1",
-   "sommario": "Latent visual reasoning aims to perform multimodal reasoning through hidden-state computation rather than explicit textual chains of thought. However, visual information being present in a latent state does not imply that the model actually relies on that state when producing its"
-  },
-  {
-   "titolo": "ECOKV: Geometry-Aware KV Cache Eviction via Complementary Diversity Metrics",
-   "data": "2026-09-06",
-   "url": "http://arxiv.org/abs/2609.06663v1",
-   "id": "2609.06663v1",
-   "sommario": "Although multimodal Large Language Models (MLLMs) excel in diverse tasks, their scalability remains limited by the memory and computational overhead of KV cache storage. Recent KV cache eviction approaches incorporate a cosine similarity-based diversity metric with importance met"
-  },
-  {
-   "titolo": "Linear Algebra Foundations of Efficient Attention: A Phase Reversal in Rank Collapse Under SVD Compression",
-   "data": "2026-09-06",
-   "url": "http://arxiv.org/abs/2609.06341v1",
-   "id": "2609.06341v1",
-   "sommario": "Linear algebra provides the framework of concepts (matrix rank, singular value decomposition (SVD), and eigendecomposition) that modern artificial intelligence employs to encode, compress, and propagate information through neural networks. This paper unifies fourteen separate pee"
   }
  ]
 }
