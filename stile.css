@@ -406,12 +406,12 @@ footer.page p + p{ margin-top:10px; }
 
 /* --- scheda di dettaglio --- */
 .dett-sfondo{ position:fixed; inset:0; background:rgba(10,25,24,.5); z-index:96; }
-.dett{
+.dett-pannello{
   position:fixed; z-index:97; top:0; right:0; bottom:0; width:min(560px, 100vw);
   background:var(--surface); border-left:1px solid var(--border-strong);
   box-shadow:var(--shadow-pop); display:flex; flex-direction:column;
 }
-@media (max-width:620px){ .dett{ top:auto; height:88vh; width:100vw; border-left:0; border-top:1px solid var(--border-strong); border-radius:var(--radius) var(--radius) 0 0; } }
+@media (max-width:620px){ .dett-pannello{ top:auto; height:88vh; width:100vw; border-left:0; border-top:1px solid var(--border-strong); border-radius:var(--radius) var(--radius) 0 0; } }
 .dett-head{
   display:flex; justify-content:space-between; align-items:flex-start; gap:12px;
   padding:20px 22px 14px; border-bottom:1px solid var(--border); flex:none;
