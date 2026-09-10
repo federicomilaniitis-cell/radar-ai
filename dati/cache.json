@@ -1,6 +1,6 @@
 {
- "aggiornato": "2026-09-09T19:34:48+00:00",
- "aggiornato_it": "9 settembre 2026",
+ "aggiornato": "2026-09-10T00:45:17+00:00",
+ "aggiornato_it": "10 settembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 352,
  "modelli": [
@@ -682,9 +682,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000075",
-    "completion": "0.00000025",
-    "input_cache_read": "0.000000015"
+    "prompt": "0.00000007",
+    "completion": "0.0000002333",
+    "input_cache_read": "0.000000014"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -752,7 +752,6 @@
    "context_length": 1310720,
    "description": "GLM-5.3-Flash is a native multimodal model from Z.ai. It is suited for efficient coding and long-horizon agent tasks. Its hybrid sparse and linear attention architecture maintains accurate long-context behavior while...",
    "hugging_face_id": "zai-org/GLM-5.3-Flash",
-   "expiration_date": "2098-12-31",
    "architecture": {
     "input_modalities": [
      "text",
@@ -765,9 +764,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000075",
-    "completion": "0.00000025",
-    "input_cache_read": "0.000000015"
+    "prompt": "0.00000007",
+    "completion": "0.0000002333",
+    "input_cache_read": "0.000000014"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -942,7 +941,7 @@
    "id": "~z-ai/glm-latest",
    "name": "Z.ai: GLM Latest",
    "created": 1787151053,
-   "context_length": 1048576,
+   "context_length": 1310720,
    "description": "This model always redirects to the latest GLM model from Z.ai.",
    "architecture": {
     "input_modalities": [
@@ -1010,7 +1009,7 @@
    "id": "z-ai/glm-5.3",
    "name": "Z.ai: GLM 5.3",
    "created": 1787086655,
-   "context_length": 1048576,
+   "context_length": 1310720,
    "description": "GLM-5.3 is a large-scale reasoning model from Z.ai, built for complex software engineering and long-horizon agent tasks. It supports text input and output with a 1M-token context window, and improves...",
    "hugging_face_id": "zai-org/GLM-5.3",
    "architecture": {
@@ -1332,12 +1331,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000057948",
-    "completion": "0.00000173844",
-    "input_cache_read": "0.000000018438"
+    "prompt": "0.0000010494",
+    "completion": "0.0000031482",
+    "input_cache_read": "0.00000003498"
    },
    "top_provider": {
-    "max_completion_tokens": 393216
+    "max_completion_tokens": 384000
    },
    "supported_parameters": [
     "reasoning",
@@ -2272,7 +2271,7 @@
     "input_cache_read": "0.00000017"
    },
    "top_provider": {
-    "max_completion_tokens": 471859
+    "max_completion_tokens": 32768
    },
    "supported_parameters": [
     "reasoning",
@@ -2961,9 +2960,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000825",
-    "completion": "0.00000033",
-    "input_cache_read": "0.000000020625"
+    "prompt": "0.000000132",
+    "completion": "0.000000528",
+    "input_cache_read": "0.000000033"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -3321,12 +3320,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000028",
-    "completion": "0.00000088",
-    "input_cache_read": "0.000000052"
+    "prompt": "0.000000966",
+    "completion": "0.000003036",
+    "input_cache_read": "0.0000001932"
    },
    "top_provider": {
-    "max_completion_tokens": 128000
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -4851,9 +4850,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000087",
-    "completion": "0.00000174",
-    "input_cache_read": "0.0000000725"
+    "prompt": "0.00000095526",
+    "completion": "0.00000191052",
+    "input_cache_read": "0.000000079605"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -4897,9 +4896,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000007",
-    "completion": "0.00000014",
-    "input_cache_read": "0.000000014"
+    "prompt": "0.000000088606",
+    "completion": "0.000000177212",
+    "input_cache_read": "0.0000000177212"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -6573,11 +6572,11 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000029",
-    "completion": "0.0000024"
+    "prompt": "0.00000026",
+    "completion": "0.00000208"
    },
    "top_provider": {
-    "max_completion_tokens": 81920
+    "max_completion_tokens": 65536
    },
    "supported_parameters": [
     "reasoning",
@@ -6956,12 +6955,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000027",
-    "completion": "0.00000108",
-    "input_cache_read": "0.000000027"
+    "prompt": "0.0000003",
+    "completion": "0.0000012",
+    "input_cache_read": "0.00000003"
    },
    "top_provider": {
-    "max_completion_tokens": 128000
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -8400,10 +8399,11 @@
    },
    "pricing": {
     "prompt": "0.0000006",
-    "completion": "0.0000025"
+    "completion": "0.0000025",
+    "input_cache_read": "0.00000015"
    },
    "top_provider": {
-    "max_completion_tokens": 235929
+    "max_completion_tokens": 100352
    },
    "supported_parameters": [
     "reasoning",
@@ -10003,11 +10003,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000004815",
-    "completion": "0.00000019305"
+    "prompt": "0.00000009",
+    "completion": "0.0000003"
    },
    "top_provider": {
-    "max_completion_tokens": 32000
+    "max_completion_tokens": 235929
    },
    "supported_parameters": [
     "structured_outputs",
@@ -12157,11 +12157,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000032",
-    "completion": "0.00000089"
+    "prompt": "0.0000002574",
+    "completion": "0.0000010287"
    },
    "top_provider": {
-    "max_completion_tokens": 16384
+    "max_completion_tokens": 16000
    },
    "supported_parameters": [
     "structured_outputs",
