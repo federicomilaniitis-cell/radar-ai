@@ -1,6 +1,42 @@
 {
- "aggiornato": "2026-09-10T16:49:22+00:00",
+ "aggiornato": "2026-09-10T19:25:31+00:00",
  "notizie": [
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-10",
+   "titolo": "MiniMax M2.5: il prezzo in entrata scende del 10%",
+   "testo": "Da $0,3 a $0,27 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-minimax-minimax-m2-5prompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-10",
+   "titolo": "MiniMax M2.5: il prezzo in uscita scende del 10%",
+   "testo": "Da $1,2 a $1,08 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-minimax-minimax-m2-5completion"
+  },
+  {
+   "tag": "warn",
+   "tagT": "Prezzo su'",
+   "data": "2026-09-10",
+   "titolo": "Qwen3.6 35B A3B: il prezzo in entrata sale del 100%",
+   "testo": "Da $0,05 a $0,1 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
+   "id": "prezzo-qwen-qwen3-6-35b-a3bprompt"
+  },
+  {
+   "tag": "warn",
+   "tagT": "Prezzo su'",
+   "data": "2026-09-10",
+   "titolo": "Qwen3.6 35B A3B: il prezzo in uscita sale del 29%",
+   "testo": "Da $0,7 a $0,9 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
+   "id": "prezzo-qwen-qwen3-6-35b-a3bcompletion"
+  },
   {
    "tag": "ok",
    "tagT": "Prezzo giu'",
@@ -54,24 +90,6 @@
    "testo": "Da $0,528 a $0,33 per milione di token in uscita.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
    "id": "prezzo-tencent-hy3completion"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-09-10",
-   "titolo": "Qwen3.6 35B A3B: il prezzo in entrata scende del 50%",
-   "testo": "Da $0,1 a $0,05 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-qwen-qwen3-6-35b-a3bprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-09-10",
-   "titolo": "Qwen3.6 35B A3B: il prezzo in uscita scende del 22%",
-   "testo": "Da $0,9 a $0,7 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-qwen-qwen3-6-35b-a3bcompletion"
   },
   {
    "tag": "ok",
@@ -198,24 +216,6 @@
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-09-30. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-dots-studio-dots-3-note-preview-free"
-  },
-  {
-   "tag": "warn",
-   "tagT": "Prezzo su'",
-   "data": "2026-09-10",
-   "titolo": "GLM Flash Latest: il prezzo in entrata sale del 7%",
-   "testo": "Da $0,07 a $0,075 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
-   "id": "prezzo--z-ai-glm-flash-latestprompt"
-  },
-  {
-   "tag": "warn",
-   "tagT": "Prezzo su'",
-   "data": "2026-09-10",
-   "titolo": "GLM Flash Latest: il prezzo in uscita sale del 7%",
-   "testo": "Da $0,233 a $0,25 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
-   "id": "prezzo--z-ai-glm-flash-latestcompletion"
   }
  ]
 }
