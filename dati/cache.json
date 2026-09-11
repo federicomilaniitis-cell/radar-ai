@@ -1,8 +1,8 @@
 {
- "aggiornato": "2026-09-11T14:47:34+00:00",
+ "aggiornato": "2026-09-11T19:23:21+00:00",
  "aggiornato_it": "11 settembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 361,
+ "totale": 360,
  "modelli": [
   {
    "id": "~openai/gpt-astra-latest",
@@ -1362,12 +1362,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000007",
-    "completion": "0.0000022",
-    "input_cache_read": "0.00000013"
+    "prompt": "0.0000008727",
+    "completion": "0.00000336",
+    "input_cache_read": "0.0000001639"
    },
    "top_provider": {
-    "max_completion_tokens": 128000
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -2778,9 +2778,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000234",
-    "completion": "0.0000117",
-    "input_cache_read": "0.000000261"
+    "prompt": "0.0000021",
+    "completion": "0.00001053",
+    "input_cache_read": "0.000000235"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -3369,9 +3369,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000132",
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033"
+    "prompt": "0.0000000825",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -3729,12 +3729,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000966",
-    "completion": "0.000003036",
-    "input_cache_read": "0.0000001932"
+    "prompt": "0.0000006",
+    "completion": "0.000002",
+    "input_cache_read": "0.00000015"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 182476
    },
    "supported_parameters": [
     "reasoning",
@@ -4790,9 +4790,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000234",
-    "completion": "0.0000117",
-    "input_cache_read": "0.000000261"
+    "prompt": "0.0000021",
+    "completion": "0.00001053",
+    "input_cache_read": "0.000000235"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -4905,53 +4905,6 @@
      "low"
     ],
     "default_effort": "high"
-   },
-   "ha_versione_gratuita": false
-  },
-  {
-   "id": "~openai/gpt-latest",
-   "name": "OpenAI GPT Latest",
-   "created": 1777318334,
-   "context_length": 1050000,
-   "description": "This model always redirects to the latest model in the OpenAI GPT family.",
-   "architecture": {
-    "input_modalities": [
-     "file",
-     "image",
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text+image+file->text"
-   },
-   "pricing": {
-    "prompt": "0.000002",
-    "completion": "0.00001",
-    "input_cache_read": "0.0000002",
-    "input_cache_write": "0.0000025",
-    "web_search": "0.01"
-   },
-   "top_provider": {
-    "max_completion_tokens": 128000
-   },
-   "supported_parameters": [
-    "reasoning",
-    "structured_outputs",
-    "tools"
-   ],
-   "reasoning": {
-    "mandatory": false,
-    "default_enabled": true,
-    "supported_efforts": [
-     "max",
-     "xhigh",
-     "high",
-     "medium",
-     "low",
-     "none"
-    ],
-    "default_effort": "medium"
    },
    "ha_versione_gratuita": false
   },
@@ -5259,9 +5212,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000947778",
-    "completion": "0.000001895556",
-    "input_cache_read": "0.0000000789815"
+    "prompt": "0.000000859908",
+    "completion": "0.000001719816",
+    "input_cache_read": "0.000000071659"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -5305,9 +5258,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000868",
-    "completion": "0.0000001736",
-    "input_cache_read": "0.00000001736"
+    "prompt": "0.0000000854",
+    "completion": "0.0000001708",
+    "input_cache_read": "0.00000001708"
    },
    "top_provider": {
     "max_completion_tokens": 384000

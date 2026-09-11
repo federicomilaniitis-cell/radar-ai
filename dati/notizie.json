@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-09-11T14:47:34+00:00",
+ "aggiornato": "2026-09-11T19:23:21+00:00",
  "notizie": [
   {
    "tag": "crit",
@@ -9,6 +9,114 @@
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-09-30. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-dots-studio-dots-3-note-preview-free"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-11",
+   "titolo": "Kimi K3: il prezzo in entrata scende del 10%",
+   "testo": "Da $2,34 a $2,1 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-moonshotai-kimi-k3prompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-11",
+   "titolo": "Kimi K3: il prezzo in uscita scende del 10%",
+   "testo": "Da $11,7 a $10,53 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-moonshotai-kimi-k3completion"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-11",
+   "titolo": "Hy3: il prezzo in entrata scende del 38%",
+   "testo": "Da $0,132 a $0,083 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-tencent-hy3prompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-11",
+   "titolo": "Hy3: il prezzo in uscita scende del 38%",
+   "testo": "Da $0,528 a $0,33 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-tencent-hy3completion"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-11",
+   "titolo": "GLM 5.2: il prezzo in entrata scende del 38%",
+   "testo": "Da $0,966 a $0,6 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-z-ai-glm-5-2prompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-11",
+   "titolo": "GLM 5.2: il prezzo in uscita scende del 34%",
+   "testo": "Da $3,04 a $2 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-z-ai-glm-5-2completion"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-11",
+   "titolo": "MoonshotAI Kimi Latest: il prezzo in entrata scende del 10%",
+   "testo": "Da $2,34 a $2,1 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo--moonshotai-kimi-latestprompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-11",
+   "titolo": "MoonshotAI Kimi Latest: il prezzo in uscita scende del 10%",
+   "testo": "Da $11,7 a $10,53 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo--moonshotai-kimi-latestcompletion"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-11",
+   "titolo": "DeepSeek V4 Pro 0423: il prezzo in entrata scende del 9%",
+   "testo": "Da $0,948 a $0,86 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-deepseek-deepseek-v4-proprompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-11",
+   "titolo": "DeepSeek V4 Pro 0423: il prezzo in uscita scende del 9%",
+   "testo": "Da $1,9 a $1,72 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-deepseek-deepseek-v4-procompletion"
+  },
+  {
+   "tag": "warn",
+   "tagT": "Prezzo su'",
+   "data": "2026-09-11",
+   "titolo": "GLM Latest: il prezzo in entrata sale del 25%",
+   "testo": "Da $0,7 a $0,873 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
+   "id": "prezzo--z-ai-glm-latestprompt"
+  },
+  {
+   "tag": "warn",
+   "tagT": "Prezzo su'",
+   "data": "2026-09-11",
+   "titolo": "GLM Latest: il prezzo in uscita sale del 53%",
+   "testo": "Da $2,2 a $3,36 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
+   "id": "prezzo--z-ai-glm-latestcompletion"
   },
   {
    "tag": "ok",
@@ -27,24 +135,6 @@
    "testo": "Da $1,2 a $0,6 per milione di token in uscita.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
    "id": "prezzo-deepseek-deepseek-v4-1-flashcompletion"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-09-11",
-   "titolo": "GLM Latest: il prezzo in entrata scende del 28%",
-   "testo": "Da $0,97 a $0,7 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo--z-ai-glm-latestprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-09-11",
-   "titolo": "GLM Latest: il prezzo in uscita scende del 33%",
-   "testo": "Da $3,31 a $2,2 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo--z-ai-glm-latestcompletion"
   },
   {
    "tag": "ok",
@@ -126,96 +216,6 @@
    "testo": "OpenAI GPT Sol Latest entra nel catalogo. Prezzo: $2 per milione di token in entrata, $10 in uscita. Tiene 1.050.000 token di contesto.",
    "perche": "Un'opzione in piu' da mettere sul tavolo quando scegli con chi lavorare.",
    "id": "nuovo--openai-gpt-sol-latest"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-09-11",
-   "titolo": "Kimi K3: il prezzo in entrata scende del 10%",
-   "testo": "Da $2,6 a $2,34 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-moonshotai-kimi-k3prompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-09-11",
-   "titolo": "Kimi K3: il prezzo in uscita scende del 10%",
-   "testo": "Da $13 a $11,7 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-moonshotai-kimi-k3completion"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-09-11",
-   "titolo": "DeepSeek V3 0324: il prezzo in entrata scende del 14%",
-   "testo": "Da $0,29 a $0,25 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-deepseek-deepseek-chat-v3-0324prompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-09-11",
-   "titolo": "DeepSeek V3 0324: il prezzo in uscita scende del 12%",
-   "testo": "Da $1,14 a $1 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-deepseek-deepseek-chat-v3-0324completion"
-  },
-  {
-   "tag": "",
-   "tagT": "Nuovo modello",
-   "data": "2026-09-11",
-   "titolo": "Fugu Ultra v2: e' disponibile da oggi",
-   "testo": "Fugu Ultra v2 entra nel catalogo. Prezzo: $5 per milione di token in entrata, $30 in uscita. Tiene 1.000.000 token di contesto.",
-   "perche": "Un'opzione in piu' da mettere sul tavolo quando scegli con chi lavorare.",
-   "id": "nuovo-sakana-fugu-ultra-v2"
-  },
-  {
-   "tag": "",
-   "tagT": "Nuovo modello",
-   "data": "2026-09-11",
-   "titolo": "Fugu Max: e' disponibile da oggi",
-   "testo": "Fugu Max entra nel catalogo. Prezzo: $2 per milione di token in entrata, $6 in uscita. Tiene 1.000.000 token di contesto.",
-   "perche": "Un'opzione in piu' da mettere sul tavolo quando scegli con chi lavorare.",
-   "id": "nuovo-sakana-fugu-max"
-  },
-  {
-   "tag": "warn",
-   "tagT": "Prezzo su'",
-   "data": "2026-09-11",
-   "titolo": "Solar Pro 4: il prezzo in entrata sale del 200%",
-   "testo": "Da $0,03 a $0,09 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
-   "id": "prezzo-upstage-solar-pro4prompt"
-  },
-  {
-   "tag": "warn",
-   "tagT": "Prezzo su'",
-   "data": "2026-09-11",
-   "titolo": "Solar Pro 4: il prezzo in uscita sale del 200%",
-   "testo": "Da $0,12 a $0,36 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
-   "id": "prezzo-upstage-solar-pro4completion"
-  },
-  {
-   "tag": "warn",
-   "tagT": "Prezzo su'",
-   "data": "2026-09-11",
-   "titolo": "Hy3: il prezzo in entrata sale del 60%",
-   "testo": "Da $0,083 a $0,132 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
-   "id": "prezzo-tencent-hy3prompt"
-  },
-  {
-   "tag": "warn",
-   "tagT": "Prezzo su'",
-   "data": "2026-09-11",
-   "titolo": "Hy3: il prezzo in uscita sale del 60%",
-   "testo": "Da $0,33 a $0,528 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
-   "id": "prezzo-tencent-hy3completion"
   }
  ]
 }
