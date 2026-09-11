@@ -1,9 +1,196 @@
 {
- "aggiornato": "2026-09-11T09:18:41+00:00",
+ "aggiornato": "2026-09-11T14:47:34+00:00",
  "aggiornato_it": "11 settembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 356,
+ "totale": 361,
  "modelli": [
+  {
+   "id": "~openai/gpt-astra-latest",
+   "name": "OpenAI GPT Astra Latest",
+   "created": 1789130932,
+   "context_length": 1050000,
+   "description": "This model always redirects to the latest model in the OpenAI GPT Astra family.",
+   "architecture": {
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image+file->text"
+   },
+   "pricing": {
+    "prompt": "0.00001",
+    "completion": "0.00005",
+    "input_cache_read": "0.000001",
+    "input_cache_write": "0.0000125",
+    "web_search": "0.01"
+   },
+   "top_provider": {
+    "max_completion_tokens": 128000
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": true,
+    "default_enabled": true,
+    "supported_efforts": [
+     "max",
+     "xhigh",
+     "high",
+     "medium",
+     "low"
+    ],
+    "default_effort": "medium"
+   },
+   "ha_versione_gratuita": false
+  },
+  {
+   "id": "~openai/gpt-sol-latest",
+   "name": "OpenAI GPT Sol Latest",
+   "created": 1789130928,
+   "context_length": 1050000,
+   "description": "This model always redirects to the latest model in the OpenAI GPT Sol family.",
+   "architecture": {
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image+file->text"
+   },
+   "pricing": {
+    "prompt": "0.000002",
+    "completion": "0.00001",
+    "input_cache_read": "0.0000002",
+    "input_cache_write": "0.0000025",
+    "web_search": "0.01"
+   },
+   "top_provider": {
+    "max_completion_tokens": 128000
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": false,
+    "default_enabled": true,
+    "supported_efforts": [
+     "max",
+     "xhigh",
+     "high",
+     "medium",
+     "low",
+     "none"
+    ],
+    "default_effort": "medium"
+   },
+   "ha_versione_gratuita": false
+  },
+  {
+   "id": "~openai/gpt-terra-latest",
+   "name": "OpenAI GPT Terra Latest",
+   "created": 1789130925,
+   "context_length": 1050000,
+   "description": "This model always redirects to the latest model in the OpenAI GPT Terra family.",
+   "architecture": {
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image+file->text"
+   },
+   "pricing": {
+    "prompt": "0.000002",
+    "completion": "0.000012",
+    "input_cache_read": "0.0000002",
+    "input_cache_write": "0.0000025",
+    "web_search": "0.01"
+   },
+   "top_provider": {
+    "max_completion_tokens": 128000
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": false,
+    "default_enabled": true,
+    "supported_efforts": [
+     "max",
+     "xhigh",
+     "high",
+     "medium",
+     "low",
+     "none"
+    ],
+    "default_effort": "medium"
+   },
+   "ha_versione_gratuita": false
+  },
+  {
+   "id": "~openai/gpt-luna-latest",
+   "name": "OpenAI GPT Luna Latest",
+   "created": 1789130922,
+   "context_length": 1050000,
+   "description": "This model always redirects to the latest model in the OpenAI GPT Luna family.",
+   "architecture": {
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image+file->text"
+   },
+   "pricing": {
+    "prompt": "0.0000002",
+    "completion": "0.0000012",
+    "input_cache_read": "0.00000002",
+    "input_cache_write": "0.00000025",
+    "web_search": "0.01"
+   },
+   "top_provider": {
+    "max_completion_tokens": 128000
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": false,
+    "default_enabled": true,
+    "supported_efforts": [
+     "max",
+     "xhigh",
+     "high",
+     "medium",
+     "low",
+     "none"
+    ],
+    "default_effort": "medium"
+   },
+   "ha_versione_gratuita": false
+  },
   {
    "id": "sakana/fugu-ultra-v2",
    "name": "Sakana: Fugu Ultra v2",
@@ -91,6 +278,50 @@
    "ha_versione_gratuita": false
   },
   {
+   "id": "inclusionai/ling-3.0-flash-vl",
+   "name": "inclusionAI: Ling 3.0 Flash VL",
+   "created": 1789056114,
+   "context_length": 131072,
+   "description": "Ling 3.0 Flash VL builds on Ling 3.0 Flash (124B total / 5.5B active MoE from InclusionAI), further strengthening its language capabilities while adding native visual perception and advanced visual...",
+   "hugging_face_id": "inclusionAI/Ling-3.0-flash-VL",
+   "architecture": {
+    "input_modalities": [
+     "text",
+     "image",
+     "video"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image+video->text"
+   },
+   "pricing": {
+    "prompt": "0.00000006",
+    "completion": "0.00000018",
+    "input_cache_read": "0.000000012"
+   },
+   "top_provider": {
+    "max_completion_tokens": 32768
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": false,
+    "default_enabled": true
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 24.8,
+     "coding_index": 57,
+     "agentic_index": 30
+    }
+   },
+   "ha_versione_gratuita": true
+  },
+  {
    "id": "inclusionai/ling-3.0-flash-vl:free",
    "name": "inclusionAI: Ling 3.0 Flash VL (free)",
    "created": 1789056114,
@@ -150,9 +381,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.0000003",
-    "completion": "0.0000012",
-    "input_cache_read": "0.000000006"
+    "prompt": "0.00000015",
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000003"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -1131,12 +1362,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000097",
-    "completion": "0.0000033077",
-    "input_cache_read": "0.000000194"
+    "prompt": "0.0000007",
+    "completion": "0.0000022",
+    "input_cache_read": "0.00000013"
    },
    "top_provider": {
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 128000
    },
    "supported_parameters": [
     "reasoning",
@@ -1509,12 +1740,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000066",
-    "completion": "0.00000198",
-    "input_cache_read": "0.000000066"
+    "prompt": "0.00000057948",
+    "completion": "0.00000173844",
+    "input_cache_read": "0.000000019316"
    },
    "top_provider": {
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 384000
    },
    "supported_parameters": [
     "reasoning",
@@ -5028,9 +5259,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000095526",
-    "completion": "0.00000191052",
-    "input_cache_read": "0.000000079605"
+    "prompt": "0.000000947778",
+    "completion": "0.000001895556",
+    "input_cache_read": "0.0000000789815"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -5074,9 +5305,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000088606",
-    "completion": "0.000000177212",
-    "input_cache_read": "0.0000000177212"
+    "prompt": "0.0000000868",
+    "completion": "0.0000001736",
+    "input_cache_read": "0.00000001736"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -7134,12 +7365,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000003",
-    "completion": "0.0000012",
-    "input_cache_read": "0.00000003"
+    "prompt": "0.00000027",
+    "completion": "0.00000108",
+    "input_cache_read": "0.000000027"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 128000
    },
    "supported_parameters": [
     "reasoning",
@@ -13044,11 +13275,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000072",
-    "completion": "0.00000072"
+    "prompt": "0.0000004",
+    "completion": "0.0000004"
    },
    "top_provider": {
-    "max_completion_tokens": 8192
+    "max_completion_tokens": 16384
    },
    "supported_parameters": [
     "structured_outputs",
