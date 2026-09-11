@@ -1,9 +1,95 @@
 {
- "aggiornato": "2026-09-11T00:46:04+00:00",
+ "aggiornato": "2026-09-11T09:18:41+00:00",
  "aggiornato_it": "11 settembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 354,
+ "totale": 356,
  "modelli": [
+  {
+   "id": "sakana/fugu-ultra-v2",
+   "name": "Sakana: Fugu Ultra v2",
+   "created": 1789105383,
+   "context_length": 1000000,
+   "description": "Fugu Ultra v2 is the higher-performance model in Sakana AI's Fugu family. Rather than a single monolithic model, Fugu is a learned multi-agent orchestration system: a language model trained to...",
+   "architecture": {
+    "input_modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image+file->text"
+   },
+   "pricing": {
+    "prompt": "0.000005",
+    "completion": "0.00003",
+    "input_cache_read": "0.0000005",
+    "web_search": "0.01"
+   },
+   "top_provider": {
+    "max_completion_tokens": 128000
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": true,
+    "default_enabled": true,
+    "supported_efforts": [
+     "max",
+     "xhigh",
+     "high"
+    ],
+    "default_effort": "xhigh"
+   },
+   "ha_versione_gratuita": false
+  },
+  {
+   "id": "sakana/fugu-max",
+   "name": "Sakana: Fugu Max",
+   "created": 1789104771,
+   "context_length": 1000000,
+   "description": "Fugu Max is the cost-performance model in Sakana AI's Fugu family. Rather than a single monolithic model, Fugu is a learned multi-agent orchestration system: a language model trained to route...",
+   "architecture": {
+    "input_modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image+file->text"
+   },
+   "pricing": {
+    "prompt": "0.000002",
+    "completion": "0.000006",
+    "input_cache_read": "0.00000025",
+    "web_search": "0.01"
+   },
+   "top_provider": {
+    "max_completion_tokens": 128000
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": true,
+    "default_enabled": true,
+    "supported_efforts": [
+     "max",
+     "xhigh",
+     "high"
+    ],
+    "default_effort": "high"
+   },
+   "ha_versione_gratuita": false
+  },
   {
    "id": "inclusionai/ling-3.0-flash-vl:free",
    "name": "inclusionAI: Ling 3.0 Flash VL (free)",
@@ -64,9 +150,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000003"
+    "prompt": "0.0000003",
+    "completion": "0.0000012",
+    "input_cache_read": "0.000000006"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -1045,12 +1131,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000007",
-    "completion": "0.0000022",
-    "input_cache_read": "0.00000013"
+    "prompt": "0.00000097",
+    "completion": "0.0000033077",
+    "input_cache_read": "0.000000194"
    },
    "top_provider": {
-    "max_completion_tokens": 128000
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -1423,12 +1509,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000010494",
-    "completion": "0.0000031482",
-    "input_cache_read": "0.00000003498"
+    "prompt": "0.00000066",
+    "completion": "0.00000198",
+    "input_cache_read": "0.000000066"
    },
    "top_provider": {
-    "max_completion_tokens": 384000
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -2461,9 +2547,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000026",
-    "completion": "0.000013",
-    "input_cache_read": "0.00000029"
+    "prompt": "0.00000234",
+    "completion": "0.0000117",
+    "input_cache_read": "0.000000261"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -4473,9 +4559,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000024",
-    "completion": "0.000012",
-    "input_cache_read": "0.00000024"
+    "prompt": "0.00000234",
+    "completion": "0.0000117",
+    "input_cache_read": "0.000000261"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -6133,6 +6219,7 @@
    },
    "supported_parameters": [
     "reasoning",
+    "structured_outputs",
     "tools"
    ],
    "reasoning": {
@@ -11467,9 +11554,8 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000029",
-    "completion": "0.00000114",
-    "input_cache_read": "0.00000011"
+    "prompt": "0.00000025",
+    "completion": "0.000001"
    },
    "top_provider": {
     "max_completion_tokens": 147456
