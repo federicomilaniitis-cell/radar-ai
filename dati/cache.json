@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-09-12T13:49:46+00:00",
+ "aggiornato": "2026-09-12T18:54:00+00:00",
  "aggiornato_it": "12 settembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 362,
@@ -1216,6 +1216,7 @@
    "context_length": 1310720,
    "description": "GLM-5.3-Flash is a native multimodal model from Z.ai. It is suited for efficient coding and long-horizon agent tasks. Its hybrid sparse and linear attention architecture maintains accurate long-context behavior while...",
    "hugging_face_id": "zai-org/GLM-5.3-Flash",
+   "expiration_date": "2098-12-31",
    "architecture": {
     "input_modalities": [
      "text",
@@ -1228,9 +1229,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000075",
-    "completion": "0.00000025",
-    "input_cache_read": "0.000000015"
+    "prompt": "0.00000015",
+    "completion": "0.0000005",
+    "input_cache_read": "0.00000003"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -1795,12 +1796,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000057816",
-    "completion": "0.00000173448",
-    "input_cache_read": "0.000000018396"
+    "prompt": "0.00000057948",
+    "completion": "0.00000173844",
+    "input_cache_read": "0.000000019316"
    },
    "top_provider": {
-    "max_completion_tokens": 393216
+    "max_completion_tokens": 384000
    },
    "supported_parameters": [
     "reasoning",
@@ -2833,9 +2834,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000230272875",
-    "completion": "0.000011550195",
-    "input_cache_read": "0.000000263169"
+    "prompt": "0.000002648138063",
+    "completion": "0.00001328272425",
+    "input_cache_read": "0.00000030264435"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -3424,9 +3425,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000132",
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033"
+    "prompt": "0.0000000825",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -4845,9 +4846,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000002125",
-    "completion": "0.0000119",
-    "input_cache_read": "0.0000002465"
+    "prompt": "0.000002375",
+    "completion": "0.0000133",
+    "input_cache_read": "0.0000002755"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -5267,12 +5268,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000075864",
-    "completion": "0.00000151728",
-    "input_cache_read": "0.00000006322"
+    "prompt": "0.0000016",
+    "completion": "0.0000032",
+    "input_cache_read": "0.000000135"
    },
    "top_provider": {
-    "max_completion_tokens": 384000
+    "max_completion_tokens": 393216
    },
    "supported_parameters": [
     "reasoning",
@@ -5313,9 +5314,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000006622",
-    "completion": "0.00000013244",
-    "input_cache_read": "0.000000013244"
+    "prompt": "0.00000006566",
+    "completion": "0.00000013132",
+    "input_cache_read": "0.000000013132"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -13283,11 +13284,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000072",
-    "completion": "0.00000072"
+    "prompt": "0.0000004",
+    "completion": "0.0000004"
    },
    "top_provider": {
-    "max_completion_tokens": 8192
+    "max_completion_tokens": 16384
    },
    "supported_parameters": [
     "structured_outputs",
