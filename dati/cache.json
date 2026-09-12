@@ -1,6 +1,6 @@
 {
- "aggiornato": "2026-09-11T19:23:21+00:00",
- "aggiornato_it": "11 settembre 2026",
+ "aggiornato": "2026-09-12T00:50:12+00:00",
+ "aggiornato_it": "12 settembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 360,
  "modelli": [
@@ -1481,9 +1481,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000042",
-    "completion": "0.000003",
-    "input_cache_read": "0.000000085"
+    "prompt": "0.000000214",
+    "completion": "0.00000255",
+    "input_cache_read": "0.00000015"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -1740,12 +1740,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000057948",
-    "completion": "0.00000173844",
-    "input_cache_read": "0.000000019316"
+    "prompt": "0.00000057816",
+    "completion": "0.00000173448",
+    "input_cache_read": "0.000000018396"
    },
    "top_provider": {
-    "max_completion_tokens": 384000
+    "max_completion_tokens": 393216
    },
    "supported_parameters": [
     "reasoning",
@@ -2778,9 +2778,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000021",
-    "completion": "0.00001053",
-    "input_cache_read": "0.000000235"
+    "prompt": "0.0000015351525",
+    "completion": "0.00000770013",
+    "input_cache_read": "0.000000175446"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -3369,9 +3369,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000825",
-    "completion": "0.00000033",
-    "input_cache_read": "0.000000020625"
+    "prompt": "0.000000132",
+    "completion": "0.000000528",
+    "input_cache_read": "0.000000033"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -4790,9 +4790,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000021",
-    "completion": "0.00001053",
-    "input_cache_read": "0.000000235"
+    "prompt": "0.0000015351525",
+    "completion": "0.00000770013",
+    "input_cache_read": "0.000000175446"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -5212,9 +5212,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000859908",
-    "completion": "0.000001719816",
-    "input_cache_read": "0.000000071659"
+    "prompt": "0.000000849816",
+    "completion": "0.000001699632",
+    "input_cache_read": "0.000000070818"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -5258,9 +5258,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000854",
-    "completion": "0.0000001708",
-    "input_cache_read": "0.00000001708"
+    "prompt": "0.00000006734",
+    "completion": "0.00000013468",
+    "input_cache_read": "0.000000013468"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -7318,12 +7318,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000027",
-    "completion": "0.00000108",
-    "input_cache_read": "0.000000027"
+    "prompt": "0.0000003",
+    "completion": "0.0000012",
+    "input_cache_read": "0.00000003"
    },
    "top_provider": {
-    "max_completion_tokens": 128000
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -10603,11 +10603,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000022",
-    "completion": "0.00000088"
+    "prompt": "0.0000000875",
+    "completion": "0.00000035",
+    "input_cache_read": "0.0000000175"
    },
    "top_provider": {
-    "max_completion_tokens": 16384
+    "max_completion_tokens": 235929
    },
    "supported_parameters": [
     "structured_outputs",
@@ -10791,7 +10792,7 @@
    "id": "mistralai/mistral-small-3.2-24b-instruct",
    "name": "Mistral: Mistral Small 3.2 24B",
    "created": 1750443016,
-   "context_length": 131072,
+   "context_length": 256000,
    "description": "Mistral-Small-3.2-24B-Instruct-2506 is an updated 24B parameter model from Mistral optimized for instruction following, repetition reduction, and improved function calling. Compared to the 3.1 release, version 3.2 significantly improves accuracy on...",
    "hugging_face_id": "mistralai/Mistral-Small-3.2-24B-Instruct-2506",
    "architecture": {
@@ -13228,11 +13229,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000004",
-    "completion": "0.0000004"
+    "prompt": "0.00000072",
+    "completion": "0.00000072"
    },
    "top_provider": {
-    "max_completion_tokens": 16384
+    "max_completion_tokens": 8192
    },
    "supported_parameters": [
     "structured_outputs",
