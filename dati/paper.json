@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-09-12T08:58:27+00:00",
+ "aggiornato": "2026-09-12T13:49:46+00:00",
  "paper": [
   {
    "titolo": "Building py-kvcache: A Performance Characterization of External KV Caching for vLLM with NVMe SSDs",

@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-09-12T08:58:27+00:00",
+ "aggiornato": "2026-09-12T13:49:46+00:00",
  "aggiornato_it": "12 settembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 362,
@@ -62,10 +62,10 @@
   },
   {
    "id": "~openai/gpt-astra-latest",
-   "name": "OpenAI GPT Astra Latest",
+   "name": "OpenAI: GPT Astra Latest",
    "created": 1789130932,
    "context_length": 1050000,
-   "description": "This model always redirects to the latest model in the OpenAI GPT Astra family.",
+   "description": "This model always redirects to the latest model in the GPT Astra family.",
    "architecture": {
     "input_modalities": [
      "file",
@@ -108,10 +108,10 @@
   },
   {
    "id": "~openai/gpt-sol-latest",
-   "name": "OpenAI GPT Sol Latest",
+   "name": "OpenAI: GPT Sol Latest",
    "created": 1789130928,
    "context_length": 1050000,
-   "description": "This model always redirects to the latest model in the OpenAI GPT Sol family.",
+   "description": "This model always redirects to the latest model in the GPT Sol family.",
    "architecture": {
     "input_modalities": [
      "file",
@@ -155,10 +155,10 @@
   },
   {
    "id": "~openai/gpt-terra-latest",
-   "name": "OpenAI GPT Terra Latest",
+   "name": "OpenAI: GPT Terra Latest",
    "created": 1789130925,
    "context_length": 1050000,
-   "description": "This model always redirects to the latest model in the OpenAI GPT Terra family.",
+   "description": "This model always redirects to the latest model in the GPT Terra family.",
    "architecture": {
     "input_modalities": [
      "file",
@@ -202,10 +202,10 @@
   },
   {
    "id": "~openai/gpt-luna-latest",
-   "name": "OpenAI GPT Luna Latest",
+   "name": "OpenAI: GPT Luna Latest",
    "created": 1789130922,
    "context_length": 1050000,
-   "description": "This model always redirects to the latest model in the OpenAI GPT Luna family.",
+   "description": "This model always redirects to the latest model in the GPT Luna family.",
    "architecture": {
     "input_modalities": [
      "file",
@@ -1216,7 +1216,6 @@
    "context_length": 1310720,
    "description": "GLM-5.3-Flash is a native multimodal model from Z.ai. It is suited for efficient coding and long-horizon agent tasks. Its hybrid sparse and linear attention architecture maintains accurate long-context behavior while...",
    "hugging_face_id": "zai-org/GLM-5.3-Flash",
-   "expiration_date": "2098-12-31",
    "architecture": {
     "input_modalities": [
      "text",
@@ -1229,9 +1228,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000005",
-    "input_cache_read": "0.00000003"
+    "prompt": "0.000000075",
+    "completion": "0.00000025",
+    "input_cache_read": "0.000000015"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -2169,7 +2168,7 @@
   },
   {
    "id": "~deepseek/deepseek-v4-flash-latest",
-   "name": "DeepSeek V4 Flash Latest",
+   "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "created": 1785606009,
    "context_length": 1310720,
    "description": "This model always redirects to the latest model in the DeepSeek V4 Flash family.",
@@ -4701,10 +4700,10 @@
   },
   {
    "id": "~anthropic/claude-haiku-latest",
-   "name": "Anthropic Claude Haiku Latest",
+   "name": "Anthropic: Claude Haiku Latest",
    "created": 1777318492,
    "context_length": 200000,
-   "description": "This model always redirects to the latest model in the Anthropic Claude Haiku family.",
+   "description": "This model always redirects to the latest model in the Claude Haiku family.",
    "architecture": {
     "input_modalities": [
      "text",
@@ -4738,10 +4737,10 @@
   },
   {
    "id": "~openai/gpt-mini-latest",
-   "name": "OpenAI GPT Mini Latest",
+   "name": "OpenAI: GPT Mini Latest",
    "created": 1777318471,
    "context_length": 400000,
-   "description": "This model always redirects to the latest model in the OpenAI GPT Mini family.",
+   "description": "This model always redirects to the latest model in the GPT Mini family.",
    "architecture": {
     "input_modalities": [
      "file",
@@ -4783,10 +4782,10 @@
   },
   {
    "id": "~google/gemini-pro-latest",
-   "name": "Google Gemini Pro Latest",
+   "name": "Google: Gemini Pro Latest",
    "created": 1777318451,
    "context_length": 1048576,
-   "description": "This model always redirects to the latest model in the Google Gemini Pro family.",
+   "description": "This model always redirects to the latest model in the Gemini Pro family.",
    "architecture": {
     "input_modalities": [
      "audio",
@@ -4830,10 +4829,10 @@
   },
   {
    "id": "~moonshotai/kimi-latest",
-   "name": "MoonshotAI Kimi Latest",
+   "name": "MoonshotAI: Kimi Latest",
    "created": 1777318428,
    "context_length": 1048576,
-   "description": "This model always redirects to the latest model in the MoonshotAI Kimi family.",
+   "description": "This model always redirects to the latest model in the Kimi family.",
    "architecture": {
     "input_modalities": [
      "text",
@@ -4872,10 +4871,10 @@
   },
   {
    "id": "~google/gemini-flash-latest",
-   "name": "Google Gemini Flash Latest",
+   "name": "Google: Gemini Flash Latest",
    "created": 1777318398,
    "context_length": 1048576,
-   "description": "This model always redirects to the latest model in the Google Gemini Flash family.",
+   "description": "This model always redirects to the latest model in the Gemini Flash family.",
    "architecture": {
     "input_modalities": [
      "text",
@@ -4920,10 +4919,10 @@
   },
   {
    "id": "~anthropic/claude-sonnet-latest",
-   "name": "Anthropic Claude Sonnet Latest",
+   "name": "Anthropic: Claude Sonnet Latest",
    "created": 1777318368,
    "context_length": 1000000,
-   "description": "This model always redirects to the latest model in the Anthropic Claude Sonnet family.",
+   "description": "This model always redirects to the latest model in the Claude Sonnet family.",
    "architecture": {
     "input_modalities": [
      "text",
@@ -5268,9 +5267,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000809274",
-    "completion": "0.000001618548",
-    "input_cache_read": "0.0000000674395"
+    "prompt": "0.00000075864",
+    "completion": "0.00000151728",
+    "input_cache_read": "0.00000006322"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -5314,9 +5313,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000006678",
-    "completion": "0.00000013356",
-    "input_cache_read": "0.000000013356"
+    "prompt": "0.00000006622",
+    "completion": "0.00000013244",
+    "input_cache_read": "0.000000013244"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -7374,12 +7373,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000003",
-    "completion": "0.0000012",
-    "input_cache_read": "0.00000003"
+    "prompt": "0.00000027",
+    "completion": "0.00000108",
+    "input_cache_read": "0.000000027"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 128000
    },
    "supported_parameters": [
     "reasoning",
