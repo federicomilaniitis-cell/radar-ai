@@ -1,9 +1,65 @@
 {
- "aggiornato": "2026-09-12T00:50:12+00:00",
+ "aggiornato": "2026-09-12T08:58:27+00:00",
  "aggiornato_it": "12 settembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 360,
+ "totale": 362,
  "modelli": [
+  {
+   "id": "inference-net/schematron-v2-turbo",
+   "name": "Inference.net: Schematron V2 Turbo",
+   "created": 1789176949,
+   "context_length": 128000,
+   "description": "Schematron V2 Turbo is a 3B-parameter HTML-to-JSON extraction model from Inference.net. It prioritizes throughput for high-volume extraction workloads. Extraction instructions must be supplied through a JSON schema in response_format rather...",
+   "hugging_face_id": "inference-net/schematron-v2-granite-4.0-h-micro",
+   "architecture": {
+    "input_modalities": [
+     "text"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text->text"
+   },
+   "pricing": {
+    "prompt": "0.00000003",
+    "completion": "0.00000015"
+   },
+   "top_provider": {
+    "max_completion_tokens": 8192
+   },
+   "supported_parameters": [
+    "structured_outputs"
+   ],
+   "ha_versione_gratuita": false
+  },
+  {
+   "id": "inference-net/schematron-v2-small",
+   "name": "Inference.net: Schematron V2 Small",
+   "created": 1789176933,
+   "context_length": 128000,
+   "description": "Schematron V2 Small is a 3B-parameter HTML-to-JSON extraction model from Inference.net. It prioritizes extraction quality for complex schemas and long pages. Extraction instructions must be supplied through a JSON schema...",
+   "hugging_face_id": "inference-net/schematron-v2-llama-3.2-3b",
+   "architecture": {
+    "input_modalities": [
+     "text"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text->text"
+   },
+   "pricing": {
+    "prompt": "0.00000005",
+    "completion": "0.00000023"
+   },
+   "top_provider": {
+    "max_completion_tokens": 4096
+   },
+   "supported_parameters": [
+    "structured_outputs"
+   ],
+   "ha_versione_gratuita": false
+  },
   {
    "id": "~openai/gpt-astra-latest",
    "name": "OpenAI GPT Astra Latest",
@@ -2127,9 +2183,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000005",
-    "completion": "0.00000016",
-    "input_cache_read": "0.000000013"
+    "prompt": "0.00000003",
+    "completion": "0.00000007",
+    "input_cache_read": "0.000000003"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -2169,9 +2225,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000065",
-    "completion": "0.00000018",
-    "input_cache_read": "0.000000016"
+    "prompt": "0.00000004",
+    "completion": "0.00000008",
+    "input_cache_read": "0.000000008"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -2680,7 +2736,7 @@
     "input_cache_read": "0.00000017"
    },
    "top_provider": {
-    "max_completion_tokens": 32768
+    "max_completion_tokens": 471859
    },
    "supported_parameters": [
     "reasoning",
@@ -2778,9 +2834,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000015351525",
-    "completion": "0.00000770013",
-    "input_cache_read": "0.000000175446"
+    "prompt": "0.00000230272875",
+    "completion": "0.000011550195",
+    "input_cache_read": "0.000000263169"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -4790,9 +4846,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000015351525",
-    "completion": "0.00000770013",
-    "input_cache_read": "0.000000175446"
+    "prompt": "0.000002125",
+    "completion": "0.0000119",
+    "input_cache_read": "0.0000002465"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -5212,9 +5268,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000849816",
-    "completion": "0.000001699632",
-    "input_cache_read": "0.000000070818"
+    "prompt": "0.000000809274",
+    "completion": "0.000001618548",
+    "input_cache_read": "0.0000000674395"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -5258,9 +5314,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000006734",
-    "completion": "0.00000013468",
-    "input_cache_read": "0.000000013468"
+    "prompt": "0.00000006678",
+    "completion": "0.00000013356",
+    "input_cache_read": "0.000000013356"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -8762,11 +8818,10 @@
    },
    "pricing": {
     "prompt": "0.0000006",
-    "completion": "0.0000025",
-    "input_cache_read": "0.00000015"
+    "completion": "0.0000025"
    },
    "top_provider": {
-    "max_completion_tokens": 100352
+    "max_completion_tokens": 235929
    },
    "supported_parameters": [
     "reasoning",
