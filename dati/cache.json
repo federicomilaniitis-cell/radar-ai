@@ -1,6 +1,6 @@
 {
- "aggiornato": "2026-09-12T18:54:00+00:00",
- "aggiornato_it": "12 settembre 2026",
+ "aggiornato": "2026-09-13T00:33:42+00:00",
+ "aggiornato_it": "13 settembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 362,
  "modelli": [
@@ -1487,12 +1487,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000014",
-    "completion": "0.0000044",
-    "input_cache_read": "0.00000026"
+    "prompt": "0.000001092",
+    "completion": "0.000003432",
+    "input_cache_read": "0.0000002028"
    },
    "top_provider": {
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -1796,12 +1796,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000057948",
-    "completion": "0.00000173844",
-    "input_cache_read": "0.000000019316"
+    "prompt": "0.00000057816",
+    "completion": "0.00000173448",
+    "input_cache_read": "0.000000018396"
    },
    "top_provider": {
-    "max_completion_tokens": 384000
+    "max_completion_tokens": 393216
    },
    "supported_parameters": [
     "reasoning",
@@ -2090,8 +2090,8 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.0000003",
-    "completion": "0.0000011",
+    "prompt": "0.00000035",
+    "completion": "0.0000015",
     "input_cache_read": "0.00000004"
    },
    "top_provider": {
@@ -3425,9 +3425,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000825",
-    "completion": "0.00000033",
-    "input_cache_read": "0.000000020625"
+    "prompt": "0.000000132",
+    "completion": "0.000000528",
+    "input_cache_read": "0.000000033"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -5725,11 +5725,12 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000042",
-    "completion": "0.00000022"
+    "prompt": "0.00000009",
+    "completion": "0.0000003",
+    "input_cache_read": "0.00000005"
    },
    "top_provider": {
-    "max_completion_tokens": 32768
+    "max_completion_tokens": 235929
    },
    "supported_parameters": [
     "reasoning",
@@ -8818,10 +8819,11 @@
    },
    "pricing": {
     "prompt": "0.0000006",
-    "completion": "0.0000025"
+    "completion": "0.0000025",
+    "input_cache_read": "0.00000015"
    },
    "top_provider": {
-    "max_completion_tokens": 235929
+    "max_completion_tokens": 100352
    },
    "supported_parameters": [
     "reasoning",
