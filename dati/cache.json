@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-09-13T09:55:15+00:00",
+ "aggiornato": "2026-09-13T14:46:16+00:00",
  "aggiornato_it": "13 settembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 362,
@@ -1216,7 +1216,6 @@
    "context_length": 1310720,
    "description": "GLM-5.3-Flash is a native multimodal model from Z.ai. It is suited for efficient coding and long-horizon agent tasks. Its hybrid sparse and linear attention architecture maintains accurate long-context behavior while...",
    "hugging_face_id": "zai-org/GLM-5.3-Flash",
-   "expiration_date": "2098-12-31",
    "architecture": {
     "input_modalities": [
      "text",
@@ -1229,9 +1228,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000005",
-    "input_cache_read": "0.00000003"
+    "prompt": "0.000000075",
+    "completion": "0.00000025",
+    "input_cache_read": "0.000000015"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -1796,12 +1795,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000057816",
-    "completion": "0.00000173448",
-    "input_cache_read": "0.000000018396"
+    "prompt": "0.00000057948",
+    "completion": "0.00000173844",
+    "input_cache_read": "0.000000019316"
    },
    "top_provider": {
-    "max_completion_tokens": 393216
+    "max_completion_tokens": 384000
    },
    "supported_parameters": [
     "reasoning",
@@ -5313,9 +5312,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000004928",
-    "completion": "0.00000009856",
-    "input_cache_read": "0.000000009856"
+    "prompt": "0.00000004872",
+    "completion": "0.00000009744",
+    "input_cache_read": "0.000000009744"
    },
    "top_provider": {
     "max_completion_tokens": 384000
