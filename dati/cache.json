@@ -1,9 +1,89 @@
 {
- "aggiornato": "2026-09-14T10:15:43+00:00",
+ "aggiornato": "2026-09-14T16:44:32+00:00",
  "aggiornato_it": "14 settembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 362,
+ "totale": 364,
  "modelli": [
+  {
+   "id": "~deepseek/deepseek-pro-latest",
+   "name": "DeepSeek: DeepSeek Pro Latest",
+   "created": 1789399174,
+   "context_length": 1048576,
+   "description": "This model always redirects to the latest model in the DeepSeek Pro family.",
+   "architecture": {
+    "input_modalities": [
+     "text"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text->text"
+   },
+   "pricing": {
+    "prompt": "0.00000057948",
+    "completion": "0.00000173844",
+    "input_cache_read": "0.000000018438"
+   },
+   "top_provider": {
+    "max_completion_tokens": 393216
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": false,
+    "supported_efforts": [
+     "max",
+     "high",
+     "low"
+    ],
+    "default_effort": "high"
+   },
+   "ha_versione_gratuita": false
+  },
+  {
+   "id": "~deepseek/deepseek-flash-latest",
+   "name": "DeepSeek: DeepSeek Flash Latest",
+   "created": 1789399150,
+   "context_length": 1048576,
+   "description": "This model always redirects to the latest model in the DeepSeek Flash family.",
+   "architecture": {
+    "input_modalities": [
+     "text",
+     "image"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image->text"
+   },
+   "pricing": {
+    "prompt": "0.00000015",
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000003"
+   },
+   "top_provider": {
+    "max_completion_tokens": 943718
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": false,
+    "default_enabled": true,
+    "supported_efforts": [
+     "max",
+     "high",
+     "low"
+    ],
+    "default_effort": "high"
+   },
+   "ha_versione_gratuita": false
+  },
   {
    "id": "inference-net/schematron-v2-turbo",
    "name": "Inference.net: Schematron V2 Turbo",
@@ -1420,12 +1500,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000092",
-    "completion": "0.0000031372",
-    "input_cache_read": "0.000000184"
+    "prompt": "0.00000091",
+    "completion": "0.00000286",
+    "input_cache_read": "0.000000169"
    },
    "top_provider": {
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -1798,12 +1878,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000009834",
-    "completion": "0.0000029502",
-    "input_cache_read": "0.00000003278"
+    "prompt": "0.00000057948",
+    "completion": "0.00000173844",
+    "input_cache_read": "0.000000018438"
    },
    "top_provider": {
-    "max_completion_tokens": 384000
+    "max_completion_tokens": 393216
    },
    "supported_parameters": [
     "reasoning",
@@ -2185,12 +2265,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000352",
-    "completion": "0.0000001056",
-    "input_cache_read": "0.00000000112"
+    "prompt": "0.00000004",
+    "completion": "0.0000001",
+    "input_cache_read": "0.00000001"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 393216
    },
    "supported_parameters": [
     "reasoning",
@@ -3427,9 +3507,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000132",
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033"
+    "prompt": "0.0000000825",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -5316,9 +5396,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000088606",
-    "completion": "0.000000177212",
-    "input_cache_read": "0.0000000177212"
+    "prompt": "0.000000084",
+    "completion": "0.000000168",
+    "input_cache_read": "0.0000000168"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -6454,11 +6534,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000085",
-    "completion": "0.0000004"
+    "prompt": "0.00000008",
+    "completion": "0.00000045"
    },
    "top_provider": {
-    "max_completion_tokens": 16384
+    "max_completion_tokens": 235929
    },
    "supported_parameters": [
     "reasoning",
@@ -11722,11 +11802,11 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.0000002",
-    "completion": "0.000000696"
+    "prompt": "0.0000001875",
+    "completion": "0.0000006525"
    },
    "top_provider": {
-    "max_completion_tokens": 115200
+    "max_completion_tokens": 16384
    },
    "supported_parameters": [
     "structured_outputs",
