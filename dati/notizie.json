@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-09-14T00:36:23+00:00",
+ "aggiornato": "2026-09-14T10:15:43+00:00",
  "notizie": [
   {
    "tag": "crit",
@@ -9,6 +9,42 @@
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-09-30. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-dots-studio-dots-3-note-preview-free"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-14",
+   "titolo": "DeepSeek V4 Pro 0813: il prezzo in entrata scende del 7%",
+   "testo": "Da $1,05 a $0,983 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-deepseek-deepseek-v4-pro-0813prompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-14",
+   "titolo": "DeepSeek V4 Pro 0813: il prezzo in uscita scende del 7%",
+   "testo": "Da $3,16 a $2,95 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-deepseek-deepseek-v4-pro-0813completion"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-14",
+   "titolo": "DeepSeek V4 Flash 0731: il prezzo in entrata scende del 8%",
+   "testo": "Da $0,065 a $0,06 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-deepseek-deepseek-v4-flash-0731prompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-14",
+   "titolo": "DeepSeek V4 Flash 0731: il prezzo in uscita scende del 33%",
+   "testo": "Da $0,18 a $0,12 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-deepseek-deepseek-v4-flash-0731completion"
   },
   {
    "tag": "ok",
@@ -54,42 +90,6 @@
    "testo": "Da $3,43 a $4,4 per milione di token in uscita.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
    "id": "prezzo-z-ai-glm-5-3completion"
-  },
-  {
-   "tag": "warn",
-   "tagT": "Prezzo su'",
-   "data": "2026-09-14",
-   "titolo": "DeepSeek V4 Pro 0813: il prezzo in entrata sale del 82%",
-   "testo": "Da $0,579 a $1,05 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
-   "id": "prezzo-deepseek-deepseek-v4-pro-0813prompt"
-  },
-  {
-   "tag": "warn",
-   "tagT": "Prezzo su'",
-   "data": "2026-09-14",
-   "titolo": "DeepSeek V4 Pro 0813: il prezzo in uscita sale del 82%",
-   "testo": "Da $1,74 a $3,16 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
-   "id": "prezzo-deepseek-deepseek-v4-pro-0813completion"
-  },
-  {
-   "tag": "warn",
-   "tagT": "Prezzo su'",
-   "data": "2026-09-14",
-   "titolo": "DeepSeek V4 Flash 0731: il prezzo in entrata sale del 62%",
-   "testo": "Da $0,04 a $0,065 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
-   "id": "prezzo-deepseek-deepseek-v4-flash-0731prompt"
-  },
-  {
-   "tag": "warn",
-   "tagT": "Prezzo su'",
-   "data": "2026-09-14",
-   "titolo": "DeepSeek V4 Flash 0731: il prezzo in uscita sale del 125%",
-   "testo": "Da $0,08 a $0,18 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
-   "id": "prezzo-deepseek-deepseek-v4-flash-0731completion"
   },
   {
    "tag": "warn",
