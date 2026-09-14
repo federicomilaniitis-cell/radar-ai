@@ -1,6 +1,41 @@
 {
- "aggiornato": "2026-09-12T18:54:00+00:00",
+ "aggiornato": "2026-09-14T20:42:51+00:00",
  "paper": [
+  {
+   "titolo": "Attention Quantization for Tabular Foundation Models",
+   "data": "2026-09-11",
+   "url": "http://arxiv.org/abs/2609.13031v1",
+   "id": "2609.13031v1",
+   "sommario": "With the recent rise and adoption of tabular foundation models, optimizing their inference performance becomes an emerging field for efficiency research. While the models are architecturally similar to transformer-based large language models (LLMs), the size and serving patterns "
+  },
+  {
+   "titolo": "Residual Vector-based Reconstruction as Long-Context Recall Regardless of Context Window Size",
+   "data": "2026-09-11",
+   "url": "http://arxiv.org/abs/2609.12686v1",
+   "id": "2609.12686v1",
+   "sommario": "Large language models (LLMs) process long contexts, including long documents and lengthy conversations, but face token-level memory usage that increases proportionally to input length. Although model optimization and lossy prompt compression are widely used, these methods still f"
+  },
+  {
+   "titolo": "Invisible Yet Dominant: Big Stalls of Kernel I/O Mechanisms in Cloud OLTP Databases",
+   "data": "2026-09-11",
+   "url": "http://arxiv.org/abs/2609.12597v1",
+   "id": "2609.12597v1",
+   "sommario": "Most databases, including PostgreSQL, RocksDB, and recent AI KV-cache middleware, rely on buffered I/O, delegating write-back to the Linux kernel. On the distributed block storage standard in the cloud, this delegation inherits a hidden bottleneck: each device is drained by a sin"
+  },
+  {
+   "titolo": "RoofLang: Enabling AI-Driven Architecting of LLM Inference Systems",
+   "data": "2026-09-11",
+   "url": "http://arxiv.org/abs/2609.12551v1",
+   "id": "2609.12551v1",
+   "sommario": "AI is beginning to make substantive contributions to LLM inference optimization. Existing AI optimizations are predominantly profiling-based. Profiling-bound feedback confines the search to the capabilities and performance of an existing software stack, preventing a fundamentally"
+  },
+  {
+   "titolo": "Vortex: Bridging Extreme Compression and Efficient LLM Inference",
+   "data": "2026-09-10",
+   "url": "http://arxiv.org/abs/2609.12208v1",
+   "id": "2609.12208v1",
+   "sommario": "Extreme compression techniques, including vector quantization (VQ) and input-dependent sparsity, can significantly reduce the memory footprint of large language models (LLMs). However, a key challenge remains in translating such compression into practical efficiency. On conventio"
+  },
   {
    "titolo": "Building py-kvcache: A Performance Characterization of External KV Caching for vLLM with NVMe SSDs",
    "data": "2026-09-10",
@@ -44,46 +79,11 @@
    "sommario": "Soft context compression condenses a context into a few memory tokens that a frozen LLM consumes in place of the raw text, but existing compressors fix the compression ratio at training and inference: each deployed ratio requires a separately trained model, and the chosen ratio i"
   },
   {
-   "titolo": "Composable CXL Memory as a Kubernetes-Native Shared Memory for LLM Serving",
+   "titolo": "Fixed State, Long Reach: What a Constant-Size Cache Buys Block Diffusion at Scale",
    "data": "2026-09-09",
-   "url": "http://arxiv.org/abs/2609.10790v1",
-   "id": "2609.10790v1",
-   "sommario": "We present a Kubernetes Dynamic Resource Allocation (DRA) driver that makes composable CXL memory a schedulable cluster resource, and evaluate the resulting shared-memory tier for cross-node KV-cache reuse in LLM serving. The driver composes CXL regions on demand, materializes th"
-  },
-  {
-   "titolo": "Why Is Video Still So Expensive? A Survey of Inference-Efficiency Mechanisms in Video and Audiovisual LLMs",
-   "data": "2026-09-09",
-   "url": "http://arxiv.org/abs/2609.10355v1",
-   "id": "2609.10355v1",
-   "sommario": "Video understanding has rapidly evolved toward video large language models (VideoLLMs): systems that couple video representations with pretrained large language models and condition generation on a textual prompt. Their strong performance on captioning, question answering, retrie"
-  },
-  {
-   "titolo": "KVShareArena: KV-Cache Reuse Across Contexts and Model Checkpoints",
-   "data": "2026-09-09",
-   "url": "http://arxiv.org/abs/2609.10266v1",
-   "id": "2609.10266v1",
-   "sommario": "LLM serving systems already reuse KV caches, but only when the reused text sits at the very start of the prompt. Two growing workloads break this condition: a retrieval-augmented generation server assembles a different set of retrieved chunks for every query, and a multi-agent co"
-  },
-  {
-   "titolo": "AMEND: Audited Margins Enable Nonblocking Drops in GPU-PIM LLM Decoding",
-   "data": "2026-09-09",
-   "url": "http://arxiv.org/abs/2609.09823v1",
-   "id": "2609.09823v1",
-   "sommario": "Autoregressive large language model (LLM) decoding re-reads a growing key-value (KV) cache at every step, so long-context attention is bound by graphics processing unit (GPU) memory bandwidth. Block-sparse attention skips low-contribution KV blocks, but a selector that decides af"
-  },
-  {
-   "titolo": "Fine-Tuning a KV Cache Concatenation-Aware Model or Recomputing KV Caches? Why Not Both?",
-   "data": "2026-09-09",
-   "url": "http://arxiv.org/abs/2609.09768v1",
-   "id": "2609.09768v1",
-   "sommario": "In Retrieval-Augmented Generation (RAG) systems, a large number of retrieved chunks are concatenated to form the input context so that users can receive high-quality responses based on external knowledge. As a result, the input context length increases substantially, leading to a"
-  },
-  {
-   "titolo": "TEFM: Token-Efficient Faithful Modeling for Structured Data",
-   "data": "2026-09-09",
-   "url": "http://arxiv.org/abs/2609.09552v1",
-   "id": "2609.09552v1",
-   "sommario": "In this paper, we solve two fundamental obstacles in applying LLMs to critical domains: token efficiency and faithfulness. To address both constraints jointly, we present TEFM (Token-Efficient Faithful Modeling), a framework designed for structured data analysis in critical domai"
+   "url": "http://arxiv.org/abs/2609.11998v1",
+   "id": "2609.11998v1",
+   "sommario": "Diffusion language models decode tokens in parallel, but their bidirectional denoiser rules out the naive key--value (KV) cache behind fast autoregressive inference. Block diffusion restores caching by decoding block-by-block, and the block caches deployed on it so far are tied t"
   }
  ]
 }
