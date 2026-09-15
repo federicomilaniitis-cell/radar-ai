@@ -1,8 +1,8 @@
 {
- "aggiornato": "2026-09-14T20:42:51+00:00",
- "aggiornato_it": "14 settembre 2026",
+ "aggiornato": "2026-09-15T01:07:32+00:00",
+ "aggiornato_it": "15 settembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 364,
+ "totale": 362,
  "modelli": [
   {
    "id": "~deepseek/deepseek-pro-latest",
@@ -20,12 +20,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000057948",
-    "completion": "0.00000173844",
-    "input_cache_read": "0.000000018438"
+    "prompt": "0.00000096",
+    "completion": "0.00000288",
+    "input_cache_read": "0.000000088"
    },
    "top_provider": {
-    "max_completion_tokens": 393216
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -62,7 +62,7 @@
    "pricing": {
     "prompt": "0.00000015",
     "completion": "0.0000006",
-    "input_cache_read": "0.000000003"
+    "input_cache_read": "0.000000015"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -519,9 +519,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000003"
+    "prompt": "0.0000003",
+    "completion": "0.0000012",
+    "input_cache_read": "0.000000006"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -1501,11 +1501,11 @@
    },
    "pricing": {
     "prompt": "0.0000009",
-    "completion": "0.000003069",
-    "input_cache_read": "0.00000018"
+    "completion": "0.000003",
+    "input_cache_read": "0.00000009"
    },
    "top_provider": {
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -1878,12 +1878,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000057948",
-    "completion": "0.00000173844",
-    "input_cache_read": "0.000000018438"
+    "prompt": "0.0000009834",
+    "completion": "0.0000029502",
+    "input_cache_read": "0.00000003278"
    },
    "top_provider": {
-    "max_completion_tokens": 393216
+    "max_completion_tokens": 384000
    },
    "supported_parameters": [
     "reasoning",
@@ -3507,9 +3507,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000825",
-    "completion": "0.00000033",
-    "input_cache_read": "0.000000020625"
+    "prompt": "0.000000132",
+    "completion": "0.000000528",
+    "input_cache_read": "0.000000033"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -3867,12 +3867,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000006832",
-    "completion": "0.0000021472",
-    "input_cache_read": "0.00000012688"
+    "prompt": "0.0000014",
+    "completion": "0.0000044",
+    "input_cache_read": "0.00000014"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 128000
    },
    "supported_parameters": [
     "reasoning",
@@ -3890,7 +3890,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": null,
+     "intelligence_index": 34,
      "coding_index": 68.8,
      "agentic_index": 39.4
     }
@@ -4928,9 +4928,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000001975",
-    "completion": "0.00001106",
-    "input_cache_read": "0.0000002291"
+    "prompt": "0.0000021",
+    "completion": "0.00001095",
+    "input_cache_read": "0.00000023"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -5396,9 +5396,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000007938",
-    "completion": "0.00000015876",
-    "input_cache_read": "0.000000015876"
+    "prompt": "0.000000088606",
+    "completion": "0.000000177212",
+    "input_cache_read": "0.0000000177212"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -6996,12 +6996,11 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000003125",
-    "completion": "0.00000125",
-    "input_cache_read": "0.00000015625"
+    "prompt": "0.0000001625",
+    "completion": "0.0000013"
    },
    "top_provider": {
-    "max_completion_tokens": 16384
+    "max_completion_tokens": 65536
    },
    "supported_parameters": [
     "reasoning",
@@ -9863,7 +9862,7 @@
     "completion": "0.0000012"
    },
    "top_provider": {
-    "max_completion_tokens": 235929
+    "max_completion_tokens": 32768
    },
    "supported_parameters": [
     "reasoning",
@@ -11299,48 +11298,6 @@
     "structured_outputs",
     "tools"
    ],
-   "ha_versione_gratuita": false
-  },
-  {
-   "id": "google/gemini-2.5-pro-preview-05-06",
-   "name": "Google: Gemini 2.5 Pro Preview 05-06",
-   "created": 1746578513,
-   "context_length": 1048576,
-   "description": "Gemini 2.5 Pro is Google’s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks. It employs “thinking” capabilities, enabling it to reason through responses with enhanced accuracy...",
-   "hugging_face_id": "",
-   "architecture": {
-    "input_modalities": [
-     "text",
-     "image",
-     "file",
-     "audio",
-     "video"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text+image+file+audio+video->text"
-   },
-   "pricing": {
-    "prompt": "0.00000125",
-    "completion": "0.00001",
-    "input_cache_read": "0.000000125",
-    "input_cache_write": "0.000000375",
-    "image": "0.00000125",
-    "audio": "0.00000125",
-    "web_search": "0.014"
-   },
-   "top_provider": {
-    "max_completion_tokens": 65535
-   },
-   "supported_parameters": [
-    "reasoning",
-    "structured_outputs",
-    "tools"
-   ],
-   "reasoning": {
-    "mandatory": true
-   },
    "ha_versione_gratuita": false
   },
   {
@@ -13782,34 +13739,6 @@
    },
    "top_provider": {
     "max_completion_tokens": 3685
-   },
-   "supported_parameters": [
-    "structured_outputs",
-    "tools"
-   ],
-   "ha_versione_gratuita": false
-  },
-  {
-   "id": "openai/gpt-4-turbo-preview",
-   "name": "OpenAI: GPT-4 Turbo Preview",
-   "created": 1706140800,
-   "context_length": 128000,
-   "description": "The preview GPT-4 model with improved instruction following, JSON mode, reproducible outputs, parallel function calling, and more. Training data: up to Dec 2023. **Note:** heavily rate limited by OpenAI while...",
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text->text"
-   },
-   "pricing": {
-    "prompt": "0.00001",
-    "completion": "0.00003"
-   },
-   "top_provider": {
-    "max_completion_tokens": 4096
    },
    "supported_parameters": [
     "structured_outputs",
