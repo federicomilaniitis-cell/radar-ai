@@ -1,6 +1,6 @@
 {
- "aggiornato": "2026-09-15T19:56:45+00:00",
- "aggiornato_it": "15 settembre 2026",
+ "aggiornato": "2026-09-16T00:58:13+00:00",
+ "aggiornato_it": "16 settembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 363,
  "modelli": [
@@ -20,12 +20,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000057948",
-    "completion": "0.00000173844",
-    "input_cache_read": "0.000000018438"
+    "prompt": "0.00000066",
+    "completion": "0.00000198",
+    "input_cache_read": "0.000000022"
    },
    "top_provider": {
-    "max_completion_tokens": 393216
+    "max_completion_tokens": 384000
    },
    "supported_parameters": [
     "reasoning",
@@ -65,7 +65,7 @@
     "input_cache_read": "0.000000015"
    },
    "top_provider": {
-    "max_completion_tokens": 393216
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -847,9 +847,9 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 40.3,
-     "coding_index": 71.8,
-     "agentic_index": 49.6
+     "intelligence_index": 45.4,
+     "coding_index": 76.2,
+     "agentic_index": 56.1
     }
    },
    "ha_versione_gratuita": false
@@ -1310,9 +1310,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000075",
-    "completion": "0.00000025",
-    "input_cache_read": "0.000000015"
+    "prompt": "0.0000001",
+    "completion": "0.0000003333",
+    "input_cache_read": "0.00000002"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -1499,12 +1499,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000008775",
-    "completion": "0.00000297",
-    "input_cache_read": "0.0000001755"
+    "prompt": "0.00000085",
+    "completion": "0.0000028985",
+    "input_cache_read": "0.00000017"
    },
    "top_provider": {
-    "max_completion_tokens": 235929
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -1877,12 +1877,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000057948",
-    "completion": "0.00000173844",
-    "input_cache_read": "0.000000018438"
+    "prompt": "0.0000009834",
+    "completion": "0.0000029502",
+    "input_cache_read": "0.00000003278"
    },
    "top_provider": {
-    "max_completion_tokens": 393216
+    "max_completion_tokens": 384000
    },
    "supported_parameters": [
     "reasoning",
@@ -2306,9 +2306,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000006",
-    "completion": "0.00000012",
-    "input_cache_read": "0.000000012"
+    "prompt": "0.000000055",
+    "completion": "0.00000011",
+    "input_cache_read": "0.000000011"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -2480,7 +2480,7 @@
   },
   {
    "id": "anthropic/claude-opus-5",
-   "name": "Claude Opus 5",
+   "name": "Anthropic: Claude Opus 5",
    "created": 1784912544,
    "context_length": 1000000,
    "description": "Claude Opus 5 is Anthropic’s flagship model for demanding reasoning, coding, and long-horizon agentic work. It is particularly strong at end-to-end software tasks, code review and bug finding, visual analysis...",
@@ -3506,9 +3506,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000825",
-    "completion": "0.00000033",
-    "input_cache_read": "0.000000020625"
+    "prompt": "0.000000132",
+    "completion": "0.000000528",
+    "input_cache_read": "0.000000033"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -3958,9 +3958,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000071",
-    "completion": "0.0000035",
-    "input_cache_read": "0.00000015"
+    "prompt": "0.0000007062",
+    "completion": "0.00000321",
+    "input_cache_read": "0.00000018"
    },
    "top_provider": {
     "max_completion_tokens": 235929
@@ -4163,12 +4163,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000006",
-    "completion": "0.0000024",
-    "input_cache_read": "0.00000012"
+    "prompt": "0.000000625",
+    "completion": "0.000003125",
+    "input_cache_read": "0.0000001875"
    },
    "top_provider": {
-    "max_completion_tokens": 182520
+    "max_completion_tokens": 32768
    },
    "supported_parameters": [
     "reasoning",
@@ -5439,9 +5439,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000008092",
-    "completion": "0.00000016184",
-    "input_cache_read": "0.000000016184"
+    "prompt": "0.000000088606",
+    "completion": "0.000000177212",
+    "input_cache_read": "0.0000000177212"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -10984,8 +10984,8 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.000000075",
-    "completion": "0.0000002"
+    "prompt": "0.00000009375",
+    "completion": "0.00000025"
    },
    "top_provider": {
     "max_completion_tokens": 16384
@@ -11013,7 +11013,7 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000055",
+    "prompt": "0.0000004",
     "completion": "0.0000022"
    },
    "top_provider": {
