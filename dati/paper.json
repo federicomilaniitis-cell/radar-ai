@@ -1,89 +1,89 @@
 {
- "aggiornato": "2026-09-16T00:58:13+00:00",
+ "aggiornato": "2026-09-16T09:37:52+00:00",
  "paper": [
+  {
+   "titolo": "Where Should a Document Live: Context, Representations, or Parameters?",
+   "data": "2026-09-15",
+   "url": "http://arxiv.org/abs/2609.17346v1",
+   "id": "2609.17346v1",
+   "sommario": "To answer questions outside of their pre-training data, large language models (LLMs) need access to new information, which can be presented in the context window as documents, encoded into the model's parameters, or injected as latent representations. However, each of these metho"
+  },
+  {
+   "titolo": "TIO-Former: Ultra-Lightweight 6-Directional ToF-Inertial Odometry for Nano-UAVs via a Streaming Causal Transformer",
+   "data": "2026-09-15",
+   "url": "http://arxiv.org/abs/2609.17198v1",
+   "id": "2609.17198v1",
+   "sommario": "Autonomous nano-UAV navigation requires accurate ego-motion estimation under stringent size, weight, power, and computing (SWaP-C) constraints, where visual sensors and LiDARs exceed payload limits, optical flow degrades in low-texture scenes, and inertial-only state estimation i"
+  },
+  {
+   "titolo": "End-to-End Latency-Minimizing and Load-Balanced Request Scheduling for Edge LLM Inference in Agentic AI Services",
+   "data": "2026-09-15",
+   "url": "http://arxiv.org/abs/2609.17193v1",
+   "id": "2609.17193v1",
+   "sommario": "Large language model (LLM)-powered agentic AI services increasingly demand low-latency inference, motivating the deployment of LLMs across distributed edge servers. However, heterogeneous communication and computing capabilities, together with dynamically evolving inference state"
+  },
+  {
+   "titolo": "Shared-Prefix KV Reuse Across Standard LoRA Adapters: Quality and Serving Tradeoffs",
+   "data": "2026-09-15",
+   "url": "http://arxiv.org/abs/2609.17109v1",
+   "id": "2609.17109v1",
+   "sommario": "A common small-model deployment runs one shared backbone with several LoRA specialists that answer over the same context. Serving them naively re-prefills that shared context once per specialist. We study a narrow, practical question: for already-trained standard LoRA adapters --"
+  },
+  {
+   "titolo": "FlexEE: Self-Speculative and KV-Compatible Early Exiting for Offloading-Aware LLM Inference",
+   "data": "2026-09-15",
+   "url": "http://arxiv.org/abs/2609.17008v1",
+   "id": "2609.17008v1",
+   "sommario": "Large language model (LLM) inference is often constrained by both computation and memory, especially in offloading-based deployments where model weights are transferred across memory hierarchies during autoregressive decoding. In this setting, reducing the number of executed laye"
+  },
+  {
+   "titolo": "VideoMM: Adaptive Macro-Micro Inference for Efficient Video MLLMs",
+   "data": "2026-09-15",
+   "url": "http://arxiv.org/abs/2609.16722v1",
+   "id": "2609.16722v1",
+   "sommario": "Scaling Multimodal Large Language Models (MLLMs) to long-form video understanding is bottlenecked by the explosion of visual tokens, which saturates context windows and incurs prohibitive costs. Current solutions predominantly rely on auxiliary models for token reduction but face"
+  },
+  {
+   "titolo": "Divergence Timing and Cumulative Disagreement under KV-Cache Eviction",
+   "data": "2026-09-15",
+   "url": "http://arxiv.org/abs/2609.16617v1",
+   "id": "2609.16617v1",
+   "sommario": "KV-cache eviction perturbs the conditional token distributions governing autoregressive generation. We investigate how first-divergence timing and subsequent token mismatch determine cumulative disagreement. We derive an exact decomposition under a specified stepwise maximal coup"
+  },
+  {
+   "titolo": "Early-Bird Decoding: Accelerating Diffusion LLMs with Learnable Block Sizes and Parallel Sampling",
+   "data": "2026-09-15",
+   "url": "http://arxiv.org/abs/2609.16450v1",
+   "id": "2609.16450v1",
+   "sommario": "Diffusion large language models (dLLMs) offer a promising parallel decoding paradigm as an alternative to autoregressive generation through iterative unmasking. However, dLLMs typically require many steps before token confidence reaches the decoding threshold, resulting in ineffi"
+  },
+  {
+   "titolo": "Where Should the KV Cache Live? Placement Policies Across GPU, CPU, and SSD for Long-Lived Sessions",
+   "data": "2026-09-14",
+   "url": "http://arxiv.org/abs/2609.16215v1",
+   "id": "2609.16215v1",
+   "sommario": "GPU high bandwidth memory is scarce and expensive, and KV caches consume much of it as chats, agent loops, and document question answering accumulate state. Systems such as Mooncake, LMCache, FlexGen, InfiniGen, and AttentionStore extend GPU memory with CPU DRAM and SSD. The hard"
+  },
+  {
+   "titolo": "Calibrate, Then Route: A Measured Study of Learned Request Routing for Disaggregated LLM Serving",
+   "data": "2026-09-14",
+   "url": "http://arxiv.org/abs/2609.16206v1",
+   "id": "2609.16206v1",
+   "sommario": "Disaggregated LLM serving places compute heavy prefill and memory heavy decode on separate GPU pools. Systems such as DistServe, Splitwise, and Mooncake make this separation fast, but routing still determines which instances handle each request. We study a router that estimates t"
+  },
+  {
+   "titolo": "LLM Inference in a Flash!",
+   "data": "2026-09-14",
+   "url": "http://arxiv.org/abs/2609.16161v1",
+   "id": "2609.16161v1",
+   "sommario": "Large Language Models (LLMs) have shown impressive capabilities across a range of natural language processing tasks, and LLM inference has emerged as a critical workload for enabling downstream applications. The demands of serving LLM inference are becoming increasingly challengi"
+  },
   {
    "titolo": "To Each Language Its Tokenizer: Modular Tokenizers for Efficient Multilingual LLMs",
    "data": "2026-09-14",
    "url": "http://arxiv.org/abs/2609.15528v1",
    "id": "2609.15528v1",
    "sommario": "Multilingual Large Language Models (LLMs) traditionally rely on a single vocabulary shared by all supported languages, which can lead to uneven compression across them. Moreover, their large embedding and output matrices increase memory usage and slow inference, notably for small"
-  },
-  {
-   "titolo": "AnchorGUI: Asymmetric Memory for Dual-Scale Learning in GUI Navigation",
-   "data": "2026-09-14",
-   "url": "http://arxiv.org/abs/2609.15457v1",
-   "id": "2609.15457v1",
-   "sommario": "Vision-Language Models (VLMs) enable autonomous GUI navigation, but agents still struggle to process and learn from dense, continuous visual histories. This bottleneck hinders both immediate error correction within a single episode (intra-trial) and experience distillation across"
-  },
-  {
-   "titolo": "MarKey: Marginal Utility Guided Greedy Keyframe Selection for Long Video Understanding",
-   "data": "2026-09-14",
-   "url": "http://arxiv.org/abs/2609.15408v1",
-   "id": "2609.15408v1",
-   "sommario": "Long-video understanding remains challenging for multimodal large language models (MLLMs) because densely encoding long frame sequences is computationally expensive, while uniform sampling under a limited visual budget can miss sparse yet decisive evidence. Recent training-free k"
-  },
-  {
-   "titolo": "T-LoopFormer: Token-Level Elastic-Depth Looped Transformers for Latent Reasoning With Dynamic Routing",
-   "data": "2026-09-14",
-   "url": "http://arxiv.org/abs/2609.15160v1",
-   "id": "2609.15160v1",
-   "sommario": "Looped Transformers have recently demonstrated strong performance in both reasoning and language tasks by reusing a shared set of parameters across multiple iterations, achieving parameter efficiency without sacrificing representational power. Besides, looped Transformers perform"
-  },
-  {
-   "titolo": "AdaVSkip: Adaptive Visual Token Skipping Across Layers For Efficient MLLMs Inference",
-   "data": "2026-09-14",
-   "url": "http://arxiv.org/abs/2609.15131v1",
-   "id": "2609.15131v1",
-   "sommario": "Multimodal large language models (MLLMs) require substantial computation to process numerous visual tokens across all transformer layers. Most methods for efficient MLLM inference exploit horizontal redundancy by compressing visual tokens. Beyond token reduction, recent studies e"
-  },
-  {
-   "titolo": "AgentKV: Phase-Aware KV Eviction for Agentic LLMs",
-   "data": "2026-09-14",
-   "url": "http://arxiv.org/abs/2609.14872v1",
-   "id": "2609.14872v1",
-   "sommario": "Agentic serving can consume orders of magnitude more tokens than chatbot workloads, stressing both KV-cache capacity and decode-time bandwidth. Most KV-eviction methods score cached keys against representative queries drawn from the most recent tokens, assuming future attention r"
-  },
-  {
-   "titolo": "Self-Orchestrating Language Models: Leveraging Semantic Dependence for Efficient Inference",
-   "data": "2026-09-13",
-   "url": "http://arxiv.org/abs/2609.14850v1",
-   "id": "2609.14850v1",
-   "sommario": "Large language models (LLMs) demonstrate impressive capabilities, but their deployment presents significant efficiency challenges. Autoregressive decoding imposes substantial inference latency and under-utilizes hardware accelerators in low batch size regimes. Discrete diffusion "
-  },
-  {
-   "titolo": "The Attribution-Compression Frontier in Retrieval-Augmented Generation",
-   "data": "2026-09-13",
-   "url": "http://arxiv.org/abs/2609.14245v1",
-   "id": "2609.14245v1",
-   "sommario": "Context compression reduces generator input in retrieval-augmented generation, but answer quality alone does not characterize citation attribution. We measure citation attribution across compression methods and budgets, comparing reranking, extractive selection, abstractive summa"
-  },
-  {
-   "titolo": "Prefix Sharing Is a Sorting Problem",
-   "data": "2026-09-12",
-   "url": "http://arxiv.org/abs/2609.13692v1",
-   "id": "2609.13692v1",
-   "sommario": "LLM serving reuses KV cache by exact prefix match, so when a prompt is assembled from a set of reusable pieces -- retrieved passages, tool definitions, few-shot exemplars -- the order chosen for those pieces determines how much computation can be shared. Every deployed system fix"
-  },
-  {
-   "titolo": "An Efficient and Modular Framework for Targeted Harm Mitigation in LLMS",
-   "data": "2026-09-12",
-   "url": "http://arxiv.org/abs/2609.13624v1",
-   "id": "2609.13624v1",
-   "sommario": "Large Language Models (LLMs) are powerful zero-shot learners but remain prone to misalignment with human preferences, often producing biased, toxic, or otherwise harmful outputs. Existing alignment methods, while effective, are costly and tightly coupled to the model, limiting fl"
-  },
-  {
-   "titolo": "Dynamic HBM Repartitioning for Multi-Turn MoE Serving",
-   "data": "2026-09-11",
-   "url": "http://arxiv.org/abs/2609.13537v1",
-   "id": "2609.13537v1",
-   "sommario": "Long-running multi-turn requests accumulate reusable key-value (KV) state. Once this state exceeds a fixed GPU KV-cache allocation, serving systems evict reusable prefixes, repeat prefill work, and may preempt requests. This pressure is particularly acute for Mixture-of-Experts ("
-  },
-  {
-   "titolo": "Attention Quantization for Tabular Foundation Models",
-   "data": "2026-09-11",
-   "url": "http://arxiv.org/abs/2609.13031v1",
-   "id": "2609.13031v1",
-   "sommario": "With the recent rise and adoption of tabular foundation models, optimizing their inference performance becomes an emerging field for efficiency research. While the models are architecturally similar to transformer-based large language models (LLMs), the size and serving patterns "
   }
  ]
 }
