@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-09-17T01:01:26+00:00",
+ "aggiornato": "2026-09-17T09:46:37+00:00",
  "aggiornato_it": "17 settembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 364,
@@ -49,9 +49,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000066",
-    "completion": "0.00000198",
-    "input_cache_read": "0.000000022"
+    "prompt": "0.0000007",
+    "completion": "0.00000296",
+    "input_cache_read": "0.000000033"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -548,9 +548,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000003"
+    "prompt": "0.0000003",
+    "completion": "0.0000012",
+    "input_cache_read": "0.000000006"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -1542,12 +1542,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000833",
-    "completion": "0.000002618",
-    "input_cache_read": "0.00000013685"
+    "prompt": "0.0000008775",
+    "completion": "0.00000297",
+    "input_cache_read": "0.0000001755"
    },
    "top_provider": {
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 235929
    },
    "supported_parameters": [
     "reasoning",
@@ -1920,9 +1920,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000066",
-    "completion": "0.00000198",
-    "input_cache_read": "0.000000022"
+    "prompt": "0.00000132",
+    "completion": "0.00000396",
+    "input_cache_read": "0.000000044"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -2307,8 +2307,8 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000004",
-    "completion": "0.0000001",
+    "prompt": "0.00000003",
+    "completion": "0.00000013",
     "input_cache_read": "0.00000001"
    },
    "top_provider": {
@@ -5014,9 +5014,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000002",
-    "completion": "0.0000112",
-    "input_cache_read": "0.000000232"
+    "prompt": "0.0000021",
+    "completion": "0.00001095",
+    "input_cache_read": "0.00000023"
    },
    "top_provider": {
     "max_completion_tokens": 943718
