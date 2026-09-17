@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-09-17T15:24:31+00:00",
+ "aggiornato": "2026-09-17T19:58:12+00:00",
  "notizie": [
   {
    "tag": "crit",
@@ -9,6 +9,51 @@
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-09-30. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-dots-studio-dots-3-note-preview-free"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-17",
+   "titolo": "Hy3: il prezzo in entrata scende del 38%",
+   "testo": "Da $0,132 a $0,083 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-tencent-hy3prompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-17",
+   "titolo": "Hy3: il prezzo in uscita scende del 38%",
+   "testo": "Da $0,528 a $0,33 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-tencent-hy3completion"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-17",
+   "titolo": "DeepSeek V3: il prezzo in uscita scende del 13%",
+   "testo": "Da $1,03 a $0,89 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-deepseek-deepseek-chatcompletion"
+  },
+  {
+   "tag": "warn",
+   "tagT": "Prezzo su'",
+   "data": "2026-09-17",
+   "titolo": "DeepSeek V3: il prezzo in entrata sale del 24%",
+   "testo": "Da $0,257 a $0,32 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
+   "id": "prezzo-deepseek-deepseek-chatprompt"
+  },
+  {
+   "tag": "open",
+   "tagT": "Pesi aperti",
+   "data": "2026-08-14",
+   "titolo": "Qwen3.8 27B (free): e' disponibile da oggi",
+   "testo": "Qwen3.8 27B (free) entra nel catalogo. Prezzo: $0 per milione di token in entrata, $0 in uscita. Tiene 262.144 token di contesto. Punteggio di intelligenza indipendente: 33,9.",
+   "perche": "Puoi scaricarlo e farlo girare su macchine tue, senza che i dati escano.",
+   "id": "nuovo-qwen-qwen3-8-27b-free"
   },
   {
    "tag": "ok",
@@ -149,24 +194,6 @@
    "tag": "warn",
    "tagT": "Prezzo su'",
    "data": "2026-09-17",
-   "titolo": "Hy3: il prezzo in entrata sale del 60%",
-   "testo": "Da $0,083 a $0,132 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
-   "id": "prezzo-tencent-hy3prompt"
-  },
-  {
-   "tag": "warn",
-   "tagT": "Prezzo su'",
-   "data": "2026-09-17",
-   "titolo": "Hy3: il prezzo in uscita sale del 60%",
-   "testo": "Da $0,33 a $0,528 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
-   "id": "prezzo-tencent-hy3completion"
-  },
-  {
-   "tag": "warn",
-   "tagT": "Prezzo su'",
-   "data": "2026-09-17",
    "titolo": "Nemotron 3 Nano 30B A3B: il prezzo in entrata sale del 20%",
    "testo": "Da $0,05 a $0,06 per milione di token in entrata.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
@@ -189,33 +216,6 @@
    "testo": "Da $2,65 a $3 per milione di token in entrata.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
    "id": "prezzo-moonshotai-kimi-k3prompt"
-  },
-  {
-   "tag": "warn",
-   "tagT": "Prezzo su'",
-   "data": "2026-09-16",
-   "titolo": "Kimi K3: il prezzo in uscita sale del 13%",
-   "testo": "Da $13,28 a $15 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
-   "id": "prezzo-moonshotai-kimi-k3completion"
-  },
-  {
-   "tag": "warn",
-   "tagT": "Prezzo su'",
-   "data": "2026-09-16",
-   "titolo": "Nemotron 3 Ultra: il prezzo in uscita sale del 30%",
-   "testo": "Da $2,4 a $3,12 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
-   "id": "prezzo-nvidia-nemotron-3-ultra-550b-a55bcompletion"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-09-16",
-   "titolo": "GLM 5.3 Flash: il prezzo in entrata scende del 10%",
-   "testo": "Da $0,1 a $0,09 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-z-ai-glm-5-3-flashprompt"
   }
  ]
 }

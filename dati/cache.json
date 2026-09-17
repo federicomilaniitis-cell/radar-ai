@@ -1,8 +1,8 @@
 {
- "aggiornato": "2026-09-17T15:24:31+00:00",
+ "aggiornato": "2026-09-17T19:58:12+00:00",
  "aggiornato_it": "17 settembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 364,
+ "totale": 365,
  "modelli": [
   {
    "id": "stealth/union-alpha",
@@ -1690,7 +1690,56 @@
      "agentic_index": 46.5
     }
    },
-   "ha_versione_gratuita": false
+   "ha_versione_gratuita": true
+  },
+  {
+   "id": "qwen/qwen3.8-27b:free",
+   "name": "Qwen: Qwen3.8 27B (free)",
+   "created": 1786722910,
+   "context_length": 262144,
+   "description": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be...",
+   "hugging_face_id": "Qwen/Qwen3.8-27B",
+   "architecture": {
+    "input_modalities": [
+     "text",
+     "image",
+     "video"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image+video->text"
+   },
+   "pricing": {
+    "prompt": "0",
+    "completion": "0"
+   },
+   "top_provider": {
+    "max_completion_tokens": 235929
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": false,
+    "default_enabled": true,
+    "supported_efforts": [
+     "xhigh",
+     "medium",
+     "low"
+    ],
+    "default_effort": "xhigh"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 33.9,
+     "coding_index": 68.1,
+     "agentic_index": 46.5
+    }
+   },
+   "ha_versione_gratuita": true
   },
   {
    "id": "dots-studio/dots-3-note-preview:free",
@@ -3549,9 +3598,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000132",
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033"
+    "prompt": "0.0000000825",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -12697,11 +12746,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000002574",
-    "completion": "0.0000010287"
+    "prompt": "0.00000032",
+    "completion": "0.00000089"
    },
    "top_provider": {
-    "max_completion_tokens": 16000
+    "max_completion_tokens": 16384
    },
    "supported_parameters": [
     "structured_outputs",
