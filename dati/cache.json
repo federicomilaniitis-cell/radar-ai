@@ -1,16 +1,15 @@
 {
- "aggiornato": "2026-09-17T19:58:12+00:00",
- "aggiornato_it": "17 settembre 2026",
+ "aggiornato": "2026-09-18T00:57:22+00:00",
+ "aggiornato_it": "18 settembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 365,
  "modelli": [
   {
-   "id": "stealth/union-alpha",
-   "name": "Union Alpha",
-   "created": 1789569723,
+   "id": "unbiased/pareto",
+   "name": "Pareto",
+   "created": 1789686178,
    "context_length": 262144,
-   "description": "Union Alpha is a multimodal model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks. Union Alpha is a stealth model....",
-   "expiration_date": "2098-12-31",
+   "description": "Pareto is a multimodal composite model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks.",
    "architecture": {
     "input_modalities": [
      "text",
@@ -22,8 +21,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0",
-    "completion": "0"
+    "prompt": "0.0000025",
+    "completion": "0.0000075",
+    "input_cache_read": "0.00000025"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -49,12 +49,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000057948",
-    "completion": "0.00000173844",
-    "input_cache_read": "0.000000018438"
+    "prompt": "0.00000066",
+    "completion": "0.00000198",
+    "input_cache_read": "0.000000022"
    },
    "top_provider": {
-    "max_completion_tokens": 393216
+    "max_completion_tokens": 384000
    },
    "supported_parameters": [
     "reasoning",
@@ -94,7 +94,7 @@
     "input_cache_read": "0.000000015"
    },
    "top_provider": {
-    "max_completion_tokens": 393216
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -1448,12 +1448,12 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000022",
-    "completion": "0.00000066",
-    "input_cache_read": "0.000000007"
+    "prompt": "0.0000002156",
+    "completion": "0.0000006468",
+    "input_cache_read": "0.00000000686"
    },
    "top_provider": {
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 262144
    },
    "supported_parameters": [
     "reasoning",
@@ -1969,12 +1969,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000057948",
-    "completion": "0.00000173844",
-    "input_cache_read": "0.000000018438"
+    "prompt": "0.00000066",
+    "completion": "0.00000198",
+    "input_cache_read": "0.000000022"
    },
    "top_provider": {
-    "max_completion_tokens": 393216
+    "max_completion_tokens": 384000
    },
    "supported_parameters": [
     "reasoning",
@@ -2356,12 +2356,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000003",
-    "completion": "0.00000013",
-    "input_cache_read": "0.00000001"
+    "prompt": "0.0000000549",
+    "completion": "0.0000001734",
+    "input_cache_read": "0.0000000087"
    },
    "top_provider": {
-    "max_completion_tokens": 393216
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -3007,9 +3007,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000003",
-    "completion": "0.000015",
-    "input_cache_read": "0.0000003"
+    "prompt": "0.0000021",
+    "completion": "0.00001095",
+    "input_cache_read": "0.00000023"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -3598,9 +3598,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000825",
-    "completion": "0.00000033",
-    "input_cache_read": "0.000000020625"
+    "prompt": "0.000000132",
+    "completion": "0.000000528",
+    "input_cache_read": "0.000000033"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -5531,9 +5531,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000007",
-    "completion": "0.00000014",
-    "input_cache_read": "0.000000014"
+    "prompt": "0.000000088606",
+    "completion": "0.000000177212",
+    "input_cache_read": "0.0000000177212"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -9617,12 +9617,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000043",
-    "completion": "0.00000175",
-    "input_cache_read": "0.00000008"
+    "prompt": "0.0000005",
+    "completion": "0.000002",
+    "input_cache_read": "0.0000001"
    },
    "top_provider": {
-    "max_completion_tokens": 16384
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -10445,11 +10445,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000037",
-    "completion": "0.00000017"
+    "prompt": "0.00000015",
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000075"
    },
    "top_provider": {
-    "max_completion_tokens": 117964
+    "max_completion_tokens": 65536
    },
    "supported_parameters": [
     "reasoning",
