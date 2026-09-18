@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-09-18T00:57:22+00:00",
+ "aggiornato": "2026-09-18T09:20:06+00:00",
  "aggiornato_it": "18 settembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 365,
@@ -49,9 +49,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000066",
-    "completion": "0.00000198",
-    "input_cache_read": "0.000000022"
+    "prompt": "0.0000007",
+    "completion": "0.00000296",
+    "input_cache_read": "0.000000033"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -89,9 +89,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000015"
+    "prompt": "0.0000001485",
+    "completion": "0.000000594",
+    "input_cache_read": "0.000000004455"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -548,9 +548,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000003"
+    "prompt": "0.0000003",
+    "completion": "0.0000012",
+    "input_cache_read": "0.000000006"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -1969,9 +1969,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000066",
-    "completion": "0.00000198",
-    "input_cache_read": "0.000000022"
+    "prompt": "0.00000132",
+    "completion": "0.00000396",
+    "input_cache_read": "0.000000044"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -2356,9 +2356,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000549",
-    "completion": "0.0000001734",
-    "input_cache_read": "0.0000000087"
+    "prompt": "0.0000000558",
+    "completion": "0.0000001767",
+    "input_cache_read": "0.0000000088"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -2428,7 +2428,55 @@
     }
    },
    "supported_voices": [],
-   "ha_versione_gratuita": false
+   "ha_versione_gratuita": true
+  },
+  {
+   "id": "deepseek/deepseek-v4-flash-0731:free",
+   "name": "DeepSeek: DeepSeek V4 Flash 0731 (free)",
+   "created": 1785478908,
+   "context_length": 1048576,
+   "description": "DeepSeek V4 Flash 0731 is a sparse mixture-of-experts model from DeepSeek, with 13B active parameters out of 284B total. This re-post-trained revision is suited for coding, reasoning, and agent workflows....",
+   "hugging_face_id": "deepseek-ai/DeepSeek-V4-Flash-0731",
+   "architecture": {
+    "input_modalities": [
+     "text"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text->text"
+   },
+   "pricing": {
+    "prompt": "0",
+    "completion": "0"
+   },
+   "top_provider": {
+    "max_completion_tokens": 393216
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": false,
+    "default_enabled": true,
+    "supported_efforts": [
+     "max",
+     "high",
+     "low"
+    ],
+    "default_effort": "high"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 34.5,
+     "coding_index": 69.1,
+     "agentic_index": 41.7
+    }
+   },
+   "supported_voices": [],
+   "ha_versione_gratuita": true
   },
   {
    "id": "thinkingmachines/inkling-small",
@@ -3958,12 +4006,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000014",
-    "completion": "0.0000044",
-    "input_cache_read": "0.00000014"
+    "prompt": "0.0000005625",
+    "completion": "0.0000018",
+    "input_cache_read": "0.000000105"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 163840
    },
    "supported_parameters": [
     "reasoning",
@@ -8723,45 +8771,6 @@
    "ha_versione_gratuita": false
   },
   {
-   "id": "mistralai/mistral-large-2512",
-   "name": "Mistral: Mistral Large 3 2512",
-   "created": 1764624472,
-   "context_length": 262144,
-   "description": "Mistral Large 3 2512 is Mistral’s most capable model to date, featuring a sparse mixture-of-experts architecture with 41B active parameters (675B total), and released under the Apache 2.0 license.",
-   "hugging_face_id": "",
-   "architecture": {
-    "input_modalities": [
-     "text",
-     "image",
-     "file"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text+image+file->text"
-   },
-   "pricing": {
-    "prompt": "0.0000005",
-    "completion": "0.0000015",
-    "input_cache_read": "0.00000005"
-   },
-   "top_provider": {
-    "max_completion_tokens": 209715
-   },
-   "supported_parameters": [
-    "structured_outputs",
-    "tools"
-   ],
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": 9.7,
-     "coding_index": 20.1,
-     "agentic_index": 2.4
-    }
-   },
-   "ha_versione_gratuita": false
-  },
-  {
    "id": "deepseek/deepseek-v3.2",
    "name": "DeepSeek: DeepSeek V3.2",
    "created": 1764594642,
@@ -9617,12 +9626,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000005",
-    "completion": "0.000002",
-    "input_cache_read": "0.0000001"
+    "prompt": "0.00000043",
+    "completion": "0.00000175",
+    "input_cache_read": "0.00000008"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 16384
    },
    "supported_parameters": [
     "reasoning",
