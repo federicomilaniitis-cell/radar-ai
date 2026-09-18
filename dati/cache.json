@@ -1,9 +1,49 @@
 {
- "aggiornato": "2026-09-18T14:44:31+00:00",
+ "aggiornato": "2026-09-18T19:22:55+00:00",
  "aggiornato_it": "18 settembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 365,
+ "totale": 366,
  "modelli": [
+  {
+   "id": "prism-ml/ternary-bonsai-2-27b",
+   "name": "PrismML: Ternary Bonsai 2 27B",
+   "created": 1789754046,
+   "context_length": 262144,
+   "description": "Bonsai 2 27B is a 27B-parameter reasoning model from PrismML derived from Qwen3.8-27B. It supports coding, mathematics, tool calling, and image understanding with a 262K-token context window. Ternary compression shrinks...",
+   "hugging_face_id": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+   "architecture": {
+    "input_modalities": [
+     "text",
+     "image"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image->text"
+   },
+   "pricing": {
+    "prompt": "0.000000075",
+    "completion": "0.0000005"
+   },
+   "top_provider": {
+    "max_completion_tokens": 32768
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": false,
+    "default_enabled": true,
+    "supported_efforts": [
+     "xhigh",
+     "medium"
+    ],
+    "default_effort": "xhigh"
+   },
+   "ha_versione_gratuita": false
+  },
   {
    "id": "unbiased/pareto",
    "name": "Pareto",
@@ -49,12 +89,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000057948",
-    "completion": "0.00000173844",
-    "input_cache_read": "0.000000019316"
+    "prompt": "0.00000057816",
+    "completion": "0.00000173448",
+    "input_cache_read": "0.000000018396"
    },
    "top_provider": {
-    "max_completion_tokens": 384000
+    "max_completion_tokens": 393216
    },
    "supported_parameters": [
     "reasoning",
@@ -89,12 +129,12 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000015"
+    "prompt": "0.00000014",
+    "completion": "0.00000042",
+    "input_cache_read": "0.0000000042"
    },
    "top_provider": {
-    "max_completion_tokens": 393216
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -1542,12 +1582,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000009",
-    "completion": "0.000003",
-    "input_cache_read": "0.00000015"
+    "prompt": "0.0000008925",
+    "completion": "0.000002805",
+    "input_cache_read": "0.000000146625"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -1611,12 +1651,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000014",
-    "completion": "0.0000044",
-    "input_cache_read": "0.00000026"
+    "prompt": "0.00000091",
+    "completion": "0.00000286",
+    "input_cache_read": "0.000000169"
    },
    "top_provider": {
-    "max_completion_tokens": 943717
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -1969,12 +2009,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000057948",
-    "completion": "0.00000173844",
-    "input_cache_read": "0.000000019316"
+    "prompt": "0.00000057816",
+    "completion": "0.00000173448",
+    "input_cache_read": "0.000000018396"
    },
    "top_provider": {
-    "max_completion_tokens": 384000
+    "max_completion_tokens": 393216
    },
    "supported_parameters": [
     "reasoning",
@@ -2234,7 +2274,18 @@
     "tools"
    ],
    "reasoning": {
-    "mandatory": false
+    "mandatory": false,
+    "default_enabled": false,
+    "supported_efforts": [
+     "max",
+     "xhigh",
+     "high",
+     "medium",
+     "low",
+     "minimal",
+     "none"
+    ],
+    "default_effort": "medium"
    },
    "benchmarks": {
     "artificial_analysis": {
@@ -2263,8 +2314,8 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.0000003",
-    "completion": "0.0000011",
+    "prompt": "0.00000035",
+    "completion": "0.0000015",
     "input_cache_read": "0.00000004"
    },
    "top_provider": {
@@ -3646,9 +3697,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000132",
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033"
+    "prompt": "0.0000000825",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -5579,9 +5630,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000004984",
-    "completion": "0.00000009968",
-    "input_cache_read": "0.000000009968"
+    "prompt": "0.000000049",
+    "completion": "0.000000098",
+    "input_cache_read": "0.0000000098"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -7912,7 +7963,16 @@
     "tools"
    ],
    "reasoning": {
-    "mandatory": false
+    "mandatory": false,
+    "default_enabled": false,
+    "supported_efforts": [
+     "high",
+     "medium",
+     "low",
+     "minimal",
+     "none"
+    ],
+    "default_effort": "medium"
    },
    "benchmarks": {
     "artificial_analysis": {
