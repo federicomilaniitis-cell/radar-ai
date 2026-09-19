@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-09-19T14:06:51+00:00",
+ "aggiornato": "2026-09-19T19:07:16+00:00",
  "aggiornato_it": "19 settembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 367,
@@ -1624,9 +1624,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000008918",
-    "completion": "0.0000028028",
-    "input_cache_read": "0.00000016562"
+    "prompt": "0.0000008442",
+    "completion": "0.0000026532",
+    "input_cache_read": "0.00000015678"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -2051,12 +2051,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000066",
-    "completion": "0.00000198",
-    "input_cache_read": "0.000000022"
+    "prompt": "0.00000057816",
+    "completion": "0.00000173448",
+    "input_cache_read": "0.000000018396"
    },
    "top_provider": {
-    "max_completion_tokens": 384000
+    "max_completion_tokens": 393216
    },
    "supported_parameters": [
     "reasoning",
@@ -3739,9 +3739,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000132",
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033"
+    "prompt": "0.0000000825",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -5672,9 +5672,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000004312",
-    "completion": "0.00000008624",
-    "input_cache_read": "0.000000008624"
+    "prompt": "0.00000004032",
+    "completion": "0.00000008064",
+    "input_cache_read": "0.000000008064"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -9660,8 +9660,8 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.0000002",
-    "completion": "0.0000007"
+    "prompt": "0.00000013",
+    "completion": "0.00000052"
    },
    "top_provider": {
     "max_completion_tokens": 32768
@@ -9729,12 +9729,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000005",
-    "completion": "0.000002",
-    "input_cache_read": "0.0000001"
+    "prompt": "0.00000043",
+    "completion": "0.00000175",
+    "input_cache_read": "0.00000008"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 16384
    },
    "supported_parameters": [
     "reasoning",
