@@ -1,8 +1,8 @@
 {
- "aggiornato": "2026-09-19T00:53:16+00:00",
+ "aggiornato": "2026-09-19T09:07:43+00:00",
  "aggiornato_it": "19 settembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 366,
+ "totale": 367,
  "modelli": [
   {
    "id": "prism-ml/ternary-bonsai-2-27b",
@@ -41,6 +41,48 @@
      "medium"
     ],
     "default_effort": "xhigh"
+   },
+   "ha_versione_gratuita": false
+  },
+  {
+   "id": "z-ai/glm-5.3-flashx",
+   "name": "Z.ai: GLM 5.3 FlashX",
+   "created": 1789744020,
+   "context_length": 1048576,
+   "description": "GLM-5.3-FlashX is the high-speed variant of Z.ai's GLM-5.3-Flash, a native multimodal model delivering inference speeds of up to 200 tokens/s. Built on the same hybrid sparse and linear attention architecture...",
+   "hugging_face_id": "",
+   "architecture": {
+    "input_modalities": [
+     "text",
+     "image",
+     "video"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image+video->text"
+   },
+   "pricing": {
+    "prompt": "0.00000037",
+    "completion": "0.00000125",
+    "input_cache_read": "0.000000075"
+   },
+   "top_provider": {
+    "max_completion_tokens": 131072
+   },
+   "supported_parameters": [
+    "reasoning",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": true,
+    "default_enabled": true,
+    "supported_efforts": [
+     "max",
+     "high",
+     "low"
+    ],
+    "default_effort": "max"
    },
    "ha_versione_gratuita": false
   },
@@ -129,9 +171,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.000000135",
-    "completion": "0.00000054",
-    "input_cache_read": "0.00000000405"
+    "prompt": "0.00000013",
+    "completion": "0.00000052",
+    "input_cache_read": "0.0000000026"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -2407,12 +2449,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000005148",
-    "completion": "0.00000015444",
-    "input_cache_read": "0.000000001638"
+    "prompt": "0.00000004",
+    "completion": "0.00000008",
+    "input_cache_read": "0.000000016"
    },
    "top_provider": {
-    "max_completion_tokens": 384000
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -2449,9 +2491,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000006",
-    "completion": "0.00000012",
-    "input_cache_read": "0.000000012"
+    "prompt": "0.00000004",
+    "completion": "0.00000008",
+    "input_cache_read": "0.000000016"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -3106,9 +3148,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000195",
-    "completion": "0.00001092",
-    "input_cache_read": "0.0000002262"
+    "prompt": "0.0000017",
+    "completion": "0.0000085",
+    "input_cache_read": "0.00000017"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -5162,9 +5204,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000195",
-    "completion": "0.00001092",
-    "input_cache_read": "0.0000002262"
+    "prompt": "0.0000017",
+    "completion": "0.0000085",
+    "input_cache_read": "0.00000017"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -5584,9 +5626,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000675816",
-    "completion": "0.000001351632",
-    "input_cache_read": "0.000000056318"
+    "prompt": "0.000000513474",
+    "completion": "0.000001026948",
+    "input_cache_read": "0.0000000427895"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -5630,9 +5672,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000004844",
-    "completion": "0.00000009688",
-    "input_cache_read": "0.000000009688"
+    "prompt": "0.00000004536",
+    "completion": "0.00000009072",
+    "input_cache_read": "0.000000009072"
    },
    "top_provider": {
     "max_completion_tokens": 384000

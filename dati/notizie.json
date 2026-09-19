@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-09-19T00:53:16+00:00",
+ "aggiornato": "2026-09-19T09:07:43+00:00",
  "notizie": [
   {
    "tag": "crit",
@@ -41,6 +41,96 @@
    "tag": "ok",
    "tagT": "Prezzo giu'",
    "data": "2026-09-19",
+   "titolo": "DeepSeek V4 Flash Latest: il prezzo in entrata scende del 22%",
+   "testo": "Da $0,051 a $0,04 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo--deepseek-deepseek-v4-flash-latestprompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-19",
+   "titolo": "DeepSeek V4 Flash Latest: il prezzo in uscita scende del 48%",
+   "testo": "Da $0,154 a $0,08 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo--deepseek-deepseek-v4-flash-latestcompletion"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-19",
+   "titolo": "DeepSeek V4 Flash 0731: il prezzo in entrata scende del 33%",
+   "testo": "Da $0,06 a $0,04 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-deepseek-deepseek-v4-flash-0731prompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-19",
+   "titolo": "DeepSeek V4 Flash 0731: il prezzo in uscita scende del 33%",
+   "testo": "Da $0,12 a $0,08 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-deepseek-deepseek-v4-flash-0731completion"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-19",
+   "titolo": "Kimi K3: il prezzo in entrata scende del 13%",
+   "testo": "Da $1,95 a $1,7 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-moonshotai-kimi-k3prompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-19",
+   "titolo": "Kimi K3: il prezzo in uscita scende del 22%",
+   "testo": "Da $10,92 a $8,5 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-moonshotai-kimi-k3completion"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-19",
+   "titolo": "Kimi Latest: il prezzo in entrata scende del 13%",
+   "testo": "Da $1,95 a $1,7 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo--moonshotai-kimi-latestprompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-19",
+   "titolo": "Kimi Latest: il prezzo in uscita scende del 22%",
+   "testo": "Da $10,92 a $8,5 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo--moonshotai-kimi-latestcompletion"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-19",
+   "titolo": "DeepSeek V4 Pro 0423: il prezzo in entrata scende del 24%",
+   "testo": "Da $0,676 a $0,513 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-deepseek-deepseek-v4-proprompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-19",
+   "titolo": "DeepSeek V4 Pro 0423: il prezzo in uscita scende del 24%",
+   "testo": "Da $1,35 a $1,03 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-deepseek-deepseek-v4-procompletion"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-19",
    "titolo": "Nemotron 3.5 Lightning: il prezzo in entrata scende del 12%",
    "testo": "Da $0,08 a $0,07 per milione di token in entrata.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
@@ -50,64 +140,10 @@
    "tag": "ok",
    "tagT": "Prezzo giu'",
    "data": "2026-09-19",
-   "titolo": "DeepSeek V4 Flash Latest: il prezzo in entrata scende del 6%",
-   "testo": "Da $0,055 a $0,051 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo--deepseek-deepseek-v4-flash-latestprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-09-19",
-   "titolo": "DeepSeek V4 Flash Latest: il prezzo in uscita scende del 6%",
-   "testo": "Da $0,165 a $0,154 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo--deepseek-deepseek-v4-flash-latestcompletion"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-09-19",
-   "titolo": "Kimi K3: il prezzo in entrata scende del 7%",
-   "testo": "Da $2,1 a $1,95 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-moonshotai-kimi-k3prompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-09-19",
    "titolo": "Nemotron 3 Ultra: il prezzo in uscita scende del 23%",
    "testo": "Da $3,12 a $2,4 per milione di token in uscita.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
    "id": "prezzo-nvidia-nemotron-3-ultra-550b-a55bcompletion"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-09-19",
-   "titolo": "Kimi Latest: il prezzo in entrata scende del 7%",
-   "testo": "Da $2,1 a $1,95 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo--moonshotai-kimi-latestprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-09-19",
-   "titolo": "DeepSeek V4 Pro 0423: il prezzo in entrata scende del 58%",
-   "testo": "Da $1,6 a $0,676 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-deepseek-deepseek-v4-proprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-09-19",
-   "titolo": "DeepSeek V4 Pro 0423: il prezzo in uscita scende del 58%",
-   "testo": "Da $3,2 a $1,35 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-deepseek-deepseek-v4-procompletion"
   },
   {
    "tag": "warn",
@@ -180,42 +216,6 @@
    "testo": "Da $0,3 a $0,35 per milione di token in entrata.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
    "id": "prezzo-meta-muse-glimmer-30bprompt"
-  },
-  {
-   "tag": "warn",
-   "tagT": "Prezzo su'",
-   "data": "2026-09-18",
-   "titolo": "Muse Glimmer 30B: il prezzo in uscita sale del 36%",
-   "testo": "Da $1,1 a $1,5 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
-   "id": "prezzo-meta-muse-glimmer-30bcompletion"
-  },
-  {
-   "tag": "open",
-   "tagT": "Pesi aperti",
-   "data": "2026-09-18",
-   "titolo": "Ternary Bonsai 2 27B: e' disponibile da oggi",
-   "testo": "Ternary Bonsai 2 27B entra nel catalogo. Prezzo: $0,075 per milione di token in entrata, $0,5 in uscita. Tiene 262.144 token di contesto.",
-   "perche": "Puoi scaricarlo e farlo girare su macchine tue, senza che i dati escano.",
-   "id": "nuovo-prism-ml-ternary-bonsai-2-27b"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-09-18",
-   "titolo": "DeepSeek Pro Latest: il prezzo in entrata scende del 17%",
-   "testo": "Da $0,7 a $0,579 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo--deepseek-deepseek-pro-latestprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-09-18",
-   "titolo": "DeepSeek Pro Latest: il prezzo in uscita scende del 41%",
-   "testo": "Da $2,96 a $1,74 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo--deepseek-deepseek-pro-latestcompletion"
   }
  ]
 }
