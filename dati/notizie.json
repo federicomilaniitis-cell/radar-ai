@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-09-20T00:33:34+00:00",
+ "aggiornato": "2026-09-20T09:33:42+00:00",
  "notizie": [
   {
    "tag": "crit",
@@ -14,10 +14,55 @@
    "tag": "crit",
    "tagT": "Chiusura",
    "data": "2026-09-20",
+   "titolo": "MiniMax M2.1 viene spento fra 18 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-08. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-minimax-minimax-m2-1"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-09-20",
+   "titolo": "DeepSeek V3.2 viene spento fra 8 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-09-28. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-deepseek-deepseek-v3-2"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-09-20",
+   "titolo": "DeepSeek V3.2 Exp viene spento fra 8 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-09-28. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-deepseek-deepseek-v3-2-exp"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-09-20",
+   "titolo": "DeepSeek V3.1 Terminus viene spento fra 8 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-09-28. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-deepseek-deepseek-v3-1-terminus"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-09-20",
    "titolo": "Gemini 2.5 Flash Lite viene spento fra 30 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-20. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-google-gemini-2-5-flash-lite"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-09-20",
+   "titolo": "ERNIE 4.5 VL 424B A47B  viene spento fra 18 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-08. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-baidu-ernie-4-5-vl-424b-a47b"
   },
   {
    "tag": "crit",
@@ -36,6 +81,51 @@
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-20. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-google-gemini-2-5-pro"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-09-20",
+   "titolo": "R1 Distill Llama 70B viene spento fra 8 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-09-28. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-deepseek-deepseek-r1-distill-llama-70b"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-20",
+   "titolo": "Muse Glimmer 30B: il prezzo in entrata scende del 14%",
+   "testo": "Da $0,35 a $0,3 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-meta-muse-glimmer-30bprompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-20",
+   "titolo": "Muse Glimmer 30B: il prezzo in uscita scende del 20%",
+   "testo": "Da $1,5 a $1,2 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-meta-muse-glimmer-30bcompletion"
+  },
+  {
+   "tag": "warn",
+   "tagT": "Prezzo su'",
+   "data": "2026-09-20",
+   "titolo": "DeepSeek V4 Pro 0813: il prezzo in entrata sale del 14%",
+   "testo": "Da $0,578 a $0,66 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
+   "id": "prezzo-deepseek-deepseek-v4-pro-0813prompt"
+  },
+  {
+   "tag": "warn",
+   "tagT": "Prezzo su'",
+   "data": "2026-09-20",
+   "titolo": "DeepSeek V4 Pro 0813: il prezzo in uscita sale del 14%",
+   "testo": "Da $1,73 a $1,98 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
+   "id": "prezzo-deepseek-deepseek-v4-pro-0813completion"
   },
   {
    "tag": "ok",
@@ -122,100 +212,10 @@
    "tag": "ok",
    "tagT": "Prezzo giu'",
    "data": "2026-09-19",
-   "titolo": "DeepSeek V4 Pro 0813: il prezzo in entrata scende del 12%",
-   "testo": "Da $0,66 a $0,578 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-deepseek-deepseek-v4-pro-0813prompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-09-19",
-   "titolo": "DeepSeek V4 Pro 0813: il prezzo in uscita scende del 12%",
-   "testo": "Da $1,98 a $1,73 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-deepseek-deepseek-v4-pro-0813completion"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-09-19",
    "titolo": "Qwen3 VL 30B A3B Instruct: il prezzo in entrata scende del 35%",
    "testo": "Da $0,2 a $0,13 per milione di token in entrata.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
    "id": "prezzo-qwen-qwen3-vl-30b-a3b-instructprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-09-19",
-   "titolo": "Qwen3 VL 30B A3B Instruct: il prezzo in uscita scende del 26%",
-   "testo": "Da $0,7 a $0,52 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-qwen-qwen3-vl-30b-a3b-instructcompletion"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-09-19",
-   "titolo": "DeepSeek V4 Pro 0423: il prezzo in entrata scende del 18%",
-   "testo": "Da $0,513 a $0,422 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-deepseek-deepseek-v4-proprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-09-19",
-   "titolo": "DeepSeek V4 Pro 0423: il prezzo in uscita scende del 18%",
-   "testo": "Da $1,03 a $0,845 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-deepseek-deepseek-v4-procompletion"
-  },
-  {
-   "tag": "warn",
-   "tagT": "Prezzo su'",
-   "data": "2026-09-19",
-   "titolo": "GLM 4.6: il prezzo in entrata sale del 16%",
-   "testo": "Da $0,43 a $0,5 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
-   "id": "prezzo-z-ai-glm-4-6prompt"
-  },
-  {
-   "tag": "warn",
-   "tagT": "Prezzo su'",
-   "data": "2026-09-19",
-   "titolo": "GLM 4.6: il prezzo in uscita sale del 14%",
-   "testo": "Da $1,75 a $2 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
-   "id": "prezzo-z-ai-glm-4-6completion"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-09-19",
-   "titolo": "DeepSeek V4 Flash Latest: il prezzo in entrata scende del 22%",
-   "testo": "Da $0,051 a $0,04 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo--deepseek-deepseek-v4-flash-latestprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-09-19",
-   "titolo": "DeepSeek V4 Flash Latest: il prezzo in uscita scende del 48%",
-   "testo": "Da $0,154 a $0,08 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo--deepseek-deepseek-v4-flash-latestcompletion"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-09-19",
-   "titolo": "DeepSeek V4 Flash 0731: il prezzo in entrata scende del 33%",
-   "testo": "Da $0,06 a $0,04 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-deepseek-deepseek-v4-flash-0731prompt"
   }
  ]
 }
