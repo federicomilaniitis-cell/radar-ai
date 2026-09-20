@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-09-20T09:33:42+00:00",
+ "aggiornato": "2026-09-20T14:25:18+00:00",
  "notizie": [
   {
    "tag": "crit",
@@ -95,6 +95,42 @@
    "tag": "ok",
    "tagT": "Prezzo giu'",
    "data": "2026-09-20",
+   "titolo": "Qwen3.8 27B: il prezzo in entrata scende del 52%",
+   "testo": "Da $0,42 a $0,2 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-qwen-qwen3-8-27bprompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-20",
+   "titolo": "Qwen3.8 27B: il prezzo in uscita scende del 15%",
+   "testo": "Da $3 a $2,55 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-qwen-qwen3-8-27bcompletion"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-20",
+   "titolo": "DeepSeek V4 Pro 0813: il prezzo in entrata scende del 17%",
+   "testo": "Da $0,66 a $0,55 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-deepseek-deepseek-v4-pro-0813prompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-20",
+   "titolo": "DeepSeek V4 Pro 0813: il prezzo in uscita scende del 17%",
+   "testo": "Da $1,98 a $1,65 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-deepseek-deepseek-v4-pro-0813completion"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-20",
    "titolo": "Muse Glimmer 30B: il prezzo in entrata scende del 14%",
    "testo": "Da $0,35 a $0,3 per milione di token in entrata.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
@@ -108,24 +144,6 @@
    "testo": "Da $1,5 a $1,2 per milione di token in uscita.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
    "id": "prezzo-meta-muse-glimmer-30bcompletion"
-  },
-  {
-   "tag": "warn",
-   "tagT": "Prezzo su'",
-   "data": "2026-09-20",
-   "titolo": "DeepSeek V4 Pro 0813: il prezzo in entrata sale del 14%",
-   "testo": "Da $0,578 a $0,66 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
-   "id": "prezzo-deepseek-deepseek-v4-pro-0813prompt"
-  },
-  {
-   "tag": "warn",
-   "tagT": "Prezzo su'",
-   "data": "2026-09-20",
-   "titolo": "DeepSeek V4 Pro 0813: il prezzo in uscita sale del 14%",
-   "testo": "Da $1,73 a $1,98 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
-   "id": "prezzo-deepseek-deepseek-v4-pro-0813completion"
   },
   {
    "tag": "ok",
@@ -144,24 +162,6 @@
    "testo": "Da $0,081 a $0,075 per milione di token in uscita.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
    "id": "prezzo-deepseek-deepseek-v4-flashcompletion"
-  },
-  {
-   "tag": "warn",
-   "tagT": "Prezzo su'",
-   "data": "2026-09-20",
-   "titolo": "Qwen3.8 27B: il prezzo in entrata sale del 96%",
-   "testo": "Da $0,214 a $0,42 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
-   "id": "prezzo-qwen-qwen3-8-27bprompt"
-  },
-  {
-   "tag": "warn",
-   "tagT": "Prezzo su'",
-   "data": "2026-09-20",
-   "titolo": "Qwen3.8 27B: il prezzo in uscita sale del 18%",
-   "testo": "Da $2,55 a $3 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
-   "id": "prezzo-qwen-qwen3-8-27bcompletion"
   },
   {
    "tag": "warn",

@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-09-20T09:33:42+00:00",
+ "aggiornato": "2026-09-20T14:25:18+00:00",
  "aggiornato_it": "20 settembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 366,
@@ -131,12 +131,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000005676",
-    "completion": "0.0000017028",
-    "input_cache_read": "0.00000001806"
+    "prompt": "0.00000055044",
+    "completion": "0.00000165132",
+    "input_cache_read": "0.000000018348"
    },
    "top_provider": {
-    "max_completion_tokens": 393216
+    "max_completion_tokens": 384000
    },
    "supported_parameters": [
     "reasoning",
@@ -1693,9 +1693,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000896",
-    "completion": "0.000002816",
-    "input_cache_read": "0.0000001664"
+    "prompt": "0.000000882",
+    "completion": "0.000002772",
+    "input_cache_read": "0.0000001638"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -1743,8 +1743,8 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000042",
-    "completion": "0.000003",
+    "prompt": "0.0000002",
+    "completion": "0.00000255",
     "input_cache_read": "0.000000085"
    },
    "top_provider": {
@@ -2051,9 +2051,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000066",
-    "completion": "0.00000198",
-    "input_cache_read": "0.000000022"
+    "prompt": "0.00000055044",
+    "completion": "0.00000165132",
+    "input_cache_read": "0.000000018348"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -5624,9 +5624,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000364",
-    "completion": "0.0000000728",
-    "input_cache_read": "0.00000000728"
+    "prompt": "0.00000003584",
+    "completion": "0.00000007168",
+    "input_cache_read": "0.000000007168"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -9615,8 +9615,8 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000013",
-    "completion": "0.00000052"
+    "prompt": "0.0000002",
+    "completion": "0.0000007"
    },
    "top_provider": {
     "max_completion_tokens": 32768
