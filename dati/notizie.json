@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-09-21T00:45:41+00:00",
+ "aggiornato": "2026-09-21T10:20:59+00:00",
  "notizie": [
   {
    "tag": "crit",
@@ -90,6 +90,24 @@
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-09-28. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-deepseek-deepseek-r1-distill-llama-70b"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-21",
+   "titolo": "DeepSeek Flash Latest: il prezzo in entrata scende del 8%",
+   "testo": "Da $0,13 a $0,12 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo--deepseek-deepseek-flash-latestprompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-21",
+   "titolo": "DeepSeek Flash Latest: il prezzo in uscita scende del 8%",
+   "testo": "Da $0,52 a $0,48 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo--deepseek-deepseek-flash-latestcompletion"
   },
   {
    "tag": "ok",
@@ -198,24 +216,6 @@
    "testo": "Da $1,98 a $1,65 per milione di token in uscita.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
    "id": "prezzo-deepseek-deepseek-v4-pro-0813completion"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-09-20",
-   "titolo": "Muse Glimmer 30B: il prezzo in entrata scende del 14%",
-   "testo": "Da $0,35 a $0,3 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-meta-muse-glimmer-30bprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-09-20",
-   "titolo": "Muse Glimmer 30B: il prezzo in uscita scende del 20%",
-   "testo": "Da $1,5 a $1,2 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-meta-muse-glimmer-30bcompletion"
   }
  ]
 }
