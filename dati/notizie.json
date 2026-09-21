@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-09-21T16:44:37+00:00",
+ "aggiornato": "2026-09-21T20:44:39+00:00",
  "notizie": [
   {
    "tag": "crit",
@@ -95,6 +95,42 @@
    "tag": "ok",
    "tagT": "Prezzo giu'",
    "data": "2026-09-21",
+   "titolo": "Granite 4.2 8B: il prezzo in entrata scende del 40%",
+   "testo": "Da $0,1 a $0,06 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-ibm-granite-granite-4-2-8bprompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-21",
+   "titolo": "GLM 5.3 Flash: il prezzo in entrata scende del 17%",
+   "testo": "Da $0,09 a $0,075 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-z-ai-glm-5-3-flashprompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-21",
+   "titolo": "GLM 5.3 Flash: il prezzo in uscita scende del 17%",
+   "testo": "Da $0,3 a $0,25 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-z-ai-glm-5-3-flashcompletion"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-21",
+   "titolo": "Nemotron 3 Nano 30B A3B: il prezzo in entrata scende del 17%",
+   "testo": "Da $0,06 a $0,05 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-nvidia-nemotron-3-nano-30b-a3bprompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-21",
    "titolo": "DeepSeek Pro Latest: il prezzo in entrata scende del 13%",
    "testo": "Da $0,66 a $0,573 per milione di token in entrata.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
@@ -180,42 +216,6 @@
    "testo": "Da $0,132 a $0,083 per milione di token in entrata.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
    "id": "prezzo-tencent-hy3prompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-09-20",
-   "titolo": "Hy3: il prezzo in uscita scende del 38%",
-   "testo": "Da $0,528 a $0,33 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-tencent-hy3completion"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-09-20",
-   "titolo": "Qwen3 VL 30B A3B Instruct: il prezzo in entrata scende del 35%",
-   "testo": "Da $0,2 a $0,13 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-qwen-qwen3-vl-30b-a3b-instructprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-09-20",
-   "titolo": "Qwen3 VL 30B A3B Instruct: il prezzo in uscita scende del 26%",
-   "testo": "Da $0,7 a $0,52 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-qwen-qwen3-vl-30b-a3b-instructcompletion"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-09-20",
-   "titolo": "Qwen3.8 27B: il prezzo in entrata scende del 52%",
-   "testo": "Da $0,42 a $0,2 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-qwen-qwen3-8-27bprompt"
   }
  ]
 }
