@@ -1,6 +1,6 @@
 {
- "aggiornato": "2026-09-21T20:44:39+00:00",
- "aggiornato_it": "21 settembre 2026",
+ "aggiornato": "2026-09-22T01:23:29+00:00",
+ "aggiornato_it": "22 settembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 369,
  "modelli": [
@@ -110,6 +110,13 @@
    "reasoning": {
     "mandatory": false
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 46.3,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -153,6 +160,13 @@
      "low"
     ],
     "default_effort": "high"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 46.4,
+     "coding_index": null,
+     "agentic_index": null
+    }
    },
    "ha_versione_gratuita": false
   },
@@ -283,12 +297,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000055308",
-    "completion": "0.00000165924",
-    "input_cache_read": "0.000000017598"
+    "prompt": "0.000000558624",
+    "completion": "0.000001675872",
+    "input_cache_read": "0.0000000186208"
    },
    "top_provider": {
-    "max_completion_tokens": 393216
+    "max_completion_tokens": 384000
    },
    "supported_parameters": [
     "reasoning",
@@ -782,9 +796,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000003"
+    "prompt": "0.0000003",
+    "completion": "0.0000012",
+    "input_cache_read": "0.000000006"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -1587,12 +1601,12 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000075",
-    "completion": "0.00000025",
-    "input_cache_read": "0.00000002"
+    "prompt": "0.00000015",
+    "completion": "0.0000005",
+    "input_cache_read": "0.00000005"
    },
    "top_provider": {
-    "max_completion_tokens": 102400
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -1776,9 +1790,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000007728",
-    "completion": "0.0000024288",
-    "input_cache_read": "0.00000014352"
+    "prompt": "0.0000007826",
+    "completion": "0.0000024596",
+    "input_cache_read": "0.00000014534"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -1845,9 +1859,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000091",
-    "completion": "0.00000286",
-    "input_cache_read": "0.000000169"
+    "prompt": "0.000000784",
+    "completion": "0.000002464",
+    "input_cache_read": "0.0000001456"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -2152,6 +2166,7 @@
    "created": 1786550701,
    "context_length": 262144,
    "description": "Seed 2.0 Code is a model from ByteDance Seed optimized for agentic coding. It is suited for frontend development, multilingual programming tasks, and coding-agent workflows in tools such as Claude...",
+   "expiration_date": "2026-11-11",
    "architecture": {
     "input_modalities": [
      "text",
@@ -2203,9 +2218,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000066",
-    "completion": "0.00000198",
-    "input_cache_read": "0.000000022"
+    "prompt": "0.00000132",
+    "completion": "0.00000396",
+    "input_cache_read": "0.000000044"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -2601,9 +2616,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000004",
-    "completion": "0.0000002",
-    "input_cache_read": "0.00000001"
+    "prompt": "0.00000003",
+    "completion": "0.0000008",
+    "input_cache_read": "0.000000012"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -2644,7 +2659,7 @@
    },
    "pricing": {
     "prompt": "0.00000004",
-    "completion": "0.00000032",
+    "completion": "0.00000064",
     "input_cache_read": "0.000000016"
    },
    "top_provider": {
@@ -3843,9 +3858,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000825",
-    "completion": "0.00000033",
-    "input_cache_read": "0.000000020625"
+    "prompt": "0.000000132",
+    "completion": "0.000000528",
+    "input_cache_read": "0.000000033"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -5308,9 +5323,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000017",
-    "completion": "0.0000085",
-    "input_cache_read": "0.00000017"
+    "prompt": "0.0000015",
+    "completion": "0.0000075",
+    "input_cache_read": "0.00000015"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -5730,9 +5745,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000091089",
-    "completion": "0.00000182178",
-    "input_cache_read": "0.0000000759075"
+    "prompt": "0.00000095526",
+    "completion": "0.00000191052",
+    "input_cache_read": "0.000000079605"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -5776,9 +5791,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000005544",
-    "completion": "0.00000011088",
-    "input_cache_read": "0.000000011088"
+    "prompt": "0.000000088606",
+    "completion": "0.000000177212",
+    "input_cache_read": "0.0000000177212"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -8331,6 +8346,7 @@
    "context_length": 262144,
    "description": "Seed 1.6 Flash is an ultra-fast multimodal deep thinking model by ByteDance Seed, supporting both text and visual understanding. It features a 256k context window and can generate outputs of...",
    "hugging_face_id": "",
+   "expiration_date": "2026-11-11",
    "architecture": {
     "input_modalities": [
      "image",
@@ -8366,6 +8382,7 @@
    "context_length": 262144,
    "description": "Seed 1.6 is a general-purpose model released by the ByteDance Seed team. It incorporates multimodal capabilities and adaptive deep thinking with a 256K context window.",
    "hugging_face_id": "",
+   "expiration_date": "2026-11-11",
    "architecture": {
     "input_modalities": [
      "image",
@@ -12083,8 +12100,8 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.0000002",
-    "completion": "0.0000008"
+    "prompt": "0.0000001875",
+    "completion": "0.0000006525"
    },
    "top_provider": {
     "max_completion_tokens": 16384

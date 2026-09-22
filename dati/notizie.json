@@ -1,11 +1,11 @@
 {
- "aggiornato": "2026-09-21T20:44:39+00:00",
+ "aggiornato": "2026-09-22T01:23:29+00:00",
  "notizie": [
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-09-21",
-   "titolo": "Dots3-Note Preview (free) viene spento fra 9 giorni",
+   "data": "2026-09-22",
+   "titolo": "Dots3-Note Preview (free) viene spento fra 8 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-09-30. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-dots-studio-dots-3-note-preview-free"
@@ -13,8 +13,35 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-09-21",
-   "titolo": "MiniMax M2.1 viene spento fra 17 giorni",
+   "data": "2026-09-22",
+   "titolo": "Seed-2.0-Code viene spento fra 50 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-11. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-bytedance-seed-seed-2-0-code"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-09-22",
+   "titolo": "Seed 1.6 Flash viene spento fra 50 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-11. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-bytedance-seed-seed-1-6-flash"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-09-22",
+   "titolo": "Seed 1.6 viene spento fra 50 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-11. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-bytedance-seed-seed-1-6"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-09-22",
+   "titolo": "MiniMax M2.1 viene spento fra 16 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-08. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-minimax-minimax-m2-1"
@@ -22,8 +49,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-09-21",
-   "titolo": "DeepSeek V3.2 viene spento fra 7 giorni",
+   "data": "2026-09-22",
+   "titolo": "DeepSeek V3.2 viene spento fra 6 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-09-28. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-deepseek-deepseek-v3-2"
@@ -31,8 +58,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-09-21",
-   "titolo": "DeepSeek V3.2 Exp viene spento fra 7 giorni",
+   "data": "2026-09-22",
+   "titolo": "DeepSeek V3.2 Exp viene spento fra 6 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-09-28. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-deepseek-deepseek-v3-2-exp"
@@ -40,8 +67,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-09-21",
-   "titolo": "DeepSeek V3.1 Terminus viene spento fra 7 giorni",
+   "data": "2026-09-22",
+   "titolo": "DeepSeek V3.1 Terminus viene spento fra 6 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-09-28. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-deepseek-deepseek-v3-1-terminus"
@@ -49,8 +76,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-09-21",
-   "titolo": "Gemini 2.5 Flash Lite viene spento fra 29 giorni",
+   "data": "2026-09-22",
+   "titolo": "Gemini 2.5 Flash Lite viene spento fra 28 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-20. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-google-gemini-2-5-flash-lite"
@@ -58,8 +85,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-09-21",
-   "titolo": "ERNIE 4.5 VL 424B A47B  viene spento fra 17 giorni",
+   "data": "2026-09-22",
+   "titolo": "ERNIE 4.5 VL 424B A47B  viene spento fra 16 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-08. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-baidu-ernie-4-5-vl-424b-a47b"
@@ -67,8 +94,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-09-21",
-   "titolo": "Gemini 2.5 Flash viene spento fra 29 giorni",
+   "data": "2026-09-22",
+   "titolo": "Gemini 2.5 Flash viene spento fra 28 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-20. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-google-gemini-2-5-flash"
@@ -76,8 +103,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-09-21",
-   "titolo": "Gemini 2.5 Pro viene spento fra 29 giorni",
+   "data": "2026-09-22",
+   "titolo": "Gemini 2.5 Pro viene spento fra 28 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-20. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-google-gemini-2-5-pro"
@@ -85,11 +112,20 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-09-21",
-   "titolo": "R1 Distill Llama 70B viene spento fra 7 giorni",
+   "data": "2026-09-22",
+   "titolo": "R1 Distill Llama 70B viene spento fra 6 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-09-28. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-deepseek-deepseek-r1-distill-llama-70b"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-09-22",
+   "titolo": "GLM 5.3: il prezzo in entrata scende del 14%",
+   "testo": "Da $0,91 a $0,784 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-z-ai-glm-5-3prompt"
   },
   {
    "tag": "ok",
@@ -180,42 +216,6 @@
    "testo": "Da $0,52 a $0,48 per milione di token in uscita.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
    "id": "prezzo--deepseek-deepseek-flash-latestcompletion"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-09-21",
-   "titolo": "Granite 4.2 8B: il prezzo in uscita scende del 40%",
-   "testo": "Da $0,25 a $0,15 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-ibm-granite-granite-4-2-8bcompletion"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-09-21",
-   "titolo": "GLM Latest: il prezzo in entrata scende del 7%",
-   "testo": "Da $0,832 a $0,773 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo--z-ai-glm-latestprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-09-21",
-   "titolo": "GLM Latest: il prezzo in uscita scende del 7%",
-   "testo": "Da $2,61 a $2,43 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo--z-ai-glm-latestcompletion"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-09-20",
-   "titolo": "Hy3: il prezzo in entrata scende del 38%",
-   "testo": "Da $0,132 a $0,083 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-tencent-hy3prompt"
   }
  ]
 }
