@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-09-22T09:35:24+00:00",
+ "aggiornato": "2026-09-22T15:20:46+00:00",
  "aggiornato_it": "22 settembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 370,
@@ -297,9 +297,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000558624",
-    "completion": "0.000001675872",
-    "input_cache_read": "0.0000000186208"
+    "prompt": "0.00000057156",
+    "completion": "0.00000171468",
+    "input_cache_read": "0.000000019052"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -796,9 +796,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.0000003",
-    "completion": "0.0000012",
-    "input_cache_read": "0.000000006"
+    "prompt": "0.00000015",
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000003"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -1873,12 +1873,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000006545",
-    "completion": "0.000002057",
-    "input_cache_read": "0.000000107525"
+    "prompt": "0.0000006538",
+    "completion": "0.0000020548",
+    "input_cache_read": "0.00000012142"
    },
    "top_provider": {
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -1942,9 +1942,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000084",
-    "completion": "0.00000264",
-    "input_cache_read": "0.000000156"
+    "prompt": "0.0000006538",
+    "completion": "0.0000020548",
+    "input_cache_read": "0.00000012142"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -2078,7 +2078,7 @@
    "created": 1786680361,
    "context_length": 512000,
    "description": "Dots3-Note Preview is an open-weight mixture-of-experts model from Dots Studio, with 16B active parameters out of 280B total. It is the lightest model in the Dots 3 family and is...",
-   "expiration_date": "2026-09-30",
+   "expiration_date": "2026-12-31",
    "architecture": {
     "input_modalities": [
      "text",
@@ -2301,9 +2301,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000558624",
-    "completion": "0.000001675872",
-    "input_cache_read": "0.0000000186208"
+    "prompt": "0.00000066",
+    "completion": "0.00000198",
+    "input_cache_read": "0.000000022"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -3864,7 +3864,7 @@
    "id": "aion-labs/aion-3.0-mini",
    "name": "AionLabs: Aion-3.0-Mini",
    "created": 1783443096,
-   "context_length": 131072,
+   "context_length": 1048576,
    "description": "Aion-3.0 Mini is a multi-model roleplaying and storytelling system from AionLabs, built on the DeepSeek family of models. It uses a collaborative generation process in which multiple specialized models each...",
    "architecture": {
     "input_modalities": [
@@ -3896,7 +3896,7 @@
    "id": "aion-labs/aion-3.0",
    "name": "AionLabs: Aion-3.0",
    "created": 1783443095,
-   "context_length": 131072,
+   "context_length": 1048576,
    "description": "Aion-3.0 is a multi-model roleplaying and storytelling system from AionLabs, built on the GLM family of models. It uses a collaborative generation process in which multiple specialized models each contribute...",
    "architecture": {
     "input_modalities": [
@@ -4394,7 +4394,7 @@
    },
    "pricing": {
     "prompt": "0.0000007062",
-    "completion": "0.00000321",
+    "completion": "0.0000033",
     "input_cache_read": "0.00000018"
    },
    "top_provider": {
@@ -5828,9 +5828,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000095526",
-    "completion": "0.00000191052",
-    "input_cache_read": "0.000000079605"
+    "prompt": "0.000000936294",
+    "completion": "0.000001872588",
+    "input_cache_read": "0.0000000780245"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -5874,9 +5874,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000088606",
-    "completion": "0.000000177212",
-    "input_cache_read": "0.0000000177212"
+    "prompt": "0.000000049",
+    "completion": "0.000000098",
+    "input_cache_read": "0.0000000098"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -7668,7 +7668,7 @@
    "id": "aion-labs/aion-2.0",
    "name": "AionLabs: Aion-2.0",
    "created": 1771881306,
-   "context_length": 131072,
+   "context_length": 1048576,
    "description": "Aion-2.0 is a variant of DeepSeek V3.2 optimized for immersive roleplaying and storytelling. It is particularly strong at introducing tension, crises, and conflict into stories, making narratives feel more engaging....",
    "architecture": {
     "input_modalities": [
@@ -10777,12 +10777,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000003",
-    "completion": "0.00000013",
-    "input_cache_read": "0.00000003"
+    "prompt": "0.000000018",
+    "completion": "0.00000009"
    },
    "top_provider": {
-    "max_completion_tokens": 117964
+    "max_completion_tokens": 32768
    },
    "supported_parameters": [
     "reasoning",
