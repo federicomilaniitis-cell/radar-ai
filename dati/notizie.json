@@ -1,6 +1,24 @@
 {
- "aggiornato": "2026-09-22T01:23:29+00:00",
+ "aggiornato": "2026-09-22T09:35:24+00:00",
  "notizie": [
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-09-22",
+   "titolo": "Nex-N2.5-Mini (free) viene spento fra 3 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-09-25. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-nex-agi-nex-n2-5-mini-free"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-09-22",
+   "titolo": "Nex-N2.5-Pro (free) viene spento fra 3 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-09-25. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-nex-agi-nex-n2-5-pro-free"
+  },
   {
    "tag": "crit",
    "tagT": "Chiusura",
@@ -198,24 +216,6 @@
    "testo": "Da $1,98 a $1,72 per milione di token in uscita.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
    "id": "prezzo-deepseek-deepseek-v4-pro-0813completion"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-09-21",
-   "titolo": "DeepSeek Flash Latest: il prezzo in entrata scende del 8%",
-   "testo": "Da $0,13 a $0,12 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo--deepseek-deepseek-flash-latestprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-09-21",
-   "titolo": "DeepSeek Flash Latest: il prezzo in uscita scende del 8%",
-   "testo": "Da $0,52 a $0,48 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo--deepseek-deepseek-flash-latestcompletion"
   }
  ]
 }
