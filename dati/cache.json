@@ -1,9 +1,43 @@
 {
- "aggiornato": "2026-09-22T19:59:13+00:00",
- "aggiornato_it": "22 settembre 2026",
+ "aggiornato": "2026-09-23T01:09:23+00:00",
+ "aggiornato_it": "23 settembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 376,
+ "totale": 377,
  "modelli": [
+  {
+   "id": "cohere/command-a-plus",
+   "name": "Cohere: Command A+",
+   "created": 1790102896,
+   "context_length": 192000,
+   "description": "Command A+ is Cohere's flagship model for enterprise agentic workflows. It accepts text and image inputs with a 192K context window, supports native tool calling with strict tool schemas, structured...",
+   "architecture": {
+    "input_modalities": [
+     "text",
+     "image"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image->text"
+   },
+   "pricing": {
+    "prompt": "0.0000003",
+    "completion": "0.0000015",
+    "input_cache_read": "0.00000015"
+   },
+   "top_provider": {
+    "max_completion_tokens": 64000
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": false
+   },
+   "ha_versione_gratuita": false
+  },
   {
    "id": "openai/gpt-6-luna-pro",
    "name": "OpenAI: GPT-6 Luna Pro",
@@ -95,6 +129,13 @@
      "none"
     ],
     "default_effort": "medium"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 37.3,
+     "coding_index": null,
+     "agentic_index": null
+    }
    },
    "ha_versione_gratuita": false
   },
@@ -190,6 +231,13 @@
     ],
     "default_effort": "medium"
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 47.5,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -234,6 +282,13 @@
      "low"
     ],
     "default_effort": "high"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 57.6,
+     "coding_index": null,
+     "agentic_index": null
+    }
    },
    "ha_versione_gratuita": false
   },
@@ -570,12 +625,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000039996",
-    "completion": "0.00000119988",
-    "input_cache_read": "0.000000012726"
+    "prompt": "0.0000004",
+    "completion": "0.0000043",
+    "input_cache_read": "0.000000033"
    },
    "top_provider": {
-    "max_completion_tokens": 393216
+    "max_completion_tokens": 384000
    },
    "supported_parameters": [
     "reasoning",
@@ -610,9 +665,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000012",
-    "completion": "0.00000048",
-    "input_cache_read": "0.0000000036"
+    "prompt": "0.0000001",
+    "completion": "0.0000005",
+    "input_cache_read": "0.00000001"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -1069,12 +1124,12 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000003"
+    "prompt": "0.0000001",
+    "completion": "0.0000005",
+    "input_cache_read": "0.00000001"
    },
    "top_provider": {
-    "max_completion_tokens": 384000
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -1880,7 +1935,7 @@
     "input_cache_read": "0.000000015"
    },
    "top_provider": {
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -2146,9 +2201,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000006538",
-    "completion": "0.0000020548",
-    "input_cache_read": "0.00000012142"
+    "prompt": "0.0000005625",
+    "completion": "0.0000025",
+    "input_cache_read": "0.000000125"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -2215,9 +2270,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000006538",
-    "completion": "0.0000020548",
-    "input_cache_read": "0.00000012142"
+    "prompt": "0.00000084",
+    "completion": "0.00000264",
+    "input_cache_read": "0.000000156"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -2574,9 +2629,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000066",
-    "completion": "0.00000198",
-    "input_cache_read": "0.000000022"
+    "prompt": "0.00000132",
+    "completion": "0.00000396",
+    "input_cache_read": "0.000000044"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -4137,7 +4192,7 @@
    "id": "aion-labs/aion-3.0-mini",
    "name": "AionLabs: Aion-3.0-Mini",
    "created": 1783443096,
-   "context_length": 1048576,
+   "context_length": 131072,
    "description": "Aion-3.0 Mini is a multi-model roleplaying and storytelling system from AionLabs, built on the DeepSeek family of models. It uses a collaborative generation process in which multiple specialized models each...",
    "architecture": {
     "input_modalities": [
@@ -4169,7 +4224,7 @@
    "id": "aion-labs/aion-3.0",
    "name": "AionLabs: Aion-3.0",
    "created": 1783443095,
-   "context_length": 1048576,
+   "context_length": 131072,
    "description": "Aion-3.0 is a multi-model roleplaying and storytelling system from AionLabs, built on the GLM family of models. It uses a collaborative generation process in which multiple specialized models each contribute...",
    "architecture": {
     "input_modalities": [
@@ -4214,9 +4269,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000825",
-    "completion": "0.00000033",
-    "input_cache_read": "0.000000020625"
+    "prompt": "0.000000132",
+    "completion": "0.000000528",
+    "input_cache_read": "0.000000033"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -5679,8 +5734,8 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000014989",
-    "completion": "0.000010758",
+    "prompt": "0.00000145",
+    "completion": "0.0000117",
     "input_cache_read": "0.0000003"
    },
    "top_provider": {
@@ -6101,9 +6156,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000892272",
-    "completion": "0.000001784544",
-    "input_cache_read": "0.000000074356"
+    "prompt": "0.00000095526",
+    "completion": "0.00000191052",
+    "input_cache_read": "0.000000079605"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -6147,9 +6202,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000049",
-    "completion": "0.000000098",
-    "input_cache_read": "0.0000000098"
+    "prompt": "0.000000088606",
+    "completion": "0.000000177212",
+    "input_cache_read": "0.0000000177212"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -7940,7 +7995,7 @@
    "id": "aion-labs/aion-2.0",
    "name": "AionLabs: Aion-2.0",
    "created": 1771881306,
-   "context_length": 1048576,
+   "context_length": 131072,
    "description": "Aion-2.0 is a variant of DeepSeek V3.2 optimized for immersive roleplaying and storytelling. It is particularly strong at introducing tension, crises, and conflict into stories, making narratives feel more engaging....",
    "architecture": {
     "input_modalities": [
