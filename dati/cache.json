@@ -1,9 +1,215 @@
 {
- "aggiornato": "2026-09-23T09:40:58+00:00",
+ "aggiornato": "2026-09-23T19:56:00+00:00",
  "aggiornato_it": "23 settembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 377,
+ "totale": 380,
  "modelli": [
+  {
+   "id": "qwen/qwen3.8-max-prime",
+   "name": "Qwen: Qwen3.8 Max Prime",
+   "created": 1790191228,
+   "context_length": 1000000,
+   "description": "Qwen3.8 Max Prime is a higher-throughput variant of Qwen3.8 Max from Alibaba's Qwen team, served as a separate SKU at a higher price point. It accepts text, image, and video...",
+   "architecture": {
+    "input_modalities": [
+     "text",
+     "image",
+     "video"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image+video->text"
+   },
+   "pricing": {
+    "prompt": "0.000004",
+    "completion": "0.000012",
+    "input_cache_read": "0.0000005"
+   },
+   "top_provider": {
+    "max_completion_tokens": 131072
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": true,
+    "default_enabled": true,
+    "supported_efforts": [
+     "xhigh",
+     "high",
+     "medium",
+     "low",
+     "minimal"
+    ],
+    "default_effort": "xhigh"
+   },
+   "ha_versione_gratuita": false
+  },
+  {
+   "id": "stealth/space-bunny-alpha",
+   "name": "Space Bunny Alpha",
+   "created": 1790174884,
+   "context_length": 1000000,
+   "description": "Space Bunny Alpha is an anonymous large model with blazing-fast inference, strong coding capabilities and native multimodal input support. It delivers adjustable reasoning effort, and a 1M-token context window. Space...",
+   "expiration_date": "2098-12-31",
+   "architecture": {
+    "input_modalities": [
+     "text",
+     "image",
+     "video"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image+video->text"
+   },
+   "pricing": {
+    "prompt": "0",
+    "completion": "0"
+   },
+   "top_provider": {
+    "max_completion_tokens": 524288
+   },
+   "supported_parameters": [
+    "reasoning",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": true,
+    "supported_efforts": [
+     "max",
+     "xhigh",
+     "high",
+     "medium",
+     "low"
+    ],
+    "default_effort": "max"
+   },
+   "ha_versione_gratuita": false
+  },
+  {
+   "id": "aion-labs/aion-3.5-mini",
+   "name": "AionLabs: Aion 3.5 Mini",
+   "created": 1790170962,
+   "context_length": 262144,
+   "description": "Aion 3.5 Mini is a multi-model roleplaying and storytelling system from AionLabs, built on the GLM family of models. It is the smaller, lower-cost sibling of Aion 3.5 and uses...",
+   "architecture": {
+    "input_modalities": [
+     "text"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text->text"
+   },
+   "pricing": {
+    "prompt": "0.0000007",
+    "completion": "0.0000014",
+    "input_cache_read": "0.00000018"
+   },
+   "top_provider": {
+    "max_completion_tokens": 32768
+   },
+   "supported_parameters": [
+    "reasoning",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": true,
+    "supported_efforts": [
+     "max",
+     "high",
+     "low"
+    ],
+    "default_effort": "high"
+   },
+   "ha_versione_gratuita": false
+  },
+  {
+   "id": "aion-labs/aion-3.5",
+   "name": "AionLabs: Aion 3.5",
+   "created": 1790170961,
+   "context_length": 262144,
+   "description": "Aion 3.5 is a multi-model roleplaying and storytelling system from AionLabs, built on the GLM family of models. It uses a collaborative generation process in which multiple specialized models each...",
+   "architecture": {
+    "input_modalities": [
+     "text"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text->text"
+   },
+   "pricing": {
+    "prompt": "0.000003",
+    "completion": "0.000006",
+    "input_cache_read": "0.00000075"
+   },
+   "top_provider": {
+    "max_completion_tokens": 32768
+   },
+   "supported_parameters": [
+    "reasoning",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": true,
+    "supported_efforts": [
+     "max",
+     "high",
+     "low"
+    ],
+    "default_effort": "high"
+   },
+   "ha_versione_gratuita": false
+  },
+  {
+   "id": "upstage/solar-mini4",
+   "name": "Upstage: Solar Mini 4",
+   "created": 1790160358,
+   "context_length": 524288,
+   "description": "Solar Mini 4 is Upstage's compact, cost-efficient language model, a 35B-parameter mixture-of-experts with 3B active parameters and a 524K context window. It is built for agentic use cases where response...",
+   "architecture": {
+    "input_modalities": [
+     "text"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text->text"
+   },
+   "pricing": {
+    "prompt": "0.00000005",
+    "completion": "0.0000002",
+    "input_cache_read": "0.000000005"
+   },
+   "top_provider": {
+    "max_completion_tokens": 131072
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": false,
+    "default_enabled": false,
+    "supported_efforts": [
+     "max",
+     "xhigh",
+     "high",
+     "medium",
+     "low",
+     "minimal",
+     "none"
+    ],
+    "default_effort": "medium"
+   },
+   "ha_versione_gratuita": false
+  },
   {
    "id": "cohere/command-a-plus",
    "name": "Cohere: Command A+",
@@ -545,6 +751,7 @@
    "context_length": 1048576,
    "description": "GLM-5.3-FlashX is the high-speed variant of Z.ai's GLM-5.3-Flash, a native multimodal model delivering inference speeds of up to 200 tokens/s. Built on the same hybrid sparse and linear attention architecture...",
    "hugging_face_id": "",
+   "expiration_date": "2098-12-31",
    "architecture": {
     "input_modalities": [
      "text",
@@ -559,7 +766,7 @@
    "pricing": {
     "prompt": "0.00000037",
     "completion": "0.00000125",
-    "input_cache_read": "0.000000075"
+    "input_cache_read": "0.00000009"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -625,12 +832,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000004",
-    "completion": "0.0000043",
-    "input_cache_read": "0.000000033"
+    "prompt": "0.0000003945",
+    "completion": "0.0000029",
+    "input_cache_read": "0.00000025"
    },
    "top_provider": {
-    "max_completion_tokens": 384000
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -1024,7 +1231,7 @@
    "id": "inclusionai/ling-3.0-flash-vl",
    "name": "inclusionAI: Ling 3.0 Flash VL",
    "created": 1789056114,
-   "context_length": 131072,
+   "context_length": 262144,
    "description": "Ling 3.0 Flash VL builds on Ling 3.0 Flash (124B total / 5.5B active MoE from InclusionAI), further strengthening its language capabilities while adding native visual perception and advanced visual...",
    "hugging_face_id": "inclusionAI/Ling-3.0-flash-VL",
    "architecture": {
@@ -1062,49 +1269,7 @@
      "agentic_index": 28.7
     }
    },
-   "ha_versione_gratuita": true
-  },
-  {
-   "id": "inclusionai/ling-3.0-flash-vl:free",
-   "name": "inclusionAI: Ling 3.0 Flash VL (free)",
-   "created": 1789056114,
-   "context_length": 262144,
-   "description": "Ling 3.0 Flash VL builds on Ling 3.0 Flash (124B total / 5.5B active MoE from InclusionAI), further strengthening its language capabilities while adding native visual perception and advanced visual...",
-   "hugging_face_id": "inclusionAI/Ling-3.0-flash-VL",
-   "architecture": {
-    "input_modalities": [
-     "text",
-     "image",
-     "video"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text+image+video->text"
-   },
-   "pricing": {
-    "prompt": "0",
-    "completion": "0"
-   },
-   "top_provider": {
-    "max_completion_tokens": 32768
-   },
-   "supported_parameters": [
-    "reasoning",
-    "tools"
-   ],
-   "reasoning": {
-    "mandatory": false,
-    "default_enabled": true
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": 24.6,
-     "coding_index": 57,
-     "agentic_index": 28.7
-    }
-   },
-   "ha_versione_gratuita": true
+   "ha_versione_gratuita": false
   },
   {
    "id": "deepseek/deepseek-v4.1-flash",
@@ -2201,9 +2366,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000005625",
-    "completion": "0.0000025",
-    "input_cache_read": "0.000000125"
+    "prompt": "0.0000005614",
+    "completion": "0.0000017644",
+    "input_cache_read": "0.00000010426"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -2629,9 +2794,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000132",
-    "completion": "0.00000396",
-    "input_cache_read": "0.000000044"
+    "prompt": "0.000000462",
+    "completion": "0.000001386",
+    "input_cache_read": "0.0000000154"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -4269,9 +4434,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000132",
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033"
+    "prompt": "0.0000000825",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -6156,9 +6321,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000095526",
-    "completion": "0.00000191052",
-    "input_cache_read": "0.000000079605"
+    "prompt": "0.000000946386",
+    "completion": "0.000001892772",
+    "input_cache_read": "0.0000000788655"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -6202,9 +6367,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000088606",
-    "completion": "0.000000177212",
-    "input_cache_read": "0.0000000177212"
+    "prompt": "0.00000008092",
+    "completion": "0.00000016184",
+    "input_cache_read": "0.000000016184"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -9067,44 +9232,6 @@
      "none"
     ],
     "default_effort": "medium"
-   },
-   "ha_versione_gratuita": false
-  },
-  {
-   "id": "mistralai/devstral-2512",
-   "name": "Mistral: Devstral 2 2512",
-   "created": 1765285419,
-   "context_length": 262144,
-   "description": "Devstral 2 is a state-of-the-art open-source model by Mistral AI specializing in agentic coding. It is a 123B-parameter dense transformer model supporting a 256K context window. Devstral 2 supports exploring...",
-   "hugging_face_id": "mistralai/Devstral-2-123B-Instruct-2512",
-   "architecture": {
-    "input_modalities": [
-     "text",
-     "file"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text+file->text"
-   },
-   "pricing": {
-    "prompt": "0.0000004",
-    "completion": "0.000002",
-    "input_cache_read": "0.00000004"
-   },
-   "top_provider": {
-    "max_completion_tokens": 209715
-   },
-   "supported_parameters": [
-    "structured_outputs",
-    "tools"
-   ],
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": 8.6,
-     "coding_index": 31.3,
-     "agentic_index": 2.3
-    }
    },
    "ha_versione_gratuita": false
   },
