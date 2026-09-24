@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-09-24T15:40:13+00:00",
+ "aggiornato": "2026-09-24T20:14:23+00:00",
  "aggiornato_it": "24 settembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 380,
@@ -134,7 +134,6 @@
    "created": 1790174884,
    "context_length": 1000000,
    "description": "Space Bunny Alpha is an anonymous large model with blazing-fast inference, strong coding capabilities and native multimodal input support. It delivers adjustable reasoning effort, and a 1M-token context window. Space...",
-   "expiration_date": "2098-12-31",
    "architecture": {
     "input_modalities": [
      "text",
@@ -831,7 +830,6 @@
    "context_length": 1048576,
    "description": "GLM-5.3-FlashX is the high-speed variant of Z.ai's GLM-5.3-Flash, a native multimodal model delivering inference speeds of up to 200 tokens/s. Built on the same hybrid sparse and linear attention architecture...",
    "hugging_face_id": "",
-   "expiration_date": "2098-12-31",
    "architecture": {
     "input_modalities": [
      "text",
@@ -2176,12 +2174,12 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000005",
-    "input_cache_read": "0.00000005"
+    "prompt": "0.000000045",
+    "completion": "0.0000006",
+    "input_cache_read": "0.0000000285"
    },
    "top_provider": {
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -2570,7 +2568,6 @@
    "created": 1786680361,
    "context_length": 512000,
    "description": "Dots3-Note Preview is an open-weight mixture-of-experts model from Dots Studio, with 16B active parameters out of 280B total. It is the lightest model in the Dots 3 family and is...",
-   "expiration_date": "2026-12-31",
    "architecture": {
     "input_modalities": [
      "text",
@@ -4433,9 +4430,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000132",
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033"
+    "prompt": "0.0000000825",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -5898,8 +5895,8 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000014",
-    "completion": "0.00001075",
+    "prompt": "0.00000135",
+    "completion": "0.0000115",
     "input_cache_read": "0.0000003"
    },
    "top_provider": {
@@ -6320,9 +6317,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000915936",
-    "completion": "0.000001831872",
-    "input_cache_read": "0.000000076328"
+    "prompt": "0.000000875394",
+    "completion": "0.000001750788",
+    "input_cache_read": "0.0000000729495"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -6366,9 +6363,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000084",
-    "completion": "0.000000168",
-    "input_cache_read": "0.0000000168"
+    "prompt": "0.00000007014",
+    "completion": "0.00000014028",
+    "input_cache_read": "0.000000014028"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -6979,7 +6976,6 @@
    "context_length": 202752,
    "description": "GLM-5V-Turbo is Z.ai’s first native multimodal agent foundation model, built for vision-based coding and agent-driven tasks. It natively handles image, video, and text inputs, excels at long-horizon planning, complex coding,...",
    "hugging_face_id": "",
-   "expiration_date": "2098-12-31",
    "architecture": {
     "input_modalities": [
      "image",
@@ -7421,7 +7417,6 @@
    "context_length": 202752,
    "description": "GLM-5 Turbo is a new model from Z.ai designed for fast inference and strong performance in agent-driven environments such as OpenClaw scenarios. It is deeply optimized for real-world agent workflows...",
    "hugging_face_id": "",
-   "expiration_date": "2098-12-31",
    "architecture": {
     "input_modalities": [
      "text"
@@ -10203,7 +10198,6 @@
    "context_length": 32768,
    "description": "Gemini 2.5 Flash Image, a.k.a. \"Nano Banana,\" is now generally available. It is a state of the art image generation model with contextual understanding. It is capable of image generation,...",
    "hugging_face_id": "",
-   "expiration_date": "2027-03-15",
    "architecture": {
     "input_modalities": [
      "image",
@@ -11393,7 +11387,6 @@
    "context_length": 131072,
    "description": "GLM-4.5 is our latest flagship foundation model, purpose-built for agent-based applications. It leverages a Mixture-of-Experts (MoE) architecture and supports a context length of up to 128k tokens. GLM-4.5 delivers significantly...",
    "hugging_face_id": "zai-org/GLM-4.5",
-   "expiration_date": "2026-12-31",
    "architecture": {
     "input_modalities": [
      "text"
