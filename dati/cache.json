@@ -1,9 +1,50 @@
 {
- "aggiornato": "2026-09-24T00:59:56+00:00",
+ "aggiornato": "2026-09-24T09:40:08+00:00",
  "aggiornato_it": "24 settembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 381,
+ "totale": 380,
  "modelli": [
+  {
+   "id": "fireworks/ember-1",
+   "name": "Fireworks: Ember-1",
+   "created": 1790208461,
+   "context_length": 1048576,
+   "description": "Ember-1 is a specialized reasoning model from Fireworks Research, built on [Kimi K3](https://openrouter.ai/moonshotai/kimi-k3). It is designed to make every token go further: it produces shorter reasoning traces, using roughly 40%...",
+   "architecture": {
+    "input_modalities": [
+     "text",
+     "image"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image->text"
+   },
+   "pricing": {
+    "prompt": "0.000003",
+    "completion": "0.000015",
+    "input_cache_read": "0.0000003"
+   },
+   "top_provider": {
+    "max_completion_tokens": 943718
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": false,
+    "default_enabled": true,
+    "supported_efforts": [
+     "max",
+     "high",
+     "low"
+    ],
+    "default_effort": "max"
+   },
+   "ha_versione_gratuita": false
+  },
   {
    "id": "z-ai/glm-5.3-prime",
    "name": "Z.ai: GLM 5.3 Prime",
@@ -871,7 +912,7 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000003865",
+    "prompt": "0.00000039",
     "completion": "0.0000029",
     "input_cache_read": "0.00000025"
    },
@@ -911,9 +952,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.000000099",
-    "completion": "0.0000006",
-    "input_cache_read": "0.00000006"
+    "prompt": "0.00000004",
+    "completion": "0.000001",
+    "input_cache_read": "0.00000001"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -1401,46 +1442,6 @@
    "ha_versione_gratuita": false
   },
   {
-   "id": "nex-agi/nex-n2.5-mini",
-   "name": "Nex AGI: Nex-N2.5-Mini",
-   "created": 1788890061,
-   "context_length": 262144,
-   "description": "Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file...",
-   "hugging_face_id": "nex-agi/Nex-N2.5-mini",
-   "architecture": {
-    "input_modalities": [
-     "text",
-     "image"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text+image->text"
-   },
-   "pricing": {
-    "prompt": "0.000000025",
-    "completion": "0.0000001",
-    "input_cache_read": "0.0000000025"
-   },
-   "top_provider": {
-    "max_completion_tokens": 235929
-   },
-   "supported_parameters": [
-    "reasoning",
-    "structured_outputs"
-   ],
-   "reasoning": {
-    "mandatory": false,
-    "supported_efforts": [
-     "high",
-     "medium",
-     "none"
-    ],
-    "default_effort": "high"
-   },
-   "ha_versione_gratuita": true
-  },
-  {
    "id": "nex-agi/nex-n2.5-mini:free",
    "name": "Nex AGI: Nex-N2.5-Mini (free)",
    "created": 1788890061,
@@ -1461,47 +1462,6 @@
    "pricing": {
     "prompt": "0",
     "completion": "0"
-   },
-   "top_provider": {
-    "max_completion_tokens": 235929
-   },
-   "supported_parameters": [
-    "reasoning",
-    "structured_outputs",
-    "tools"
-   ],
-   "reasoning": {
-    "mandatory": false,
-    "supported_efforts": [
-     "high",
-     "medium",
-     "none"
-    ],
-    "default_effort": "high"
-   },
-   "ha_versione_gratuita": true
-  },
-  {
-   "id": "nex-agi/nex-n2.5-pro",
-   "name": "Nex AGI: Nex-N2.5-Pro",
-   "created": 1788890050,
-   "context_length": 262144,
-   "description": "Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file...",
-   "hugging_face_id": "nex-agi/Nex-N2.5-Pro",
-   "architecture": {
-    "input_modalities": [
-     "text",
-     "image"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text+image->text"
-   },
-   "pricing": {
-    "prompt": "0.000000075",
-    "completion": "0.00000025",
-    "input_cache_read": "0.000000015"
    },
    "top_provider": {
     "max_completion_tokens": 235929
@@ -2134,12 +2094,12 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000075",
-    "completion": "0.00000025",
-    "input_cache_read": "0.000000015"
+    "prompt": "0.000000045",
+    "completion": "0.00000014",
+    "input_cache_read": "0.00000001"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 128000
    },
    "supported_parameters": [
     "reasoning",
@@ -3231,9 +3191,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000038",
-    "completion": "0.00000055",
-    "input_cache_read": "0.0000000228"
+    "prompt": "0.00000003",
+    "completion": "0.00000032",
+    "input_cache_read": "0.000000016"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -3273,8 +3233,8 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000004",
-    "completion": "0.00000064",
+    "prompt": "0.00000003",
+    "completion": "0.00000032",
     "input_cache_read": "0.000000016"
    },
    "top_provider": {
@@ -4925,7 +4885,7 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.0000007062",
+    "prompt": "0.0000006562",
     "completion": "0.0000033",
     "input_cache_read": "0.00000018"
    },
@@ -5938,9 +5898,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000091",
-    "completion": "0.0000069875",
-    "input_cache_read": "0.000000195"
+    "prompt": "0.0000014",
+    "completion": "0.00001075",
+    "input_cache_read": "0.0000003"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -11414,11 +11374,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000004815",
-    "completion": "0.00000019305"
+    "prompt": "0.0000001",
+    "completion": "0.0000003"
    },
    "top_provider": {
-    "max_completion_tokens": 32000
+    "max_completion_tokens": 235929
    },
    "supported_parameters": [
     "structured_outputs",
