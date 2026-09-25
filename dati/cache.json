@@ -1,8 +1,8 @@
 {
- "aggiornato": "2026-09-24T20:14:23+00:00",
- "aggiornato_it": "24 settembre 2026",
+ "aggiornato": "2026-09-25T01:05:52+00:00",
+ "aggiornato_it": "25 settembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 380,
+ "totale": 382,
  "modelli": [
   {
    "id": "fireworks/ember-1",
@@ -1367,9 +1367,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000003"
+    "prompt": "0.0000003",
+    "completion": "0.0000012",
+    "input_cache_read": "0.000000006"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -1436,6 +1436,13 @@
      "none"
     ],
     "default_effort": "medium"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 12.3,
+     "coding_index": null,
+     "agentic_index": null
+    }
    },
    "ha_versione_gratuita": false
   },
@@ -3839,8 +3846,8 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000003",
-    "completion": "0.000015",
+    "prompt": "0.0000008845",
+    "completion": "0.0000105346",
     "input_cache_read": "0.0000003"
    },
    "top_provider": {
@@ -4430,9 +4437,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000825",
-    "completion": "0.00000033",
-    "input_cache_read": "0.000000020625"
+    "prompt": "0.000000132",
+    "completion": "0.000000528",
+    "input_cache_read": "0.000000033"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -5895,8 +5902,8 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000135",
-    "completion": "0.0000115",
+    "prompt": "0.0000008845",
+    "completion": "0.0000105346",
     "input_cache_read": "0.0000003"
    },
    "top_provider": {
@@ -6317,9 +6324,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000875394",
-    "completion": "0.000001750788",
-    "input_cache_read": "0.0000000729495"
+    "prompt": "0.000000836418",
+    "completion": "0.000001672836",
+    "input_cache_read": "0.0000000697015"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -6363,9 +6370,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000007014",
-    "completion": "0.00000014028",
-    "input_cache_read": "0.000000014028"
+    "prompt": "0.000000049",
+    "completion": "0.000000098",
+    "input_cache_read": "0.0000000098"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -6729,12 +6736,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000966",
-    "completion": "0.000003036",
-    "input_cache_read": "0.0000001794"
+    "prompt": "0.0000009646",
+    "completion": "0.0000030316",
+    "input_cache_read": "0.00000017914"
    },
    "top_provider": {
-    "max_completion_tokens": 128000
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -8994,9 +9001,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000004",
-    "completion": "0.00000175",
-    "input_cache_read": "0.00000008"
+    "prompt": "0.0000006",
+    "completion": "0.0000022",
+    "input_cache_read": "0.00000011"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -9226,6 +9233,44 @@
      "none"
     ],
     "default_effort": "medium"
+   },
+   "ha_versione_gratuita": false
+  },
+  {
+   "id": "mistralai/devstral-2512",
+   "name": "Mistral: Devstral 2 2512",
+   "created": 1765285419,
+   "context_length": 262144,
+   "description": "Devstral 2 is a state-of-the-art open-source model by Mistral AI specializing in agentic coding. It is a 123B-parameter dense transformer model supporting a 256K context window. Devstral 2 supports exploring...",
+   "hugging_face_id": "mistralai/Devstral-2-123B-Instruct-2512",
+   "architecture": {
+    "input_modalities": [
+     "text",
+     "file"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+file->text"
+   },
+   "pricing": {
+    "prompt": "0.0000004",
+    "completion": "0.000002",
+    "input_cache_read": "0.00000004"
+   },
+   "top_provider": {
+    "max_completion_tokens": 209715
+   },
+   "supported_parameters": [
+    "structured_outputs",
+    "tools"
+   ],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 8.6,
+     "coding_index": 31.3,
+     "agentic_index": 2.3
+    }
    },
    "ha_versione_gratuita": false
   },
@@ -9486,6 +9531,45 @@
      "intelligence_index": 4.8,
      "coding_index": 4.8,
      "agentic_index": 0.8
+    }
+   },
+   "ha_versione_gratuita": false
+  },
+  {
+   "id": "mistralai/mistral-large-2512",
+   "name": "Mistral: Mistral Large 3 2512",
+   "created": 1764624472,
+   "context_length": 262144,
+   "description": "Mistral Large 3 2512 is Mistral’s most capable model to date, featuring a sparse mixture-of-experts architecture with 41B active parameters (675B total), and released under the Apache 2.0 license.",
+   "hugging_face_id": "",
+   "architecture": {
+    "input_modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image+file->text"
+   },
+   "pricing": {
+    "prompt": "0.0000005",
+    "completion": "0.0000015",
+    "input_cache_read": "0.00000005"
+   },
+   "top_provider": {
+    "max_completion_tokens": 209715
+   },
+   "supported_parameters": [
+    "structured_outputs",
+    "tools"
+   ],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 9.3,
+     "coding_index": 20.1,
+     "agentic_index": 1
     }
    },
    "ha_versione_gratuita": false
@@ -10278,11 +10362,11 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000013",
-    "completion": "0.00000052"
+    "prompt": "0.00000015",
+    "completion": "0.0000006"
    },
    "top_provider": {
-    "max_completion_tokens": 32768
+    "max_completion_tokens": 16384
    },
    "supported_parameters": [
     "structured_outputs",

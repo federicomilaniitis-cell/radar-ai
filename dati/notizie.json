@@ -1,11 +1,11 @@
 {
- "aggiornato": "2026-09-24T20:14:23+00:00",
+ "aggiornato": "2026-09-25T01:05:52+00:00",
  "notizie": [
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-09-24",
-   "titolo": "Nex-N2.5-Mini (free) viene spento fra 1 giorni",
+   "data": "2026-09-25",
+   "titolo": "Nex-N2.5-Mini (free) viene spento fra 0 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-09-25. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-nex-agi-nex-n2-5-mini-free"
@@ -13,8 +13,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-09-24",
-   "titolo": "Nex-N2.5-Pro (free) viene spento fra 1 giorni",
+   "data": "2026-09-25",
+   "titolo": "Nex-N2.5-Pro (free) viene spento fra 0 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-09-25. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-nex-agi-nex-n2-5-pro-free"
@@ -22,8 +22,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-09-24",
-   "titolo": "Seed-2.0-Code viene spento fra 48 giorni",
+   "data": "2026-09-25",
+   "titolo": "Seed-2.0-Code viene spento fra 47 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-11. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-bytedance-seed-seed-2-0-code"
@@ -31,8 +31,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-09-24",
-   "titolo": "Seed 1.6 Flash viene spento fra 48 giorni",
+   "data": "2026-09-25",
+   "titolo": "Seed 1.6 Flash viene spento fra 47 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-11. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-bytedance-seed-seed-1-6-flash"
@@ -40,8 +40,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-09-24",
-   "titolo": "Seed 1.6 viene spento fra 48 giorni",
+   "data": "2026-09-25",
+   "titolo": "Seed 1.6 viene spento fra 47 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-11. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-bytedance-seed-seed-1-6"
@@ -49,8 +49,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-09-24",
-   "titolo": "MiniMax M2.1 viene spento fra 14 giorni",
+   "data": "2026-09-25",
+   "titolo": "MiniMax M2.1 viene spento fra 13 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-08. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-minimax-minimax-m2-1"
@@ -58,8 +58,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-09-24",
-   "titolo": "DeepSeek V3.2 viene spento fra 4 giorni",
+   "data": "2026-09-25",
+   "titolo": "DeepSeek V3.2 viene spento fra 3 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-09-28. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-deepseek-deepseek-v3-2"
@@ -67,8 +67,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-09-24",
-   "titolo": "DeepSeek V3.2 Exp viene spento fra 4 giorni",
+   "data": "2026-09-25",
+   "titolo": "DeepSeek V3.2 Exp viene spento fra 3 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-09-28. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-deepseek-deepseek-v3-2-exp"
@@ -76,8 +76,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-09-24",
-   "titolo": "DeepSeek V3.1 Terminus viene spento fra 4 giorni",
+   "data": "2026-09-25",
+   "titolo": "DeepSeek V3.1 Terminus viene spento fra 3 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-09-28. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-deepseek-deepseek-v3-1-terminus"
@@ -85,8 +85,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-09-24",
-   "titolo": "Gemini 2.5 Flash Lite viene spento fra 26 giorni",
+   "data": "2026-09-25",
+   "titolo": "Gemini 2.5 Flash Lite viene spento fra 25 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-20. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-google-gemini-2-5-flash-lite"
@@ -94,8 +94,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-09-24",
-   "titolo": "ERNIE 4.5 VL 424B A47B  viene spento fra 14 giorni",
+   "data": "2026-09-25",
+   "titolo": "ERNIE 4.5 VL 424B A47B  viene spento fra 13 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-08. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-baidu-ernie-4-5-vl-424b-a47b"
@@ -103,8 +103,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-09-24",
-   "titolo": "Gemini 2.5 Flash viene spento fra 26 giorni",
+   "data": "2026-09-25",
+   "titolo": "Gemini 2.5 Flash viene spento fra 25 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-20. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-google-gemini-2-5-flash"
@@ -112,8 +112,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-09-24",
-   "titolo": "Gemini 2.5 Pro viene spento fra 26 giorni",
+   "data": "2026-09-25",
+   "titolo": "Gemini 2.5 Pro viene spento fra 25 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-20. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-google-gemini-2-5-pro"
@@ -121,8 +121,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-09-24",
-   "titolo": "R1 Distill Llama 70B viene spento fra 4 giorni",
+   "data": "2026-09-25",
+   "titolo": "R1 Distill Llama 70B viene spento fra 3 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-09-28. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-deepseek-deepseek-r1-distill-llama-70b"
