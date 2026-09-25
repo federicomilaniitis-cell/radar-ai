@@ -1,24 +1,6 @@
 {
- "aggiornato": "2026-09-25T09:57:37+00:00",
+ "aggiornato": "2026-09-25T15:42:15+00:00",
  "notizie": [
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-09-25",
-   "titolo": "Nex-N2.5-Mini (free) viene spento fra 0 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-09-25. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-nex-agi-nex-n2-5-mini-free"
-  },
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-09-25",
-   "titolo": "Nex-N2.5-Pro (free) viene spento fra 0 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-09-25. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-nex-agi-nex-n2-5-pro-free"
-  },
   {
    "tag": "crit",
    "tagT": "Chiusura",
@@ -27,6 +9,24 @@
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-11. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-bytedance-seed-seed-2-0-code"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-09-25",
+   "titolo": "Qwen3.6 Max Preview viene spento fra 14 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-09. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-qwen-qwen3-6-max-preview"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-09-25",
+   "titolo": "Qwen3 Max Thinking viene spento fra 14 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-09. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-qwen-qwen3-max-thinking"
   },
   {
    "tag": "crit",
@@ -68,10 +68,82 @@
    "tag": "crit",
    "tagT": "Chiusura",
    "data": "2026-09-25",
+   "titolo": "Qwen3 VL 32B Instruct viene spento fra 14 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-09. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-qwen-qwen3-vl-32b-instruct"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-09-25",
+   "titolo": "Qwen3 VL 8B Thinking viene spento fra 14 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-09. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-qwen-qwen3-vl-8b-thinking"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-09-25",
+   "titolo": "Qwen3 VL 8B Instruct viene spento fra 14 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-09. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-qwen-qwen3-vl-8b-instruct"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-09-25",
+   "titolo": "Qwen3 VL 30B A3B Thinking viene spento fra 14 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-09. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-qwen-qwen3-vl-30b-a3b-thinking"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-09-25",
    "titolo": "DeepSeek V3.2 Exp viene spento fra 3 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-09-28. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-deepseek-deepseek-v3-2-exp"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-09-25",
+   "titolo": "Qwen3 VL 235B A22B Thinking viene spento fra 14 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-09. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-qwen-qwen3-vl-235b-a22b-thinking"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-09-25",
+   "titolo": "Qwen3 Max viene spento fra 14 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-09. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-qwen-qwen3-max"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-09-25",
+   "titolo": "Nex-N2.5-Mini (free) viene spento fra 0 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-09-25. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-nex-agi-nex-n2-5-mini-free"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-09-25",
+   "titolo": "Nex-N2.5-Pro (free) viene spento fra 0 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-09-25. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-nex-agi-nex-n2-5-pro-free"
   },
   {
    "tag": "crit",
@@ -144,78 +216,6 @@
    "testo": "Da $0,91 a $0,784 per milione di token in entrata.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
    "id": "prezzo-z-ai-glm-5-3prompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-09-21",
-   "titolo": "Granite 4.2 8B: il prezzo in entrata scende del 40%",
-   "testo": "Da $0,1 a $0,06 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-ibm-granite-granite-4-2-8bprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-09-21",
-   "titolo": "GLM 5.3 Flash: il prezzo in entrata scende del 17%",
-   "testo": "Da $0,09 a $0,075 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-z-ai-glm-5-3-flashprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-09-21",
-   "titolo": "GLM 5.3 Flash: il prezzo in uscita scende del 17%",
-   "testo": "Da $0,3 a $0,25 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-z-ai-glm-5-3-flashcompletion"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-09-21",
-   "titolo": "Nemotron 3 Nano 30B A3B: il prezzo in entrata scende del 17%",
-   "testo": "Da $0,06 a $0,05 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-nvidia-nemotron-3-nano-30b-a3bprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-09-21",
-   "titolo": "DeepSeek Pro Latest: il prezzo in entrata scende del 13%",
-   "testo": "Da $0,66 a $0,573 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo--deepseek-deepseek-pro-latestprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-09-21",
-   "titolo": "DeepSeek Pro Latest: il prezzo in uscita scende del 13%",
-   "testo": "Da $1,98 a $1,72 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo--deepseek-deepseek-pro-latestcompletion"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-09-21",
-   "titolo": "DeepSeek V4 Pro 0813: il prezzo in entrata scende del 13%",
-   "testo": "Da $0,66 a $0,573 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-deepseek-deepseek-v4-pro-0813prompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-09-21",
-   "titolo": "DeepSeek V4 Pro 0813: il prezzo in uscita scende del 13%",
-   "testo": "Da $1,98 a $1,72 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-deepseek-deepseek-v4-pro-0813completion"
   }
  ]
 }
