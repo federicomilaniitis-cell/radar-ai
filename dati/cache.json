@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-09-25T01:05:52+00:00",
+ "aggiornato": "2026-09-25T09:57:37+00:00",
  "aggiornato_it": "25 settembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 382,
@@ -910,12 +910,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000003894",
-    "completion": "0.0000011682",
-    "input_cache_read": "0.00000001239"
+    "prompt": "0.00000009984",
+    "completion": "0.00000288",
+    "input_cache_read": "0.00000008832"
    },
    "top_provider": {
-    "max_completion_tokens": 393216
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -951,7 +951,7 @@
    },
    "pricing": {
     "prompt": "0.00000004",
-    "completion": "0.000001",
+    "completion": "0.00000049",
     "input_cache_read": "0.00000001"
    },
    "top_provider": {
@@ -2182,11 +2182,11 @@
    },
    "pricing": {
     "prompt": "0.000000045",
-    "completion": "0.0000006",
-    "input_cache_read": "0.0000000285"
+    "completion": "0.00000014",
+    "input_cache_read": "0.00000001"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 128000
    },
    "supported_parameters": [
     "reasoning",
@@ -3846,8 +3846,8 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000008845",
-    "completion": "0.0000105346",
+    "prompt": "0.000003",
+    "completion": "0.000015",
     "input_cache_read": "0.0000003"
    },
    "top_provider": {
@@ -5904,7 +5904,7 @@
    "pricing": {
     "prompt": "0.0000008845",
     "completion": "0.0000105346",
-    "input_cache_read": "0.0000003"
+    "input_cache_read": "0.00000033"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -6324,9 +6324,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000836418",
-    "completion": "0.000001672836",
-    "input_cache_read": "0.0000000697015"
+    "prompt": "0.000000783",
+    "completion": "0.000001566",
+    "input_cache_read": "0.00000006525"
    },
    "top_provider": {
     "max_completion_tokens": 384000
