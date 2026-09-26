@@ -1,9 +1,38 @@
 {
- "aggiornato": "2026-09-25T20:12:02+00:00",
- "aggiornato_it": "25 settembre 2026",
+ "aggiornato": "2026-09-26T01:06:59+00:00",
+ "aggiornato_it": "26 settembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 380,
+ "totale": 381,
  "modelli": [
+  {
+   "id": "typesafe/jev-router",
+   "name": "TypeSafe: Jev Router",
+   "created": 1790363560,
+   "context_length": 1000000,
+   "description": "Jev Router picks the best model and reasoning effort for each request, balancing quality, speed, and cost. It runs on [Jev](https://openrouter.ai/~typesafe/jev-latest), TypeSafe's first System One model, and adapts as your...",
+   "architecture": {
+    "input_modalities": [
+     "audio",
+     "file",
+     "image",
+     "text",
+     "video"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image+file+audio+video->text"
+   },
+   "pricing": {
+    "prompt": "-1",
+    "completion": "-1"
+   },
+   "top_provider": {
+    "max_completion_tokens": null
+   },
+   "supported_parameters": [],
+   "ha_versione_gratuita": false
+  },
   {
    "id": "perceptron/perceptron-mk1.5",
    "name": "Perceptron: Perceptron Mk1.5",
@@ -697,7 +726,7 @@
    "id": "xiaomi/mimo-v2.6-pro",
    "name": "Xiaomi: MiMo-V2.6-Pro",
    "created": 1790021259,
-   "context_length": 1048576,
+   "context_length": 1050000,
    "description": "MiMo-V2.6-Pro is the flagship foundation model developed by Xiaomi. Built at a scale of over 1T parameters, it is designed to push the ceiling of capability for the most demanding...",
    "hugging_face_id": "XiaomiMiMo/MiMo-V2.6-Pro-RL",
    "architecture": {
@@ -993,12 +1022,12 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.000000099",
-    "completion": "0.0000006",
-    "input_cache_read": "0.00000006"
+    "prompt": "0.000000035",
+    "completion": "0.00000029",
+    "input_cache_read": "0.000000001"
    },
    "top_provider": {
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 384000
    },
    "supported_parameters": [
     "reasoning",
@@ -1410,12 +1439,12 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.000000099",
-    "completion": "0.0000006",
-    "input_cache_read": "0.00000006"
+    "prompt": "0.00000014",
+    "completion": "0.00000042",
+    "input_cache_read": "0.0000000042"
    },
    "top_provider": {
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -2331,9 +2360,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000005614",
-    "completion": "0.0000017644",
-    "input_cache_read": "0.00000010426"
+    "prompt": "0.0000005586",
+    "completion": "0.0000017556",
+    "input_cache_read": "0.00000010374"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -2889,12 +2918,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000007",
+    "prompt": "0.00000008",
     "completion": "0.0000002",
     "input_cache_read": "0.00000004"
    },
    "top_provider": {
-    "max_completion_tokens": 235929
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -3156,9 +3185,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000003",
-    "completion": "0.00000032",
-    "input_cache_read": "0.000000016"
+    "prompt": "0.0000000215",
+    "completion": "0.0000003",
+    "input_cache_read": "0.000000014"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -3198,7 +3227,7 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000003",
+    "prompt": "0.000000022",
     "completion": "0.00000032",
     "input_cache_read": "0.000000016"
    },
@@ -3234,7 +3263,7 @@
    "id": "thinkingmachines/inkling-small",
    "name": "Thinking Machines: Inkling Small",
    "created": 1785443117,
-   "context_length": 1048576,
+   "context_length": 524288,
    "description": "Inkling Small is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 12B active parameters out of 276B total. It is positioned as the smaller, more efficient member of...",
    "hugging_face_id": "thinkingmachines/Inkling-Small",
    "architecture": {
@@ -3689,7 +3718,7 @@
    "id": "thinkingmachines/inkling",
    "name": "Thinking Machines: Inkling",
    "created": 1784325956,
-   "context_length": 1048576,
+   "context_length": 524288,
    "description": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,...",
    "hugging_face_id": "thinkingmachines/Inkling",
    "architecture": {
@@ -4398,9 +4427,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000825",
-    "completion": "0.00000033",
-    "input_cache_read": "0.000000020625"
+    "prompt": "0.000000132",
+    "completion": "0.000000528",
+    "input_cache_read": "0.000000033"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -5819,8 +5848,8 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000012",
-    "completion": "0.0000105346",
+    "prompt": "0.0000010301",
+    "completion": "0.000009043",
     "input_cache_read": "0.0000003"
    },
    "top_provider": {
@@ -6106,11 +6135,10 @@
    },
    "pricing": {
     "prompt": "0.00000032",
-    "completion": "0.0000027",
-    "input_cache_read": "0.00000015"
+    "completion": "0.0000032"
    },
    "top_provider": {
-    "max_completion_tokens": 262140
+    "max_completion_tokens": 81920
    },
    "supported_parameters": [
     "reasoning",
@@ -6242,9 +6270,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000601344",
-    "completion": "0.000001202688",
-    "input_cache_read": "0.000000050112"
+    "prompt": "0.000000418818",
+    "completion": "0.000000837636",
+    "input_cache_read": "0.0000000349015"
    },
    "top_provider": {
     "max_completion_tokens": 384000

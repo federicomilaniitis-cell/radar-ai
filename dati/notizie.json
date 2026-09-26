@@ -1,11 +1,11 @@
 {
- "aggiornato": "2026-09-25T20:12:02+00:00",
+ "aggiornato": "2026-09-26T01:06:59+00:00",
  "notizie": [
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-09-25",
-   "titolo": "Seed-2.0-Code viene spento fra 47 giorni",
+   "data": "2026-09-26",
+   "titolo": "Seed-2.0-Code viene spento fra 46 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-11. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-bytedance-seed-seed-2-0-code"
@@ -13,8 +13,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-09-25",
-   "titolo": "Qwen3.6 Max Preview viene spento fra 14 giorni",
+   "data": "2026-09-26",
+   "titolo": "Qwen3.6 Max Preview viene spento fra 13 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-09. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-qwen-qwen3-6-max-preview"
@@ -22,8 +22,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-09-25",
-   "titolo": "Qwen3 Max Thinking viene spento fra 14 giorni",
+   "data": "2026-09-26",
+   "titolo": "Qwen3 Max Thinking viene spento fra 13 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-09. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-qwen-qwen3-max-thinking"
@@ -31,8 +31,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-09-25",
-   "titolo": "Seed 1.6 Flash viene spento fra 47 giorni",
+   "data": "2026-09-26",
+   "titolo": "Seed 1.6 Flash viene spento fra 46 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-11. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-bytedance-seed-seed-1-6-flash"
@@ -40,8 +40,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-09-25",
-   "titolo": "Seed 1.6 viene spento fra 47 giorni",
+   "data": "2026-09-26",
+   "titolo": "Seed 1.6 viene spento fra 46 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-11. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-bytedance-seed-seed-1-6"
@@ -49,8 +49,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-09-25",
-   "titolo": "MiniMax M2.1 viene spento fra 13 giorni",
+   "data": "2026-09-26",
+   "titolo": "MiniMax M2.1 viene spento fra 12 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-08. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-minimax-minimax-m2-1"
@@ -58,8 +58,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-09-25",
-   "titolo": "DeepSeek V3.2 viene spento fra 3 giorni",
+   "data": "2026-09-26",
+   "titolo": "DeepSeek V3.2 viene spento fra 2 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-09-28. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-deepseek-deepseek-v3-2"
@@ -67,8 +67,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-09-25",
-   "titolo": "Qwen3 VL 32B Instruct viene spento fra 14 giorni",
+   "data": "2026-09-26",
+   "titolo": "Qwen3 VL 32B Instruct viene spento fra 13 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-09. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-qwen-qwen3-vl-32b-instruct"
@@ -76,8 +76,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-09-25",
-   "titolo": "Qwen3 VL 8B Thinking viene spento fra 14 giorni",
+   "data": "2026-09-26",
+   "titolo": "Qwen3 VL 8B Thinking viene spento fra 13 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-09. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-qwen-qwen3-vl-8b-thinking"
@@ -85,8 +85,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-09-25",
-   "titolo": "Qwen3 VL 8B Instruct viene spento fra 14 giorni",
+   "data": "2026-09-26",
+   "titolo": "Qwen3 VL 8B Instruct viene spento fra 13 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-09. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-qwen-qwen3-vl-8b-instruct"
@@ -94,8 +94,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-09-25",
-   "titolo": "Qwen3 VL 30B A3B Thinking viene spento fra 14 giorni",
+   "data": "2026-09-26",
+   "titolo": "Qwen3 VL 30B A3B Thinking viene spento fra 13 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-09. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-qwen-qwen3-vl-30b-a3b-thinking"
@@ -103,8 +103,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-09-25",
-   "titolo": "DeepSeek V3.2 Exp viene spento fra 3 giorni",
+   "data": "2026-09-26",
+   "titolo": "DeepSeek V3.2 Exp viene spento fra 2 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-09-28. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-deepseek-deepseek-v3-2-exp"
@@ -112,8 +112,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-09-25",
-   "titolo": "Qwen3 VL 235B A22B Thinking viene spento fra 14 giorni",
+   "data": "2026-09-26",
+   "titolo": "Qwen3 VL 235B A22B Thinking viene spento fra 13 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-09. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-qwen-qwen3-vl-235b-a22b-thinking"
@@ -121,8 +121,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-09-25",
-   "titolo": "Qwen3 Max viene spento fra 14 giorni",
+   "data": "2026-09-26",
+   "titolo": "Qwen3 Max viene spento fra 13 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-09. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-qwen-qwen3-max"
