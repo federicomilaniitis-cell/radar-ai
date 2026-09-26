@@ -1,8 +1,8 @@
 {
- "aggiornato": "2026-09-26T01:06:59+00:00",
+ "aggiornato": "2026-09-26T09:39:42+00:00",
  "aggiornato_it": "26 settembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 381,
+ "totale": 380,
  "modelli": [
   {
    "id": "typesafe/jev-router",
@@ -982,12 +982,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000025",
-    "completion": "0.0000035",
-    "input_cache_read": "0.000000249"
+    "prompt": "0.00000024948",
+    "completion": "0.00000074844",
+    "input_cache_read": "0.000000007938"
    },
    "top_provider": {
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 393216
    },
    "supported_parameters": [
     "reasoning",
@@ -1439,12 +1439,12 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000014",
-    "completion": "0.00000042",
-    "input_cache_read": "0.0000000042"
+    "prompt": "0.0000003",
+    "completion": "0.0000012",
+    "input_cache_read": "0.000000006"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -2089,12 +2089,12 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000045",
-    "completion": "0.00000014",
-    "input_cache_read": "0.00000001"
+    "prompt": "0.00000004",
+    "completion": "0.0000005",
+    "input_cache_read": "0.000000015"
    },
    "top_provider": {
-    "max_completion_tokens": 128000
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -2171,12 +2171,12 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000045",
-    "completion": "0.00000014",
-    "input_cache_read": "0.00000001"
+    "prompt": "0.00000004",
+    "completion": "0.0000005",
+    "input_cache_read": "0.000000015"
    },
    "top_provider": {
-    "max_completion_tokens": 128000
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -2360,9 +2360,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000005586",
-    "completion": "0.0000017556",
-    "input_cache_read": "0.00000010374"
+    "prompt": "0.0000003794",
+    "completion": "0.0000011924",
+    "input_cache_read": "0.00000007046"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -2429,12 +2429,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000014",
-    "completion": "0.0000044",
-    "input_cache_read": "0.00000026"
+    "prompt": "0.0000003794",
+    "completion": "0.0000011924",
+    "input_cache_read": "0.00000007046"
    },
    "top_provider": {
-    "max_completion_tokens": 943717
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -3185,9 +3185,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000215",
-    "completion": "0.0000003",
-    "input_cache_read": "0.000000014"
+    "prompt": "0.000000021",
+    "completion": "0.00000032",
+    "input_cache_read": "0.000000016"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -3227,7 +3227,7 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000022",
+    "prompt": "0.000000021",
     "completion": "0.00000032",
     "input_cache_read": "0.000000016"
    },
@@ -6270,9 +6270,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000418818",
-    "completion": "0.000000837636",
-    "input_cache_read": "0.0000000349015"
+    "prompt": "0.000000388368",
+    "completion": "0.000000776736",
+    "input_cache_read": "0.000000032364"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -14533,37 +14533,6 @@
      "agentic_index": null
     }
    },
-   "ha_versione_gratuita": false
-  },
-  {
-   "id": "anthropic/claude-3-haiku",
-   "name": "Anthropic: Claude 3 Haiku",
-   "created": 1710288000,
-   "context_length": 200000,
-   "description": "Claude 3 Haiku is Anthropic's fastest and most compact model for\nnear-instant responsiveness. Quick and accurate targeted performance.\n\nSee the launch announcement and benchmark results [here](https://www.anthropic.com/news/claude-3-haiku)\n\n#multimodal",
-   "architecture": {
-    "input_modalities": [
-     "text",
-     "image"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text+image->text"
-   },
-   "pricing": {
-    "prompt": "0.00000025",
-    "completion": "0.00000125",
-    "input_cache_read": "0.00000003",
-    "input_cache_write": "0.0000003",
-    "web_search": "0.01"
-   },
-   "top_provider": {
-    "max_completion_tokens": 4096
-   },
-   "supported_parameters": [
-    "tools"
-   ],
    "ha_versione_gratuita": false
   },
   {
