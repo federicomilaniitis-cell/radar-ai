@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-09-27T10:19:14+00:00",
+ "aggiornato": "2026-09-27T15:29:15+00:00",
  "aggiornato_it": "27 settembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 380,
@@ -2360,9 +2360,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000002737",
+    "prompt": "0.0000003032",
     "completion": "0.000002574",
-    "input_cache_read": "0.000000044965"
+    "input_cache_read": "0.0000000595102"
    },
    "top_provider": {
     "max_completion_tokens": 235929
@@ -5848,9 +5848,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000001",
-    "completion": "0.000009",
-    "input_cache_read": "0.0000003"
+    "prompt": "0.0000009875",
+    "completion": "0.00000553",
+    "input_cache_read": "0.00000011455"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -9967,11 +9967,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000255",
-    "completion": "0.00000102"
+    "prompt": "0.0000003",
+    "completion": "0.0000012"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 176947
    },
    "supported_parameters": [
     "reasoning",
@@ -13491,11 +13491,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000032",
-    "completion": "0.00000089"
+    "prompt": "0.0000002574",
+    "completion": "0.0000010287"
    },
    "top_provider": {
-    "max_completion_tokens": 16384
+    "max_completion_tokens": 16000
    },
    "supported_parameters": [
     "structured_outputs",
