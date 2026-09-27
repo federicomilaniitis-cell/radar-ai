@@ -1,6 +1,6 @@
 {
- "aggiornato": "2026-09-26T19:30:41+00:00",
- "aggiornato_it": "26 settembre 2026",
+ "aggiornato": "2026-09-27T01:03:09+00:00",
+ "aggiornato_it": "27 settembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 380,
  "modelli": [
@@ -982,9 +982,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000024948",
-    "completion": "0.00000074844",
-    "input_cache_read": "0.000000007938"
+    "prompt": "0.00000024552",
+    "completion": "0.00000073656",
+    "input_cache_read": "0.000000007812"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -2360,12 +2360,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000003794",
-    "completion": "0.0000011924",
-    "input_cache_read": "0.00000007046"
+    "prompt": "0.000000238",
+    "completion": "0.000000748",
+    "input_cache_read": "0.0000000391"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -2429,12 +2429,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000003794",
-    "completion": "0.0000011924",
-    "input_cache_read": "0.00000007046"
+    "prompt": "0.000000238",
+    "completion": "0.000000748",
+    "input_cache_read": "0.0000000391"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -2787,12 +2787,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000264",
-    "completion": "0.000000792",
-    "input_cache_read": "0.0000000088"
+    "prompt": "0.00000024634",
+    "completion": "0.0000035",
+    "input_cache_read": "0.00000024584"
    },
    "top_provider": {
-    "max_completion_tokens": 384000
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -4427,9 +4427,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000825",
-    "completion": "0.00000033",
-    "input_cache_read": "0.000000020625"
+    "prompt": "0.000000132",
+    "completion": "0.000000528",
+    "input_cache_read": "0.000000033"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -5848,8 +5848,8 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000010301",
-    "completion": "0.000009043",
+    "prompt": "0.000001",
+    "completion": "0.000009",
     "input_cache_read": "0.0000003"
    },
    "top_provider": {
@@ -7185,12 +7185,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000003",
-    "completion": "0.0000012",
-    "input_cache_read": "0.00000006"
+    "prompt": "0.00000021",
+    "completion": "0.00000084",
+    "input_cache_read": "0.000000042"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 176947
    },
    "supported_parameters": [
     "reasoning",
@@ -9967,11 +9967,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000003",
-    "completion": "0.0000012"
+    "prompt": "0.000000255",
+    "completion": "0.00000102"
    },
    "top_provider": {
-    "max_completion_tokens": 176947
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -12208,6 +12208,7 @@
    "context_length": 131072,
    "description": "Qwen3, the latest generation in the Qwen large language model series, features both dense and mixture-of-experts (MoE) architectures to excel in reasoning, multilingual support, and advanced agent tasks. Its unique...",
    "hugging_face_id": "Qwen/Qwen3-30B-A3B",
+   "expiration_date": "2026-10-09",
    "architecture": {
     "input_modalities": [
      "text"
@@ -12218,11 +12219,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000012",
-    "completion": "0.0000005"
+    "prompt": "0.00000013",
+    "completion": "0.00000052"
    },
    "top_provider": {
-    "max_completion_tokens": 16384
+    "max_completion_tokens": 8192
    },
    "supported_parameters": [
     "reasoning",
