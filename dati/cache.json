@@ -1,6 +1,6 @@
 {
- "aggiornato": "2026-09-27T19:56:37+00:00",
- "aggiornato_it": "27 settembre 2026",
+ "aggiornato": "2026-09-28T01:20:57+00:00",
+ "aggiornato_it": "28 settembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 380,
  "modelli": [
@@ -982,12 +982,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000002442",
-    "completion": "0.0000007326",
-    "input_cache_read": "0.00000000777"
+    "prompt": "0.0000002523",
+    "completion": "0.0000035",
+    "input_cache_read": "0.0000002518"
    },
    "top_provider": {
-    "max_completion_tokens": 393216
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -1022,12 +1022,12 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.000000035",
-    "completion": "0.00000029",
-    "input_cache_read": "0.000000001"
+    "prompt": "0.00000002975",
+    "completion": "0.0000006",
+    "input_cache_read": "0.00000002678"
    },
    "top_provider": {
-    "max_completion_tokens": 384000
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -1439,12 +1439,12 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.000000035",
-    "completion": "0.00000029",
-    "input_cache_read": "0.000000001"
+    "prompt": "0.00000002975",
+    "completion": "0.0000006",
+    "input_cache_read": "0.00000002678"
    },
    "top_provider": {
-    "max_completion_tokens": 384000
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -2171,12 +2171,12 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000045",
-    "completion": "0.00000014",
-    "input_cache_read": "0.00000001"
+    "prompt": "0.00000015",
+    "completion": "0.0000005",
+    "input_cache_read": "0.00000003"
    },
    "top_provider": {
-    "max_completion_tokens": 128000
+    "max_completion_tokens": 943717
    },
    "supported_parameters": [
     "reasoning",
@@ -2266,12 +2266,12 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.0000002156",
-    "completion": "0.0000006468",
-    "input_cache_read": "0.00000000686"
+    "prompt": "0.00000044",
+    "completion": "0.00000132",
+    "input_cache_read": "0.000000014"
    },
    "top_provider": {
-    "max_completion_tokens": 262144
+    "max_completion_tokens": 943717
    },
    "supported_parameters": [
     "reasoning",
@@ -2361,11 +2361,11 @@
    },
    "pricing": {
     "prompt": "0.0000003556",
-    "completion": "0.0000011176",
+    "completion": "0.000002574",
     "input_cache_read": "0.00000006604"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 235929
    },
    "supported_parameters": [
     "reasoning",
@@ -2787,9 +2787,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000029304",
+    "prompt": "0.0000002523",
     "completion": "0.0000035",
-    "input_cache_read": "0.000000172"
+    "input_cache_read": "0.0000002518"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -4427,9 +4427,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000825",
-    "completion": "0.00000033",
-    "input_cache_read": "0.000000020625"
+    "prompt": "0.000000132",
+    "completion": "0.000000528",
+    "input_cache_read": "0.000000033"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -6270,9 +6270,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000348",
-    "completion": "0.000000696",
-    "input_cache_read": "0.000000029"
+    "prompt": "0.0000009483",
+    "completion": "0.0000018966",
+    "input_cache_read": "0.000000079025"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -6316,9 +6316,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000469",
-    "completion": "0.0000000938",
-    "input_cache_read": "0.00000000938"
+    "prompt": "0.00000014",
+    "completion": "0.00000028",
+    "input_cache_read": "0.000000028"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -6682,9 +6682,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000009646",
-    "completion": "0.0000030316",
-    "input_cache_read": "0.00000017914"
+    "prompt": "0.0000014",
+    "completion": "0.0000044",
+    "input_cache_read": "0.00000026"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -7185,12 +7185,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000021",
-    "completion": "0.00000084",
-    "input_cache_read": "0.000000042"
+    "prompt": "0.0000003",
+    "completion": "0.0000012",
+    "input_cache_read": "0.00000006"
    },
    "top_provider": {
-    "max_completion_tokens": 176947
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -7876,12 +7876,11 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000003125",
-    "completion": "0.00000125",
-    "input_cache_read": "0.00000015625"
+    "prompt": "0.0000001625",
+    "completion": "0.0000013"
    },
    "top_provider": {
-    "max_completion_tokens": 16384
+    "max_completion_tokens": 65536
    },
    "supported_parameters": [
     "reasoning",
@@ -9528,7 +9527,6 @@
    "context_length": 163840,
    "description": "DeepSeek-V3.2 is a large language model designed to harmonize high computational efficiency with strong reasoning and agentic tool-use performance. It introduces DeepSeek Sparse Attention (DSA), a fine-grained sparse attention mechanism...",
    "hugging_face_id": "deepseek-ai/DeepSeek-V3.2",
-   "expiration_date": "2026-09-28",
    "architecture": {
     "input_modalities": [
      "text"
@@ -9539,9 +9537,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000269",
-    "completion": "0.0000004",
-    "input_cache_read": "0.0000001345"
+    "prompt": "0.00000028",
+    "completion": "0.00000042",
+    "input_cache_read": "0.000000028"
    },
    "top_provider": {
     "max_completion_tokens": 65536
@@ -9967,11 +9965,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000003",
-    "completion": "0.0000012"
+    "prompt": "0.000000255",
+    "completion": "0.00000102"
    },
    "top_provider": {
-    "max_completion_tokens": 176947
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -12208,6 +12206,7 @@
    "context_length": 131072,
    "description": "Qwen3, the latest generation in the Qwen large language model series, features both dense and mixture-of-experts (MoE) architectures to excel in reasoning, multilingual support, and advanced agent tasks. Its unique...",
    "hugging_face_id": "Qwen/Qwen3-30B-A3B",
+   "expiration_date": "2026-10-09",
    "architecture": {
     "input_modalities": [
      "text"
@@ -12218,11 +12217,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000012",
-    "completion": "0.0000005"
+    "prompt": "0.00000013",
+    "completion": "0.00000052"
    },
    "top_provider": {
-    "max_completion_tokens": 16384
+    "max_completion_tokens": 8192
    },
    "supported_parameters": [
     "reasoning",
@@ -12283,6 +12282,7 @@
    "context_length": 131072,
    "description": "Qwen3-14B is a dense 14.8B parameter causal language model from the Qwen3 series, designed for both complex reasoning and efficient dialogue. It supports seamless switching between a \"thinking\" mode for...",
    "hugging_face_id": "Qwen/Qwen3-14B",
+   "expiration_date": "2026-10-09",
    "architecture": {
     "input_modalities": [
      "text"
@@ -12293,11 +12293,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000012",
-    "completion": "0.00000024"
+    "prompt": "0.0000002275",
+    "completion": "0.00000091"
    },
    "top_provider": {
-    "max_completion_tokens": 16384
+    "max_completion_tokens": 8192
    },
    "supported_parameters": [
     "reasoning",
@@ -12708,8 +12708,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000025",
-    "completion": "0.000001"
+    "prompt": "0.00000029",
+    "completion": "0.00000114",
+    "input_cache_read": "0.00000011"
    },
    "top_provider": {
     "max_completion_tokens": 147456
