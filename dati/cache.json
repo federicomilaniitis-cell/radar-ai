@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-09-28T01:20:57+00:00",
+ "aggiornato": "2026-09-28T11:23:45+00:00",
  "aggiornato_it": "28 settembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 380,
@@ -982,9 +982,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000002523",
-    "completion": "0.0000035",
-    "input_cache_read": "0.0000002518"
+    "prompt": "0.00000022592",
+    "completion": "0.0000019584",
+    "input_cache_read": "0.00000008832"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -1022,12 +1022,12 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000002975",
-    "completion": "0.0000006",
-    "input_cache_read": "0.00000002678"
+    "prompt": "0.000000035",
+    "completion": "0.00000029",
+    "input_cache_read": "0.000000001"
    },
    "top_provider": {
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 384000
    },
    "supported_parameters": [
     "reasoning",
@@ -1439,12 +1439,12 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000002975",
-    "completion": "0.0000006",
-    "input_cache_read": "0.00000002678"
+    "prompt": "0.000000035",
+    "completion": "0.00000029",
+    "input_cache_read": "0.000000001"
    },
    "top_provider": {
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 384000
    },
    "supported_parameters": [
     "reasoning",
@@ -1712,13 +1712,12 @@
      "text",
      "image",
      "video",
-     "file",
-     "audio"
+     "file"
     ],
     "output_modalities": [
      "text"
     ],
-    "modality": "text+image+file+audio+video->text"
+    "modality": "text+image+file+video->text"
    },
    "pricing": {
     "prompt": "0.0000001",
@@ -1759,13 +1758,12 @@
      "text",
      "image",
      "video",
-     "file",
-     "audio"
+     "file"
     ],
     "output_modalities": [
      "text"
     ],
-    "modality": "text+image+file+audio+video->text"
+    "modality": "text+image+file+video->text"
    },
    "pricing": {
     "prompt": "0.00000125",
@@ -2213,13 +2211,12 @@
      "text",
      "image",
      "video",
-     "file",
-     "audio"
+     "file"
     ],
     "output_modalities": [
      "text"
     ],
-    "modality": "text+image+file+audio+video->text"
+    "modality": "text+image+file+video->text"
    },
    "pricing": {
     "prompt": "0.0000001",
@@ -2360,12 +2357,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000003556",
-    "completion": "0.000002574",
-    "input_cache_read": "0.00000006604"
+    "prompt": "0.0000001785",
+    "completion": "0.000002805",
+    "input_cache_read": "0.000000146625"
    },
    "top_provider": {
-    "max_completion_tokens": 235929
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -2787,9 +2784,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000002523",
-    "completion": "0.0000035",
-    "input_cache_read": "0.0000002518"
+    "prompt": "0.0000003995",
+    "completion": "0.0000042",
+    "input_cache_read": "0.000000399"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -3121,19 +3118,18 @@
    "name": "Meta: Muse Spark 1.2",
    "created": 1785959287,
    "context_length": 1048576,
-   "description": "Muse Spark 1.2 is a reasoning model from Meta, designed for complex agentic tasks. It accepts text, images, video, audio, and PDF documents, returns text, and offers a 1M-token context...",
+   "description": "Muse Spark 1.2 is a reasoning model from Meta, designed for complex agentic tasks. It accepts text, images, video, and PDF documents, returns text, and offers a 1M-token context window....",
    "architecture": {
     "input_modalities": [
      "text",
      "image",
      "video",
-     "file",
-     "audio"
+     "file"
     ],
     "output_modalities": [
      "text"
     ],
-    "modality": "text+image+file+audio+video->text"
+    "modality": "text+image+file+video->text"
    },
    "pricing": {
     "prompt": "0.00000125",
@@ -3872,19 +3868,18 @@
    "name": "Meta: Muse Spark 1.1",
    "created": 1784215741,
    "context_length": 1048576,
-   "description": "Muse Spark 1.1 is a multimodal reasoning model from Meta, built for agentic tasks. It accepts text, images, video, audio, and PDF documents and returns text, with a 1M-token context...",
+   "description": "Muse Spark 1.1 is a multimodal reasoning model from Meta, built for agentic tasks. It accepts text, images, video, and PDF documents and returns text, with a 1M-token context window....",
    "architecture": {
     "input_modalities": [
      "text",
      "image",
      "video",
-     "file",
-     "audio"
+     "file"
     ],
     "output_modalities": [
      "text"
     ],
-    "modality": "text+image+file+audio+video->text"
+    "modality": "text+image+file+video->text"
    },
    "pricing": {
     "prompt": "0.00000125",
@@ -6270,9 +6265,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000009483",
-    "completion": "0.0000018966",
-    "input_cache_read": "0.000000079025"
+    "prompt": "0.00000095526",
+    "completion": "0.00000191052",
+    "input_cache_read": "0.000000079605"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -6587,9 +6582,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000095",
-    "completion": "0.000004",
-    "input_cache_read": "0.00000016"
+    "prompt": "0.00000065",
+    "completion": "0.00000341",
+    "input_cache_read": "0.00000015"
    },
    "top_provider": {
     "max_completion_tokens": 235929
@@ -6726,9 +6721,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000000675",
-    "completion": "0.000000225",
-    "input_cache_read": "0.0000000375"
+    "prompt": "0.00000009",
+    "completion": "0.0000003",
+    "input_cache_read": "0.00000005"
    },
    "top_provider": {
     "max_completion_tokens": 235929
@@ -9965,11 +9960,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000255",
-    "completion": "0.00000102"
+    "prompt": "0.0000003",
+    "completion": "0.0000012"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 176947
    },
    "supported_parameters": [
     "reasoning",
@@ -12206,7 +12201,6 @@
    "context_length": 131072,
    "description": "Qwen3, the latest generation in the Qwen large language model series, features both dense and mixture-of-experts (MoE) architectures to excel in reasoning, multilingual support, and advanced agent tasks. Its unique...",
    "hugging_face_id": "Qwen/Qwen3-30B-A3B",
-   "expiration_date": "2026-10-09",
    "architecture": {
     "input_modalities": [
      "text"
@@ -12217,11 +12211,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000013",
-    "completion": "0.00000052"
+    "prompt": "0.00000012",
+    "completion": "0.0000005"
    },
    "top_provider": {
-    "max_completion_tokens": 8192
+    "max_completion_tokens": 16384
    },
    "supported_parameters": [
     "reasoning",
@@ -12282,7 +12276,6 @@
    "context_length": 131072,
    "description": "Qwen3-14B is a dense 14.8B parameter causal language model from the Qwen3 series, designed for both complex reasoning and efficient dialogue. It supports seamless switching between a \"thinking\" mode for...",
    "hugging_face_id": "Qwen/Qwen3-14B",
-   "expiration_date": "2026-10-09",
    "architecture": {
     "input_modalities": [
      "text"
@@ -12293,11 +12286,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000002275",
-    "completion": "0.00000091"
+    "prompt": "0.00000012",
+    "completion": "0.00000024"
    },
    "top_provider": {
-    "max_completion_tokens": 8192
+    "max_completion_tokens": 16384
    },
    "supported_parameters": [
     "reasoning",
