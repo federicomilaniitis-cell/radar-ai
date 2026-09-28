@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-09-28T11:23:45+00:00",
+ "aggiornato": "2026-09-28T22:22:36+00:00",
  "notizie": [
   {
    "tag": "crit",
@@ -95,15 +95,6 @@
    "tag": "crit",
    "tagT": "Chiusura",
    "data": "2026-09-28",
-   "titolo": "DeepSeek V3.2 Exp viene spento fra 0 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-09-28. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-deepseek-deepseek-v3-2-exp"
-  },
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-09-28",
    "titolo": "Qwen3 VL 235B A22B Thinking viene spento fra 11 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-09. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
@@ -126,6 +117,24 @@
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-09. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-qwen-qwen3-coder-plus"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-09-28",
+   "titolo": "Qwen Plus 0728 viene spento fra 11 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-09. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-qwen-qwen-plus-2025-07-28"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-09-28",
+   "titolo": "DeepSeek V3.2 Exp viene spento fra 0 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-09-28. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-deepseek-deepseek-v3-2-exp"
   },
   {
    "tag": "crit",
@@ -207,15 +216,6 @@
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-09-28. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-deepseek-deepseek-r1-distill-llama-70b"
-  },
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-09-22",
-   "titolo": "Dots3-Note Preview (free) viene spento fra 8 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-09-30. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-dots-studio-dots-3-note-preview-free"
   }
  ]
 }

@@ -1,9 +1,54 @@
 {
- "aggiornato": "2026-09-28T11:23:45+00:00",
+ "aggiornato": "2026-09-28T22:22:36+00:00",
  "aggiornato_it": "28 settembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 380,
+ "totale": 381,
  "modelli": [
+  {
+   "id": "anthropic/claude-sonnet-5.5",
+   "name": "Anthropic: Claude Sonnet 5.5",
+   "created": 1790618686,
+   "context_length": 1000000,
+   "description": "Claude Sonnet 5.5 is Anthropic's Sonnet-class model for well-scoped everyday work, succeeding Claude Sonnet 5 as a direct upgrade. It is especially strong at building features, fixing bugs, and producing...",
+   "architecture": {
+    "input_modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image+file->text"
+   },
+   "pricing": {
+    "prompt": "0.000002",
+    "completion": "0.00001",
+    "input_cache_read": "0.0000002",
+    "input_cache_write": "0.0000025",
+    "web_search": "0.01"
+   },
+   "top_provider": {
+    "max_completion_tokens": 128000
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": true,
+    "supported_efforts": [
+     "max",
+     "xhigh",
+     "high",
+     "medium",
+     "low"
+    ],
+    "default_effort": "high"
+   },
+   "ha_versione_gratuita": false
+  },
   {
    "id": "typesafe/jev-router",
    "name": "TypeSafe: Jev Router",
@@ -720,6 +765,13 @@
    "reasoning": {
     "mandatory": false
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 37.9,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -784,9 +836,9 @@
     "modality": "text+image+file->text"
    },
    "pricing": {
-    "prompt": "0.0000016",
-    "completion": "0.0000048",
-    "input_cache_read": "0.0000004",
+    "prompt": "0.000002",
+    "completion": "0.000006",
+    "input_cache_read": "0.0000005",
     "web_search": "0.005"
    },
    "top_provider": {
@@ -874,7 +926,8 @@
    },
    "pricing": {
     "prompt": "0.000000075",
-    "completion": "0.0000005"
+    "completion": "0.0000005",
+    "input_cache_read": "0.0000000375"
    },
    "top_provider": {
     "max_completion_tokens": 32768
@@ -1022,12 +1075,12 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.000000035",
-    "completion": "0.00000029",
-    "input_cache_read": "0.000000001"
+    "prompt": "0.00000005",
+    "completion": "0.0000006",
+    "input_cache_read": "0.00000001"
    },
    "top_provider": {
-    "max_completion_tokens": 384000
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -1439,12 +1492,12 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.000000035",
-    "completion": "0.00000029",
-    "input_cache_read": "0.000000001"
+    "prompt": "0.0000003",
+    "completion": "0.0000012",
+    "input_cache_read": "0.000000006"
    },
    "top_provider": {
-    "max_completion_tokens": 384000
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -1515,6 +1568,87 @@
      "coding_index": null,
      "agentic_index": null
     }
+   },
+   "ha_versione_gratuita": false
+  },
+  {
+   "id": "nex-agi/nex-n2.5-mini",
+   "name": "Nex AGI: Nex-N2.5-Mini",
+   "created": 1788890061,
+   "context_length": 262144,
+   "description": "Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file...",
+   "hugging_face_id": "nex-agi/Nex-N2.5-mini",
+   "architecture": {
+    "input_modalities": [
+     "text",
+     "image"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image->text"
+   },
+   "pricing": {
+    "prompt": "0.000000025",
+    "completion": "0.0000001",
+    "input_cache_read": "0.0000000025"
+   },
+   "top_provider": {
+    "max_completion_tokens": 235929
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs"
+   ],
+   "reasoning": {
+    "mandatory": false,
+    "supported_efforts": [
+     "high",
+     "medium",
+     "none"
+    ],
+    "default_effort": "high"
+   },
+   "ha_versione_gratuita": false
+  },
+  {
+   "id": "nex-agi/nex-n2.5-pro",
+   "name": "Nex AGI: Nex-N2.5-Pro",
+   "created": 1788890050,
+   "context_length": 262144,
+   "description": "Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file...",
+   "hugging_face_id": "nex-agi/Nex-N2.5-Pro",
+   "architecture": {
+    "input_modalities": [
+     "text",
+     "image"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image->text"
+   },
+   "pricing": {
+    "prompt": "0.000000075",
+    "completion": "0.00000025",
+    "input_cache_read": "0.000000015"
+   },
+   "top_provider": {
+    "max_completion_tokens": 235929
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": false,
+    "supported_efforts": [
+     "high",
+     "medium",
+     "none"
+    ],
+    "default_effort": "high"
    },
    "ha_versione_gratuita": false
   },
@@ -2028,46 +2162,7 @@
      "agentic_index": 27.9
     }
    },
-   "ha_versione_gratuita": true
-  },
-  {
-   "id": "inclusionai/ling-3.0-flash-fin:free",
-   "name": "inclusionAI: Ling 3.0 Flash Fin (free)",
-   "created": 1787846290,
-   "context_length": 262144,
-   "description": "Ling 3.0 Flash Fin is a finance-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for real-world investment...",
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text->text"
-   },
-   "pricing": {
-    "prompt": "0",
-    "completion": "0"
-   },
-   "top_provider": {
-    "max_completion_tokens": 32768
-   },
-   "supported_parameters": [
-    "reasoning",
-    "tools"
-   ],
-   "reasoning": {
-    "mandatory": false,
-    "default_enabled": true
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": 22.6,
-     "coding_index": 55.6,
-     "agentic_index": 27.9
-    }
-   },
-   "ha_versione_gratuita": true
+   "ha_versione_gratuita": false
   },
   {
    "id": "~z-ai/glm-flash-latest",
@@ -2263,12 +2358,12 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000044",
-    "completion": "0.00000132",
-    "input_cache_read": "0.000000014"
+    "prompt": "0.0000002156",
+    "completion": "0.0000006468",
+    "input_cache_read": "0.00000000686"
    },
    "top_provider": {
-    "max_completion_tokens": 943717
+    "max_completion_tokens": 262144
    },
    "supported_parameters": [
     "reasoning",
@@ -2357,12 +2452,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000001785",
-    "completion": "0.000002805",
-    "input_cache_read": "0.000000146625"
+    "prompt": "0.00000015",
+    "completion": "0.0000033",
+    "input_cache_read": "0.0000001"
    },
    "top_provider": {
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -2426,12 +2521,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000014",
-    "completion": "0.0000044",
-    "input_cache_read": "0.00000026"
+    "prompt": "0.00000015",
+    "completion": "0.0000033",
+    "input_cache_read": "0.0000001"
    },
    "top_provider": {
-    "max_completion_tokens": 943717
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -2784,9 +2879,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000003995",
+    "prompt": "0.0000003942",
     "completion": "0.0000042",
-    "input_cache_read": "0.000000399"
+    "input_cache_read": "0.0000003153"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -2920,7 +3015,7 @@
     "input_cache_read": "0.00000004"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 32768
    },
    "supported_parameters": [
     "reasoning",
@@ -3181,9 +3276,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000021",
-    "completion": "0.00000032",
-    "input_cache_read": "0.000000016"
+    "prompt": "0.000000019",
+    "completion": "0.0000003",
+    "input_cache_read": "0.000000014"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -4164,10 +4259,10 @@
     "modality": "text+image+file->text"
    },
    "pricing": {
-    "prompt": "0.000002",
-    "completion": "0.00001",
-    "input_cache_read": "0.0000002",
-    "input_cache_write": "0.0000025",
+    "prompt": "0.000004",
+    "completion": "0.00002",
+    "input_cache_read": "0.0000004",
+    "input_cache_write": "0.000005",
     "web_search": "0.01"
    },
    "top_provider": {
@@ -4315,9 +4410,9 @@
     "modality": "text+image+file->text"
    },
    "pricing": {
-    "prompt": "0.0000016",
-    "completion": "0.0000048",
-    "input_cache_read": "0.0000004",
+    "prompt": "0.000002",
+    "completion": "0.000006",
+    "input_cache_read": "0.0000005",
     "web_search": "0.005"
    },
    "top_provider": {
@@ -4422,9 +4517,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000132",
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033"
+    "prompt": "0.0000000825",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -5843,9 +5938,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000001",
-    "completion": "0.000009",
-    "input_cache_read": "0.0000003"
+    "prompt": "0.000000875",
+    "completion": "0.0000112",
+    "input_cache_read": "0.00000029"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -5948,8 +6043,7 @@
     "tools"
    ],
    "reasoning": {
-    "mandatory": false,
-    "default_enabled": true,
+    "mandatory": true,
     "supported_efforts": [
      "max",
      "xhigh",
@@ -6265,9 +6359,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000095526",
-    "completion": "0.00000191052",
-    "input_cache_read": "0.000000079605"
+    "prompt": "0.000000783",
+    "completion": "0.000001566",
+    "input_cache_read": "0.00000006525"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -6311,9 +6405,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000014",
-    "completion": "0.00000028",
-    "input_cache_read": "0.000000028"
+    "prompt": "0.00000004886",
+    "completion": "0.00000009772",
+    "input_cache_read": "0.000000009772"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -6677,9 +6771,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000014",
-    "completion": "0.0000044",
-    "input_cache_read": "0.00000026"
+    "prompt": "0.0000009646",
+    "completion": "0.0000030316",
+    "input_cache_read": "0.00000017914"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -6721,9 +6815,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000009",
-    "completion": "0.0000003",
-    "input_cache_read": "0.00000005"
+    "prompt": "0.0000000765",
+    "completion": "0.000000255",
+    "input_cache_read": "0.0000000425"
    },
    "top_provider": {
     "max_completion_tokens": 235929
@@ -10451,7 +10545,6 @@
    "context_length": 163840,
    "description": "DeepSeek-V3.2-Exp is an experimental large language model released by DeepSeek as an intermediate step between V3.1 and future architectures. It introduces DeepSeek Sparse Attention (DSA), a fine-grained sparse attention mechanism...",
    "hugging_face_id": "deepseek-ai/DeepSeek-V3.2-Exp",
-   "expiration_date": "2026-09-28",
    "architecture": {
     "input_modalities": [
      "text"
@@ -10462,11 +10555,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000027",
-    "completion": "0.00000041"
+    "prompt": "0.0000001344",
+    "completion": "0.0000002016",
+    "input_cache_read": "0.0000000672"
    },
    "top_provider": {
-    "max_completion_tokens": 65536
+    "max_completion_tokens": 147456
    },
    "supported_parameters": [
     "reasoning",
@@ -10673,7 +10767,6 @@
    "context_length": 163840,
    "description": "DeepSeek-V3.1 Terminus is an update to [DeepSeek V3.1](/deepseek/deepseek-chat-v3.1) that maintains the model's original capabilities while addressing issues reported by users, including language consistency and agent capabilities, further optimizing the model's...",
    "hugging_face_id": "deepseek-ai/DeepSeek-V3.1-Terminus",
-   "expiration_date": "2026-09-28",
    "architecture": {
     "input_modalities": [
      "text"
@@ -10685,11 +10778,10 @@
    },
    "pricing": {
     "prompt": "0.00000027",
-    "completion": "0.000001",
-    "input_cache_read": "0.000000135"
+    "completion": "0.000001"
    },
    "top_provider": {
-    "max_completion_tokens": 32768
+    "max_completion_tokens": 147456
    },
    "supported_parameters": [
     "reasoning",
@@ -11259,7 +11351,8 @@
    },
    "pricing": {
     "prompt": "0.000000018",
-    "completion": "0.00000009"
+    "completion": "0.00000009",
+    "input_cache_read": "0.000000009"
    },
    "top_provider": {
     "max_completion_tokens": 32768
@@ -11401,11 +11494,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000001",
-    "completion": "0.0000003"
+    "prompt": "0.00000004815",
+    "completion": "0.00000019305"
    },
    "top_provider": {
-    "max_completion_tokens": 235929
+    "max_completion_tokens": 32000
    },
    "supported_parameters": [
     "structured_outputs",
@@ -13340,38 +13433,6 @@
     "max_completion_tokens": 114364
    },
    "supported_parameters": [],
-   "ha_versione_gratuita": false
-  },
-  {
-   "id": "deepseek/deepseek-r1-distill-llama-70b",
-   "name": "DeepSeek: R1 Distill Llama 70B",
-   "created": 1737663169,
-   "context_length": 8192,
-   "description": "DeepSeek R1 Distill Llama 70B is a distilled large language model based on [Llama-3.3-70B-Instruct](/meta-llama/llama-3.3-70b-instruct), using outputs from [DeepSeek R1](/deepseek/deepseek-r1). The model combines advanced distillation techniques to achieve high performance across...",
-   "hugging_face_id": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
-   "expiration_date": "2026-09-28",
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text->text"
-   },
-   "pricing": {
-    "prompt": "0.0000008",
-    "completion": "0.0000008"
-   },
-   "top_provider": {
-    "max_completion_tokens": 7372
-   },
-   "supported_parameters": [
-    "reasoning"
-   ],
-   "reasoning": {
-    "mandatory": false
-   },
    "ha_versione_gratuita": false
   },
   {
