@@ -1,89 +1,89 @@
 {
- "aggiornato": "2026-09-28T22:22:36+00:00",
+ "aggiornato": "2026-09-29T02:27:06+00:00",
  "paper": [
   {
-   "titolo": "DeepEdu-v1: Efficient and Scalable Agentic LLMs for Vietnamese Education",
-   "data": "2026-09-25",
-   "url": "http://arxiv.org/abs/2609.31568v1",
-   "id": "2609.31568v1",
-   "sommario": "AI tutoring could markedly improve learning outcomes for students in developing regions such as Vietnam, yet the two obvious paths both fall short. Cloud assistants such as ChatGPT route sensitive student data to foreign servers---violating data-sovereignty laws such as Vietnam's"
+   "titolo": "PReCache: Efficient KV Cache Sharing for Multi-LoRA Agents via Low-Rank Precomputation and Neutral Reconstruction",
+   "data": "2026-09-28",
+   "url": "http://arxiv.org/abs/2609.34054v1",
+   "id": "2609.34054v1",
+   "sommario": "Multi-LoRA agent systems enable efficient role specialization by sharing a common backbone model. However, each agent repeatedly processes the growing shared trajectory and constructs its own KV cache, introducing substantial memory and computation redundancy in long-horizon task"
   },
   {
-   "titolo": "Compress What You See, Not What You Say: Anchored Context Distillation for Latent-Observation Software Engineering Agents",
-   "data": "2026-09-25",
-   "url": "http://arxiv.org/abs/2609.31430v1",
-   "id": "2609.31430v1",
-   "sommario": "Tool observations dominate the context of software-engineering agents, making long interaction histories costly to maintain. Existing context compression methods can discard information needed by later actions, while adapting agents to soft-token representations can compromise th"
+   "titolo": "Thinking Outside the Box: Retention and Transmission of Information in Sliding-Window KV Inference",
+   "data": "2026-09-28",
+   "url": "http://arxiv.org/abs/2609.34049v1",
+   "id": "2609.34049v1",
+   "sommario": "Sliding-window KV inference refers to processing a sequence incrementally while retaining only a fixed-size cache of recent key and value states. It can be applied to pretrained causal transformers at inference time without additional training, while its KV-cache memory remains f"
   },
   {
-   "titolo": "Evaluating the accuracy of KV cache reuse techniques",
-   "data": "2026-09-25",
-   "url": "http://arxiv.org/abs/2609.31415v1",
-   "id": "2609.31415v1",
-   "sommario": "Position-independent KV cache reuse aims to reduce latency in retrieval-augmented generation by reusing chunk-level KV caches across prompts. We show that current evaluations of KV cache reuse techniques rely on measurements that fail to faithfully capture the loss of accuracy at"
+   "titolo": "Where Activation Sparsity and KV-Cache Sparsity Cross in LLM Decoding",
+   "data": "2026-09-27",
+   "url": "http://arxiv.org/abs/2609.33889v1",
+   "id": "2609.33889v1",
+   "sommario": "At each step, decoding one sequence with a large language model rereads the projection weights, whose traffic is fixed, and the key-value (KV) cache, whose traffic grows with context. Activation sparsity trims the first term and KV-cache sparsity the second, yet their reported sp"
   },
   {
-   "titolo": "ActKV: Efficient LLM Agents through Action-Guided KV Cache Management",
-   "data": "2026-09-25",
-   "url": "http://arxiv.org/abs/2609.31395v1",
-   "id": "2609.31395v1",
-   "sommario": "Agentic LLM inference accumulates long KV caches across iterative observation-reasoning-action loops, imposing substantial memory overhead and limiting serving throughput. Existing compression methods emphasize overall output quality, overlooking the asymmetric importance of acti"
+   "titolo": "Positions Are Not Facts: The Mismatch Between KV Caches and Memory",
+   "data": "2026-09-27",
+   "url": "http://arxiv.org/abs/2609.33759v1",
+   "id": "2609.33759v1",
+   "sommario": "When a fact changes, how should a language model update the history stored in its key-value (KV) cache? Hiding the old record is cheap, but it may still contain needed details or answer questions about the past. We compare hiding whole records, hiding only replaced values, and de"
   },
   {
-   "titolo": "CytoSPM: Open-Vocabulary Cytopathology Detection with Structured Prompt Bank",
-   "data": "2026-09-25",
-   "url": "http://arxiv.org/abs/2609.31314v1",
-   "id": "2609.31314v1",
-   "sommario": "Cytopathology detection requires open-vocabulary recognition because cellular categories are fine-grained, long-tailed, and continuously evolving across different organ systems. However, existing cytology detectors are mostly single-domain and closed-set, and there is still no un"
+   "titolo": "PQ-HSA: Reusing Product-Quantized Scores for Hybrid Sparse-Approximate Attention",
+   "data": "2026-09-27",
+   "url": "http://arxiv.org/abs/2609.33746v1",
+   "id": "2609.33746v1",
+   "sommario": "At each decoding step a language model attends over the key-value (KV) cache of every earlier token, so at long context the attention call is bounded by memory bandwidth. Sparse attention reads only a subset of keys chosen by a cheap score estimate, and most methods give the unre"
   },
   {
-   "titolo": "Acoustic-to-Text KV Compression for Full-Duplex Speech Models",
-   "data": "2026-09-25",
-   "url": "http://arxiv.org/abs/2609.31224v1",
-   "id": "2609.31224v1",
-   "sommario": "Full-duplex speech language models continuously accumulate acoustic key-value (KV) states, making long-running interactions memory-intensive. During listening, the model can finish processing an audio unit before the next arrives; we term the remaining interval listening-time sla"
+   "titolo": "Does Execution Require Target KV Fidelity? A Mixed-Fidelity KV Runtime for LLM Serving",
+   "data": "2026-09-27",
+   "url": "http://arxiv.org/abs/2609.33536v1",
+   "id": "2609.33536v1",
+   "sommario": "Large language model (LLM) serving is increasingly constrained by the GPU memory consumed by key-value (KV) caches. Existing compression, eviction, and offloading techniques alleviate this pressure, but serving runtimes typically treat only the configured target KV representation"
   },
   {
-   "titolo": "Pocket-STVG: lightweight architecture for Spatio-Temporal Video Grounding",
-   "data": "2026-09-25",
-   "url": "http://arxiv.org/abs/2609.31135v1",
-   "id": "2609.31135v1",
-   "sommario": "Spatio-Temporal Video Grounding (STVG) aims to localize the spatio-temporal tube in a video corresponding to a natural language query. While recent methods achieve strong performance in fully supervised, weakly supervised, and zero-shot settings, they typically rely on computatio"
+   "titolo": "RelaxKV: Recomputation Guided by the Query with Sparse Context Attention for Efficient KV Cache Reuse",
+   "data": "2026-09-27",
+   "url": "http://arxiv.org/abs/2609.33503v1",
+   "id": "2609.33503v1",
+   "sommario": "Cross-request KV caching reduces the prefill cost of Retrieval-Augmented Generation (RAG), but conventional prefix caching severely limits cache reuse across requests. Position-Independent Caching (PIC) removes this constraint by reusing independent chunks, but their KV states mi"
   },
   {
-   "titolo": "CacheReforge: Bounded Recovery for Stale KV Caches under Evolving Adapters",
-   "data": "2026-09-25",
-   "url": "http://arxiv.org/abs/2609.30884v1",
-   "id": "2609.30884v1",
-   "sommario": "Large language models rely on KV caching to reduce repeated prefill computation in long context and interactive applications. As lightweight adapters evolve, cached states reflect earlier versions, so stale reuse distorts current model outputs, while complete affected suffix reco"
+   "titolo": "Just Let Linear States Forget the Distant Past: Prefix Caching via Suffix Replay for Hybrid LLMs",
+   "data": "2026-09-27",
+   "url": "http://arxiv.org/abs/2609.33477v1",
+   "id": "2609.33477v1",
+   "sommario": "Hybrid LLMs interleave full-attention layers with linear-attention layers to reduce long-context inference cost, but this structure complicates prefix caching. Full-attention KV caches are token-addressable, whereas linear-attention layers maintain recurrent states that cannot be"
   },
   {
-   "titolo": "The KV Cache Is the New Memory Wall",
-   "data": "2026-09-25",
-   "url": "http://arxiv.org/abs/2609.30854v1",
-   "id": "2609.30854v1",
-   "sommario": "Autoregressive LLM inference at long context is bounded by memory bandwidth, not arithmetic throughput, and the binding resource shifts from model weights to the Key-Value (KV) cache as sequence length grows. For Llama-3-70B in BF16, the 140 GB weight footprint exceeds the 80 GB "
+   "titolo": "GSM: Efficient Language Modeling with Shared Global State",
+   "data": "2026-09-27",
+   "url": "http://arxiv.org/abs/2609.33465v1",
+   "id": "2609.33465v1",
+   "sommario": "Efficient language models must reduce not only the cost of individual accesses to past context but also the overhead of repeatedly selecting and processing historical information across layers. We introduce the Global State Model (GSM), a causal encoder--decoder architecture that"
   },
   {
-   "titolo": "HasMem: Hard-Origin Adaptively Softened Memory for Long-Term LLM Agents",
-   "data": "2026-09-25",
-   "url": "http://arxiv.org/abs/2609.30797v1",
-   "id": "2609.30797v1",
-   "sommario": "Text-based memory and context compression support reuse of past interactions. Resizing continuous memory changes the input to a frozen LLM, coupling capacity allocation with readout. We propose Hard-Origin Adaptively Softened Memory (HasMem). Frozen hard-prompt embeddings provide"
+   "titolo": "FoldAttention: Declared-Reference Softmax for Fast Decode and Deterministic Backward",
+   "data": "2026-09-27",
+   "url": "http://arxiv.org/abs/2609.33410v1",
+   "id": "2609.33410v1",
+   "sommario": "Autoregressive decode repeatedly streams a growing KV cache, making attention a major cost at long context. Existing high-performance kernels use online softmax, which discovers a row's normalization reference as it scans keys. Earlier contributions therefore remain provisional a"
   },
   {
-   "titolo": "Symbiotic Architecture for Post-Hoc Audio Extension of Frozen Language Models",
-   "data": "2026-09-25",
-   "url": "http://arxiv.org/abs/2609.30784v1",
-   "id": "2609.30784v1",
-   "sommario": "This paper proposes an architecture for equipping large language models (LLMs) with audio-understanding capabilities without fine-tuning their weights. The proposed symbiotic architecture employs an injector module that writes audio-conditioned vectors directly into the target LL"
+   "titolo": "When to Evict, Not What to Keep: Draft-Guided Eviction for Training-Free KV-Cache Compression",
+   "data": "2026-09-27",
+   "url": "http://arxiv.org/abs/2609.33334v1",
+   "id": "2609.33334v1",
+   "sommario": "Training-free KV-cache compression methods such as SnapKV, H2O, and PyramidKV evict tokens at the end of prefill, aiming to preserve the attention mass that future queries are expected to use -optimizing what to keep. We show that this objective fails in two distinct ways. (1) Co"
   },
   {
-   "titolo": "Beyond Mean Attention: Diversity-Aware, Layer-Wise Scoring for KV Cache Eviction",
-   "data": "2026-09-25",
-   "url": "http://arxiv.org/abs/2609.30738v1",
-   "id": "2609.30738v1",
-   "sommario": "KV cache eviction methods such as SnapKV and PyramidKV rank tokens solely by mean attention over a small observation window. We study a unified score, $μ_i+λ_1σ_i+λ_2\\mathrm{corr}(i,S)$, adding attention dispersion across window queries and redundancy relative to selected tokens."
+   "titolo": "CascadeEP: Asynchronous Expert Execution for MoE Prefill under Attention Imbalance",
+   "data": "2026-09-27",
+   "url": "http://arxiv.org/abs/2609.33252v1",
+   "id": "2609.33252v1",
+   "sommario": "Mixture-of-experts (MoE) serving commonly deploys data and expert parallelism (DEP): attention replicas run distinct request batches while routed experts are sharded across an expert-parallel (EP) group. During prefill, attention replicas finish dispatch at different times, but s"
   }
  ]
 }
