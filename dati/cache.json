@@ -1,9 +1,101 @@
 {
- "aggiornato": "2026-09-29T11:00:58+00:00",
+ "aggiornato": "2026-09-29T21:12:08+00:00",
  "aggiornato_it": "29 settembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 381,
+ "totale": 383,
  "modelli": [
+  {
+   "id": "openai/gpt-6.1-sol-pro",
+   "name": "OpenAI: GPT-6.1 Sol Pro",
+   "created": 1790702886,
+   "context_length": 1050000,
+   "description": "GPT-6.1 Sol Pro is the same underlying model as [GPT-6.1 Sol](https://openrouter.ai/openai/gpt-6.1-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode spends far more...",
+   "architecture": {
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image+file->text"
+   },
+   "pricing": {
+    "prompt": "0.000002",
+    "completion": "0.00001",
+    "input_cache_read": "0.0000001",
+    "input_cache_write": "0.0000025",
+    "web_search": "0.01"
+   },
+   "top_provider": {
+    "max_completion_tokens": 128000
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": true,
+    "default_enabled": true,
+    "supported_efforts": [
+     "max",
+     "xhigh",
+     "high",
+     "medium",
+     "low"
+    ],
+    "default_effort": "medium"
+   },
+   "ha_versione_gratuita": false
+  },
+  {
+   "id": "openai/gpt-6.1-sol",
+   "name": "OpenAI: GPT-6.1 Sol",
+   "created": 1790702882,
+   "context_length": 1050000,
+   "description": "GPT-6.1 Sol is an upgrade to GPT-6 Sol from OpenAI, positioned below the flagship GPT-6 Astra in the GPT-6 series. It is suited for agentic coding, computer use, document-heavy professional...",
+   "architecture": {
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image+file->text"
+   },
+   "pricing": {
+    "prompt": "0.000002",
+    "completion": "0.00001",
+    "input_cache_read": "0.0000001",
+    "input_cache_write": "0.0000025",
+    "web_search": "0.01"
+   },
+   "top_provider": {
+    "max_completion_tokens": 128000
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": true,
+    "default_enabled": true,
+    "supported_efforts": [
+     "max",
+     "xhigh",
+     "high",
+     "medium",
+     "low"
+    ],
+    "default_effort": "medium"
+   },
+   "ha_versione_gratuita": false
+  },
   {
    "id": "anthropic/claude-sonnet-5.5",
    "name": "Anthropic: Claude Sonnet 5.5",
@@ -452,7 +544,7 @@
    "name": "OpenAI: GPT-6 Luna Pro",
    "created": 1790100791,
    "context_length": 1050000,
-   "description": "GPT-6 Luna Pro is the same underlying model as [GPT-6 Luna](https://openrouter.ai/openai/gpt-6-luna), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode",
+   "description": "GPT-6 Luna Pro is the same underlying model as [GPT-6 Luna](https://openrouter.ai/openai/gpt-6-luna), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode spends far more...",
    "architecture": {
     "input_modalities": [
      "file",
@@ -553,7 +645,7 @@
    "name": "OpenAI: GPT-6 Sol Pro",
    "created": 1790100781,
    "context_length": 1050000,
-   "description": "GPT-6 Sol Pro is the same underlying model as [GPT-6 Sol](https://openrouter.ai/openai/gpt-6-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode",
+   "description": "GPT-6 Sol Pro is the same underlying model as [GPT-6 Sol](https://openrouter.ai/openai/gpt-6-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode spends far more...",
    "architecture": {
     "input_modalities": [
      "file",
@@ -1230,7 +1322,7 @@
    "pricing": {
     "prompt": "0.000002",
     "completion": "0.00001",
-    "input_cache_read": "0.0000002",
+    "input_cache_read": "0.0000001",
     "input_cache_write": "0.0000025",
     "web_search": "0.01"
    },
@@ -1243,15 +1335,14 @@
     "tools"
    ],
    "reasoning": {
-    "mandatory": false,
+    "mandatory": true,
     "default_enabled": true,
     "supported_efforts": [
      "max",
      "xhigh",
      "high",
      "medium",
-     "low",
-     "none"
+     "low"
     ],
     "default_effort": "medium"
    },
@@ -1717,7 +1808,7 @@
    "name": "OpenAI: GPT-6 Astra Pro",
    "created": 1788552835,
    "context_length": 1050000,
-   "description": "GPT-6 Astra Pro is the same underlying model as [GPT-6 Astra](https://openrouter.ai/openai/gpt-6-astra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode",
+   "description": "GPT-6 Astra Pro is the same underlying model as [GPT-6 Astra](https://openrouter.ai/openai/gpt-6-astra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode spends far more...",
    "architecture": {
     "input_modalities": [
      "file",
@@ -2459,12 +2550,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000019",
-    "completion": "0.000004",
-    "input_cache_read": "0.00000019"
+    "prompt": "0.0000001428",
+    "completion": "0.000002992",
+    "input_cache_read": "0.0000001955"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -2578,9 +2669,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000000507",
+    "prompt": "0.0000000249",
     "completion": "0.0000044",
-    "input_cache_read": "0.0000000406"
+    "input_cache_read": "0.0000000199"
    },
    "top_provider": {
     "max_completion_tokens": 235929
@@ -2886,9 +2977,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000048",
-    "completion": "0.0000042",
-    "input_cache_read": "0.000000384"
+    "prompt": "0.0000003942",
+    "completion": "0.00000349",
+    "input_cache_read": "0.0000003153"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -3004,7 +3095,7 @@
    "id": "nvidia/nemotron-3.5-lightning",
    "name": "NVIDIA: Nemotron 3.5 Lightning",
    "created": 1786452751,
-   "context_length": 1000000,
+   "context_length": 262144,
    "description": "NVIDIA Nemotron 3.5 Lightning is an open mixture-of-experts model from NVIDIA, with 3B active parameters out of 30B total. It is suited for high-throughput agentic workloads and specialized tasks that...",
    "hugging_face_id": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
    "architecture": {
@@ -4051,7 +4142,7 @@
    "name": "OpenAI: GPT-5.6 Luna Pro",
    "created": 1783590867,
    "context_length": 1050000,
-   "description": "GPT-5.6 Luna Pro is the same underlying model as [GPT-5.6 Luna](https://openrouter.ai/openai/gpt-5.6-luna), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode",
+   "description": "GPT-5.6 Luna Pro is the same underlying model as [GPT-5.6 Luna](https://openrouter.ai/openai/gpt-5.6-luna), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode spends far more...",
    "architecture": {
     "input_modalities": [
      "file",
@@ -4152,7 +4243,7 @@
    "name": "OpenAI: GPT-5.6 Terra Pro",
    "created": 1783590861,
    "context_length": 1050000,
-   "description": "GPT-5.6 Terra Pro is the same underlying model as [GPT-5.6 Terra](https://openrouter.ai/openai/gpt-5.6-terra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode",
+   "description": "GPT-5.6 Terra Pro is the same underlying model as [GPT-5.6 Terra](https://openrouter.ai/openai/gpt-5.6-terra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode spends far more...",
    "architecture": {
     "input_modalities": [
      "file",
@@ -4253,7 +4344,7 @@
    "name": "OpenAI: GPT-5.6 Sol Pro",
    "created": 1783590854,
    "context_length": 1050000,
-   "description": "GPT-5.6 Sol Pro is the same underlying model as [GPT-5.6 Sol](https://openrouter.ai/openai/gpt-5.6-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode",
+   "description": "GPT-5.6 Sol Pro is the same underlying model as [GPT-5.6 Sol](https://openrouter.ai/openai/gpt-5.6-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode spends far more...",
    "architecture": {
     "input_modalities": [
      "file",
@@ -4524,9 +4615,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000132",
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033"
+    "prompt": "0.0000000825",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -4884,9 +4975,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000001949",
-    "completion": "0.0000044",
-    "input_cache_read": "0.0000001559"
+    "prompt": "0.0000002807",
+    "completion": "0.00000399",
+    "input_cache_read": "0.0000002245"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -5946,7 +6037,7 @@
    },
    "pricing": {
     "prompt": "0.0000004",
-    "completion": "0.00001",
+    "completion": "0.000009",
     "input_cache_read": "0.0000004"
    },
    "top_provider": {
@@ -6366,9 +6457,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000095526",
-    "completion": "0.00000191052",
-    "input_cache_read": "0.000000079605"
+    "prompt": "0.000000915936",
+    "completion": "0.000001831872",
+    "input_cache_read": "0.000000076328"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -6412,9 +6503,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000014",
-    "completion": "0.00000028",
-    "input_cache_read": "0.000000028"
+    "prompt": "0.0000000763",
+    "completion": "0.0000001526",
+    "input_cache_read": "0.00000001526"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -6778,9 +6869,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000014",
-    "completion": "0.0000044",
-    "input_cache_read": "0.00000026"
+    "prompt": "0.0000009646",
+    "completion": "0.0000030316",
+    "input_cache_read": "0.00000017914"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -8053,7 +8144,7 @@
     "completion": "0.00000208"
    },
    "top_provider": {
-    "max_completion_tokens": 235929
+    "max_completion_tokens": 65536
    },
    "supported_parameters": [
     "reasoning",
@@ -9364,7 +9455,7 @@
    "pricing": {
     "prompt": "0.0000003",
     "completion": "0.0000009",
-    "input_cache_read": "0.00000005"
+    "input_cache_read": "0.000000055"
    },
    "top_provider": {
     "max_completion_tokens": 32768
@@ -12300,7 +12391,6 @@
    "context_length": 131072,
    "description": "Qwen3, the latest generation in the Qwen large language model series, features both dense and mixture-of-experts (MoE) architectures to excel in reasoning, multilingual support, and advanced agent tasks. Its unique...",
    "hugging_face_id": "Qwen/Qwen3-30B-A3B",
-   "expiration_date": "2026-10-09",
    "architecture": {
     "input_modalities": [
      "text"
@@ -12311,11 +12401,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000013",
-    "completion": "0.00000052"
+    "prompt": "0.00000012",
+    "completion": "0.0000005"
    },
    "top_provider": {
-    "max_completion_tokens": 8192
+    "max_completion_tokens": 16384
    },
    "supported_parameters": [
     "reasoning",
