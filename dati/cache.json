@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-09-30T10:51:57+00:00",
+ "aggiornato": "2026-09-30T16:37:18+00:00",
  "aggiornato_it": "30 settembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 383,
@@ -1141,9 +1141,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000134",
+    "prompt": "0.000000123",
     "completion": "0.0000035",
-    "input_cache_read": "0.000000134"
+    "input_cache_read": "0.000000123"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -2204,9 +2204,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000834",
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042"
+    "prompt": "0.0000007506",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378"
    },
    "top_provider": {
     "max_completion_tokens": 64000
@@ -3500,9 +3500,9 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": null,
+     "intelligence_index": 25.7,
      "coding_index": 52.9,
-     "agentic_index": null
+     "agentic_index": 23.5
     }
    },
    "ha_versione_gratuita": true
@@ -3551,9 +3551,9 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": null,
+     "intelligence_index": 25.7,
      "coding_index": 52.9,
-     "agentic_index": null
+     "agentic_index": 23.5
     }
    },
    "ha_versione_gratuita": true
@@ -4622,9 +4622,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000132",
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033"
+    "prompt": "0.0000000825",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -4982,7 +4982,7 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000041",
+    "prompt": "0.0000003",
     "completion": "0.00000399",
     "input_cache_read": "0.00000026"
    },
@@ -6043,8 +6043,8 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000003654",
-    "completion": "0.0000091343",
+    "prompt": "0.0000003062",
+    "completion": "0.0000068902",
     "input_cache_read": "0.0000004"
    },
    "top_provider": {
@@ -6464,9 +6464,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000095526",
-    "completion": "0.00000191052",
-    "input_cache_read": "0.000000079605"
+    "prompt": "0.000000783",
+    "completion": "0.000001566",
+    "input_cache_read": "0.00000006525"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -6510,12 +6510,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000014",
-    "completion": "0.00000028",
-    "input_cache_read": "0.000000028"
+    "prompt": "0.00000007854",
+    "completion": "0.00000015708",
+    "input_cache_read": "0.000000015708"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 384000
    },
    "supported_parameters": [
     "reasoning",
@@ -6532,9 +6532,9 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 24.2,
-     "coding_index": 56.2,
-     "agentic_index": 22.2
+     "intelligence_index": 24.4,
+     "coding_index": 52,
+     "agentic_index": 26.3
     }
    },
    "ha_versione_gratuita": false
@@ -6876,9 +6876,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000014",
-    "completion": "0.0000044",
-    "input_cache_read": "0.00000026"
+    "prompt": "0.0000009646",
+    "completion": "0.0000030316",
+    "input_cache_read": "0.00000017914"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -7024,7 +7024,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": null,
+     "intelligence_index": 14.7,
      "coding_index": 43.4,
      "agentic_index": 4.2
     }
@@ -7066,7 +7066,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": null,
+     "intelligence_index": 14.7,
      "coding_index": 43.4,
      "agentic_index": 4.2
     }
@@ -12398,7 +12398,6 @@
    "context_length": 131072,
    "description": "Qwen3, the latest generation in the Qwen large language model series, features both dense and mixture-of-experts (MoE) architectures to excel in reasoning, multilingual support, and advanced agent tasks. Its unique...",
    "hugging_face_id": "Qwen/Qwen3-30B-A3B",
-   "expiration_date": "2026-10-09",
    "architecture": {
     "input_modalities": [
      "text"
@@ -12409,11 +12408,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000013",
-    "completion": "0.00000052"
+    "prompt": "0.00000012",
+    "completion": "0.0000005"
    },
    "top_provider": {
-    "max_completion_tokens": 8192
+    "max_completion_tokens": 16384
    },
    "supported_parameters": [
     "reasoning",
