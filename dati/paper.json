@@ -1,89 +1,89 @@
 {
- "aggiornato": "2026-09-29T21:12:08+00:00",
+ "aggiornato": "2026-09-30T01:47:05+00:00",
  "paper": [
+  {
+   "titolo": "Chinese-Jev: Bringing System One Model to Chinese-Language Tasks",
+   "data": "2026-09-29",
+   "url": "http://arxiv.org/abs/2609.36965v1",
+   "id": "2609.36965v1",
+   "sommario": "System One models such as Jev offer an efficient alternative to generative language models for tasks that require decisions rather than open-ended responses. However, existing Jev models exhibit limited Chinese-language decision accuracy, restricting their utility in both general"
+  },
+  {
+   "titolo": "Efficient Agentic LLM Serving over SSD-based Sparse KV Storage",
+   "data": "2026-09-29",
+   "url": "http://arxiv.org/abs/2609.36938v1",
+   "id": "2609.36938v1",
+   "sommario": "Agentic sessions driven by Large language models (LLMs) often alternate between model inference and tool use, accumulating long histories across successive rounds. Serving these sessions efficiently requires reducing attention computation and retaining history key-value (KV) cach"
+  },
+  {
+   "titolo": "IronLLM: Forging Compact Edge-Native Language Models for Real-Time Embodied Intelligence",
+   "data": "2026-09-29",
+   "url": "http://arxiv.org/abs/2609.36860v1",
+   "id": "2609.36860v1",
+   "sommario": "We present IronLLM-0.6B, a 654M-parameter language model designed for efficient on-device inference. IronLLM-0.6B combines a hybrid attention architecture with X-MTP, a lightweight shared-KV multi-token prediction design that eliminates per-depth KV-cache replay and employs a lig"
+  },
+  {
+   "titolo": "ARC-KV: Amortizing Anchor Search for Reconstruction-Based KV Cache Compaction",
+   "data": "2026-09-29",
+   "url": "http://arxiv.org/abs/2609.36835v1",
+   "id": "2609.36835v1",
+   "sommario": "Long-context large language model inference is bottlenecked by KV caches that grow linearly with sequence length. This burden is especially severe for long, reusable context prefixes, whose cache must serve many downstream queries. Reconstruction-based methods such as Attention M"
+  },
+  {
+   "titolo": "Interactive-Policy Distillation with Bidirectional Propose-and-Verify",
+   "data": "2026-09-29",
+   "url": "http://arxiv.org/abs/2609.36546v1",
+   "id": "2609.36546v1",
+   "sommario": "On-policy distillation (OPD) trains a student model on its self-generated trajectories with dense token-level teacher feedback. However, naive OPD may suffer from teacher unanchoring, where the student's reasoning trajectory drifts far from the teacher, causing the teacher to be "
+  },
+  {
+   "titolo": "Adapting Context Compression for Long-Horizon Agents with Counterfactual Continuations",
+   "data": "2026-09-29",
+   "url": "http://arxiv.org/abs/2609.36526v1",
+   "id": "2609.36526v1",
+   "sommario": "Long-horizon agents require context compression to manage growing interaction histories. Compression quality, however, is ultimately determined by downstream execution. Existing prompt-adaptation methods infer compression errors by comparing full-context and compressed trajectori"
+  },
+  {
+   "titolo": "Periodic Weak Spots: Phase Sensitivity from Chunked KV-Cache Compression",
+   "data": "2026-09-28",
+   "url": "http://arxiv.org/abs/2609.36322v1",
+   "id": "2609.36322v1",
+   "sommario": "Chunked KV-cache compression reduces the memory and attention costs of long-context inference by compressing windows of consecutive tokens into fewer cache entries at a fixed stride. Such compression also introduces a new positional coordinate: a token's phase, or its position re"
+  },
+  {
+   "titolo": "How Much Prompt Is Enough? A Blackbox Minimization of Few-Shots in LLMs",
+   "data": "2026-09-28",
+   "url": "http://arxiv.org/abs/2609.36289v1",
+   "id": "2609.36289v1",
+   "sommario": "Prompts are the primary mechanism for directing the behavior of large language models (LLMs). Yet the internal structure and causal hierarchy of prompts remain poorly understood: which parts are causally necessary and which are redundant is an open question. This opacity can have"
+  },
+  {
+   "titolo": "FastGuide: Accelerating Reward Guidance for Diffusion Large Language Models",
+   "data": "2026-09-28",
+   "url": "http://arxiv.org/abs/2609.36202v1",
+   "id": "2609.36202v1",
+   "sommario": "Gradient-based reward guidance provides a flexible way to use downstream reward models to control masked diffusion language models at inference time. However, its computational cost remains high as each decoding iteration incurs expensive diffusion model forward passes and reward"
+  },
+  {
+   "titolo": "Hybrid Neural Simulation-Based Inference for Robust Applications and Limited-Budget Scenarios",
+   "data": "2026-09-28",
+   "url": "http://arxiv.org/abs/2609.36044v1",
+   "id": "2609.36044v1",
+   "sommario": "We develop two hybrid techniques that approach the performance of neural simulation-based inference (NSBI) analyses while substantially reducing the computational cost of inference and preserving some or all of the reliability guarantees of parametric methods. The first approach "
+  },
+  {
+   "titolo": "TORQUE: Optimizing What (not) to Quantize Before and After Rotation",
+   "data": "2026-09-28",
+   "url": "http://arxiv.org/abs/2609.36032v1",
+   "id": "2609.36032v1",
+   "sommario": "Uniform random rotations are an effective preprocessing step for quantization: they make normalized coordinate distributions approximately Gaussian, enabling the use of codebooks optimized offline. We introduce TORQUE, a framework that improves on previous quantization works that"
+  },
   {
    "titolo": "KV-streams for Efficient Compaction in Agentic Reinforcement Learning",
    "data": "2026-09-28",
    "url": "http://arxiv.org/abs/2609.35750v1",
    "id": "2609.35750v1",
    "sommario": "Scaling the horizon of agentic LLMs is bottlenecked by the need to fit ever longer context traces in GPU memory. Context compaction has been the most popular mechanism to alleviate this issue, keeping GPU memory constant for a given trace. Unfortunately, most compaction strategie"
-  },
-  {
-   "titolo": "SANTA++: Sampling Attention through Representative Keys",
-   "data": "2026-09-28",
-   "url": "http://arxiv.org/abs/2609.35629v1",
-   "id": "2609.35629v1",
-   "sommario": "Attention often concentrates on a small subset of tokens in the context, but which subset matters changes from one query to the next. To exploit this changing structure, we introduce SANTA++, a training-free stochastic attention method that uses representative keys for memory-eff"
-  },
-  {
-   "titolo": "Cartridges++: KV Cache Compression without Off-Context Derailment",
-   "data": "2026-09-28",
-   "url": "http://arxiv.org/abs/2609.35621v1",
-   "id": "2609.35621v1",
-   "sommario": "Serving long documents to a Large Language Model (LLM) repeatedly is expensive: computations grow with context length, and the memory footprint of the key-value (KV) cache balloons. Compressed KV (CKV) representations aim to mimic the cache of a document and are typically compute"
-  },
-  {
-   "titolo": "Language Models Act on Hidden Valence",
-   "data": "2026-09-28",
-   "url": "http://arxiv.org/abs/2609.35591v1",
-   "id": "2609.35591v1",
-   "sommario": "Language models describe some internal states as good and others as bad. But whether models have a stake in them is an open question. Simply asking the model is unlikely to be informative. Any answer may be consistent with genuine introspection, superficial pattern-matching, or w"
-  },
-  {
-   "titolo": "CacheRepair: Learning to Repair Cross-Chunk Context in RAG for KV Cache Fusion",
-   "data": "2026-09-28",
-   "url": "http://arxiv.org/abs/2609.35139v1",
-   "id": "2609.35139v1",
-   "sommario": "Multi-document retrieval-augmented generation (RAG) requires a language model to process multiple retrieved text chunks before answering a question. Precomputing each chunk's KV cache independently and concatenating the caches when the chunks are retrieved can accelerate this ste"
-  },
-  {
-   "titolo": "TempoKV: Timely Staging of LLM KV Caches for Memory-Semantic Flash",
-   "data": "2026-09-28",
-   "url": "http://arxiv.org/abs/2609.35065v1",
-   "id": "2609.35065v1",
-   "sommario": "Reusable prefix key-value (KV) caches can outgrow GPU memory in large language model (LLM) serving. A memory-semantic flash hierarchy offers SSD-backed capacity with a limited fast tier, but a logical KV hit is not necessarily ready for GPU retrieval. Demand staging exposes SSD l"
-  },
-  {
-   "titolo": "Dual-Stream Simultaneous Translation via 2D Grid Attention",
-   "data": "2026-09-28",
-   "url": "http://arxiv.org/abs/2609.34902v1",
-   "id": "2609.34902v1",
-   "sommario": "Simultaneous machine translation must generate target tokens before the source input is complete. Existing approaches address this through post-hoc read-write policies, leaving the attention mechanism unaware of bidirectional stream dependencies. We propose a dual-stream attentio"
-  },
-  {
-   "titolo": "D$^2$-VLA: Dual-Memory Dual-Frequency Vision-Language-Action Model For Long Dynamic Manipulation",
-   "data": "2026-09-28",
-   "url": "http://arxiv.org/abs/2609.34792v1",
-   "id": "2609.34792v1",
-   "sommario": "Long-horizon manipulation requires robots to remember cues that are no longer in view while responding to moving objects. Yet vision-language-action (VLA) policies often rely on the latest observation, and refreshing their visual context typically requires another costly vision-l"
-  },
-  {
-   "titolo": "Dynamic Flow, Static Graph: KV Cache Reuse for Efficient LLM Serving on Mobile NPUs",
-   "data": "2026-09-28",
-   "url": "http://arxiv.org/abs/2609.34727v1",
-   "id": "2609.34727v1",
-   "sommario": "On-device large language model (LLM) serving is a cornerstone of local-first personal intelligence, offering users data sovereignty, strong privacy guarantees, and freedom from cloud API latency and cost. Although KV caching is widely used to reduce latency in long-context infere"
-  },
-  {
-   "titolo": "Tool Waiting and Re-arrival in Compile-Time-Static LLM Serving: Cost Mechanisms and Configuration Selection",
-   "data": "2026-09-28",
-   "url": "http://arxiv.org/abs/2609.34663v1",
-   "id": "2609.34663v1",
-   "sommario": "In agentic LLM services, a session calls an external tool, waits for it, and re-arrives to continue inference. Statically compiled NPU serving can fix the batch bucket set, the maximum batch size, and the number of KV cache slots at compile time. We define such an environment as "
-  },
-  {
-   "titolo": "OmniTide: Co-Designing Algorithms and Systems for Efficient On-Device Omni-LLM Streaming",
-   "data": "2026-09-28",
-   "url": "http://arxiv.org/abs/2609.34653v1",
-   "id": "2609.34653v1",
-   "sommario": "On-device streaming omni-modal inference safeguards user privacy and eliminates prohibitive per-token API costs, but faces a critical bottleneck: the continuous influx of multimodal data rapidly exhausts constrained memory and compute budgets via monotonic KV cache growth. Existi"
-  },
-  {
-   "titolo": "SPIMOE: Exploiting Hybrid Sparsity for Reasoning MoE Inference on Heterogeneous PIM Architectures",
-   "data": "2026-09-28",
-   "url": "http://arxiv.org/abs/2609.34612v1",
-   "id": "2609.34612v1",
-   "sommario": "Long-reasoning Mixture-of-Experts (MoE) models expose two coupled inference bottlenecks: growing KV caches shift the critical path toward attention, while sparse expert activation causes load imbalance and low hardware utilization. Although Processing-in-Memory (PIM) offers a pro"
   }
  ]
 }
