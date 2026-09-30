@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-09-30T01:47:05+00:00",
+ "aggiornato": "2026-09-30T10:51:57+00:00",
  "aggiornato_it": "30 settembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 383,
@@ -840,7 +840,7 @@
    "id": "xiaomi/mimo-v2.6-flash",
    "name": "Xiaomi: MiMo-V2.6-Flash",
    "created": 1790021264,
-   "context_length": 1048576,
+   "context_length": 1050000,
    "description": "MiMo-V2.6-Flash is an open-source foundation model developed by Xiaomi. Built on a Mixture-of-Experts architecture with 309B total parameters and 15B activated per token, it employs a hybrid attention mechanism for...",
    "hugging_face_id": "XiaomiMiMo/MiMo-V2.6-Flash-RL",
    "architecture": {
@@ -1141,9 +1141,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
+    "prompt": "0.000000134",
     "completion": "0.0000035",
-    "input_cache_read": "0.00000015"
+    "input_cache_read": "0.000000134"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -1181,9 +1181,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000002",
-    "completion": "0.0000006",
-    "input_cache_read": "0.00000002"
+    "prompt": "0.0000000198",
+    "completion": "0.000000396",
+    "input_cache_read": "0.00000000291"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -1597,9 +1597,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.0000003",
-    "completion": "0.0000012",
-    "input_cache_read": "0.000000006"
+    "prompt": "0.0000000198",
+    "completion": "0.000000396",
+    "input_cache_read": "0.00000000291"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -2288,7 +2288,7 @@
    },
    "pricing": {
     "prompt": "0.00000002",
-    "completion": "0.0000003",
+    "completion": "0.0000002475",
     "input_cache_read": "0.00000001"
    },
    "top_provider": {
@@ -2557,9 +2557,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000012",
-    "completion": "0.0000015",
-    "input_cache_read": "0.00000012"
+    "prompt": "0.00000013",
+    "completion": "0.000004",
+    "input_cache_read": "0.00000013"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -2676,12 +2676,12 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000042",
-    "completion": "0.000003",
-    "input_cache_read": "0.000000085"
+    "prompt": "0.0000000249",
+    "completion": "0.00000435",
+    "input_cache_read": "0.0000000199"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 235929
    },
    "supported_parameters": [
     "reasoning",
@@ -2984,9 +2984,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000132",
-    "completion": "0.00000396",
-    "input_cache_read": "0.000000044"
+    "prompt": "0.00000066",
+    "completion": "0.00000198",
+    "input_cache_read": "0.000000022"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -3381,9 +3381,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000012",
-    "completion": "0.00000125",
-    "input_cache_read": "0.00000001"
+    "prompt": "0.0000000099",
+    "completion": "0.00000013068",
+    "input_cache_read": "0.000000001386"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -3423,9 +3423,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000018",
-    "completion": "0.00000032",
-    "input_cache_read": "0.000000018"
+    "prompt": "0.00000001",
+    "completion": "0.00000128",
+    "input_cache_read": "0.00000001"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -4982,9 +4982,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000001739",
+    "prompt": "0.00000041",
     "completion": "0.00000399",
-    "input_cache_read": "0.0000001391"
+    "input_cache_read": "0.00000026"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -5030,8 +5030,8 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.0000006562",
-    "completion": "0.0000033",
+    "prompt": "0.0000006712",
+    "completion": "0.00000335",
     "input_cache_read": "0.00000018"
    },
    "top_provider": {
@@ -6043,8 +6043,8 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000004",
-    "completion": "0.000009",
+    "prompt": "0.0000003654",
+    "completion": "0.0000091343",
     "input_cache_read": "0.0000004"
    },
    "top_provider": {
@@ -6920,9 +6920,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000000765",
-    "completion": "0.000000255",
-    "input_cache_read": "0.0000000425"
+    "prompt": "0.00000009",
+    "completion": "0.0000003",
+    "input_cache_read": "0.00000005"
    },
    "top_provider": {
     "max_completion_tokens": 235929
