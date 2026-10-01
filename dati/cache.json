@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-01T01:44:35+00:00",
+ "aggiornato": "2026-10-01T11:18:09+00:00",
  "aggiornato_it": "1 ottobre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 383,
@@ -1153,9 +1153,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000035",
-    "input_cache_read": "0.00000015"
+    "prompt": "0.00000021648",
+    "completion": "0.00000064944",
+    "input_cache_read": "0.000000006888"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -1193,9 +1193,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.0000000157",
+    "prompt": "0.0000000243",
     "completion": "0.0000006",
-    "input_cache_read": "0.0000000157"
+    "input_cache_read": "0.0000000243"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -1609,9 +1609,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.0000000157",
-    "completion": "0.0000006",
-    "input_cache_read": "0.0000000157"
+    "prompt": "0.00000003",
+    "completion": "0.0000005",
+    "input_cache_read": "0.00000001"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -2300,7 +2300,7 @@
    },
    "pricing": {
     "prompt": "0.00000002",
-    "completion": "0.0000002475",
+    "completion": "0.0000003",
     "input_cache_read": "0.00000001"
    },
    "top_provider": {
@@ -2569,12 +2569,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000019",
-    "completion": "0.000004",
-    "input_cache_read": "0.00000019"
+    "prompt": "0.00000006",
+    "completion": "0.000002694",
+    "input_cache_read": "0.000000176"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -2639,8 +2639,8 @@
    },
    "pricing": {
     "prompt": "0.0000002219",
-    "completion": "0.00000634",
-    "input_cache_read": "0.0000002217"
+    "completion": "0.0000044",
+    "input_cache_read": "0.0000001775"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -2996,9 +2996,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000132",
-    "completion": "0.00000396",
-    "input_cache_read": "0.000000044"
+    "prompt": "0.00000066",
+    "completion": "0.00000198",
+    "input_cache_read": "0.000000022"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -3393,9 +3393,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000007326",
-    "completion": "0.00000013068",
-    "input_cache_read": "0.000000001386"
+    "prompt": "0.0000000108",
+    "completion": "0.00000128",
+    "input_cache_read": "0.0000000108"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -3435,9 +3435,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000015",
+    "prompt": "0.0000000108",
     "completion": "0.00000128",
-    "input_cache_read": "0.000000015"
+    "input_cache_read": "0.0000000108"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -4044,9 +4044,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000028",
+    "prompt": "0.0000007179",
     "completion": "0.00001",
-    "input_cache_read": "0.00000027"
+    "input_cache_read": "0.0000007179"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -4994,8 +4994,8 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000003249",
-    "completion": "0.00000399",
+    "prompt": "0.0000011",
+    "completion": "0.0000044",
     "input_cache_read": "0.00000026"
    },
    "top_provider": {
@@ -6055,9 +6055,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000028",
+    "prompt": "0.0000007179",
     "completion": "0.00001",
-    "input_cache_read": "0.00000027"
+    "input_cache_read": "0.0000007179"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -6476,9 +6476,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000783",
-    "completion": "0.000001566",
-    "input_cache_read": "0.00000006525"
+    "prompt": "0.0000002088",
+    "completion": "0.0000004176",
+    "input_cache_read": "0.0000000174"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -6522,9 +6522,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000007854",
-    "completion": "0.00000015708",
-    "input_cache_read": "0.000000015708"
+    "prompt": "0.000000042",
+    "completion": "0.000000084",
+    "input_cache_read": "0.0000000084"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -6793,9 +6793,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000065",
-    "completion": "0.00000341",
-    "input_cache_read": "0.00000015"
+    "prompt": "0.00000043415",
+    "completion": "0.000001828",
+    "input_cache_read": "0.00000007312"
    },
    "top_provider": {
     "max_completion_tokens": 235929
@@ -6932,9 +6932,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000000765",
-    "completion": "0.000000255",
-    "input_cache_read": "0.0000000425"
+    "prompt": "0.00000009",
+    "completion": "0.0000003",
+    "input_cache_read": "0.00000005"
    },
    "top_provider": {
     "max_completion_tokens": 235929
@@ -12409,7 +12409,6 @@
    "context_length": 131072,
    "description": "Qwen3, the latest generation in the Qwen large language model series, features both dense and mixture-of-experts (MoE) architectures to excel in reasoning, multilingual support, and advanced agent tasks. Its unique...",
    "hugging_face_id": "Qwen/Qwen3-30B-A3B",
-   "expiration_date": "2026-10-09",
    "architecture": {
     "input_modalities": [
      "text"
@@ -12420,11 +12419,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000013",
-    "completion": "0.00000052"
+    "prompt": "0.00000012",
+    "completion": "0.0000005"
    },
    "top_provider": {
-    "max_completion_tokens": 8192
+    "max_completion_tokens": 16384
    },
    "supported_parameters": [
     "reasoning",

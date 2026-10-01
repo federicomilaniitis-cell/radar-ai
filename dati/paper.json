@@ -1,6 +1,48 @@
 {
- "aggiornato": "2026-10-01T01:44:35+00:00",
+ "aggiornato": "2026-10-01T11:18:09+00:00",
  "paper": [
+  {
+   "titolo": "Learning Functional Subspaces for Neural Network Compression",
+   "data": "2026-09-30",
+   "url": "http://arxiv.org/abs/2609.40127v1",
+   "id": "2609.40127v1",
+   "sommario": "Modern transformers pair impressive capabilities with substantial memory and compute demands. Low-rank weight factorization reduces both while keeping the matrices dense, and thus efficient on standard hardware. Existing methods, however, choose the subspace to remove from each w"
+  },
+  {
+   "titolo": "Persistent Context Graphs for Efficient Memory Compaction in LLM Agents",
+   "data": "2026-09-30",
+   "url": "http://arxiv.org/abs/2609.40118v1",
+   "id": "2609.40118v1",
+   "sommario": "As LLM capabilities advance, agents are tackling increasingly complex tasks over longer horizons. Their growing interaction histories make memory compaction essential for staying within context windows and reducing prefill cost. Existing methods summarize the history or compress "
+  },
+  {
+   "titolo": "MeanVoiceFlow2: Joint Optimization of Mean Flow and Content Encoder for Fast One-Step Zero-Shot Voice Conversion",
+   "data": "2026-09-30",
+   "url": "http://arxiv.org/abs/2609.40087v1",
+   "id": "2609.40087v1",
+   "sommario": "Flow-matching approaches to voice conversion (VC) have gained attention owing to their high speech quality and strong speaker similarity. Among them, one-step models such as MeanVoiceFlow are particularly attractive because they enable efficient inference; however, their reliance"
+  },
+  {
+   "titolo": "NavHarness: Adaptive Goals for Agentic Vision-Language Navigation",
+   "data": "2026-09-30",
+   "url": "http://arxiv.org/abs/2609.39915v1",
+   "id": "2609.39915v1",
+   "sommario": "Vision-Language Navigation (VLN) requires embodied agents to generate actions based on instructions and observations. General-purpose multimodal agents offer a promising basis for this task, but selecting plausible local actions does not ensure that execution remains consistent w"
+  },
+  {
+   "titolo": "Capture the lifecycle: KV Cache management in ReAct Agents with KVTether",
+   "data": "2026-09-30",
+   "url": "http://arxiv.org/abs/2609.39819v1",
+   "id": "2609.39819v1",
+   "sommario": "Efficient serving of long-context reasoning-and-acting (ReAct) agents relies on KV cache reuse to reduce large language model (LLM) prefill latency and monetary cost. However, a semantic gap exists between agent harnesses and the underlying serving stack. Through context mutation"
+  },
+  {
+   "titolo": "PatchKV: Weight-Space Compensation of KV Cache",
+   "data": "2026-09-30",
+   "url": "http://arxiv.org/abs/2609.39329v1",
+   "id": "2609.39329v1",
+   "sommario": "Long-context inference with Large Language Models (LLMs) is bottlenecked by the linearly growing memory of the key-value (KV) cache. Existing compression methods reduce the cache through token eviction or approximation, but degrade sharply at aggressive compression budgets. We pr"
+  },
   {
    "titolo": "MoSE: Mode-Switching Expander for Mixed LLM Training and Inference",
    "data": "2026-09-30",
@@ -42,48 +84,6 @@
    "url": "http://arxiv.org/abs/2609.38981v1",
    "id": "2609.38981v1",
    "sommario": "LLM inference systems may vary batch composition, prompt chunking, prefill/decode execution, and KV-cache reuse, eviction, or recomputation. These optimizations should not affect system outputs. Production systems, including vLLM's batch-invariant mode and SGLang's deterministic "
-  },
-  {
-   "titolo": "Adaptive Self-Consistency: From Black-Box Sampling to Distribution-Valued Feedback",
-   "data": "2026-09-30",
-   "url": "http://arxiv.org/abs/2609.38931v1",
-   "id": "2609.38931v1",
-   "sommario": "Self-consistency samples many reasoning trajectories and aggregates their final answers, treating the LLM as a black box that returns one answer per trajectory. Yet the final answer of each trajectory is sampled from a softmax vector that is available from the model's log-probabi"
-  },
-  {
-   "titolo": "Preserving Provenance in Shared KV Caches for LLM Serving",
-   "data": "2026-09-30",
-   "url": "http://arxiv.org/abs/2609.38706v1",
-   "id": "2609.38706v1",
-   "sommario": "Production LLM serving stacks combine an inference engine's local prefix cache with a shared KV-cache tier for fleet-wide reuse. The local cache distinguishes requests by adapter, weight configuration and sharing domain, but the shared tier may key entries only by token content a"
-  },
-  {
-   "titolo": "Cascadia: A Control-Plane-Free Alternative to Hyperconverged AI Infrastructure",
-   "data": "2026-09-30",
-   "url": "http://arxiv.org/abs/2609.38697v1",
-   "id": "2609.38697v1",
-   "sommario": "We present Cascadia, a system for serving large language models on fleets of commodity Intel AIPCs using their CPU, integrated-GPU, and NPU resources. Every node embeds ingress, scheduling, and execution; inference requests require no dedicated routing control plane. Nodes join a"
-  },
-  {
-   "titolo": "LeanPolish: Verified Supervision for Lean Proof Compression",
-   "data": "2026-09-29",
-   "url": "http://arxiv.org/abs/2609.38384v1",
-   "id": "2609.38384v1",
-   "sommario": "Verified proof edits offer a natural source of supervision for improving language-model-generated Lean proofs. Yet verification establishes that an edit is correct, not that its training signal is free of search artifacts. We introduce LeanPolish, a symbolic Lean 4 pipeline that "
-  },
-  {
-   "titolo": "STEPQuant: When and Where Errors Matter in Delta-Rule Recurrent State Quantization",
-   "data": "2026-09-29",
-   "url": "http://arxiv.org/abs/2609.38169v1",
-   "id": "2609.38169v1",
-   "sommario": "Linear attention replaces growing KV caches with fixed-size recurrent states, yet these persistent states can become a substantial memory bottleneck under concurrent serving. Directly quantizing recurrent states to low precision often leads to severe accuracy degradation, as quan"
-  },
-  {
-   "titolo": "WUSH-KV: KV Cache Quantization with Data-Adaptive Transforms",
-   "data": "2026-09-29",
-   "url": "http://arxiv.org/abs/2609.38121v1",
-   "id": "2609.38121v1",
-   "sommario": "KV cache memory and bandwidth costs grow with context length and batch size, which limits efficient long-context inference. To address this bottleneck, we introduce WUSH-KV for low-bit KV-cache quantization. It adapts WUSH, which constructs a data-aware transform from the second-"
   }
  ]
 }
