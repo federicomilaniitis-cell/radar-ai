@@ -1,6 +1,76 @@
 {
- "aggiornato": "2026-09-30T21:10:18+00:00",
+ "aggiornato": "2026-10-01T01:44:35+00:00",
  "paper": [
+  {
+   "titolo": "MoSE: Mode-Switching Expander for Mixed LLM Training and Inference",
+   "data": "2026-09-30",
+   "url": "http://arxiv.org/abs/2609.39138v1",
+   "id": "2609.39138v1",
+   "sommario": "AI clusters increasingly run large language model (LLM) inference and training on the same fabric. Prefill-decode (P-D) disaggregation creates key-value (KV) cache transfers between prefill and decode groups, whereas training collectives and all-to-all traffic benefit from near-u"
+  },
+  {
+   "titolo": "Characterizing High Bandwidth Flash for LLM Serving",
+   "data": "2026-09-30",
+   "url": "http://arxiv.org/abs/2609.39131v1",
+   "id": "2609.39131v1",
+   "sommario": "Large language model (LLM) serving requires substantial memory to store model weights and KV caches. As models grow larger and contexts become longer, memory capacity and bandwidth increasingly become bottlenecks for serving performance. Agentic workloads compound this pressure t"
+  },
+  {
+   "titolo": "DeCoPrune: Efficient KV-Cache Pruning for Autoregressive Video Diffusion via Denoising Consistency",
+   "data": "2026-09-30",
+   "url": "http://arxiv.org/abs/2609.39096v1",
+   "id": "2609.39096v1",
+   "sommario": "Autoregressive video diffusion supports streaming generation and interactive control, but its KV cache grows with the generated history. Existing compression strategies discard history using fixed windows or select tokens through local attention and similarity signals, without di"
+  },
+  {
+   "titolo": "SparseEngine: Sparse-First Inference Engine",
+   "data": "2026-09-30",
+   "url": "http://arxiv.org/abs/2609.39068v1",
+   "id": "2609.39068v1",
+   "sommario": "Long-context LLM agents accumulate interaction histories that strain KV-cache memory and attention computation. Although sparse attention reduces these costs, heterogeneous cache representations and workflows hinder integration with existing inference engines, while prior sparse-"
+  },
+  {
+   "titolo": "Switching Linear Attention",
+   "data": "2026-09-30",
+   "url": "http://arxiv.org/abs/2609.39034v1",
+   "id": "2609.39034v1",
+   "sommario": "Designing expressive sequence layers with efficient inference remains a central challenge in modern machine learning. Standard softmax attention achieves excellent sequence modeling performance through rich nonlinear token interactions, but it requires a key-value cache that grow"
+  },
+  {
+   "titolo": "Vosti: Specifying, Implementing, and Verifying Deterministic LLM Inference",
+   "data": "2026-09-30",
+   "url": "http://arxiv.org/abs/2609.38981v1",
+   "id": "2609.38981v1",
+   "sommario": "LLM inference systems may vary batch composition, prompt chunking, prefill/decode execution, and KV-cache reuse, eviction, or recomputation. These optimizations should not affect system outputs. Production systems, including vLLM's batch-invariant mode and SGLang's deterministic "
+  },
+  {
+   "titolo": "Adaptive Self-Consistency: From Black-Box Sampling to Distribution-Valued Feedback",
+   "data": "2026-09-30",
+   "url": "http://arxiv.org/abs/2609.38931v1",
+   "id": "2609.38931v1",
+   "sommario": "Self-consistency samples many reasoning trajectories and aggregates their final answers, treating the LLM as a black box that returns one answer per trajectory. Yet the final answer of each trajectory is sampled from a softmax vector that is available from the model's log-probabi"
+  },
+  {
+   "titolo": "Preserving Provenance in Shared KV Caches for LLM Serving",
+   "data": "2026-09-30",
+   "url": "http://arxiv.org/abs/2609.38706v1",
+   "id": "2609.38706v1",
+   "sommario": "Production LLM serving stacks combine an inference engine's local prefix cache with a shared KV-cache tier for fleet-wide reuse. The local cache distinguishes requests by adapter, weight configuration and sharing domain, but the shared tier may key entries only by token content a"
+  },
+  {
+   "titolo": "Cascadia: A Control-Plane-Free Alternative to Hyperconverged AI Infrastructure",
+   "data": "2026-09-30",
+   "url": "http://arxiv.org/abs/2609.38697v1",
+   "id": "2609.38697v1",
+   "sommario": "We present Cascadia, a system for serving large language models on fleets of commodity Intel AIPCs using their CPU, integrated-GPU, and NPU resources. Every node embeds ingress, scheduling, and execution; inference requests require no dedicated routing control plane. Nodes join a"
+  },
+  {
+   "titolo": "LeanPolish: Verified Supervision for Lean Proof Compression",
+   "data": "2026-09-29",
+   "url": "http://arxiv.org/abs/2609.38384v1",
+   "id": "2609.38384v1",
+   "sommario": "Verified proof edits offer a natural source of supervision for improving language-model-generated Lean proofs. Yet verification establishes that an edit is correct, not that its training signal is free of search artifacts. We introduce LeanPolish, a symbolic Lean 4 pipeline that "
+  },
   {
    "titolo": "STEPQuant: When and Where Errors Matter in Delta-Rule Recurrent State Quantization",
    "data": "2026-09-29",
@@ -14,76 +84,6 @@
    "url": "http://arxiv.org/abs/2609.38121v1",
    "id": "2609.38121v1",
    "sommario": "KV cache memory and bandwidth costs grow with context length and batch size, which limits efficient long-context inference. To address this bottleneck, we introduce WUSH-KV for low-bit KV-cache quantization. It adapts WUSH, which constructs a data-aware transform from the second-"
-  },
-  {
-   "titolo": "KV-Kaizen: Learning Context-Adaptive Cache Compression Choices",
-   "data": "2026-09-29",
-   "url": "http://arxiv.org/abs/2609.37988v1",
-   "id": "2609.37988v1",
-   "sommario": "As the context size of text processed with an LLM grows, the size of KV caches can outstrip the memory allocated for the original model weights. This impacts LLM throughput negatively, since decoding is memory-bound and decode cost grows with cache size. Recent work alleviates th"
-  },
-  {
-   "titolo": "ReCaVSR: One-Step Streaming Diffusion Video Super-Resolution with Recycled Latents and Learned Cache Routing",
-   "data": "2026-09-29",
-   "url": "http://arxiv.org/abs/2609.37831v1",
-   "id": "2609.37831v1",
-   "sommario": "Real-time diffusion-based video super-resolution (VSR) is in high demand for online streaming, yet stringent latency requirements often compromise generative fidelity. We propose ReCaVSR, a Wan2.2-based, one-step framework for streaming VSR that builds on two observations: recycl"
-  },
-  {
-   "titolo": "SPLASH: Switching Parallel Layouts of Attention with Seamless Handoff for LLM Serving",
-   "data": "2026-09-29",
-   "url": "http://arxiv.org/abs/2609.37626v1",
-   "id": "2609.37626v1",
-   "sommario": "No single way of parallelizing attention serves large language models well under all loads. Low concurrency favors tensor parallelism, many independent requests favor data-parallel attention, and long prompts favor context parallelism. Reasoning, agentic, and RL-rollout workloads"
-  },
-  {
-   "titolo": "AS$^2$D: Accelerating On-Demand Audio Understanding on Mobile Devices",
-   "data": "2026-09-29",
-   "url": "http://arxiv.org/abs/2609.37617v1",
-   "id": "2609.37617v1",
-   "sommario": "Speculative decoding accelerates autoregressive generation by using a smaller drafter to propose tokens for batched verification by a larger target. However, conventional speculative decoding couples drafting to the target's evolving verified prefix, serializing drafting and veri"
-  },
-  {
-   "titolo": "FOCUS: Training-Free Decision-Preserving Context Compression for LLM Agents",
-   "data": "2026-09-29",
-   "url": "http://arxiv.org/abs/2609.37590v1",
-   "id": "2609.37590v1",
-   "sommario": "LLM agents accumulate interaction histories that grow linearly with task length, causing quadratic inference cost scaling and performance degradation from attention dilution. Existing context-compression methods learn what to discard offline: by contrastively optimizing guideline"
-  },
-  {
-   "titolo": "AVSG: Accelerated Vectorized Sparse Gather for Efficient KV Cache Offload in Sparse-Attention LLM Serving",
-   "data": "2026-09-29",
-   "url": "http://arxiv.org/abs/2609.37538v1",
-   "id": "2609.37538v1",
-   "sommario": "Dynamic sparse attention reduces long-context attention computation by selecting only a subset of tokens, but still requires access to the full KV cache, leaving serving memory-bound. Offloading the KV cache to host memory reduces device memory pressure but places H2D transfers o"
-  },
-  {
-   "titolo": "DScale: Scaling Block-Diffusion Speculative Decoding with Adaptive Verification",
-   "data": "2026-09-29",
-   "url": "http://arxiv.org/abs/2609.37532v1",
-   "id": "2609.37532v1",
-   "sommario": "Growing large language model applications demand efficient inference. At high concurrency, block-diffusion speculative decoding suffers from verification padding, rejected candidates, and incompatibility between variable prefixes and fixed-shape graphs. Uniform truncation sacrifi"
-  },
-  {
-   "titolo": "Efficiently Approximating Attention Is Hard",
-   "data": "2026-09-29",
-   "url": "http://arxiv.org/abs/2609.37261v1",
-   "id": "2609.37261v1",
-   "sommario": "Softmax attention is ubiquitous in modern machine learning, but its quadratic scaling with sequence length makes it costly. To reduce this cost, attention is often approximated with fast algorithms, which incur error but can still perform well in practice and on some inputs. At t"
-  },
-  {
-   "titolo": "vSkipper: Translating Dynamic Layer Skipping into LLM Serving Gains",
-   "data": "2026-09-29",
-   "url": "http://arxiv.org/abs/2609.37062v1",
-   "id": "2609.37062v1",
-   "sommario": "Dynamic layer skipping reduces LLM computation by allowing each token to execute only a subset of the model's layers. However, existing skippers rely on specialized generation loops and do not integrate with modern serving engines. As a result, fewer executed layers do not necess"
-  },
-  {
-   "titolo": "Chinese-Jev: Bringing System One Model to Chinese-Language Tasks",
-   "data": "2026-09-29",
-   "url": "http://arxiv.org/abs/2609.36965v1",
-   "id": "2609.36965v1",
-   "sommario": "System One models such as Jev offer an efficient alternative to generative language models for tasks that require decisions rather than open-ended responses. However, existing Jev models exhibit limited Chinese-language decision accuracy, restricting their utility in both general"
   }
  ]
 }

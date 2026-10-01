@@ -1,6 +1,6 @@
 {
- "aggiornato": "2026-09-30T21:10:18+00:00",
- "aggiornato_it": "30 settembre 2026",
+ "aggiornato": "2026-10-01T01:44:35+00:00",
+ "aggiornato_it": "1 ottobre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 383,
  "modelli": [
@@ -361,6 +361,7 @@
    "created": 1790174884,
    "context_length": 1000000,
    "description": "Space Bunny Alpha is an anonymous large model with blazing-fast inference, strong coding capabilities and native multimodal input support. It delivers adjustable reasoning effort, and a 1M-token context window. Space...",
+   "expiration_date": "2026-10-05",
    "architecture": {
     "input_modalities": [
      "text",
@@ -513,6 +514,13 @@
      "none"
     ],
     "default_effort": "medium"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 24.1,
+     "coding_index": null,
+     "agentic_index": null
+    }
    },
    "ha_versione_gratuita": false
   },
@@ -1145,9 +1153,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000123",
+    "prompt": "0.00000015",
     "completion": "0.0000035",
-    "input_cache_read": "0.000000123"
+    "input_cache_read": "0.00000015"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -1185,9 +1193,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.0000000198",
-    "completion": "0.000000396",
-    "input_cache_read": "0.00000000291"
+    "prompt": "0.0000000157",
+    "completion": "0.0000006",
+    "input_cache_read": "0.0000000157"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -1601,9 +1609,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.0000000198",
-    "completion": "0.000000396",
-    "input_cache_read": "0.00000000291"
+    "prompt": "0.0000000157",
+    "completion": "0.0000006",
+    "input_cache_read": "0.0000000157"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -2208,9 +2216,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000007506",
-    "completion": "0.0000022509",
-    "input_cache_read": "0.0000000378"
+    "prompt": "0.000000834",
+    "completion": "0.000002501",
+    "input_cache_read": "0.000000042"
    },
    "top_provider": {
     "max_completion_tokens": 64000
@@ -2561,9 +2569,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000013",
+    "prompt": "0.00000019",
     "completion": "0.000004",
-    "input_cache_read": "0.00000013"
+    "input_cache_read": "0.00000019"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -2630,12 +2638,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000014",
-    "completion": "0.0000044",
-    "input_cache_read": "0.00000026"
+    "prompt": "0.0000002219",
+    "completion": "0.00000634",
+    "input_cache_read": "0.0000002217"
    },
    "top_provider": {
-    "max_completion_tokens": 943717
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -2988,9 +2996,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000066",
-    "completion": "0.00000198",
-    "input_cache_read": "0.000000022"
+    "prompt": "0.00000132",
+    "completion": "0.00000396",
+    "input_cache_read": "0.000000044"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -3119,12 +3127,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000006",
-    "completion": "0.00000016",
-    "input_cache_read": "0.00000003"
+    "prompt": "0.0000000595",
+    "completion": "0.00000017",
+    "input_cache_read": "0.00000002975"
    },
    "top_provider": {
-    "max_completion_tokens": 32768
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -3385,7 +3393,7 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000099",
+    "prompt": "0.000000007326",
     "completion": "0.00000013068",
     "input_cache_read": "0.000000001386"
    },
@@ -3427,9 +3435,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000001",
+    "prompt": "0.000000015",
     "completion": "0.00000128",
-    "input_cache_read": "0.00000001"
+    "input_cache_read": "0.000000015"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -4036,9 +4044,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000003",
-    "completion": "0.000015",
-    "input_cache_read": "0.0000003"
+    "prompt": "0.00000028",
+    "completion": "0.00001",
+    "input_cache_read": "0.00000027"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -4626,9 +4634,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000825",
-    "completion": "0.00000033",
-    "input_cache_read": "0.000000020625"
+    "prompt": "0.000000132",
+    "completion": "0.000000528",
+    "input_cache_read": "0.000000033"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -4986,7 +4994,7 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000624",
+    "prompt": "0.0000003249",
     "completion": "0.00000399",
     "input_cache_read": "0.00000026"
    },
@@ -6047,9 +6055,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000019",
-    "completion": "0.000011",
-    "input_cache_read": "0.00000018"
+    "prompt": "0.00000028",
+    "completion": "0.00001",
+    "input_cache_read": "0.00000027"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -9991,11 +9999,10 @@
    },
    "pricing": {
     "prompt": "0.0000006",
-    "completion": "0.0000025",
-    "input_cache_read": "0.00000015"
+    "completion": "0.0000025"
    },
    "top_provider": {
-    "max_completion_tokens": 98304
+    "max_completion_tokens": 235929
    },
    "supported_parameters": [
     "reasoning",
@@ -12073,7 +12080,7 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000004",
+    "prompt": "0.00000055",
     "completion": "0.0000022"
    },
    "top_provider": {
@@ -12402,6 +12409,7 @@
    "context_length": 131072,
    "description": "Qwen3, the latest generation in the Qwen large language model series, features both dense and mixture-of-experts (MoE) architectures to excel in reasoning, multilingual support, and advanced agent tasks. Its unique...",
    "hugging_face_id": "Qwen/Qwen3-30B-A3B",
+   "expiration_date": "2026-10-09",
    "architecture": {
     "input_modalities": [
      "text"
@@ -12412,11 +12420,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000012",
-    "completion": "0.0000005"
+    "prompt": "0.00000013",
+    "completion": "0.00000052"
    },
    "top_provider": {
-    "max_completion_tokens": 16384
+    "max_completion_tokens": 8192
    },
    "supported_parameters": [
     "reasoning",
