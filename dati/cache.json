@@ -1,9 +1,41 @@
 {
- "aggiornato": "2026-10-02T10:50:21+00:00",
+ "aggiornato": "2026-10-02T16:27:17+00:00",
  "aggiornato_it": "2 ottobre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 385,
+ "totale": 386,
  "modelli": [
+  {
+   "id": "inclusionai/ling-3.1-flash",
+   "name": "inclusionAI: Ling 3.1 Flash",
+   "created": 1790950024,
+   "context_length": 262144,
+   "description": "Ling 3.1 Flash is a hybrid reasoning mixture-of-experts model from inclusionAI, with 25B active parameters out of 560B total.",
+   "architecture": {
+    "input_modalities": [
+     "text"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text->text"
+   },
+   "pricing": {
+    "prompt": "0",
+    "completion": "0"
+   },
+   "top_provider": {
+    "max_completion_tokens": 32768
+   },
+   "supported_parameters": [
+    "reasoning",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": false,
+    "default_enabled": true
+   },
+   "ha_versione_gratuita": false
+  },
   {
    "id": "apodex/apodex-1.1-mini:free",
    "name": "Apodex: Apodex 1.1 Mini (free)",
@@ -1254,9 +1286,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.000000004",
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000004"
+    "prompt": "0.000000015",
+    "completion": "0.0000012",
+    "input_cache_read": "0.000000002115"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -2277,9 +2309,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000834",
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042"
+    "prompt": "0.0000007506",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378"
    },
    "top_provider": {
     "max_completion_tokens": 64000
@@ -2442,12 +2474,12 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000005",
-    "input_cache_read": "0.00000003"
+    "prompt": "0.00000002625",
+    "completion": "0.0000009",
+    "input_cache_read": "0.00000001125"
    },
    "top_provider": {
-    "max_completion_tokens": 943717
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -3455,9 +3487,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000005775",
+    "prompt": "0.000000012825",
     "completion": "0.0000016",
-    "input_cache_read": "0.000000005775"
+    "input_cache_read": "0.000000012825"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -3497,9 +3529,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000077",
+    "prompt": "0.0000000171",
     "completion": "0.00000128",
-    "input_cache_read": "0.0000000077"
+    "input_cache_read": "0.0000000171"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -3770,6 +3802,7 @@
    "context_length": 1048576,
    "description": "Laguna S 2.1 is the latest coding agent model from [Poolside](<https://poolside.ai/>). Laguna S 2.1 is a 118B total parameter model with 8B active parameters, scoring 70.2% on Terminal-Bench 2.1 and...",
    "hugging_face_id": "poolside/Laguna-S-2.1",
+   "expiration_date": "2026-10-31",
    "architecture": {
     "input_modalities": [
      "text"
@@ -3804,6 +3837,7 @@
    "context_length": 262144,
    "description": "Laguna S 2.1 is the latest coding agent model from [Poolside](<https://poolside.ai/>). Laguna S 2.1 is a 118B total parameter model with 8B active parameters, scoring 70.2% on Terminal-Bench 2.1 and...",
    "hugging_face_id": "poolside/Laguna-S-2.1",
+   "expiration_date": "2026-10-31",
    "architecture": {
     "input_modalities": [
      "text"
@@ -4696,9 +4730,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000132",
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033"
+    "prompt": "0.0000000825",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -4727,6 +4761,7 @@
    "context_length": 262144,
    "description": "Laguna XS 2.1 is the latest coding agent model in the 33B-A3B category from [Poolside](https://poolside.ai/) and a step forward from their Laguna XS.2 model (released in April 2026). It combines...",
    "hugging_face_id": "poolside/Laguna-XS-2.1",
+   "expiration_date": "2026-10-31",
    "architecture": {
     "input_modalities": [
      "text"
@@ -4761,6 +4796,7 @@
    "context_length": 262144,
    "description": "Laguna XS 2.1 is the latest coding agent model in the 33B-A3B category from [Poolside](https://poolside.ai/) and a step forward from their Laguna XS.2 model (released in April 2026). It combines...",
    "hugging_face_id": "poolside/Laguna-XS-2.1",
+   "expiration_date": "2026-10-31",
    "architecture": {
     "input_modalities": [
      "text"
@@ -5309,12 +5345,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000005",
-    "completion": "0.0000022",
-    "input_cache_read": "0.0000001"
+    "prompt": "0.0000006",
+    "completion": "0.0000024",
+    "input_cache_read": "0.00000012"
    },
    "top_provider": {
-    "max_completion_tokens": 16384
+    "max_completion_tokens": 182520
    },
    "supported_parameters": [
     "reasoning",
@@ -6117,9 +6153,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000035",
-    "completion": "0.000011357",
-    "input_cache_read": "0.00000029"
+    "prompt": "0.00000134",
+    "completion": "0.000013",
+    "input_cache_read": "0.0000008"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -6584,9 +6620,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000042",
-    "completion": "0.000000084",
-    "input_cache_read": "0.0000000084"
+    "prompt": "0.000000028",
+    "completion": "0.000000056",
+    "input_cache_read": "0.0000000056"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -11673,11 +11709,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000001",
-    "completion": "0.0000003"
+    "prompt": "0.00000004815",
+    "completion": "0.00000019305"
    },
    "top_provider": {
-    "max_completion_tokens": 235929
+    "max_completion_tokens": 32000
    },
    "supported_parameters": [
     "structured_outputs",

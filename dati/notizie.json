@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-02T10:50:21+00:00",
+ "aggiornato": "2026-10-02T16:27:17+00:00",
  "notizie": [
   {
    "tag": "crit",
@@ -18,6 +18,42 @@
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-11. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-bytedance-seed-seed-2-0-code"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-10-02",
+   "titolo": "Laguna S 2.1 viene spento fra 29 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-31. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-poolside-laguna-s-2-1"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-10-02",
+   "titolo": "Laguna S 2.1 (free) viene spento fra 29 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-31. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-poolside-laguna-s-2-1-free"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-10-02",
+   "titolo": "Laguna XS 2.1 viene spento fra 29 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-31. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-poolside-laguna-xs-2-1"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-10-02",
+   "titolo": "Laguna XS 2.1 (free) viene spento fra 29 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-31. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-poolside-laguna-xs-2-1-free"
   },
   {
    "tag": "crit",
@@ -180,42 +216,6 @@
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-09-28. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-deepseek-deepseek-v3-1-terminus"
-  },
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-09-25",
-   "titolo": "Gemini 2.5 Flash Lite viene spento fra 25 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-20. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-google-gemini-2-5-flash-lite"
-  },
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-09-25",
-   "titolo": "ERNIE 4.5 VL 424B A47B  viene spento fra 13 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-08. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-baidu-ernie-4-5-vl-424b-a47b"
-  },
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-09-25",
-   "titolo": "Gemini 2.5 Flash viene spento fra 25 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-20. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-google-gemini-2-5-flash"
-  },
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-09-25",
-   "titolo": "Gemini 2.5 Pro viene spento fra 25 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-20. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-google-gemini-2-5-pro"
   }
  ]
 }
