@@ -1,6 +1,13 @@
 {
- "aggiornato": "2026-10-02T01:55:54+00:00",
+ "aggiornato": "2026-10-02T10:50:21+00:00",
  "paper": [
+  {
+   "titolo": "Selection-Based Structured Reasoning: Toward Efficient Multimodal Search Agents",
+   "data": "2026-10-01",
+   "url": "http://arxiv.org/abs/2610.01892v1",
+   "id": "2610.01892v1",
+   "sommario": "Multimodal agents commonly generate free-form reasoning before each action. For small models, limited model capacity can result in lengthy reasoning that provides little useful guidance for action generation while incurring substantial inference cost. To address this challenge, w"
+  },
   {
    "titolo": "ProtoFlow: Prototype-Guided Flow Matching for Multivariate Time Series Forecasting",
    "data": "2026-10-01",
@@ -77,13 +84,6 @@
    "url": "http://arxiv.org/abs/2609.39131v1",
    "id": "2609.39131v1",
    "sommario": "Large language model (LLM) serving requires substantial memory to store model weights and KV caches. As models grow larger and contexts become longer, memory capacity and bandwidth increasingly become bottlenecks for serving performance. Agentic workloads compound this pressure t"
-  },
-  {
-   "titolo": "DeCoPrune: Efficient KV-Cache Pruning for Autoregressive Video Diffusion via Denoising Consistency",
-   "data": "2026-09-30",
-   "url": "http://arxiv.org/abs/2609.39096v1",
-   "id": "2609.39096v1",
-   "sommario": "Autoregressive video diffusion supports streaming generation and interactive control, but its KV cache grows with the generated history. Existing compression strategies discard history using fixed windows or select tokens through local attention and similarity signals, without di"
   }
  ]
 }
