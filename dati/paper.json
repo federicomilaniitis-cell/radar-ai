@@ -1,6 +1,20 @@
 {
- "aggiornato": "2026-10-01T21:32:17+00:00",
+ "aggiornato": "2026-10-02T01:55:54+00:00",
  "paper": [
+  {
+   "titolo": "ProtoFlow: Prototype-Guided Flow Matching for Multivariate Time Series Forecasting",
+   "data": "2026-10-01",
+   "url": "http://arxiv.org/abs/2610.01320v1",
+   "id": "2610.01320v1",
+   "sommario": "Generative modeling has shown strong promise for multivariate time mseries (MTS) forecasting, especially scale to high-dimensional settings. Diffusion-based methods achieve competitive performance but typically require many sampling steps at inference. VAE-based non-iterative for"
+  },
+  {
+   "titolo": "Does Scaling Reinforcement Learning Really Require More Training?",
+   "data": "2026-10-01",
+   "url": "http://arxiv.org/abs/2610.01133v1",
+   "id": "2610.01133v1",
+   "sommario": "Scaling reasoning typically spends more compute on reinforcement learning (RL) or on inference. We show that a completed RL training history can yield policies stronger than the checkpoints visited by its optimizer. We call this policy-space scaling: expanding the deployable poli"
+  },
   {
    "titolo": "Learning Functional Subspaces for Neural Network Compression",
    "data": "2026-09-30",
@@ -37,6 +51,13 @@
    "sommario": "Efficient serving of long-context reasoning-and-acting (ReAct) agents relies on KV cache reuse to reduce large language model (LLM) prefill latency and monetary cost. However, a semantic gap exists between agent harnesses and the underlying serving stack. Through context mutation"
   },
   {
+   "titolo": "EchoPress: Query-Agnostic KV Cache Pruning via Virtual Context Reconstruction",
+   "data": "2026-09-30",
+   "url": "http://arxiv.org/abs/2610.00412v1",
+   "id": "2610.00412v1",
+   "sommario": "KV cache pruning reduces long-context inference memory usage by evicting less important key-value pairs. KVzip estimates importance through context reconstruction: prompting a model to repeat the context chunk by chunk. This achieves strong compression quality at the cost of addi"
+  },
+  {
    "titolo": "PatchKV: Weight-Space Compensation of KV Cache",
    "data": "2026-09-30",
    "url": "http://arxiv.org/abs/2609.39329v1",
@@ -63,27 +84,6 @@
    "url": "http://arxiv.org/abs/2609.39096v1",
    "id": "2609.39096v1",
    "sommario": "Autoregressive video diffusion supports streaming generation and interactive control, but its KV cache grows with the generated history. Existing compression strategies discard history using fixed windows or select tokens through local attention and similarity signals, without di"
-  },
-  {
-   "titolo": "SparseEngine: Sparse-First Inference Engine",
-   "data": "2026-09-30",
-   "url": "http://arxiv.org/abs/2609.39068v1",
-   "id": "2609.39068v1",
-   "sommario": "Long-context LLM agents accumulate interaction histories that strain KV-cache memory and attention computation. Although sparse attention reduces these costs, heterogeneous cache representations and workflows hinder integration with existing inference engines, while prior sparse-"
-  },
-  {
-   "titolo": "Switching Linear Attention",
-   "data": "2026-09-30",
-   "url": "http://arxiv.org/abs/2609.39034v1",
-   "id": "2609.39034v1",
-   "sommario": "Designing expressive sequence layers with efficient inference remains a central challenge in modern machine learning. Standard softmax attention achieves excellent sequence modeling performance through rich nonlinear token interactions, but it requires a key-value cache that grow"
-  },
-  {
-   "titolo": "Vosti: Specifying, Implementing, and Verifying Deterministic LLM Inference",
-   "data": "2026-09-30",
-   "url": "http://arxiv.org/abs/2609.38981v1",
-   "id": "2609.38981v1",
-   "sommario": "LLM inference systems may vary batch composition, prompt chunking, prefill/decode execution, and KV-cache reuse, eviction, or recomputation. These optimizations should not affect system outputs. Production systems, including vLLM's batch-invariant mode and SGLang's deterministic "
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
- "aggiornato": "2026-10-01T21:32:17+00:00",
- "aggiornato_it": "1 ottobre 2026",
+ "aggiornato": "2026-10-02T01:55:54+00:00",
+ "aggiornato_it": "2 ottobre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 385,
  "modelli": [
@@ -1214,9 +1214,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000015312",
-    "completion": "0.00000045936",
-    "input_cache_read": "0.000000004872"
+    "prompt": "0.0000001431",
+    "completion": "0.0000035",
+    "input_cache_read": "0.0000001431"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -1254,9 +1254,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.0000000264",
-    "completion": "0.0000006",
-    "input_cache_read": "0.0000000264"
+    "prompt": "0.00000002565",
+    "completion": "0.00000063",
+    "input_cache_read": "0.00000002565"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -1670,9 +1670,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000003",
-    "completion": "0.0000005",
-    "input_cache_read": "0.00000001"
+    "prompt": "0.00000002565",
+    "completion": "0.00000063",
+    "input_cache_read": "0.00000002565"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -2277,9 +2277,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000007506",
-    "completion": "0.0000022509",
-    "input_cache_read": "0.0000000378"
+    "prompt": "0.000000834",
+    "completion": "0.000002501",
+    "input_cache_read": "0.000000042"
    },
    "top_provider": {
     "max_completion_tokens": 64000
@@ -2360,9 +2360,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000002",
-    "completion": "0.0000003",
-    "input_cache_read": "0.00000001"
+    "prompt": "0.00000003325",
+    "completion": "0.000000525",
+    "input_cache_read": "0.00000003325"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -2699,12 +2699,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000002219",
-    "completion": "0.00000339",
-    "input_cache_read": "0.0000001775"
+    "prompt": "0.0000014",
+    "completion": "0.0000044",
+    "input_cache_read": "0.00000014"
    },
    "top_provider": {
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -2835,6 +2835,7 @@
    "created": 1786680361,
    "context_length": 512000,
    "description": "Dots3-Note Preview is an open-weight mixture-of-experts model from Dots Studio, with 16B active parameters out of 280B total. It is the lightest model in the Dots 3 family and is...",
+   "expiration_date": "2026-12-31",
    "architecture": {
     "input_modalities": [
      "text",
@@ -3057,9 +3058,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000066",
-    "completion": "0.00000198",
-    "input_cache_read": "0.000000022"
+    "prompt": "0.00000132",
+    "completion": "0.00000396",
+    "input_cache_read": "0.000000044"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -3188,12 +3189,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000595",
-    "completion": "0.00000017",
-    "input_cache_read": "0.00000002975"
+    "prompt": "0.00000006",
+    "completion": "0.00000016",
+    "input_cache_read": "0.00000003"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 32768
    },
    "supported_parameters": [
     "reasoning",
@@ -3454,9 +3455,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000108",
-    "completion": "0.00000128",
-    "input_cache_read": "0.0000000108"
+    "prompt": "0.00000001026",
+    "completion": "0.000001344",
+    "input_cache_read": "0.00000001026"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -4002,12 +4003,12 @@
     "modality": "text+image+audio->text"
    },
    "pricing": {
-    "prompt": "0.000001",
+    "prompt": "0.00000095",
     "completion": "0.00000405",
-    "input_cache_read": "0.00000017"
+    "input_cache_read": "0.00000016"
    },
    "top_provider": {
-    "max_completion_tokens": 471859
+    "max_completion_tokens": 262144
    },
    "supported_parameters": [
     "reasoning",
@@ -4105,9 +4106,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000415",
+    "prompt": "0.0000003537",
     "completion": "0.00001",
-    "input_cache_read": "0.000000415"
+    "input_cache_read": "0.0000003537"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -4695,9 +4696,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000825",
-    "completion": "0.00000033",
-    "input_cache_read": "0.000000020625"
+    "prompt": "0.000000132",
+    "completion": "0.000000528",
+    "input_cache_read": "0.000000033"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -5055,9 +5056,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000014",
+    "prompt": "0.00000041",
     "completion": "0.00000399",
-    "input_cache_read": "0.000000112"
+    "input_cache_read": "0.00000026"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -5308,12 +5309,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000006",
-    "completion": "0.0000024",
-    "input_cache_read": "0.00000012"
+    "prompt": "0.0000005",
+    "completion": "0.0000022",
+    "input_cache_read": "0.0000001"
    },
    "top_provider": {
-    "max_completion_tokens": 182520
+    "max_completion_tokens": 16384
    },
    "supported_parameters": [
     "reasoning",
@@ -6116,9 +6117,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000415",
+    "prompt": "0.0000003537",
     "completion": "0.00001",
-    "input_cache_read": "0.000000415"
+    "input_cache_read": "0.0000003537"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -6583,12 +6584,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000004186",
-    "completion": "0.00000008372",
-    "input_cache_read": "0.000000008372"
+    "prompt": "0.000000042",
+    "completion": "0.000000084",
+    "input_cache_read": "0.0000000084"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 384000
    },
    "supported_parameters": [
     "reasoning",
@@ -7461,7 +7462,6 @@
    },
    "supported_parameters": [
     "reasoning",
-    "structured_outputs",
     "tools"
    ],
    "reasoning": {
@@ -9204,6 +9204,7 @@
    "context_length": 204800,
    "description": "GLM-4.7 is Z.ai’s latest flagship model, featuring upgrades in two key areas: enhanced programming capabilities and more stable multi-step reasoning/execution. It demonstrates significant improvements in executing complex agent tasks while...",
    "hugging_face_id": "zai-org/GLM-4.7",
+   "expiration_date": "2026-12-31",
    "architecture": {
     "input_modalities": [
      "text"
@@ -10060,10 +10061,11 @@
    },
    "pricing": {
     "prompt": "0.0000006",
-    "completion": "0.0000025"
+    "completion": "0.0000025",
+    "input_cache_read": "0.00000015"
    },
    "top_provider": {
-    "max_completion_tokens": 235929
+    "max_completion_tokens": 98304
    },
    "supported_parameters": [
     "reasoning",
@@ -11670,11 +11672,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000004815",
-    "completion": "0.00000019305"
+    "prompt": "0.0000001",
+    "completion": "0.0000003"
    },
    "top_provider": {
-    "max_completion_tokens": 32000
+    "max_completion_tokens": 235929
    },
    "supported_parameters": [
     "structured_outputs",
@@ -11689,6 +11691,7 @@
    "context_length": 131072,
    "description": "GLM-4.5 is our latest flagship foundation model, purpose-built for agent-based applications. It leverages a Mixture-of-Experts (MoE) architecture and supports a context length of up to 128k tokens. GLM-4.5 delivers significantly...",
    "hugging_face_id": "zai-org/GLM-4.5",
+   "expiration_date": "2026-12-31",
    "architecture": {
     "input_modalities": [
      "text"
@@ -12975,7 +12978,7 @@
     "input_cache_read": "0.00000011"
    },
    "top_provider": {
-    "max_completion_tokens": 147456
+    "max_completion_tokens": 115200
    },
    "supported_parameters": [
     "structured_outputs",
