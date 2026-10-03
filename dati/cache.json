@@ -1,8 +1,8 @@
 {
- "aggiornato": "2026-10-02T21:07:35+00:00",
- "aggiornato_it": "2 ottobre 2026",
+ "aggiornato": "2026-10-03T01:38:32+00:00",
+ "aggiornato_it": "3 ottobre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 386,
+ "totale": 387,
  "modelli": [
   {
    "id": "inclusionai/ling-3.1-flash",
@@ -906,6 +906,31 @@
    "ha_versione_gratuita": false
   },
   {
+   "id": "nvidia/switchyard",
+   "name": "NVIDIA: Switchyard",
+   "created": 1790025947,
+   "context_length": 1000000,
+   "description": "Switchyard is an open-source model router that switches between multiple models to optimize the cost of requests. By default it will use OpenRouter market data to select the most popular...",
+   "architecture": {
+    "input_modalities": [
+     "text"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text->text"
+   },
+   "pricing": {
+    "prompt": "-1",
+    "completion": "-1"
+   },
+   "top_provider": {
+    "max_completion_tokens": null
+   },
+   "supported_parameters": [],
+   "ha_versione_gratuita": false
+  },
+  {
    "id": "xiaomi/mimo-v2.6-pro-ultraspeed",
    "name": "Xiaomi: MiMo-V2.6-Pro-UltraSpeed",
    "created": 1790021267,
@@ -1246,12 +1271,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000132",
-    "completion": "0.000000396",
-    "input_cache_read": "0.0000000042"
+    "prompt": "0.000000125",
+    "completion": "0.0000042",
+    "input_cache_read": "0.0000001"
    },
    "top_provider": {
-    "max_completion_tokens": 393216
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -1286,9 +1311,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000002",
-    "completion": "0.0000006",
-    "input_cache_read": "0.00000002"
+    "prompt": "0.000000015",
+    "completion": "0.000000676999",
+    "input_cache_read": "0.000000002097"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -1702,9 +1727,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000002",
-    "completion": "0.0000006",
-    "input_cache_read": "0.00000002"
+    "prompt": "0.0000003",
+    "completion": "0.0000012",
+    "input_cache_read": "0.000000006"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -2309,9 +2334,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000007506",
-    "completion": "0.0000022509",
-    "input_cache_read": "0.0000000378"
+    "prompt": "0.000000834",
+    "completion": "0.000002501",
+    "input_cache_read": "0.000000042"
    },
    "top_provider": {
     "max_completion_tokens": 64000
@@ -3221,12 +3246,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000006",
-    "completion": "0.00000016",
-    "input_cache_read": "0.00000003"
+    "prompt": "0.0000000595",
+    "completion": "0.00000017",
+    "input_cache_read": "0.00000002975"
    },
    "top_provider": {
-    "max_completion_tokens": 32768
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -3487,8 +3512,8 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000012825",
-    "completion": "0.000000602574",
+    "prompt": "0.000000003825",
+    "completion": "0.000001043574",
     "input_cache_read": "0.00000000105"
    },
    "top_provider": {
@@ -3529,9 +3554,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000171",
+    "prompt": "0.0000000051",
     "completion": "0.00000128",
-    "input_cache_read": "0.0000000171"
+    "input_cache_read": "0.0000000051"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -4730,9 +4755,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000825",
-    "completion": "0.00000033",
-    "input_cache_read": "0.000000020625"
+    "prompt": "0.000000132",
+    "completion": "0.000000528",
+    "input_cache_read": "0.000000033"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -6153,7 +6178,7 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000001",
+    "prompt": "0.00000075",
     "completion": "0.000011357",
     "input_cache_read": "0.00000029"
    },
@@ -6986,9 +7011,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000009646",
-    "completion": "0.0000030316",
-    "input_cache_read": "0.00000017914"
+    "prompt": "0.0000014",
+    "completion": "0.0000044",
+    "input_cache_read": "0.00000026"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -10098,11 +10123,10 @@
    },
    "pricing": {
     "prompt": "0.0000006",
-    "completion": "0.0000025",
-    "input_cache_read": "0.00000015"
+    "completion": "0.0000025"
    },
    "top_provider": {
-    "max_completion_tokens": 98304
+    "max_completion_tokens": 235929
    },
    "supported_parameters": [
     "reasoning",
@@ -10992,12 +11016,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000003",
-    "completion": "0.000001",
-    "input_cache_read": "0.000000135"
+    "prompt": "0.00000027",
+    "completion": "0.000001"
    },
    "top_provider": {
-    "max_completion_tokens": 65536
+    "max_completion_tokens": 147456
    },
    "supported_parameters": [
     "reasoning",
@@ -11053,6 +11076,7 @@
    "context_length": 262144,
    "description": "Qwen3-Next-80B-A3B-Thinking is a reasoning-first chat model in the Qwen3-Next line that outputs structured “thinking” traces by default. It’s designed for hard multi-step problems; math proofs, code synthesis/debugging, logic, and agentic...",
    "hugging_face_id": "Qwen/Qwen3-Next-80B-A3B-Thinking",
+   "expiration_date": "2026-10-09",
    "architecture": {
     "input_modalities": [
      "text"
@@ -11067,7 +11091,7 @@
     "completion": "0.0000012"
    },
    "top_provider": {
-    "max_completion_tokens": 235929
+    "max_completion_tokens": 32768
    },
    "supported_parameters": [
     "reasoning",
@@ -11709,11 +11733,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000004815",
-    "completion": "0.00000019305"
+    "prompt": "0.0000001",
+    "completion": "0.0000003"
    },
    "top_provider": {
-    "max_completion_tokens": 32000
+    "max_completion_tokens": 235929
    },
    "supported_parameters": [
     "structured_outputs",
