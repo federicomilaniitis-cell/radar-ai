@@ -1,15 +1,6 @@
 {
- "aggiornato": "2026-10-05T11:59:03+00:00",
+ "aggiornato": "2026-10-05T23:02:11+00:00",
  "notizie": [
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-10-05",
-   "titolo": "Space Bunny Alpha viene spento fra 0 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-05. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-stealth-space-bunny-alpha"
-  },
   {
    "tag": "crit",
    "tagT": "Chiusura",
@@ -130,20 +121,29 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
+   "data": "2026-10-05",
+   "titolo": "Qwen3 VL 235B A22B Thinking viene spento fra 4 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-09. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-qwen-qwen3-vl-235b-a22b-thinking"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-10-05",
+   "titolo": "Space Bunny Alpha viene spento fra 0 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-05. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-stealth-space-bunny-alpha"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
    "data": "2026-10-04",
    "titolo": "MiniMax M2.1 viene spento fra 4 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-08. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-minimax-minimax-m2-1"
-  },
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-10-02",
-   "titolo": "Qwen3 VL 235B A22B Thinking viene spento fra 7 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-09. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-qwen-qwen3-vl-235b-a22b-thinking"
   },
   {
    "tag": "crit",

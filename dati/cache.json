@@ -1,8 +1,8 @@
 {
- "aggiornato": "2026-10-05T11:59:03+00:00",
+ "aggiornato": "2026-10-05T23:02:11+00:00",
  "aggiornato_it": "5 ottobre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 387,
+ "totale": 385,
  "modelli": [
   {
    "id": "inclusionai/ling-3.1-flash",
@@ -452,48 +452,6 @@
      "minimal"
     ],
     "default_effort": "xhigh"
-   },
-   "ha_versione_gratuita": false
-  },
-  {
-   "id": "stealth/space-bunny-alpha",
-   "name": "Space Bunny Alpha",
-   "created": 1790174884,
-   "context_length": 1000000,
-   "description": "Space Bunny Alpha is an anonymous large model with blazing-fast inference, strong coding capabilities and native multimodal input support. It delivers adjustable reasoning effort, and a 1M-token context window. Space...",
-   "expiration_date": "2026-10-05",
-   "architecture": {
-    "input_modalities": [
-     "text",
-     "image",
-     "video"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text+image+video->text"
-   },
-   "pricing": {
-    "prompt": "0",
-    "completion": "0"
-   },
-   "top_provider": {
-    "max_completion_tokens": 524288
-   },
-   "supported_parameters": [
-    "reasoning",
-    "tools"
-   ],
-   "reasoning": {
-    "mandatory": true,
-    "supported_efforts": [
-     "max",
-     "xhigh",
-     "high",
-     "medium",
-     "low"
-    ],
-    "default_effort": "max"
    },
    "ha_versione_gratuita": false
   },
@@ -1278,9 +1236,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000001901",
+    "prompt": "0.0000002783",
     "completion": "0.0000042",
-    "input_cache_read": "0.00000019"
+    "input_cache_read": "0.00000028"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -2167,6 +2125,13 @@
     ],
     "default_effort": "medium"
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 48.1,
+     "coding_index": 75.8,
+     "agentic_index": 55.5
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -2341,9 +2306,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000834",
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042"
+    "prompt": "0.0000007506",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378"
    },
    "top_provider": {
     "max_completion_tokens": 64000
@@ -2506,12 +2471,12 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
+    "prompt": "0.0000000352",
     "completion": "0.0000005",
-    "input_cache_read": "0.00000003"
+    "input_cache_read": "0.0000000232"
    },
    "top_provider": {
-    "max_completion_tokens": 943717
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -2621,6 +2586,13 @@
      "low"
     ],
     "default_effort": "high"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 34.8,
+     "coding_index": 65,
+     "agentic_index": 47.5
+    }
    },
    "ha_versione_gratuita": false
   },
@@ -2763,9 +2735,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000005",
+    "prompt": "0.00000007",
     "completion": "0.000007",
-    "input_cache_read": "0.000000045"
+    "input_cache_read": "0.000000065"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -2843,56 +2815,7 @@
      "agentic_index": 45.8
     }
    },
-   "ha_versione_gratuita": true
-  },
-  {
-   "id": "qwen/qwen3.8-27b:free",
-   "name": "Qwen: Qwen3.8 27B (free)",
-   "created": 1786722910,
-   "context_length": 262144,
-   "description": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be...",
-   "hugging_face_id": "Qwen/Qwen3.8-27B",
-   "architecture": {
-    "input_modalities": [
-     "text",
-     "image",
-     "video"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text+image+video->text"
-   },
-   "pricing": {
-    "prompt": "0",
-    "completion": "0"
-   },
-   "top_provider": {
-    "max_completion_tokens": 235929
-   },
-   "supported_parameters": [
-    "reasoning",
-    "structured_outputs",
-    "tools"
-   ],
-   "reasoning": {
-    "mandatory": false,
-    "default_enabled": true,
-    "supported_efforts": [
-     "xhigh",
-     "medium",
-     "low"
-    ],
-    "default_effort": "xhigh"
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": 33.7,
-     "coding_index": 68.1,
-     "agentic_index": 45.8
-    }
-   },
-   "ha_versione_gratuita": true
+   "ha_versione_gratuita": false
   },
   {
    "id": "dots-studio/dots-3-note-preview:free",
@@ -2976,9 +2899,9 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 39.1,
-     "coding_index": 76.1,
-     "agentic_index": 35.2
+     "intelligence_index": 39.6,
+     "coding_index": 71.5,
+     "agentic_index": null
     }
    },
    "ha_versione_gratuita": false
@@ -3123,12 +3046,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000004",
-    "completion": "0.000005",
-    "input_cache_read": "0.00000036"
+    "prompt": "0.00000066",
+    "completion": "0.00000198",
+    "input_cache_read": "0.000000022"
    },
    "top_provider": {
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 393216
    },
    "supported_parameters": [
     "reasoning",
@@ -3234,6 +3157,13 @@
    ],
    "reasoning": {
     "mandatory": true
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 8.4,
+     "coding_index": 7.7,
+     "agentic_index": null
+    }
    },
    "ha_versione_gratuita": true
   },
@@ -3403,7 +3333,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": null,
+     "intelligence_index": 28.2,
      "coding_index": 52.7,
      "agentic_index": null
     }
@@ -3449,6 +3379,13 @@
      "low"
     ],
     "default_effort": "medium"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 17.5,
+     "coding_index": 49,
+     "agentic_index": 8.5
+    }
    },
    "ha_versione_gratuita": false
   },
@@ -4173,9 +4110,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000067",
+    "prompt": "0.00000119",
     "completion": "0.000014",
-    "input_cache_read": "0.00000022"
+    "input_cache_read": "0.00000039"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -4763,9 +4700,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000132",
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033"
+    "prompt": "0.0000000825",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -5125,9 +5062,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000224",
-    "completion": "0.000016",
-    "input_cache_read": "0.0000000224"
+    "prompt": "0.000000032",
+    "completion": "0.000012",
+    "input_cache_read": "0.000000032"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -5583,7 +5520,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": null,
+     "intelligence_index": 19.5,
      "coding_index": 39.6,
      "agentic_index": null
     }
@@ -5721,7 +5658,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": null,
+     "intelligence_index": 27.2,
      "coding_index": 51.5,
      "agentic_index": null
     }
@@ -5777,9 +5714,9 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 32.6,
-     "coding_index": 70.1,
-     "agentic_index": 26
+     "intelligence_index": 33.6,
+     "coding_index": null,
+     "agentic_index": null
     }
    },
    "ha_versione_gratuita": false
@@ -6032,7 +5969,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": null,
+     "intelligence_index": 10.3,
      "coding_index": 13.8,
      "agentic_index": null
     }
@@ -6186,9 +6123,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000003",
-    "completion": "0.00002",
-    "input_cache_read": "0.0000003"
+    "prompt": "0.0000007989",
+    "completion": "0.000013",
+    "input_cache_read": "0.00000045"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -6449,6 +6386,13 @@
    "reasoning": {
     "mandatory": false,
     "default_enabled": true
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 28.4,
+     "coding_index": null,
+     "agentic_index": null
+    }
    },
    "ha_versione_gratuita": false
   },
@@ -6808,7 +6752,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": null,
+     "intelligence_index": 25.2,
      "coding_index": 56.8,
      "agentic_index": 15.8
     }
@@ -6996,7 +6940,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": null,
+     "intelligence_index": 40.7,
      "coding_index": 73.6,
      "agentic_index": 38.6
     }
@@ -7064,9 +7008,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000009",
-    "completion": "0.0000003",
-    "input_cache_read": "0.00000005"
+    "prompt": "0.0000000765",
+    "completion": "0.000000255",
+    "input_cache_read": "0.0000000425"
    },
    "top_provider": {
     "max_completion_tokens": 235929
@@ -7082,7 +7026,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": null,
+     "intelligence_index": 16.7,
      "coding_index": 39.3,
      "agentic_index": 2.9
     }
@@ -7124,7 +7068,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": null,
+     "intelligence_index": 16.7,
      "coding_index": 39.3,
      "agentic_index": 2.9
     }
@@ -7253,7 +7197,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": null,
+     "intelligence_index": 27,
      "coding_index": 54.5,
      "agentic_index": null
     }
@@ -7293,6 +7237,13 @@
    "reasoning": {
     "mandatory": false,
     "default_enabled": true
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 23.5,
+     "coding_index": null,
+     "agentic_index": null
+    }
    },
    "ha_versione_gratuita": false
   },
@@ -7415,6 +7366,13 @@
    "reasoning": {
     "mandatory": false,
     "default_enabled": false
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 25.7,
+     "coding_index": null,
+     "agentic_index": null
+    }
    },
    "ha_versione_gratuita": false
   },
@@ -7732,6 +7690,13 @@
     "mandatory": false,
     "default_enabled": true
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 26.6,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -7904,9 +7869,9 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 11.2,
-     "coding_index": 28.7,
-     "agentic_index": 1.2
+     "intelligence_index": 13.3,
+     "coding_index": 23.5,
+     "agentic_index": null
     }
    },
    "ha_versione_gratuita": false
@@ -7999,7 +7964,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": null,
+     "intelligence_index": 39,
      "coding_index": 71.1,
      "agentic_index": null
     }
@@ -8047,7 +8012,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": null,
+     "intelligence_index": 13.8,
      "coding_index": 31.1,
      "agentic_index": 1.6
     }
@@ -8230,8 +8195,8 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": null,
-     "coding_index": 37,
+     "intelligence_index": 19.3,
+     "coding_index": null,
      "agentic_index": null
     }
    },
@@ -8270,6 +8235,13 @@
    "reasoning": {
     "mandatory": false
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 22.9,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -8307,9 +8279,9 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 15.6,
-     "coding_index": 45.7,
-     "agentic_index": 7.6
+     "intelligence_index": 17.7,
+     "coding_index": 43.3,
+     "agentic_index": null
     }
    },
    "ha_versione_gratuita": false
@@ -8437,6 +8409,13 @@
      "none"
     ],
     "default_effort": "medium"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 32.5,
+     "coding_index": null,
+     "agentic_index": null
+    }
    },
    "ha_versione_gratuita": false
   },
@@ -8650,9 +8629,9 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 18.4,
-     "coding_index": 48.2,
-     "agentic_index": 8.3
+     "intelligence_index": 21.4,
+     "coding_index": null,
+     "agentic_index": null
     }
    },
    "ha_versione_gratuita": false
@@ -8689,6 +8668,13 @@
    "reasoning": {
     "mandatory": true
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 22.8,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -8724,6 +8710,13 @@
     "mandatory": false,
     "default_enabled": true
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 27.9,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -8756,6 +8749,13 @@
    ],
    "reasoning": {
     "mandatory": false
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 21.3,
+     "coding_index": null,
+     "agentic_index": null
+    }
    },
    "ha_versione_gratuita": false
   },
@@ -8803,6 +8803,13 @@
      "low"
     ],
     "default_effort": "high"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 31.9,
+     "coding_index": null,
+     "agentic_index": null
+    }
    },
    "ha_versione_gratuita": false
   },
@@ -8873,6 +8880,13 @@
    "reasoning": {
     "mandatory": true
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 17,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -8911,7 +8925,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": null,
+     "intelligence_index": 23.5,
      "coding_index": 46.8,
      "agentic_index": null
     }
@@ -9117,6 +9131,13 @@
     "mandatory": false,
     "default_enabled": true
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 14.9,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -9159,6 +9180,13 @@
      "low"
     ],
     "default_effort": "medium"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 28.5,
+     "coding_index": null,
+     "agentic_index": null
+    }
    },
    "ha_versione_gratuita": false
   },
@@ -9265,6 +9293,13 @@
    "reasoning": {
     "mandatory": true
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 20.9,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -9303,7 +9338,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": null,
+     "intelligence_index": 22.2,
      "coding_index": 45.3,
      "agentic_index": null
     }
@@ -9356,6 +9391,13 @@
      "minimal"
     ],
     "default_effort": "medium"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 26.3,
+     "coding_index": null,
+     "agentic_index": null
+    }
    },
    "ha_versione_gratuita": false
   },
@@ -9518,6 +9560,13 @@
     ],
     "default_effort": "medium"
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 30.4,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -9618,6 +9667,13 @@
    "reasoning": {
     "mandatory": false
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 11.2,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -9698,7 +9754,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": null,
+     "intelligence_index": 13.4,
      "coding_index": 23,
      "agentic_index": null
     }
@@ -9875,12 +9931,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000028",
+    "prompt": "0.000000259",
     "completion": "0.00000042",
-    "input_cache_read": "0.000000028"
+    "input_cache_read": "0.000000135"
    },
    "top_provider": {
-    "max_completion_tokens": 65536
+    "max_completion_tokens": 147456
    },
    "supported_parameters": [
     "reasoning",
@@ -9893,7 +9949,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": null,
+     "intelligence_index": 21.5,
      "coding_index": 44.2,
      "agentic_index": null
     }
@@ -9935,6 +9991,13 @@
    ],
    "reasoning": {
     "mandatory": false
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 29.1,
+     "coding_index": null,
+     "agentic_index": null
+    }
    },
    "ha_versione_gratuita": false
   },
@@ -10022,7 +10085,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": null,
+     "intelligence_index": 24.7,
      "coding_index": 49.4,
      "agentic_index": null
     }
@@ -10069,6 +10132,13 @@
     ],
     "default_effort": "medium"
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 23.7,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -10111,6 +10181,13 @@
     ],
     "default_effort": "medium"
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 20.4,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -10147,8 +10224,8 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": null,
-     "coding_index": 21,
+     "intelligence_index": 22,
+     "coding_index": null,
      "agentic_index": null
     }
    },
@@ -10182,6 +10259,13 @@
    "supported_parameters": [
     "tools"
    ],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 9.2,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -10316,6 +10400,13 @@
    "reasoning": {
     "mandatory": true
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 18.6,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -10347,6 +10438,13 @@
     "structured_outputs",
     "tools"
    ],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 11.9,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -10373,6 +10471,13 @@
     "max_completion_tokens": 117900
    },
    "supported_parameters": [],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 5.1,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -10490,6 +10595,13 @@
    "reasoning": {
     "mandatory": true
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 8.2,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -10521,6 +10633,13 @@
     "structured_outputs",
     "tools"
    ],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 7.3,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -10628,6 +10747,13 @@
    "reasoning": {
     "mandatory": true
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 9.5,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -10658,6 +10784,13 @@
     "structured_outputs",
     "tools"
    ],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 7.9,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -10734,7 +10867,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": null,
+     "intelligence_index": 18.5,
      "coding_index": 45.8,
      "agentic_index": null
     }
@@ -10816,6 +10949,13 @@
    ],
    "reasoning": {
     "mandatory": false
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 16.6,
+     "coding_index": null,
+     "agentic_index": null
+    }
    },
    "ha_versione_gratuita": false
   },
@@ -10907,6 +11047,13 @@
    "reasoning": {
     "mandatory": true
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 13.4,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -10938,6 +11085,13 @@
     "structured_outputs",
     "tools"
    ],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 9.9,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -10972,6 +11126,13 @@
    ],
    "reasoning": {
     "mandatory": false
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 15.6,
+     "coding_index": null,
+     "agentic_index": null
+    }
    },
    "ha_versione_gratuita": false
   },
@@ -11024,11 +11185,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000027",
-    "completion": "0.000001"
+    "prompt": "0.0000003",
+    "completion": "0.000001",
+    "input_cache_read": "0.000000135"
    },
    "top_provider": {
-    "max_completion_tokens": 147456
+    "max_completion_tokens": 65536
    },
    "supported_parameters": [
     "reasoning",
@@ -11111,7 +11273,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": null,
+     "intelligence_index": 11.2,
      "coding_index": 17.4,
      "agentic_index": null
     }
@@ -11146,6 +11308,13 @@
     "structured_outputs",
     "tools"
    ],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 9.6,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -11208,6 +11377,13 @@
     "structured_outputs",
     "tools"
    ],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 15.3,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -11279,6 +11455,13 @@
    "reasoning": {
     "mandatory": false
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 7.5,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -11312,6 +11495,13 @@
    ],
    "reasoning": {
     "mandatory": false
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 13.7,
+     "coding_index": null,
+     "agentic_index": null
+    }
    },
    "ha_versione_gratuita": false
   },
@@ -11386,6 +11576,13 @@
    "reasoning": {
     "mandatory": false
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 7.6,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -11432,7 +11629,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": null,
+     "intelligence_index": 23,
      "coding_index": 37.8,
      "agentic_index": null
     }
@@ -11483,9 +11680,9 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 16.8,
-     "coding_index": 15.6,
-     "agentic_index": 6.8
+     "intelligence_index": 20.6,
+     "coding_index": null,
+     "agentic_index": null
     }
    },
    "ha_versione_gratuita": false
@@ -11531,6 +11728,13 @@
      "minimal"
     ],
     "default_effort": "medium"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 13,
+     "coding_index": null,
+     "agentic_index": null
+    }
    },
    "ha_versione_gratuita": false
   },
@@ -11620,9 +11824,9 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 9,
-     "coding_index": 20.7,
-     "agentic_index": 1.2
+     "intelligence_index": 10,
+     "coding_index": null,
+     "agentic_index": null
     }
    },
    "ha_versione_gratuita": false
@@ -11661,6 +11865,13 @@
    ],
    "reasoning": {
     "mandatory": false
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 22.8,
+     "coding_index": null,
+     "agentic_index": null
+    }
    },
    "ha_versione_gratuita": false
   },
@@ -11722,6 +11933,13 @@
     "structured_outputs",
     "tools"
    ],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 9.6,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -11751,6 +11969,13 @@
     "structured_outputs",
     "tools"
    ],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 7.5,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -11785,6 +12010,13 @@
    "reasoning": {
     "mandatory": false
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 12.8,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -11817,6 +12049,13 @@
    ],
    "reasoning": {
     "mandatory": false
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 11.1,
+     "coding_index": null,
+     "agentic_index": null
+    }
    },
    "ha_versione_gratuita": false
   },
@@ -11888,6 +12127,13 @@
     "structured_outputs",
     "tools"
    ],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 11.9,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -11961,6 +12207,13 @@
    "reasoning": {
     "mandatory": false
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 10.4,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -11991,6 +12244,13 @@
     "structured_outputs",
     "tools"
    ],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 12,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -12019,6 +12279,13 @@
    "supported_parameters": [
     "tools"
    ],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 12.7,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -12226,6 +12493,13 @@
    "reasoning": {
     "mandatory": false
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 11.7,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -12268,6 +12542,13 @@
    ],
    "reasoning": {
     "mandatory": false
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 15.5,
+     "coding_index": null,
+     "agentic_index": null
+    }
    },
    "ha_versione_gratuita": false
   },
@@ -12355,6 +12636,13 @@
    "reasoning": {
     "mandatory": false
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 21.9,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -12430,6 +12718,13 @@
    "reasoning": {
     "mandatory": true
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 13.1,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -12469,7 +12764,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": null,
+     "intelligence_index": 18.9,
      "coding_index": 37.6,
      "agentic_index": null
     }
@@ -12506,6 +12801,13 @@
     "structured_outputs",
     "tools"
    ],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 9,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -12567,6 +12869,13 @@
     "mandatory": false,
     "default_enabled": true
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 7.6,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -12603,7 +12912,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": null,
+     "intelligence_index": 7.3,
      "coding_index": 9,
      "agentic_index": 0.8
     }
@@ -12643,7 +12952,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": null,
+     "intelligence_index": 8.2,
      "coding_index": 13.8,
      "agentic_index": 0.9
     }
@@ -12683,7 +12992,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": null,
+     "intelligence_index": 8.6,
      "coding_index": 15.3,
      "agentic_index": 0.9
     }
@@ -12720,6 +13029,13 @@
    ],
    "reasoning": {
     "mandatory": false
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 9.5,
+     "coding_index": null,
+     "agentic_index": null
+    }
    },
    "ha_versione_gratuita": false
   },
@@ -12799,6 +13115,13 @@
    "reasoning": {
     "mandatory": false
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 20.2,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -12836,6 +13159,13 @@
    "reasoning": {
     "mandatory": false
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 16.7,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -12869,6 +13199,13 @@
     "structured_outputs",
     "tools"
    ],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 12.7,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -12904,7 +13241,7 @@
    ],
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": null,
+     "intelligence_index": 10.2,
      "coding_index": 20.2,
      "agentic_index": null
     }
@@ -12944,7 +13281,7 @@
    ],
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": null,
+     "intelligence_index": 7.8,
      "coding_index": 11.1,
      "agentic_index": null
     }
@@ -12981,7 +13318,7 @@
    ],
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": null,
+     "intelligence_index": 10,
      "coding_index": 16.3,
      "agentic_index": 0.6
     }
@@ -13018,7 +13355,7 @@
    ],
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": null,
+     "intelligence_index": 8.1,
      "coding_index": 8.2,
      "agentic_index": 0.5
     }
@@ -13095,6 +13432,13 @@
    "reasoning": {
     "mandatory": false
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 12.4,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -13156,7 +13500,7 @@
    ],
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": null,
+     "intelligence_index": 4.8,
      "coding_index": 2.7,
      "agentic_index": null
     }
@@ -13265,6 +13609,13 @@
    "reasoning": {
     "mandatory": true
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 6.4,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -13365,6 +13716,13 @@
    "reasoning": {
     "mandatory": false
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 11.8,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -13393,6 +13751,13 @@
     "max_completion_tokens": 8000
    },
    "supported_parameters": [],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 7.6,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -13456,6 +13821,13 @@
     "structured_outputs",
     "tools"
    ],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 6.5,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -13626,6 +13998,13 @@
    "reasoning": {
     "mandatory": false
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 12.5,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -13654,6 +14033,13 @@
    "supported_parameters": [
     "structured_outputs"
    ],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 6.7,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -13682,6 +14068,13 @@
     "max_completion_tokens": 114364
    },
    "supported_parameters": [],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 7.7,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -13776,6 +14169,13 @@
    "supported_parameters": [
     "structured_outputs"
    ],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 5.9,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -13872,7 +14272,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": null,
+     "intelligence_index": 15.2,
      "coding_index": 39.7,
      "agentic_index": null
     }
@@ -13924,8 +14324,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000001",
-    "completion": "0.00000032"
+    "prompt": "0.00000022",
+    "completion": "0.0000005",
+    "input_cache_read": "0.00000011"
    },
    "top_provider": {
     "max_completion_tokens": 16384
@@ -13936,7 +14337,7 @@
    ],
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": null,
+     "intelligence_index": 7.7,
      "coding_index": 11.9,
      "agentic_index": null
     }
@@ -13970,6 +14371,13 @@
    "supported_parameters": [
     "tools"
    ],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 6.7,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -13998,6 +14406,13 @@
    "supported_parameters": [
     "tools"
    ],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 5.9,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -14027,6 +14442,13 @@
    "supported_parameters": [
     "tools"
    ],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 7,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -14059,6 +14481,13 @@
     "structured_outputs",
     "tools"
    ],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 8.4,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -14090,6 +14519,13 @@
     "structured_outputs",
     "tools"
    ],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 7.6,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -14116,6 +14552,13 @@
     "max_completion_tokens": 29491
    },
    "supported_parameters": [],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 6.7,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -14227,6 +14670,13 @@
     "max_completion_tokens": 54000
    },
    "supported_parameters": [],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 4.8,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -14255,6 +14705,13 @@
    "supported_parameters": [
     "structured_outputs"
    ],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 5.7,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -14284,6 +14741,13 @@
     "structured_outputs",
     "tools"
    ],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 7.7,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -14397,6 +14861,13 @@
    "supported_parameters": [
     "structured_outputs"
    ],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 6.7,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -14425,6 +14896,13 @@
    "supported_parameters": [
     "structured_outputs"
    ],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 7.4,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -14484,6 +14962,13 @@
     "structured_outputs",
     "tools"
    ],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 7.7,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -14513,6 +14998,13 @@
     "structured_outputs",
     "tools"
    ],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 6.6,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -14545,7 +15037,7 @@
    ],
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": null,
+     "intelligence_index": 6.9,
      "coding_index": 5.4,
      "agentic_index": null
     }
@@ -14612,7 +15104,7 @@
    ],
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": null,
+     "intelligence_index": 6.7,
      "coding_index": 11.4,
      "agentic_index": null
     }
@@ -14739,7 +15231,7 @@
    ],
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": null,
+     "intelligence_index": 7.3,
      "coding_index": 24.2,
      "agentic_index": null
     }
@@ -14775,6 +15267,13 @@
     "structured_outputs",
     "tools"
    ],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 5.7,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -14832,7 +15331,7 @@
    ],
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": null,
+     "intelligence_index": 7,
      "coding_index": 21.5,
      "agentic_index": null
     }
@@ -14867,6 +15366,13 @@
     "structured_outputs",
     "tools"
    ],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 5.8,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -15061,7 +15567,7 @@
    ],
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": null,
+     "intelligence_index": 5.5,
      "coding_index": 10.7,
      "agentic_index": null
     }
@@ -15096,7 +15602,7 @@
    ],
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": null,
+     "intelligence_index": 6.7,
      "coding_index": 13.1,
      "agentic_index": null
     }
