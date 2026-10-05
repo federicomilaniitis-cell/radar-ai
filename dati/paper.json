@@ -1,6 +1,20 @@
 {
- "aggiornato": "2026-10-05T01:29:18+00:00",
+ "aggiornato": "2026-10-05T11:59:03+00:00",
  "paper": [
+  {
+   "titolo": "16-bit Precision of Convolutional Neural Networks on Microcontroller Units for 8-bit Costs",
+   "data": "2026-10-02",
+   "url": "http://arxiv.org/abs/2610.03402v1",
+   "id": "2610.03402v1",
+   "sommario": "To deploy deep neural networks on edge hardware, highly efficient inference schemes are necessary that retain high accuracy. This work presents W16A16, a high precision (16-bit), fast speed, low energy quantization method. On a widely applied microcontroller architecture Armv7E-M"
+  },
+  {
+   "titolo": "From Patching to Pruning Visual Computation in Vision Language Models",
+   "data": "2026-10-02",
+   "url": "http://arxiv.org/abs/2610.03389v1",
+   "id": "2610.03389v1",
+   "sommario": "Vision language models (VLMs) incur substantial inference cost because every visual token is processed by the attention and MLP projections of every decoder layer, even when token-specific visual computation is unnecessary at many depths. We introduce Patch-to-Prune (P2P), inspir"
+  },
   {
    "titolo": "VenusRL: A Fully Disaggregated Agentic RL System with Priority Scheduling and Scalable Interaction",
    "data": "2026-10-02",
@@ -70,20 +84,6 @@
    "url": "http://arxiv.org/abs/2610.02914v1",
    "id": "2610.02914v1",
    "sommario": "Autoregressive video models can generate minute-long videos in real time, but they produce generic subjects from text rather than specific subjects from user-provided images. Existing customization methods either require costly per-subject optimization or use pretrained condition"
-  },
-  {
-   "titolo": "iS-KV: Online Low-Rank KV Cache Compression via Block-Incremental SVD",
-   "data": "2026-10-02",
-   "url": "http://arxiv.org/abs/2610.02815v1",
-   "id": "2610.02815v1",
-   "sommario": "Long chain-of-thought reasoning substantially increases KV-cache memory during autoregressive decoding, as every generated token introduces new key and value states and causes the cache to grow linearly with decoding length. Existing KV-cache compression methods typically control"
-  },
-  {
-   "titolo": "BitNest: Bit-Nested Speculative Decoding for Memory-Efficient LLM Inference Acceleration",
-   "data": "2026-10-02",
-   "url": "http://arxiv.org/abs/2610.02800v1",
-   "id": "2610.02800v1",
-   "sommario": "Speculative decoding accelerates autoregressive generation by using a lightweight draft to propose multiple tokens for parallel verification. However, existing methods often require an additional draft model or weight representation, introducing non-negligible memory overhead on "
   }
  ]
 }
