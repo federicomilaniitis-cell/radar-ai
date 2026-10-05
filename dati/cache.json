@@ -1,6 +1,6 @@
 {
- "aggiornato": "2026-10-04T19:52:47+00:00",
- "aggiornato_it": "4 ottobre 2026",
+ "aggiornato": "2026-10-05T01:29:18+00:00",
+ "aggiornato_it": "5 ottobre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 387,
  "modelli": [
@@ -33,6 +33,13 @@
    "reasoning": {
     "mandatory": false,
     "default_enabled": true
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 41.1,
+     "coding_index": null,
+     "agentic_index": null
+    }
    },
    "ha_versione_gratuita": false
   },
@@ -2334,9 +2341,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000007506",
-    "completion": "0.0000022509",
-    "input_cache_read": "0.0000000378"
+    "prompt": "0.000000834",
+    "completion": "0.000002501",
+    "input_cache_read": "0.000000042"
    },
    "top_provider": {
     "max_completion_tokens": 64000
@@ -2417,9 +2424,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000000352",
+    "prompt": "0.000000036",
     "completion": "0.0000005",
-    "input_cache_read": "0.0000000232"
+    "input_cache_read": "0.0000000238"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -2687,12 +2694,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000008",
-    "completion": "0.000005",
-    "input_cache_read": "0.00000007"
+    "prompt": "0.000000064",
+    "completion": "0.0000044",
+    "input_cache_read": "0.000000064"
    },
    "top_provider": {
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -3247,12 +3254,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000595",
-    "completion": "0.00000017",
-    "input_cache_read": "0.00000002975"
+    "prompt": "0.00000006",
+    "completion": "0.00000016",
+    "input_cache_read": "0.00000003"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 32768
    },
    "supported_parameters": [
     "reasoning",
@@ -4166,9 +4173,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000072",
-    "completion": "0.000013",
-    "input_cache_read": "0.0000007"
+    "prompt": "0.00000067",
+    "completion": "0.000014",
+    "input_cache_read": "0.00000066"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -4498,10 +4505,10 @@
     "modality": "text+image+file->text"
    },
    "pricing": {
-    "prompt": "0.000004",
-    "completion": "0.00002",
-    "input_cache_read": "0.0000004",
-    "input_cache_write": "0.000005",
+    "prompt": "0.000002",
+    "completion": "0.00001",
+    "input_cache_read": "0.0000002",
+    "input_cache_write": "0.0000025",
     "web_search": "0.01"
    },
    "top_provider": {
@@ -4756,9 +4763,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000825",
-    "completion": "0.00000033",
-    "input_cache_read": "0.000000020625"
+    "prompt": "0.000000132",
+    "completion": "0.000000528",
+    "input_cache_read": "0.000000033"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -5118,9 +5125,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000104",
+    "prompt": "0.000000096",
     "completion": "0.000008",
-    "input_cache_read": "0.0000001"
+    "input_cache_read": "0.000000096"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -6179,7 +6186,7 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000006313",
+    "prompt": "0.00000039",
     "completion": "0.000013",
     "input_cache_read": "0.00000045"
    },
@@ -6465,10 +6472,11 @@
    },
    "pricing": {
     "prompt": "0.00000032",
-    "completion": "0.0000032"
+    "completion": "0.0000027",
+    "input_cache_read": "0.00000003"
    },
    "top_provider": {
-    "max_completion_tokens": 81920
+    "max_completion_tokens": 262140
    },
    "supported_parameters": [
     "reasoning",
@@ -7076,7 +7084,7 @@
     "artificial_analysis": {
      "intelligence_index": null,
      "coding_index": 39.3,
-     "agentic_index": null
+     "agentic_index": 2.9
     }
    },
    "ha_versione_gratuita": true
@@ -7118,7 +7126,7 @@
     "artificial_analysis": {
      "intelligence_index": null,
      "coding_index": 39.3,
-     "agentic_index": null
+     "agentic_index": 2.9
     }
    },
    "ha_versione_gratuita": true
@@ -9233,7 +9241,6 @@
    "context_length": 204800,
    "description": "MiniMax-M2.1 is a lightweight, state-of-the-art large language model optimized for coding, agentic workflows, and modern application development. With only 10 billion activated parameters, it delivers a major jump in real-world...",
    "hugging_face_id": "MiniMaxAI/MiniMax-M2.1",
-   "expiration_date": "2026-10-08",
    "architecture": {
     "input_modalities": [
      "text"
