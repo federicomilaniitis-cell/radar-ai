@@ -1,9 +1,89 @@
 {
- "aggiornato": "2026-10-06T11:40:49+00:00",
+ "aggiornato": "2026-10-06T21:25:06+00:00",
  "aggiornato_it": "6 ottobre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 385,
+ "totale": 387,
  "modelli": [
+  {
+   "id": "google/gemini-nano-banana-2.1",
+   "name": "Google: Nano Banana 2.1",
+   "created": 1791300825,
+   "context_length": 65536,
+   "description": "Nano Banana 2.1 (Gemini Nano Banana 2.1) is Google's image generation and editing model on the Flash tier, succeeding Nano Banana 2 and Nano Banana Pro. It improves product recontextualization,...",
+   "architecture": {
+    "input_modalities": [
+     "image",
+     "text"
+    ],
+    "output_modalities": [
+     "image",
+     "text"
+    ],
+    "modality": "text+image->text+image"
+   },
+   "pricing": {
+    "prompt": "0.0000015",
+    "completion": "0.0000075",
+    "web_search": "0.014"
+   },
+   "top_provider": {
+    "max_completion_tokens": 58982
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": false,
+    "default_enabled": true,
+    "supported_efforts": [
+     "high",
+     "minimal"
+    ],
+    "default_effort": "minimal"
+   },
+   "ha_versione_gratuita": false
+  },
+  {
+   "id": "mistralai/mistral-large-4-0",
+   "name": "Mistral: Mistral Large 4",
+   "created": 1791294122,
+   "context_length": 524288,
+   "description": "Mistral Large 4 is a frontier multimodal (text and image input) model from Mistral AI built for reasoning, coding, and agentic workloads. It offers a 512K-token context window with up...",
+   "architecture": {
+    "input_modalities": [
+     "text",
+     "image"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image->text"
+   },
+   "pricing": {
+    "prompt": "0.00000068",
+    "completion": "0.00000209",
+    "input_cache_read": "0.00000007"
+   },
+   "top_provider": {
+    "max_completion_tokens": 262144
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": false,
+    "supported_efforts": [
+     "high",
+     "none"
+    ],
+    "default_effort": "high"
+   },
+   "ha_versione_gratuita": false
+  },
   {
    "id": "inclusionai/ling-3.1-flash",
    "name": "inclusionAI: Ling 3.1 Flash",
@@ -1236,9 +1316,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000002595",
+    "prompt": "0.0000002514",
     "completion": "0.0000042",
-    "input_cache_read": "0.00000026"
+    "input_cache_read": "0.00000025"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -1276,9 +1356,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000005",
-    "completion": "0.0000012",
-    "input_cache_read": "0.000000015"
+    "prompt": "0.000000038",
+    "completion": "0.00000057",
+    "input_cache_read": "0.00000001"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -1692,9 +1772,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.000000055",
-    "completion": "0.00000132",
-    "input_cache_read": "0.0000000165"
+    "prompt": "0.0000003",
+    "completion": "0.0000012",
+    "input_cache_read": "0.000000006"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -2306,9 +2386,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000834",
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042"
+    "prompt": "0.0000007506",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378"
    },
    "top_provider": {
     "max_completion_tokens": 64000
@@ -2389,12 +2469,12 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000000244",
-    "completion": "0.0000005",
-    "input_cache_read": "0.0000000244"
+    "prompt": "0.00000003058",
+    "completion": "0.0000006875",
+    "input_cache_read": "0.00000002013"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -2736,7 +2816,7 @@
    },
    "pricing": {
     "prompt": "0.00000007",
-    "completion": "0.000007",
+    "completion": "0.0000021",
     "input_cache_read": "0.000000065"
    },
    "top_provider": {
@@ -3457,9 +3537,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000069",
+    "prompt": "0.0000000123",
     "completion": "0.00000128",
-    "input_cache_read": "0.0000000069"
+    "input_cache_read": "0.0000000123"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -3499,9 +3579,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000069",
+    "prompt": "0.0000000123",
     "completion": "0.00000128",
-    "input_cache_read": "0.0000000069"
+    "input_cache_read": "0.0000000123"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -4110,9 +4190,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000095",
-    "completion": "0.000014",
-    "input_cache_read": "0.00000031"
+    "prompt": "0.00000069",
+    "completion": "0.000015",
+    "input_cache_read": "0.00000023"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -4700,9 +4780,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000132",
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033"
+    "prompt": "0.0000000825",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -5062,9 +5142,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000016",
+    "prompt": "0.000000152",
     "completion": "0.000012",
-    "input_cache_read": "0.00000016"
+    "input_cache_read": "0.00000015"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -6123,9 +6203,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000083",
-    "completion": "0.000013",
-    "input_cache_read": "0.00000045"
+    "prompt": "0.00000069",
+    "completion": "0.000015",
+    "input_cache_read": "0.00000023"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -6598,9 +6678,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000204",
+    "prompt": "0.0000000242",
     "completion": "0.00000128",
-    "input_cache_read": "0.0000000204"
+    "input_cache_read": "0.0000000242"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -7008,9 +7088,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000009",
-    "completion": "0.0000003",
-    "input_cache_read": "0.00000005"
+    "prompt": "0.0000000765",
+    "completion": "0.000000255",
+    "input_cache_read": "0.0000000425"
    },
    "top_provider": {
     "max_completion_tokens": 235929
@@ -13305,7 +13385,8 @@
    },
    "pricing": {
     "prompt": "0.0000001875",
-    "completion": "0.0000006525"
+    "completion": "0.0000006525",
+    "input_cache_read": "0.00000005"
    },
    "top_provider": {
     "max_completion_tokens": 16384
