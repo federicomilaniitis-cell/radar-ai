@@ -1,8 +1,8 @@
 {
- "aggiornato": "2026-10-07T01:58:25+00:00",
+ "aggiornato": "2026-10-07T11:28:18+00:00",
  "aggiornato_it": "7 ottobre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 387,
+ "totale": 386,
  "modelli": [
   {
    "id": "google/gemini-nano-banana-2.1",
@@ -1317,12 +1317,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000002882",
-    "completion": "0.0000042",
-    "input_cache_read": "0.00000029"
+    "prompt": "0.0000004",
+    "completion": "0.0000043",
+    "input_cache_read": "0.000000033"
    },
    "top_provider": {
-    "max_completion_tokens": 393216
+    "max_completion_tokens": 384000
    },
    "supported_parameters": [
     "reasoning",
@@ -1357,9 +1357,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.000000044",
-    "completion": "0.0000003",
-    "input_cache_read": "0.000000015"
+    "prompt": "0.00000005",
+    "completion": "0.0000012",
+    "input_cache_read": "0.00000002"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -1773,9 +1773,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.000000044",
-    "completion": "0.0000003",
-    "input_cache_read": "0.000000015"
+    "prompt": "0.00000005",
+    "completion": "0.0000012",
+    "input_cache_read": "0.00000002"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -2747,9 +2747,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000006",
-    "completion": "0.0000044",
-    "input_cache_read": "0.00000003"
+    "prompt": "0.000000063",
+    "completion": "0.0000063",
+    "input_cache_read": "0.0000000585"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -3127,9 +3127,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000132",
-    "completion": "0.00000396",
-    "input_cache_read": "0.000000044"
+    "prompt": "0.00000066",
+    "completion": "0.00000198",
+    "input_cache_read": "0.000000022"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -4191,9 +4191,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000069",
+    "prompt": "0.00000062",
     "completion": "0.000015",
-    "input_cache_read": "0.00000045"
+    "input_cache_read": "0.00000043"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -4272,35 +4272,6 @@
      "agentic_index": 25.8
     }
    },
-   "ha_versione_gratuita": false
-  },
-  {
-   "id": "kwaipilot/kat-coder-pro-v2.5",
-   "name": "Kwaipilot: KAT-Coder-Pro V2.5",
-   "created": 1783714589,
-   "context_length": 262144,
-   "description": "KAT-Coder-Pro V2.5 is a flagship-level Agentic Coding model that can directly hand over an entire issue or an entire business workflow to it, allowing it to autonomously locate and make...",
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text->text"
-   },
-   "pricing": {
-    "prompt": "0.00000074",
-    "completion": "0.00000296",
-    "input_cache_read": "0.00000015"
-   },
-   "top_provider": {
-    "max_completion_tokens": 235929
-   },
-   "supported_parameters": [
-    "structured_outputs",
-    "tools"
-   ],
    "ha_versione_gratuita": false
   },
   {
@@ -5143,9 +5114,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000152",
-    "completion": "0.000012",
-    "input_cache_read": "0.00000015"
+    "prompt": "0.000000171",
+    "completion": "0.0000072",
+    "input_cache_read": "0.000000162"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -6204,7 +6175,7 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000068",
+    "prompt": "0.00000061",
     "completion": "0.000013",
     "input_cache_read": "0.00000045"
    },
@@ -6950,9 +6921,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000095",
-    "completion": "0.000004",
-    "input_cache_read": "0.00000016"
+    "prompt": "0.000000465",
+    "completion": "0.00000245",
+    "input_cache_read": "0.0000000975"
    },
    "top_provider": {
     "max_completion_tokens": 235929
@@ -7089,9 +7060,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000000765",
-    "completion": "0.000000255",
-    "input_cache_read": "0.0000000425"
+    "prompt": "0.00000009",
+    "completion": "0.0000003",
+    "input_cache_read": "0.00000005"
    },
    "top_provider": {
     "max_completion_tokens": 235929

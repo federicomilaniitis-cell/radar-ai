@@ -1,6 +1,20 @@
 {
- "aggiornato": "2026-10-07T01:58:25+00:00",
+ "aggiornato": "2026-10-07T11:28:18+00:00",
  "paper": [
+  {
+   "titolo": "Lachesis: Lifetime-Aware KV Cache Placement for Agent Serving across HBM and High-Bandwidth Flash",
+   "data": "2026-10-06",
+   "url": "http://arxiv.org/abs/2610.08378v1",
+   "id": "2610.08378v1",
+   "sommario": "Large language model (LLM) serving is increasingly dominated by agentic workloads, in which agents and their sub-agents accumulate context as KV cache across many requests, consuming substantial memory. High-bandwidth flash (HBF) is a promising solution, providing an order of mag"
+  },
+  {
+   "titolo": "DySCo: Dynamic Sharding for Collaborative Edge-Cloud LLM Inference with Depth-Synchronized Batching",
+   "data": "2026-10-06",
+   "url": "http://arxiv.org/abs/2610.08268v1",
+   "id": "2610.08268v1",
+   "sommario": "Pervasive intelligent applications are increasingly deployed on mobile and Internet of Things (IoT) edge devices. Consequently, Large Language Models (LLMs) are increasingly used to support these applications. Yet, due to their high resource demands, LLMs are mostly deployed in t"
+  },
   {
    "titolo": "IronMan: Information-Constrained Video-Action Learning for Robot Manipulation",
    "data": "2026-10-06",
@@ -70,20 +84,6 @@
    "url": "http://arxiv.org/abs/2610.07271v1",
    "id": "2610.07271v1",
    "sommario": "Linkage algorithms for hierarchical clustering (HC) are a powerful and efficient framework for constructing clustering trees, yet it is often unclear which merge rule best suits a given dataset or task. In contrast, neural approaches can learn from data, but often fail to retain "
-  },
-  {
-   "titolo": "Towards Looped Models Done Right, Part II: Rethinking at Fixed Points",
-   "data": "2026-10-05",
-   "url": "http://arxiv.org/abs/2610.06833v1",
-   "id": "2610.06833v1",
-   "sommario": "Every recurrence of a looped language model adds cost in training, decoding, prefill, and reinforcement learning (RL). The closer recurrent states get to fixed points, the less the path to them matters. This enables truncated backpropagation in training; terminal key-value (KV) s"
-  },
-  {
-   "titolo": "Reconfigurable On-Chip AI for Particle Physics Detectors with Logic Neural Networks",
-   "data": "2026-10-05",
-   "url": "http://arxiv.org/abs/2610.06816v1",
-   "id": "2610.06816v1",
-   "sommario": "On-device machine learning is increasingly important in applications where extreme data rates or resource constraints make centralized processing infeasible. Logic neural networks (LNNs), which directly learn Boolean logic instead of conventional arithmetic operations, have recen"
   }
  ]
 }
