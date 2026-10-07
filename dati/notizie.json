@@ -1,11 +1,11 @@
 {
- "aggiornato": "2026-10-06T21:25:06+00:00",
+ "aggiornato": "2026-10-07T01:58:25+00:00",
  "notizie": [
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-10-06",
-   "titolo": "Seed-2.0-Code viene spento fra 36 giorni",
+   "data": "2026-10-07",
+   "titolo": "Seed-2.0-Code viene spento fra 35 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-11. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-bytedance-seed-seed-2-0-code"
@@ -13,8 +13,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-10-06",
-   "titolo": "Laguna S 2.1 viene spento fra 25 giorni",
+   "data": "2026-10-07",
+   "titolo": "Laguna S 2.1 viene spento fra 24 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-31. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-poolside-laguna-s-2-1"
@@ -22,8 +22,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-10-06",
-   "titolo": "Laguna S 2.1 (free) viene spento fra 25 giorni",
+   "data": "2026-10-07",
+   "titolo": "Laguna S 2.1 (free) viene spento fra 24 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-31. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-poolside-laguna-s-2-1-free"
@@ -31,8 +31,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-10-06",
-   "titolo": "Laguna XS 2.1 viene spento fra 25 giorni",
+   "data": "2026-10-07",
+   "titolo": "Laguna XS 2.1 viene spento fra 24 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-31. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-poolside-laguna-xs-2-1"
@@ -40,8 +40,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-10-06",
-   "titolo": "Laguna XS 2.1 (free) viene spento fra 25 giorni",
+   "data": "2026-10-07",
+   "titolo": "Laguna XS 2.1 (free) viene spento fra 24 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-31. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-poolside-laguna-xs-2-1-free"
@@ -49,8 +49,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-10-06",
-   "titolo": "Qwen3.6 Max Preview viene spento fra 3 giorni",
+   "data": "2026-10-07",
+   "titolo": "Qwen3.6 Max Preview viene spento fra 2 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-09. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-qwen-qwen3-6-max-preview"
@@ -58,8 +58,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-10-06",
-   "titolo": "Qwen3 Max Thinking viene spento fra 3 giorni",
+   "data": "2026-10-07",
+   "titolo": "Qwen3 Max Thinking viene spento fra 2 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-09. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-qwen-qwen3-max-thinking"
@@ -67,8 +67,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-10-06",
-   "titolo": "Seed 1.6 Flash viene spento fra 36 giorni",
+   "data": "2026-10-07",
+   "titolo": "Seed 1.6 Flash viene spento fra 35 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-11. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-bytedance-seed-seed-1-6-flash"
@@ -76,8 +76,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-10-06",
-   "titolo": "Seed 1.6 viene spento fra 36 giorni",
+   "data": "2026-10-07",
+   "titolo": "Seed 1.6 viene spento fra 35 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-11. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-bytedance-seed-seed-1-6"
@@ -85,8 +85,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-10-06",
-   "titolo": "Qwen3 VL 32B Instruct viene spento fra 3 giorni",
+   "data": "2026-10-07",
+   "titolo": "Qwen3 VL 32B Instruct viene spento fra 2 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-09. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-qwen-qwen3-vl-32b-instruct"
@@ -94,8 +94,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-10-06",
-   "titolo": "Qwen3 VL 8B Thinking viene spento fra 3 giorni",
+   "data": "2026-10-07",
+   "titolo": "Qwen3 VL 8B Thinking viene spento fra 2 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-09. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-qwen-qwen3-vl-8b-thinking"
@@ -103,8 +103,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-10-06",
-   "titolo": "Qwen3 VL 8B Instruct viene spento fra 3 giorni",
+   "data": "2026-10-07",
+   "titolo": "Qwen3 VL 8B Instruct viene spento fra 2 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-09. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-qwen-qwen3-vl-8b-instruct"
@@ -112,8 +112,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-10-06",
-   "titolo": "Qwen3 VL 30B A3B Thinking viene spento fra 3 giorni",
+   "data": "2026-10-07",
+   "titolo": "Qwen3 VL 30B A3B Thinking viene spento fra 2 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-09. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-qwen-qwen3-vl-30b-a3b-thinking"
@@ -121,8 +121,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-10-06",
-   "titolo": "Qwen3 VL 235B A22B Thinking viene spento fra 3 giorni",
+   "data": "2026-10-07",
+   "titolo": "Qwen3 VL 235B A22B Thinking viene spento fra 2 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-09. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-qwen-qwen3-vl-235b-a22b-thinking"

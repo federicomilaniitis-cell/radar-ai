@@ -1,6 +1,76 @@
 {
- "aggiornato": "2026-10-06T21:25:06+00:00",
+ "aggiornato": "2026-10-07T01:58:25+00:00",
  "paper": [
+  {
+   "titolo": "IronMan: Information-Constrained Video-Action Learning for Robot Manipulation",
+   "data": "2026-10-06",
+   "url": "http://arxiv.org/abs/2610.07961v1",
+   "id": "2610.07961v1",
+   "sommario": "Video Action Models (VAMs) couple visual dynamics modeling with action generation for robot manipulation. However, video representations are not naturally suited to action generation, as exposing the action policy to excessive visual detail can impair its generalization ability. "
+  },
+  {
+   "titolo": "Hybrid Latent Attention for Looped Language Models",
+   "data": "2026-10-06",
+   "url": "http://arxiv.org/abs/2610.07940v1",
+   "id": "2610.07940v1",
+   "sommario": "Looped language models apply the same stack of layers T times to each token, which deepens the model without adding parameters but multiplies its key-value (KV) cache by T. The larger cache limits how many sequences a GPU can decode at once and slows each decoding step, which rea"
+  },
+  {
+   "titolo": "ReFold: Training-Free Reversible Inter-Turn Context Folding for Long-Horizon Agents",
+   "data": "2026-10-06",
+   "url": "http://arxiv.org/abs/2610.07863v1",
+   "id": "2610.07863v1",
+   "sommario": "Long-horizon LLM agents act on an append-only interaction history that is re-sent to the model at every step, so the context and its cost grow with steps until the sessions exceed the context window. Existing methods manage the context through context requirement prediction, rely"
+  },
+  {
+   "titolo": "Persistent Memory in Multi-Agent LLM Inference: What It Costs, What It Buys, and When You Can Tell",
+   "data": "2026-10-06",
+   "url": "http://arxiv.org/abs/2610.07782v1",
+   "id": "2610.07782v1",
+   "sommario": "Decomposing long-context inference across cooperating agents bounds the active KV cache per call rather than total evidence, which matters when KV-cache memory binds. Many such systems add a persistent tier storing and recalling reasoning traces, usually validated by an ablation "
+  },
+  {
+   "titolo": "TRACE: Rollout-Guided Quantization-Aware Training for FP4 Reinforcement Learning of MoE Language Models",
+   "data": "2026-10-06",
+   "url": "http://arxiv.org/abs/2610.07767v1",
+   "id": "2610.07767v1",
+   "sommario": "Reinforcement learning (RL) for post-training large language models (LLMs) incurs substantial computation and memory overhead during rollout generation, which motivates low-precision rollout for efficient RL training. However, existing FP4 RL methods suffer from a key limitation:"
+  },
+  {
+   "titolo": "Later Is Better: Token Reduction for ViTs Under Distribution Shift",
+   "data": "2026-10-06",
+   "url": "http://arxiv.org/abs/2610.07758v1",
+   "id": "2610.07758v1",
+   "sommario": "Training-free token reduction accelerates vision transformers by removing redundant tokens across layers, recovering most of the original accuracy at a fraction of the compute. These methods, however, are designed and evaluated primarily on clean data, and under real-world distri"
+  },
+  {
+   "titolo": "Monte Carlo Estimation for KV Cache Eviction",
+   "data": "2026-10-06",
+   "url": "http://arxiv.org/abs/2610.07643v1",
+   "id": "2610.07643v1",
+   "sommario": "Most KV-cache eviction methods ask, in effect, which memory appeared important while reading the prompt? We instead ask, which memory will matter while answering? Since decoding queries are unavailable at eviction time, prior future-aware methods rely on pseudo-responses or synth"
+  },
+  {
+   "titolo": "A Shape-Adaptive Architecture with Disaggregated Quantization for Efficient LLM Serving",
+   "data": "2026-10-05",
+   "url": "http://arxiv.org/abs/2610.07443v1",
+   "id": "2610.07443v1",
+   "sommario": "Large language models (LLMs) have become the backbone of modern AI applications, but pose significant challenges for efficient inference. Their autoregressive generation divides execution into two phases: prefill, dominated by large GEMMs, and decoding, dominated by small GEMVs. "
+  },
+  {
+   "titolo": "SPECULATE: A synthetic spectral library, emulator and fitting package for accretion disc winds -- Infrastructure and application to CVs",
+   "data": "2026-10-05",
+   "url": "http://arxiv.org/abs/2610.07364v1",
+   "id": "2610.07364v1",
+   "sommario": "Disc winds are critical components of accreting astrophysical systems and their observations can yield a wide variety of spectral line profiles. Yet, inferring disc wind parameters remains challenging: the underlying parameter spaces are high-dimensional and degenerate, while the"
+  },
+  {
+   "titolo": "Algorithmically Aligned Neural Agglomerative Tree Construction",
+   "data": "2026-10-05",
+   "url": "http://arxiv.org/abs/2610.07271v1",
+   "id": "2610.07271v1",
+   "sommario": "Linkage algorithms for hierarchical clustering (HC) are a powerful and efficient framework for constructing clustering trees, yet it is often unclear which merge rule best suits a given dataset or task. In contrast, neural approaches can learn from data, but often fail to retain "
+  },
   {
    "titolo": "Towards Looped Models Done Right, Part II: Rethinking at Fixed Points",
    "data": "2026-10-05",
@@ -14,76 +84,6 @@
    "url": "http://arxiv.org/abs/2610.06816v1",
    "id": "2610.06816v1",
    "sommario": "On-device machine learning is increasingly important in applications where extreme data rates or resource constraints make centralized processing infeasible. Logic neural networks (LNNs), which directly learn Boolean logic instead of conventional arithmetic operations, have recen"
-  },
-  {
-   "titolo": "Less Context, Better Geometry: Masked Geometric Encoder for Robust 3D Foundation Models",
-   "data": "2026-10-05",
-   "url": "http://arxiv.org/abs/2610.06813v1",
-   "id": "2610.06813v1",
-   "sommario": "Recent progress in 3D foundation models has enabled rapid 3D reconstruction and camera calibration by leveraging learned 3D priors from vast amount of spatial data. However, the all-to-all global attention design leads to quadratic complexity and limits long-sequence inference; u"
-  },
-  {
-   "titolo": "OVAL: Output-Aware Local Page Bases for KV Cache Retrieval",
-   "data": "2026-10-05",
-   "url": "http://arxiv.org/abs/2610.06686v1",
-   "id": "2610.06686v1",
-   "sommario": "Long context inference with large language models becomes increasingly expensive as attention must operate over an ever growing KV cache. Page sparse attention reduces this cost by representing each KV page compactly and retrieving only a subset for each query. Existing retrieval"
-  },
-  {
-   "titolo": "RealtimeWAM: One-Step Asynchronous World Action Models",
-   "data": "2026-10-05",
-   "url": "http://arxiv.org/abs/2610.06617v1",
-   "id": "2610.06617v1",
-   "sommario": "World Action Models (WAMs) incorporate visual representations from video generation backbones to guide action prediction. Recent efficient WAMs adopt Mixture-of-Transformers (MoT) architectures and compute video representations once for reuse by the action expert. However, intra-"
-  },
-  {
-   "titolo": "Can Agent Harnesses and Inference Engines Hear Each Other? The HEAR Protocol for Agentic LLM Serving",
-   "data": "2026-10-05",
-   "url": "http://arxiv.org/abs/2610.06597v1",
-   "id": "2610.06597v1",
-   "sommario": "LLM agents increasingly execute complex workflows involving multi-turn reasoning, tool use, and parallel agents. Efficient serving requires decisions that span two layers with complementary information: the agent harness understands workflow dependencies, context lifecycles, and "
-  },
-  {
-   "titolo": "Behavior-Preserving KV Cache Compression",
-   "data": "2026-10-05",
-   "url": "http://arxiv.org/abs/2610.06479v1",
-   "id": "2610.06479v1",
-   "sommario": "KV caches are a major bottleneck in long-context inference and long-form generation with large language models. Existing training-free eviction policies largely rely on proxy importance signals, such as attention mass, to decide which past tokens to retain. We argue that cache co"
-  },
-  {
-   "titolo": "DeferKV: Rethinking Eviction Timing for One-Shot KV Cache Compression",
-   "data": "2026-10-05",
-   "url": "http://arxiv.org/abs/2610.06286v1",
-   "id": "2610.06286v1",
-   "sommario": "Long-context large language models (LLMs) have demonstrated strong capabilities across a wide range of tasks, but the growing KV cache introduces substantial memory and inference overhead. Existing one-shot KV cache compression methods typically commit to irreversible eviction im"
-  },
-  {
-   "titolo": "Conditional Trajectory Peaks: Single-Pass Multimodal Policies over Action Chunks",
-   "data": "2026-10-05",
-   "url": "http://arxiv.org/abs/2610.06104v1",
-   "id": "2610.06104v1",
-   "sommario": "Multimodal imitation learning requires diverse executable futures under the same observation and consistent behavior across replanning cycles. We present Conditional Trajectory Peaks (CTP), a single-pass policy framework that jointly predicts complete action-chunk candidates, pro"
-  },
-  {
-   "titolo": "The Optimization Landscape of Learning Compacted Context Models",
-   "data": "2026-10-05",
-   "url": "http://arxiv.org/abs/2610.05885v1",
-   "id": "2610.05885v1",
-   "sommario": "Many works approach continual learning through the lens of infinite context windows. As an agent puts more observation into context (concretely the KV cache), compacting said context is akin to direct memory manipulation, without affecting the base model's weights. Many works pos"
-  },
-  {
-   "titolo": "Request Order Matters: Cache-History Sensitivity in Selective KV-Cache Reuse for Rolling Agents",
-   "data": "2026-10-05",
-   "url": "http://arxiv.org/abs/2610.05833v1",
-   "id": "2610.05833v1",
-   "sommario": "Long-running agents repeatedly call an LLM while retaining most of their document window, evicting old documents, and appending new ones. These rolling updates break exact prefix caching and motivate non-prefix KV-cache reuse with selective recomputation. We show that persistent "
-  },
-  {
-   "titolo": "HLA-WM: Hybrid Linear Attention for Long-Horizon Video World Models",
-   "data": "2026-10-05",
-   "url": "http://arxiv.org/abs/2610.05739v1",
-   "id": "2610.05739v1",
-   "sommario": "Long-horizon video world models require persistent memory to preserve scene consistency over extended rollouts. Softmax attention retains the full generation history through a growing KV cache, whereas recurrent linear attention compresses history into fixed-size states with subs"
   }
  ]
 }
