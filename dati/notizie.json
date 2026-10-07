@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-07T11:28:18+00:00",
+ "aggiornato": "2026-10-07T21:43:08+00:00",
  "notizie": [
   {
    "tag": "crit",
@@ -54,6 +54,15 @@
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-09. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-qwen-qwen3-6-max-preview"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-10-07",
+   "titolo": "Qwen3.5-9B viene spento fra 14 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-21. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-qwen-qwen3-5-9b"
   },
   {
    "tag": "crit",
@@ -207,15 +216,6 @@
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-09-25. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-nex-agi-nex-n2-5-pro-free"
-  },
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-09-25",
-   "titolo": "DeepSeek V3.1 Terminus viene spento fra 3 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-09-28. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-deepseek-deepseek-v3-1-terminus"
   }
  ]
 }

@@ -1,9 +1,54 @@
 {
- "aggiornato": "2026-10-07T11:28:18+00:00",
+ "aggiornato": "2026-10-07T21:43:08+00:00",
  "aggiornato_it": "7 ottobre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 386,
+ "totale": 387,
  "modelli": [
+  {
+   "id": "anthropic/claude-haiku-5.5",
+   "name": "Anthropic: Claude Haiku 5.5",
+   "created": 1791397883,
+   "context_length": 1000000,
+   "description": "Claude Haiku 5.5 is Anthropic's small, fast model for high-volume, cost-sensitive work such as summarization, subagents, and browser use. It succeeds Claude Haiku 4.5 with stronger coding, computer use, and...",
+   "architecture": {
+    "input_modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image+file->text"
+   },
+   "pricing": {
+    "prompt": "0.0000001",
+    "completion": "0.0000005",
+    "input_cache_read": "0.00000001",
+    "input_cache_write": "0.000000125",
+    "web_search": "0.01"
+   },
+   "top_provider": {
+    "max_completion_tokens": 128000
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": false,
+    "supported_efforts": [
+     "max",
+     "xhigh",
+     "high",
+     "medium",
+     "low"
+    ],
+    "default_effort": "medium"
+   },
+   "ha_versione_gratuita": false
+  },
   {
    "id": "google/gemini-nano-banana-2.1",
    "name": "Google: Nano Banana 2.1",
@@ -304,7 +349,7 @@
    "pricing": {
     "prompt": "0.000002",
     "completion": "0.00001",
-    "input_cache_read": "0.0000002",
+    "input_cache_read": "0.0000001",
     "input_cache_write": "0.0000025",
     "web_search": "0.01"
    },
@@ -1317,12 +1362,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000004",
-    "completion": "0.0000043",
-    "input_cache_read": "0.000000033"
+    "prompt": "0.0000002856",
+    "completion": "0.0000042",
+    "input_cache_read": "0.0000002"
    },
    "top_provider": {
-    "max_completion_tokens": 384000
+    "max_completion_tokens": 393216
    },
    "supported_parameters": [
     "reasoning",
@@ -1357,9 +1402,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000005",
-    "completion": "0.0000012",
-    "input_cache_read": "0.00000002"
+    "prompt": "0.000000019",
+    "completion": "0.000000424",
+    "input_cache_read": "0.000000009"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -1773,9 +1818,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000005",
+    "prompt": "0.0000003",
     "completion": "0.0000012",
-    "input_cache_read": "0.00000002"
+    "input_cache_read": "0.000000006"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -2387,9 +2432,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000834",
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042"
+    "prompt": "0.0000007506",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378"
    },
    "top_provider": {
     "max_completion_tokens": 64000
@@ -2470,9 +2515,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000000214",
+    "prompt": "0.00000004",
     "completion": "0.0000005",
-    "input_cache_read": "0.0000000214"
+    "input_cache_read": "0.000000025"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -2747,12 +2792,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000063",
-    "completion": "0.0000063",
-    "input_cache_read": "0.0000000585"
+    "prompt": "0.000000062",
+    "completion": "0.00000339",
+    "input_cache_read": "0.00000006"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -2816,9 +2861,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000007",
-    "completion": "0.000007",
-    "input_cache_read": "0.000000065"
+    "prompt": "0.000000062",
+    "completion": "0.00000339",
+    "input_cache_read": "0.00000006"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -3265,12 +3310,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000006",
-    "completion": "0.00000016",
-    "input_cache_read": "0.00000003"
+    "prompt": "0.000000049",
+    "completion": "0.00000014",
+    "input_cache_read": "0.0000000245"
    },
    "top_provider": {
-    "max_completion_tokens": 32768
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -4191,9 +4236,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000062",
+    "prompt": "0.0000005",
     "completion": "0.000015",
-    "input_cache_read": "0.00000043"
+    "input_cache_read": "0.00000045"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -4752,9 +4797,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000132",
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033"
+    "prompt": "0.0000000825",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -6032,7 +6077,7 @@
    "id": "~anthropic/claude-haiku-latest",
    "name": "Anthropic: Claude Haiku Latest",
    "created": 1777318492,
-   "context_length": 200000,
+   "context_length": 1000000,
    "description": "This model always redirects to the latest model in the Claude Haiku family.",
    "architecture": {
     "input_modalities": [
@@ -6046,14 +6091,14 @@
     "modality": "text+image+file->text"
    },
    "pricing": {
-    "prompt": "0.000001",
-    "completion": "0.000005",
-    "input_cache_read": "0.0000001",
-    "input_cache_write": "0.00000125",
+    "prompt": "0.0000001",
+    "completion": "0.0000005",
+    "input_cache_read": "0.00000001",
+    "input_cache_write": "0.000000125",
     "web_search": "0.01"
    },
    "top_provider": {
-    "max_completion_tokens": 64000
+    "max_completion_tokens": 128000
    },
    "supported_parameters": [
     "reasoning",
@@ -6061,7 +6106,15 @@
     "tools"
    ],
    "reasoning": {
-    "mandatory": false
+    "mandatory": false,
+    "supported_efforts": [
+     "max",
+     "xhigh",
+     "high",
+     "medium",
+     "low"
+    ],
+    "default_effort": "medium"
    },
    "ha_versione_gratuita": false
   },
@@ -6175,7 +6228,7 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000061",
+    "prompt": "0.00000049",
     "completion": "0.000013",
     "input_cache_read": "0.00000045"
    },
@@ -6267,7 +6320,7 @@
    "pricing": {
     "prompt": "0.000002",
     "completion": "0.00001",
-    "input_cache_read": "0.0000002",
+    "input_cache_read": "0.0000001",
     "input_cache_write": "0.0000025",
     "web_search": "0.01"
    },
@@ -7060,9 +7113,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000009",
-    "completion": "0.0000003",
-    "input_cache_read": "0.00000005"
+    "prompt": "0.0000000765",
+    "completion": "0.000000255",
+    "input_cache_read": "0.0000000425"
    },
    "top_provider": {
     "max_completion_tokens": 235929
@@ -7893,6 +7946,7 @@
    "context_length": 262144,
    "description": "Qwen3.5-9B is a multimodal foundation model from the Qwen3.5 family, designed to deliver strong reasoning, coding, and visual understanding in an efficient 9B-parameter architecture. It uses a unified vision-language design...",
    "hugging_face_id": "Qwen/Qwen3.5-9B",
+   "expiration_date": "2026-10-21",
    "architecture": {
     "input_modalities": [
      "text",
@@ -9471,11 +9525,10 @@
    },
    "pricing": {
     "prompt": "0.00000005",
-    "completion": "0.0000002",
-    "input_cache_read": "0.00000003"
+    "completion": "0.0000002"
    },
    "top_provider": {
-    "max_completion_tokens": 235929
+    "max_completion_tokens": 32768
    },
    "supported_parameters": [
     "reasoning",
@@ -9983,12 +10036,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000028",
+    "prompt": "0.000000259",
     "completion": "0.00000042",
-    "input_cache_read": "0.000000028"
+    "input_cache_read": "0.000000135"
    },
    "top_provider": {
-    "max_completion_tokens": 65536
+    "max_completion_tokens": 147456
    },
    "supported_parameters": [
     "reasoning",
