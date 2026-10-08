@@ -1,6 +1,76 @@
 {
- "aggiornato": "2026-10-07T21:43:08+00:00",
+ "aggiornato": "2026-10-08T02:23:38+00:00",
  "paper": [
+  {
+   "titolo": "ResidualQuant: KV Cache Quantization for Looped Transformers with 2-Bit Residuals",
+   "data": "2026-10-07",
+   "url": "http://arxiv.org/abs/2610.10381v1",
+   "id": "2610.10381v1",
+   "sommario": "Looped Transformers improve parameter efficiency by repeatedly applying shared Transformer blocks over multiple recurrent loops, increasing computational depth without increasing the parameter count. However, KV cache memory still scales with the number of loops, becoming a key m"
+  },
+  {
+   "titolo": "Dual-QK: Sharp Queries and Flat Keys for Prunable 2-bit KV Caches",
+   "data": "2026-10-07",
+   "url": "http://arxiv.org/abs/2610.09827v1",
+   "id": "2610.09827v1",
+   "sommario": "Long inputs and extended generation increase the storage and access costs of the key-value (KV) cache. Low-bit quantization reduces storage and memory traffic, while query-channel pruning can further reduce key-cache reads. Rotation-based quantization redistributes the energy of "
+  },
+  {
+   "titolo": "ΔWAM: Distilling Action Tangent Fields into World Action Models",
+   "data": "2026-10-07",
+   "url": "http://arxiv.org/abs/2610.09734v1",
+   "id": "2610.09734v1",
+   "sommario": "World Action Models (WAM) improve robot policies by augmenting sparse action supervision with dense future prediction. However, much of the predictable future is dominated by appearance and scene persistence rather than action-dependent dynamics. We observe that several recent WA"
+  },
+  {
+   "titolo": "CHASE: Channel-Aligned Structure Exploitation for Geometry-Aware Model Engineering",
+   "data": "2026-10-07",
+   "url": "http://arxiv.org/abs/2610.09476v1",
+   "id": "2610.09476v1",
+   "sommario": "Geometric and Spectral Alignment (GSA) characterizes trained networks through spectral concentration, physical-channel alignment, support structure, and changes in singular bases. In this paper, we propose CHASE (Channel-Aligned Structure Exploitation) to use these structures in "
+  },
+  {
+   "titolo": "Adaptive Visual Token Reduction for Accelerated Image Understanding",
+   "data": "2026-10-07",
+   "url": "http://arxiv.org/abs/2610.09252v1",
+   "id": "2610.09252v1",
+   "sommario": "Large Vision-Language Models achieve strong VQA performance, but processing high-resolution, information-rich images requires substantial computation, motivating visual token reduction. However, existing methods often prune individual tokens or rely on fixed-size cropping, limiti"
+  },
+  {
+   "titolo": "Few Bits, One Law: Toward W2A4KV2",
+   "data": "2026-10-06",
+   "url": "http://arxiv.org/abs/2610.09202v1",
+   "id": "2610.09202v1",
+   "sommario": "Extreme low-bit LLM compression is most challenging when weights, activations, and KV caches are quantized together: their distributions differ, and quantization errors interact throughout the network. We introduce CanonQ, a unified quantization-aware training framework that addr"
+  },
+  {
+   "titolo": "A Self-Pruning Transformer: Extreme KV-Cache Compression with Universal Attention",
+   "data": "2026-10-06",
+   "url": "http://arxiv.org/abs/2610.09051v1",
+   "id": "2610.09051v1",
+   "sommario": "The large KV-cache size of modern LLMs creates a barrier to efficient deployment. Recent work has explored replacing attention layers' RoPE positional embeddings with alternative decay-based mechanisms, which can then be used to prune KV-cache during inference. However, these dec"
+  },
+  {
+   "titolo": "Visual Memory Attacks Can Persist Through The KV Cache",
+   "data": "2026-10-06",
+   "url": "http://arxiv.org/abs/2610.09027v1",
+   "id": "2610.09027v1",
+   "sommario": "Modern language model systems operate autonomously over increasingly long contexts containing untrusted text and images. Can an adversarial input continue to steer a model even after that input is removed from its context? We show that attacks can be trained to persist through th"
+  },
+  {
+   "titolo": "SPIN: Shadow Predictive Indexer for Sparse Attention",
+   "data": "2026-10-06",
+   "url": "http://arxiv.org/abs/2610.09025v1",
+   "id": "2610.09025v1",
+   "sommario": "Indexer-based sparse attention reduces the cost of core attention by passing only a fixed, small number of important tokens to it. However, the indexer must still score the entire KV cache at every decoding step. This scoring overhead becomes a major bottleneck as the context len"
+  },
+  {
+   "titolo": "Enabling Dynamic Computation in Looped LMs",
+   "data": "2026-10-06",
+   "url": "http://arxiv.org/abs/2610.09013v1",
+   "id": "2610.09013v1",
+   "sommario": "Looped LMs are parameter efficient and promise dynamic computation (saving memory and FLOPs on easy tokens). However, state-of-the-art open Looped LMs trained with this dynamic computation capability (Ouro models) do not realize it in practice as each loop iteration (depth) requi"
+  },
   {
    "titolo": "Lachesis: Lifetime-Aware KV Cache Placement for Agent Serving across HBM and High-Bandwidth Flash",
    "data": "2026-10-06",
@@ -14,76 +84,6 @@
    "url": "http://arxiv.org/abs/2610.08268v1",
    "id": "2610.08268v1",
    "sommario": "Pervasive intelligent applications are increasingly deployed on mobile and Internet of Things (IoT) edge devices. Consequently, Large Language Models (LLMs) are increasingly used to support these applications. Yet, due to their high resource demands, LLMs are mostly deployed in t"
-  },
-  {
-   "titolo": "IronMan: Information-Constrained Video-Action Learning for Robot Manipulation",
-   "data": "2026-10-06",
-   "url": "http://arxiv.org/abs/2610.07961v1",
-   "id": "2610.07961v1",
-   "sommario": "Video Action Models (VAMs) couple visual dynamics modeling with action generation for robot manipulation. However, video representations are not naturally suited to action generation, as exposing the action policy to excessive visual detail can impair its generalization ability. "
-  },
-  {
-   "titolo": "Hybrid Latent Attention for Looped Language Models",
-   "data": "2026-10-06",
-   "url": "http://arxiv.org/abs/2610.07940v1",
-   "id": "2610.07940v1",
-   "sommario": "Looped language models apply the same stack of layers T times to each token, which deepens the model without adding parameters but multiplies its key-value (KV) cache by T. The larger cache limits how many sequences a GPU can decode at once and slows each decoding step, which rea"
-  },
-  {
-   "titolo": "ReFold: Training-Free Reversible Inter-Turn Context Folding for Long-Horizon Agents",
-   "data": "2026-10-06",
-   "url": "http://arxiv.org/abs/2610.07863v1",
-   "id": "2610.07863v1",
-   "sommario": "Long-horizon LLM agents act on an append-only interaction history that is re-sent to the model at every step, so the context and its cost grow with steps until the sessions exceed the context window. Existing methods manage the context through context requirement prediction, rely"
-  },
-  {
-   "titolo": "Persistent Memory in Multi-Agent LLM Inference: What It Costs, What It Buys, and When You Can Tell",
-   "data": "2026-10-06",
-   "url": "http://arxiv.org/abs/2610.07782v1",
-   "id": "2610.07782v1",
-   "sommario": "Decomposing long-context inference across cooperating agents bounds the active KV cache per call rather than total evidence, which matters when KV-cache memory binds. Many such systems add a persistent tier storing and recalling reasoning traces, usually validated by an ablation "
-  },
-  {
-   "titolo": "TRACE: Rollout-Guided Quantization-Aware Training for FP4 Reinforcement Learning of MoE Language Models",
-   "data": "2026-10-06",
-   "url": "http://arxiv.org/abs/2610.07767v1",
-   "id": "2610.07767v1",
-   "sommario": "Reinforcement learning (RL) for post-training large language models (LLMs) incurs substantial computation and memory overhead during rollout generation, which motivates low-precision rollout for efficient RL training. However, existing FP4 RL methods suffer from a key limitation:"
-  },
-  {
-   "titolo": "Later Is Better: Token Reduction for ViTs Under Distribution Shift",
-   "data": "2026-10-06",
-   "url": "http://arxiv.org/abs/2610.07758v1",
-   "id": "2610.07758v1",
-   "sommario": "Training-free token reduction accelerates vision transformers by removing redundant tokens across layers, recovering most of the original accuracy at a fraction of the compute. These methods, however, are designed and evaluated primarily on clean data, and under real-world distri"
-  },
-  {
-   "titolo": "Monte Carlo Estimation for KV Cache Eviction",
-   "data": "2026-10-06",
-   "url": "http://arxiv.org/abs/2610.07643v1",
-   "id": "2610.07643v1",
-   "sommario": "Most KV-cache eviction methods ask, in effect, which memory appeared important while reading the prompt? We instead ask, which memory will matter while answering? Since decoding queries are unavailable at eviction time, prior future-aware methods rely on pseudo-responses or synth"
-  },
-  {
-   "titolo": "A Shape-Adaptive Architecture with Disaggregated Quantization for Efficient LLM Serving",
-   "data": "2026-10-05",
-   "url": "http://arxiv.org/abs/2610.07443v1",
-   "id": "2610.07443v1",
-   "sommario": "Large language models (LLMs) have become the backbone of modern AI applications, but pose significant challenges for efficient inference. Their autoregressive generation divides execution into two phases: prefill, dominated by large GEMMs, and decoding, dominated by small GEMVs. "
-  },
-  {
-   "titolo": "SPECULATE: A synthetic spectral library, emulator and fitting package for accretion disc winds -- Infrastructure and application to CVs",
-   "data": "2026-10-05",
-   "url": "http://arxiv.org/abs/2610.07364v1",
-   "id": "2610.07364v1",
-   "sommario": "Disc winds are critical components of accreting astrophysical systems and their observations can yield a wide variety of spectral line profiles. Yet, inferring disc wind parameters remains challenging: the underlying parameter spaces are high-dimensional and degenerate, while the"
-  },
-  {
-   "titolo": "Algorithmically Aligned Neural Agglomerative Tree Construction",
-   "data": "2026-10-05",
-   "url": "http://arxiv.org/abs/2610.07271v1",
-   "id": "2610.07271v1",
-   "sommario": "Linkage algorithms for hierarchical clustering (HC) are a powerful and efficient framework for constructing clustering trees, yet it is often unclear which merge rule best suits a given dataset or task. In contrast, neural approaches can learn from data, but often fail to retain "
   }
  ]
 }
