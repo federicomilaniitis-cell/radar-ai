@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-09T11:36:53+00:00",
+ "aggiornato": "2026-10-09T21:25:16+00:00",
  "notizie": [
   {
    "tag": "crit",
@@ -50,28 +50,10 @@
    "tag": "crit",
    "tagT": "Chiusura",
    "data": "2026-10-09",
-   "titolo": "Qwen3.6 Max Preview viene spento fra 0 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-09. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-qwen-qwen3-6-max-preview"
-  },
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-10-09",
    "titolo": "Qwen3.5-9B viene spento fra 12 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-21. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-qwen-qwen3-5-9b"
-  },
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-10-09",
-   "titolo": "Qwen3 Max Thinking viene spento fra 0 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-09. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-qwen-qwen3-max-thinking"
   },
   {
    "tag": "crit",
@@ -90,6 +72,78 @@
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-11. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-bytedance-seed-seed-1-6"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-10-09",
+   "titolo": "Gemini 2.5 Flash Lite viene spento fra 11 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-20. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-google-gemini-2-5-flash-lite"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-10-09",
+   "titolo": "Gemini 2.5 Flash viene spento fra 11 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-20. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-google-gemini-2-5-flash"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-10-09",
+   "titolo": "Gemini 2.5 Pro viene spento fra 11 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-20. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-google-gemini-2-5-pro"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-10-09",
+   "titolo": "DeepSeek Pro Latest: il prezzo in entrata scende del 28%",
+   "testo": "Da $0,198 a $0,143 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo--deepseek-deepseek-pro-latestprompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-10-09",
+   "titolo": "DeepSeek Pro Latest: il prezzo in uscita scende del 95%",
+   "testo": "Da $8 a $0,428 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo--deepseek-deepseek-pro-latestcompletion"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-10-09",
+   "titolo": "DeepSeek Flash Latest: il prezzo in uscita scende del 50%",
+   "testo": "Da $1,2 a $0,6 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo--deepseek-deepseek-flash-latestcompletion"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-10-09",
+   "titolo": "Qwen3.6 Max Preview viene spento fra 0 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-09. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-qwen-qwen3-6-max-preview"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-10-09",
+   "titolo": "Qwen3 Max Thinking viene spento fra 0 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-09. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-qwen-qwen3-max-thinking"
   },
   {
    "tag": "crit",
@@ -162,60 +216,6 @@
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-09. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-qwen-qwen3-max"
-  },
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-10-02",
-   "titolo": "Qwen3 Coder Plus viene spento fra 7 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-09. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-qwen-qwen3-coder-plus"
-  },
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-09-30",
-   "titolo": "Qwen Plus 0728 viene spento fra 9 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-09. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-qwen-qwen-plus-2025-07-28"
-  },
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-09-28",
-   "titolo": "DeepSeek V3.2 Exp viene spento fra 0 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-09-28. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-deepseek-deepseek-v3-2-exp"
-  },
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-09-27",
-   "titolo": "DeepSeek V3.2 viene spento fra 1 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-09-28. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-deepseek-deepseek-v3-2"
-  },
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-09-25",
-   "titolo": "Nex-N2.5-Mini (free) viene spento fra 0 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-09-25. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-nex-agi-nex-n2-5-mini-free"
-  },
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-09-25",
-   "titolo": "Nex-N2.5-Pro (free) viene spento fra 0 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-09-25. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-nex-agi-nex-n2-5-pro-free"
   }
  ]
 }
