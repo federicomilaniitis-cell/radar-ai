@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-10T02:01:27+00:00",
+ "aggiornato": "2026-10-10T10:54:36+00:00",
  "notizie": [
   {
    "tag": "crit",
@@ -122,6 +122,15 @@
    "tag": "ok",
    "tagT": "Prezzo giu'",
    "data": "2026-10-10",
+   "titolo": "DeepSeek Flash Latest: il prezzo in entrata scende del 99%",
+   "testo": "Da $0,016 a $0 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo--deepseek-deepseek-flash-latestprompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-10-10",
    "titolo": "GLM Latest: il prezzo in entrata scende del 22%",
    "testo": "Da $0,05 a $0,039 per milione di token in entrata.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
@@ -207,15 +216,6 @@
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-09. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-qwen-qwen3-vl-30b-a3b-thinking"
-  },
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-10-07",
-   "titolo": "Qwen3 VL 235B A22B Thinking viene spento fra 2 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-09. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-qwen-qwen3-vl-235b-a22b-thinking"
   }
  ]
 }
