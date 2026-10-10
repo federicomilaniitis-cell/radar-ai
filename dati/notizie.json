@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-10T10:54:36+00:00",
+ "aggiornato": "2026-10-10T16:04:41+00:00",
  "notizie": [
   {
    "tag": "crit",
@@ -122,6 +122,15 @@
    "tag": "ok",
    "tagT": "Prezzo giu'",
    "data": "2026-10-10",
+   "titolo": "DeepSeek Pro Latest: il prezzo in entrata scende del 27%",
+   "testo": "Da $0,3 a $0,219 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo--deepseek-deepseek-pro-latestprompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-10-10",
    "titolo": "DeepSeek Flash Latest: il prezzo in entrata scende del 99%",
    "testo": "Da $0,016 a $0 per milione di token in entrata.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
@@ -135,15 +144,6 @@
    "testo": "Da $0,05 a $0,039 per milione di token in entrata.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
    "id": "prezzo--z-ai-glm-latestprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-10-09",
-   "titolo": "DeepSeek Pro Latest: il prezzo in entrata scende del 28%",
-   "testo": "Da $0,198 a $0,143 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo--deepseek-deepseek-pro-latestprompt"
   },
   {
    "tag": "ok",
