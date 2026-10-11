@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-11T11:09:13+00:00",
+ "aggiornato": "2026-10-11T20:43:59+00:00",
  "notizie": [
   {
    "tag": "crit",
@@ -122,6 +122,15 @@
    "tag": "ok",
    "tagT": "Prezzo giu'",
    "data": "2026-10-11",
+   "titolo": "Hy4 preview: il prezzo in entrata scende del 10%",
+   "testo": "Da $0,834 a $0,751 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-tencent-hy4-previewprompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-10-11",
    "titolo": "DeepSeek Flash Latest: il prezzo in uscita scende del 77%",
    "testo": "Da $0,6 a $0,139 per milione di token in uscita.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
@@ -207,15 +216,6 @@
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-09. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-qwen-qwen3-vl-32b-instruct"
-  },
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-10-09",
-   "titolo": "Qwen3 VL 8B Thinking viene spento fra 0 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-09. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-qwen-qwen3-vl-8b-thinking"
   }
  ]
 }
