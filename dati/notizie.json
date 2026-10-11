@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-11T01:28:47+00:00",
+ "aggiornato": "2026-10-11T11:09:13+00:00",
  "notizie": [
   {
    "tag": "crit",
@@ -122,6 +122,15 @@
    "tag": "ok",
    "tagT": "Prezzo giu'",
    "data": "2026-10-11",
+   "titolo": "DeepSeek Flash Latest: il prezzo in uscita scende del 77%",
+   "testo": "Da $0,6 a $0,139 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo--deepseek-deepseek-flash-latestcompletion"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-10-11",
    "titolo": "Qwen3.8 27B: il prezzo in entrata scende del 91%",
    "testo": "Da $0,425 a $0,04 per milione di token in entrata.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
@@ -171,15 +180,6 @@
    "testo": "Da $8 a $0,428 per milione di token in uscita.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
    "id": "prezzo--deepseek-deepseek-pro-latestcompletion"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-10-09",
-   "titolo": "DeepSeek Flash Latest: il prezzo in uscita scende del 50%",
-   "testo": "Da $1,2 a $0,6 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo--deepseek-deepseek-flash-latestcompletion"
   },
   {
    "tag": "crit",
