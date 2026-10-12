@@ -1,6 +1,48 @@
 {
- "aggiornato": "2026-10-11T20:43:59+00:00",
+ "aggiornato": "2026-10-12T01:59:29+00:00",
  "paper": [
+  {
+   "titolo": "PAGE: Parts-Aware Guidance for Co-Speech Gesture Portrait Video Generation",
+   "data": "2026-10-09",
+   "url": "http://arxiv.org/abs/2610.13301v1",
+   "id": "2610.13301v1",
+   "sommario": "Co-speech gesture video generation aims to synthesize realistic, audio-driven portrait videos from a single reference image and a speech signal. Despite advances in visual quality, diffusion-based approaches still suffer from degraded local details and imperfect audio-visual alig"
+  },
+  {
+   "titolo": "S$^3$R: Fast and Faithful RL Rollouts via Self-Sparse Speculative Decoding",
+   "data": "2026-10-09",
+   "url": "http://arxiv.org/abs/2610.13202v1",
+   "id": "2610.13202v1",
+   "sommario": "Fast rollout generation for long-context reinforcement learning with verifiable rewards (RLVR) requires reducing KV-cache traffic without changing the response groups used for policy optimization. In our profiled RLVR workloads, attention accounts for 72--76\\% of autoregressive d"
+  },
+  {
+   "titolo": "KV-Repurpose: A Testbed for Evaluating Non-Prefix KV-Cache Reuse",
+   "data": "2026-10-09",
+   "url": "http://arxiv.org/abs/2610.13060v1",
+   "id": "2610.13060v1",
+   "sommario": "KV-cache reuse in large language model serving is commonly limited to exact prompt prefixes, preventing reuse when the same retrieved document appears after different system prompts, conversation histories, or dynamic metadata. We present KV-Repurpose, an open-source, vLLM-based "
+  },
+  {
+   "titolo": "Video Codec-Guided Training-Free Token Compression for Video Large Language Models",
+   "data": "2026-10-09",
+   "url": "http://arxiv.org/abs/2610.12959v1",
+   "id": "2610.12959v1",
+   "sommario": "Video large language models (VLLMs) rely on long visual token sequences to understand complex temporal content, which makes visual token compression important for efficient inference. Existing training-free compression methods mainly reduce the number of tokens sent to the langua"
+  },
+  {
+   "titolo": "Kronecker Product Attention: Memory-Efficient KV Compression via Structured Factorization",
+   "data": "2026-10-08",
+   "url": "http://arxiv.org/abs/2610.12657v1",
+   "id": "2610.12657v1",
+   "sommario": "Efficient autoregressive generation is increasingly limited by the memory footprint of the key-value (KV) cache, which grows linearly with sequence length, batch size, and model depth. Existing approaches such as Multi-Query Attention (MQA), Grouped-Query Attention (GQA), Multi-H"
+  },
+  {
+   "titolo": "One Model to Loop Them All: Elastic Latent Recurrence for Language Models",
+   "data": "2026-10-08",
+   "url": "http://arxiv.org/abs/2610.12582v1",
+   "id": "2610.12582v1",
+   "sommario": "A latent recurrent language model applies a shared block of layers repeatedly, so one checkpoint can trade inference compute for accuracy by changing the loop count. At one loop, however, such models typically fall well short of a non-recurrent model of the same size, a one-loop "
+  },
   {
    "titolo": "Connected Self Forcing: Beyond Local Learning in Video Autoregression",
    "data": "2026-10-08",
@@ -32,8 +74,8 @@
   {
    "titolo": "Constitutional Gating and Deterministic Recovery for Multi-Agent LLM Negotiation: Ablations Against a Stateful Adversarial Gatekeeper",
    "data": "2026-10-08",
-   "url": "http://arxiv.org/abs/2610.11542v1",
-   "id": "2610.11542v1",
+   "url": "http://arxiv.org/abs/2610.11542v2",
+   "id": "2610.11542v2",
    "sommario": "Multi-agent LLM systems negotiating with a stateful counterpart waste model calls in three ways: polite loops that never meet the counterpart's hidden acceptance condition, malformed outputs that trigger retries, and compliance deadlocks in which the counterpart demands something"
   },
   {
@@ -42,48 +84,6 @@
    "url": "http://arxiv.org/abs/2610.11458v1",
    "id": "2610.11458v1",
    "sommario": "AI research progress can be viewed as the interaction between two processes: benchmark creation and method discovery. Historically, both were driven by human intelligence. However, recent advances in AI have accelerated automated method discovery, while automated benchmark creati"
-  },
-  {
-   "titolo": "Edit Who Speaks, Control How They Speak: Global Timbre Editing and Local Instruction Control for TTS",
-   "data": "2026-10-08",
-   "url": "http://arxiv.org/abs/2610.11437v1",
-   "id": "2610.11437v1",
-   "sommario": "Instruction-based text-to-speech (TTS) offers control over voice characteristics and speech expression through interfaces including voice cloning and text-based voice design. Voice cloning reproduces a reference voice, whereas text-based voice design creates a voice from a natura"
-  },
-  {
-   "titolo": "RaReCache: Bridging the Gap in Cross-Model KV Cache Reuse via Rank disagreement-based Selective Recomputation",
-   "data": "2026-10-08",
-   "url": "http://arxiv.org/abs/2610.11358v1",
-   "id": "2610.11358v1",
-   "sommario": "Cross-model KV-cache reuse remains a key challenge in modern LLM serving. Coding agents and multi-model systems increasingly route a shared context across models: a user may switch models mid-session, or a cascade may escalate a difficult query. Because KV caches contain model-sp"
-  },
-  {
-   "titolo": "Read What Matters: Query-Adaptive Quantization for KV Caches",
-   "data": "2026-10-08",
-   "url": "http://arxiv.org/abs/2610.11245v1",
-   "id": "2610.11245v1",
-   "sommario": "KV-cache entries are stored before their future queries are known, but each decoding query needs precision in different places. We study this mismatch using separate budgets for retained bits and bits fetched per query. ReadKV stores each key and value in a progressive code whose"
-  },
-  {
-   "titolo": "Bridging KV-Cache Quantization and Linear Attention: From Theory to Pretrained Weight Migration",
-   "data": "2026-10-08",
-   "url": "http://arxiv.org/abs/2610.11214v1",
-   "id": "2610.11214v1",
-   "sommario": "KV-cache quantization and linear attention are two representative approaches to tackling the storage and computational costs of Transformers. KV-cache quantization compresses individual KV entries into discrete codes but retains all entries, whereas linear attention recurrently a"
-  },
-  {
-   "titolo": "Learning infinite context windows in recurrent architectures via spatial neural computing",
-   "data": "2026-10-07",
-   "url": "http://arxiv.org/abs/2610.10690v1",
-   "id": "2610.10690v1",
-   "sommario": "Recurrent neural networks (RNNs) offer linear-time scaling with sequence length while requiring only constant memory, yet they struggle to capture long-range dependencies due to vanishing gradients and limited receptive fields. To address these limitations, we introduce a second-"
-  },
-  {
-   "titolo": "ResidualQuant: KV Cache Quantization for Looped Transformers with 2-Bit Residuals",
-   "data": "2026-10-07",
-   "url": "http://arxiv.org/abs/2610.10381v1",
-   "id": "2610.10381v1",
-   "sommario": "Looped Transformers improve parameter efficiency by repeatedly applying shared Transformer blocks over multiple recurrent loops, increasing computational depth without increasing the parameter count. However, KV cache memory still scales with the number of loops, becoming a key m"
   }
  ]
 }
