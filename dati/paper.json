@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-12T01:59:29+00:00",
+ "aggiornato": "2026-10-12T12:39:35+00:00",
  "paper": [
   {
    "titolo": "PAGE: Parts-Aware Guidance for Co-Speech Gesture Portrait Video Generation",
@@ -53,8 +53,8 @@
   {
    "titolo": "Rehearse Everything, Remember Nothing: Attic-KV Rehearses What Will Be Read",
    "data": "2026-10-08",
-   "url": "http://arxiv.org/abs/2610.12133v1",
-   "id": "2610.12133v1",
+   "url": "http://arxiv.org/abs/2610.12133v2",
+   "id": "2610.12133v2",
    "sommario": "Many key-value (KV) caches are compressed before anyone knows what will be asked of them: a document cached for retrieval, a prompt prefix shared across requests, the memory of a long conversation. The prevailing approach scores KV entries by rehearsal: the model rereads the cont"
   },
   {
