@@ -1,9 +1,63 @@
 {
- "aggiornato": "2026-10-12T23:24:57+00:00",
- "aggiornato_it": "12 ottobre 2026",
+ "aggiornato": "2026-10-13T12:24:48+00:00",
+ "aggiornato_it": "13 ottobre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 377,
+ "totale": 379,
  "modelli": [
+  {
+   "id": "scaledown/summarize",
+   "name": "ScaleDown: Summarize",
+   "created": 1791893360,
+   "context_length": 1000000,
+   "description": "Summarize is an abstractive summarization model from ScaleDown. It condenses long text and documents into a fluent, faithful rewrite rather than lifting sentences from the source, and is suited for...",
+   "architecture": {
+    "input_modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image+file->text"
+   },
+   "pricing": {
+    "prompt": "0.00000004",
+    "completion": "0"
+   },
+   "top_provider": {
+    "max_completion_tokens": 4000
+   },
+   "supported_parameters": [],
+   "ha_versione_gratuita": false
+  },
+  {
+   "id": "scaledown/extract",
+   "name": "ScaleDown: Extract",
+   "created": 1791893351,
+   "context_length": 1000000,
+   "description": "Extract is a description-driven entity extraction model from ScaleDown. Instead of a fixed set of entity types, callers describe the fields they want in plain English through `provider.options.scaledown.entities`, and the...",
+   "architecture": {
+    "input_modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image+file->text"
+   },
+   "pricing": {
+    "prompt": "0.00000004",
+    "completion": "0"
+   },
+   "top_provider": {
+    "max_completion_tokens": 900000
+   },
+   "supported_parameters": [],
+   "ha_versione_gratuita": false
+  },
   {
    "id": "meta/muse-wonder",
    "name": "Meta: Muse Wonder",
@@ -1457,12 +1511,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000024948",
-    "completion": "0.00000074844",
-    "input_cache_read": "0.000000007938"
+    "prompt": "0.00000026",
+    "completion": "0.000005",
+    "input_cache_read": "0.0000002"
    },
    "top_provider": {
-    "max_completion_tokens": 393216
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -1497,9 +1551,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.0000000336",
-    "completion": "0.000001188",
-    "input_cache_read": "0.0000000336"
+    "prompt": "0.0000000441",
+    "completion": "0.000000765",
+    "input_cache_read": "0.0000000054"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -2527,9 +2581,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000007506",
-    "completion": "0.0000022509",
-    "input_cache_read": "0.0000000378"
+    "prompt": "0.000000834",
+    "completion": "0.000002501",
+    "input_cache_read": "0.000000042"
    },
    "top_provider": {
     "max_completion_tokens": 64000
@@ -2609,9 +2663,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000000232",
-    "completion": "0.0000012",
-    "input_cache_read": "0.0000000232"
+    "prompt": "0.0000000261",
+    "completion": "0.0000009",
+    "input_cache_read": "0.0000000108"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -2690,9 +2744,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000000232",
-    "completion": "0.0000012",
-    "input_cache_read": "0.0000000232"
+    "prompt": "0.0000000261",
+    "completion": "0.0000009",
+    "input_cache_read": "0.0000000108"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -3675,9 +3729,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000128",
-    "completion": "0.000000768",
-    "input_cache_read": "0.0000000128"
+    "prompt": "0.0000000144",
+    "completion": "0.000000576",
+    "input_cache_read": "0.0000000108"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -4889,9 +4943,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000825",
-    "completion": "0.00000033",
-    "input_cache_read": "0.000000020625"
+    "prompt": "0.000000132",
+    "completion": "0.000000528",
+    "input_cache_read": "0.000000033"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -6706,9 +6760,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000041238",
-    "completion": "0.00000082476",
-    "input_cache_read": "0.000000034365"
+    "prompt": "0.00000095526",
+    "completion": "0.00000191052",
+    "input_cache_read": "0.000000079605"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -6752,9 +6806,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000099",
+    "prompt": "0.000000049",
     "completion": "0.00000128",
-    "input_cache_read": "0.0000000099"
+    "input_cache_read": "0.000000049"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -7164,9 +7218,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000000765",
-    "completion": "0.000000255",
-    "input_cache_read": "0.0000000425"
+    "prompt": "0.00000009",
+    "completion": "0.0000003",
+    "input_cache_read": "0.00000005"
    },
    "top_provider": {
     "max_completion_tokens": 235929
@@ -7637,12 +7691,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000021",
-    "completion": "0.00000084",
-    "input_cache_read": "0.000000042"
+    "prompt": "0.0000003",
+    "completion": "0.0000012",
+    "input_cache_read": "0.00000006"
    },
    "top_provider": {
-    "max_completion_tokens": 176947
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -14055,12 +14109,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000022",
-    "completion": "0.0000005",
-    "input_cache_read": "0.00000011"
+    "prompt": "0.00000059",
+    "completion": "0.00000079",
+    "input_cache_read": "0.000000295"
    },
    "top_provider": {
-    "max_completion_tokens": 16384
+    "max_completion_tokens": 32768
    },
    "supported_parameters": [
     "structured_outputs",
