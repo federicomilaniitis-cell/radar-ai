@@ -1,9 +1,67 @@
 {
- "aggiornato": "2026-10-13T21:41:38+00:00",
- "aggiornato_it": "13 ottobre 2026",
+ "aggiornato": "2026-10-14T01:32:03+00:00",
+ "aggiornato_it": "14 ottobre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 378,
+ "totale": 379,
  "modelli": [
+  {
+   "id": "~unbiased/pareto-latest",
+   "name": "Pareto Latest",
+   "created": 1791933050,
+   "context_length": 262144,
+   "description": "This model always redirects to the latest model in the Pareto family.",
+   "architecture": {
+    "input_modalities": [
+     "text",
+     "image"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image->text"
+   },
+   "pricing": {
+    "prompt": "0.0000025",
+    "completion": "0.0000075",
+    "input_cache_read": "0.00000025"
+   },
+   "top_provider": {
+    "max_completion_tokens": 131072
+   },
+   "supported_parameters": [
+    "tools"
+   ],
+   "ha_versione_gratuita": false
+  },
+  {
+   "id": "unbiased/pareto-26.9",
+   "name": "Pareto 26.9",
+   "created": 1791930537,
+   "context_length": 262144,
+   "description": "Pareto is a multimodal composite model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks.",
+   "architecture": {
+    "input_modalities": [
+     "text",
+     "image"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image->text"
+   },
+   "pricing": {
+    "prompt": "0.0000025",
+    "completion": "0.0000075",
+    "input_cache_read": "0.00000025"
+   },
+   "top_provider": {
+    "max_completion_tokens": 131072
+   },
+   "supported_parameters": [
+    "tools"
+   ],
+   "ha_versione_gratuita": false
+  },
   {
    "id": "liquid/lfm-2.5-24b-a2b",
    "name": "LiquidAI: LFM2.5-24B-A2B",
@@ -82,6 +140,13 @@
      "low"
     ],
     "default_effort": "medium"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 52.6,
+     "coding_index": null,
+     "agentic_index": null
+    }
    },
    "ha_versione_gratuita": false
   },
@@ -406,6 +471,7 @@
    "created": 1790863623,
    "context_length": 1048576,
    "description": "Pareto is a multimodal composite model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks. This is a preview of the...",
+   "expiration_date": "2026-10-15",
    "architecture": {
     "input_modalities": [
      "text",
@@ -1517,35 +1583,6 @@
    "ha_versione_gratuita": false
   },
   {
-   "id": "unbiased/pareto",
-   "name": "Pareto",
-   "created": 1789686178,
-   "context_length": 262144,
-   "description": "Pareto is a multimodal composite model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks.",
-   "architecture": {
-    "input_modalities": [
-     "text",
-     "image"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text+image->text"
-   },
-   "pricing": {
-    "prompt": "0.0000025",
-    "completion": "0.0000075",
-    "input_cache_read": "0.00000025"
-   },
-   "top_provider": {
-    "max_completion_tokens": 131072
-   },
-   "supported_parameters": [
-    "tools"
-   ],
-   "ha_versione_gratuita": false
-  },
-  {
    "id": "~deepseek/deepseek-pro-latest",
    "name": "DeepSeek: DeepSeek Pro Latest",
    "created": 1789399174,
@@ -1561,9 +1598,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000024948",
-    "completion": "0.00000074844",
-    "input_cache_read": "0.000000007938"
+    "prompt": "0.000000225",
+    "completion": "0.000008",
+    "input_cache_read": "0.00000023"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -1601,8 +1638,8 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.0000000441",
-    "completion": "0.000000765",
+    "prompt": "0.0000000396",
+    "completion": "0.000000891",
     "input_cache_read": "0.0000000054"
    },
    "top_provider": {
@@ -2017,12 +2054,12 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.0000000441",
-    "completion": "0.000000765",
-    "input_cache_read": "0.0000000054"
+    "prompt": "0.0000003",
+    "completion": "0.0000012",
+    "input_cache_read": "0.000000006"
    },
    "top_provider": {
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 393216
    },
    "supported_parameters": [
     "reasoning",
@@ -2598,9 +2635,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000007506",
-    "completion": "0.0000022509",
-    "input_cache_read": "0.0000000378"
+    "prompt": "0.000000834",
+    "completion": "0.000002501",
+    "input_cache_read": "0.000000042"
    },
    "top_provider": {
     "max_completion_tokens": 64000
@@ -2640,7 +2677,7 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000000261",
+    "prompt": "0.000000036",
     "completion": "0.0000009",
     "input_cache_read": "0.0000000108"
    },
@@ -2721,7 +2758,7 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000000261",
+    "prompt": "0.000000036",
     "completion": "0.0000009",
     "input_cache_read": "0.0000000108"
    },
@@ -2916,12 +2953,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000079",
-    "completion": "0.0000048",
-    "input_cache_read": "0.000000059"
+    "prompt": "0.000000063",
+    "completion": "0.0000044",
+    "input_cache_read": "0.0000000586"
    },
    "top_provider": {
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -3295,9 +3332,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000066",
-    "completion": "0.00000198",
-    "input_cache_read": "0.000000022"
+    "prompt": "0.00000132",
+    "completion": "0.00000396",
+    "input_cache_read": "0.000000044"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -4360,7 +4397,7 @@
    },
    "pricing": {
     "prompt": "0.00000073",
-    "completion": "0.00001",
+    "completion": "0.0000135",
     "input_cache_read": "0.00000055"
    },
    "top_provider": {
@@ -4920,9 +4957,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000825",
-    "completion": "0.00000033",
-    "input_cache_read": "0.000000020625"
+    "prompt": "0.000000132",
+    "completion": "0.000000528",
+    "input_cache_read": "0.000000033"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -5282,9 +5319,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000006",
+    "prompt": "0.00000005",
     "completion": "0.000007",
-    "input_cache_read": "0.000000059"
+    "input_cache_read": "0.000000049"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -6737,9 +6774,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000400548",
-    "completion": "0.000000801096",
-    "input_cache_read": "0.000000033379"
+    "prompt": "0.00000095526",
+    "completion": "0.00000191052",
+    "input_cache_read": "0.000000079605"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -7151,12 +7188,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000966",
-    "completion": "0.000003036",
-    "input_cache_read": "0.0000001794"
+    "prompt": "0.00000133",
+    "completion": "0.00000418",
+    "input_cache_read": "0.000000247"
    },
    "top_provider": {
-    "max_completion_tokens": 128000
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -8800,9 +8837,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000055",
-    "completion": "0.0000035",
-    "input_cache_read": "0.000000225"
+    "prompt": "0.0000005",
+    "completion": "0.0000036",
+    "input_cache_read": "0.0000003"
    },
    "top_provider": {
     "max_completion_tokens": 235929
@@ -10534,11 +10571,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000003",
-    "completion": "0.0000012"
+    "prompt": "0.000000255",
+    "completion": "0.00000102"
    },
    "top_provider": {
-    "max_completion_tokens": 176947
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
