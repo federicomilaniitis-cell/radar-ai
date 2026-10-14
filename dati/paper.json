@@ -1,89 +1,89 @@
 {
- "aggiornato": "2026-10-13T21:41:38+00:00",
+ "aggiornato": "2026-10-14T09:52:34+00:00",
  "paper": [
   {
-   "titolo": "PAGE: Parts-Aware Guidance for Co-Speech Gesture Portrait Video Generation",
-   "data": "2026-10-09",
-   "url": "http://arxiv.org/abs/2610.13301v1",
-   "id": "2610.13301v1",
-   "sommario": "Co-speech gesture video generation aims to synthesize realistic, audio-driven portrait videos from a single reference image and a speech signal. Despite advances in visual quality, diffusion-based approaches still suffer from degraded local details and imperfect audio-visual alig"
+   "titolo": "Hybrid Reasoning Agents",
+   "data": "2026-10-13",
+   "url": "http://arxiv.org/abs/2610.18861v1",
+   "id": "2610.18861v1",
+   "sommario": "How can we build an agent that thinks beyond human language, yet still acts through it in the external environment? Modern LLM agents still reason and interact through text, while latent reasoning offers an efficient internal medium but lacks native tool access and reasoning tran"
   },
   {
-   "titolo": "S$^3$R: Fast and Faithful RL Rollouts via Self-Sparse Speculative Decoding",
-   "data": "2026-10-09",
-   "url": "http://arxiv.org/abs/2610.13202v1",
-   "id": "2610.13202v1",
-   "sommario": "Fast rollout generation for long-context reinforcement learning with verifiable rewards (RLVR) requires reducing KV-cache traffic without changing the response groups used for policy optimization. In our profiled RLVR workloads, attention accounts for 72--76\\% of autoregressive d"
+   "titolo": "Visual Tokens on Demand: Visual Budgeting for Scalable and Efficient Multi-Image Reasoning in Multimodal LLMs",
+   "data": "2026-10-13",
+   "url": "http://arxiv.org/abs/2610.18858v1",
+   "id": "2610.18858v1",
+   "sommario": "Multimodal large language models have advanced rapidly, but most remain optimized for single-image inputs. Multi-image reasoning is costly because each image adds many visual tokens, increasing encoding and attention demands. Existing techniques that address the above issue, incl"
   },
   {
-   "titolo": "KV-Repurpose: A Testbed for Evaluating Non-Prefix KV-Cache Reuse",
-   "data": "2026-10-09",
-   "url": "http://arxiv.org/abs/2610.13060v1",
-   "id": "2610.13060v1",
-   "sommario": "KV-cache reuse in large language model serving is commonly limited to exact prompt prefixes, preventing reuse when the same retrieved document appears after different system prompts, conversation histories, or dynamic metadata. We present KV-Repurpose, an open-source, vLLM-based "
+   "titolo": "Model-Based Online Decision Making via Generative Trajectory Planning",
+   "data": "2026-10-13",
+   "url": "http://arxiv.org/abs/2610.18677v1",
+   "id": "2610.18677v1",
+   "sommario": "Online decision-making faces a tension between efficient inference and long-horizon reasoning. Value-based methods rely on short-horizon bootstrapping that limits the propagation of long-term information, while trajectory optimization methods plan explicitly but must solve a high"
   },
   {
-   "titolo": "Video Codec-Guided Training-Free Token Compression for Video Large Language Models",
-   "data": "2026-10-09",
-   "url": "http://arxiv.org/abs/2610.12959v1",
-   "id": "2610.12959v1",
-   "sommario": "Video large language models (VLLMs) rely on long visual token sequences to understand complex temporal content, which makes visual token compression important for efficient inference. Existing training-free compression methods mainly reduce the number of tokens sent to the langua"
+   "titolo": "Kwai Summary Attention V2 Technical Report",
+   "data": "2026-10-13",
+   "url": "http://arxiv.org/abs/2610.18654v1",
+   "id": "2610.18654v1",
+   "sommario": "Summary-token architectures such as Kwai Summary Attention (KSA) compress distant context into learnable Summary token per chunk, and hybrid variants interleave these layers with full attention to retain exact access to the original text. In such hybrid KSA-Full architecture, the"
   },
   {
-   "titolo": "Kronecker Product Attention: Memory-Efficient KV Compression via Structured Factorization",
-   "data": "2026-10-08",
-   "url": "http://arxiv.org/abs/2610.12657v1",
-   "id": "2610.12657v1",
-   "sommario": "Efficient autoregressive generation is increasingly limited by the memory footprint of the key-value (KV) cache, which grows linearly with sequence length, batch size, and model depth. Existing approaches such as Multi-Query Attention (MQA), Grouped-Query Attention (GQA), Multi-H"
+   "titolo": "MultiAlloc: Budget-Aware Precision Allocation for KV Cache Quantization",
+   "data": "2026-10-13",
+   "url": "http://arxiv.org/abs/2610.18642v1",
+   "id": "2610.18642v1",
+   "sommario": "The Key-Value (KV) cache constitutes a dominant source of memory consumption during large language model (LLM) inference, particularly in long-context and complex reasoning scenarios. Existing KV cache quantization methods have explored different compression granularities, includ"
   },
   {
-   "titolo": "One Model to Loop Them All: Elastic Latent Recurrence for Language Models",
-   "data": "2026-10-08",
-   "url": "http://arxiv.org/abs/2610.12582v1",
-   "id": "2610.12582v1",
-   "sommario": "A latent recurrent language model applies a shared block of layers repeatedly, so one checkpoint can trade inference compute for accuracy by changing the loop count. At one loop, however, such models typically fall well short of a non-recurrent model of the same size, a one-loop "
+   "titolo": "An Optical KV Cache Network for Disaggregated LLM Serving",
+   "data": "2026-10-13",
+   "url": "http://arxiv.org/abs/2610.18444v1",
+   "id": "2610.18444v1",
+   "sommario": "Disaggregated LLM serving moves each request's KV cache from a prefill GPU to a decode GPU before the response begins, and a coding-agent turn often moves the KV of its whole long context. Behind an oversubscribed packet fabric this transfer adds to time to first token (TTFT). An"
   },
   {
-   "titolo": "Connected Self Forcing: Beyond Local Learning in Video Autoregression",
-   "data": "2026-10-08",
-   "url": "http://arxiv.org/abs/2610.12156v1",
-   "id": "2610.12156v1",
-   "sommario": "To stream long videos while maintaining visual quality and temporal consistency, Self Forcing mitigates exposure bias through self-rollout training on self-generated histories with key-value (KV) caching. To keep memory manageable, it detaches historical caches, preserving forwar"
+   "titolo": "RadixFlow: Filling Execution Bubbles in Prefix-Cached Hybrid LLM Serving",
+   "data": "2026-10-13",
+   "url": "http://arxiv.org/abs/2610.18143v1",
+   "id": "2610.18143v1",
+   "sommario": "Prefix reuse improves LLM inference by sharing the KV cache of common prompt prefixes. This helps only if the scheduler can execute a matched branch in the current worker round. Schedulers assume that a matched prefix is ready, which holds for full attention but fails for hybrid "
   },
   {
-   "titolo": "Rehearse Everything, Remember Nothing: Attic-KV Rehearses What Will Be Read",
-   "data": "2026-10-08",
-   "url": "http://arxiv.org/abs/2610.12133v2",
-   "id": "2610.12133v2",
-   "sommario": "Many key-value (KV) caches are compressed before anyone knows what will be asked of them: a document cached for retrieval, a prompt prefix shared across requests, the memory of a long conversation. The prevailing approach scores KV entries by rehearsal: the model rereads the cont"
+   "titolo": "SparPR: Runtime KV-Cache Recovery for Resource-Constrained LLM Inference on Consumer Hardware",
+   "data": "2026-10-13",
+   "url": "http://arxiv.org/abs/2610.18140v1",
+   "id": "2610.18140v1",
+   "sommario": "Running large language models (LLMs) on consumer hardware is bottlenecked by the key-value (KV) cache, which grows with every decoded token and quickly exhausts the memory and bandwidth of a single consumer GPU. We present SparPR (Sparse Partial Recomputation), a runtime KV-cache"
   },
   {
-   "titolo": "Compile the Table: Query-Calibrated Operator Compression for Tabular In-Context Learning",
-   "data": "2026-10-08",
-   "url": "http://arxiv.org/abs/2610.11784v1",
-   "id": "2610.11784v1",
-   "sommario": "Tabular in-context learning (ICL) has emerged as a training-free and accurate paradigm for tabular prediction, but current approaches to compressing its in-context examples face an accuracy-throughput tradeoff: fixed subsets can sacrifice accuracy, while query-specific retrieval "
+   "titolo": "H-DDCM: Hadamard Codebooks for Fast Generative Image and Video Compression",
+   "data": "2026-10-13",
+   "url": "http://arxiv.org/abs/2610.18125v1",
+   "id": "2610.18125v1",
+   "sommario": "Training-free diffusion-based compression methods repurpose the generative priors of a diffusion or a flow model to compress data without retraining them as task-specific codecs. Recent codebook-based approaches such as Turbo-DDCM achieve strong perceptual quality at ultra-low bi"
   },
   {
-   "titolo": "Memory Forcing: Attendable Mid-Horizon History for Streaming Video Generation",
-   "data": "2026-10-08",
-   "url": "http://arxiv.org/abs/2610.11756v1",
-   "id": "2610.11756v1",
-   "sommario": "Autoregressive video diffusion enables causal video streaming without a bidirectional pass over the full clip, but existing few-step systems usually retain only the opening and most recent frames in a fixed-size KV cache. Once an event leaves this window, later frames can no long"
+   "titolo": "Scaling Vision Transformers Without Training: Prune-and-Merge Token Compression",
+   "data": "2026-10-13",
+   "url": "http://arxiv.org/abs/2610.18039v1",
+   "id": "2610.18039v1",
+   "sommario": "Vision Transformers achieve strong performance but incur high computational costs from quadratic token interactions. Training-free token reduction methods improve efficiency, but their robustness remains underexplored. We propose Prune-and Merge ViT, a training-free framework for"
   },
   {
-   "titolo": "Constitutional Gating and Deterministic Recovery for Multi-Agent LLM Negotiation: Ablations Against a Stateful Adversarial Gatekeeper",
-   "data": "2026-10-08",
-   "url": "http://arxiv.org/abs/2610.11542v2",
-   "id": "2610.11542v2",
-   "sommario": "Multi-agent LLM systems negotiating with a stateful counterpart waste model calls in three ways: polite loops that never meet the counterpart's hidden acceptance condition, malformed outputs that trigger retries, and compliance deadlocks in which the counterpart demands something"
+   "titolo": "ChampionKV: Head-Wise Adaptive Budget Allocation for KV Cache Compression",
+   "data": "2026-10-13",
+   "url": "http://arxiv.org/abs/2610.18026v1",
+   "id": "2610.18026v1",
+   "sommario": "Some observation-window-based KV cache compressors use prompt attention to identify important tokens but allocate uniform or predefined budgets across heads, overlooking input-dependent differences in budget demand. We propose ChampionKV, an input-adaptive head-wise budget alloca"
   },
   {
-   "titolo": "Generative Adversarial Loops",
-   "data": "2026-10-08",
-   "url": "http://arxiv.org/abs/2610.11458v1",
-   "id": "2610.11458v1",
-   "sommario": "AI research progress can be viewed as the interaction between two processes: benchmark creation and method discovery. Historically, both were driven by human intelligence. However, recent advances in AI have accelerated automated method discovery, while automated benchmark creati"
+   "titolo": "LatentRemedy: Efficient Remedy For Non-Prefix KV Cache Reuse in Multi-Agent Systems",
+   "data": "2026-10-13",
+   "url": "http://arxiv.org/abs/2610.18014v1",
+   "id": "2610.18014v1",
+   "sommario": "Non-prefix KV cache reuse is a promising approach for improving inference efficiency in multi-agent systems as agents share the same context blocks. However, when agents have conflicting tasks, directly reusing non-prefix KV caches across agents can severely degrade model perform"
   }
  ]
 }
