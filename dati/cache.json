@@ -1,9 +1,43 @@
 {
- "aggiornato": "2026-10-15T09:33:41+00:00",
+ "aggiornato": "2026-10-15T15:27:26+00:00",
  "aggiornato_it": "15 ottobre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 379,
  "modelli": [
+  {
+   "id": "nvidia/nemotron-3.5-super-vl:free",
+   "name": "NVIDIA: Nemotron 3.5 Super VL (free)",
+   "created": 1792076662,
+   "context_length": 1000000,
+   "description": "NVIDIA Nemotron 3.5 Super VL is an open multimodal mixture-of-experts model from NVIDIA, with 12B active parameters out of 120B total. It takes text, images, documents, GUI screenshots, and video...",
+   "architecture": {
+    "input_modalities": [
+     "text",
+     "image",
+     "video"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image+video->text"
+   },
+   "pricing": {
+    "prompt": "0",
+    "completion": "0"
+   },
+   "top_provider": {
+    "max_completion_tokens": 131072
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": false
+   },
+   "ha_versione_gratuita": true
+  },
   {
    "id": "~unbiased/pareto-latest",
    "name": "Pareto Latest",
@@ -1614,9 +1648,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000225",
+    "prompt": "0.0000001307",
     "completion": "0.000008",
-    "input_cache_read": "0.00000023"
+    "input_cache_read": "0.00000013"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -2969,9 +3003,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000024",
+    "prompt": "0.0000000608",
     "completion": "0.0000044",
-    "input_cache_read": "0.0000000223"
+    "input_cache_read": "0.0000000565"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -3038,9 +3072,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000003",
+    "prompt": "0.00000012",
     "completion": "0.0000048",
-    "input_cache_read": "0.000000029"
+    "input_cache_read": "0.000000119"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -3348,9 +3382,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000132",
-    "completion": "0.00000396",
-    "input_cache_read": "0.000000044"
+    "prompt": "0.00000066",
+    "completion": "0.00000198",
+    "input_cache_read": "0.000000022"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -5335,9 +5369,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000198",
+    "prompt": "0.00000006",
     "completion": "0.000007",
-    "input_cache_read": "0.0000000188"
+    "input_cache_read": "0.000000059"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -6790,9 +6824,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000095526",
-    "completion": "0.00000191052",
-    "input_cache_read": "0.000000079605"
+    "prompt": "0.000000430824",
+    "completion": "0.000000861648",
+    "input_cache_read": "0.000000035902"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -6992,7 +7026,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 25.2,
+     "intelligence_index": 21.8,
      "coding_index": 56.8,
      "agentic_index": 15.8
     }
@@ -8252,7 +8286,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 13.8,
+     "intelligence_index": 10.8,
      "coding_index": 31.1,
      "agentic_index": 1.6
     }
@@ -12345,8 +12379,8 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.000000075",
-    "completion": "0.0000002"
+    "prompt": "0.00000009375",
+    "completion": "0.00000025"
    },
    "top_provider": {
     "max_completion_tokens": 16384
@@ -12622,51 +12656,6 @@
    "ha_versione_gratuita": false
   },
   {
-   "id": "anthropic/claude-sonnet-4",
-   "name": "Anthropic: Claude Sonnet 4",
-   "created": 1747930371,
-   "context_length": 200000,
-   "description": "Claude Sonnet 4 significantly enhances the capabilities of its predecessor, Sonnet 3.7, excelling in both coding and reasoning tasks with improved precision and controllability. Achieving state-of-the-art performance on SWE-bench (72.7%),...",
-   "hugging_face_id": "",
-   "expiration_date": "2026-10-15",
-   "architecture": {
-    "input_modalities": [
-     "image",
-     "text",
-     "file"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text+image+file->text"
-   },
-   "pricing": {
-    "prompt": "0.000003",
-    "completion": "0.000015",
-    "input_cache_read": "0.0000003",
-    "input_cache_write": "0.00000375",
-    "web_search": "0.01"
-   },
-   "top_provider": {
-    "max_completion_tokens": 64000
-   },
-   "supported_parameters": [
-    "reasoning",
-    "tools"
-   ],
-   "reasoning": {
-    "mandatory": false
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": 18.9,
-     "coding_index": 37.6,
-     "agentic_index": null
-    }
-   },
-   "ha_versione_gratuita": false
-  },
-  {
    "id": "mistralai/mistral-medium-3",
    "name": "Mistral: Mistral Medium 3",
    "created": 1746627341,
@@ -12806,9 +12795,9 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 8.2,
-     "coding_index": 13.8,
-     "agentic_index": 0.9
+     "intelligence_index": 6.7,
+     "coding_index": null,
+     "agentic_index": null
     }
    },
    "ha_versione_gratuita": false
@@ -12846,9 +12835,9 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 8.6,
-     "coding_index": 15.3,
-     "agentic_index": 0.9
+     "intelligence_index": 7.3,
+     "coding_index": null,
+     "agentic_index": null
     }
    },
    "ha_versione_gratuita": false
@@ -13133,7 +13122,7 @@
    ],
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 10,
+     "intelligence_index": 9.3,
      "coding_index": 16.3,
      "agentic_index": 0.6
     }
@@ -13170,7 +13159,7 @@
    ],
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 8.1,
+     "intelligence_index": 6.5,
      "coding_index": 8.2,
      "agentic_index": 0.5
     }
