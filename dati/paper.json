@@ -1,6 +1,41 @@
 {
- "aggiornato": "2026-10-14T20:23:33+00:00",
+ "aggiornato": "2026-10-15T01:10:10+00:00",
  "paper": [
+  {
+   "titolo": "Energy Consumption Analysis of Discrete Diffusion and Autoregressive Language Models",
+   "data": "2026-10-14",
+   "url": "http://arxiv.org/abs/2610.19855v1",
+   "id": "2610.19855v1",
+   "sommario": "As Large Language Models (LLMs) continue to scale, their energy consumption during inference has become a critical concern. While Autoregressive (AR) models are the industry standard, Diffusion Language Models (DLLMs) have emerged as a promising alternative capable of parallel to"
+  },
+  {
+   "titolo": "Delta Tokenizer: Reference-Identical Tokenization of Session Deltas and Segment-Parallelism for Long Prompts on Multicore CPUs",
+   "data": "2026-10-14",
+   "url": "http://arxiv.org/abs/2610.19801v1",
+   "id": "2610.19801v1",
+   "sommario": "An agent that drives an LLM sends the model the same conversation again and again, and each turn adds only a little text at the end. Inference engines reuse the KV cache of the shared prefix, so only the new tokens pass through the model. However, tokenization has no such shortcu"
+  },
+  {
+   "titolo": "PN-Mix: Pair-Norm Guided Mixed-Precision Key Cache Quantization for Efficient Long-Output LLM Inference",
+   "data": "2026-10-14",
+   "url": "http://arxiv.org/abs/2610.19605v1",
+   "id": "2610.19605v1",
+   "sommario": "Long-output inference in large language models suffers from severe KV cache memory and bandwidth bottlenecks. While KV cache quantization alleviates this issue, low-bit quantization (e.g., 2-bit) severely degrades model accuracy. Recent mixed-precision key-cache quantization meth"
+  },
+  {
+   "titolo": "Titan-Llama: Retrofitting Pre-trained LLMs with External Neural Memory Modules",
+   "data": "2026-10-13",
+   "url": "http://arxiv.org/abs/2610.19210v1",
+   "id": "2610.19210v1",
+   "sommario": "Transformers are efficient to pre-train at scale because attention permits parallel computation across sequence positions, but long-context inference requires increasingly large KV caches. Efficient recurrent alternatives reduce the asymptotic complexity of inference, but their s"
+  },
+  {
+   "titolo": "Joint Subspace Sparse Attention for Efficient Long-Context Decoding",
+   "data": "2026-10-13",
+   "url": "http://arxiv.org/abs/2610.19026v1",
+   "id": "2610.19026v1",
+   "sommario": "Sparse attention reduces the KV-cache traffic that dominates long-context LLM decoding, but practical methods largely operate at coarse granularity. Token-level selection offers finer control, yet presents two challenges: low-dimensional scoring may lose query--key structure need"
+  },
   {
    "titolo": "Hybrid Reasoning Agents",
    "data": "2026-10-13",
@@ -49,41 +84,6 @@
    "url": "http://arxiv.org/abs/2610.18143v1",
    "id": "2610.18143v1",
    "sommario": "Prefix reuse improves LLM inference by sharing the KV cache of common prompt prefixes. This helps only if the scheduler can execute a matched branch in the current worker round. Schedulers assume that a matched prefix is ready, which holds for full attention but fails for hybrid "
-  },
-  {
-   "titolo": "SparPR: Runtime KV-Cache Recovery for Resource-Constrained LLM Inference on Consumer Hardware",
-   "data": "2026-10-13",
-   "url": "http://arxiv.org/abs/2610.18140v1",
-   "id": "2610.18140v1",
-   "sommario": "Running large language models (LLMs) on consumer hardware is bottlenecked by the key-value (KV) cache, which grows with every decoded token and quickly exhausts the memory and bandwidth of a single consumer GPU. We present SparPR (Sparse Partial Recomputation), a runtime KV-cache"
-  },
-  {
-   "titolo": "H-DDCM: Hadamard Codebooks for Fast Generative Image and Video Compression",
-   "data": "2026-10-13",
-   "url": "http://arxiv.org/abs/2610.18125v1",
-   "id": "2610.18125v1",
-   "sommario": "Training-free diffusion-based compression methods repurpose the generative priors of a diffusion or a flow model to compress data without retraining them as task-specific codecs. Recent codebook-based approaches such as Turbo-DDCM achieve strong perceptual quality at ultra-low bi"
-  },
-  {
-   "titolo": "Scaling Vision Transformers Without Training: Prune-and-Merge Token Compression",
-   "data": "2026-10-13",
-   "url": "http://arxiv.org/abs/2610.18039v1",
-   "id": "2610.18039v1",
-   "sommario": "Vision Transformers achieve strong performance but incur high computational costs from quadratic token interactions. Training-free token reduction methods improve efficiency, but their robustness remains underexplored. We propose Prune-and Merge ViT, a training-free framework for"
-  },
-  {
-   "titolo": "ChampionKV: Head-Wise Adaptive Budget Allocation for KV Cache Compression",
-   "data": "2026-10-13",
-   "url": "http://arxiv.org/abs/2610.18026v1",
-   "id": "2610.18026v1",
-   "sommario": "Some observation-window-based KV cache compressors use prompt attention to identify important tokens but allocate uniform or predefined budgets across heads, overlooking input-dependent differences in budget demand. We propose ChampionKV, an input-adaptive head-wise budget alloca"
-  },
-  {
-   "titolo": "LatentRemedy: Efficient Remedy For Non-Prefix KV Cache Reuse in Multi-Agent Systems",
-   "data": "2026-10-13",
-   "url": "http://arxiv.org/abs/2610.18014v1",
-   "id": "2610.18014v1",
-   "sommario": "Non-prefix KV cache reuse is a promising approach for improving inference efficiency in multi-agent systems as agents share the same context blocks. However, when agents have conflicting tasks, directly reusing non-prefix KV caches across agents can severely degrade model perform"
   }
  ]
 }

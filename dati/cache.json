@@ -1,6 +1,6 @@
 {
- "aggiornato": "2026-10-14T20:23:33+00:00",
- "aggiornato_it": "14 ottobre 2026",
+ "aggiornato": "2026-10-15T01:10:10+00:00",
+ "aggiornato_it": "15 ottobre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 379,
  "modelli": [
@@ -290,6 +290,13 @@
     ],
     "default_effort": "medium"
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 43.7,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -422,6 +429,13 @@
      "none"
     ],
     "default_effort": "high"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 38.4,
+     "coding_index": null,
+     "agentic_index": null
+    }
    },
    "ha_versione_gratuita": false
   },
@@ -1599,9 +1613,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000001307",
+    "prompt": "0.000000225",
     "completion": "0.000008",
-    "input_cache_read": "0.00000013"
+    "input_cache_read": "0.00000023"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -1639,7 +1653,7 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.0000000108",
+    "prompt": "0.00000001584",
     "completion": "0.000000891",
     "input_cache_read": "0.0000000054"
    },
@@ -2055,12 +2069,12 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000003"
+    "prompt": "0.00000001584",
+    "completion": "0.000000891",
+    "input_cache_read": "0.0000000054"
    },
    "top_provider": {
-    "max_completion_tokens": 393216
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -2636,9 +2650,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000007506",
-    "completion": "0.0000022509",
-    "input_cache_read": "0.0000000378"
+    "prompt": "0.000000834",
+    "completion": "0.000002501",
+    "input_cache_read": "0.000000042"
    },
    "top_provider": {
     "max_completion_tokens": 64000
@@ -2680,7 +2694,7 @@
    "pricing": {
     "prompt": "0.000000036",
     "completion": "0.0000009",
-    "input_cache_read": "0.0000000108"
+    "input_cache_read": "0.00000001125"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -2759,12 +2773,12 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000005",
-    "input_cache_read": "0.00000003"
+    "prompt": "0.000000036",
+    "completion": "0.0000009",
+    "input_cache_read": "0.00000001125"
    },
    "top_provider": {
-    "max_completion_tokens": 943717
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -3025,7 +3039,7 @@
    "pricing": {
     "prompt": "0.000000079",
     "completion": "0.0000048",
-    "input_cache_read": "0.000000059"
+    "input_cache_read": "0.000000078"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -3073,9 +3087,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000004",
-    "completion": "0.0000023",
-    "input_cache_read": "0.0000000198"
+    "prompt": "0.00000024",
+    "completion": "0.0000022",
+    "input_cache_read": "0.00000005"
    },
    "top_provider": {
     "max_completion_tokens": 235929
@@ -3333,9 +3347,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000066",
-    "completion": "0.00000198",
-    "input_cache_read": "0.000000022"
+    "prompt": "0.00000132",
+    "completion": "0.00000396",
+    "input_cache_read": "0.000000044"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -4397,7 +4411,7 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000005",
+    "prompt": "0.00000048",
     "completion": "0.000015",
     "input_cache_read": "0.00000028"
    },
@@ -4958,9 +4972,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000825",
-    "completion": "0.00000033",
-    "input_cache_read": "0.000000020625"
+    "prompt": "0.000000132",
+    "completion": "0.000000528",
+    "input_cache_read": "0.000000033"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -5320,9 +5334,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000004",
-    "completion": "0.000007",
-    "input_cache_read": "0.000000039"
+    "prompt": "0.000000037",
+    "completion": "0.0000044",
+    "input_cache_read": "0.000000036"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -6389,9 +6403,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000049",
-    "completion": "0.0000149",
-    "input_cache_read": "0.00000027"
+    "prompt": "0.00000042",
+    "completion": "0.000014",
+    "input_cache_read": "0.0000003"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -6595,12 +6609,12 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000001",
-    "completion": "0.00000095",
-    "input_cache_read": "0.0000001"
+    "prompt": "0.00000015",
+    "completion": "0.000001",
+    "input_cache_read": "0.00000005"
    },
    "top_provider": {
-    "max_completion_tokens": 65536
+    "max_completion_tokens": 235929
    },
    "supported_parameters": [
     "reasoning",
@@ -6775,9 +6789,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000376884",
-    "completion": "0.000000753768",
-    "input_cache_read": "0.000000031407"
+    "prompt": "0.00000095526",
+    "completion": "0.00000191052",
+    "input_cache_read": "0.000000079605"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -7189,12 +7203,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000133",
-    "completion": "0.00000418",
-    "input_cache_read": "0.000000247"
+    "prompt": "0.000000966",
+    "completion": "0.000003036",
+    "input_cache_read": "0.0000001794"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 128000
    },
    "supported_parameters": [
     "reasoning",
@@ -7319,9 +7333,8 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000009",
-    "completion": "0.00000034",
-    "input_cache_read": "0.00000005"
+    "prompt": "0.0000002",
+    "completion": "0.0000004"
    },
    "top_provider": {
     "max_completion_tokens": 16384
@@ -8880,11 +8893,11 @@
    },
    "pricing": {
     "prompt": "0.00000027",
-    "completion": "0.00000108",
-    "input_cache_read": "0.000000027"
+    "completion": "0.00000095",
+    "input_cache_read": "0.00000003"
    },
    "top_provider": {
-    "max_completion_tokens": 128000
+    "max_completion_tokens": 32768
    },
    "supported_parameters": [
     "reasoning",
@@ -8920,12 +8933,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000006",
-    "completion": "0.00000192",
-    "input_cache_read": "0.00000012"
+    "prompt": "0.000001",
+    "completion": "0.0000032",
+    "input_cache_read": "0.0000002"
    },
    "top_provider": {
-    "max_completion_tokens": 128000
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -11669,11 +11682,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000037",
-    "completion": "0.00000017"
+    "prompt": "0.00000015",
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000075"
    },
    "top_provider": {
-    "max_completion_tokens": 117964
+    "max_completion_tokens": 65536
    },
    "supported_parameters": [
     "reasoning",
@@ -12613,6 +12627,7 @@
    "context_length": 200000,
    "description": "Claude Sonnet 4 significantly enhances the capabilities of its predecessor, Sonnet 3.7, excelling in both coding and reasoning tasks with improved precision and controllability. Achieving state-of-the-art performance on SWE-bench (72.7%),...",
    "hugging_face_id": "",
+   "expiration_date": "2026-10-15",
    "architecture": {
     "input_modalities": [
      "image",
