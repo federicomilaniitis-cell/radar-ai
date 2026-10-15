@@ -1,15 +1,6 @@
 {
- "aggiornato": "2026-10-15T15:27:26+00:00",
+ "aggiornato": "2026-10-15T20:09:08+00:00",
  "notizie": [
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-10-15",
-   "titolo": "Pareto 26.10 Preview viene spento fra 0 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-15. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-unbiased-pareto-26-10-preview"
-  },
   {
    "tag": "crit",
    "tagT": "Chiusura",
@@ -130,6 +121,24 @@
   {
    "tag": "ok",
    "tagT": "Prezzo giu'",
+   "data": "2026-10-15",
+   "titolo": "DeepSeek Flash Latest: il prezzo in entrata scende del 53%",
+   "testo": "Da $0,024 a $0,011 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo--deepseek-deepseek-flash-latestprompt"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-10-15",
+   "titolo": "Pareto 26.10 Preview viene spento fra 0 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-15. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-unbiased-pareto-26-10-preview"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
    "data": "2026-10-13",
    "titolo": "DeepSeek Pro Latest: il prezzo in uscita scende del 85%",
    "testo": "Da $5 a $0,748 per milione di token in uscita.",
@@ -153,15 +162,6 @@
    "testo": "Da $0,3 a $0,15 per milione di token in entrata.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
    "id": "prezzo-deepseek-deepseek-v4-1-flashprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-10-12",
-   "titolo": "DeepSeek Flash Latest: il prezzo in entrata scende del 24%",
-   "testo": "Da $0,035 a $0,026 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo--deepseek-deepseek-flash-latestprompt"
   },
   {
    "tag": "ok",
