@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-15T01:10:10+00:00",
+ "aggiornato": "2026-10-15T09:33:41+00:00",
  "aggiornato_it": "15 ottobre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 379,
@@ -255,8 +255,9 @@
    "id": "stepfun/step-5-preview",
    "name": "StepFun: Step 5 Preview",
    "created": 1791462849,
-   "context_length": 1000000,
+   "context_length": 1048576,
    "description": "Step 5 Preview is StepFun's flagship model for agentic work, built on a sparse Mixture-of-Experts architecture (27B active / 600B total parameters). It performs strongly in software engineering and professional...",
+   "hugging_face_id": "stepfun-ai/Step-5-Preview",
    "architecture": {
     "input_modalities": [
      "text",
@@ -1653,8 +1654,8 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000001584",
-    "completion": "0.000000891",
+    "prompt": "0.00000002376",
+    "completion": "0.00000072",
     "input_cache_read": "0.0000000054"
    },
    "top_provider": {
@@ -2069,8 +2070,8 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000001584",
-    "completion": "0.000000891",
+    "prompt": "0.00000002376",
+    "completion": "0.00000072",
     "input_cache_read": "0.0000000054"
    },
    "top_provider": {
@@ -2773,12 +2774,12 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000036",
-    "completion": "0.0000009",
-    "input_cache_read": "0.00000001125"
+    "prompt": "0.00000015",
+    "completion": "0.0000005",
+    "input_cache_read": "0.00000003"
    },
    "top_provider": {
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 943717
    },
    "supported_parameters": [
     "reasoning",
@@ -2968,9 +2969,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000608",
+    "prompt": "0.000000024",
     "completion": "0.0000044",
-    "input_cache_read": "0.0000000565"
+    "input_cache_read": "0.0000000223"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -3037,9 +3038,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000079",
+    "prompt": "0.00000003",
     "completion": "0.0000048",
-    "input_cache_read": "0.000000078"
+    "input_cache_read": "0.000000029"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -4411,7 +4412,7 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000048",
+    "prompt": "0.00000045",
     "completion": "0.000015",
     "input_cache_read": "0.00000028"
    },
@@ -5334,9 +5335,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000037",
-    "completion": "0.0000044",
-    "input_cache_read": "0.000000036"
+    "prompt": "0.0000000198",
+    "completion": "0.000007",
+    "input_cache_read": "0.0000000188"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -6359,9 +6360,9 @@
    },
    "pricing": {
     "prompt": "0.000002",
-    "completion": "0.000012",
-    "input_cache_read": "0.0000002",
-    "input_cache_write": "0.000000375",
+    "completion": "0.00001",
+    "input_cache_read": "0.0000001",
+    "input_cache_write": "0.0000001875",
     "image": "0.000002",
     "audio": "0.000002",
     "web_search": "0.014"
@@ -6403,9 +6404,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000042",
-    "completion": "0.000014",
-    "input_cache_read": "0.0000003"
+    "prompt": "0.00000029",
+    "completion": "0.000024",
+    "input_cache_read": "0.00000028"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -7247,9 +7248,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000000765",
-    "completion": "0.000000255",
-    "input_cache_read": "0.0000000425"
+    "prompt": "0.00000009",
+    "completion": "0.0000003",
+    "input_cache_read": "0.00000005"
    },
    "top_provider": {
     "max_completion_tokens": 235929

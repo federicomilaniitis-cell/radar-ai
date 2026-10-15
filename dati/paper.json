@@ -1,6 +1,48 @@
 {
- "aggiornato": "2026-10-15T01:10:10+00:00",
+ "aggiornato": "2026-10-15T09:33:41+00:00",
  "paper": [
+  {
+   "titolo": "Latent Compaction with Test-Time Training",
+   "data": "2026-10-14",
+   "url": "http://arxiv.org/abs/2610.20582v1",
+   "id": "2610.20582v1",
+   "sommario": "Long contexts enlarge key--value (KV) caches, increasing memory use and attention costs during generation. Compressing these caches must preserve information for unseen questions. We introduce **Latent Compaction**, which learns a compact document-specific cache through test-time"
+  },
+  {
+   "titolo": "FOLD: Position-Free Far Memory with Local Order for Long-Context Speculative Decoding",
+   "data": "2026-10-14",
+   "url": "http://arxiv.org/abs/2610.20392v1",
+   "id": "2610.20392v1",
+   "sommario": "Speculative decoding accelerates LLM generation through lightweight drafting and parallel verification. It is particularly promising for long inputs, where KV-cache access costs can be amortized over multiple accepted tokens. Yet most drafters are trained on short sequences and d"
+  },
+  {
+   "titolo": "STP-GUI: Spatially-Aware Token Pruning for Efficient Web-GUI Agents",
+   "data": "2026-10-14",
+   "url": "http://arxiv.org/abs/2610.20390v1",
+   "id": "2610.20390v1",
+   "sommario": "With the rapid development of vision-language models (VLMs), Web-GUI agents have achieved promising performance in interacting with real-world interfaces through screenshot-based grounding. However, high-resolution screenshots and multi-turn histories introduce excessive visual t"
+  },
+  {
+   "titolo": "StreamErase: Towards Ultra-Fast Streaming Video Erasing",
+   "data": "2026-10-14",
+   "url": "http://arxiv.org/abs/2610.20137v1",
+   "id": "2610.20137v1",
+   "sommario": "Current video object removal methods suffer from prohibitive latency (minutes per video) and non-causal processing that prevents real-time interaction. We present StreamErase, enabling sub-second latency with up to 26 FPS streaming generation on a single GPU. Our approach first a"
+  },
+  {
+   "titolo": "Why Generate a Click? Plug-in Decision Heads for Web Agents",
+   "data": "2026-10-14",
+   "url": "http://arxiv.org/abs/2610.20107v1",
+   "id": "2610.20107v1",
+   "sommario": "Web agents built on vision language models decide every action by generating text such as click(12), although most of that text encodes a choice among a few action types and a few dozen marked elements. We read these choices directly from the hidden states that the generator comp"
+  },
+  {
+   "titolo": "MemDuet: Learning Dual-Process Memory for Long-Context Reasoning",
+   "data": "2026-10-14",
+   "url": "http://arxiv.org/abs/2610.19928v1",
+   "id": "2610.19928v1",
+   "sommario": "Reasoning over infinitely long documents is becoming a reality with recurrent memory agents. However, increasing context length exacerbates the trade-off between reasoning performance and inference efficiency. Inspired by Kahneman's account of fast and slow thinking, we propose M"
+  },
   {
    "titolo": "Energy Consumption Analysis of Discrete Diffusion and Autoregressive Language Models",
    "data": "2026-10-14",
@@ -42,48 +84,6 @@
    "url": "http://arxiv.org/abs/2610.18861v1",
    "id": "2610.18861v1",
    "sommario": "How can we build an agent that thinks beyond human language, yet still acts through it in the external environment? Modern LLM agents still reason and interact through text, while latent reasoning offers an efficient internal medium but lacks native tool access and reasoning tran"
-  },
-  {
-   "titolo": "Visual Tokens on Demand: Visual Budgeting for Scalable and Efficient Multi-Image Reasoning in Multimodal LLMs",
-   "data": "2026-10-13",
-   "url": "http://arxiv.org/abs/2610.18858v1",
-   "id": "2610.18858v1",
-   "sommario": "Multimodal large language models have advanced rapidly, but most remain optimized for single-image inputs. Multi-image reasoning is costly because each image adds many visual tokens, increasing encoding and attention demands. Existing techniques that address the above issue, incl"
-  },
-  {
-   "titolo": "Model-Based Online Decision Making via Generative Trajectory Planning",
-   "data": "2026-10-13",
-   "url": "http://arxiv.org/abs/2610.18677v1",
-   "id": "2610.18677v1",
-   "sommario": "Online decision-making faces a tension between efficient inference and long-horizon reasoning. Value-based methods rely on short-horizon bootstrapping that limits the propagation of long-term information, while trajectory optimization methods plan explicitly but must solve a high"
-  },
-  {
-   "titolo": "Kwai Summary Attention V2 Technical Report",
-   "data": "2026-10-13",
-   "url": "http://arxiv.org/abs/2610.18654v1",
-   "id": "2610.18654v1",
-   "sommario": "Summary-token architectures such as Kwai Summary Attention (KSA) compress distant context into learnable Summary token per chunk, and hybrid variants interleave these layers with full attention to retain exact access to the original text. In such hybrid KSA-Full architecture, the"
-  },
-  {
-   "titolo": "MultiAlloc: Budget-Aware Precision Allocation for KV Cache Quantization",
-   "data": "2026-10-13",
-   "url": "http://arxiv.org/abs/2610.18642v1",
-   "id": "2610.18642v1",
-   "sommario": "The Key-Value (KV) cache constitutes a dominant source of memory consumption during large language model (LLM) inference, particularly in long-context and complex reasoning scenarios. Existing KV cache quantization methods have explored different compression granularities, includ"
-  },
-  {
-   "titolo": "An Optical KV Cache Network for Disaggregated LLM Serving",
-   "data": "2026-10-13",
-   "url": "http://arxiv.org/abs/2610.18444v1",
-   "id": "2610.18444v1",
-   "sommario": "Disaggregated LLM serving moves each request's KV cache from a prefill GPU to a decode GPU before the response begins, and a coding-agent turn often moves the KV of its whole long context. Behind an oversubscribed packet fabric this transfer adds to time to first token (TTFT). An"
-  },
-  {
-   "titolo": "RadixFlow: Filling Execution Bubbles in Prefix-Cached Hybrid LLM Serving",
-   "data": "2026-10-13",
-   "url": "http://arxiv.org/abs/2610.18143v1",
-   "id": "2610.18143v1",
-   "sommario": "Prefix reuse improves LLM inference by sharing the KV cache of common prompt prefixes. This helps only if the scheduler can execute a matched branch in the current worker round. Schedulers assume that a matched prefix is ready, which holds for full attention but fails for hybrid "
   }
  ]
 }
