@@ -1,89 +1,89 @@
 {
- "aggiornato": "2026-10-16T00:57:18+00:00",
+ "aggiornato": "2026-10-16T09:26:21+00:00",
  "paper": [
   {
-   "titolo": "Latent Compaction with Test-Time Training",
-   "data": "2026-10-14",
-   "url": "http://arxiv.org/abs/2610.20582v1",
-   "id": "2610.20582v1",
-   "sommario": "Long contexts enlarge key--value (KV) caches, increasing memory use and attention costs during generation. Compressing these caches must preserve information for unseen questions. We introduce **Latent Compaction**, which learns a compact document-specific cache through test-time"
+   "titolo": "T2-z: Test-Time Optimization of Environment Latents for Robotic World Models",
+   "data": "2026-10-15",
+   "url": "http://arxiv.org/abs/2610.22364v1",
+   "id": "2610.22364v1",
+   "sommario": "Predicting how the world responds to an action requires more than what can be seen: robots must account for environmental factors that are neither directly observable nor explicitly specified, from physical properties such as friction and mass to human-defined environmental rules"
   },
   {
-   "titolo": "FOLD: Position-Free Far Memory with Local Order for Long-Context Speculative Decoding",
-   "data": "2026-10-14",
-   "url": "http://arxiv.org/abs/2610.20392v1",
-   "id": "2610.20392v1",
-   "sommario": "Speculative decoding accelerates LLM generation through lightweight drafting and parallel verification. It is particularly promising for long inputs, where KV-cache access costs can be amortized over multiple accepted tokens. Yet most drafters are trained on short sequences and d"
+   "titolo": "Velox: Spatial Memory Makes World Models Efficient",
+   "data": "2026-10-15",
+   "url": "http://arxiv.org/abs/2610.22311v1",
+   "id": "2610.22311v1",
+   "sommario": "Video world models turn actions and camera motion into long visual rollouts, making video a natural interface for interactive simulation. Such interaction requires responsive generation, yet coherent rollouts must retain visual memory of what has already been generated. Chunked v"
   },
   {
-   "titolo": "STP-GUI: Spatially-Aware Token Pruning for Efficient Web-GUI Agents",
-   "data": "2026-10-14",
-   "url": "http://arxiv.org/abs/2610.20390v1",
-   "id": "2610.20390v1",
-   "sommario": "With the rapid development of vision-language models (VLMs), Web-GUI agents have achieved promising performance in interacting with real-world interfaces through screenshot-based grounding. However, high-resolution screenshots and multi-turn histories introduce excessive visual t"
+   "titolo": "Efficient KV Cache Migration for Geo-Distributed LLM Inference in Collaborative Edge Computing",
+   "data": "2026-10-15",
+   "url": "http://arxiv.org/abs/2610.22172v1",
+   "id": "2610.22172v1",
+   "sommario": "Large Language Models (LLMs) have shown exceptional capabilities but rely heavily on centralized cloud GPU clusters, leading to high bandwidth costs, latency, and privacy issues. Edge computing offers a solution by deploying LLMs closer to users on edge servers, yet single edge s"
   },
   {
-   "titolo": "StreamErase: Towards Ultra-Fast Streaming Video Erasing",
-   "data": "2026-10-14",
-   "url": "http://arxiv.org/abs/2610.20137v1",
-   "id": "2610.20137v1",
-   "sommario": "Current video object removal methods suffer from prohibitive latency (minutes per video) and non-causal processing that prevents real-time interaction. We present StreamErase, enabling sub-second latency with up to 26 FPS streaming generation on a single GPU. Our approach first a"
+   "titolo": "DropKV: Decoupling Residual-Output Perturbation for Near-Optimal KV-Cache Eviction",
+   "data": "2026-10-15",
+   "url": "http://arxiv.org/abs/2610.22130v1",
+   "id": "2610.22130v1",
+   "sommario": "Key-value (KV) cache management has become a critical bottleneck for scaling Large Language Models (LLMs) to long-context scenarios due to linear memory growth. While recent eviction methods have moved beyond simple attention-score heuristics to incorporate value representations,"
   },
   {
-   "titolo": "Why Generate a Click? Plug-in Decision Heads for Web Agents",
-   "data": "2026-10-14",
-   "url": "http://arxiv.org/abs/2610.20107v1",
-   "id": "2610.20107v1",
-   "sommario": "Web agents built on vision language models decide every action by generating text such as click(12), although most of that text encodes a choice among a few action types and a few dozen marked elements. We read these choices directly from the hidden states that the generator comp"
+   "titolo": "Augment the Cache, Replace the Activation: A 2x2 Study of Internal-State Sharing",
+   "data": "2026-10-15",
+   "url": "http://arxiv.org/abs/2610.22026v1",
+   "id": "2610.22026v1",
+   "sommario": "Multi-agent systems built from frozen language models communicate through text, which discards the internal state the sender already computed and makes the receiver pay to rebuild it. Work on internal channels avoids that cost, framing the problem as transfer: agent A sends infor"
   },
   {
-   "titolo": "MemDuet: Learning Dual-Process Memory for Long-Context Reasoning",
-   "data": "2026-10-14",
-   "url": "http://arxiv.org/abs/2610.19928v1",
-   "id": "2610.19928v1",
-   "sommario": "Reasoning over infinitely long documents is becoming a reality with recurrent memory agents. However, increasing context length exacerbates the trade-off between reasoning performance and inference efficiency. Inspired by Kahneman's account of fast and slow thinking, we propose M"
+   "titolo": "Close Enough is Nowhere Near: Fidelity-Consumability Decoupling in KV Caches",
+   "data": "2026-10-15",
+   "url": "http://arxiv.org/abs/2610.22016v1",
+   "id": "2610.22016v1",
+   "sommario": "Multi-agent LLM systems communicate in text, which is lossy and wasteful: the sender throws away the reading it already did. A growing literature instead transmits the KV cache, the natural carrier of that reading. We study the most appealing form of the idea: both models stay fr"
   },
   {
-   "titolo": "Energy Consumption Analysis of Discrete Diffusion and Autoregressive Language Models",
-   "data": "2026-10-14",
-   "url": "http://arxiv.org/abs/2610.19855v1",
-   "id": "2610.19855v1",
-   "sommario": "As Large Language Models (LLMs) continue to scale, their energy consumption during inference has become a critical concern. While Autoregressive (AR) models are the industry standard, Diffusion Language Models (DLLMs) have emerged as a promising alternative capable of parallel to"
+   "titolo": "GACC-Bench: Benchmarking Goal-Adaptive Context Compression Ability across Large Language Models",
+   "data": "2026-10-15",
+   "url": "http://arxiv.org/abs/2610.21893v1",
+   "id": "2610.21893v1",
+   "sommario": "Context compression in long-running applications of large language models (LLMs) must preserve goal-relevant information, often before specific downstream questions are known. We introduce GACC-Bench, a benchmark for Goal-Adaptive Context Compression that evaluates how reliably L"
   },
   {
-   "titolo": "Delta Tokenizer: Reference-Identical Tokenization of Session Deltas and Segment-Parallelism for Long Prompts on Multicore CPUs",
-   "data": "2026-10-14",
-   "url": "http://arxiv.org/abs/2610.19801v1",
-   "id": "2610.19801v1",
-   "sommario": "An agent that drives an LLM sends the model the same conversation again and again, and each turn adds only a little text at the end. Inference engines reuse the KV cache of the shared prefix, so only the new tokens pass through the model. However, tokenization has no such shortcu"
+   "titolo": "Decoupled Safety Control: A Safety-Control Algorithm for Training-Free Safety Guidance",
+   "data": "2026-10-15",
+   "url": "http://arxiv.org/abs/2610.21569v1",
+   "id": "2610.21569v1",
+   "sommario": "Diffusion models achieve strong performance in text-to-image generation, but they can still produce unsafe content. Training-free safety guidance offers a practical inference-time alternative that intervenes during sampling without modifying model weights. However, many existing "
   },
   {
-   "titolo": "PN-Mix: Pair-Norm Guided Mixed-Precision Key Cache Quantization for Efficient Long-Output LLM Inference",
-   "data": "2026-10-14",
-   "url": "http://arxiv.org/abs/2610.19605v1",
-   "id": "2610.19605v1",
-   "sommario": "Long-output inference in large language models suffers from severe KV cache memory and bandwidth bottlenecks. While KV cache quantization alleviates this issue, low-bit quantization (e.g., 2-bit) severely degrades model accuracy. Recent mixed-precision key-cache quantization meth"
+   "titolo": "When the KV Cache Is Slower Than the GPU: Scaling Remote KV Tiers for Context-Parallel Prefill",
+   "data": "2026-10-15",
+   "url": "http://arxiv.org/abs/2610.21500v1",
+   "id": "2610.21500v1",
+   "sommario": "Reusing the attention KV cache across requests is a standard way to cut prefill cost in long-context LLM serving, and production systems increasingly back the per-engine cache with a remote tier shared by every engine. We study such a tier in a disaggregated deployment of GLM-5.3"
   },
   {
-   "titolo": "Titan-Llama: Retrofitting Pre-trained LLMs with External Neural Memory Modules",
-   "data": "2026-10-13",
-   "url": "http://arxiv.org/abs/2610.19210v1",
-   "id": "2610.19210v1",
-   "sommario": "Transformers are efficient to pre-train at scale because attention permits parallel computation across sequence positions, but long-context inference requires increasingly large KV caches. Efficient recurrent alternatives reduce the asymptotic complexity of inference, but their s"
+   "titolo": "PriorityFEC: Deadline-Aware Streaming FEC for KV-Cache Handoff in Edge Multi-Agent Systems",
+   "data": "2026-10-15",
+   "url": "http://arxiv.org/abs/2610.21390v1",
+   "id": "2610.21390v1",
+   "sommario": "Multi-agent large language model (LLM) systems are increasingly deployed at the edge to support complex tasks that require collaboration and information exchange among multiple agents. However, when task contexts are passed across agents, shared context that has already been proc"
   },
   {
-   "titolo": "Joint Subspace Sparse Attention for Efficient Long-Context Decoding",
-   "data": "2026-10-13",
-   "url": "http://arxiv.org/abs/2610.19026v1",
-   "id": "2610.19026v1",
-   "sommario": "Sparse attention reduces the KV-cache traffic that dominates long-context LLM decoding, but practical methods largely operate at coarse granularity. Token-level selection offers finer control, yet presents two challenges: low-dimensional scoring may lose query--key structure need"
+   "titolo": "LTM: Latent Transition Based In-Context Memory for Vision-Language-Action Models",
+   "data": "2026-10-15",
+   "url": "http://arxiv.org/abs/2610.21362v1",
+   "id": "2610.21362v1",
+   "sommario": "Robotic manipulation often requires remembering interactions that are no longer visible. We introduce Latent Transition Memory (LTM), which stores history as compact latent transitions between consecutive observations. Instantiated on $π_{0.5}$ as LTM-$π$, our method uses a froze"
   },
   {
-   "titolo": "Hybrid Reasoning Agents",
-   "data": "2026-10-13",
-   "url": "http://arxiv.org/abs/2610.18861v1",
-   "id": "2610.18861v1",
-   "sommario": "How can we build an agent that thinks beyond human language, yet still acts through it in the external environment? Modern LLM agents still reason and interact through text, while latent reasoning offers an efficient internal medium but lacks native tool access and reasoning tran"
+   "titolo": "The Density of Thought: Predicting and Steering Reasoning in Large Language Models",
+   "data": "2026-10-15",
+   "url": "http://arxiv.org/abs/2610.21286v1",
+   "id": "2610.21286v1",
+   "sommario": "We investigate whether variation in information density across chain-of-thought (CoT) reasoning steps predicts answer correctness and can serve as a controllable inference-time target. We prompt frozen pretrained models to solve problems via CoT and measure the density of each re"
   }
  ]
 }
