@@ -1,9 +1,75 @@
 {
- "aggiornato": "2026-10-15T20:09:08+00:00",
- "aggiornato_it": "15 ottobre 2026",
+ "aggiornato": "2026-10-16T00:57:18+00:00",
+ "aggiornato_it": "16 ottobre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 380,
+ "totale": 382,
  "modelli": [
+  {
+   "id": "moondream/moondream3-preview",
+   "name": "Moondream: Moondream 3 Preview",
+   "created": 1792102385,
+   "context_length": 32000,
+   "description": "Moondream 3 Preview is a vision-language model from Moondream with 9B total parameters and 2B active (mixture-of-experts). It handles visual question answering, captioning, OCR, and visual reasoning over images, with...",
+   "hugging_face_id": "moondream/moondream3-preview",
+   "architecture": {
+    "input_modalities": [
+     "text",
+     "image"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image->text"
+   },
+   "pricing": {
+    "prompt": "0.0000003",
+    "completion": "0.0000025"
+   },
+   "top_provider": {
+    "max_completion_tokens": 4096
+   },
+   "supported_parameters": [
+    "reasoning"
+   ],
+   "reasoning": {
+    "mandatory": false,
+    "default_enabled": false
+   },
+   "ha_versione_gratuita": false
+  },
+  {
+   "id": "moondream/moondream3.1-9b-a2b",
+   "name": "Moondream: Moondream 3.1",
+   "created": 1792102373,
+   "context_length": 32000,
+   "description": "Moondream 3.1 is a vision-language model from Moondream, the successor to Moondream 3 Preview, with 9B total parameters and 2B active (mixture-of-experts). It handles visual question answering, captioning, OCR, and...",
+   "hugging_face_id": "moondream/moondream3.1-9B-A2B",
+   "architecture": {
+    "input_modalities": [
+     "text",
+     "image"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image->text"
+   },
+   "pricing": {
+    "prompt": "0.0000003",
+    "completion": "0.0000025"
+   },
+   "top_provider": {
+    "max_completion_tokens": 4096
+   },
+   "supported_parameters": [
+    "reasoning"
+   ],
+   "reasoning": {
+    "mandatory": false,
+    "default_enabled": false
+   },
+   "ha_versione_gratuita": false
+  },
   {
    "id": "meta/muse-spark-open",
    "name": "Meta: Muse Spark Open",
@@ -83,6 +149,13 @@
    "reasoning": {
     "mandatory": false
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 26.5,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": true
   },
   {
@@ -117,6 +190,13 @@
    ],
    "reasoning": {
     "mandatory": false
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 26.5,
+     "coding_index": null,
+     "agentic_index": null
+    }
    },
    "ha_versione_gratuita": true
   },
@@ -388,7 +468,7 @@
    "pricing": {
     "prompt": "0.000001",
     "completion": "0.0000027",
-    "input_cache_read": "0.00000005"
+    "input_cache_read": "0.0000001"
    },
    "top_provider": {
     "max_completion_tokens": 64000
@@ -1704,9 +1784,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000001307",
+    "prompt": "0.000000225",
     "completion": "0.000008",
-    "input_cache_read": "0.00000013"
+    "input_cache_read": "0.00000023"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -1745,8 +1825,8 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000001116",
-    "completion": "0.00000072",
+    "prompt": "0.00000001035",
+    "completion": "0.000000684",
     "input_cache_read": "0.0000000054"
    },
    "top_provider": {
@@ -2162,8 +2242,8 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000001116",
-    "completion": "0.00000072",
+    "prompt": "0.00000001035",
+    "completion": "0.000000684",
     "input_cache_read": "0.0000000054"
    },
    "top_provider": {
@@ -2744,9 +2824,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000007506",
-    "completion": "0.0000022509",
-    "input_cache_read": "0.0000000378"
+    "prompt": "0.000000834",
+    "completion": "0.000002501",
+    "input_cache_read": "0.000000042"
    },
    "top_provider": {
     "max_completion_tokens": 64000
@@ -2786,7 +2866,7 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000036",
+    "prompt": "0.000000027",
     "completion": "0.0000009",
     "input_cache_read": "0.00000001125"
    },
@@ -3132,9 +3212,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000011",
+    "prompt": "0.0000001",
     "completion": "0.000006",
-    "input_cache_read": "0.000000109"
+    "input_cache_read": "0.000000099"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -3856,9 +3936,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000137",
-    "completion": "0.00000064",
-    "input_cache_read": "0.0000000137"
+    "prompt": "0.00000001386",
+    "completion": "0.000000576",
+    "input_cache_read": "0.0000000108"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -3899,9 +3979,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000137",
+    "prompt": "0.0000000154",
     "completion": "0.00000064",
-    "input_cache_read": "0.0000000137"
+    "input_cache_read": "0.0000000154"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -4512,9 +4592,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000405",
+    "prompt": "0.000000339",
     "completion": "0.000015",
-    "input_cache_read": "0.00000028"
+    "input_cache_read": "0.000000237"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -5074,9 +5154,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000825",
-    "completion": "0.00000033",
-    "input_cache_read": "0.000000020625"
+    "prompt": "0.000000132",
+    "completion": "0.000000528",
+    "input_cache_read": "0.000000033"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -5439,9 +5519,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000001",
-    "completion": "0.000007",
-    "input_cache_read": "0.000000099"
+    "prompt": "0.00000062",
+    "completion": "0.00000242",
+    "input_cache_read": "0.00000014"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -6514,7 +6594,7 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000395",
+    "prompt": "0.00000031",
     "completion": "0.000014",
     "input_cache_read": "0.0000003"
    },
@@ -6902,9 +6982,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000038019",
-    "completion": "0.00000076038",
-    "input_cache_read": "0.0000000316825"
+    "prompt": "0.00000095526",
+    "completion": "0.00000191052",
+    "input_cache_read": "0.000000079605"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -10397,14 +10477,14 @@
    ],
    "reasoning": {
     "mandatory": false,
-    "default_enabled": true,
+    "default_enabled": false,
     "supported_efforts": [
      "high",
      "medium",
      "low",
      "none"
     ],
-    "default_effort": "none"
+    "default_effort": "medium"
    },
    "benchmarks": {
     "artificial_analysis": {
@@ -11422,12 +11502,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000001",
-    "completion": "0.0000011",
-    "input_cache_read": "0.00000007"
+    "prompt": "0.00000009",
+    "completion": "0.0000011"
    },
    "top_provider": {
-    "max_completion_tokens": 235929
+    "max_completion_tokens": 16384
    },
    "supported_parameters": [
     "structured_outputs",
@@ -11807,12 +11886,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000075"
+    "prompt": "0.000000037",
+    "completion": "0.00000017"
    },
    "top_provider": {
-    "max_completion_tokens": 65536
+    "max_completion_tokens": 117964
    },
    "supported_parameters": [
     "reasoning",
@@ -14089,11 +14167,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000032",
-    "completion": "0.00000089"
+    "prompt": "0.0000002574",
+    "completion": "0.0000010287"
    },
    "top_provider": {
-    "max_completion_tokens": 16384
+    "max_completion_tokens": 16000
    },
    "supported_parameters": [
     "structured_outputs",
