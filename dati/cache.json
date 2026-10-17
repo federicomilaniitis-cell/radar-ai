@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-17T14:00:51+00:00",
+ "aggiornato": "2026-10-17T18:59:18+00:00",
  "aggiornato_it": "17 ottobre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 386,
@@ -1986,12 +1986,12 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.0000001",
-    "completion": "0.0000005",
-    "input_cache_read": "0.000000002"
+    "prompt": "0.00000009",
+    "completion": "0.00000055",
+    "input_cache_read": "0.000000008"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -2985,9 +2985,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000834",
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042"
+    "prompt": "0.0000007506",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378"
    },
    "top_provider": {
     "max_completion_tokens": 64000
@@ -4097,9 +4097,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000199",
+    "prompt": "0.0000000061",
     "completion": "0.00000128",
-    "input_cache_read": "0.0000000199"
+    "input_cache_read": "0.0000000061"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -4140,9 +4140,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000199",
+    "prompt": "0.0000000061",
     "completion": "0.00000128",
-    "input_cache_read": "0.0000000199"
+    "input_cache_read": "0.0000000061"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -5315,9 +5315,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000132",
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033"
+    "prompt": "0.0000000825",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -8785,7 +8785,7 @@
     "input_cache_read": "0.00000005"
    },
    "top_provider": {
-    "max_completion_tokens": 16384
+    "max_completion_tokens": 235929
    },
    "supported_parameters": [
     "reasoning",
@@ -9873,6 +9873,7 @@
    "context_length": 204800,
    "description": "GLM-4.7 is Z.ai’s latest flagship model, featuring upgrades in two key areas: enhanced programming capabilities and more stable multi-step reasoning/execution. It demonstrates significant improvements in executing complex agent tasks while...",
    "hugging_face_id": "zai-org/GLM-4.7",
+   "expiration_date": "2026-12-31",
    "architecture": {
     "input_modalities": [
      "text"
@@ -9883,9 +9884,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000054",
-    "completion": "0.00000198",
-    "input_cache_read": "0.000000099"
+    "prompt": "0.0000006",
+    "completion": "0.0000022",
+    "input_cache_read": "0.00000011"
    },
    "top_provider": {
     "max_completion_tokens": 131072
