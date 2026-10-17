@@ -1,9 +1,86 @@
 {
- "aggiornato": "2026-10-17T00:57:54+00:00",
+ "aggiornato": "2026-10-17T08:57:50+00:00",
  "aggiornato_it": "17 ottobre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 384,
+ "totale": 386,
  "modelli": [
+  {
+   "id": "deepseek/deepseek-v4.1-flash-1017",
+   "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+   "created": 1792225624,
+   "context_length": 1048576,
+   "description": "DeepSeek V4.1 Flash 1017 is the October 17, 2026 snapshot of DeepSeek V4.1 Flash, served by DeepSeek under the `deepseek-flash` API model name. V4.1 Flash is a sparse mixture-of-experts model...",
+   "hugging_face_id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "architecture": {
+    "input_modalities": [
+     "text",
+     "image"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image->text"
+   },
+   "pricing": {
+    "prompt": "0.00000015",
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000003"
+   },
+   "top_provider": {
+    "max_completion_tokens": 393216
+   },
+   "supported_parameters": [
+    "reasoning",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": false,
+    "default_enabled": true,
+    "supported_efforts": [
+     "max",
+     "high",
+     "low",
+     "none"
+    ],
+    "default_effort": "high"
+   },
+   "ha_versione_gratuita": false
+  },
+  {
+   "id": "elorian/glimpse",
+   "name": "Elorian: Glimpse",
+   "created": 1792206629,
+   "context_length": 262144,
+   "description": "Glimpse is a multimodal visual reasoning model from Elorian, built for visual understanding and complex visual reasoning in the physical world. It reasons directly over images and video rather than...",
+   "architecture": {
+    "input_modalities": [
+     "text",
+     "image",
+     "video"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image+video->text"
+   },
+   "pricing": {
+    "prompt": "0.0000006",
+    "completion": "0.000003",
+    "input_cache_read": "0.00000006"
+   },
+   "top_provider": {
+    "max_completion_tokens": 256000
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": false
+   },
+   "ha_versione_gratuita": false
+  },
   {
    "id": "xingchen-agi/xing4.0-29b-a4b:free",
    "name": "XingChen: Xing4.0 29B A4B (free)",
@@ -1860,9 +1937,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000024948",
-    "completion": "0.00000074844",
-    "input_cache_read": "0.000000007938"
+    "prompt": "0.00000013388",
+    "completion": "0.0000005588",
+    "input_cache_read": "0.0000000045"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -1901,16 +1978,15 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.000000032",
-    "completion": "0.000000144",
-    "input_cache_read": "0.0000000016"
+    "prompt": "0.00000015",
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000003"
    },
    "top_provider": {
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 393216
    },
    "supported_parameters": [
     "reasoning",
-    "structured_outputs",
     "tools"
    ],
    "reasoning": {
@@ -2318,12 +2394,12 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.000000032",
-    "completion": "0.000000144",
-    "input_cache_read": "0.0000000016"
+    "prompt": "0.00000015",
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000003"
    },
    "top_provider": {
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 393216
    },
    "supported_parameters": [
     "reasoning",
@@ -2942,12 +3018,12 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000000247",
-    "completion": "0.0000006836",
-    "input_cache_read": "0.0000000125"
+    "prompt": "0.0000000324",
+    "completion": "0.0000004182",
+    "input_cache_read": "0.0000000104"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -3023,12 +3099,12 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000000247",
-    "completion": "0.0000006836",
-    "input_cache_read": "0.0000000125"
+    "prompt": "0.0000000324",
+    "completion": "0.0000004182",
+    "input_cache_read": "0.0000000104"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -3219,9 +3295,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000608",
-    "completion": "0.0000044",
-    "input_cache_read": "0.0000000565"
+    "prompt": "0.000000069",
+    "completion": "0.000003939",
+    "input_cache_read": "0.000000069"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -4012,9 +4088,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000001208",
-    "completion": "0.000000143616",
-    "input_cache_read": "0.000000001523"
+    "prompt": "0.0000000107",
+    "completion": "0.0000002971",
+    "input_cache_read": "0.0000000107"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -4055,9 +4131,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000199",
-    "completion": "0.00000128",
-    "input_cache_read": "0.0000000199"
+    "prompt": "0.0000000107",
+    "completion": "0.0000002971",
+    "input_cache_read": "0.0000000107"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -6670,9 +6746,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000294",
-    "completion": "0.000024",
-    "input_cache_read": "0.000000284"
+    "prompt": "0.00000027",
+    "completion": "0.0000142307",
+    "input_cache_read": "0.0000000513"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -7058,9 +7134,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000216108",
-    "completion": "0.000000432216",
-    "input_cache_read": "0.000000018009"
+    "prompt": "0.0000002088",
+    "completion": "0.0000004176",
+    "input_cache_read": "0.0000000174"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -9788,7 +9864,6 @@
    "context_length": 204800,
    "description": "GLM-4.7 is Z.ai’s latest flagship model, featuring upgrades in two key areas: enhanced programming capabilities and more stable multi-step reasoning/execution. It demonstrates significant improvements in executing complex agent tasks while...",
    "hugging_face_id": "zai-org/GLM-4.7",
-   "expiration_date": "2026-12-31",
    "architecture": {
     "input_modalities": [
      "text"
@@ -9799,9 +9874,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000006",
-    "completion": "0.0000022",
-    "input_cache_read": "0.00000011"
+    "prompt": "0.00000054",
+    "completion": "0.00000198",
+    "input_cache_read": "0.000000099"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -10410,12 +10485,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000259",
-    "completion": "0.0000008",
-    "input_cache_read": "0.00000014"
+    "prompt": "0.00000028",
+    "completion": "0.00000042",
+    "input_cache_read": "0.000000028"
    },
    "top_provider": {
-    "max_completion_tokens": 147456
+    "max_completion_tokens": 65536
    },
    "supported_parameters": [
     "reasoning",

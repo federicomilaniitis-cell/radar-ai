@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-17T00:57:54+00:00",
+ "aggiornato": "2026-10-17T08:57:50+00:00",
  "notizie": [
   {
    "tag": "crit",
@@ -122,6 +122,15 @@
    "tag": "ok",
    "tagT": "Prezzo giu'",
    "data": "2026-10-17",
+   "titolo": "DeepSeek Pro Latest: il prezzo in entrata scende del 46%",
+   "testo": "Da $0,249 a $0,134 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo--deepseek-deepseek-pro-latestprompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-10-17",
    "titolo": "Nemotron 3.5 Super VL: il prezzo in entrata scende del 33%",
    "testo": "Da $0,15 a $0,1 per milione di token in entrata.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
@@ -198,15 +207,6 @@
    "testo": "Da $0,04 a $0,03 per milione di token in entrata.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
    "id": "prezzo--z-ai-glm-flash-latestprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-10-10",
-   "titolo": "DeepSeek Pro Latest: il prezzo in entrata scende del 27%",
-   "testo": "Da $0,3 a $0,219 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo--deepseek-deepseek-pro-latestprompt"
   },
   {
    "tag": "ok",
