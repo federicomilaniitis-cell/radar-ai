@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-17T08:57:50+00:00",
+ "aggiornato": "2026-10-17T14:00:51+00:00",
  "notizie": [
   {
    "tag": "crit",
@@ -122,8 +122,8 @@
    "tag": "ok",
    "tagT": "Prezzo giu'",
    "data": "2026-10-17",
-   "titolo": "DeepSeek Pro Latest: il prezzo in entrata scende del 46%",
-   "testo": "Da $0,249 a $0,134 per milione di token in entrata.",
+   "titolo": "DeepSeek Pro Latest: il prezzo in entrata scende del 10%",
+   "testo": "Da $0,134 a $0,12 per milione di token in entrata.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
    "id": "prezzo--deepseek-deepseek-pro-latestprompt"
   },
