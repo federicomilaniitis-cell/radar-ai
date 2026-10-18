@@ -1,8 +1,8 @@
 {
- "aggiornato": "2026-10-17T18:59:18+00:00",
- "aggiornato_it": "17 ottobre 2026",
+ "aggiornato": "2026-10-18T00:32:59+00:00",
+ "aggiornato_it": "18 ottobre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 386,
+ "totale": 387,
  "modelli": [
   {
    "id": "deepseek/deepseek-v4.1-flash-1017",
@@ -362,10 +362,39 @@
    "ha_versione_gratuita": true
   },
   {
+   "id": "unbiased/pareto-26.10",
+   "name": "Pareto 26.10",
+   "created": 1792073620,
+   "context_length": 1048576,
+   "description": "Pareto is a multimodal composite model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks.",
+   "architecture": {
+    "input_modalities": [
+     "text",
+     "image"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image->text"
+   },
+   "pricing": {
+    "prompt": "0.0000008",
+    "completion": "0.0000032",
+    "input_cache_read": "0.00000003"
+   },
+   "top_provider": {
+    "max_completion_tokens": 131072
+   },
+   "supported_parameters": [
+    "tools"
+   ],
+   "ha_versione_gratuita": false
+  },
+  {
    "id": "~unbiased/pareto-latest",
    "name": "Pareto Latest",
    "created": 1791933050,
-   "context_length": 262144,
+   "context_length": 1048576,
    "description": "This model always redirects to the latest model in the Pareto family.",
    "architecture": {
     "input_modalities": [
@@ -378,9 +407,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.0000025",
-    "completion": "0.0000075",
-    "input_cache_read": "0.00000025"
+    "prompt": "0.0000008",
+    "completion": "0.0000032",
+    "input_cache_read": "0.00000003"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -1986,12 +2015,12 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000009",
-    "completion": "0.00000055",
+    "prompt": "0.00000008",
+    "completion": "0.0000005",
     "input_cache_read": "0.000000008"
    },
    "top_provider": {
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -2403,12 +2432,12 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000003"
+    "prompt": "0.0000000552",
+    "completion": "0.000000144",
+    "input_cache_read": "0.0000000016"
    },
    "top_provider": {
-    "max_completion_tokens": 393216
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -2985,9 +3014,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000007506",
-    "completion": "0.0000022509",
-    "input_cache_read": "0.0000000378"
+    "prompt": "0.000000834",
+    "completion": "0.000002501",
+    "input_cache_read": "0.000000042"
    },
    "top_provider": {
     "max_completion_tokens": 64000
@@ -3027,9 +3056,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000006",
-    "completion": "0.0000016",
-    "input_cache_read": "0.00000004"
+    "prompt": "0.000000048",
+    "completion": "0.0000002",
+    "input_cache_read": "0.000000006"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -3108,12 +3137,12 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000005",
-    "input_cache_read": "0.00000003"
+    "prompt": "0.000000048",
+    "completion": "0.0000002",
+    "input_cache_read": "0.000000006"
    },
    "top_provider": {
-    "max_completion_tokens": 943717
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -3374,7 +3403,7 @@
    },
    "pricing": {
     "prompt": "0.000000079",
-    "completion": "0.0000048",
+    "completion": "0.0000032",
     "input_cache_read": "0.000000078"
    },
    "top_provider": {
@@ -3690,7 +3719,7 @@
     "input_cache_read": "0.000000022"
    },
    "top_provider": {
-    "max_completion_tokens": 393216
+    "max_completion_tokens": 384000
    },
    "supported_parameters": [
     "reasoning",
@@ -4097,9 +4126,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000061",
-    "completion": "0.00000128",
-    "input_cache_read": "0.0000000061"
+    "prompt": "0.00000000688",
+    "completion": "0.000000143616",
+    "input_cache_read": "0.000000001523"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -4140,9 +4169,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000061",
-    "completion": "0.00000128",
-    "input_cache_read": "0.0000000061"
+    "prompt": "0.0000001",
+    "completion": "0.0000003",
+    "input_cache_read": "0.00000003"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -5315,9 +5344,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000825",
-    "completion": "0.00000033",
-    "input_cache_read": "0.000000020625"
+    "prompt": "0.000000132",
+    "completion": "0.000000528",
+    "input_cache_read": "0.000000033"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -9873,7 +9902,6 @@
    "context_length": 204800,
    "description": "GLM-4.7 is Z.ai’s latest flagship model, featuring upgrades in two key areas: enhanced programming capabilities and more stable multi-step reasoning/execution. It demonstrates significant improvements in executing complex agent tasks while...",
    "hugging_face_id": "zai-org/GLM-4.7",
-   "expiration_date": "2026-12-31",
    "architecture": {
     "input_modalities": [
      "text"
@@ -9884,9 +9912,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000006",
-    "completion": "0.0000022",
-    "input_cache_read": "0.00000011"
+    "prompt": "0.00000054",
+    "completion": "0.00000198",
+    "input_cache_read": "0.000000099"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -12253,7 +12281,7 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000001",
+    "prompt": "0.00000009",
     "completion": "0.0000003"
    },
    "top_provider": {
@@ -13772,7 +13800,7 @@
    },
    "pricing": {
     "prompt": "0.00000008",
-    "completion": "0.00000045",
+    "completion": "0.00000035",
     "input_cache_read": "0.00000004"
    },
    "top_provider": {
