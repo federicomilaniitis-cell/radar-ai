@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-18T14:13:31+00:00",
+ "aggiornato": "2026-10-18T19:10:50+00:00",
  "notizie": [
   {
    "tag": "crit",
@@ -122,6 +122,15 @@
    "tag": "ok",
    "tagT": "Prezzo giu'",
    "data": "2026-10-18",
+   "titolo": "Hy4 preview: il prezzo in entrata scende del 10%",
+   "testo": "Da $0,834 a $0,751 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-tencent-hy4-previewprompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-10-18",
    "titolo": "DeepSeek V4.1 Flash: il prezzo in entrata scende del 38%",
    "testo": "Da $0,065 a $0,04 per milione di token in entrata.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
@@ -189,15 +198,6 @@
    "testo": "Da $1,19 a $0,765 per milione di token in uscita.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
    "id": "prezzo--deepseek-deepseek-flash-latestcompletion"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-10-11",
-   "titolo": "Hy4 preview: il prezzo in entrata scende del 10%",
-   "testo": "Da $0,834 a $0,751 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-tencent-hy4-previewprompt"
   },
   {
    "tag": "ok",
