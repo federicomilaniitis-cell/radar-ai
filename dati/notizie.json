@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-18T09:16:59+00:00",
+ "aggiornato": "2026-10-18T14:13:31+00:00",
  "notizie": [
   {
    "tag": "crit",
@@ -122,6 +122,15 @@
    "tag": "ok",
    "tagT": "Prezzo giu'",
    "data": "2026-10-18",
+   "titolo": "DeepSeek V4.1 Flash: il prezzo in entrata scende del 38%",
+   "testo": "Da $0,065 a $0,04 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-deepseek-deepseek-v4-1-flashprompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-10-18",
    "titolo": "DeepSeek Flash Latest: il prezzo in entrata scende del 38%",
    "testo": "Da $0,08 a $0,05 per milione di token in entrata.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
@@ -153,15 +162,6 @@
    "testo": "Da $0,15 a $0,1 per milione di token in entrata.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
    "id": "prezzo-nvidia-nemotron-3-5-super-vlprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-10-16",
-   "titolo": "DeepSeek V4.1 Flash: il prezzo in entrata scende del 76%",
-   "testo": "Da $0,15 a $0,036 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-deepseek-deepseek-v4-1-flashprompt"
   },
   {
    "tag": "ok",
