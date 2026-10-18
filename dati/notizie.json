@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-18T00:32:59+00:00",
+ "aggiornato": "2026-10-18T09:16:59+00:00",
  "notizie": [
   {
    "tag": "crit",
@@ -122,19 +122,19 @@
    "tag": "ok",
    "tagT": "Prezzo giu'",
    "data": "2026-10-18",
-   "titolo": "Pareto Latest: il prezzo in entrata scende del 68%",
-   "testo": "Da $2,5 a $0,8 per milione di token in entrata.",
+   "titolo": "DeepSeek Flash Latest: il prezzo in entrata scende del 38%",
+   "testo": "Da $0,08 a $0,05 per milione di token in entrata.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo--unbiased-pareto-latestprompt"
+   "id": "prezzo--deepseek-deepseek-flash-latestprompt"
   },
   {
    "tag": "ok",
    "tagT": "Prezzo giu'",
-   "data": "2026-10-17",
-   "titolo": "DeepSeek Flash Latest: il prezzo in entrata scende del 10%",
-   "testo": "Da $0,1 a $0,09 per milione di token in entrata.",
+   "data": "2026-10-18",
+   "titolo": "Pareto Latest: il prezzo in entrata scende del 68%",
+   "testo": "Da $2,5 a $0,8 per milione di token in entrata.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo--deepseek-deepseek-flash-latestprompt"
+   "id": "prezzo--unbiased-pareto-latestprompt"
   },
   {
    "tag": "ok",
