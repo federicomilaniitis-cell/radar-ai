@@ -1,11 +1,11 @@
 {
- "aggiornato": "2026-10-18T19:10:50+00:00",
+ "aggiornato": "2026-10-19T00:42:01+00:00",
  "notizie": [
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-10-18",
-   "titolo": "Seed-2.0-Code viene spento fra 24 giorni",
+   "data": "2026-10-19",
+   "titolo": "Seed-2.0-Code viene spento fra 23 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-11. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-bytedance-seed-seed-2-0-code"
@@ -13,8 +13,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-10-18",
-   "titolo": "Laguna S 2.1 viene spento fra 13 giorni",
+   "data": "2026-10-19",
+   "titolo": "Laguna S 2.1 viene spento fra 12 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-31. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-poolside-laguna-s-2-1"
@@ -22,8 +22,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-10-18",
-   "titolo": "Laguna S 2.1 (free) viene spento fra 13 giorni",
+   "data": "2026-10-19",
+   "titolo": "Laguna S 2.1 (free) viene spento fra 12 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-31. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-poolside-laguna-s-2-1-free"
@@ -31,8 +31,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-10-18",
-   "titolo": "Laguna XS 2.1 viene spento fra 13 giorni",
+   "data": "2026-10-19",
+   "titolo": "Laguna XS 2.1 viene spento fra 12 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-31. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-poolside-laguna-xs-2-1"
@@ -40,8 +40,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-10-18",
-   "titolo": "Laguna XS 2.1 (free) viene spento fra 13 giorni",
+   "data": "2026-10-19",
+   "titolo": "Laguna XS 2.1 (free) viene spento fra 12 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-31. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-poolside-laguna-xs-2-1-free"
@@ -49,8 +49,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-10-18",
-   "titolo": "MiMo-V2.5-Pro viene spento fra 3 giorni",
+   "data": "2026-10-19",
+   "titolo": "MiMo-V2.5-Pro viene spento fra 2 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-21. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-xiaomi-mimo-v2-5-pro"
@@ -58,8 +58,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-10-18",
-   "titolo": "MiMo-V2.5 viene spento fra 3 giorni",
+   "data": "2026-10-19",
+   "titolo": "MiMo-V2.5 viene spento fra 2 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-21. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-xiaomi-mimo-v2-5"
@@ -67,8 +67,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-10-18",
-   "titolo": "Qwen3.5-9B viene spento fra 3 giorni",
+   "data": "2026-10-19",
+   "titolo": "Qwen3.5-9B viene spento fra 2 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-21. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-qwen-qwen3-5-9b"
@@ -76,8 +76,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-10-18",
-   "titolo": "Seed 1.6 Flash viene spento fra 24 giorni",
+   "data": "2026-10-19",
+   "titolo": "Seed 1.6 Flash viene spento fra 23 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-11. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-bytedance-seed-seed-1-6-flash"
@@ -85,8 +85,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-10-18",
-   "titolo": "Seed 1.6 viene spento fra 24 giorni",
+   "data": "2026-10-19",
+   "titolo": "Seed 1.6 viene spento fra 23 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-11. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-bytedance-seed-seed-1-6"
@@ -94,8 +94,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-10-18",
-   "titolo": "Gemini 2.5 Flash Lite viene spento fra 2 giorni",
+   "data": "2026-10-19",
+   "titolo": "Gemini 2.5 Flash Lite viene spento fra 1 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-20. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-google-gemini-2-5-flash-lite"
@@ -103,8 +103,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-10-18",
-   "titolo": "Gemini 2.5 Flash viene spento fra 2 giorni",
+   "data": "2026-10-19",
+   "titolo": "Gemini 2.5 Flash viene spento fra 1 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-20. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-google-gemini-2-5-flash"
@@ -112,11 +112,20 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-10-18",
-   "titolo": "Gemini 2.5 Pro viene spento fra 2 giorni",
+   "data": "2026-10-19",
+   "titolo": "Gemini 2.5 Pro viene spento fra 1 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-20. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-google-gemini-2-5-pro"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-10-19",
+   "titolo": "DeepSeek V4.1 Flash: il prezzo in uscita scende del 17%",
+   "testo": "Da $0,144 a $0,12 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-deepseek-deepseek-v4-1-flashcompletion"
   },
   {
    "tag": "ok",
@@ -207,15 +216,6 @@
    "testo": "Da $0,425 a $0,04 per milione di token in entrata.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
    "id": "prezzo-qwen-qwen3-8-27bprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-10-10",
-   "titolo": "GLM Flash Latest: il prezzo in entrata scende del 25%",
-   "testo": "Da $0,04 a $0,03 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo--z-ai-glm-flash-latestprompt"
   }
  ]
 }

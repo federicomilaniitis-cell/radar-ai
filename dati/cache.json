@@ -1,6 +1,6 @@
 {
- "aggiornato": "2026-10-18T19:10:50+00:00",
- "aggiornato_it": "18 ottobre 2026",
+ "aggiornato": "2026-10-19T00:42:01+00:00",
+ "aggiornato_it": "19 ottobre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 387,
  "modelli": [
@@ -511,7 +511,7 @@
     "web_search": "0.014"
    },
    "top_provider": {
-    "max_completion_tokens": 65536
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -1974,9 +1974,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000012",
+    "prompt": "0.000000225",
     "completion": "0.000008",
-    "input_cache_read": "0.00000012"
+    "input_cache_read": "0.00000023"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -2432,8 +2432,8 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000004",
-    "completion": "0.000000144",
+    "prompt": "0.0000000624",
+    "completion": "0.00000012",
     "input_cache_read": "0.0000000016"
    },
    "top_provider": {
@@ -3014,9 +3014,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000007506",
-    "completion": "0.0000022509",
-    "input_cache_read": "0.0000000378"
+    "prompt": "0.000000834",
+    "completion": "0.000002501",
+    "input_cache_read": "0.000000042"
    },
    "top_provider": {
     "max_completion_tokens": 64000
@@ -4126,9 +4126,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000000392",
-    "completion": "0.000000143616",
-    "input_cache_read": "0.000000001523"
+    "prompt": "0.0000000086",
+    "completion": "0.00000045",
+    "input_cache_read": "0.0000000086"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -4169,9 +4169,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000049",
-    "completion": "0.00000045",
-    "input_cache_read": "0.0000000049"
+    "prompt": "0.00000015",
+    "completion": "0.00000015",
+    "input_cache_read": "0.000000042"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -4782,7 +4782,7 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000279",
+    "prompt": "0.000000249",
     "completion": "0.000011936",
     "input_cache_read": "0.00000021"
    },
@@ -5344,9 +5344,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000825",
-    "completion": "0.00000033",
-    "input_cache_read": "0.000000020625"
+    "prompt": "0.000000132",
+    "completion": "0.000000528",
+    "input_cache_read": "0.000000033"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -6748,7 +6748,7 @@
     "web_search": "0.014"
    },
    "top_provider": {
-    "max_completion_tokens": 65536
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -6784,8 +6784,8 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000025",
-    "completion": "0.000014",
+    "prompt": "0.000000249",
+    "completion": "0.000011936",
     "input_cache_read": "0.00000021"
    },
    "top_provider": {
@@ -7172,9 +7172,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000002088",
-    "completion": "0.0000004176",
-    "input_cache_read": "0.0000000174"
+    "prompt": "0.0000009483",
+    "completion": "0.0000018966",
+    "input_cache_read": "0.000000079025"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -8852,11 +8852,11 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000026",
-    "completion": "0.0000026"
+    "prompt": "0.000000195",
+    "completion": "0.00000156"
    },
    "top_provider": {
-    "max_completion_tokens": 81920
+    "max_completion_tokens": 65536
    },
    "supported_parameters": [
     "reasoning",
@@ -12698,7 +12698,7 @@
    "id": "morph/morph-v3-fast",
    "name": "Morph: Morph V3 Fast",
    "created": 1751910002,
-   "context_length": 81920,
+   "context_length": 262144,
    "description": "Morph's fastest apply model for code edits. ~10,500 tokens/sec with 96% accuracy for rapid code transformations. The model requires the prompt to be in the following format: <instruction>{instruction}</instruction> <code>{initial_code}</code> <update>{edit_snippet}</update>...",
    "hugging_face_id": "",
    "architecture": {
@@ -12715,9 +12715,11 @@
     "completion": "0.0000012"
    },
    "top_provider": {
-    "max_completion_tokens": 38000
+    "max_completion_tokens": 131072
    },
-   "supported_parameters": [],
+   "supported_parameters": [
+    "structured_outputs"
+   ],
    "ha_versione_gratuita": false
   },
   {
@@ -14858,11 +14860,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000005",
-    "completion": "0.00000033"
+    "prompt": "0.0000000509",
+    "completion": "0.000000335"
    },
    "top_provider": {
-    "max_completion_tokens": 117964
+    "max_completion_tokens": 72000
    },
    "supported_parameters": [
     "structured_outputs"
