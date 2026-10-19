@@ -1,6 +1,76 @@
 {
- "aggiornato": "2026-10-19T00:42:01+00:00",
+ "aggiornato": "2026-10-19T10:26:45+00:00",
  "paper": [
+  {
+   "titolo": "FuTransformer: FP8 prefill and INT4 decode for Llama-style inference on Hopper",
+   "data": "2026-10-16",
+   "url": "http://arxiv.org/abs/2610.23796v1",
+   "id": "2610.23796v1",
+   "sommario": "Transformer prefill reuses weights across tokens and is dominated by matrix multiplication and activation data movement; single-token decode has limited reuse and is dominated by weight and KV-cache reads. We present FUTRANSFORMER, a CUDA implementation of a Llama-style Transform"
+  },
+  {
+   "titolo": "DLite: History-free Speculative Decoding for Agentic AI",
+   "data": "2026-10-16",
+   "url": "http://arxiv.org/abs/2610.23787v1",
+   "id": "2610.23787v1",
+   "sommario": "Speculative decoding has become a mainstream technique for accelerating large language model (LLM) inference by using a lightweight draft model to generate candidate tokens that are subsequently verified by the target model. However, agentic workloads introduce long and continuou"
+  },
+  {
+   "titolo": "An Interactive GraphRAG Workspace for Reifying, Auditing, and Steering Conversational AI Memories",
+   "data": "2026-10-16",
+   "url": "http://arxiv.org/abs/2610.23559v1",
+   "id": "2610.23559v1",
+   "sommario": "Conversational Large Language Models (LLMs) are widely employed in software engineering for code generation, debugging, and architectural design. However, as developers engage in multi-session development tasks, technical knowledge becomes siloed in isolated, linear chat historie"
+  },
+  {
+   "titolo": "HBFSim: A Simulator for Exploring HBF in Memory Hierarchies for LLMs",
+   "data": "2026-10-16",
+   "url": "http://arxiv.org/abs/2610.23503v1",
+   "id": "2610.23503v1",
+   "sommario": "High Bandwidth Flash (HBF) has recently emerged as a promising technology that provides terabyte-scale accelerator-local capacity at bandwidths approaching HBM, with a potential cost-per-bit advantage over HBM. However, its NAND foundation brings long latency, out-of-place update"
+  },
+  {
+   "titolo": "Prism Attention: Proposal-Refined Index Sharing Mechanism for Efficient LLMs Inference",
+   "data": "2026-10-16",
+   "url": "http://arxiv.org/abs/2610.22985v1",
+   "id": "2610.22985v1",
+   "sommario": "Long-context decoding in large language models (LLMs) is increasingly bottlenecked by the memory and computation required to attend over an ever-growing Key-Value (KV) cache at each autoregressive step. Although token-level sparse attention reduces this burden by restricting comp"
+  },
+  {
+   "titolo": "BS-Spec: BFP-Based Bit-Sharing for Self-Speculative LLM Decoding with LUT-Driven Mixed-Precision Acceleration",
+   "data": "2026-10-16",
+   "url": "http://arxiv.org/abs/2610.22877v1",
+   "id": "2610.22877v1",
+   "sommario": "As large language models (LLMs) are increasingly deployed across diverse inference services, serving workloads span a wide range of batch sizes, context lengths, and performance requirements. Speculative decoding improves inference throughput, but conventional approaches require "
+  },
+  {
+   "titolo": "Stealthy Poisoning Attacks via Reused KV Cache of Reasoning",
+   "data": "2026-10-16",
+   "url": "http://arxiv.org/abs/2610.22873v1",
+   "id": "2610.22873v1",
+   "sommario": "Modern large language model (LLM) systems reuse key-value (KV) caches to accelerate inference. Recent work has shown that reusing KV caches from reasoning traces can also improve task performance, similar to retrieval-augmented generation (RAG). We demonstrate that this form of K"
+  },
+  {
+   "titolo": "FuseRAG: Fusing Structure and Evidence into Inference for Cost-Efficient Graph-based RAG",
+   "data": "2026-10-16",
+   "url": "http://arxiv.org/abs/2610.22818v1",
+   "id": "2610.22818v1",
+   "sommario": "Graph-based retrieval-augmented generation (RAG) exploits relationships among evidence to support multi-hop question answering. However, conveying retrieved graphs through non-unique linear textual contexts to Large Language Models (LLMs) leads to graph-structure degradation and "
+  },
+  {
+   "titolo": "SAFETYEDIT: Sparse Internal Targets with Prompt-Wide Control for LLM Jailbreak Backdoors",
+   "data": "2026-10-15",
+   "url": "http://arxiv.org/abs/2610.22640v1",
+   "id": "2610.22640v1",
+   "sommario": "Model-editing backdoors aim to induce harmful responses under a trigger while preserving ordinary behavior on untriggered input. Recent model-editing approaches target affirmative response prefixes through rank-one updates to a small subset of model weights. Yet when this prefix-"
+  },
+  {
+   "titolo": "MemLLM: End-to-end In-Storage Acceleration of On-device Retrieval-Augmented Generation using Precomputed KV Caches",
+   "data": "2026-10-15",
+   "url": "http://arxiv.org/abs/2610.22579v1",
+   "id": "2610.22579v1",
+   "sommario": "Retrieval-augmented generation (RAG) on edge devices enables personalized large language model (LLM) inference while preserving privacy. However, RAG's inherent length asymmetry makes the prefill phase the dominant bottleneck. While precomputing the KV caches offline alleviates t"
+  },
   {
    "titolo": "T2-z: Test-Time Optimization of Environment Latents for Robotic World Models",
    "data": "2026-10-15",
@@ -14,76 +84,6 @@
    "url": "http://arxiv.org/abs/2610.22311v1",
    "id": "2610.22311v1",
    "sommario": "Video world models turn actions and camera motion into long visual rollouts, making video a natural interface for interactive simulation. Such interaction requires responsive generation, yet coherent rollouts must retain visual memory of what has already been generated. Chunked v"
-  },
-  {
-   "titolo": "Efficient KV Cache Migration for Geo-Distributed LLM Inference in Collaborative Edge Computing",
-   "data": "2026-10-15",
-   "url": "http://arxiv.org/abs/2610.22172v1",
-   "id": "2610.22172v1",
-   "sommario": "Large Language Models (LLMs) have shown exceptional capabilities but rely heavily on centralized cloud GPU clusters, leading to high bandwidth costs, latency, and privacy issues. Edge computing offers a solution by deploying LLMs closer to users on edge servers, yet single edge s"
-  },
-  {
-   "titolo": "DropKV: Decoupling Residual-Output Perturbation for Near-Optimal KV-Cache Eviction",
-   "data": "2026-10-15",
-   "url": "http://arxiv.org/abs/2610.22130v1",
-   "id": "2610.22130v1",
-   "sommario": "Key-value (KV) cache management has become a critical bottleneck for scaling Large Language Models (LLMs) to long-context scenarios due to linear memory growth. While recent eviction methods have moved beyond simple attention-score heuristics to incorporate value representations,"
-  },
-  {
-   "titolo": "Augment the Cache, Replace the Activation: A 2x2 Study of Internal-State Sharing",
-   "data": "2026-10-15",
-   "url": "http://arxiv.org/abs/2610.22026v1",
-   "id": "2610.22026v1",
-   "sommario": "Multi-agent systems built from frozen language models communicate through text, which discards the internal state the sender already computed and makes the receiver pay to rebuild it. Work on internal channels avoids that cost, framing the problem as transfer: agent A sends infor"
-  },
-  {
-   "titolo": "Close Enough is Nowhere Near: Fidelity-Consumability Decoupling in KV Caches",
-   "data": "2026-10-15",
-   "url": "http://arxiv.org/abs/2610.22016v1",
-   "id": "2610.22016v1",
-   "sommario": "Multi-agent LLM systems communicate in text, which is lossy and wasteful: the sender throws away the reading it already did. A growing literature instead transmits the KV cache, the natural carrier of that reading. We study the most appealing form of the idea: both models stay fr"
-  },
-  {
-   "titolo": "GACC-Bench: Benchmarking Goal-Adaptive Context Compression Ability across Large Language Models",
-   "data": "2026-10-15",
-   "url": "http://arxiv.org/abs/2610.21893v1",
-   "id": "2610.21893v1",
-   "sommario": "Context compression in long-running applications of large language models (LLMs) must preserve goal-relevant information, often before specific downstream questions are known. We introduce GACC-Bench, a benchmark for Goal-Adaptive Context Compression that evaluates how reliably L"
-  },
-  {
-   "titolo": "Decoupled Safety Control: A Safety-Control Algorithm for Training-Free Safety Guidance",
-   "data": "2026-10-15",
-   "url": "http://arxiv.org/abs/2610.21569v1",
-   "id": "2610.21569v1",
-   "sommario": "Diffusion models achieve strong performance in text-to-image generation, but they can still produce unsafe content. Training-free safety guidance offers a practical inference-time alternative that intervenes during sampling without modifying model weights. However, many existing "
-  },
-  {
-   "titolo": "When the KV Cache Is Slower Than the GPU: Scaling Remote KV Tiers for Context-Parallel Prefill",
-   "data": "2026-10-15",
-   "url": "http://arxiv.org/abs/2610.21500v1",
-   "id": "2610.21500v1",
-   "sommario": "Reusing the attention KV cache across requests is a standard way to cut prefill cost in long-context LLM serving, and production systems increasingly back the per-engine cache with a remote tier shared by every engine. We study such a tier in a disaggregated deployment of GLM-5.3"
-  },
-  {
-   "titolo": "PriorityFEC: Deadline-Aware Streaming FEC for KV-Cache Handoff in Edge Multi-Agent Systems",
-   "data": "2026-10-15",
-   "url": "http://arxiv.org/abs/2610.21390v1",
-   "id": "2610.21390v1",
-   "sommario": "Multi-agent large language model (LLM) systems are increasingly deployed at the edge to support complex tasks that require collaboration and information exchange among multiple agents. However, when task contexts are passed across agents, shared context that has already been proc"
-  },
-  {
-   "titolo": "LTM: Latent Transition Based In-Context Memory for Vision-Language-Action Models",
-   "data": "2026-10-15",
-   "url": "http://arxiv.org/abs/2610.21362v1",
-   "id": "2610.21362v1",
-   "sommario": "Robotic manipulation often requires remembering interactions that are no longer visible. We introduce Latent Transition Memory (LTM), which stores history as compact latent transitions between consecutive observations. Instantiated on $π_{0.5}$ as LTM-$π$, our method uses a froze"
-  },
-  {
-   "titolo": "The Density of Thought: Predicting and Steering Reasoning in Large Language Models",
-   "data": "2026-10-15",
-   "url": "http://arxiv.org/abs/2610.21286v1",
-   "id": "2610.21286v1",
-   "sommario": "We investigate whether variation in information density across chain-of-thought (CoT) reasoning steps predicts answer correctness and can serve as a controllable inference-time target. We prompt frozen pretrained models to solve problems via CoT and measure the density of each re"
   }
  ]
 }
