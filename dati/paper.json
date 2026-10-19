@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-19T10:26:45+00:00",
+ "aggiornato": "2026-10-19T17:17:55+00:00",
  "paper": [
   {
    "titolo": "FuTransformer: FP8 prefill and INT4 decode for Llama-style inference on Hopper",

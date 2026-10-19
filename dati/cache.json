@@ -1,9 +1,50 @@
 {
- "aggiornato": "2026-10-19T10:26:45+00:00",
+ "aggiornato": "2026-10-19T17:17:55+00:00",
  "aggiornato_it": "19 ottobre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 386,
  "modelli": [
+  {
+   "id": "minimax/minimax-m3.1-flash:free",
+   "name": "MiniMax: MiniMax M3.1 Flash (free)",
+   "created": 1792379569,
+   "context_length": 1000000,
+   "description": "MiniMax-M3.1-Flash is a multimodal model from MiniMax. Compared with M3, it delivers significant improvements across multiple benchmarks, particularly in complex agentic tasks, coding, and cybersecurity. It is built for complex,...",
+   "architecture": {
+    "input_modalities": [
+     "text",
+     "image",
+     "video"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image+video->text"
+   },
+   "pricing": {
+    "prompt": "0",
+    "completion": "0"
+   },
+   "top_provider": {
+    "max_completion_tokens": 524288
+   },
+   "supported_parameters": [
+    "reasoning",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": true,
+    "supported_efforts": [
+     "max",
+     "xhigh",
+     "high",
+     "medium",
+     "low"
+    ],
+    "default_effort": "max"
+   },
+   "ha_versione_gratuita": true
+  },
   {
    "id": "deepseek/deepseek-v4.1-flash-1017",
    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
@@ -162,6 +203,47 @@
      "low"
     ],
     "default_effort": "max"
+   },
+   "ha_versione_gratuita": false
+  },
+  {
+   "id": "inception/mercury-3",
+   "name": "Inception: Mercury 3",
+   "created": 1792158337,
+   "context_length": 1000000,
+   "description": "Mercury 3 is a diffusion-based language model from Inception, and the lab's most capable model to date. It is suited for agentic workflows and real-time applications where latency compounds, such...",
+   "architecture": {
+    "input_modalities": [
+     "text"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text->text"
+   },
+   "pricing": {
+    "prompt": "0.0000001",
+    "completion": "0.00000035",
+    "input_cache_read": "0.00000001"
+   },
+   "top_provider": {
+    "max_completion_tokens": 131072
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": false,
+    "default_enabled": true,
+    "supported_efforts": [
+     "high",
+     "medium",
+     "low",
+     "none"
+    ],
+    "default_effort": "medium"
    },
    "ha_versione_gratuita": false
   },
@@ -1974,9 +2056,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000225",
+    "prompt": "0.0000001307",
     "completion": "0.000008",
-    "input_cache_read": "0.00000023"
+    "input_cache_read": "0.00000013"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -2015,9 +2097,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000005",
-    "completion": "0.00000015",
-    "input_cache_read": "0.000000012"
+    "prompt": "0.000000041",
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000005"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -2432,7 +2514,7 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.000000044",
+    "prompt": "0.0000000328",
     "completion": "0.00000008",
     "input_cache_read": "0.0000000016"
    },
@@ -3014,9 +3096,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000834",
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042"
+    "prompt": "0.0000007506",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378"
    },
    "top_provider": {
     "max_completion_tokens": 64000
@@ -3057,8 +3139,8 @@
    },
    "pricing": {
     "prompt": "0.000000048",
-    "completion": "0.0000002",
-    "input_cache_read": "0.000000006"
+    "completion": "0.00000016",
+    "input_cache_read": "0.0000000096"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -3138,8 +3220,8 @@
    },
    "pricing": {
     "prompt": "0.000000048",
-    "completion": "0.0000002",
-    "input_cache_read": "0.000000006"
+    "completion": "0.00000016",
+    "input_cache_read": "0.0000000096"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -3333,9 +3415,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000042",
+    "prompt": "0.000000059",
     "completion": "0.000006",
-    "input_cache_read": "0.000000026"
+    "input_cache_read": "0.000000037"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -4126,9 +4208,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000000688",
+    "prompt": "0.00000001592",
     "completion": "0.00000012",
-    "input_cache_read": "0.00000000336"
+    "input_cache_read": "0.000000003304"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -5344,9 +5426,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000132",
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033"
+    "prompt": "0.0000000825",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -6784,9 +6866,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000239",
-    "completion": "0.000011936",
-    "input_cache_read": "0.00000021"
+    "prompt": "0.000000238",
+    "completion": "0.000016",
+    "input_cache_read": "0.000000228"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -7172,9 +7254,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000095526",
-    "completion": "0.00000191052",
-    "input_cache_read": "0.000000079605"
+    "prompt": "0.000000415686",
+    "completion": "0.000000831372",
+    "input_cache_read": "0.0000000346405"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -13457,7 +13539,7 @@
    "id": "meta-llama/llama-4-maverick",
    "name": "Meta: Llama 4 Maverick",
    "created": 1743881822,
-   "context_length": 1048576,
+   "context_length": 524288,
    "description": "Llama 4 Maverick 17B Instruct (128E) is a high-capacity multimodal language model from Meta, built on a mixture-of-experts (MoE) architecture with 128 experts and 17 billion active parameters per forward...",
    "hugging_face_id": "meta-llama/Llama-4-Maverick-17B-128E-Instruct",
    "architecture": {
@@ -14239,45 +14321,6 @@
      "intelligence_index": 7.7,
      "coding_index": null,
      "agentic_index": null
-    }
-   },
-   "ha_versione_gratuita": false
-  },
-  {
-   "id": "deepseek/deepseek-r1",
-   "name": "DeepSeek: R1",
-   "created": 1737381095,
-   "context_length": 64000,
-   "description": "DeepSeek R1 is here: Performance on par with [OpenAI o1](/openai/o1), but open-sourced and with fully open reasoning tokens. It's 671B parameters in size, with 37B active in an inference pass....",
-   "hugging_face_id": "deepseek-ai/DeepSeek-R1",
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text->text"
-   },
-   "pricing": {
-    "prompt": "0.0000007",
-    "completion": "0.0000025"
-   },
-   "top_provider": {
-    "max_completion_tokens": 16000
-   },
-   "supported_parameters": [
-    "reasoning",
-    "tools"
-   ],
-   "reasoning": {
-    "mandatory": true
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": 11.4,
-     "coding_index": 24.6,
-     "agentic_index": 1.1
     }
    },
    "ha_versione_gratuita": false
@@ -15403,32 +15446,6 @@
      "agentic_index": null
     }
    },
-   "ha_versione_gratuita": false
-  },
-  {
-   "id": "microsoft/wizardlm-2-8x22b",
-   "name": "WizardLM-2 8x22B",
-   "created": 1713225600,
-   "context_length": 65535,
-   "description": "WizardLM-2 8x22B is Microsoft AI's most advanced Wizard model. It demonstrates highly competitive performance compared to leading proprietary models, and it consistently outperforms all existing state-of-the-art opensource models. It is...",
-   "hugging_face_id": "microsoft/WizardLM-2-8x22B",
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text->text"
-   },
-   "pricing": {
-    "prompt": "0.00000062",
-    "completion": "0.00000062"
-   },
-   "top_provider": {
-    "max_completion_tokens": 8000
-   },
-   "supported_parameters": [],
    "ha_versione_gratuita": false
   },
   {
