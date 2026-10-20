@@ -1,6 +1,27 @@
 {
- "aggiornato": "2026-10-19T17:17:55+00:00",
+ "aggiornato": "2026-10-20T01:27:22+00:00",
  "paper": [
+  {
+   "titolo": "TideKV: Delayed KV Eviction via Layer-Wise Chunked Prefill for Memory-Efficient Long-Context LLM Inference",
+   "data": "2026-10-17",
+   "url": "http://arxiv.org/abs/2610.24499v1",
+   "id": "2610.24499v1",
+   "sommario": "Long-context large language model (LLM) inference is important for modern intelligent applications but remains constrained by peak memory during prompt prefill. Existing KV cache compression reduces decoding memory but typically requires full-prompt prefill to preserve global con"
+  },
+  {
+   "titolo": "Koi: Evidence-Guided, Self-Calibrating Planning for Multi-Cloud, Heterogeneous LLM Inference Fleets",
+   "data": "2026-10-17",
+   "url": "http://arxiv.org/abs/2610.24355v1",
+   "id": "2610.24355v1",
+   "sommario": "Deploying a large language model (LLM) requires choosing the right accelerator, parallelization strategy, engine configuration, and replica count amongst ~140 other variables across clouds, regions, and markets. These decisions are intertwined, and the best cluster-wide plan cont"
+  },
+  {
+   "titolo": "KVCompass: A Discovery Plane for Internet-Scale Prefix Cache Sharing in LLM Serving",
+   "data": "2026-10-16",
+   "url": "http://arxiv.org/abs/2610.24179v1",
+   "id": "2610.24179v1",
+   "sommario": "KV cache reuse is one of the most effective ways to reduce LLM inference cost, but today its benefits are largely confined to a single cluster. When a provider serves the same model across geographically distributed regions, each region may repeatedly prefill the same popular pre"
+  },
   {
    "titolo": "FuTransformer: FP8 prefill and INT4 decode for Llama-style inference on Hopper",
    "data": "2026-10-16",
@@ -63,27 +84,6 @@
    "url": "http://arxiv.org/abs/2610.22640v1",
    "id": "2610.22640v1",
    "sommario": "Model-editing backdoors aim to induce harmful responses under a trigger while preserving ordinary behavior on untriggered input. Recent model-editing approaches target affirmative response prefixes through rank-one updates to a small subset of model weights. Yet when this prefix-"
-  },
-  {
-   "titolo": "MemLLM: End-to-end In-Storage Acceleration of On-device Retrieval-Augmented Generation using Precomputed KV Caches",
-   "data": "2026-10-15",
-   "url": "http://arxiv.org/abs/2610.22579v1",
-   "id": "2610.22579v1",
-   "sommario": "Retrieval-augmented generation (RAG) on edge devices enables personalized large language model (LLM) inference while preserving privacy. However, RAG's inherent length asymmetry makes the prefill phase the dominant bottleneck. While precomputing the KV caches offline alleviates t"
-  },
-  {
-   "titolo": "T2-z: Test-Time Optimization of Environment Latents for Robotic World Models",
-   "data": "2026-10-15",
-   "url": "http://arxiv.org/abs/2610.22364v1",
-   "id": "2610.22364v1",
-   "sommario": "Predicting how the world responds to an action requires more than what can be seen: robots must account for environmental factors that are neither directly observable nor explicitly specified, from physical properties such as friction and mass to human-defined environmental rules"
-  },
-  {
-   "titolo": "Velox: Spatial Memory Makes World Models Efficient",
-   "data": "2026-10-15",
-   "url": "http://arxiv.org/abs/2610.22311v1",
-   "id": "2610.22311v1",
-   "sommario": "Video world models turn actions and camera motion into long visual rollouts, making video a natural interface for interactive simulation. Such interaction requires responsive generation, yet coherent rollouts must retain visual memory of what has already been generated. Chunked v"
   }
  ]
 }
