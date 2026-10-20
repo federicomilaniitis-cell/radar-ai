@@ -1,89 +1,89 @@
 {
- "aggiornato": "2026-10-20T01:27:22+00:00",
+ "aggiornato": "2026-10-20T09:45:52+00:00",
  "paper": [
   {
-   "titolo": "TideKV: Delayed KV Eviction via Layer-Wise Chunked Prefill for Memory-Efficient Long-Context LLM Inference",
-   "data": "2026-10-17",
-   "url": "http://arxiv.org/abs/2610.24499v1",
-   "id": "2610.24499v1",
-   "sommario": "Long-context large language model (LLM) inference is important for modern intelligent applications but remains constrained by peak memory during prompt prefill. Existing KV cache compression reduces decoding memory but typically requires full-prompt prefill to preserve global con"
+   "titolo": "Supervised Learning with Quantum Hamiltonian Embeddings",
+   "data": "2026-10-19",
+   "url": "http://arxiv.org/abs/2610.26833v1",
+   "id": "2610.26833v1",
+   "sommario": "Machine learning is widely regarded as a promising application in which quantum computing could offer a computational advantage. However, general quantum machine learning models with provable guarantees on performance, trainability, and efficient inference remain limited. In this"
   },
   {
-   "titolo": "Koi: Evidence-Guided, Self-Calibrating Planning for Multi-Cloud, Heterogeneous LLM Inference Fleets",
-   "data": "2026-10-17",
-   "url": "http://arxiv.org/abs/2610.24355v1",
-   "id": "2610.24355v1",
-   "sommario": "Deploying a large language model (LLM) requires choosing the right accelerator, parallelization strategy, engine configuration, and replica count amongst ~140 other variables across clouds, regions, and markets. These decisions are intertwined, and the best cluster-wide plan cont"
+   "titolo": "KEEP-Bench: Evaluating Evidence Preservation in Context Compression",
+   "data": "2026-10-19",
+   "url": "http://arxiv.org/abs/2610.26827v1",
+   "id": "2610.26827v1",
+   "sommario": "Context compression improves long-context efficiency but may introduce faithfulness issues through an information bottleneck. Existing evaluations rely on QA metrics, but a reader can still answer correctly from an unfaithful compression, so these metrics underestimate such loss."
   },
   {
-   "titolo": "KVCompass: A Discovery Plane for Internet-Scale Prefix Cache Sharing in LLM Serving",
-   "data": "2026-10-16",
-   "url": "http://arxiv.org/abs/2610.24179v1",
-   "id": "2610.24179v1",
-   "sommario": "KV cache reuse is one of the most effective ways to reduce LLM inference cost, but today its benefits are largely confined to a single cluster. When a provider serves the same model across geographically distributed regions, each region may repeatedly prefill the same popular pre"
+   "titolo": "MemT-1.0: Towards Memory-Native Evolution",
+   "data": "2026-10-19",
+   "url": "http://arxiv.org/abs/2610.26825v1",
+   "id": "2610.26825v1",
+   "sommario": "Memory-native evolution requires making memory an intrinsic capability of foundation models, enabling them to continuously accumulate and utilize information. To this end, we introduce MemT-1.0, a new architecture of memory foundation models that internalize memory as part of mod"
   },
   {
-   "titolo": "FuTransformer: FP8 prefill and INT4 decode for Llama-style inference on Hopper",
-   "data": "2026-10-16",
-   "url": "http://arxiv.org/abs/2610.23796v1",
-   "id": "2610.23796v1",
-   "sommario": "Transformer prefill reuses weights across tokens and is dominated by matrix multiplication and activation data movement; single-token decode has limited reuse and is dominated by weight and KV-cache reads. We present FUTRANSFORMER, a CUDA implementation of a Llama-style Transform"
+   "titolo": "HAF-VLA: Hierarchical Action Flow Framework for Humanoid Vision-Language-Action Control",
+   "data": "2026-10-19",
+   "url": "http://arxiv.org/abs/2610.26584v1",
+   "id": "2610.26584v1",
+   "sommario": "Humanoid robots hold great promise as general-purpose agents in human-centered environments, yet adapting generalist vision-language-action (VLA) policies to real-world humanoid loco-manipulation remains challenging. Unlike fixed-base or wheeled manipulators, humanoids must coord"
   },
   {
-   "titolo": "DLite: History-free Speculative Decoding for Agentic AI",
-   "data": "2026-10-16",
-   "url": "http://arxiv.org/abs/2610.23787v1",
-   "id": "2610.23787v1",
-   "sommario": "Speculative decoding has become a mainstream technique for accelerating large language model (LLM) inference by using a lightweight draft model to generate candidate tokens that are subsequently verified by the target model. However, agentic workloads introduce long and continuou"
+   "titolo": "ReInsVLN: Revisiting Historical Evidence for Training-Free Vision-and-Language Navigation",
+   "data": "2026-10-19",
+   "url": "http://arxiv.org/abs/2610.26545v1",
+   "id": "2610.26545v1",
+   "sommario": "Vision-and-language navigation (VLN) relies on retaining and using relevant observations. Yet growing histories introduce redundancy, and retained information may remain underused. We introduce ReInsBench, a diagnostic benchmark that examines history utilization through controlle"
   },
   {
-   "titolo": "An Interactive GraphRAG Workspace for Reifying, Auditing, and Steering Conversational AI Memories",
-   "data": "2026-10-16",
-   "url": "http://arxiv.org/abs/2610.23559v1",
-   "id": "2610.23559v1",
-   "sommario": "Conversational Large Language Models (LLMs) are widely employed in software engineering for code generation, debugging, and architectural design. However, as developers engage in multi-session development tasks, technical knowledge becomes siloed in isolated, linear chat historie"
+   "titolo": "R2-GP: Variance-Calibrated Priors for Additive Gaussian Processes",
+   "data": "2026-10-19",
+   "url": "http://arxiv.org/abs/2610.26437v1",
+   "id": "2610.26437v1",
+   "sommario": "We develop R2-GP, an R2D2-type prior for Gaussian process (GP) generalised additive models (GAMs) that calibrates explained variance ($R^2$) for Matérn covariance kernels. The function variance for standard Matérn kernels depends jointly on the effect magnitude and length-scale. "
   },
   {
-   "titolo": "HBFSim: A Simulator for Exploring HBF in Memory Hierarchies for LLMs",
-   "data": "2026-10-16",
-   "url": "http://arxiv.org/abs/2610.23503v1",
-   "id": "2610.23503v1",
-   "sommario": "High Bandwidth Flash (HBF) has recently emerged as a promising technology that provides terabyte-scale accelerator-local capacity at bandwidths approaching HBM, with a potential cost-per-bit advantage over HBM. However, its NAND foundation brings long latency, out-of-place update"
+   "titolo": "An Empirical Study of Parameter-Efficient Fine-Tuning for Mixture-of-Experts LLMs",
+   "data": "2026-10-19",
+   "url": "http://arxiv.org/abs/2610.26370v1",
+   "id": "2610.26370v1",
+   "sommario": "Parameter-efficient fine-tuning (PEFT) methods are critical for adapting large models under resource-constrained settings. However, as mixture-of-experts (MoE) architectures, which offer efficient inference at massive parameter scales, gain increasing prevalence in the community,"
   },
   {
-   "titolo": "Prism Attention: Proposal-Refined Index Sharing Mechanism for Efficient LLMs Inference",
-   "data": "2026-10-16",
-   "url": "http://arxiv.org/abs/2610.22985v1",
-   "id": "2610.22985v1",
-   "sommario": "Long-context decoding in large language models (LLMs) is increasingly bottlenecked by the memory and computation required to attend over an ever-growing Key-Value (KV) cache at each autoregressive step. Although token-level sparse attention reduces this burden by restricting comp"
+   "titolo": "Dynamics-Aware Sparse Attention for Efficient Autoregressive Video Diffusion",
+   "data": "2026-10-19",
+   "url": "http://arxiv.org/abs/2610.26262v1",
+   "id": "2610.26262v1",
+   "sommario": "Autoregressive Diffusion Transformers have emerged as a powerful paradigm for long video generation. However, they are often constrained by prohibitive computational overhead and substantial memory footprints. This inefficiency arises from dense computation mechanisms that alloca"
   },
   {
-   "titolo": "BS-Spec: BFP-Based Bit-Sharing for Self-Speculative LLM Decoding with LUT-Driven Mixed-Precision Acceleration",
-   "data": "2026-10-16",
-   "url": "http://arxiv.org/abs/2610.22877v1",
-   "id": "2610.22877v1",
-   "sommario": "As large language models (LLMs) are increasingly deployed across diverse inference services, serving workloads span a wide range of batch sizes, context lengths, and performance requirements. Speculative decoding improves inference throughput, but conventional approaches require "
+   "titolo": "TriTD: Tri-Partite Trajectory-Distribution Distillation for Real-Time Autoregressive Video Generation",
+   "data": "2026-10-19",
+   "url": "http://arxiv.org/abs/2610.26165v1",
+   "id": "2610.26165v1",
+   "sommario": "Autoregressive (AR) video diffusion has emerged as a leading paradigm for efficient video generation, yet its practical deployment remains bottlenecked by the trade-off between generation quality and inference efficiency. We attribute this bottleneck to three error sources in AR "
   },
   {
-   "titolo": "Stealthy Poisoning Attacks via Reused KV Cache of Reasoning",
-   "data": "2026-10-16",
-   "url": "http://arxiv.org/abs/2610.22873v1",
-   "id": "2610.22873v1",
-   "sommario": "Modern large language model (LLM) systems reuse key-value (KV) caches to accelerate inference. Recent work has shown that reusing KV caches from reasoning traces can also improve task performance, similar to retrieval-augmented generation (RAG). We demonstrate that this form of K"
+   "titolo": "TempoMoE: Identifying and Steering Fast-Slow Thinking Experts for Efficient Multimodal Reasoning",
+   "data": "2026-10-19",
+   "url": "http://arxiv.org/abs/2610.25999v1",
+   "id": "2610.25999v1",
+   "sommario": "Multimodal Mixture-of-Experts (MoE) reasoning models rely on long chain-of-thought (CoT) for complex tasks, yet often overthink easy inputs, increasing token cost and latency, and sometimes degrading accuracy. Existing methods optimize reasoning length during training or impose e"
   },
   {
-   "titolo": "FuseRAG: Fusing Structure and Evidence into Inference for Cost-Efficient Graph-based RAG",
-   "data": "2026-10-16",
-   "url": "http://arxiv.org/abs/2610.22818v1",
-   "id": "2610.22818v1",
-   "sommario": "Graph-based retrieval-augmented generation (RAG) exploits relationships among evidence to support multi-hop question answering. However, conveying retrieved graphs through non-unique linear textual contexts to Large Language Models (LLMs) leads to graph-structure degradation and "
+   "titolo": "The KV-Surgeon: Compensation-Aware Offline KV-Cache Compaction",
+   "data": "2026-10-19",
+   "url": "http://arxiv.org/abs/2610.25933v1",
+   "id": "2610.25933v1",
+   "sommario": "Offline compaction of the key--value cache (KV-cache) reduces the cost of repeatedly querying a fixed context by constructing a smaller cache once and reusing it subsequently. The central challenge of compaction is deciding which cache entries to delete and which to retain. Exist"
   },
   {
-   "titolo": "SAFETYEDIT: Sparse Internal Targets with Prompt-Wide Control for LLM Jailbreak Backdoors",
-   "data": "2026-10-15",
-   "url": "http://arxiv.org/abs/2610.22640v1",
-   "id": "2610.22640v1",
-   "sommario": "Model-editing backdoors aim to induce harmful responses under a trigger while preserving ordinary behavior on untriggered input. Recent model-editing approaches target affirmative response prefixes through rank-one updates to a small subset of model weights. Yet when this prefix-"
+   "titolo": "Learning to Reason Efficiently with Interventional Step Credit",
+   "data": "2026-10-19",
+   "url": "http://arxiv.org/abs/2610.25876v1",
+   "id": "2610.25876v1",
+   "sommario": "Large reasoning models often produce lengthy chain-of-thought (CoT) traces mixing useful intermediate steps with unnecessary ones. Recent methods explore step-level signals such as attention mass and step entropy to identify and suppress unnecessary steps. Despite their effective"
   }
  ]
 }
