@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-20T09:45:52+00:00",
+ "aggiornato": "2026-10-20T15:31:37+00:00",
  "notizie": [
   {
    "tag": "crit",
@@ -95,6 +95,42 @@
    "tag": "crit",
    "tagT": "Chiusura",
    "data": "2026-10-20",
+   "titolo": "Hermes 3 70B Instruct viene spento fra 13 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-02. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-nousresearch-hermes-3-llama-3-1-70b"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-10-20",
+   "titolo": "Hermes 3 405B Instruct viene spento fra 13 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-02. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-nousresearch-hermes-3-llama-3-1-405b"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-10-20",
+   "titolo": "DeepSeek V4.1 Flash 1017: il prezzo in entrata scende del 50%",
+   "testo": "Da $0,3 a $0,15 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-deepseek-deepseek-v4-1-flash-1017prompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-10-20",
+   "titolo": "DeepSeek V4.1 Flash 1017: il prezzo in uscita scende del 50%",
+   "testo": "Da $1,2 a $0,6 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-deepseek-deepseek-v4-1-flash-1017completion"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-10-20",
    "titolo": "Gemini 2.5 Flash Lite viene spento fra 0 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-20. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
@@ -117,15 +153,6 @@
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-20. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-google-gemini-2-5-pro"
-  },
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-10-20",
-   "titolo": "Hermes 3 70B Instruct viene spento fra 13 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-02. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-nousresearch-hermes-3-llama-3-1-70b"
   },
   {
    "tag": "ok",
@@ -189,33 +216,6 @@
    "testo": "Da $2,5 a $0,8 per milione di token in entrata.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
    "id": "prezzo--unbiased-pareto-latestprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-10-17",
-   "titolo": "Nemotron 3.5 Super VL: il prezzo in entrata scende del 33%",
-   "testo": "Da $0,15 a $0,1 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-nvidia-nemotron-3-5-super-vlprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-10-16",
-   "titolo": "DeepSeek Pro Latest: il prezzo in uscita scende del 85%",
-   "testo": "Da $5 a $0,748 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo--deepseek-deepseek-pro-latestcompletion"
-  },
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-10-15",
-   "titolo": "Pareto 26.10 Preview viene spento fra 0 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-15. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-unbiased-pareto-26-10-preview"
   }
  ]
 }

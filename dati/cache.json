@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-20T09:45:52+00:00",
+ "aggiornato": "2026-10-20T15:31:37+00:00",
  "aggiornato_it": "20 ottobre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 386,
@@ -70,9 +70,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.0000003",
-    "completion": "0.0000012",
-    "input_cache_read": "0.000000006"
+    "prompt": "0.00000015",
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000003"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -2063,9 +2063,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000225",
+    "prompt": "0.0000001307",
     "completion": "0.000008",
-    "input_cache_read": "0.00000023"
+    "input_cache_read": "0.00000013"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -2521,9 +2521,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.000000056",
+    "prompt": "0.00000003552",
     "completion": "0.00000012",
-    "input_cache_read": "0.0000000016"
+    "input_cache_read": "0.00000000071"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -3145,7 +3145,7 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000047076",
+    "prompt": "0.000000048",
     "completion": "0.00000016",
     "input_cache_read": "0.000000006"
    },
@@ -3226,7 +3226,7 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000047076",
+    "prompt": "0.000000048",
     "completion": "0.00000016",
     "input_cache_read": "0.000000006"
    },
@@ -4215,9 +4215,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000000392",
+    "prompt": "0.00000001592",
     "completion": "0.00000012",
-    "input_cache_read": "0.00000000336"
+    "input_cache_read": "0.000000003304"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -4258,9 +4258,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000044",
-    "completion": "0.00000132",
-    "input_cache_read": "0.000000014"
+    "prompt": "0.0000001298",
+    "completion": "0.0000003894",
+    "input_cache_read": "0.00000000413"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -7261,9 +7261,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000095526",
-    "completion": "0.00000191052",
-    "input_cache_read": "0.000000079605"
+    "prompt": "0.000000415686",
+    "completion": "0.000000831372",
+    "input_cache_read": "0.0000000346405"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -9415,12 +9415,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000006",
-    "completion": "0.00000192",
-    "input_cache_read": "0.00000012"
+    "prompt": "0.000001",
+    "completion": "0.0000032",
+    "input_cache_read": "0.0000002"
    },
    "top_provider": {
-    "max_completion_tokens": 128000
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -12583,7 +12583,6 @@
    "context_length": 1048576,
    "description": "Gemini 2.5 Flash-Lite is a lightweight reasoning model in the Gemini 2.5 family, optimized for ultra-low latency and cost efficiency. It offers improved throughput, faster token generation, and better performance...",
    "hugging_face_id": "",
-   "expiration_date": "2026-10-20",
    "architecture": {
     "input_modalities": [
      "text",
@@ -12887,7 +12886,6 @@
    "context_length": 1048576,
    "description": "Gemini 2.5 Flash is Google's state-of-the-art workhorse model, specifically designed for advanced reasoning, coding, mathematics, and scientific tasks. It includes built-in \"thinking\" capabilities, enabling it to provide responses with greater...",
    "hugging_face_id": "",
-   "expiration_date": "2026-10-20",
    "architecture": {
     "input_modalities": [
      "file",
@@ -12937,7 +12935,6 @@
    "context_length": 1048576,
    "description": "Gemini 2.5 Pro is Google’s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks. It employs “thinking” capabilities, enabling it to reason through responses with enhanced accuracy...",
    "hugging_face_id": "",
-   "expiration_date": "2026-10-20",
    "architecture": {
     "input_modalities": [
      "text",
