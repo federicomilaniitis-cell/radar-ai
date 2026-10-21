@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-21T01:11:25+00:00",
+ "aggiornato": "2026-10-21T09:46:52+00:00",
  "notizie": [
   {
    "tag": "crit",
@@ -50,24 +50,6 @@
    "tag": "crit",
    "tagT": "Chiusura",
    "data": "2026-10-21",
-   "titolo": "MiMo-V2.5-Pro viene spento fra 0 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-21. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-xiaomi-mimo-v2-5-pro"
-  },
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-10-21",
-   "titolo": "MiMo-V2.5 viene spento fra 0 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-21. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-xiaomi-mimo-v2-5"
-  },
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-10-21",
    "titolo": "Seed 1.6 Flash viene spento fra 21 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-11. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
@@ -99,6 +81,69 @@
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-02. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-nousresearch-hermes-3-llama-3-1-405b"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-10-21",
+   "titolo": "DeepSeek Flash Latest: il prezzo in entrata scende del 30%",
+   "testo": "Da $0,07 a $0,049 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo--deepseek-deepseek-flash-latestprompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-10-21",
+   "titolo": "DeepSeek Flash Latest: il prezzo in uscita scende del 25%",
+   "testo": "Da $0,5 a $0,375 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo--deepseek-deepseek-flash-latestcompletion"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-10-21",
+   "titolo": "DeepSeek V4.1 Flash: il prezzo in entrata scende del 12%",
+   "testo": "Da $0,056 a $0,049 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-deepseek-deepseek-v4-1-flashprompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-10-21",
+   "titolo": "GLM 5.2: il prezzo in entrata scende del 94%",
+   "testo": "Da $0,62 a $0,034 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-z-ai-glm-5-2prompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-10-21",
+   "titolo": "MiMo-V2.5-Pro: il prezzo in entrata scende del 30%",
+   "testo": "Da $0,435 a $0,304 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-xiaomi-mimo-v2-5-proprompt"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-10-21",
+   "titolo": "MiMo-V2.5-Pro viene spento fra 0 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-21. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-xiaomi-mimo-v2-5-pro"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-10-21",
+   "titolo": "MiMo-V2.5 viene spento fra 0 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-21. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-xiaomi-mimo-v2-5"
   },
   {
    "tag": "ok",
@@ -140,15 +185,6 @@
    "tag": "ok",
    "tagT": "Prezzo giu'",
    "data": "2026-10-20",
-   "titolo": "DeepSeek V4.1 Flash: il prezzo in entrata scende del 20%",
-   "testo": "Da $0,036 a $0,028 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-deepseek-deepseek-v4-1-flashprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-10-20",
    "titolo": "Hy4 preview: il prezzo in entrata scende del 10%",
    "testo": "Da $0,834 a $0,751 per milione di token in entrata.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
@@ -180,42 +216,6 @@
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-20. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-google-gemini-2-5-flash-lite"
-  },
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-10-20",
-   "titolo": "Gemini 2.5 Flash viene spento fra 0 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-20. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-google-gemini-2-5-flash"
-  },
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-10-20",
-   "titolo": "Gemini 2.5 Pro viene spento fra 0 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-20. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-google-gemini-2-5-pro"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-10-19",
-   "titolo": "DeepSeek Pro Latest: il prezzo in entrata scende del 42%",
-   "testo": "Da $0,225 a $0,131 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo--deepseek-deepseek-pro-latestprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-10-19",
-   "titolo": "DeepSeek Flash Latest: il prezzo in uscita scende del 75%",
-   "testo": "Da $0,6 a $0,15 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo--deepseek-deepseek-flash-latestcompletion"
   }
  ]
 }

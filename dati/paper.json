@@ -1,6 +1,69 @@
 {
- "aggiornato": "2026-10-20T20:14:39+00:00",
+ "aggiornato": "2026-10-21T09:46:52+00:00",
  "paper": [
+  {
+   "titolo": "Cache Engineering for Agents",
+   "data": "2026-10-20",
+   "url": "http://arxiv.org/abs/2610.28577v1",
+   "id": "2610.28577v1",
+   "sommario": "Large Language Model (LLM) agents can handle increasingly complex tasks, navigating long trajectories of observations and actions. As these trajectories grow, key-value (KV) cache I/O and storage become the dominant cost. Trajectories can also exceed the LLM's maximum context len"
+  },
+  {
+   "titolo": "GazeLens for Efficient Egocentric Video Question Answering with Simple Gaze-Driven Adaptive Token Reduction",
+   "data": "2026-10-20",
+   "url": "http://arxiv.org/abs/2610.28502v1",
+   "id": "2610.28502v1",
+   "sommario": "Smart glasses can help users understand their activities and surroundings, but small vision-language models must preserve useful evidence within limited computation. This is difficult because redundant frames consume the visual budget, while aggressive spatial compression can dis"
+  },
+  {
+   "titolo": "Asymmetric Looped Transformers: Fixed Global Representations for an Iterative Decoder",
+   "data": "2026-10-20",
+   "url": "http://arxiv.org/abs/2610.28489v1",
+   "id": "2610.28489v1",
+   "sommario": "Looped Transformers increase effective depth by repeatedly applying shared layers, offering a way to scale computation without increasing parameter count. However, full-stack looping places context construction and iterative state refinement within the same recurrent computation,"
+  },
+  {
+   "titolo": "Stratified Sparse Attention: Reducing the Sparse-to-Dense Gap at Extreme Sparsity",
+   "data": "2026-10-20",
+   "url": "http://arxiv.org/abs/2610.28441v1",
+   "id": "2610.28441v1",
+   "sommario": "Large Language Model inference over long contexts is increasingly bottlenecked by the cost of attending to a growing Key-Value (KV) cache. Sparse attention reduces this cost by accessing only a fraction of the cache, but existing methods face a trade-off between deterministic ret"
+  },
+  {
+   "titolo": "RACE: RoPE-Aligned Attention Compression Based on Query-Key Activation Energies",
+   "data": "2026-10-20",
+   "url": "http://arxiv.org/abs/2610.28385v1",
+   "id": "2610.28385v1",
+   "sommario": "Head-dimension compression can reduce the memory required by the key-value (KV) cache, but existing methods often reconstruct full-dimensional representations during inference, adding significant decoding FLOPs overhead. We formalize the design considerations for converting pretr"
+  },
+  {
+   "titolo": "Local Inference of LLMs on Long Contexts: A Data Systems Perspective",
+   "data": "2026-10-20",
+   "url": "http://arxiv.org/abs/2610.28223v1",
+   "id": "2610.28223v1",
+   "sommario": "Large language models can solve complex problems across a variety of subjects, such as mathematics and coding. For such complex analytical tasks, models with a long context perform better. Serving models with long context is currently mostly done on powerful systems with multiple"
+  },
+  {
+   "titolo": "Offline Makes Online Better: Calibrated Cache Compression for Video Generation",
+   "data": "2026-10-20",
+   "url": "http://arxiv.org/abs/2610.28192v1",
+   "id": "2610.28192v1",
+   "sommario": "Token merging is an effective approach to reducing KV-cache memory consumption in autoregressive video generation by clustering temporally redundant tokens and retaining only a small set of representatives. Existing methods, however, typically apply a uniform merging ratio across"
+  },
+  {
+   "titolo": "TeCoP: Accelerating Diffusion Large Language Model Decoding via Tentative Context Pipelining",
+   "data": "2026-10-20",
+   "url": "http://arxiv.org/abs/2610.27583v1",
+   "id": "2610.27583v1",
+   "sommario": "Diffusion large language models (dLLMs) predict multiple token positions per forward pass, yet block-wise decoders serialize generation and repeatedly recompute stable predictions. We attribute this inefficiency to coupling a prediction's readiness for irreversible commitment wit"
+  },
+  {
+   "titolo": "Look Before You Reason: Implicit Visual Thinking for Efficient Multimodal Reasoning",
+   "data": "2026-10-19",
+   "url": "http://arxiv.org/abs/2610.27341v1",
+   "id": "2610.27341v1",
+   "sommario": "Vision-language models (VLMs) have advanced rapidly in multimodal reasoning, yet they remain limited on tasks requiring fine-grained understanding of small or easily overlooked image regions. Recent thinking with images approaches mitigate this limitation by allowing models to in"
+  },
   {
    "titolo": "Supervised Learning with Quantum Hamiltonian Embeddings",
    "data": "2026-10-19",
@@ -18,72 +81,9 @@
   {
    "titolo": "MemT-1.0: Towards Memory-Native Evolution",
    "data": "2026-10-19",
-   "url": "http://arxiv.org/abs/2610.26825v1",
-   "id": "2610.26825v1",
+   "url": "http://arxiv.org/abs/2610.26825v2",
+   "id": "2610.26825v2",
    "sommario": "Memory-native evolution requires making memory an intrinsic capability of foundation models, enabling them to continuously accumulate and utilize information. To this end, we introduce MemT-1.0, a new architecture of memory foundation models that internalize memory as part of mod"
-  },
-  {
-   "titolo": "HAF-VLA: Hierarchical Action Flow Framework for Humanoid Vision-Language-Action Control",
-   "data": "2026-10-19",
-   "url": "http://arxiv.org/abs/2610.26584v1",
-   "id": "2610.26584v1",
-   "sommario": "Humanoid robots hold great promise as general-purpose agents in human-centered environments, yet adapting generalist vision-language-action (VLA) policies to real-world humanoid loco-manipulation remains challenging. Unlike fixed-base or wheeled manipulators, humanoids must coord"
-  },
-  {
-   "titolo": "ReInsVLN: Revisiting Historical Evidence for Training-Free Vision-and-Language Navigation",
-   "data": "2026-10-19",
-   "url": "http://arxiv.org/abs/2610.26545v1",
-   "id": "2610.26545v1",
-   "sommario": "Vision-and-language navigation (VLN) relies on retaining and using relevant observations. Yet growing histories introduce redundancy, and retained information may remain underused. We introduce ReInsBench, a diagnostic benchmark that examines history utilization through controlle"
-  },
-  {
-   "titolo": "R2-GP: Variance-Calibrated Priors for Additive Gaussian Processes",
-   "data": "2026-10-19",
-   "url": "http://arxiv.org/abs/2610.26437v1",
-   "id": "2610.26437v1",
-   "sommario": "We develop R2-GP, an R2D2-type prior for Gaussian process (GP) generalised additive models (GAMs) that calibrates explained variance ($R^2$) for Matérn covariance kernels. The function variance for standard Matérn kernels depends jointly on the effect magnitude and length-scale. "
-  },
-  {
-   "titolo": "An Empirical Study of Parameter-Efficient Fine-Tuning for Mixture-of-Experts LLMs",
-   "data": "2026-10-19",
-   "url": "http://arxiv.org/abs/2610.26370v1",
-   "id": "2610.26370v1",
-   "sommario": "Parameter-efficient fine-tuning (PEFT) methods are critical for adapting large models under resource-constrained settings. However, as mixture-of-experts (MoE) architectures, which offer efficient inference at massive parameter scales, gain increasing prevalence in the community,"
-  },
-  {
-   "titolo": "Dynamics-Aware Sparse Attention for Efficient Autoregressive Video Diffusion",
-   "data": "2026-10-19",
-   "url": "http://arxiv.org/abs/2610.26262v1",
-   "id": "2610.26262v1",
-   "sommario": "Autoregressive Diffusion Transformers have emerged as a powerful paradigm for long video generation. However, they are often constrained by prohibitive computational overhead and substantial memory footprints. This inefficiency arises from dense computation mechanisms that alloca"
-  },
-  {
-   "titolo": "TriTD: Tri-Partite Trajectory-Distribution Distillation for Real-Time Autoregressive Video Generation",
-   "data": "2026-10-19",
-   "url": "http://arxiv.org/abs/2610.26165v1",
-   "id": "2610.26165v1",
-   "sommario": "Autoregressive (AR) video diffusion has emerged as a leading paradigm for efficient video generation, yet its practical deployment remains bottlenecked by the trade-off between generation quality and inference efficiency. We attribute this bottleneck to three error sources in AR "
-  },
-  {
-   "titolo": "TempoMoE: Identifying and Steering Fast-Slow Thinking Experts for Efficient Multimodal Reasoning",
-   "data": "2026-10-19",
-   "url": "http://arxiv.org/abs/2610.25999v1",
-   "id": "2610.25999v1",
-   "sommario": "Multimodal Mixture-of-Experts (MoE) reasoning models rely on long chain-of-thought (CoT) for complex tasks, yet often overthink easy inputs, increasing token cost and latency, and sometimes degrading accuracy. Existing methods optimize reasoning length during training or impose e"
-  },
-  {
-   "titolo": "The KV-Surgeon: Compensation-Aware Offline KV-Cache Compaction",
-   "data": "2026-10-19",
-   "url": "http://arxiv.org/abs/2610.25933v1",
-   "id": "2610.25933v1",
-   "sommario": "Offline compaction of the key--value cache (KV-cache) reduces the cost of repeatedly querying a fixed context by constructing a smaller cache once and reusing it subsequently. The central challenge of compaction is deciding which cache entries to delete and which to retain. Exist"
-  },
-  {
-   "titolo": "Learning to Reason Efficiently with Interventional Step Credit",
-   "data": "2026-10-19",
-   "url": "http://arxiv.org/abs/2610.25876v1",
-   "id": "2610.25876v1",
-   "sommario": "Large reasoning models often produce lengthy chain-of-thought (CoT) traces mixing useful intermediate steps with unnecessary ones. Recent methods explore step-level signals such as attention mass and step entropy to identify and suppress unnecessary steps. Despite their effective"
   }
  ]
 }
