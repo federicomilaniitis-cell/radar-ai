@@ -1,6 +1,6 @@
 {
- "aggiornato": "2026-10-20T20:14:39+00:00",
- "aggiornato_it": "20 ottobre 2026",
+ "aggiornato": "2026-10-21T01:11:25+00:00",
+ "aggiornato_it": "21 ottobre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 386,
  "modelli": [
@@ -70,9 +70,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000003"
+    "prompt": "0.0000003",
+    "completion": "0.0000012",
+    "input_cache_read": "0.000000006"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -2063,9 +2063,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000001307",
+    "prompt": "0.000000225",
     "completion": "0.000008",
-    "input_cache_read": "0.00000013"
+    "input_cache_read": "0.00000023"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -2521,9 +2521,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000002832",
+    "prompt": "0.000000056",
     "completion": "0.00000012",
-    "input_cache_read": "0.000000000566"
+    "input_cache_read": "0.0000000016"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -3103,9 +3103,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000007506",
-    "completion": "0.0000022509",
-    "input_cache_read": "0.0000000378"
+    "prompt": "0.000000834",
+    "completion": "0.000002501",
+    "input_cache_read": "0.000000042"
    },
    "top_provider": {
     "max_completion_tokens": 64000
@@ -3145,7 +3145,7 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000048",
+    "prompt": "0.000000024",
     "completion": "0.00000012",
     "input_cache_read": "0.000000006"
    },
@@ -3226,7 +3226,7 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000048",
+    "prompt": "0.000000024",
     "completion": "0.00000012",
     "input_cache_read": "0.000000006"
    },
@@ -3718,7 +3718,7 @@
     "input_cache_read": "0.00000025"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 909000
    },
    "supported_parameters": [
     "reasoning",
@@ -4215,9 +4215,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000000392",
-    "completion": "0.00000012",
-    "input_cache_read": "0.000000003304"
+    "prompt": "0.0000000168",
+    "completion": "0.00000010728",
+    "input_cache_read": "0.00000000336"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -4258,9 +4258,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000001298",
-    "completion": "0.0000003894",
-    "input_cache_read": "0.00000000413"
+    "prompt": "0.00000044",
+    "completion": "0.00000132",
+    "input_cache_read": "0.000000014"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -5433,9 +5433,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000825",
-    "completion": "0.00000033",
-    "input_cache_read": "0.000000020625"
+    "prompt": "0.000000132",
+    "completion": "0.000000528",
+    "input_cache_read": "0.000000033"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -6873,9 +6873,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000238",
-    "completion": "0.000024",
-    "input_cache_read": "0.000000228"
+    "prompt": "0.000000239",
+    "completion": "0.000011936",
+    "input_cache_read": "0.00000021"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -7261,9 +7261,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000365052",
-    "completion": "0.000000730104",
-    "input_cache_read": "0.000000030421"
+    "prompt": "0.00000095526",
+    "completion": "0.00000191052",
+    "input_cache_read": "0.000000079605"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -7678,12 +7678,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000966",
-    "completion": "0.000003036",
-    "input_cache_read": "0.0000001794"
+    "prompt": "0.0000014",
+    "completion": "0.0000044",
+    "input_cache_read": "0.00000026"
    },
    "top_provider": {
-    "max_completion_tokens": 128000
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -8429,8 +8429,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000008",
-    "completion": "0.00000045"
+    "prompt": "0.0000003",
+    "completion": "0.0000024",
+    "input_cache_read": "0.00000015"
    },
    "top_provider": {
     "max_completion_tokens": 235929
@@ -8557,7 +8558,6 @@
    "context_length": 262144,
    "description": "Qwen3.5-9B is a multimodal foundation model from the Qwen3.5 family, designed to deliver strong reasoning, coding, and visual understanding in an efficient 9B-parameter architecture. It uses a unified vision-language design...",
    "hugging_face_id": "Qwen/Qwen3.5-9B",
-   "expiration_date": "2026-10-21",
    "architecture": {
     "input_modalities": [
      "text",
@@ -8570,11 +8570,12 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000001",
-    "completion": "0.00000015"
+    "prompt": "0.00000008",
+    "completion": "0.00000013",
+    "input_cache_read": "0.00000004"
    },
    "top_provider": {
-    "max_completion_tokens": 32768
+    "max_completion_tokens": 65536
    },
    "supported_parameters": [
     "reasoning",
@@ -11780,12 +11781,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000001",
-    "completion": "0.0000011",
-    "input_cache_read": "0.00000007"
+    "prompt": "0.00000009",
+    "completion": "0.0000011"
    },
    "top_provider": {
-    "max_completion_tokens": 235929
+    "max_completion_tokens": 16384
    },
    "supported_parameters": [
     "structured_outputs",
