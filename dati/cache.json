@@ -1,9 +1,42 @@
 {
- "aggiornato": "2026-10-21T15:47:32+00:00",
+ "aggiornato": "2026-10-21T20:25:44+00:00",
  "aggiornato_it": "21 ottobre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 386,
+ "totale": 387,
  "modelli": [
+  {
+   "id": "recursive/flint-v1.0:free",
+   "name": "Recursive: Flint (free)",
+   "created": 1792422073,
+   "context_length": 262144,
+   "description": "Flint is an open-weight mixture-of-experts model from Recursive, with about 2.5B active parameters out of 40B total, built by Recursive's autoresearch system Eureka Machine for coding agents. It is suited...",
+   "hugging_face_id": "RecursiveSI/flint",
+   "architecture": {
+    "input_modalities": [
+     "text"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text->text"
+   },
+   "pricing": {
+    "prompt": "0",
+    "completion": "0"
+   },
+   "top_provider": {
+    "max_completion_tokens": 235929
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": true
+   },
+   "ha_versione_gratuita": true
+  },
   {
    "id": "minimax/minimax-m3.1-flash:free",
    "name": "MiniMax: MiniMax M3.1 Flash (free)",
@@ -3103,9 +3136,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000834",
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042"
+    "prompt": "0.0000007506",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378"
    },
    "top_provider": {
     "max_completion_tokens": 64000
@@ -3145,9 +3178,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000041191",
-    "completion": "0.00000012",
-    "input_cache_read": "0.00000000375"
+    "prompt": "0.00000000441",
+    "completion": "0.000000134175",
+    "input_cache_read": "0.00000000315"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -3226,9 +3259,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000041191",
-    "completion": "0.00000012",
-    "input_cache_read": "0.00000000375"
+    "prompt": "0.00000000441",
+    "completion": "0.000000134175",
+    "input_cache_read": "0.00000000315"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -5433,9 +5466,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000132",
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033"
+    "prompt": "0.0000000825",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -6874,7 +6907,7 @@
    },
    "pricing": {
     "prompt": "0.000000238",
-    "completion": "0.000024",
+    "completion": "0.000016",
     "input_cache_read": "0.000000228"
    },
    "top_provider": {
@@ -7261,9 +7294,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000427518",
-    "completion": "0.000000855036",
-    "input_cache_read": "0.0000000356265"
+    "prompt": "0.000000403854",
+    "completion": "0.000000807708",
+    "input_cache_read": "0.0000000336545"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -7720,9 +7753,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000009",
-    "completion": "0.0000003",
-    "input_cache_read": "0.00000005"
+    "prompt": "0.0000000765",
+    "completion": "0.000000255",
+    "input_cache_read": "0.0000000425"
    },
    "top_provider": {
     "max_completion_tokens": 235929
@@ -8427,8 +8460,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000008",
-    "completion": "0.00000045"
+    "prompt": "0.0000003",
+    "completion": "0.0000024",
+    "input_cache_read": "0.00000015"
    },
    "top_provider": {
     "max_completion_tokens": 235929
