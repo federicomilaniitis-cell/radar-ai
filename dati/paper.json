@@ -1,6 +1,34 @@
 {
- "aggiornato": "2026-10-22T01:08:39+00:00",
+ "aggiornato": "2026-10-22T09:47:09+00:00",
  "paper": [
+  {
+   "titolo": "HAWK: Heterogeneity-Aware KV Cache Transfer for Efficient GPU-NPU Phase-Disaggregated LLM Inference",
+   "data": "2026-10-21",
+   "url": "http://arxiv.org/abs/2610.29873v1",
+   "id": "2610.29873v1",
+   "sommario": "Large language model (LLM) inference exhibits distinct computational characteristics across its two phases: prefill is compute-intensive, whereas decode is more memory-bound. As a result, AI accelerators achieve varying levels of efficiency across the two phases. GPUs are well su"
+  },
+  {
+   "titolo": "UlaCache: Unified Logical Addressing for Sparse LLM Serving",
+   "data": "2026-10-21",
+   "url": "http://arxiv.org/abs/2610.29820v1",
+   "id": "2610.29820v1",
+   "sommario": "Long contexts increase the memory cost of the key-value (KV) cache in large language model (LLM) inference. Sparse attention reduces attention computation and memory traffic by selecting historical tokens, but the retained KV cache must remain available for later decoding steps. "
+  },
+  {
+   "titolo": "Retrieval Augmented Generation Compositionality",
+   "data": "2026-10-21",
+   "url": "http://arxiv.org/abs/2610.29722v1",
+   "id": "2610.29722v1",
+   "sommario": "Retrieval Augmented Generation (RAG) grounds large language models in external knowledge. Modern pipelines combine embedding, chunking, retrieval, reranking, query augmentation, context compression, and agentic verification, yet these techniques are typically evaluated one at a t"
+  },
+  {
+   "titolo": "Bio-Inspired Auditory Processing: Coupling Parallel Resonate-and-Fire Dynamics with Ternary Recurrent Networks for Speech Recognition",
+   "data": "2026-10-21",
+   "url": "http://arxiv.org/abs/2610.29720v1",
+   "id": "2610.29720v1",
+   "sommario": "Spiking Neural Networks (SNNs) promise energy-efficient inference through sparse, event-driven computation, yet remain constrained on continuous, context-dependent tasks such as automatic speech recognition (ASR). A key bottleneck is the Leaky Integrate-and-Fire (LIF) neuron, who"
+  },
   {
    "titolo": "RISK-KV: Quality-Aware Selective KV Cache Reconstruction for Distributed LLM Inference",
    "data": "2026-10-21",
@@ -56,34 +84,6 @@
    "url": "http://arxiv.org/abs/2610.28385v1",
    "id": "2610.28385v1",
    "sommario": "Head-dimension compression can reduce the memory required by the key-value (KV) cache, but existing methods often reconstruct full-dimensional representations during inference, adding significant decoding FLOPs overhead. We formalize the design considerations for converting pretr"
-  },
-  {
-   "titolo": "Local Inference of LLMs on Long Contexts: A Data Systems Perspective",
-   "data": "2026-10-20",
-   "url": "http://arxiv.org/abs/2610.28223v1",
-   "id": "2610.28223v1",
-   "sommario": "Large language models can solve complex problems across a variety of subjects, such as mathematics and coding. For such complex analytical tasks, models with a long context perform better. Serving models with long context is currently mostly done on powerful systems with multiple"
-  },
-  {
-   "titolo": "Offline Makes Online Better: Calibrated Cache Compression for Video Generation",
-   "data": "2026-10-20",
-   "url": "http://arxiv.org/abs/2610.28192v1",
-   "id": "2610.28192v1",
-   "sommario": "Token merging is an effective approach to reducing KV-cache memory consumption in autoregressive video generation by clustering temporally redundant tokens and retaining only a small set of representatives. Existing methods, however, typically apply a uniform merging ratio across"
-  },
-  {
-   "titolo": "TeCoP: Accelerating Diffusion Large Language Model Decoding via Tentative Context Pipelining",
-   "data": "2026-10-20",
-   "url": "http://arxiv.org/abs/2610.27583v1",
-   "id": "2610.27583v1",
-   "sommario": "Diffusion large language models (dLLMs) predict multiple token positions per forward pass, yet block-wise decoders serialize generation and repeatedly recompute stable predictions. We attribute this inefficiency to coupling a prediction's readiness for irreversible commitment wit"
-  },
-  {
-   "titolo": "Look Before You Reason: Implicit Visual Thinking for Efficient Multimodal Reasoning",
-   "data": "2026-10-19",
-   "url": "http://arxiv.org/abs/2610.27341v1",
-   "id": "2610.27341v1",
-   "sommario": "Vision-language models (VLMs) have advanced rapidly in multimodal reasoning, yet they remain limited on tasks requiring fine-grained understanding of small or easily overlooked image regions. Recent thinking with images approaches mitigate this limitation by allowing models to in"
   }
  ]
 }
