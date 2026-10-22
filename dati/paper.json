@@ -1,6 +1,27 @@
 {
- "aggiornato": "2026-10-21T20:25:44+00:00",
+ "aggiornato": "2026-10-22T01:08:39+00:00",
  "paper": [
+  {
+   "titolo": "RISK-KV: Quality-Aware Selective KV Cache Reconstruction for Distributed LLM Inference",
+   "data": "2026-10-21",
+   "url": "http://arxiv.org/abs/2610.29544v1",
+   "id": "2610.29544v1",
+   "sommario": "Request migration and interruption recovery in distributed large language model (LLM) inference rely on historical key-value (KV) caches. Retaining or transferring a complete cache incurs substantial state overhead, whereas replaying historical tokens requires additional computat"
+  },
+  {
+   "titolo": "Cache Locally, Recompute Selectively for Streaming Video Understanding",
+   "data": "2026-10-21",
+   "url": "http://arxiv.org/abs/2610.29229v1",
+   "id": "2610.29229v1",
+   "sommario": "Streaming video understanding (SVU) requires video-LLMs to process incoming video continuously while answering user queries with low latency. Recent methods reduce query-time cost by prefilling frames into KV caches during idle time and reusing the cached KVs at query time. To bo"
+  },
+  {
+   "titolo": "Resuming Vision-Language Inference across Onboard Interruptions",
+   "data": "2026-10-21",
+   "url": "http://arxiv.org/abs/2610.29183v1",
+   "id": "2610.29183v1",
+   "sommario": "Executing vision-language models (VLMs) aboard low-Earth orbit satellites enables flexible processing of observation data without first downlinking it to the ground. On commercial off-the-shelf payloads, however, a request may span multiple execution windows: power and thermal co"
+  },
   {
    "titolo": "Cache Engineering for Agents",
    "data": "2026-10-20",
@@ -63,27 +84,6 @@
    "url": "http://arxiv.org/abs/2610.27341v1",
    "id": "2610.27341v1",
    "sommario": "Vision-language models (VLMs) have advanced rapidly in multimodal reasoning, yet they remain limited on tasks requiring fine-grained understanding of small or easily overlooked image regions. Recent thinking with images approaches mitigate this limitation by allowing models to in"
-  },
-  {
-   "titolo": "Supervised Learning with Quantum Hamiltonian Embeddings",
-   "data": "2026-10-19",
-   "url": "http://arxiv.org/abs/2610.26833v1",
-   "id": "2610.26833v1",
-   "sommario": "Machine learning is widely regarded as a promising application in which quantum computing could offer a computational advantage. However, general quantum machine learning models with provable guarantees on performance, trainability, and efficient inference remain limited. In this"
-  },
-  {
-   "titolo": "KEEP-Bench: Evaluating Evidence Preservation in Context Compression",
-   "data": "2026-10-19",
-   "url": "http://arxiv.org/abs/2610.26827v1",
-   "id": "2610.26827v1",
-   "sommario": "Context compression improves long-context efficiency but may introduce faithfulness issues through an information bottleneck. Existing evaluations rely on QA metrics, but a reader can still answer correctly from an unfaithful compression, so these metrics underestimate such loss."
-  },
-  {
-   "titolo": "MemT-1.0: Towards Memory-Native Evolution",
-   "data": "2026-10-19",
-   "url": "http://arxiv.org/abs/2610.26825v2",
-   "id": "2610.26825v2",
-   "sommario": "Memory-native evolution requires making memory an intrinsic capability of foundation models, enabling them to continuously accumulate and utilize information. To this end, we introduce MemT-1.0, a new architecture of memory foundation models that internalize memory as part of mod"
   }
  ]
 }
