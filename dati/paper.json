@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-22T09:47:09+00:00",
+ "aggiornato": "2026-10-22T15:45:52+00:00",
  "paper": [
   {
    "titolo": "HAWK: Heterogeneity-Aware KV Cache Transfer for Efficient GPU-NPU Phase-Disaggregated LLM Inference",
