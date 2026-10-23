@@ -1,6 +1,34 @@
 {
- "aggiornato": "2026-10-22T15:45:52+00:00",
+ "aggiornato": "2026-10-23T01:08:04+00:00",
  "paper": [
+  {
+   "titolo": "SARIA: Persistence-Aware KV Caching with Coordinated DRAM--SSD Reload for LLM Agents",
+   "data": "2026-10-22",
+   "url": "http://arxiv.org/abs/2610.31169v1",
+   "id": "2610.31169v1",
+   "sommario": "Multi-turn LLM agents usually reuse long context prefixes, making key value (KV) caching crucial for reducing prefill latency. SSDs provide a low-cost extension to limited DRAM capacity but introduce two key challenges. Eagerly persisting all KV cache blocks incurs substantial wr"
+  },
+  {
+   "titolo": "RIFT: KV Cache Compression for Draft Models with Complementary Compressibility Training",
+   "data": "2026-10-22",
+   "url": "http://arxiv.org/abs/2610.31098v1",
+   "id": "2610.31098v1",
+   "sommario": "Speculative decoding is a popular decode acceleration method. As such, it is particularly relevant to long-output generation, which requires an increasingly large KV cache. KV cache compression offers a way to constrain costs in long-context drafting. However, compression methods"
+  },
+  {
+   "titolo": "ICGF-CXRMate: Image-Conditioned Clinical Context Compression and Gated Fusion for Chest X-ray Report Generation",
+   "data": "2026-10-22",
+   "url": "http://arxiv.org/abs/2610.30928v1",
+   "id": "2610.30928v1",
+   "sommario": "Auxiliary patient data can improve chest X-ray report generation, but directly concatenating heterogeneous clinical information with visual tokens produces long, variable-length decoder prompts and may expose the model to redundant or image-irrelevant context. We propose ICGF-CXR"
+  },
+  {
+   "titolo": "Gandalf: Flash Shall Not Die! Increasing Flash Storage Lifetime for KV Cache Offloading in LLM Serving",
+   "data": "2026-10-22",
+   "url": "http://arxiv.org/abs/2610.30791v1",
+   "id": "2610.30791v1",
+   "sommario": "KV caching reduces the serving cost of large language models (LLMs), but the growing KV cache footprint is increasingly exceeds GPU and host-memory capacity. Therefore, people use SSD to expand the KV cache storage capacity with high I/O bandwidth. However, in production LLM work"
+  },
   {
    "titolo": "HAWK: Heterogeneity-Aware KV Cache Transfer for Efficient GPU-NPU Phase-Disaggregated LLM Inference",
    "data": "2026-10-21",
@@ -30,6 +58,13 @@
    "sommario": "Spiking Neural Networks (SNNs) promise energy-efficient inference through sparse, event-driven computation, yet remain constrained on continuous, context-dependent tasks such as automatic speech recognition (ASR). A key bottleneck is the Leaky Integrate-and-Fire (LIF) neuron, who"
   },
   {
+   "titolo": "MoEZip: Routing-Aware KV Cache Compression for Sparse Mixture-of-Experts LLMs",
+   "data": "2026-10-21",
+   "url": "http://arxiv.org/abs/2610.30206v1",
+   "id": "2610.30206v1",
+   "sommario": "Mixture-of-Experts (MoE) language models scale model capacity efficiently by activating a small subset of parameters per token. However, in long-context inference, memory remains a major bottleneck because the KV cache grows linearly with sequence length. Existing KV cache compre"
+  },
+  {
    "titolo": "RISK-KV: Quality-Aware Selective KV Cache Reconstruction for Distributed LLM Inference",
    "data": "2026-10-21",
    "url": "http://arxiv.org/abs/2610.29544v1",
@@ -49,41 +84,6 @@
    "url": "http://arxiv.org/abs/2610.29183v1",
    "id": "2610.29183v1",
    "sommario": "Executing vision-language models (VLMs) aboard low-Earth orbit satellites enables flexible processing of observation data without first downlinking it to the ground. On commercial off-the-shelf payloads, however, a request may span multiple execution windows: power and thermal co"
-  },
-  {
-   "titolo": "Cache Engineering for Agents",
-   "data": "2026-10-20",
-   "url": "http://arxiv.org/abs/2610.28577v1",
-   "id": "2610.28577v1",
-   "sommario": "Large Language Model (LLM) agents can handle increasingly complex tasks, navigating long trajectories of observations and actions. As these trajectories grow, key-value (KV) cache I/O and storage become the dominant cost. Trajectories can also exceed the LLM's maximum context len"
-  },
-  {
-   "titolo": "GazeLens for Efficient Egocentric Video Question Answering with Simple Gaze-Driven Adaptive Token Reduction",
-   "data": "2026-10-20",
-   "url": "http://arxiv.org/abs/2610.28502v1",
-   "id": "2610.28502v1",
-   "sommario": "Smart glasses can help users understand their activities and surroundings, but small vision-language models must preserve useful evidence within limited computation. This is difficult because redundant frames consume the visual budget, while aggressive spatial compression can dis"
-  },
-  {
-   "titolo": "Asymmetric Looped Transformers: Fixed Global Representations for an Iterative Decoder",
-   "data": "2026-10-20",
-   "url": "http://arxiv.org/abs/2610.28489v1",
-   "id": "2610.28489v1",
-   "sommario": "Looped Transformers increase effective depth by repeatedly applying shared layers, offering a way to scale computation without increasing parameter count. However, full-stack looping places context construction and iterative state refinement within the same recurrent computation,"
-  },
-  {
-   "titolo": "Stratified Sparse Attention: Reducing the Sparse-to-Dense Gap at Extreme Sparsity",
-   "data": "2026-10-20",
-   "url": "http://arxiv.org/abs/2610.28441v1",
-   "id": "2610.28441v1",
-   "sommario": "Large Language Model inference over long contexts is increasingly bottlenecked by the cost of attending to a growing Key-Value (KV) cache. Sparse attention reduces this cost by accessing only a fraction of the cache, but existing methods face a trade-off between deterministic ret"
-  },
-  {
-   "titolo": "RACE: RoPE-Aligned Attention Compression Based on Query-Key Activation Energies",
-   "data": "2026-10-20",
-   "url": "http://arxiv.org/abs/2610.28385v1",
-   "id": "2610.28385v1",
-   "sommario": "Head-dimension compression can reduce the memory required by the key-value (KV) cache, but existing methods often reconstruct full-dimensional representations during inference, adding significant decoding FLOPs overhead. We formalize the design considerations for converting pretr"
   }
  ]
 }
