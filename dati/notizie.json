@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-23T09:42:25+00:00",
+ "aggiornato": "2026-10-23T15:36:07+00:00",
  "notizie": [
   {
    "tag": "crit",
@@ -92,13 +92,40 @@
    "id": "fine-nousresearch-hermes-3-llama-3-1-405b"
   },
   {
-   "tag": "warn",
-   "tagT": "Prezzo su'",
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
    "data": "2026-10-23",
-   "titolo": "DeepSeek Pro Latest: il prezzo in entrata sale del 14%",
-   "testo": "Da $0,225 a $0,257 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
+   "titolo": "DeepSeek V4.1 Flash 1017: il prezzo in entrata scende del 50%",
+   "testo": "Da $0,3 a $0,15 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-deepseek-deepseek-v4-1-flash-1017prompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-10-23",
+   "titolo": "DeepSeek V4.1 Flash 1017: il prezzo in uscita scende del 50%",
+   "testo": "Da $1,2 a $0,6 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-deepseek-deepseek-v4-1-flash-1017completion"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-10-23",
+   "titolo": "DeepSeek Pro Latest: il prezzo in entrata scende del 54%",
+   "testo": "Da $0,257 a $0,119 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
    "id": "prezzo--deepseek-deepseek-pro-latestprompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-10-23",
+   "titolo": "DeepSeek Flash Latest: il prezzo in entrata scende del 69%",
+   "testo": "Da $0,07 a $0,022 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo--deepseek-deepseek-flash-latestprompt"
   },
   {
    "tag": "warn",
@@ -185,37 +212,10 @@
    "tag": "ok",
    "tagT": "Prezzo giu'",
    "data": "2026-10-22",
-   "titolo": "DeepSeek V4.1 Flash 1017: il prezzo in entrata scende del 50%",
-   "testo": "Da $0,3 a $0,15 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-deepseek-deepseek-v4-1-flash-1017prompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-10-22",
-   "titolo": "DeepSeek V4.1 Flash 1017: il prezzo in uscita scende del 50%",
-   "testo": "Da $1,2 a $0,6 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-deepseek-deepseek-v4-1-flash-1017completion"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-10-22",
    "titolo": "Beam 1.0 501B A23B: il prezzo in entrata scende del 17%",
    "testo": "Da $0,3 a $0,25 per milione di token in entrata.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
    "id": "prezzo-reflection-beam-1-0-501b-a23bprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-10-22",
-   "titolo": "GLM Flash Latest: il prezzo in entrata scende del 5%",
-   "testo": "Da $0,005 a $0,005 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo--z-ai-glm-flash-latestprompt"
   }
  ]
 }
