@@ -1,6 +1,34 @@
 {
- "aggiornato": "2026-10-23T01:08:04+00:00",
+ "aggiornato": "2026-10-23T09:42:25+00:00",
  "paper": [
+  {
+   "titolo": "BeNice! Closing Looping's Inference-Memory Gap via KV-Sharing",
+   "data": "2026-10-22",
+   "url": "http://arxiv.org/abs/2610.31633v1",
+   "id": "2610.31633v1",
+   "sommario": "Looped architectures scale quality while keeping parameter count fixed by repeatedly passing activations through the same block of layers. During inference, each recurrence generates independent KV-caches, causing memory to grow linearly. To address this challenge, prior work has"
+  },
+  {
+   "titolo": "Evaluating the Applicability of LLM Inference Optimizations on Apple Silicon",
+   "data": "2026-10-22",
+   "url": "http://arxiv.org/abs/2610.31479v1",
+   "id": "2610.31479v1",
+   "sommario": "Apple Silicon is among the most widely used platforms for local LLM inference, yet nearly all inference optimizations are designed and validated on server-class NVIDIA GPUs under batched serving workloads. Which optimizations retain their benefits when moved to Apple Silicon, and"
+  },
+  {
+   "titolo": "Drift Says When, Budget Says How Much: Rate-Controlled KV Re-selection for Long-Form Multimodal Generation",
+   "data": "2026-10-22",
+   "url": "http://arxiv.org/abs/2610.31433v1",
+   "id": "2610.31433v1",
+   "sommario": "KV cache compression for multimodal LLMs usually selects the visual tokens to keep once, at prefill, and reuses that selection for the whole generation. We show that this one-shot selection is severely limited on long-form generation: on detailed image description, even an oracle"
+  },
+  {
+   "titolo": "Stream4D: Streaming 4D Reconstruction with Training-free Motion Decoupling via Causal KV-Cache Attention",
+   "data": "2026-10-22",
+   "url": "http://arxiv.org/abs/2610.31320v1",
+   "id": "2610.31320v1",
+   "sommario": "4D scene reconstruction requires robust handling of dynamic objects, yet existing streaming methods commonly assume static scenes, leading to pose drift and ghosting artifacts over long sequences. We introduce Stream4D, a training-free, motion-decoupled streaming reconstruction f"
+  },
   {
    "titolo": "SARIA: Persistence-Aware KV Caching with Coordinated DRAM--SSD Reload for LLM Agents",
    "data": "2026-10-22",
@@ -56,34 +84,6 @@
    "url": "http://arxiv.org/abs/2610.29720v1",
    "id": "2610.29720v1",
    "sommario": "Spiking Neural Networks (SNNs) promise energy-efficient inference through sparse, event-driven computation, yet remain constrained on continuous, context-dependent tasks such as automatic speech recognition (ASR). A key bottleneck is the Leaky Integrate-and-Fire (LIF) neuron, who"
-  },
-  {
-   "titolo": "MoEZip: Routing-Aware KV Cache Compression for Sparse Mixture-of-Experts LLMs",
-   "data": "2026-10-21",
-   "url": "http://arxiv.org/abs/2610.30206v1",
-   "id": "2610.30206v1",
-   "sommario": "Mixture-of-Experts (MoE) language models scale model capacity efficiently by activating a small subset of parameters per token. However, in long-context inference, memory remains a major bottleneck because the KV cache grows linearly with sequence length. Existing KV cache compre"
-  },
-  {
-   "titolo": "RISK-KV: Quality-Aware Selective KV Cache Reconstruction for Distributed LLM Inference",
-   "data": "2026-10-21",
-   "url": "http://arxiv.org/abs/2610.29544v1",
-   "id": "2610.29544v1",
-   "sommario": "Request migration and interruption recovery in distributed large language model (LLM) inference rely on historical key-value (KV) caches. Retaining or transferring a complete cache incurs substantial state overhead, whereas replaying historical tokens requires additional computat"
-  },
-  {
-   "titolo": "Cache Locally, Recompute Selectively for Streaming Video Understanding",
-   "data": "2026-10-21",
-   "url": "http://arxiv.org/abs/2610.29229v1",
-   "id": "2610.29229v1",
-   "sommario": "Streaming video understanding (SVU) requires video-LLMs to process incoming video continuously while answering user queries with low latency. Recent methods reduce query-time cost by prefilling frames into KV caches during idle time and reusing the cached KVs at query time. To bo"
-  },
-  {
-   "titolo": "Resuming Vision-Language Inference across Onboard Interruptions",
-   "data": "2026-10-21",
-   "url": "http://arxiv.org/abs/2610.29183v1",
-   "id": "2610.29183v1",
-   "sommario": "Executing vision-language models (VLMs) aboard low-Earth orbit satellites enables flexible processing of observation data without first downlinking it to the ground. On commercial off-the-shelf payloads, however, a request may span multiple execution windows: power and thermal co"
   }
  ]
 }

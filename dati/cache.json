@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-23T01:08:04+00:00",
+ "aggiornato": "2026-10-23T09:42:25+00:00",
  "aggiornato_it": "23 ottobre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 387,
@@ -40,8 +40,9 @@
    "id": "minimax/minimax-m3.1-flash",
    "name": "MiniMax: MiniMax M3.1 Flash",
    "created": 1792379569,
-   "context_length": 1000000,
+   "context_length": 1048576,
    "description": "MiniMax-M3.1-Flash is a multimodal model from MiniMax. Compared with M3, it delivers significant improvements across multiple benchmarks, particularly in complex agentic tasks, coding, and cybersecurity. It is built for complex,...",
+   "hugging_face_id": "MiniMaxAI/MiniMax-M3.1-Flash",
    "architecture": {
     "input_modalities": [
      "text",
@@ -63,6 +64,7 @@
    },
    "supported_parameters": [
     "reasoning",
+    "structured_outputs",
     "tools"
    ],
    "reasoning": {
@@ -2096,9 +2098,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000225",
+    "prompt": "0.0000002565",
     "completion": "0.000008",
-    "input_cache_read": "0.00000023"
+    "input_cache_read": "0.00000026"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -2554,8 +2556,8 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.000000165",
-    "completion": "0.00000066",
+    "prompt": "0.0000003",
+    "completion": "0.0000012",
     "input_cache_read": "0.000000006"
    },
    "top_provider": {
@@ -3574,12 +3576,12 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000004",
-    "completion": "0.00000135",
-    "input_cache_read": "0.000000018"
+    "prompt": "0.0000002",
+    "completion": "0.0000025",
+    "input_cache_read": "0.00000009"
    },
    "top_provider": {
-    "max_completion_tokens": 65536
+    "max_completion_tokens": 235929
    },
    "supported_parameters": [
     "reasoning",
@@ -7753,9 +7755,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000000765",
-    "completion": "0.000000255",
-    "input_cache_read": "0.0000000425"
+    "prompt": "0.00000009",
+    "completion": "0.0000003",
+    "input_cache_read": "0.00000005"
    },
    "top_provider": {
     "max_completion_tokens": 235929
@@ -8602,12 +8604,11 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000008",
-    "completion": "0.00000013",
-    "input_cache_read": "0.00000004"
+    "prompt": "0.00000017",
+    "completion": "0.00000025"
    },
    "top_provider": {
-    "max_completion_tokens": 65536
+    "max_completion_tokens": 235929
    },
    "supported_parameters": [
     "reasoning",
