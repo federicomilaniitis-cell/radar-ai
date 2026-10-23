@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-23T15:36:07+00:00",
+ "aggiornato": "2026-10-23T20:10:32+00:00",
  "notizie": [
   {
    "tag": "crit",
@@ -95,6 +95,42 @@
    "tag": "ok",
    "tagT": "Prezzo giu'",
    "data": "2026-10-23",
+   "titolo": "DeepSeek Flash Latest: il prezzo in uscita scende del 17%",
+   "testo": "Da $0,6 a $0,5 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo--deepseek-deepseek-flash-latestcompletion"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-10-23",
+   "titolo": "Hy4 preview: il prezzo in entrata scende del 10%",
+   "testo": "Da $0,834 a $0,751 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-tencent-hy4-previewprompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-10-23",
+   "titolo": "Hy4 preview: il prezzo in uscita scende del 10%",
+   "testo": "Da $2,5 a $2,25 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-tencent-hy4-previewcompletion"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-10-23",
+   "titolo": "Kimi K3: il prezzo in uscita scende del 10%",
+   "testo": "Da $11,94 a $10,8 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-moonshotai-kimi-k3completion"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-10-23",
    "titolo": "DeepSeek V4.1 Flash 1017: il prezzo in entrata scende del 50%",
    "testo": "Da $0,3 a $0,15 per milione di token in entrata.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
@@ -176,46 +212,10 @@
    "tag": "ok",
    "tagT": "Prezzo giu'",
    "data": "2026-10-22",
-   "titolo": "Hy4 preview: il prezzo in entrata scende del 10%",
-   "testo": "Da $0,834 a $0,751 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-tencent-hy4-previewprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-10-22",
-   "titolo": "Hy4 preview: il prezzo in uscita scende del 10%",
-   "testo": "Da $2,5 a $2,25 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-tencent-hy4-previewcompletion"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-10-22",
    "titolo": "Hy3: il prezzo in entrata scende del 38%",
    "testo": "Da $0,132 a $0,083 per milione di token in entrata.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
    "id": "prezzo-tencent-hy3prompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-10-22",
-   "titolo": "Hy3: il prezzo in uscita scende del 38%",
-   "testo": "Da $0,528 a $0,33 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-tencent-hy3completion"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-10-22",
-   "titolo": "Beam 1.0 501B A23B: il prezzo in entrata scende del 17%",
-   "testo": "Da $0,3 a $0,25 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-reflection-beam-1-0-501b-a23bprompt"
   }
  ]
 }

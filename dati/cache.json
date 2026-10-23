@@ -1,9 +1,52 @@
 {
- "aggiornato": "2026-10-23T15:36:07+00:00",
+ "aggiornato": "2026-10-23T20:10:32+00:00",
  "aggiornato_it": "23 ottobre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 387,
+ "totale": 388,
  "modelli": [
+  {
+   "id": "moonshotai/kimi-k3.1-pro",
+   "name": "MoonshotAI: Kimi K3.1 Pro",
+   "created": 1792778188,
+   "context_length": 1048576,
+   "description": "Kimi K3.1 Pro is Moonshot AI's flagship open-weight multimodal reasoning model and a post-trained successor to Kimi K3, with a 1M-token context window. It is built for long-horizon coding, 3D...",
+   "architecture": {
+    "input_modalities": [
+     "text",
+     "image",
+     "video"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image+video->text"
+   },
+   "pricing": {
+    "prompt": "0.000002",
+    "completion": "0.00001",
+    "input_cache_read": "0.0000002"
+   },
+   "top_provider": {
+    "max_completion_tokens": 943718
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": false,
+    "default_enabled": true,
+    "supported_efforts": [
+     "max",
+     "high",
+     "low",
+     "none"
+    ],
+    "default_effort": "max"
+   },
+   "ha_versione_gratuita": false
+  },
   {
    "id": "recursive/flint-v1.0:free",
    "name": "Recursive: Flint (free)",
@@ -2139,9 +2182,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.000000022",
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000003"
+    "prompt": "0.00000007",
+    "completion": "0.0000005",
+    "input_cache_read": "0.000000008"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -3138,9 +3181,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000834",
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042"
+    "prompt": "0.0000007506",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378"
    },
    "top_provider": {
     "max_completion_tokens": 64000
@@ -4907,7 +4950,7 @@
    },
    "pricing": {
     "prompt": "0.000000239",
-    "completion": "0.000011936",
+    "completion": "0.0000108",
     "input_cache_read": "0.00000021"
    },
    "top_provider": {
@@ -5468,9 +5511,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000132",
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033"
+    "prompt": "0.0000000825",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -5882,8 +5925,8 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.0000006712",
-    "completion": "0.00000335",
+    "prompt": "0.0000006725",
+    "completion": "0.0000031",
     "input_cache_read": "0.00000015"
    },
    "top_provider": {
@@ -6909,7 +6952,7 @@
    },
    "pricing": {
     "prompt": "0.000000238",
-    "completion": "0.000016",
+    "completion": "0.000024",
     "input_cache_read": "0.000000228"
    },
    "top_provider": {
@@ -7296,9 +7339,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000885312",
-    "completion": "0.000001770624",
-    "input_cache_read": "0.000000073776"
+    "prompt": "0.000000763686",
+    "completion": "0.000001527372",
+    "input_cache_read": "0.0000000636405"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -7755,9 +7798,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000009",
-    "completion": "0.0000003",
-    "input_cache_read": "0.00000005"
+    "prompt": "0.0000000675",
+    "completion": "0.000000225",
+    "input_cache_read": "0.0000000375"
    },
    "top_provider": {
     "max_completion_tokens": 235929
