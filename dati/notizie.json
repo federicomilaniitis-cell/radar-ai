@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-25T14:43:01+00:00",
+ "aggiornato": "2026-10-25T19:24:57+00:00",
  "notizie": [
   {
    "tag": "crit",
@@ -95,6 +95,42 @@
    "tag": "ok",
    "tagT": "Prezzo giu'",
    "data": "2026-10-25",
+   "titolo": "Hy4 preview: il prezzo in entrata scende del 10%",
+   "testo": "Da $0,834 a $0,751 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-tencent-hy4-previewprompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-10-25",
+   "titolo": "Hy4 preview: il prezzo in uscita scende del 10%",
+   "testo": "Da $2,5 a $2,25 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-tencent-hy4-previewcompletion"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-10-25",
+   "titolo": "Hy3: il prezzo in entrata scende del 38%",
+   "testo": "Da $0,132 a $0,083 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-tencent-hy3prompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-10-25",
+   "titolo": "Hy3: il prezzo in uscita scende del 38%",
+   "testo": "Da $0,528 a $0,33 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-tencent-hy3completion"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-10-25",
    "titolo": "DeepSeek V4 Flash 0731: il prezzo in uscita scende del 21%",
    "testo": "Da $0,169 a $0,133 per milione di token in uscita.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
@@ -171,42 +207,6 @@
    "testo": "Da $1,61 a $1,4 per milione di token in uscita.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
    "id": "prezzo-z-ai-glm-5-3completion"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-10-24",
-   "titolo": "Hy4 preview: il prezzo in entrata scende del 10%",
-   "testo": "Da $0,834 a $0,751 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-tencent-hy4-previewprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-10-24",
-   "titolo": "Hy4 preview: il prezzo in uscita scende del 10%",
-   "testo": "Da $2,5 a $2,25 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-tencent-hy4-previewcompletion"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-10-24",
-   "titolo": "Hy3: il prezzo in entrata scende del 38%",
-   "testo": "Da $0,132 a $0,083 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-tencent-hy3prompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-10-24",
-   "titolo": "Hy3: il prezzo in uscita scende del 38%",
-   "testo": "Da $0,528 a $0,33 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-tencent-hy3completion"
   },
   {
    "tag": "ok",
