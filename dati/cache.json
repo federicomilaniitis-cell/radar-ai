@@ -1,8 +1,8 @@
 {
- "aggiornato": "2026-10-24T19:11:34+00:00",
- "aggiornato_it": "24 ottobre 2026",
+ "aggiornato": "2026-10-25T00:43:39+00:00",
+ "aggiornato_it": "25 ottobre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 386,
+ "totale": 387,
  "modelli": [
   {
    "id": "moonshotai/kimi-k3.1-pro",
@@ -3188,9 +3188,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000007506",
-    "completion": "0.0000022509",
-    "input_cache_read": "0.0000000378"
+    "prompt": "0.000000834",
+    "completion": "0.000002501",
+    "input_cache_read": "0.000000042"
    },
    "top_provider": {
     "max_completion_tokens": 64000
@@ -3230,9 +3230,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000000507",
-    "completion": "0.0000000702",
-    "input_cache_read": "0.00000003"
+    "prompt": "0.0000000191",
+    "completion": "0.0000000796",
+    "input_cache_read": "0.0000000191"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -3576,9 +3576,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000908",
-    "completion": "0.00000161",
-    "input_cache_read": "0.0000000897"
+    "prompt": "0.000000079",
+    "completion": "0.0000014",
+    "input_cache_read": "0.000000078"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -3971,6 +3971,47 @@
    "ha_versione_gratuita": false
   },
   {
+   "id": "liquid/lfm-2.5-2.6b",
+   "name": "LiquidAI: LFM2.5-2.6B",
+   "created": 1786470519,
+   "context_length": 128000,
+   "description": "LFM2.5-2.6B is a compact reasoning model from Liquid AI. It is suited for agent workflows, data extraction, RAG, and long-context processing. Liquid advises against using it for agentic coding or...",
+   "hugging_face_id": "LiquidAI/LFM2.5-2.6B",
+   "architecture": {
+    "input_modalities": [
+     "text"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text->text"
+   },
+   "pricing": {
+    "prompt": "0.00000035",
+    "completion": "0.0000005",
+    "input_cache_read": "0.00000004"
+   },
+   "top_provider": {
+    "max_completion_tokens": 8192
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": true
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 8.4,
+     "coding_index": 7.7,
+     "agentic_index": null
+    }
+   },
+   "ha_versione_gratuita": true
+  },
+  {
    "id": "liquid/lfm-2.5-2.6b:free",
    "name": "LiquidAI: LFM2.5-2.6B (free)",
    "created": 1786470519,
@@ -4301,8 +4342,8 @@
    },
    "pricing": {
     "prompt": "0.0000000422",
-    "completion": "0.0000001763",
-    "input_cache_read": "0.000000027"
+    "completion": "0.0000001694",
+    "input_cache_read": "0.000000028"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -4343,12 +4384,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000004444",
-    "completion": "0.00000013332",
-    "input_cache_read": "0.000000001414"
+    "prompt": "0.0000000422",
+    "completion": "0.0000001694",
+    "input_cache_read": "0.000000028"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -5518,9 +5559,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000825",
-    "completion": "0.00000033",
-    "input_cache_read": "0.000000020625"
+    "prompt": "0.000000132",
+    "completion": "0.000000528",
+    "input_cache_read": "0.000000033"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -5932,8 +5973,8 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.0000006725",
-    "completion": "0.0000031",
+    "prompt": "0.0000006712",
+    "completion": "0.00000335",
     "input_cache_read": "0.00000015"
    },
    "top_provider": {
@@ -10421,7 +10462,7 @@
    "pricing": {
     "prompt": "0.0000003",
     "completion": "0.0000009",
-    "input_cache_read": "0.000000055"
+    "input_cache_read": "0.00000005"
    },
    "top_provider": {
     "max_completion_tokens": 32768
@@ -12046,6 +12087,7 @@
    "context_length": 65536,
    "description": "GLM-4.5V is a vision-language foundation model for multimodal agent applications. Built on a Mixture-of-Experts (MoE) architecture with 106B parameters and 12B activated parameters, it achieves state-of-the-art results in video understanding,...",
    "hugging_face_id": "zai-org/GLM-4.5V",
+   "expiration_date": "2026-12-31",
    "architecture": {
     "input_modalities": [
      "text",
@@ -14965,11 +15007,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000509",
-    "completion": "0.000000335"
+    "prompt": "0.00000005",
+    "completion": "0.00000033"
    },
    "top_provider": {
-    "max_completion_tokens": 72000
+    "max_completion_tokens": 117964
    },
    "supported_parameters": [
     "structured_outputs"
