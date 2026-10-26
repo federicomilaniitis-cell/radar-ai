@@ -1,6 +1,69 @@
 {
- "aggiornato": "2026-10-26T00:56:04+00:00",
+ "aggiornato": "2026-10-26T10:42:18+00:00",
  "paper": [
+  {
+   "titolo": "Separating Thinking from Spelling for Efficient Generative Recommendation",
+   "data": "2026-10-23",
+   "url": "http://arxiv.org/abs/2610.32980v1",
+   "id": "2610.32980v1",
+   "sommario": "Generative recommenders retrieve items by writing their semantic IDs (SIDs) code by code under trie-constrained beam search, an approach now deployed on large web platforms. Standard autoregressive interfaces pay for the SID length K twice: a history of T items enters the backbon"
+  },
+  {
+   "titolo": "Consommé: Conditioned Token Merging for Split Inference",
+   "data": "2026-10-23",
+   "url": "http://arxiv.org/abs/2610.32794v1",
+   "id": "2610.32794v1",
+   "sommario": "Split inference partitions a Vision Transformer between a resource-constrained edge device and a server. However, transmitting intermediate tokens across the communication channel is costly. Deploying fine-tuned backbones to every endpoint becomes expensive as well. We study toke"
+  },
+  {
+   "titolo": "Video-MemComp: Taylor-Guided Sensitivity-Aware Memory Management for Streaming Video Understanding",
+   "data": "2026-10-23",
+   "url": "http://arxiv.org/abs/2610.32784v1",
+   "id": "2610.32784v1",
+   "sommario": "The rapid growth of video data has created an urgent need for efficient video understanding systems that can handle long and continuous visual inputs, posing significant challenges for Multimodal Large Language Models (MLLMs) due to severe memory bottlenecks. Moreover, existing c"
+  },
+  {
+   "titolo": "LeafSkill: Efficient Leaf-Level Action Grounding for Recursive LLM Agents",
+   "data": "2026-10-23",
+   "url": "http://arxiv.org/abs/2610.32412v1",
+   "id": "2610.32412v1",
+   "sommario": "Recursive large language model (LLM) agents solve long-horizon tasks through decomposition, execution, and environmental feedback. Yet after producing an atomic subtask, they often invoke the same large model again to translate a familiar instruction into an executable action. We"
+  },
+  {
+   "titolo": "TranSAGE: Automating Spatial Accelerator Generation for Large-Scale Transformer Models",
+   "data": "2026-10-23",
+   "url": "http://arxiv.org/abs/2610.32279v1",
+   "id": "2610.32279v1",
+   "sommario": "Large-scale Transformers have achieved remarkable success across NLP, computer vision, and robotics, but their growing computational and memory demands challenge efficient inference. Spatial accelerators offer advantages in on-chip bandwidth and energy efficiency, yet designing t"
+  },
+  {
+   "titolo": "Context or Knowledge: How LLMs Attribute Their Own Answers",
+   "data": "2026-10-23",
+   "url": "http://arxiv.org/abs/2610.32109v1",
+   "id": "2610.32109v1",
+   "sommario": "Language models can answer a question from a supplied document or from their parametric knowledge. When later asked where the answer came from, what determines their source report? We study this by intervening on the model's key-value (KV) cache after the answer is generated and "
+  },
+  {
+   "titolo": "DELA: Learning Controllable Edits for Diffusion Language Models",
+   "data": "2026-10-23",
+   "url": "http://arxiv.org/abs/2610.32096v1",
+   "id": "2610.32096v1",
+   "sommario": "Diffusion language models (DLMs) support bidirectional denoising and iterative refinement, but generation remains largely controlled by token-level masking schedules. This leaves draft-level refinement implicit and limits explicit control over when to insert missing content, dele"
+  },
+  {
+   "titolo": "Learning Structured Sparsity for Large Models: Bridging Model Compressibility and Efficient Inference",
+   "data": "2026-10-22",
+   "url": "http://arxiv.org/abs/2610.31897v1",
+   "id": "2610.31897v1",
+   "sommario": "Scaling laws continue to reward increases in model scale, while the resulting computational and memory demands drive greater reliance on cloud infrastructure for inference. Yet unreliable network connectivity, communication delays, and privacy requirements can make such reliance "
+  },
+  {
+   "titolo": "KVStream: Adaptive Parallel Storage Management for KV Caching in Large-Scale LLM Serving",
+   "data": "2026-10-22",
+   "url": "http://arxiv.org/abs/2610.31827v1",
+   "id": "2610.31827v1",
+   "sommario": "Long-context LLM serving for agentic, coding, and document workloads reuses prefixes whose key-value (KV) cache outgrows GPU and host memory, putting storage I/O on the critical path of the inference step for retrieving prefixes. A single node-local NVMe absorbs all retrievals, w"
+  },
   {
    "titolo": "BeNice! Closing Looping's Inference-Memory Gap via KV-Sharing",
    "data": "2026-10-22",
@@ -21,69 +84,6 @@
    "url": "http://arxiv.org/abs/2610.31433v1",
    "id": "2610.31433v1",
    "sommario": "KV cache compression for multimodal LLMs usually selects the visual tokens to keep once, at prefill, and reuses that selection for the whole generation. We show that this one-shot selection is severely limited on long-form generation: on detailed image description, even an oracle"
-  },
-  {
-   "titolo": "Stream4D: Streaming 4D Reconstruction with Training-free Motion Decoupling via Causal KV-Cache Attention",
-   "data": "2026-10-22",
-   "url": "http://arxiv.org/abs/2610.31320v1",
-   "id": "2610.31320v1",
-   "sommario": "4D scene reconstruction requires robust handling of dynamic objects, yet existing streaming methods commonly assume static scenes, leading to pose drift and ghosting artifacts over long sequences. We introduce Stream4D, a training-free, motion-decoupled streaming reconstruction f"
-  },
-  {
-   "titolo": "SARIA: Persistence-Aware KV Caching with Coordinated DRAM--SSD Reload for LLM Agents",
-   "data": "2026-10-22",
-   "url": "http://arxiv.org/abs/2610.31169v1",
-   "id": "2610.31169v1",
-   "sommario": "Multi-turn LLM agents usually reuse long context prefixes, making key value (KV) caching crucial for reducing prefill latency. SSDs provide a low-cost extension to limited DRAM capacity but introduce two key challenges. Eagerly persisting all KV cache blocks incurs substantial wr"
-  },
-  {
-   "titolo": "RIFT: KV Cache Compression for Draft Models with Complementary Compressibility Training",
-   "data": "2026-10-22",
-   "url": "http://arxiv.org/abs/2610.31098v1",
-   "id": "2610.31098v1",
-   "sommario": "Speculative decoding is a popular decode acceleration method. As such, it is particularly relevant to long-output generation, which requires an increasingly large KV cache. KV cache compression offers a way to constrain costs in long-context drafting. However, compression methods"
-  },
-  {
-   "titolo": "ICGF-CXRMate: Image-Conditioned Clinical Context Compression and Gated Fusion for Chest X-ray Report Generation",
-   "data": "2026-10-22",
-   "url": "http://arxiv.org/abs/2610.30928v1",
-   "id": "2610.30928v1",
-   "sommario": "Auxiliary patient data can improve chest X-ray report generation, but directly concatenating heterogeneous clinical information with visual tokens produces long, variable-length decoder prompts and may expose the model to redundant or image-irrelevant context. We propose ICGF-CXR"
-  },
-  {
-   "titolo": "Gandalf: Flash Shall Not Die! Increasing Flash Storage Lifetime for KV Cache Offloading in LLM Serving",
-   "data": "2026-10-22",
-   "url": "http://arxiv.org/abs/2610.30791v1",
-   "id": "2610.30791v1",
-   "sommario": "KV caching reduces the serving cost of large language models (LLMs), but the growing KV cache footprint is increasingly exceeds GPU and host-memory capacity. Therefore, people use SSD to expand the KV cache storage capacity with high I/O bandwidth. However, in production LLM work"
-  },
-  {
-   "titolo": "HAWK: Heterogeneity-Aware KV Cache Transfer for Efficient GPU-NPU Phase-Disaggregated LLM Inference",
-   "data": "2026-10-21",
-   "url": "http://arxiv.org/abs/2610.29873v1",
-   "id": "2610.29873v1",
-   "sommario": "Large language model (LLM) inference exhibits distinct computational characteristics across its two phases: prefill is compute-intensive, whereas decode is more memory-bound. As a result, AI accelerators achieve varying levels of efficiency across the two phases. GPUs are well su"
-  },
-  {
-   "titolo": "UlaCache: Unified Logical Addressing for Sparse LLM Serving",
-   "data": "2026-10-21",
-   "url": "http://arxiv.org/abs/2610.29820v1",
-   "id": "2610.29820v1",
-   "sommario": "Long contexts increase the memory cost of the key-value (KV) cache in large language model (LLM) inference. Sparse attention reduces attention computation and memory traffic by selecting historical tokens, but the retained KV cache must remain available for later decoding steps. "
-  },
-  {
-   "titolo": "Retrieval Augmented Generation Compositionality",
-   "data": "2026-10-21",
-   "url": "http://arxiv.org/abs/2610.29722v1",
-   "id": "2610.29722v1",
-   "sommario": "Retrieval Augmented Generation (RAG) grounds large language models in external knowledge. Modern pipelines combine embedding, chunking, retrieval, reranking, query augmentation, context compression, and agentic verification, yet these techniques are typically evaluated one at a t"
-  },
-  {
-   "titolo": "Bio-Inspired Auditory Processing: Coupling Parallel Resonate-and-Fire Dynamics with Ternary Recurrent Networks for Speech Recognition",
-   "data": "2026-10-21",
-   "url": "http://arxiv.org/abs/2610.29720v1",
-   "id": "2610.29720v1",
-   "sommario": "Spiking Neural Networks (SNNs) promise energy-efficient inference through sparse, event-driven computation, yet remain constrained on continuous, context-dependent tasks such as automatic speech recognition (ASR). A key bottleneck is the Leaky Integrate-and-Fire (LIF) neuron, who"
   }
  ]
 }
