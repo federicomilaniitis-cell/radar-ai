@@ -1,8 +1,8 @@
 {
- "aggiornato": "2026-10-26T10:42:18+00:00",
+ "aggiornato": "2026-10-26T17:05:36+00:00",
  "aggiornato_it": "26 ottobre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 387,
+ "totale": 386,
  "modelli": [
   {
    "id": "moonshotai/kimi-k3.1-pro",
@@ -2148,9 +2148,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000002565",
+    "prompt": "0.0000001188",
     "completion": "0.000008",
-    "input_cache_read": "0.00000026"
+    "input_cache_read": "0.00000012"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -3188,9 +3188,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000834",
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042"
+    "prompt": "0.0000007506",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378"
    },
    "top_provider": {
     "max_completion_tokens": 64000
@@ -4341,8 +4341,8 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000475",
-    "completion": "0.0000001568",
+    "prompt": "0.0000000422",
+    "completion": "0.0000001694",
     "input_cache_read": "0.000000028"
    },
    "top_provider": {
@@ -4384,9 +4384,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000044",
-    "completion": "0.00000132",
-    "input_cache_read": "0.000000014"
+    "prompt": "0.00000004444",
+    "completion": "0.00000013332",
+    "input_cache_read": "0.000000001414"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -4997,9 +4997,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000161",
+    "prompt": "0.00000015",
     "completion": "0.00002",
-    "input_cache_read": "0.000000151"
+    "input_cache_read": "0.00000014"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -5559,9 +5559,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000132",
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033"
+    "prompt": "0.0000000825",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -6999,9 +6999,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000001529",
-    "completion": "0.00000975",
-    "input_cache_read": "0.00000015"
+    "prompt": "0.00000015",
+    "completion": "0.00002",
+    "input_cache_read": "0.00000014"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -7386,9 +7386,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000095526",
-    "completion": "0.00000191052",
-    "input_cache_read": "0.000000079605"
+    "prompt": "0.00000076038",
+    "completion": "0.00000152076",
+    "input_cache_read": "0.000000063365"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -7931,12 +7931,11 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000001",
-    "completion": "0.00000034",
-    "input_cache_read": "0.0000001"
+    "prompt": "0.0000002",
+    "completion": "0.0000004"
    },
    "top_provider": {
-    "max_completion_tokens": 235929
+    "max_completion_tokens": 16384
    },
    "supported_parameters": [
     "reasoning",
@@ -8080,47 +8079,6 @@
      "intelligence_index": 23.5,
      "coding_index": null,
      "agentic_index": null
-    }
-   },
-   "ha_versione_gratuita": false
-  },
-  {
-   "id": "arcee-ai/trinity-large-thinking",
-   "name": "Arcee AI: Trinity Large Thinking",
-   "created": 1775058318,
-   "context_length": 262144,
-   "description": "Trinity Large Thinking is a powerful open source reasoning model from the team at Arcee AI. It shows strong performance in PinchBench, agentic workloads, and reasoning tasks. Launch video: https://youtu.be/Gc82AXLa0Rg?si=4RLn6WBz33qT--B7...",
-   "hugging_face_id": "arcee-ai/Trinity-Large-Thinking",
-   "expiration_date": "2026-10-26",
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text->text"
-   },
-   "pricing": {
-    "prompt": "0.00000025",
-    "completion": "0.0000008",
-    "input_cache_read": "0.00000006"
-   },
-   "top_provider": {
-    "max_completion_tokens": 80000
-   },
-   "supported_parameters": [
-    "reasoning",
-    "tools"
-   ],
-   "reasoning": {
-    "mandatory": true
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": 10.8,
-     "coding_index": 25.8,
-     "agentic_index": 1
     }
    },
    "ha_versione_gratuita": false
