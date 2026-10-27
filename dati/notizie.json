@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-27T10:09:27+00:00",
+ "aggiornato": "2026-10-27T16:09:11+00:00",
  "notizie": [
   {
    "tag": "crit",
@@ -92,6 +92,42 @@
    "id": "fine-nousresearch-hermes-3-llama-3-1-405b"
   },
   {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-10-27",
+   "titolo": "Llama 3.1 70B Instruct viene spento fra 7 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-03. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-meta-llama-llama-3-1-70b-instruct"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-10-27",
+   "titolo": "DeepSeek Pro Latest: il prezzo in entrata scende del 48%",
+   "testo": "Da $0,243 a $0,126 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo--deepseek-deepseek-pro-latestprompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-10-27",
+   "titolo": "DeepSeek Flash Latest: il prezzo in entrata scende del 15%",
+   "testo": "Da $0,02 a $0,017 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo--deepseek-deepseek-flash-latestprompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-10-27",
+   "titolo": "DeepSeek Flash Latest: il prezzo in uscita scende del 40%",
+   "testo": "Da $1 a $0,6 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo--deepseek-deepseek-flash-latestcompletion"
+  },
+  {
    "tag": "ok",
    "tagT": "Prezzo giu'",
    "data": "2026-10-27",
@@ -108,15 +144,6 @@
    "testo": "Da $1,2 a $0,6 per milione di token in uscita.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
    "id": "prezzo-deepseek-deepseek-v4-1-flash-1017completion"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-10-27",
-   "titolo": "DeepSeek Flash Latest: il prezzo in entrata scende del 43%",
-   "testo": "Da $0,035 a $0,02 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo--deepseek-deepseek-flash-latestprompt"
   },
   {
    "tag": "ok",
@@ -140,15 +167,6 @@
    "tag": "ok",
    "tagT": "Prezzo giu'",
    "data": "2026-10-27",
-   "titolo": "DeepSeek Flash Latest: il prezzo in uscita scende del 99%",
-   "testo": "Da $1 a $0,01 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo--deepseek-deepseek-flash-latestcompletion"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-10-27",
    "titolo": "GPT Terra Latest: il prezzo in entrata scende del 50%",
    "testo": "Da $2 a $1 per milione di token in entrata.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
@@ -162,15 +180,6 @@
    "testo": "Da $12 a $5 per milione di token in uscita.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
    "id": "prezzo--openai-gpt-terra-latestcompletion"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-10-26",
-   "titolo": "DeepSeek Pro Latest: il prezzo in entrata scende del 54%",
-   "testo": "Da $0,257 a $0,119 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo--deepseek-deepseek-pro-latestprompt"
   },
   {
    "tag": "ok",
@@ -207,15 +216,6 @@
    "testo": "Da $0,44 a $0,044 per milione di token in entrata.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
    "id": "prezzo-deepseek-deepseek-v4-flash-0731prompt"
-  },
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-10-26",
-   "titolo": "Trinity Large Thinking viene spento fra 0 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-26. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-arcee-ai-trinity-large-thinking"
   }
  ]
 }
