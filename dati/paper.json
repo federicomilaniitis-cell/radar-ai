@@ -1,89 +1,89 @@
 {
- "aggiornato": "2026-10-27T01:46:24+00:00",
+ "aggiornato": "2026-10-27T10:09:27+00:00",
  "paper": [
   {
-   "titolo": "ZipFusion: Fusing Lossless KV Decompression with Attention for Efficient LLM Decoding",
-   "data": "2026-10-24",
-   "url": "http://arxiv.org/abs/2610.33719v1",
-   "id": "2610.33719v1",
-   "sommario": "The key-value (KV) cache places growing demands on GPU memory capacity and bandwidth as large language models serve longer contexts and more concurrent requests. Its footprint limits concurrency, while repeated KV reads during attention can make decoding memory-bandwidth bound. P"
+   "titolo": "OSWAM: An Effective World Action Model with One-Step Action Generation",
+   "data": "2026-10-26",
+   "url": "http://arxiv.org/abs/2610.35850v1",
+   "id": "2610.35850v1",
+   "sommario": "Direct-policy World Action Models (WAM) have demonstrated the benefits of decoupling action generation from explicit future visual prediction for efficient inference in autonomous driving and embodied control. However, they still require tens of denoising steps to achieve competi"
   },
   {
-   "titolo": "RAQ-MLA: Role-Aware Quantization for Multi-Head Latent Attention Caches",
-   "data": "2026-10-24",
-   "url": "http://arxiv.org/abs/2610.33625v1",
-   "id": "2610.33625v1",
-   "sommario": "Multi-Head Latent Attention (MLA) has been adopted by recent frontier large language models. Instead of per-head keys and values, MLA caches a compressed KV latent that is up-projected into keys and values at decode time, together with a narrow positional key that carries positio"
+   "titolo": "InterQ-RL: Interaction-Aware Correction of Execution Mismatch in Quantized Agentic RL",
+   "data": "2026-10-26",
+   "url": "http://arxiv.org/abs/2610.35303v1",
+   "id": "2610.35303v1",
+   "sommario": "Multi-turn agent reinforcement learning (RL) relies on long closed-loop rollouts, making generation and KV-cache costs a major bottleneck. Quantized rollout reduces these costs, but its low-precision executor also serves as the behavior policy and can induce execution mismatch wi"
   },
   {
-   "titolo": "DualPace: Decoupled Scheduling and Cooperative GPU--CPU Decoding for LLM Serving",
-   "data": "2026-10-24",
-   "url": "http://arxiv.org/abs/2610.33501v1",
-   "id": "2610.33501v1",
-   "sommario": "Large language model (LLM) serving relies on batching to improve inference throughput, but the key-value (KV) cache grows with sequence length and limits GPU-resident concurrency. CPU offloading can expand KV capacity using host memory, yet existing systems remain largely GPU-gat"
+   "titolo": "Context Is Not Free: Carbon-Aware LLM Routing for Multi-Turn LLM Web Services across Geo-Distributed Data Centers",
+   "data": "2026-10-26",
+   "url": "http://arxiv.org/abs/2610.35230v1",
+   "id": "2610.35230v1",
+   "sommario": "The sustainability of the Web has drawn growing attention, as large language model (LLM)-based web services leave a substantial carbon footprint. These services typically run in geo-distributed data centers whose grid carbon intensity varies across regions and over time, so routi"
   },
   {
-   "titolo": "LLMs in Cloud: A Discussion on Architecture, Orchestration, and Inference",
-   "data": "2026-10-24",
-   "url": "http://arxiv.org/abs/2610.33475v1",
-   "id": "2610.33475v1",
-   "sommario": "The widespread deployment of foundational Large Language Models (LLM) across cloud datacenters marks a fundamental paradigm shift from stateless deep learning toward distributed, memory-intensive generative workloads. However, serving massive foundation models under stringent Ser"
+   "titolo": "DAC-Loop: Distillation-Aware Compression for Remote Sensing CNN",
+   "data": "2026-10-26",
+   "url": "http://arxiv.org/abs/2610.35175v1",
+   "id": "2610.35175v1",
+   "sommario": "While large-scale models achieve strong results in remote sensing scene classification, deploying them on edge devices remains difficult due to limited compute, memory, and energy budgets. Compact CNN backbones are therefore a practical choice in many real-world settings, offerin"
   },
   {
-   "titolo": "Separating Thinking from Spelling for Efficient Generative Recommendation",
-   "data": "2026-10-23",
-   "url": "http://arxiv.org/abs/2610.32980v1",
-   "id": "2610.32980v1",
-   "sommario": "Generative recommenders retrieve items by writing their semantic IDs (SIDs) code by code under trie-constrained beam search, an approach now deployed on large web platforms. Standard autoregressive interfaces pay for the SID length K twice: a history of T items enters the backbon"
+   "titolo": "BellowsKV: One Latent for Many Layers, Expanded on Demand",
+   "data": "2026-10-26",
+   "url": "http://arxiv.org/abs/2610.35023v1",
+   "id": "2610.35023v1",
+   "sommario": "Large language models (LLMs) now serve as the backbone of agents that reason over many turns, call tools, and pursue long-horizon tasks. To avoid recomputation, a model stores the attention keys and values of all past tokens in a key-value (KV) cache. Each layer maintains its own"
   },
   {
-   "titolo": "Consommé: Conditioned Token Merging for Split Inference",
-   "data": "2026-10-23",
-   "url": "http://arxiv.org/abs/2610.32794v1",
-   "id": "2610.32794v1",
-   "sommario": "Split inference partitions a Vision Transformer between a resource-constrained edge device and a server. However, transmitting intermediate tokens across the communication channel is costly. Deploying fine-tuned backbones to every endpoint becomes expensive as well. We study toke"
+   "titolo": "Attention under Bounded Key-Query Similarity: Space Complexity and Transformer Anisotropy",
+   "data": "2026-10-26",
+   "url": "http://arxiv.org/abs/2610.35020v1",
+   "id": "2610.35020v1",
+   "sommario": "A growing body of work on KV-cache compression aims to reduce the memory requirements of autoregressive generation. These methods compress the stored context while approximately preserving attention computation, enabling generation with reduced memory consumption. Almost tight th"
   },
   {
-   "titolo": "Video-MemComp: Taylor-Guided Sensitivity-Aware Memory Management for Streaming Video Understanding",
-   "data": "2026-10-23",
-   "url": "http://arxiv.org/abs/2610.32784v1",
-   "id": "2610.32784v1",
-   "sommario": "The rapid growth of video data has created an urgent need for efficient video understanding systems that can handle long and continuous visual inputs, posing significant challenges for Multimodal Large Language Models (MLLMs) due to severe memory bottlenecks. Moreover, existing c"
+   "titolo": "Diagnosing and Mitigating Long-Session Degradation in Full-Duplex Speech Models",
+   "data": "2026-10-26",
+   "url": "http://arxiv.org/abs/2610.34991v1",
+   "id": "2610.34991v1",
+   "sommario": "End-to-end full-duplex spoken dialogue models enable natural, real-time spoken interactions with interruptions, backchannels, and overlapping speech. Prior evaluations have assessed diverse interaction capabilities and identified some degradation patterns across conversational tu"
   },
   {
-   "titolo": "LeafSkill: Efficient Leaf-Level Action Grounding for Recursive LLM Agents",
-   "data": "2026-10-23",
-   "url": "http://arxiv.org/abs/2610.32412v1",
-   "id": "2610.32412v1",
-   "sommario": "Recursive large language model (LLM) agents solve long-horizon tasks through decomposition, execution, and environmental feedback. Yet after producing an atomic subtask, they often invoke the same large model again to translate a familiar instruction into an executable action. We"
+   "titolo": "End-to-End MXFP8 Reinforcement Learning on Blackwell: What Matching Buys, When It Pays Off, and How It Fails",
+   "data": "2026-10-26",
+   "url": "http://arxiv.org/abs/2610.34915v1",
+   "id": "2610.34915v1",
+   "sommario": "Low-precision arithmetic can make reinforcement learning (RL) for large language models cheaper, but RL requires the sampler and the learner to agree. Several frameworks now run FP8 on both sides. We implement end-to-end MXFP8 RL in verl (Megatron/Transformer Engine training; vLL"
   },
   {
-   "titolo": "TranSAGE: Automating Spatial Accelerator Generation for Large-Scale Transformer Models",
-   "data": "2026-10-23",
-   "url": "http://arxiv.org/abs/2610.32279v1",
-   "id": "2610.32279v1",
-   "sommario": "Large-scale Transformers have achieved remarkable success across NLP, computer vision, and robotics, but their growing computational and memory demands challenge efficient inference. Spatial accelerators offer advantages in on-chip bandwidth and energy efficiency, yet designing t"
+   "titolo": "SPARTA: A Sparse Ternary LLM Accelerator with Adaptive Attention and Unified Datapath for Long-Context Edge Inference",
+   "data": "2026-10-26",
+   "url": "http://arxiv.org/abs/2610.34824v1",
+   "id": "2610.34824v1",
+   "sommario": "LLMs on edge devices are constrained by limited memory and bandwidth. Although 1.58-bit ternary weights greatly reduce model storage, long-context inference is increasingly bottlenecked by KV-cache traffic and attention. Existing accelerators also use separate datapaths for terna"
   },
   {
-   "titolo": "Context or Knowledge: How LLMs Attribute Their Own Answers",
-   "data": "2026-10-23",
-   "url": "http://arxiv.org/abs/2610.32109v1",
-   "id": "2610.32109v1",
-   "sommario": "Language models can answer a question from a supplied document or from their parametric knowledge. When later asked where the answer came from, what determines their source report? We study this by intervening on the model's key-value (KV) cache after the answer is generated and "
+   "titolo": "ToDoPro: Faster and Better Reference-Based Generation: Early Token Reduction via Downsampled Self-Probing",
+   "data": "2026-10-26",
+   "url": "http://arxiv.org/abs/2610.34782v1",
+   "id": "2610.34782v1",
+   "sommario": "Recent generic reference-based image generation models natively support multiple conditions by concatenating all reference image and text tokens into a joint sequence processed by a single Diffusion Transformer (DiT). However, this versatile paradigm comes at an efficiency cost: "
   },
   {
-   "titolo": "DELA: Learning Controllable Edits for Diffusion Language Models",
-   "data": "2026-10-23",
-   "url": "http://arxiv.org/abs/2610.32096v1",
-   "id": "2610.32096v1",
-   "sommario": "Diffusion language models (DLMs) support bidirectional denoising and iterative refinement, but generation remains largely controlled by token-level masking schedules. This leaves draft-level refinement implicit and limits explicit control over when to insert missing content, dele"
+   "titolo": "MCF: A Memory- and Communication-Aware Co-Designed Framework for Long-Context LLM Inference",
+   "data": "2026-10-26",
+   "url": "http://arxiv.org/abs/2610.34731v1",
+   "id": "2610.34731v1",
+   "sommario": "This paper presents Memory- and Communication-Aware Framework for Long-Context LLM Inference (MCF) that optimizes long-context inference through communication-aware and stage-adaptive KV-cache layout transitions. At the core of MCF is {Memory-Aware Replication and Scheduling} (MA"
   },
   {
-   "titolo": "Learning Structured Sparsity for Large Models: Bridging Model Compressibility and Efficient Inference",
-   "data": "2026-10-22",
-   "url": "http://arxiv.org/abs/2610.31897v1",
-   "id": "2610.31897v1",
-   "sommario": "Scaling laws continue to reward increases in model scale, while the resulting computational and memory demands drive greater reliance on cloud infrastructure for inference. Yet unreliable network connectivity, communication delays, and privacy requirements can make such reliance "
+   "titolo": "Prefix Keys and Values Matter Late: RIPE Caching for Self-Speculative Decoding in Looped Language Models",
+   "data": "2026-10-25",
+   "url": "http://arxiv.org/abs/2610.34436v1",
+   "id": "2610.34436v1",
+   "sommario": "A looped language model runs one block of layers $R$ times per token, so its key-value (KV) cache holds $R$ planes per recurrent layer, and self-speculative decoding (draft with a few loops, verify with all $R$) reads them all. We find that prefix keys and values matter late: at "
   }
  ]
 }

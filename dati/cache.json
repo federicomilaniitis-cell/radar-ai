@@ -1,8 +1,8 @@
 {
- "aggiornato": "2026-10-27T01:46:24+00:00",
+ "aggiornato": "2026-10-27T10:09:27+00:00",
  "aggiornato_it": "27 ottobre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 387,
+ "totale": 386,
  "modelli": [
   {
    "id": "openai/gpt-6.1-terra-pro",
@@ -255,9 +255,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.0000003",
-    "completion": "0.0000012",
-    "input_cache_read": "0.000000006"
+    "prompt": "0.00000015",
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000003"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -2255,9 +2255,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000002149",
+    "prompt": "0.0000002428",
     "completion": "0.000008",
-    "input_cache_read": "0.00000021"
+    "input_cache_read": "0.00000024"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -2296,9 +2296,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.000000034919",
-    "completion": "0.00000001",
-    "input_cache_read": "0.000000009453"
+    "prompt": "0.00000002",
+    "completion": "0.000001",
+    "input_cache_read": "0.000000015"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -3337,9 +3337,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000000413",
-    "completion": "0.0000000758",
-    "input_cache_read": "0.00000003"
+    "prompt": "0.0000000285",
+    "completion": "0.00000008",
+    "input_cache_read": "0.0000000285"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -3733,12 +3733,12 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000039",
-    "completion": "0.00000125",
-    "input_cache_read": "0.0000000039"
+    "prompt": "0.0000002",
+    "completion": "0.0000025",
+    "input_cache_read": "0.00000009"
    },
    "top_provider": {
-    "max_completion_tokens": 65536
+    "max_completion_tokens": 235929
    },
    "supported_parameters": [
     "reasoning",
@@ -3995,9 +3995,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000132",
-    "completion": "0.00000396",
-    "input_cache_read": "0.000000044"
+    "prompt": "0.00000066",
+    "completion": "0.00000198",
+    "input_cache_read": "0.000000022"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -4491,12 +4491,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000044",
-    "completion": "0.00000132",
-    "input_cache_read": "0.000000014"
+    "prompt": "0.000000119",
+    "completion": "0.000000238",
+    "input_cache_read": "0.0000000238"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -5104,9 +5104,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000159",
-    "completion": "0.00002",
-    "input_cache_read": "0.000000149"
+    "prompt": "0.000000189",
+    "completion": "0.0000115",
+    "input_cache_read": "0.000000179"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -7106,9 +7106,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000151",
-    "completion": "0.00000894",
-    "input_cache_read": "0.00000015"
+    "prompt": "0.000000189",
+    "completion": "0.0000115",
+    "input_cache_read": "0.000000179"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -7540,12 +7540,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000014",
-    "completion": "0.00000028",
-    "input_cache_read": "0.000000028"
+    "prompt": "0.00000005",
+    "completion": "0.00000045",
+    "input_cache_read": "0.00000005"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -7952,9 +7952,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000000765",
-    "completion": "0.000000255",
-    "input_cache_read": "0.0000000425"
+    "prompt": "0.00000009",
+    "completion": "0.0000003",
+    "input_cache_read": "0.00000005"
    },
    "top_provider": {
     "max_completion_tokens": 235929
@@ -8649,55 +8649,7 @@
      "agentic_index": 1.7
     }
    },
-   "ha_versione_gratuita": true
-  },
-  {
-   "id": "nvidia/nemotron-3-super-120b-a12b:free",
-   "name": "NVIDIA: Nemotron 3 Super (free)",
-   "created": 1773245239,
-   "context_length": 262144,
-   "description": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications. Built on a hybrid Mamba-Transformer...",
-   "hugging_face_id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8",
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text->text"
-   },
-   "pricing": {
-    "prompt": "0",
-    "completion": "0"
-   },
-   "top_provider": {
-    "max_completion_tokens": 235929
-   },
-   "supported_parameters": [
-    "reasoning",
-    "structured_outputs",
-    "tools"
-   ],
-   "reasoning": {
-    "mandatory": false,
-    "default_enabled": true,
-    "supports_max_tokens": true,
-    "supported_efforts": [
-     "medium",
-     "low",
-     "none"
-    ],
-    "default_effort": "medium"
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": 12.8,
-     "coding_index": 37.7,
-     "agentic_index": 1.7
-    }
-   },
-   "ha_versione_gratuita": true
+   "ha_versione_gratuita": false
   },
   {
    "id": "bytedance-seed/seed-2.0-lite",
@@ -12119,6 +12071,7 @@
    "context_length": 65536,
    "description": "GLM-4.5V is a vision-language foundation model for multimodal agent applications. Built on a Mixture-of-Experts (MoE) architecture with 106B parameters and 12B activated parameters, it achieves state-of-the-art results in video understanding,...",
    "hugging_face_id": "zai-org/GLM-4.5V",
+   "expiration_date": "2026-12-31",
    "architecture": {
     "input_modalities": [
      "text",
@@ -13898,12 +13851,11 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000004",
-    "completion": "0.00000005",
-    "input_cache_read": "0.00000002"
+    "prompt": "0.00000005",
+    "completion": "0.0000001"
    },
    "top_provider": {
-    "max_completion_tokens": 117964
+    "max_completion_tokens": 16384
    },
    "supported_parameters": [
     "structured_outputs"
