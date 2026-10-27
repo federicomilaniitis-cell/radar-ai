@@ -1,6 +1,34 @@
 {
- "aggiornato": "2026-10-26T17:05:36+00:00",
+ "aggiornato": "2026-10-27T01:46:24+00:00",
  "paper": [
+  {
+   "titolo": "ZipFusion: Fusing Lossless KV Decompression with Attention for Efficient LLM Decoding",
+   "data": "2026-10-24",
+   "url": "http://arxiv.org/abs/2610.33719v1",
+   "id": "2610.33719v1",
+   "sommario": "The key-value (KV) cache places growing demands on GPU memory capacity and bandwidth as large language models serve longer contexts and more concurrent requests. Its footprint limits concurrency, while repeated KV reads during attention can make decoding memory-bandwidth bound. P"
+  },
+  {
+   "titolo": "RAQ-MLA: Role-Aware Quantization for Multi-Head Latent Attention Caches",
+   "data": "2026-10-24",
+   "url": "http://arxiv.org/abs/2610.33625v1",
+   "id": "2610.33625v1",
+   "sommario": "Multi-Head Latent Attention (MLA) has been adopted by recent frontier large language models. Instead of per-head keys and values, MLA caches a compressed KV latent that is up-projected into keys and values at decode time, together with a narrow positional key that carries positio"
+  },
+  {
+   "titolo": "DualPace: Decoupled Scheduling and Cooperative GPU--CPU Decoding for LLM Serving",
+   "data": "2026-10-24",
+   "url": "http://arxiv.org/abs/2610.33501v1",
+   "id": "2610.33501v1",
+   "sommario": "Large language model (LLM) serving relies on batching to improve inference throughput, but the key-value (KV) cache grows with sequence length and limits GPU-resident concurrency. CPU offloading can expand KV capacity using host memory, yet existing systems remain largely GPU-gat"
+  },
+  {
+   "titolo": "LLMs in Cloud: A Discussion on Architecture, Orchestration, and Inference",
+   "data": "2026-10-24",
+   "url": "http://arxiv.org/abs/2610.33475v1",
+   "id": "2610.33475v1",
+   "sommario": "The widespread deployment of foundational Large Language Models (LLM) across cloud datacenters marks a fundamental paradigm shift from stateless deep learning toward distributed, memory-intensive generative workloads. However, serving massive foundation models under stringent Ser"
+  },
   {
    "titolo": "Separating Thinking from Spelling for Efficient Generative Recommendation",
    "data": "2026-10-23",
@@ -56,34 +84,6 @@
    "url": "http://arxiv.org/abs/2610.31897v1",
    "id": "2610.31897v1",
    "sommario": "Scaling laws continue to reward increases in model scale, while the resulting computational and memory demands drive greater reliance on cloud infrastructure for inference. Yet unreliable network connectivity, communication delays, and privacy requirements can make such reliance "
-  },
-  {
-   "titolo": "KVStream: Adaptive Parallel Storage Management for KV Caching in Large-Scale LLM Serving",
-   "data": "2026-10-22",
-   "url": "http://arxiv.org/abs/2610.31827v1",
-   "id": "2610.31827v1",
-   "sommario": "Long-context LLM serving for agentic, coding, and document workloads reuses prefixes whose key-value (KV) cache outgrows GPU and host memory, putting storage I/O on the critical path of the inference step for retrieving prefixes. A single node-local NVMe absorbs all retrievals, w"
-  },
-  {
-   "titolo": "BeNice! Closing Looping's Inference-Memory Gap via KV-Sharing",
-   "data": "2026-10-22",
-   "url": "http://arxiv.org/abs/2610.31633v1",
-   "id": "2610.31633v1",
-   "sommario": "Looped architectures scale quality while keeping parameter count fixed by repeatedly passing activations through the same block of layers. During inference, each recurrence generates independent KV-caches, causing memory to grow linearly. To address this challenge, prior work has"
-  },
-  {
-   "titolo": "Evaluating the Applicability of LLM Inference Optimizations on Apple Silicon",
-   "data": "2026-10-22",
-   "url": "http://arxiv.org/abs/2610.31479v1",
-   "id": "2610.31479v1",
-   "sommario": "Apple Silicon is among the most widely used platforms for local LLM inference, yet nearly all inference optimizations are designed and validated on server-class NVIDIA GPUs under batched serving workloads. Which optimizations retain their benefits when moved to Apple Silicon, and"
-  },
-  {
-   "titolo": "Drift Says When, Budget Says How Much: Rate-Controlled KV Re-selection for Long-Form Multimodal Generation",
-   "data": "2026-10-22",
-   "url": "http://arxiv.org/abs/2610.31433v1",
-   "id": "2610.31433v1",
-   "sommario": "KV cache compression for multimodal LLMs usually selects the visual tokens to keep once, at prefill, and reuses that selection for the whole generation. We show that this one-shot selection is severely limited on long-form generation: on detailed image description, even an oracle"
   }
  ]
 }

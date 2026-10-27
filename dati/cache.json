@@ -1,9 +1,109 @@
 {
- "aggiornato": "2026-10-26T17:05:36+00:00",
- "aggiornato_it": "26 ottobre 2026",
+ "aggiornato": "2026-10-27T01:46:24+00:00",
+ "aggiornato_it": "27 ottobre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 386,
+ "totale": 387,
  "modelli": [
+  {
+   "id": "openai/gpt-6.1-terra-pro",
+   "name": "OpenAI: GPT-6.1 Terra Pro",
+   "created": 1793038556,
+   "context_length": 1050000,
+   "description": "GPT-6.1 Terra Pro is the same underlying model as [GPT-6.1 Terra](https://openrouter.ai/openai/gpt-6.1-terra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode spends far more...",
+   "architecture": {
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image+file->text"
+   },
+   "pricing": {
+    "prompt": "0.000001",
+    "completion": "0.000005",
+    "input_cache_read": "0.00000005",
+    "input_cache_write": "0.00000125",
+    "web_search": "0.01"
+   },
+   "top_provider": {
+    "max_completion_tokens": 128000
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": true,
+    "default_enabled": true,
+    "supported_efforts": [
+     "max",
+     "xhigh",
+     "high",
+     "medium",
+     "low"
+    ],
+    "default_effort": "medium"
+   },
+   "ha_versione_gratuita": false
+  },
+  {
+   "id": "openai/gpt-6.1-terra",
+   "name": "OpenAI: GPT-6.1 Terra",
+   "created": 1793038409,
+   "context_length": 1050000,
+   "description": "GPT-6.1 Terra is the mid-tier model in OpenAI's GPT-6.1 series, priced below GPT-6.1 Sol. It is suited for everyday agentic, coding, and writing work, is particularly strong at understanding screenshots...",
+   "architecture": {
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image+file->text"
+   },
+   "pricing": {
+    "prompt": "0.000001",
+    "completion": "0.000005",
+    "input_cache_read": "0.00000005",
+    "input_cache_write": "0.00000125",
+    "web_search": "0.01"
+   },
+   "top_provider": {
+    "max_completion_tokens": 128000
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": false,
+    "default_enabled": true,
+    "supported_efforts": [
+     "max",
+     "xhigh",
+     "high",
+     "medium",
+     "low",
+     "none"
+    ],
+    "default_effort": "medium"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 48.1,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
+   "ha_versione_gratuita": false
+  },
   {
    "id": "moonshotai/kimi-k3.1-pro",
    "name": "MoonshotAI: Kimi K3.1 Pro",
@@ -155,9 +255,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000003"
+    "prompt": "0.0000003",
+    "completion": "0.0000012",
+    "input_cache_read": "0.000000006"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -1554,6 +1654,13 @@
    "reasoning": {
     "mandatory": false
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 13.1,
+     "coding_index": 27.8,
+     "agentic_index": 1
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -1815,7 +1922,7 @@
    "name": "NVIDIA: Switchyard",
    "created": 1790025947,
    "context_length": 1000000,
-   "description": "Switchyard is an open-source model router that switches between multiple models to optimize the cost of requests. By default it will use OpenRouter market data to select the most popular...",
+   "description": "Switchyard is an open-source model routing system that switches between multiple models to optimize the cost of requests. By default it will use OpenRouter market data to select the most...",
    "architecture": {
     "input_modalities": [
      "text"
@@ -2148,9 +2255,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000001188",
+    "prompt": "0.0000002149",
     "completion": "0.000008",
-    "input_cache_read": "0.00000012"
+    "input_cache_read": "0.00000021"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -2189,9 +2296,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000002",
-    "completion": "0.000001",
-    "input_cache_read": "0.000000015"
+    "prompt": "0.000000034919",
+    "completion": "0.00000001",
+    "input_cache_read": "0.000000009453"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -2382,10 +2489,10 @@
     "modality": "text+image+file->text"
    },
    "pricing": {
-    "prompt": "0.000002",
-    "completion": "0.000012",
-    "input_cache_read": "0.0000002",
-    "input_cache_write": "0.0000025",
+    "prompt": "0.000001",
+    "completion": "0.000005",
+    "input_cache_read": "0.00000005",
+    "input_cache_write": "0.00000125",
     "web_search": "0.01"
    },
    "top_provider": {
@@ -2606,12 +2713,12 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000002",
-    "completion": "0.000001",
-    "input_cache_read": "0.000000015"
+    "prompt": "0.00000014",
+    "completion": "0.00000042",
+    "input_cache_read": "0.0000000042"
    },
    "top_provider": {
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -3188,9 +3295,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000007506",
-    "completion": "0.0000022509",
-    "input_cache_read": "0.0000000378"
+    "prompt": "0.000000834",
+    "completion": "0.000002501",
+    "input_cache_read": "0.000000042"
    },
    "top_provider": {
     "max_completion_tokens": 64000
@@ -3626,12 +3733,12 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000002",
-    "completion": "0.0000025",
-    "input_cache_read": "0.00000009"
+    "prompt": "0.000000039",
+    "completion": "0.00000125",
+    "input_cache_read": "0.0000000039"
    },
    "top_provider": {
-    "max_completion_tokens": 235929
+    "max_completion_tokens": 65536
    },
    "supported_parameters": [
     "reasoning",
@@ -3888,9 +3995,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000066",
-    "completion": "0.00000198",
-    "input_cache_read": "0.000000022"
+    "prompt": "0.00000132",
+    "completion": "0.00000396",
+    "input_cache_read": "0.000000044"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -4341,8 +4448,8 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000422",
-    "completion": "0.0000001694",
+    "prompt": "0.0000000475",
+    "completion": "0.0000001568",
     "input_cache_read": "0.000000028"
    },
    "top_provider": {
@@ -4384,9 +4491,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000004444",
-    "completion": "0.00000013332",
-    "input_cache_read": "0.000000001414"
+    "prompt": "0.00000044",
+    "completion": "0.00000132",
+    "input_cache_read": "0.000000014"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -4997,9 +5104,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
+    "prompt": "0.000000159",
     "completion": "0.00002",
-    "input_cache_read": "0.00000014"
+    "input_cache_read": "0.000000149"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -5559,9 +5666,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000825",
-    "completion": "0.00000033",
-    "input_cache_read": "0.000000020625"
+    "prompt": "0.000000132",
+    "completion": "0.000000528",
+    "input_cache_read": "0.000000033"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -5973,8 +6080,8 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.0000006712",
-    "completion": "0.00000335",
+    "prompt": "0.00000056",
+    "completion": "0.0000031",
     "input_cache_read": "0.00000015"
    },
    "top_provider": {
@@ -6999,9 +7106,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.00002",
-    "input_cache_read": "0.00000014"
+    "prompt": "0.000000151",
+    "completion": "0.00000894",
+    "input_cache_read": "0.00000015"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -7386,9 +7493,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000076038",
-    "completion": "0.00000152076",
-    "input_cache_read": "0.000000063365"
+    "prompt": "0.00000095526",
+    "completion": "0.00000191052",
+    "input_cache_read": "0.000000079605"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -7433,12 +7540,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000091",
-    "completion": "0.000000182",
-    "input_cache_read": "0.0000000182"
+    "prompt": "0.00000014",
+    "completion": "0.00000028",
+    "input_cache_read": "0.000000028"
    },
    "top_provider": {
-    "max_completion_tokens": 943717
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -7527,12 +7634,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000003045",
-    "completion": "0.000000609",
-    "input_cache_read": "0.0000000028"
+    "prompt": "0.00000048",
+    "completion": "0.0000018",
+    "input_cache_read": "0.000000096"
    },
    "top_provider": {
-    "max_completion_tokens": 945000
+    "max_completion_tokens": 235929
    },
    "supported_parameters": [
     "reasoning",
@@ -7571,12 +7678,12 @@
     "modality": "text+image+audio+video->text"
    },
    "pricing": {
-    "prompt": "0.000000119",
-    "completion": "0.000000238",
-    "input_cache_read": "0.00000000255"
+    "prompt": "0.0000004",
+    "completion": "0.000002",
+    "input_cache_read": "0.00000008"
    },
    "top_provider": {
-    "max_completion_tokens": 945000
+    "max_completion_tokens": 65536
    },
    "supported_parameters": [
     "reasoning",
@@ -7801,12 +7908,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000014",
-    "completion": "0.0000044",
-    "input_cache_read": "0.00000026"
+    "prompt": "0.000000966",
+    "completion": "0.000003036",
+    "input_cache_read": "0.0000001794"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 128000
    },
    "supported_parameters": [
     "reasoning",
@@ -7845,9 +7952,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000009",
-    "completion": "0.0000003",
-    "input_cache_read": "0.00000005"
+    "prompt": "0.0000000765",
+    "completion": "0.000000255",
+    "input_cache_read": "0.0000000425"
    },
    "top_provider": {
     "max_completion_tokens": 235929
@@ -9024,12 +9131,11 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000027",
-    "completion": "0.00000216",
-    "input_cache_read": "0.00000027"
+    "prompt": "0.00000026",
+    "completion": "0.0000026"
    },
    "top_provider": {
-    "max_completion_tokens": 65536
+    "max_completion_tokens": 81920
    },
    "supported_parameters": [
     "reasoning",
@@ -9705,6 +9811,7 @@
    "context_length": 131072,
    "description": "Solar Pro 3 is Upstage's powerful Mixture-of-Experts (MoE) language model. With 102B total parameters and 12B active parameters per forward pass, it delivers exceptional performance while maintaining computational efficiency. Optimized...",
    "hugging_face_id": "",
+   "expiration_date": "2026-10-30",
    "architecture": {
     "input_modalities": [
      "text"
@@ -11176,39 +11283,6 @@
    "ha_versione_gratuita": false
   },
   {
-   "id": "ibm-granite/granite-4.0-h-micro",
-   "name": "IBM: Granite 4.0 Micro",
-   "created": 1760927695,
-   "context_length": 131000,
-   "description": "Granite-4.0-H-Micro is a 3B parameter from the Granite 4 family of models. These models are the latest in a series of models released by IBM. They are fine-tuned for long...",
-   "hugging_face_id": "ibm-granite/granite-4.0-h-micro",
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text->text"
-   },
-   "pricing": {
-    "prompt": "0.000000017",
-    "completion": "0.000000112"
-   },
-   "top_provider": {
-    "max_completion_tokens": 117900
-   },
-   "supported_parameters": [],
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": 5.1,
-     "coding_index": null,
-     "agentic_index": null
-    }
-   },
-   "ha_versione_gratuita": false
-  },
-  {
    "id": "openai/gpt-5-image-mini",
    "name": "OpenAI: GPT-5 Image Mini",
    "created": 1760624583,
@@ -12045,7 +12119,6 @@
    "context_length": 65536,
    "description": "GLM-4.5V is a vision-language foundation model for multimodal agent applications. Built on a Mixture-of-Experts (MoE) architecture with 106B parameters and 12B activated parameters, it achieves state-of-the-art results in video understanding,...",
    "hugging_face_id": "zai-org/GLM-4.5V",
-   "expiration_date": "2026-12-31",
    "architecture": {
     "input_modalities": [
      "text",
@@ -13909,9 +13982,9 @@
    ],
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 13.1,
-     "coding_index": 27.8,
-     "agentic_index": 1
+     "intelligence_index": 7,
+     "coding_index": null,
+     "agentic_index": null
     }
    },
    "ha_versione_gratuita": false
@@ -15132,7 +15205,7 @@
    ],
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 6.7,
+     "intelligence_index": 6,
      "coding_index": null,
      "agentic_index": null
     }
