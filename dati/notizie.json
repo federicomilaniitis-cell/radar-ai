@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-28T10:55:43+00:00",
+ "aggiornato": "2026-10-28T16:56:41+00:00",
  "notizie": [
   {
    "tag": "crit",
@@ -104,6 +104,33 @@
    "tag": "ok",
    "tagT": "Prezzo giu'",
    "data": "2026-10-28",
+   "titolo": "DeepSeek Pro Latest: il prezzo in entrata scende del 28%",
+   "testo": "Da $0,254 a $0,183 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo--deepseek-deepseek-pro-latestprompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-10-28",
+   "titolo": "Hy4 preview: il prezzo in entrata scende del 10%",
+   "testo": "Da $0,834 a $0,751 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-tencent-hy4-previewprompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-10-28",
+   "titolo": "Hy4 preview: il prezzo in uscita scende del 10%",
+   "testo": "Da $2,5 a $2,25 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-tencent-hy4-previewcompletion"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-10-28",
    "titolo": "DeepSeek V4.1 Flash 1017: il prezzo in entrata scende del 50%",
    "testo": "Da $0,3 a $0,15 per milione di token in entrata.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
@@ -176,15 +203,6 @@
    "tag": "ok",
    "tagT": "Prezzo giu'",
    "data": "2026-10-27",
-   "titolo": "DeepSeek Pro Latest: il prezzo in entrata scende del 48%",
-   "testo": "Da $0,243 a $0,126 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo--deepseek-deepseek-pro-latestprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-10-27",
    "titolo": "DeepSeek Flash Latest: il prezzo in uscita scende del 40%",
    "testo": "Da $1 a $0,6 per milione di token in uscita.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
@@ -198,24 +216,6 @@
    "testo": "GPT-6.1 Terra entra nel catalogo. Prezzo: $1 per milione di token in entrata, $5 in uscita. Tiene 1.050.000 token di contesto. Punteggio di intelligenza indipendente: 48,1.",
    "perche": "Un'opzione in piu' da mettere sul tavolo quando scegli con chi lavorare.",
    "id": "nuovo-openai-gpt-6-1-terra"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-10-27",
-   "titolo": "GPT Terra Latest: il prezzo in entrata scende del 50%",
-   "testo": "Da $2 a $1 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo--openai-gpt-terra-latestprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-10-27",
-   "titolo": "GPT Terra Latest: il prezzo in uscita scende del 58%",
-   "testo": "Da $12 a $5 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo--openai-gpt-terra-latestcompletion"
   }
  ]
 }
