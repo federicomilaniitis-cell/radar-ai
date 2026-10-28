@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-28T16:56:41+00:00",
+ "aggiornato": "2026-10-28T21:30:01+00:00",
  "notizie": [
   {
    "tag": "crit",
@@ -104,10 +104,28 @@
    "tag": "ok",
    "tagT": "Prezzo giu'",
    "data": "2026-10-28",
-   "titolo": "DeepSeek Pro Latest: il prezzo in entrata scende del 28%",
-   "testo": "Da $0,254 a $0,183 per milione di token in entrata.",
+   "titolo": "DeepSeek Pro Latest: il prezzo in entrata scende del 43%",
+   "testo": "Da $0,183 a $0,103 per milione di token in entrata.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
    "id": "prezzo--deepseek-deepseek-pro-latestprompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-10-28",
+   "titolo": "DeepSeek V4.1 Flash: il prezzo in entrata scende del 68%",
+   "testo": "Da $0,14 a $0,045 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-deepseek-deepseek-v4-1-flashprompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-10-28",
+   "titolo": "GLM 5.3 Flash: il prezzo in entrata scende del 83%",
+   "testo": "Da $0,15 a $0,026 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-z-ai-glm-5-3-flashprompt"
   },
   {
    "tag": "ok",
@@ -198,24 +216,6 @@
    "testo": "Da $0,034 a $0,032 per milione di token in entrata.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
    "id": "prezzo-z-ai-glm-5-2prompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-10-27",
-   "titolo": "DeepSeek Flash Latest: il prezzo in uscita scende del 40%",
-   "testo": "Da $1 a $0,6 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo--deepseek-deepseek-flash-latestcompletion"
-  },
-  {
-   "tag": "hot",
-   "tagT": "Nuovo modello",
-   "data": "2026-10-26",
-   "titolo": "GPT-6.1 Terra: e' disponibile da oggi",
-   "testo": "GPT-6.1 Terra entra nel catalogo. Prezzo: $1 per milione di token in entrata, $5 in uscita. Tiene 1.050.000 token di contesto. Punteggio di intelligenza indipendente: 48,1.",
-   "perche": "Un'opzione in piu' da mettere sul tavolo quando scegli con chi lavorare.",
-   "id": "nuovo-openai-gpt-6-1-terra"
   }
  ]
 }

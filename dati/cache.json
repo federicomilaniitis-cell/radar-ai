@@ -1,9 +1,54 @@
 {
- "aggiornato": "2026-10-28T16:56:41+00:00",
+ "aggiornato": "2026-10-28T21:30:01+00:00",
  "aggiornato_it": "28 ottobre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 379,
+ "totale": 380,
  "modelli": [
+  {
+   "id": "particle-ai/particle-1",
+   "name": "Particle AI: Particle-1",
+   "created": 1793207893,
+   "context_length": 1048576,
+   "description": "Particle-1 is a token-efficient agentic coding model from Particle AI, post-trained on DeepSeek V4.1 Flash. It is suited for software engineering work such as terminal workflows, codebase changes, and data...",
+   "architecture": {
+    "input_modalities": [
+     "text",
+     "image"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image->text"
+   },
+   "pricing": {
+    "prompt": "0.00000025",
+    "completion": "0.000001",
+    "input_cache_read": "0.00000003"
+   },
+   "top_provider": {
+    "max_completion_tokens": 131072
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": false,
+    "default_enabled": true,
+    "supported_efforts": [
+     "max",
+     "xhigh",
+     "high",
+     "medium",
+     "low",
+     "minimal",
+     "none"
+    ],
+    "default_effort": "high"
+   },
+   "ha_versione_gratuita": false
+  },
   {
    "id": "openai/gpt-6.1-terra-pro",
    "name": "OpenAI: GPT-6.1 Terra Pro",
@@ -560,7 +605,7 @@
     "input_cache_read": "0.00000015"
    },
    "top_provider": {
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -2263,9 +2308,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000001829",
+    "prompt": "0.0000001035",
     "completion": "0.000008",
-    "input_cache_read": "0.00000018"
+    "input_cache_read": "0.0000001"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -2304,9 +2349,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.0000000115",
+    "prompt": "0.0000000138",
     "completion": "0.0000018",
-    "input_cache_read": "0.0000000114"
+    "input_cache_read": "0.0000000137"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -2721,12 +2766,12 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000014",
-    "completion": "0.00000042",
-    "input_cache_read": "0.0000000042"
+    "prompt": "0.000000045",
+    "completion": "0.0000005",
+    "input_cache_read": "0.000000006"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -3412,12 +3457,12 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000005",
-    "input_cache_read": "0.00000003"
+    "prompt": "0.0000000259",
+    "completion": "0.0000001042",
+    "input_cache_read": "0.0000000259"
    },
    "top_provider": {
-    "max_completion_tokens": 943717
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -5098,9 +5143,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000231",
+    "prompt": "0.000000192",
     "completion": "0.00002",
-    "input_cache_read": "0.000000221"
+    "input_cache_read": "0.000000182"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -6025,9 +6070,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000014",
-    "completion": "0.000007",
-    "input_cache_read": "0.000000013"
+    "prompt": "0.000000006",
+    "completion": "0.0000054",
+    "input_cache_read": "0.000000005"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -7100,9 +7145,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000002185",
-    "completion": "0.000008099",
-    "input_cache_read": "0.00000021"
+    "prompt": "0.0000001824",
+    "completion": "0.0000093388",
+    "input_cache_read": "0.00000018"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -7946,9 +7991,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000009",
-    "completion": "0.0000003",
-    "input_cache_read": "0.00000005"
+    "prompt": "0.0000000765",
+    "completion": "0.000000255",
+    "input_cache_read": "0.0000000425"
    },
    "top_provider": {
     "max_completion_tokens": 235929
@@ -8579,7 +8624,7 @@
    "id": "nvidia/nemotron-3-super-120b-a12b",
    "name": "NVIDIA: Nemotron 3 Super",
    "created": 1773245239,
-   "context_length": 262144,
+   "context_length": 1048576,
    "description": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications. Built on a hybrid Mamba-Transformer...",
    "hugging_face_id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8",
    "architecture": {
@@ -8597,7 +8642,7 @@
     "input_cache_read": "0.00000015"
    },
    "top_provider": {
-    "max_completion_tokens": 235929
+    "max_completion_tokens": 262144
    },
    "supported_parameters": [
     "reasoning",
