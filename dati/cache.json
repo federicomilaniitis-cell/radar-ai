@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-28T01:58:34+00:00",
+ "aggiornato": "2026-10-28T10:55:43+00:00",
  "aggiornato_it": "28 ottobre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 387,
@@ -255,9 +255,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.0000003",
-    "completion": "0.0000012",
-    "input_cache_read": "0.000000006"
+    "prompt": "0.00000015",
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000003"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -1142,7 +1142,7 @@
    "id": "inclusionai/ling-3.1-flash",
    "name": "inclusionAI: Ling 3.1 Flash",
    "created": 1790950024,
-   "context_length": 262144,
+   "context_length": 1000000,
    "description": "Ling 3.1 Flash is a hybrid reasoning mixture-of-experts model from inclusionAI, with 25B active parameters out of 560B total.",
    "architecture": {
     "input_modalities": [
@@ -1159,7 +1159,7 @@
     "input_cache_read": "0.000000015"
    },
    "top_provider": {
-    "max_completion_tokens": 235929
+    "max_completion_tokens": 262144
    },
    "supported_parameters": [
     "reasoning",
@@ -2332,9 +2332,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.0000000151",
+    "prompt": "0.0000000115",
     "completion": "0.0000018",
-    "input_cache_read": "0.000000015"
+    "input_cache_read": "0.0000000114"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -3373,9 +3373,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000000379",
-    "completion": "0.0000000798",
-    "input_cache_read": "0.00000003"
+    "prompt": "0.0000000216",
+    "completion": "0.0000001238",
+    "input_cache_read": "0.0000000216"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -4031,9 +4031,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000132",
-    "completion": "0.00000396",
-    "input_cache_read": "0.000000044"
+    "prompt": "0.00000066",
+    "completion": "0.00000198",
+    "input_cache_read": "0.000000022"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -5140,9 +5140,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000169",
-    "completion": "0.0000115",
-    "input_cache_read": "0.000000159"
+    "prompt": "0.00000015",
+    "completion": "0.00002",
+    "input_cache_read": "0.00000014"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -6067,9 +6067,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000341",
+    "prompt": "0.000000014",
     "completion": "0.000007",
-    "input_cache_read": "0.000000033"
+    "input_cache_read": "0.000000013"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -6116,7 +6116,7 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000056",
+    "prompt": "0.0000006725",
     "completion": "0.0000031",
     "input_cache_read": "0.00000015"
    },
@@ -7142,9 +7142,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000169",
-    "completion": "0.0000115",
-    "input_cache_read": "0.000000159"
+    "prompt": "0.00000015",
+    "completion": "0.00002",
+    "input_cache_read": "0.00000014"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -7529,9 +7529,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000875394",
-    "completion": "0.000001750788",
-    "input_cache_read": "0.0000000729495"
+    "prompt": "0.00000095526",
+    "completion": "0.00000191052",
+    "input_cache_read": "0.000000079605"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -7576,12 +7576,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000014",
-    "completion": "0.00000028",
-    "input_cache_read": "0.000000028"
+    "prompt": "0.000000091",
+    "completion": "0.000000182",
+    "input_cache_read": "0.0000000182"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 943717
    },
    "supported_parameters": [
     "reasoning",
@@ -7988,9 +7988,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000000765",
-    "completion": "0.000000255",
-    "input_cache_read": "0.0000000425"
+    "prompt": "0.00000009",
+    "completion": "0.0000003",
+    "input_cache_read": "0.00000005"
    },
    "top_provider": {
     "max_completion_tokens": 235929
@@ -8655,8 +8655,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000008",
-    "completion": "0.00000045"
+    "prompt": "0.0000003",
+    "completion": "0.0000024",
+    "input_cache_read": "0.00000015"
    },
    "top_provider": {
     "max_completion_tokens": 235929

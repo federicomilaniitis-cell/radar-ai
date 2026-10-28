@@ -1,6 +1,41 @@
 {
- "aggiornato": "2026-10-27T21:04:44+00:00",
+ "aggiornato": "2026-10-28T10:55:43+00:00",
  "paper": [
+  {
+   "titolo": "DCKV: Learned Transform Coding of the Prompt KV Cache in Hybrid Language Models",
+   "data": "2026-10-27",
+   "url": "http://arxiv.org/abs/2610.36950v1",
+   "id": "2610.36950v1",
+   "sommario": "Hybrid language models keep a key-value (KV) cache only in their few full-attention layers, but this cache is still the part of a prompt's state that grows with the prompt and that must be stored or moved to reuse it. We present DCKV, a differentiable codec for the KV cache and t"
+  },
+  {
+   "titolo": "Monitor Accuracy Isn't the Answer: A Decision-Value Framework for Evaluating AI Agent Restart Monitors",
+   "data": "2026-10-27",
+   "url": "http://arxiv.org/abs/2610.36544v1",
+   "id": "2610.36544v1",
+   "sommario": "Classification accuracy and true-positive and false-positive rates alone do not determine whether restarting an AI agent improves success. Using an exact alarm-to-action identity for an independent clean restart with zero monitoring overhead, we show analytically that a monitor w"
+  },
+  {
+   "titolo": "Folding Attention Biases into Keys Makes Compacted KV Caches Run on Standard Kernels",
+   "data": "2026-10-27",
+   "url": "http://arxiv.org/abs/2610.36520v1",
+   "id": "2610.36520v1",
+   "sommario": "Attention Matching (AM) compacts a KV cache by keeping some keys per head, refitting their values and adding a bias to each kept key's logit. FlashAttention and vLLM's paged caches have no input for it. We fold the bias into the keys along one closed-form direction per head, fitt"
+  },
+  {
+   "titolo": "WAKMan: Workload Aware KVCache Manager",
+   "data": "2026-10-26",
+   "url": "http://arxiv.org/abs/2610.36355v1",
+   "id": "2610.36355v1",
+   "sommario": "Prefix caching enables a Large Language Model (LLM) servers to reuse the Key-Value (KV) states and accelerate prefill computation stage for requests that share a prefix with earlier prompts, thus reducing latency and serving cost. With limited memory resource, the KV cache evicti"
+  },
+  {
+   "titolo": "Stratum: Repository Memory for Coding Agents Beyond the Context Window",
+   "data": "2026-10-26",
+   "url": "http://arxiv.org/abs/2610.36153v1",
+   "id": "2610.36153v1",
+   "sommario": "Context windows have grown a thousand-fold, yet coding agents still start every session with no memory of their past work. They re-read files, retry failed approaches, and forget root causes they established hours earlier. This is not a context-length problem but a memory-archite"
+  },
   {
    "titolo": "OSWAM: An Effective World Action Model with One-Step Action Generation",
    "data": "2026-10-26",
@@ -46,44 +81,9 @@
   {
    "titolo": "Diagnosing and Mitigating Long-Session Degradation in Full-Duplex Speech Models",
    "data": "2026-10-26",
-   "url": "http://arxiv.org/abs/2610.34991v1",
-   "id": "2610.34991v1",
+   "url": "http://arxiv.org/abs/2610.34991v2",
+   "id": "2610.34991v2",
    "sommario": "End-to-end full-duplex spoken dialogue models enable natural, real-time spoken interactions with interruptions, backchannels, and overlapping speech. Prior evaluations have assessed diverse interaction capabilities and identified some degradation patterns across conversational tu"
-  },
-  {
-   "titolo": "End-to-End MXFP8 Reinforcement Learning on Blackwell: What Matching Buys, When It Pays Off, and How It Fails",
-   "data": "2026-10-26",
-   "url": "http://arxiv.org/abs/2610.34915v1",
-   "id": "2610.34915v1",
-   "sommario": "Low-precision arithmetic can make reinforcement learning (RL) for large language models cheaper, but RL requires the sampler and the learner to agree. Several frameworks now run FP8 on both sides. We implement end-to-end MXFP8 RL in verl (Megatron/Transformer Engine training; vLL"
-  },
-  {
-   "titolo": "SPARTA: A Sparse Ternary LLM Accelerator with Adaptive Attention and Unified Datapath for Long-Context Edge Inference",
-   "data": "2026-10-26",
-   "url": "http://arxiv.org/abs/2610.34824v1",
-   "id": "2610.34824v1",
-   "sommario": "LLMs on edge devices are constrained by limited memory and bandwidth. Although 1.58-bit ternary weights greatly reduce model storage, long-context inference is increasingly bottlenecked by KV-cache traffic and attention. Existing accelerators also use separate datapaths for terna"
-  },
-  {
-   "titolo": "ToDoPro: Faster and Better Reference-Based Generation: Early Token Reduction via Downsampled Self-Probing",
-   "data": "2026-10-26",
-   "url": "http://arxiv.org/abs/2610.34782v1",
-   "id": "2610.34782v1",
-   "sommario": "Recent generic reference-based image generation models natively support multiple conditions by concatenating all reference image and text tokens into a joint sequence processed by a single Diffusion Transformer (DiT). However, this versatile paradigm comes at an efficiency cost: "
-  },
-  {
-   "titolo": "MCF: A Memory- and Communication-Aware Co-Designed Framework for Long-Context LLM Inference",
-   "data": "2026-10-26",
-   "url": "http://arxiv.org/abs/2610.34731v1",
-   "id": "2610.34731v1",
-   "sommario": "This paper presents Memory- and Communication-Aware Framework for Long-Context LLM Inference (MCF) that optimizes long-context inference through communication-aware and stage-adaptive KV-cache layout transitions. At the core of MCF is {Memory-Aware Replication and Scheduling} (MA"
-  },
-  {
-   "titolo": "Prefix Keys and Values Matter Late: RIPE Caching for Self-Speculative Decoding in Looped Language Models",
-   "data": "2026-10-25",
-   "url": "http://arxiv.org/abs/2610.34436v1",
-   "id": "2610.34436v1",
-   "sommario": "A looped language model runs one block of layers $R$ times per token, so its key-value (KV) cache holds $R$ planes per recurrent layer, and self-speculative decoding (draft with a few loops, verify with all $R$) reads them all. We find that prefix keys and values matter late: at "
   }
  ]
 }
