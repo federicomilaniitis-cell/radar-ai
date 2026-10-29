@@ -1,8 +1,8 @@
 {
- "aggiornato": "2026-10-29T11:13:34+00:00",
+ "aggiornato": "2026-10-29T21:30:06+00:00",
  "aggiornato_it": "29 ottobre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 380,
+ "totale": 379,
  "modelli": [
   {
    "id": "particle-ai/particle-1",
@@ -989,7 +989,7 @@
    "id": "stepfun/step-5-preview",
    "name": "StepFun: Step 5 Preview",
    "created": 1791462849,
-   "context_length": 1000000,
+   "context_length": 1048576,
    "description": "Step 5 Preview is StepFun's flagship model for agentic work, built on a sparse Mixture-of-Experts architecture (27B active / 600B total parameters). It performs strongly in software engineering and professional...",
    "hugging_face_id": "stepfun-ai/Step-5-Preview",
    "architecture": {
@@ -1135,6 +1135,7 @@
    "created": 1791294122,
    "context_length": 1048576,
    "description": "Mistral Large 4 is a frontier multimodal (text and image input) model from Mistral AI built for reasoning, coding, and agentic workloads. It offers a 1M-token context window with up...",
+   "hugging_face_id": "mistralai/Mistral-Large-4-1T-A52B",
    "architecture": {
     "input_modalities": [
      "text",
@@ -1146,9 +1147,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000136",
-    "completion": "0.00000418",
-    "input_cache_read": "0.00000014"
+    "prompt": "0.0000007",
+    "completion": "0.0000021",
+    "input_cache_read": "0.00000007"
    },
    "top_provider": {
     "max_completion_tokens": 262144
@@ -1385,7 +1386,7 @@
     "completion": "-1"
    },
    "top_provider": {
-    "max_completion_tokens": 64000
+    "max_completion_tokens": 65536
    },
    "supported_parameters": [
     "reasoning",
@@ -2349,9 +2350,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.0000000193",
-    "completion": "0.0000018",
-    "input_cache_read": "0.0000000191"
+    "prompt": "0.000000044",
+    "completion": "0.000000383",
+    "input_cache_read": "0.000000004"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -3334,9 +3335,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000834",
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042"
+    "prompt": "0.0000007506",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378"
    },
    "top_provider": {
     "max_completion_tokens": 64000
@@ -3376,8 +3377,8 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000000457",
-    "completion": "0.0000000742",
+    "prompt": "0.0000000503",
+    "completion": "0.0000000701",
     "input_cache_read": "0.00000003"
    },
    "top_provider": {
@@ -3457,12 +3458,12 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000000457",
-    "completion": "0.0000000742",
+    "prompt": "0.00000015",
+    "completion": "0.0000005",
     "input_cache_read": "0.00000003"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 943717
    },
    "supported_parameters": [
     "reasoning",
@@ -3772,12 +3773,12 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000039",
-    "completion": "0.00000125",
-    "input_cache_read": "0.0000000039"
+    "prompt": "0.0000002",
+    "completion": "0.0000025",
+    "input_cache_read": "0.00000005"
    },
    "top_provider": {
-    "max_completion_tokens": 65536
+    "max_completion_tokens": 262144
    },
    "supported_parameters": [
     "reasoning",
@@ -4487,9 +4488,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000057",
-    "completion": "0.0000001341",
-    "input_cache_read": "0.000000028"
+    "prompt": "0.0000000424",
+    "completion": "0.0000003",
+    "input_cache_read": "0.0000000414"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -5705,9 +5706,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000132",
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033"
+    "prompt": "0.0000000825",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -7146,7 +7147,7 @@
    },
    "pricing": {
     "prompt": "0.0000001824",
-    "completion": "0.0000093388",
+    "completion": "0.0000105572",
     "input_cache_read": "0.00000018"
    },
    "top_provider": {
@@ -7532,12 +7533,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000095526",
-    "completion": "0.00000191052",
-    "input_cache_read": "0.000000079605"
+    "prompt": "0.0000016",
+    "completion": "0.0000032",
+    "input_cache_read": "0.000000135"
    },
    "top_provider": {
-    "max_completion_tokens": 384000
+    "max_completion_tokens": 393216
    },
    "supported_parameters": [
     "reasoning",
@@ -7991,9 +7992,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000009",
-    "completion": "0.0000003",
-    "input_cache_read": "0.00000005"
+    "prompt": "0.0000000765",
+    "completion": "0.000000255",
+    "input_cache_read": "0.0000000425"
    },
    "top_provider": {
     "max_completion_tokens": 235929
@@ -9728,57 +9729,6 @@
      "intelligence_index": null,
      "coding_index": 46.8,
      "agentic_index": null
-    }
-   },
-   "ha_versione_gratuita": false
-  },
-  {
-   "id": "upstage/solar-pro-3",
-   "name": "Upstage: Solar Pro 3",
-   "created": 1769481200,
-   "context_length": 131072,
-   "description": "Solar Pro 3 is Upstage's powerful Mixture-of-Experts (MoE) language model. With 102B total parameters and 12B active parameters per forward pass, it delivers exceptional performance while maintaining computational efficiency. Optimized...",
-   "hugging_face_id": "",
-   "expiration_date": "2026-10-30",
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text->text"
-   },
-   "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000015"
-   },
-   "top_provider": {
-    "max_completion_tokens": 117964
-   },
-   "supported_parameters": [
-    "reasoning",
-    "structured_outputs",
-    "tools"
-   ],
-   "reasoning": {
-    "mandatory": false,
-    "default_enabled": false,
-    "supported_efforts": [
-     "high",
-     "medium",
-     "low",
-     "minimal",
-     "none"
-    ],
-    "default_effort": "medium"
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": null,
-     "coding_index": 16.2,
-     "agentic_index": 1.4
     }
    },
    "ha_versione_gratuita": false

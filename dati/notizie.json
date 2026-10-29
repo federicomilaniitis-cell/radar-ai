@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-29T11:13:34+00:00",
+ "aggiornato": "2026-10-29T21:30:06+00:00",
  "notizie": [
   {
    "tag": "crit",
@@ -50,15 +50,6 @@
    "tag": "crit",
    "tagT": "Chiusura",
    "data": "2026-10-29",
-   "titolo": "Solar Pro 3 viene spento fra 1 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-30. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-upstage-solar-pro-3"
-  },
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-10-29",
    "titolo": "Seed 1.6 Flash viene spento fra 13 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-11. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
@@ -99,6 +90,51 @@
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-03. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-meta-llama-llama-3-1-70b-instruct"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-10-29",
+   "titolo": "Mistral Large 4: il prezzo in entrata scende del 49%",
+   "testo": "Da $1,36 a $0,7 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-mistralai-mistral-large-4-0prompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-10-29",
+   "titolo": "Mistral Large 4: il prezzo in uscita scende del 50%",
+   "testo": "Da $4,18 a $2,1 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-mistralai-mistral-large-4-0completion"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-10-29",
+   "titolo": "DeepSeek Flash Latest: il prezzo in uscita scende del 79%",
+   "testo": "Da $1,8 a $0,383 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo--deepseek-deepseek-flash-latestcompletion"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-10-29",
+   "titolo": "Hy4 preview: il prezzo in entrata scende del 10%",
+   "testo": "Da $0,834 a $0,751 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-tencent-hy4-previewprompt"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-10-29",
+   "titolo": "Solar Pro 3 viene spento fra 1 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-30. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-upstage-solar-pro-3"
   },
   {
    "tag": "ok",
@@ -176,46 +212,10 @@
    "tag": "ok",
    "tagT": "Prezzo giu'",
    "data": "2026-10-28",
-   "titolo": "Hy4 preview: il prezzo in entrata scende del 10%",
-   "testo": "Da $0,834 a $0,751 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-tencent-hy4-previewprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-10-28",
    "titolo": "Hy4 preview: il prezzo in uscita scende del 10%",
    "testo": "Da $2,5 a $2,25 per milione di token in uscita.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
    "id": "prezzo-tencent-hy4-previewcompletion"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-10-28",
-   "titolo": "DeepSeek Flash Latest: il prezzo in entrata scende del 24%",
-   "testo": "Da $0,015 a $0,011 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo--deepseek-deepseek-flash-latestprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-10-28",
-   "titolo": "Qwen3.8 27B: il prezzo in entrata scende del 80%",
-   "testo": "Da $0,2 a $0,039 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-qwen-qwen3-8-27bprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-10-28",
-   "titolo": "Qwen3.8 27B: il prezzo in uscita scende del 50%",
-   "testo": "Da $2,5 a $1,25 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-qwen-qwen3-8-27bcompletion"
   }
  ]
 }
