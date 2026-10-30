@@ -1,6 +1,62 @@
 {
- "aggiornato": "2026-10-30T02:19:58+00:00",
+ "aggiornato": "2026-10-30T11:08:09+00:00",
  "paper": [
+  {
+   "titolo": "KV Cache Quantization for Diffusion Language Models",
+   "data": "2026-10-29",
+   "url": "http://arxiv.org/abs/2610.39853v1",
+   "id": "2610.39853v1",
+   "sommario": "KV cache quantization is well studied for autoregressive language models, where cached prefix states are exact under causal attention and quantization is mainly a cache reconstruction problem. Diffusion language models (dLLMs) break this assumption. Fast dLLM inference reuses KV "
+  },
+  {
+   "titolo": "DWISE: Denoising Workload-Informed Scheduling Engine",
+   "data": "2026-10-29",
+   "url": "http://arxiv.org/abs/2610.39852v1",
+   "id": "2610.39852v1",
+   "sommario": "Unlike autoregressive large language models (AR-LLMs), diffusion LLMs (dLLMs) generate text by iteratively denoising many tokens in parallel, offering a promising path to efficient inference. Existing serving frameworks, however, schedule dLLM requests with policies designed for "
+  },
+  {
+   "titolo": "GPU-Resident Speculative Decoding for In-Browser LLM Inference with WebGPU",
+   "data": "2026-10-29",
+   "url": "http://arxiv.org/abs/2610.39761v1",
+   "id": "2610.39761v1",
+   "sommario": "WebGPU enables private, offline LLM inference inside web pages, but browser dispatch, inter-process communication, synchronous readback and single-token kernels slow decoding and make conventional speculative decoding inefficient. We present a WebGPU runtime that addresses these "
+  },
+  {
+   "titolo": "Regional Anchor Routing for Multi-Object Motion Transfer",
+   "data": "2026-10-29",
+   "url": "http://arxiv.org/abs/2610.39478v1",
+   "id": "2610.39478v1",
+   "sommario": "Compositional motion transfer requires a model to extract motions from multiple reference videos, and apply each motion to a user-specified object in one target scene. Existing methods normally struggle to reliably assign different reference motions to the correct target objects,"
+  },
+  {
+   "titolo": "Calibrating Attention-Based Token Pruning for Efficient Multi-Image Synthesis in UMMs",
+   "data": "2026-10-29",
+   "url": "http://arxiv.org/abs/2610.39467v1",
+   "id": "2610.39467v1",
+   "sommario": "Unified Multimodal Models (UMMs) enable powerful multi-image synthesis but incur substantial computation from long visual contexts. While token pruning offers a direct route to accelerating inference, existing methods are primarily adapted from understanding tasks, suffering from"
+  },
+  {
+   "titolo": "Unlocking Any-Order Generation in Pretrained Autoregressive Image Models",
+   "data": "2026-10-29",
+   "url": "http://arxiv.org/abs/2610.39293v1",
+   "id": "2610.39293v1",
+   "sommario": "Autoregressive (AR) image generators are powerful in principle but inflexible in practice: training with a fixed raster-scan order hardcodes a single factorization of the image distribution into the model, leaving it unable to inpaint, outpaint, or edit at inference time. Existin"
+  },
+  {
+   "titolo": "Context Compaction for World Models",
+   "data": "2026-10-28",
+   "url": "http://arxiv.org/abs/2610.38980v1",
+   "id": "2610.38980v1",
+   "sommario": "World models let observers explore and interact with generated worlds. Recent work shows that when observers revisit a region, current models often fail to regenerate it consistently. We view this as a context retrieval problem. LLM agents manage context retrieval at two layers o"
+  },
+  {
+   "titolo": "Contextual Embeddings Beyond the Gold Chunk",
+   "data": "2026-10-28",
+   "url": "http://arxiv.org/abs/2610.38854v1",
+   "id": "2610.38854v1",
+   "sommario": "Contextual embeddings represent chunks of a document with respect to the document's global context. These models are typically trained and evaluated under the assumption that a relevant document contains only a single relevant chunk. In this work, we argue that in real-world use "
+  },
   {
    "titolo": "FlatCake: A Flat KVCache Storage Architecture for LLM Serving",
    "data": "2026-10-28",
@@ -28,62 +84,6 @@
    "url": "http://arxiv.org/abs/2610.38210v1",
    "id": "2610.38210v1",
    "sommario": "Weight-only, lossy quantization substantially reduces the storage and memory requirements for serving large language models (LLMs), but the growing key-value (KV) cache remains a bottleneck for long-context inference on personal devices. We present Group-Adaptive Additive Codec ("
-  },
-  {
-   "titolo": "FAD-KV: Adaptive Dictionary KV Caching for Efficient Reasoning Decoding",
-   "data": "2026-10-27",
-   "url": "http://arxiv.org/abs/2610.37921v1",
-   "id": "2610.37921v1",
-   "sommario": "Key-value (KV) caching is a core mechanism in large language models, where intermediate key and value representations are stored to accelerate autoregressive decoding. As generation length increases, KV cache memory and computation grow linearly, making compression critical for e"
-  },
-  {
-   "titolo": "Selective and Hybrid-State Communication for Latent Multi-Agent Systems",
-   "data": "2026-10-27",
-   "url": "http://arxiv.org/abs/2610.37779v1",
-   "id": "2610.37779v1",
-   "sommario": "Efficient communication remains a major bottleneck in large language model multiagent systems. Latent communication reduces repeated natural-language exchange by transferring internal model states between agents, but these transfers remain costly and are typically designed around"
-  },
-  {
-   "titolo": "DCKV: Learned Transform Coding of the Prompt KV Cache in Hybrid Language Models",
-   "data": "2026-10-27",
-   "url": "http://arxiv.org/abs/2610.36950v1",
-   "id": "2610.36950v1",
-   "sommario": "Hybrid language models keep a key-value (KV) cache only in their few full-attention layers, but this cache is still the part of a prompt's state that grows with the prompt and that must be stored or moved to reuse it. We present DCKV, a differentiable codec for the KV cache and t"
-  },
-  {
-   "titolo": "Monitor Accuracy Isn't the Answer: A Decision-Value Framework for Evaluating AI Agent Restart Monitors",
-   "data": "2026-10-27",
-   "url": "http://arxiv.org/abs/2610.36544v1",
-   "id": "2610.36544v1",
-   "sommario": "Classification accuracy and true-positive and false-positive rates alone do not determine whether restarting an AI agent improves success. Using an exact alarm-to-action identity for an independent clean restart with zero monitoring overhead, we show analytically that a monitor w"
-  },
-  {
-   "titolo": "Folding Attention Biases into Keys Makes Compacted KV Caches Run on Standard Kernels",
-   "data": "2026-10-27",
-   "url": "http://arxiv.org/abs/2610.36520v1",
-   "id": "2610.36520v1",
-   "sommario": "Attention Matching (AM) compacts a KV cache by keeping some keys per head, refitting their values and adding a bias to each kept key's logit. FlashAttention and vLLM's paged caches have no input for it. We fold the bias into the keys along one closed-form direction per head, fitt"
-  },
-  {
-   "titolo": "WAKMan: Workload Aware KVCache Manager",
-   "data": "2026-10-26",
-   "url": "http://arxiv.org/abs/2610.36355v1",
-   "id": "2610.36355v1",
-   "sommario": "Prefix caching enables a Large Language Model (LLM) servers to reuse the Key-Value (KV) states and accelerate prefill computation stage for requests that share a prefix with earlier prompts, thus reducing latency and serving cost. With limited memory resource, the KV cache evicti"
-  },
-  {
-   "titolo": "Stratum: Repository Memory for Coding Agents Beyond the Context Window",
-   "data": "2026-10-26",
-   "url": "http://arxiv.org/abs/2610.36153v1",
-   "id": "2610.36153v1",
-   "sommario": "Context windows have grown a thousand-fold, yet coding agents still start every session with no memory of their past work. They re-read files, retry failed approaches, and forget root causes they established hours earlier. This is not a context-length problem but a memory-archite"
-  },
-  {
-   "titolo": "OSWAM: An Effective World Action Model with One-Step Action Generation",
-   "data": "2026-10-26",
-   "url": "http://arxiv.org/abs/2610.35850v1",
-   "id": "2610.35850v1",
-   "sommario": "Direct-policy World Action Models (WAM) have demonstrated the benefits of decoupling action generation from explicit future visual prediction for efficient inference in autonomous driving and embodied control. However, they still require tens of denoising steps to achieve competi"
   }
  ]
 }

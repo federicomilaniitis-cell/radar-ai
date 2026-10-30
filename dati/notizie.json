@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-30T02:19:58+00:00",
+ "aggiornato": "2026-10-30T11:08:09+00:00",
  "notizie": [
   {
    "tag": "crit",
@@ -95,19 +95,46 @@
    "tag": "ok",
    "tagT": "Prezzo giu'",
    "data": "2026-10-30",
-   "titolo": "DeepSeek Pro Latest: il prezzo in uscita scende del 50%",
-   "testo": "Da $8 a $4 per milione di token in uscita.",
+   "titolo": "DeepSeek V4.1 Flash 1017: il prezzo in entrata scende del 50%",
+   "testo": "Da $0,3 a $0,15 per milione di token in entrata.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo--deepseek-deepseek-pro-latestcompletion"
+   "id": "prezzo-deepseek-deepseek-v4-1-flash-1017prompt"
   },
   {
    "tag": "ok",
    "tagT": "Prezzo giu'",
    "data": "2026-10-30",
-   "titolo": "DeepSeek Flash Latest: il prezzo in entrata scende del 23%",
-   "testo": "Da $0,044 a $0,034 per milione di token in entrata.",
+   "titolo": "DeepSeek V4.1 Flash 1017: il prezzo in uscita scende del 50%",
+   "testo": "Da $1,2 a $0,6 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-deepseek-deepseek-v4-1-flash-1017completion"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-10-30",
+   "titolo": "DeepSeek Flash Latest: il prezzo in entrata scende del 9%",
+   "testo": "Da $0,034 a $0,031 per milione di token in entrata.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
    "id": "prezzo--deepseek-deepseek-flash-latestprompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-10-30",
+   "titolo": "DeepSeek Flash Latest: il prezzo in uscita scende del 76%",
+   "testo": "Da $1,14 a $0,27 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo--deepseek-deepseek-flash-latestcompletion"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-10-30",
+   "titolo": "DeepSeek Pro Latest: il prezzo in uscita scende del 50%",
+   "testo": "Da $8 a $4 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo--deepseek-deepseek-pro-latestcompletion"
   },
   {
    "tag": "ok",
@@ -149,15 +176,6 @@
    "tag": "ok",
    "tagT": "Prezzo giu'",
    "data": "2026-10-29",
-   "titolo": "DeepSeek Flash Latest: il prezzo in uscita scende del 79%",
-   "testo": "Da $1,8 a $0,383 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo--deepseek-deepseek-flash-latestcompletion"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-10-29",
    "titolo": "Hy4 preview: il prezzo in entrata scende del 10%",
    "testo": "Da $0,834 a $0,751 per milione di token in entrata.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
@@ -171,24 +189,6 @@
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-10-30. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-upstage-solar-pro-3"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-10-29",
-   "titolo": "DeepSeek V4.1 Flash 1017: il prezzo in entrata scende del 50%",
-   "testo": "Da $0,3 a $0,15 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-deepseek-deepseek-v4-1-flash-1017prompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-10-29",
-   "titolo": "DeepSeek V4.1 Flash 1017: il prezzo in uscita scende del 50%",
-   "testo": "Da $1,2 a $0,6 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-deepseek-deepseek-v4-1-flash-1017completion"
   },
   {
    "tag": "ok",
