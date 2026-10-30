@@ -1,6 +1,48 @@
 {
- "aggiornato": "2026-10-29T21:30:06+00:00",
+ "aggiornato": "2026-10-30T02:19:58+00:00",
  "paper": [
+  {
+   "titolo": "FlatCake: A Flat KVCache Storage Architecture for LLM Serving",
+   "data": "2026-10-28",
+   "url": "http://arxiv.org/abs/2610.38355v1",
+   "id": "2610.38355v1",
+   "sommario": "KV cache reuse accelerates LLM serving, but existing systems manage host DRAM and NVMe SSD as a tiered hierarchy where DRAM acts as an intermediate cache. Production LLM workloads break both premises of this hierarchy. First, bimodal reuse defeats DRAM temporal filtering, since w"
+  },
+  {
+   "titolo": "LLM-PowerTrace: A Dataset of Time-Resolved GPU Power Traces for AI Compute",
+   "data": "2026-10-28",
+   "url": "http://arxiv.org/abs/2610.38315v1",
+   "id": "2610.38315v1",
+   "sommario": "AI compute is becoming large and fast-changing electrical loads. Its impacts on data center infrastructure and power grids depend not only on total energy consumption, but also on how their power draw moves over sub-second to minute timescales, including peaks, ramps, and synchro"
+  },
+  {
+   "titolo": "ConvRoute-ViT: Convolutional Token Routing for Efficient Vision Transformers",
+   "data": "2026-10-28",
+   "url": "http://arxiv.org/abs/2610.38284v1",
+   "id": "2610.38284v1",
+   "sommario": "Vision Transformers (ViTs) achieve strong image recognition performance, but their self-attention increases quadratically with the number of input tokens and makes them computationally expensive. The standard implementation of ViT models treats all patch tokens with equal importa"
+  },
+  {
+   "titolo": "GAAC: Lossless KV Compression for Bandwidth-Efficient LLM Inference on Personal Devices",
+   "data": "2026-10-28",
+   "url": "http://arxiv.org/abs/2610.38210v1",
+   "id": "2610.38210v1",
+   "sommario": "Weight-only, lossy quantization substantially reduces the storage and memory requirements for serving large language models (LLMs), but the growing key-value (KV) cache remains a bottleneck for long-context inference on personal devices. We present Group-Adaptive Additive Codec ("
+  },
+  {
+   "titolo": "FAD-KV: Adaptive Dictionary KV Caching for Efficient Reasoning Decoding",
+   "data": "2026-10-27",
+   "url": "http://arxiv.org/abs/2610.37921v1",
+   "id": "2610.37921v1",
+   "sommario": "Key-value (KV) caching is a core mechanism in large language models, where intermediate key and value representations are stored to accelerate autoregressive decoding. As generation length increases, KV cache memory and computation grow linearly, making compression critical for e"
+  },
+  {
+   "titolo": "Selective and Hybrid-State Communication for Latent Multi-Agent Systems",
+   "data": "2026-10-27",
+   "url": "http://arxiv.org/abs/2610.37779v1",
+   "id": "2610.37779v1",
+   "sommario": "Efficient communication remains a major bottleneck in large language model multiagent systems. Latent communication reduces repeated natural-language exchange by transferring internal model states between agents, but these transfers remain costly and are typically designed around"
+  },
   {
    "titolo": "DCKV: Learned Transform Coding of the Prompt KV Cache in Hybrid Language Models",
    "data": "2026-10-27",
@@ -42,48 +84,6 @@
    "url": "http://arxiv.org/abs/2610.35850v1",
    "id": "2610.35850v1",
    "sommario": "Direct-policy World Action Models (WAM) have demonstrated the benefits of decoupling action generation from explicit future visual prediction for efficient inference in autonomous driving and embodied control. However, they still require tens of denoising steps to achieve competi"
-  },
-  {
-   "titolo": "InterQ-RL: Interaction-Aware Correction of Execution Mismatch in Quantized Agentic RL",
-   "data": "2026-10-26",
-   "url": "http://arxiv.org/abs/2610.35303v1",
-   "id": "2610.35303v1",
-   "sommario": "Multi-turn agent reinforcement learning (RL) relies on long closed-loop rollouts, making generation and KV-cache costs a major bottleneck. Quantized rollout reduces these costs, but its low-precision executor also serves as the behavior policy and can induce execution mismatch wi"
-  },
-  {
-   "titolo": "Context Is Not Free: Carbon-Aware LLM Routing for Multi-Turn LLM Web Services across Geo-Distributed Data Centers",
-   "data": "2026-10-26",
-   "url": "http://arxiv.org/abs/2610.35230v1",
-   "id": "2610.35230v1",
-   "sommario": "The sustainability of the Web has drawn growing attention, as large language model (LLM)-based web services leave a substantial carbon footprint. These services typically run in geo-distributed data centers whose grid carbon intensity varies across regions and over time, so routi"
-  },
-  {
-   "titolo": "DAC-Loop: Distillation-Aware Compression for Remote Sensing CNN",
-   "data": "2026-10-26",
-   "url": "http://arxiv.org/abs/2610.35175v1",
-   "id": "2610.35175v1",
-   "sommario": "While large-scale models achieve strong results in remote sensing scene classification, deploying them on edge devices remains difficult due to limited compute, memory, and energy budgets. Compact CNN backbones are therefore a practical choice in many real-world settings, offerin"
-  },
-  {
-   "titolo": "BellowsKV: One Latent for Many Layers, Expanded on Demand",
-   "data": "2026-10-26",
-   "url": "http://arxiv.org/abs/2610.35023v1",
-   "id": "2610.35023v1",
-   "sommario": "Large language models (LLMs) now serve as the backbone of agents that reason over many turns, call tools, and pursue long-horizon tasks. To avoid recomputation, a model stores the attention keys and values of all past tokens in a key-value (KV) cache. Each layer maintains its own"
-  },
-  {
-   "titolo": "Attention under Bounded Key-Query Similarity: Space Complexity and Transformer Anisotropy",
-   "data": "2026-10-26",
-   "url": "http://arxiv.org/abs/2610.35020v1",
-   "id": "2610.35020v1",
-   "sommario": "A growing body of work on KV-cache compression aims to reduce the memory requirements of autoregressive generation. These methods compress the stored context while approximately preserving attention computation, enabling generation with reduced memory consumption. Almost tight th"
-  },
-  {
-   "titolo": "Diagnosing and Mitigating Long-Session Degradation in Full-Duplex Speech Models",
-   "data": "2026-10-26",
-   "url": "http://arxiv.org/abs/2610.34991v2",
-   "id": "2610.34991v2",
-   "sommario": "End-to-end full-duplex spoken dialogue models enable natural, real-time spoken interactions with interruptions, backchannels, and overlapping speech. Prior evaluations have assessed diverse interaction capabilities and identified some degradation patterns across conversational tu"
   }
  ]
 }
