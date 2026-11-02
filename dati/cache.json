@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-02T02:01:43+00:00",
+ "aggiornato": "2026-11-02T13:00:15+00:00",
  "aggiornato_it": "2 novembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 375,
@@ -300,9 +300,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.0000003",
-    "completion": "0.0000012",
-    "input_cache_read": "0.000000006"
+    "prompt": "0.00000015",
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000003"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -605,7 +605,7 @@
     "input_cache_read": "0.00000015"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -3758,7 +3758,7 @@
    "id": "qwen/qwen3.8-27b",
    "name": "Qwen: Qwen3.8 27B",
    "created": 1786722910,
-   "context_length": 1000000,
+   "context_length": 1024000,
    "description": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be...",
    "hugging_face_id": "Qwen/Qwen3.8-27B",
    "architecture": {
@@ -7854,9 +7854,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000024",
-    "completion": "0.000000073",
-    "input_cache_read": "0.000000012"
+    "prompt": "0.00000006",
+    "completion": "0.000000179",
+    "input_cache_read": "0.00000003"
    },
    "top_provider": {
     "max_completion_tokens": 32768
@@ -11872,9 +11872,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000075"
+    "prompt": "0.000000028",
+    "completion": "0.000000103",
+    "input_cache_read": "0.000000025"
    },
    "top_provider": {
     "max_completion_tokens": 65536
@@ -11919,12 +11919,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000018",
-    "completion": "0.00000009",
-    "input_cache_read": "0.000000009"
+    "prompt": "0.00000003",
+    "completion": "0.00000013",
+    "input_cache_read": "0.00000003"
    },
    "top_provider": {
-    "max_completion_tokens": 32768
+    "max_completion_tokens": 117964
    },
    "supported_parameters": [
     "reasoning",
@@ -12034,8 +12034,8 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000006"
+    "prompt": "0.00000007",
+    "completion": "0.00000028"
    },
    "top_provider": {
     "max_completion_tokens": 235929

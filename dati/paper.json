@@ -1,6 +1,62 @@
 {
- "aggiornato": "2026-11-02T02:01:43+00:00",
+ "aggiornato": "2026-11-02T13:00:15+00:00",
  "paper": [
+  {
+   "titolo": "ACCT: Asymmetric Cross-LLM Context Transfer",
+   "data": "2026-10-30",
+   "url": "http://arxiv.org/abs/2610.42116v1",
+   "id": "2610.42116v1",
+   "sommario": "In real-world deployments, large language model (LLM) systems are increasingly evolving from single-model invocation toward heterogeneous deployments in which different models are dynamically invoked for inference. When the same context is reused across models, however, each newl"
+  },
+  {
+   "titolo": "Subquadratic Attention with a Hierarchical Tree-Structured Indexer",
+   "data": "2026-10-30",
+   "url": "http://arxiv.org/abs/2610.42112v1",
+   "id": "2610.42112v1",
+   "sommario": "The quadratic scaling of attention is a fundamental bottleneck limiting the long-context capabilities of large language models (LLMs). A variety of approaches have attempted to circumvent this, but they either fail to match attention's expressiveness (e.g., sliding-window or line"
+  },
+  {
+   "titolo": "Any Forcing: Any-Step Generality and One-Step Stability for Autoregressive Video Generation",
+   "data": "2026-10-30",
+   "url": "http://arxiv.org/abs/2610.42031v1",
+   "id": "2610.42031v1",
+   "sommario": "Autoregressive video generation enables efficient inference through streaming prediction. However, existing methods are typically restricted to fixed sampling steps, limiting the flexibility to balance generation quality and efficiency, while one-step generation suffers from degr"
+  },
+  {
+   "titolo": "Dynamical Memory Transformer: Selective Recurrent Memories with Constant Cost Attention",
+   "data": "2026-10-30",
+   "url": "http://arxiv.org/abs/2610.41850v1",
+   "id": "2610.41850v1",
+   "sommario": "Transformers retain an explicit history of the sequence, allowing attention to directly retrieve past representations. However, the size of the KV-Cache and the cost of a new token increase with the context length. State Space Models compress the past into a fixed-size recurrent "
+  },
+  {
+   "titolo": "KV-Cache Patching: Tracing How and Where Fine-Tuned Behaviors Arise",
+   "data": "2026-10-30",
+   "url": "http://arxiv.org/abs/2610.41480v1",
+   "id": "2610.41480v1",
+   "sommario": "Fine-tuning a language model changes how it responds, but where is this fine-tuned behavior instantiated? To better understand this, we evaluate whether the change in model behavior arises only during the generation of the answer tokens where the change manifests, or whether alte"
+  },
+  {
+   "titolo": "In-Model Context Compression with Agentic Soft Tokens for Long-Horizon LLM Agents",
+   "data": "2026-10-30",
+   "url": "http://arxiv.org/abs/2610.41291v1",
+   "id": "2610.41291v1",
+   "sommario": "Long-horizon LLM agents play an important role in solving complex and sustained tasks, with ever-growing interaction contexts. However, these accumulated contexts will raise substantial computational cost and obscure key decision-relevant evidence. Existing methods typically trai"
+  },
+  {
+   "titolo": "ARK: Avoiding Routing Collisions for KV Cache Transfer in Disaggregated LLM Inference",
+   "data": "2026-10-30",
+   "url": "http://arxiv.org/abs/2610.41160v1",
+   "id": "2610.41160v1",
+   "sommario": "Disaggregated LLM inference separates the prefill and decode phases across GPU pools, generating massive KV-cache transfers. Because these transfers last hundreds of milliseconds to seconds, they behave as mega elephant flows that dominate link bandwidth utilization. In this regi"
+  },
+  {
+   "titolo": "Kernel-based Interpolatory Methods for Context Compression of Attention Mechanisms",
+   "data": "2026-10-29",
+   "url": "http://arxiv.org/abs/2610.40943v1",
+   "id": "2610.40943v1",
+   "sommario": "The bottleneck of attention mechanisms, which are the fundamental building block of modern language models, is their quadratic complexity in terms of context size. There has thus been an increasing interest in the compression of the context, also called KV-cache compression. In t"
+  },
   {
    "titolo": "KV Cache Quantization for Diffusion Language Models",
    "data": "2026-10-29",
@@ -28,62 +84,6 @@
    "url": "http://arxiv.org/abs/2610.39478v1",
    "id": "2610.39478v1",
    "sommario": "Compositional motion transfer requires a model to extract motions from multiple reference videos, and apply each motion to a user-specified object in one target scene. Existing methods normally struggle to reliably assign different reference motions to the correct target objects,"
-  },
-  {
-   "titolo": "Calibrating Attention-Based Token Pruning for Efficient Multi-Image Synthesis in UMMs",
-   "data": "2026-10-29",
-   "url": "http://arxiv.org/abs/2610.39467v1",
-   "id": "2610.39467v1",
-   "sommario": "Unified Multimodal Models (UMMs) enable powerful multi-image synthesis but incur substantial computation from long visual contexts. While token pruning offers a direct route to accelerating inference, existing methods are primarily adapted from understanding tasks, suffering from"
-  },
-  {
-   "titolo": "Unlocking Any-Order Generation in Pretrained Autoregressive Image Models",
-   "data": "2026-10-29",
-   "url": "http://arxiv.org/abs/2610.39293v1",
-   "id": "2610.39293v1",
-   "sommario": "Autoregressive (AR) image generators are powerful in principle but inflexible in practice: training with a fixed raster-scan order hardcodes a single factorization of the image distribution into the model, leaving it unable to inpaint, outpaint, or edit at inference time. Existin"
-  },
-  {
-   "titolo": "Context Compaction for World Models",
-   "data": "2026-10-28",
-   "url": "http://arxiv.org/abs/2610.38980v1",
-   "id": "2610.38980v1",
-   "sommario": "World models let observers explore and interact with generated worlds. Recent work shows that when observers revisit a region, current models often fail to regenerate it consistently. We view this as a context retrieval problem. LLM agents manage context retrieval at two layers o"
-  },
-  {
-   "titolo": "Contextual Embeddings Beyond the Gold Chunk",
-   "data": "2026-10-28",
-   "url": "http://arxiv.org/abs/2610.38854v1",
-   "id": "2610.38854v1",
-   "sommario": "Contextual embeddings represent chunks of a document with respect to the document's global context. These models are typically trained and evaluated under the assumption that a relevant document contains only a single relevant chunk. In this work, we argue that in real-world use "
-  },
-  {
-   "titolo": "FlatCake: A Flat KVCache Storage Architecture for LLM Serving",
-   "data": "2026-10-28",
-   "url": "http://arxiv.org/abs/2610.38355v1",
-   "id": "2610.38355v1",
-   "sommario": "KV cache reuse accelerates LLM serving, but existing systems manage host DRAM and NVMe SSD as a tiered hierarchy where DRAM acts as an intermediate cache. Production LLM workloads break both premises of this hierarchy. First, bimodal reuse defeats DRAM temporal filtering, since w"
-  },
-  {
-   "titolo": "LLM-PowerTrace: A Dataset of Time-Resolved GPU Power Traces for AI Compute",
-   "data": "2026-10-28",
-   "url": "http://arxiv.org/abs/2610.38315v1",
-   "id": "2610.38315v1",
-   "sommario": "AI compute is becoming large and fast-changing electrical loads. Its impacts on data center infrastructure and power grids depend not only on total energy consumption, but also on how their power draw moves over sub-second to minute timescales, including peaks, ramps, and synchro"
-  },
-  {
-   "titolo": "ConvRoute-ViT: Convolutional Token Routing for Efficient Vision Transformers",
-   "data": "2026-10-28",
-   "url": "http://arxiv.org/abs/2610.38284v1",
-   "id": "2610.38284v1",
-   "sommario": "Vision Transformers (ViTs) achieve strong image recognition performance, but their self-attention increases quadratically with the number of input tokens and makes them computationally expensive. The standard implementation of ViT models treats all patch tokens with equal importa"
-  },
-  {
-   "titolo": "GAAC: Lossless KV Compression for Bandwidth-Efficient LLM Inference on Personal Devices",
-   "data": "2026-10-28",
-   "url": "http://arxiv.org/abs/2610.38210v1",
-   "id": "2610.38210v1",
-   "sommario": "Weight-only, lossy quantization substantially reduces the storage and memory requirements for serving large language models (LLMs), but the growing key-value (KV) cache remains a bottleneck for long-context inference on personal devices. We present Group-Adaptive Additive Codec ("
   }
  ]
 }
