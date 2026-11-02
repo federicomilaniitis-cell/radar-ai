@@ -1,9 +1,51 @@
 {
- "aggiornato": "2026-11-02T13:00:15+00:00",
+ "aggiornato": "2026-11-02T23:45:44+00:00",
  "aggiornato_it": "2 novembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 375,
+ "totale": 374,
  "modelli": [
+  {
+   "id": "z-ai/glm-5.3-flashx-legal",
+   "name": "Z.ai: GLM 5.3 FlashX Legal",
+   "created": 1793626154,
+   "context_length": 1048576,
+   "description": "GLM-5.3-FlashX-Legal (GLM-Legal) is Z.ai's legal-domain variant of GLM-5.3-FlashX, a native multimodal model that accepts text, image, and video input and produces text. It adds legal-domain mid-training and post-training with reinforcement...",
+   "architecture": {
+    "input_modalities": [
+     "text",
+     "image",
+     "video"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image+video->text"
+   },
+   "pricing": {
+    "prompt": "0.00000037",
+    "completion": "0.00000125",
+    "input_cache_read": "0.000000075"
+   },
+   "top_provider": {
+    "max_completion_tokens": 131072
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": true,
+    "default_enabled": true,
+    "supported_efforts": [
+     "max",
+     "high",
+     "low"
+    ],
+    "default_effort": "max"
+   },
+   "ha_versione_gratuita": false
+  },
   {
    "id": "particle-ai/particle-1",
    "name": "Particle AI: Particle-1",
@@ -250,9 +292,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000015"
+    "prompt": "0.000000075",
+    "completion": "0.0000003",
+    "input_cache_read": "0.0000000075"
    },
    "top_provider": {
     "max_completion_tokens": 524288
@@ -605,7 +647,7 @@
     "input_cache_read": "0.00000015"
    },
    "top_provider": {
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -2272,7 +2314,7 @@
    "pricing": {
     "prompt": "0.00000037",
     "completion": "0.00000125",
-    "input_cache_read": "0.00000009"
+    "input_cache_read": "0.000000075"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -3335,9 +3377,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000834",
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042"
+    "prompt": "0.0000007506",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378"
    },
    "top_provider": {
     "max_completion_tokens": 64000
@@ -4623,6 +4665,7 @@
    "context_length": 1048576,
    "description": "Inkling Small is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 12B active parameters out of 276B total. It is positioned as the smaller, more efficient member of...",
    "hugging_face_id": "thinkingmachines/Inkling-Small",
+   "expiration_date": "2026-11-04",
    "architecture": {
     "input_modalities": [
      "text",
@@ -5012,6 +5055,7 @@
    "context_length": 1048576,
    "description": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,...",
    "hugging_face_id": "thinkingmachines/Inkling",
+   "expiration_date": "2026-11-04",
    "architecture": {
     "input_modalities": [
      "text",
@@ -5533,7 +5577,8 @@
     "prompt": "0.000002",
     "completion": "0.000006",
     "input_cache_read": "0.0000005",
-    "web_search": "0.005"
+    "input_cache_write": "0",
+    "web_search": "0.01"
    },
    "top_provider": {
     "max_completion_tokens": 450000
@@ -5637,9 +5682,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000132",
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033"
+    "prompt": "0.0000000825",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -7854,12 +7899,12 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000006",
-    "completion": "0.000000179",
-    "input_cache_read": "0.00000003"
+    "prompt": "0.0000000765",
+    "completion": "0.000000255",
+    "input_cache_read": "0.0000000425"
    },
    "top_provider": {
-    "max_completion_tokens": 32768
+    "max_completion_tokens": 235929
    },
    "supported_parameters": [
     "reasoning",
@@ -11872,9 +11917,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000028",
-    "completion": "0.000000103",
-    "input_cache_read": "0.000000025"
+    "prompt": "0.00000015",
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000075"
    },
    "top_provider": {
     "max_completion_tokens": 65536
@@ -14217,64 +14262,6 @@
    "pricing": {
     "prompt": "0.00000085",
     "completion": "0.00000085"
-   },
-   "top_provider": {
-    "max_completion_tokens": 16384
-   },
-   "supported_parameters": [
-    "structured_outputs"
-   ],
-   "ha_versione_gratuita": false
-  },
-  {
-   "id": "nousresearch/hermes-3-llama-3.1-70b",
-   "name": "Nous: Hermes 3 70B Instruct",
-   "created": 1723939200,
-   "context_length": 131072,
-   "description": "Hermes 3 is a generalist language model with many improvements over [Hermes 2](/models/nousresearch/nous-hermes-2-mistral-7b-dpo), including advanced agentic capabilities, much better roleplaying, reasoning, multi-turn conversation, long context coherence, and improvements across the...",
-   "hugging_face_id": "NousResearch/Hermes-3-Llama-3.1-70B",
-   "expiration_date": "2026-11-02",
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text->text"
-   },
-   "pricing": {
-    "prompt": "0.0000007",
-    "completion": "0.0000007"
-   },
-   "top_provider": {
-    "max_completion_tokens": 16384
-   },
-   "supported_parameters": [
-    "structured_outputs"
-   ],
-   "ha_versione_gratuita": false
-  },
-  {
-   "id": "nousresearch/hermes-3-llama-3.1-405b",
-   "name": "Nous: Hermes 3 405B Instruct",
-   "created": 1723766400,
-   "context_length": 131072,
-   "description": "Hermes 3 is a generalist language model with many improvements over Hermes 2, including advanced agentic capabilities, much better roleplaying, reasoning, multi-turn conversation, long context coherence, and improvements across the...",
-   "hugging_face_id": "NousResearch/Hermes-3-Llama-3.1-405B",
-   "expiration_date": "2026-11-02",
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text->text"
-   },
-   "pricing": {
-    "prompt": "0.000001",
-    "completion": "0.000001"
    },
    "top_provider": {
     "max_completion_tokens": 16384

@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-02T13:00:15+00:00",
+ "aggiornato": "2026-11-02T23:45:44+00:00",
  "notizie": [
   {
    "tag": "crit",
@@ -18,6 +18,24 @@
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-11. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-bytedance-seed-seed-2-0-code"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-11-02",
+   "titolo": "Inkling Small (free) viene spento fra 2 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-04. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-thinkingmachines-inkling-small-free"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-11-02",
+   "titolo": "Inkling (free) viene spento fra 2 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-04. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-thinkingmachines-inkling-free"
   },
   {
    "tag": "crit",
@@ -68,6 +86,51 @@
    "tag": "crit",
    "tagT": "Chiusura",
    "data": "2026-11-02",
+   "titolo": "Llama 3.1 70B Instruct viene spento fra 1 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-03. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-meta-llama-llama-3-1-70b-instruct"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-11-02",
+   "titolo": "MiniMax M3.1 Flash: il prezzo in entrata scende del 50%",
+   "testo": "Da $0,15 a $0,075 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-minimax-minimax-m3-1-flashprompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-11-02",
+   "titolo": "MiniMax M3.1 Flash: il prezzo in uscita scende del 50%",
+   "testo": "Da $0,6 a $0,3 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-minimax-minimax-m3-1-flashcompletion"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-11-02",
+   "titolo": "Hy4 preview: il prezzo in entrata scende del 10%",
+   "testo": "Da $0,834 a $0,751 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-tencent-hy4-previewprompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-11-02",
+   "titolo": "Hy4 preview: il prezzo in uscita scende del 10%",
+   "testo": "Da $2,5 a $2,25 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-tencent-hy4-previewcompletion"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-11-02",
    "titolo": "Hermes 3 70B Instruct viene spento fra 0 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-02. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
@@ -81,15 +144,6 @@
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-02. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-nousresearch-hermes-3-llama-3-1-405b"
-  },
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-11-02",
-   "titolo": "Llama 3.1 70B Instruct viene spento fra 1 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-03. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-meta-llama-llama-3-1-70b-instruct"
   },
   {
    "tag": "ok",
@@ -162,60 +216,6 @@
    "testo": "Da $0,13 a $0,09 per milione di token in uscita.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
    "id": "prezzo-openai-gpt-oss-20bcompletion"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-11-01",
-   "titolo": "MiniMax M3.1 Flash: il prezzo in entrata scende del 50%",
-   "testo": "Da $0,15 a $0,075 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-minimax-minimax-m3-1-flashprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-11-01",
-   "titolo": "MiniMax M3.1 Flash: il prezzo in uscita scende del 50%",
-   "testo": "Da $0,6 a $0,3 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-minimax-minimax-m3-1-flashcompletion"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-11-01",
-   "titolo": "Hy4 preview: il prezzo in entrata scende del 10%",
-   "testo": "Da $0,834 a $0,751 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-tencent-hy4-previewprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-11-01",
-   "titolo": "Hy4 preview: il prezzo in uscita scende del 10%",
-   "testo": "Da $2,5 a $2,25 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-tencent-hy4-previewcompletion"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-11-01",
-   "titolo": "GLM Flash Latest: il prezzo in uscita scende del 42%",
-   "testo": "Da $0,16 a $0,092 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo--z-ai-glm-flash-latestcompletion"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-11-01",
-   "titolo": "GLM 5.3 Flash: il prezzo in uscita scende del 42%",
-   "testo": "Da $0,16 a $0,092 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-z-ai-glm-5-3-flashcompletion"
   }
  ]
 }
