@@ -1,11 +1,11 @@
 {
- "aggiornato": "2026-11-01T20:55:14+00:00",
+ "aggiornato": "2026-11-02T02:01:43+00:00",
  "notizie": [
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-11-01",
-   "titolo": "Dots3-Note Preview (free) viene spento fra 60 giorni",
+   "data": "2026-11-02",
+   "titolo": "Dots3-Note Preview (free) viene spento fra 59 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-12-31. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-dots-studio-dots-3-note-preview-free"
@@ -13,8 +13,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-11-01",
-   "titolo": "Seed-2.0-Code viene spento fra 10 giorni",
+   "data": "2026-11-02",
+   "titolo": "Seed-2.0-Code viene spento fra 9 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-11. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-bytedance-seed-seed-2-0-code"
@@ -22,8 +22,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-11-01",
-   "titolo": "Seed 1.6 Flash viene spento fra 10 giorni",
+   "data": "2026-11-02",
+   "titolo": "Seed 1.6 Flash viene spento fra 9 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-11. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-bytedance-seed-seed-1-6-flash"
@@ -31,8 +31,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-11-01",
-   "titolo": "Seed 1.6 viene spento fra 10 giorni",
+   "data": "2026-11-02",
+   "titolo": "Seed 1.6 viene spento fra 9 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-11. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-bytedance-seed-seed-1-6"
@@ -40,8 +40,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-11-01",
-   "titolo": "GLM 4.7 viene spento fra 60 giorni",
+   "data": "2026-11-02",
+   "titolo": "GLM 4.7 viene spento fra 59 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-12-31. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-z-ai-glm-4-7"
@@ -49,8 +49,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-11-01",
-   "titolo": "GLM 4.5V viene spento fra 60 giorni",
+   "data": "2026-11-02",
+   "titolo": "GLM 4.5V viene spento fra 59 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-12-31. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-z-ai-glm-4-5v"
@@ -58,8 +58,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-11-01",
-   "titolo": "GLM 4.5 viene spento fra 60 giorni",
+   "data": "2026-11-02",
+   "titolo": "GLM 4.5 viene spento fra 59 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-12-31. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-z-ai-glm-4-5"
@@ -67,8 +67,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-11-01",
-   "titolo": "Hermes 3 70B Instruct viene spento fra 1 giorni",
+   "data": "2026-11-02",
+   "titolo": "Hermes 3 70B Instruct viene spento fra 0 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-02. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-nousresearch-hermes-3-llama-3-1-70b"
@@ -76,8 +76,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-11-01",
-   "titolo": "Hermes 3 405B Instruct viene spento fra 1 giorni",
+   "data": "2026-11-02",
+   "titolo": "Hermes 3 405B Instruct viene spento fra 0 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-02. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-nousresearch-hermes-3-llama-3-1-405b"
@@ -85,11 +85,47 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-11-01",
-   "titolo": "Llama 3.1 70B Instruct viene spento fra 2 giorni",
+   "data": "2026-11-02",
+   "titolo": "Llama 3.1 70B Instruct viene spento fra 1 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-03. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-meta-llama-llama-3-1-70b-instruct"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-11-02",
+   "titolo": "Gemma 4 26B A4B : il prezzo in entrata scende del 64%",
+   "testo": "Da $0,068 a $0,024 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-google-gemma-4-26b-a4b-itprompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-11-02",
+   "titolo": "Gemma 4 26B A4B : il prezzo in uscita scende del 68%",
+   "testo": "Da $0,225 a $0,073 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-google-gemma-4-26b-a4b-itcompletion"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-11-02",
+   "titolo": "gpt-oss-20b: il prezzo in entrata scende del 40%",
+   "testo": "Da $0,03 a $0,018 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-openai-gpt-oss-20bprompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-11-02",
+   "titolo": "gpt-oss-20b: il prezzo in uscita scende del 31%",
+   "testo": "Da $0,13 a $0,09 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-openai-gpt-oss-20bcompletion"
   },
   {
    "tag": "ok",
@@ -180,42 +216,6 @@
    "testo": "Da $0,131 a $0,069 per milione di token in uscita.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
    "id": "prezzo--deepseek-deepseek-flash-latestcompletion"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-11-01",
-   "titolo": "GLM Flash Latest: il prezzo in entrata scende del 25%",
-   "testo": "Da $0,016 a $0,012 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo--z-ai-glm-flash-latestprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-11-01",
-   "titolo": "GLM 5.3 Flash: il prezzo in entrata scende del 25%",
-   "testo": "Da $0,016 a $0,012 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-z-ai-glm-5-3-flashprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-10-31",
-   "titolo": "DeepSeek V4 Pro 0813: il prezzo in entrata scende del 83%",
-   "testo": "Da $0,66 a $0,115 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-deepseek-deepseek-v4-pro-0813prompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-10-31",
-   "titolo": "DeepSeek V4 Flash Latest: il prezzo in entrata scende del 7%",
-   "testo": "Da $0,058 a $0,054 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo--deepseek-deepseek-v4-flash-latestprompt"
   }
  ]
 }
