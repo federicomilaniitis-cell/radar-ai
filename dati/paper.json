@@ -1,89 +1,89 @@
 {
- "aggiornato": "2026-11-02T23:45:44+00:00",
+ "aggiornato": "2026-11-03T12:33:59+00:00",
  "paper": [
   {
-   "titolo": "ACCT: Asymmetric Cross-LLM Context Transfer",
-   "data": "2026-10-30",
-   "url": "http://arxiv.org/abs/2610.42116v1",
-   "id": "2610.42116v1",
-   "sommario": "In real-world deployments, large language model (LLM) systems are increasingly evolving from single-model invocation toward heterogeneous deployments in which different models are dynamically invoked for inference. When the same context is reused across models, however, each newl"
+   "titolo": "The SIMPLE Law for Energy Cost of LLM Inference",
+   "data": "2026-11-02",
+   "url": "http://arxiv.org/abs/2611.03330v1",
+   "id": "2611.03330v1",
+   "sommario": "Generative AI is billed per token, yet tokens are not equally expensive. Each token enters the KV-cache and raises the cost of those that follow, so energy grows non-linearly along a sequence whose tokens look identical. No analytical model states what a token costs, and the most"
   },
   {
-   "titolo": "Subquadratic Attention with a Hierarchical Tree-Structured Indexer",
-   "data": "2026-10-30",
-   "url": "http://arxiv.org/abs/2610.42112v1",
-   "id": "2610.42112v1",
-   "sommario": "The quadratic scaling of attention is a fundamental bottleneck limiting the long-context capabilities of large language models (LLMs). A variety of approaches have attempted to circumvent this, but they either fail to match attention's expressiveness (e.g., sliding-window or line"
+   "titolo": "R$^2$-Omni: Reducing Structural and Precision Redundancy in Omni-LLMs for Long-Form Generation",
+   "data": "2026-11-02",
+   "url": "http://arxiv.org/abs/2611.03247v1",
+   "id": "2611.03247v1",
+   "sommario": "Omni-modal large language models (Omni-LLMs) typically process large numbers of multimodal tokens from audio-visual inputs, incurring substantial computational costs and a large memory footprint for the key-value (KV) cache. Aggressive token pruning can alleviate this problem whi"
   },
   {
-   "titolo": "Any Forcing: Any-Step Generality and One-Step Stability for Autoregressive Video Generation",
-   "data": "2026-10-30",
-   "url": "http://arxiv.org/abs/2610.42031v1",
-   "id": "2610.42031v1",
-   "sommario": "Autoregressive video generation enables efficient inference through streaming prediction. However, existing methods are typically restricted to fixed sampling steps, limiting the flexibility to balance generation quality and efficiency, while one-step generation suffers from degr"
+   "titolo": "DepthGraft: Structural Regularization through Hierarchical Cross-Layer KV Reconstruction",
+   "data": "2026-11-02",
+   "url": "http://arxiv.org/abs/2611.03142v1",
+   "id": "2611.03142v1",
+   "sommario": "Scaling depth is a key route to stronger large language models, but Pre-LN architectures often suffer from depth-wise information dilution, limiting the effective use of deep layers. While cross-layer connectivity has proven effective at mitigating this problem, existing designs "
   },
   {
-   "titolo": "Dynamical Memory Transformer: Selective Recurrent Memories with Constant Cost Attention",
-   "data": "2026-10-30",
-   "url": "http://arxiv.org/abs/2610.41850v1",
-   "id": "2610.41850v1",
-   "sommario": "Transformers retain an explicit history of the sequence, allowing attention to directly retrieve past representations. However, the size of the KV-Cache and the cost of a new token increase with the context length. State Space Models compress the past into a fixed-size recurrent "
+   "titolo": "EffComp: Efficient Prompt Compression via Hybrid Reinforcement &amp; Supervised Learning",
+   "data": "2026-11-02",
+   "url": "http://arxiv.org/abs/2611.02766v1",
+   "id": "2611.02766v1",
+   "sommario": "Prompt compression is aimed at reducing input prompt lengths to enable cheaper, faster, and potentially higher-quality LLM predictions. However, existing prompt compression methods are often limited by modest compression gains, a risk of hallucination, and/or high compression lat"
   },
   {
-   "titolo": "KV-Cache Patching: Tracing How and Where Fine-Tuned Behaviors Arise",
-   "data": "2026-10-30",
-   "url": "http://arxiv.org/abs/2610.41480v1",
-   "id": "2610.41480v1",
-   "sommario": "Fine-tuning a language model changes how it responds, but where is this fine-tuned behavior instantiated? To better understand this, we evaluate whether the change in model behavior arises only during the generation of the answer tokens where the change manifests, or whether alte"
+   "titolo": "Parallelism-Aligned Pruning and Round-Aware Context Reuse for On-Device Multimodal Agents",
+   "data": "2026-11-02",
+   "url": "http://arxiv.org/abs/2611.02601v1",
+   "id": "2611.02601v1",
+   "sommario": "On-device multimodal agents are limited by two deployment mismatches: pretrained attention structures may not divide evenly across the compute cores of an edge accelerator, causing irregular partitions; and standard prefix caching keeps historical visual tokens in the persistent "
   },
   {
-   "titolo": "In-Model Context Compression with Agentic Soft Tokens for Long-Horizon LLM Agents",
-   "data": "2026-10-30",
-   "url": "http://arxiv.org/abs/2610.41291v1",
-   "id": "2610.41291v1",
-   "sommario": "Long-horizon LLM agents play an important role in solving complex and sustained tasks, with ever-growing interaction contexts. However, these accumulated contexts will raise substantial computational cost and obscure key decision-relevant evidence. Existing methods typically trai"
+   "titolo": "BasisKV: Value Latents for Communication and Key Routing",
+   "data": "2026-11-02",
+   "url": "http://arxiv.org/abs/2611.02583v1",
+   "id": "2611.02583v1",
+   "sommario": "Long-context large language model (LLM) inference is increasingly constrained by the cost of maintaining an ever-growing KV-cache. Low-rank K/V projections provide a promising way to compress the KV-cache with minimal quality loss, but prior work has largely optimized KV-cache co"
   },
   {
-   "titolo": "ARK: Avoiding Routing Collisions for KV Cache Transfer in Disaggregated LLM Inference",
-   "data": "2026-10-30",
-   "url": "http://arxiv.org/abs/2610.41160v1",
-   "id": "2610.41160v1",
-   "sommario": "Disaggregated LLM inference separates the prefill and decode phases across GPU pools, generating massive KV-cache transfers. Because these transfers last hundreds of milliseconds to seconds, they behave as mega elephant flows that dominate link bandwidth utilization. In this regi"
+   "titolo": "Who Should Score the Cache? Mid-Depth Layers Are the Best Judges of KV-Cache Eviction",
+   "data": "2026-11-01",
+   "url": "http://arxiv.org/abs/2611.02230v1",
+   "id": "2611.02230v1",
+   "sommario": "Key-value (KV) cache eviction methods rank tokens by attention scores, and each layer scores its own cache. To our knowledge, no eviction method asks which layer should score. We find, across twenty-one models, that the depth of the scoring layer governs eviction quality. On the "
   },
   {
-   "titolo": "Kernel-based Interpolatory Methods for Context Compression of Attention Mechanisms",
-   "data": "2026-10-29",
-   "url": "http://arxiv.org/abs/2610.40943v1",
-   "id": "2610.40943v1",
-   "sommario": "The bottleneck of attention mechanisms, which are the fundamental building block of modern language models, is their quadratic complexity in terms of context size. There has thus been an increasing interest in the compression of the context, also called KV-cache compression. In t"
+   "titolo": "Fairway: Load-Aware KV Cache Reuse for LLM Prefill Scheduling",
+   "data": "2026-11-01",
+   "url": "http://arxiv.org/abs/2611.02082v1",
+   "id": "2611.02082v1",
+   "sommario": "LLM-based applications often employ agentic workflows and retrieval-augmented generation (RAG), which build long prompts from shared context. When prefixes are shared across requests, serving engines reuse the key-value (KV) cache to skip parts of the prefill computation. Reuse i"
   },
   {
-   "titolo": "KV Cache Quantization for Diffusion Language Models",
-   "data": "2026-10-29",
-   "url": "http://arxiv.org/abs/2610.39853v1",
-   "id": "2610.39853v1",
-   "sommario": "KV cache quantization is well studied for autoregressive language models, where cached prefix states are exact under causal attention and quantization is mainly a cache reconstruction problem. Diffusion language models (dLLMs) break this assumption. Fast dLLM inference reuses KV "
+   "titolo": "MedPsy: State-of-the-Art Small Medical Language Models for Efficient Edge Deployment",
+   "data": "2026-11-01",
+   "url": "http://arxiv.org/abs/2611.02011v1",
+   "id": "2611.02011v1",
+   "sommario": "Medical language models promise expert clinical support, but the strongest open-source LLMs remain too large for private edge-device deployment, while compact medical models still trail substantially on knowledge-intensive and real-world healthcare tasks. Reasoning models that fi"
   },
   {
-   "titolo": "DWISE: Denoising Workload-Informed Scheduling Engine",
-   "data": "2026-10-29",
-   "url": "http://arxiv.org/abs/2610.39852v1",
-   "id": "2610.39852v1",
-   "sommario": "Unlike autoregressive large language models (AR-LLMs), diffusion LLMs (dLLMs) generate text by iteratively denoising many tokens in parallel, offering a promising path to efficient inference. Existing serving frameworks, however, schedule dLLM requests with policies designed for "
+   "titolo": "Quantizing Recurrent Language Models Is Easier Than You Think",
+   "data": "2026-11-01",
+   "url": "http://arxiv.org/abs/2611.01864v1",
+   "id": "2611.01864v1",
+   "sommario": "Linear recurrences are becoming an increasingly common building block in large language models, replacing the growing KV cache of softmax attention with a fixed-size recurrent state that enables efficient decoding. However, the quantization stack has largely been developed around"
   },
   {
-   "titolo": "GPU-Resident Speculative Decoding for In-Browser LLM Inference with WebGPU",
-   "data": "2026-10-29",
-   "url": "http://arxiv.org/abs/2610.39761v1",
-   "id": "2610.39761v1",
-   "sommario": "WebGPU enables private, offline LLM inference inside web pages, but browser dispatch, inter-process communication, synchronous readback and single-token kernels slow decoding and make conventional speculative decoding inefficient. We present a WebGPU runtime that addresses these "
+   "titolo": "Learning-to-Memorize: Dynamic Context Management for Long-Horizon Autoregressive Video Generation",
+   "data": "2026-11-01",
+   "url": "http://arxiv.org/abs/2611.01858v1",
+   "id": "2611.01858v1",
+   "sommario": "Autoregressive video generation has achieved impressive results on short clips, yet generating long videos remains challenging due to error accumulation over extended horizons, where each predicted frame depends on potentially imperfect previous frames. Existing approaches typica"
   },
   {
-   "titolo": "Regional Anchor Routing for Multi-Object Motion Transfer",
-   "data": "2026-10-29",
-   "url": "http://arxiv.org/abs/2610.39478v1",
-   "id": "2610.39478v1",
-   "sommario": "Compositional motion transfer requires a model to extract motions from multiple reference videos, and apply each motion to a user-specified object in one target scene. Existing methods normally struggle to reliably assign different reference motions to the correct target objects,"
+   "titolo": "CacheWeave: Learning to Recompute for Efficient Position-Independent KV Caching",
+   "data": "2026-11-01",
+   "url": "http://arxiv.org/abs/2611.01735v1",
+   "id": "2611.01735v1",
+   "sommario": "Position-independent caching reuses chunk KV caches across positions and requests. Independent encoding, however, omits cross-chunk interactions and can degrade accuracy. In our study, neither PIC training nor rule-based recomputation, alone or combined, consistently recovers ful"
   }
  ]
 }
