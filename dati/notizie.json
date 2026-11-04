@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-04T12:43:39+00:00",
+ "aggiornato": "2026-11-04T22:20:22+00:00",
  "notizie": [
   {
    "tag": "crit",
@@ -36,24 +36,6 @@
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-11. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-bytedance-seed-seed-2-0-code"
-  },
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-11-04",
-   "titolo": "Inkling Small (free) viene spento fra 0 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-04. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-thinkingmachines-inkling-small-free"
-  },
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-11-04",
-   "titolo": "Inkling (free) viene spento fra 0 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-04. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-thinkingmachines-inkling-free"
   },
   {
    "tag": "crit",
@@ -144,6 +126,24 @@
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-12-31. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-z-ai-glm-4-5"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-11-04",
+   "titolo": "Inkling Small (free) viene spento fra 0 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-04. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-thinkingmachines-inkling-small-free"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-11-04",
+   "titolo": "Inkling (free) viene spento fra 0 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-04. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-thinkingmachines-inkling-free"
   },
   {
    "tag": "crit",

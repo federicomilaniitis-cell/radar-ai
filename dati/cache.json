@@ -1,9 +1,41 @@
 {
- "aggiornato": "2026-11-04T12:43:39+00:00",
+ "aggiornato": "2026-11-04T22:20:22+00:00",
  "aggiornato_it": "4 novembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 376,
+ "totale": 375,
  "modelli": [
+  {
+   "id": "ricursiveai/ripple-65b-preview",
+   "name": "ricursiveAI/Ripple-65B-Preview",
+   "created": 1793818990,
+   "context_length": 16384,
+   "description": "Ripple-65B-Preview by ricursiveAI, a 65B model with native tool calling, served in BF16.",
+   "architecture": {
+    "input_modalities": [
+     "text"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text->text"
+   },
+   "pricing": {
+    "prompt": "0.0000002",
+    "completion": "0.0000006",
+    "input_cache_read": "0.00000005"
+   },
+   "top_provider": {
+    "max_completion_tokens": 14745
+   },
+   "supported_parameters": [
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": false,
+    "default_enabled": false
+   },
+   "ha_versione_gratuita": false
+  },
   {
    "id": "tencent/hy4",
    "name": "Tencent: Hy4",
@@ -284,6 +316,7 @@
    "created": 1792778188,
    "context_length": 1048576,
    "description": "Kimi K3.1 Pro is Moonshot AI's flagship open-weight multimodal reasoning model and a post-trained successor to Kimi K3, with a 1M-token context window. It is built for long-horizon coding, 3D...",
+   "hugging_face_id": "moonshotai/Kimi-K3.1-Pro",
    "architecture": {
     "input_modalities": [
      "text",
@@ -379,9 +412,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000015"
+    "prompt": "0.000000075",
+    "completion": "0.0000003",
+    "input_cache_read": "0.0000000075"
    },
    "top_provider": {
     "max_completion_tokens": 524288
@@ -2515,9 +2548,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.000000032",
-    "completion": "0.000000288",
-    "input_cache_read": "0.000000005"
+    "prompt": "0.000000022",
+    "completion": "0.0000004",
+    "input_cache_read": "0.000000004"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -3501,9 +3534,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000834",
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042"
+    "prompt": "0.0000007506",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378"
    },
    "top_provider": {
     "max_completion_tokens": 64000
@@ -3543,9 +3576,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000000269",
-    "completion": "0.0000000996",
-    "input_cache_read": "0.0000000269"
+    "prompt": "0.0000000285",
+    "completion": "0.0000000923",
+    "input_cache_read": "0.0000000285"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -3624,12 +3657,12 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000000269",
-    "completion": "0.0000000996",
-    "input_cache_read": "0.0000000269"
+    "prompt": "0.00000015",
+    "completion": "0.0000005",
+    "input_cache_read": "0.00000003"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 943717
    },
    "supported_parameters": [
     "reasoning",
@@ -3889,9 +3922,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000008",
-    "completion": "0.0000036",
-    "input_cache_read": "0.000000076"
+    "prompt": "0.0000000699",
+    "completion": "0.0000014",
+    "input_cache_read": "0.0000000689"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -4654,7 +4687,7 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000059",
+    "prompt": "0.0000000434",
     "completion": "0.0000003",
     "input_cache_read": "0.000000035"
    },
@@ -4697,7 +4730,7 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000059",
+    "prompt": "0.0000000434",
     "completion": "0.0000003",
     "input_cache_read": "0.000000035"
    },
@@ -4780,59 +4813,7 @@
      "agentic_index": 23.5
     }
    },
-   "ha_versione_gratuita": true
-  },
-  {
-   "id": "thinkingmachines/inkling-small:free",
-   "name": "Thinking Machines: Inkling Small (free)",
-   "created": 1785443117,
-   "context_length": 1048576,
-   "description": "Inkling Small is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 12B active parameters out of 276B total. It is positioned as the smaller, more efficient member of...",
-   "hugging_face_id": "thinkingmachines/Inkling-Small",
-   "expiration_date": "2026-11-04",
-   "architecture": {
-    "input_modalities": [
-     "text",
-     "image",
-     "audio"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text+image+audio->text"
-   },
-   "pricing": {
-    "prompt": "0",
-    "completion": "0"
-   },
-   "top_provider": {
-    "max_completion_tokens": 262144
-   },
-   "supported_parameters": [
-    "reasoning",
-    "tools"
-   ],
-   "reasoning": {
-    "mandatory": false,
-    "default_enabled": true,
-    "supported_efforts": [
-     "max",
-     "high",
-     "medium",
-     "low",
-     "minimal",
-     "none"
-    ],
-    "default_effort": "high"
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": 12.9,
-     "coding_index": 52.9,
-     "agentic_index": 23.5
-    }
-   },
-   "ha_versione_gratuita": true
+   "ha_versione_gratuita": false
   },
   {
    "id": "qwen/qwen3.7-flash",
@@ -5170,59 +5151,7 @@
      "agentic_index": 22.5
     }
    },
-   "ha_versione_gratuita": true
-  },
-  {
-   "id": "thinkingmachines/inkling:free",
-   "name": "Thinking Machines: Inkling (free)",
-   "created": 1784325956,
-   "context_length": 1048576,
-   "description": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,...",
-   "hugging_face_id": "thinkingmachines/Inkling",
-   "expiration_date": "2026-11-04",
-   "architecture": {
-    "input_modalities": [
-     "text",
-     "image",
-     "audio"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text+image+audio->text"
-   },
-   "pricing": {
-    "prompt": "0",
-    "completion": "0"
-   },
-   "top_provider": {
-    "max_completion_tokens": 262144
-   },
-   "supported_parameters": [
-    "reasoning",
-    "tools"
-   ],
-   "reasoning": {
-    "mandatory": false,
-    "default_enabled": true,
-    "supported_efforts": [
-     "max",
-     "high",
-     "medium",
-     "low",
-     "minimal",
-     "none"
-    ],
-    "default_effort": "high"
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": 12.5,
-     "coding_index": 52.1,
-     "agentic_index": 22.5
-    }
-   },
-   "ha_versione_gratuita": true
+   "ha_versione_gratuita": false
   },
   {
    "id": "moonshotai/kimi-k3",
@@ -5806,9 +5735,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000132",
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033"
+    "prompt": "0.0000000825",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -7177,9 +7106,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000151",
-    "completion": "0.0000101583",
-    "input_cache_read": "0.00000015"
+    "prompt": "0.0000001719",
+    "completion": "0.000010146",
+    "input_cache_read": "0.00000017"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -8023,9 +7952,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000092",
-    "completion": "0.000000277",
-    "input_cache_read": "0.000000046"
+    "prompt": "0.000000071",
+    "completion": "0.000000214",
+    "input_cache_read": "0.000000036"
    },
    "top_provider": {
     "max_completion_tokens": 32768
@@ -12047,9 +11976,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000029",
-    "completion": "0.000000108",
-    "input_cache_read": "0.000000026"
+    "prompt": "0.000000027",
+    "completion": "0.0000001",
+    "input_cache_read": "0.000000024"
    },
    "top_provider": {
     "max_completion_tokens": 65536
@@ -12094,12 +12023,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000003",
-    "completion": "0.00000013",
-    "input_cache_read": "0.00000003"
+    "prompt": "0.000000018",
+    "completion": "0.00000009",
+    "input_cache_read": "0.000000009"
    },
    "top_provider": {
-    "max_completion_tokens": 117964
+    "max_completion_tokens": 32768
    },
    "supported_parameters": [
     "reasoning",
