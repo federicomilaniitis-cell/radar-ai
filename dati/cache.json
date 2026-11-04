@@ -1,6 +1,6 @@
 {
- "aggiornato": "2026-11-03T22:10:12+00:00",
- "aggiornato_it": "3 novembre 2026",
+ "aggiornato": "2026-11-04T02:51:42+00:00",
+ "aggiornato_it": "4 novembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 375,
  "modelli": [
@@ -229,7 +229,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 51,
+     "intelligence_index": 51.3,
      "coding_index": null,
      "agentic_index": null
     }
@@ -279,7 +279,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 46,
+     "intelligence_index": 46.5,
      "coding_index": null,
      "agentic_index": null
     }
@@ -337,9 +337,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000075",
-    "completion": "0.0000003",
-    "input_cache_read": "0.0000000075"
+    "prompt": "0.00000015",
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000015"
    },
    "top_provider": {
     "max_completion_tokens": 524288
@@ -362,7 +362,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 28.9,
+     "intelligence_index": 29.1,
      "coding_index": null,
      "agentic_index": null
     }
@@ -387,9 +387,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000003"
+    "prompt": "0.0000003",
+    "completion": "0.0000012",
+    "input_cache_read": "0.000000006"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -412,7 +412,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 28.5,
+     "intelligence_index": 28.6,
      "coding_index": null,
      "agentic_index": null
     }
@@ -725,7 +725,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 24.7,
+     "intelligence_index": 24.9,
      "coding_index": null,
      "agentic_index": null
     }
@@ -1093,7 +1093,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 43.3,
+     "intelligence_index": 43.6,
      "coding_index": null,
      "agentic_index": null
     }
@@ -1195,7 +1195,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 36.2,
+     "intelligence_index": 36.5,
      "coding_index": null,
      "agentic_index": null
     }
@@ -1285,7 +1285,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 26,
+     "intelligence_index": 26.1,
      "coding_index": null,
      "agentic_index": null
     }
@@ -1418,7 +1418,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 54.5,
+     "intelligence_index": 54.6,
      "coding_index": null,
      "agentic_index": null
     }
@@ -1470,7 +1470,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 54.2,
+     "intelligence_index": 54.5,
      "coding_index": null,
      "agentic_index": null
     }
@@ -1933,7 +1933,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 27.8,
+     "intelligence_index": 27.9,
      "coding_index": null,
      "agentic_index": null
     }
@@ -2032,6 +2032,13 @@
     ],
     "default_effort": "medium"
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 44.1,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -2079,7 +2086,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 58.4,
+     "intelligence_index": 59.1,
      "coding_index": null,
      "agentic_index": null
     }
@@ -2279,7 +2286,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 35,
+     "intelligence_index": 35.5,
      "coding_index": null,
      "agentic_index": null
     }
@@ -2884,7 +2891,7 @@
    "pricing": {
     "prompt": "0.000000045",
     "completion": "0.0000005",
-    "input_cache_read": "0.000000012"
+    "input_cache_read": "0.000000018"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -3172,7 +3179,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 33.6,
+     "intelligence_index": 33.7,
      "coding_index": 76.2,
      "agentic_index": 56
     }
@@ -3271,7 +3278,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 36.4,
+     "intelligence_index": 36.6,
      "coding_index": 75.8,
      "agentic_index": 55.5
     }
@@ -3326,7 +3333,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 30.5,
+     "intelligence_index": 30.8,
      "coding_index": 76.3,
      "agentic_index": 40.2
     }
@@ -3378,7 +3385,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 49.7,
+     "intelligence_index": 50,
      "coding_index": 80.7,
      "agentic_index": 57.2
     }
@@ -3403,7 +3410,7 @@
    },
    "pricing": {
     "prompt": "0.00000006",
-    "completion": "0.00000015",
+    "completion": "0.00000025",
     "input_cache_read": "0.000000015"
    },
    "top_provider": {
@@ -3450,9 +3457,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000007506",
-    "completion": "0.0000022509",
-    "input_cache_read": "0.0000000378"
+    "prompt": "0.000000834",
+    "completion": "0.000002501",
+    "input_cache_read": "0.000000042"
    },
    "top_provider": {
     "max_completion_tokens": 64000
@@ -5192,9 +5199,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000192",
+    "prompt": "0.0000002",
     "completion": "0.000016",
-    "input_cache_read": "0.000000182"
+    "input_cache_read": "0.00000019"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -5471,7 +5478,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": null,
+     "intelligence_index": 32.2,
      "coding_index": 76.7,
      "agentic_index": 43.2
     }
@@ -5755,9 +5762,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000825",
-    "completion": "0.00000033",
-    "input_cache_read": "0.000000020625"
+    "prompt": "0.000000132",
+    "completion": "0.000000528",
+    "input_cache_read": "0.000000033"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -6463,7 +6470,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 18.7,
+     "intelligence_index": 18.9,
      "coding_index": 58.6,
      "agentic_index": 29.5
     }
@@ -7126,9 +7133,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000152",
-    "completion": "0.0000093388",
-    "input_cache_read": "0.00000015"
+    "prompt": "0.0000001824",
+    "completion": "0.0000101489",
+    "input_cache_read": "0.00000018"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -7972,9 +7979,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000076",
-    "completion": "0.000000227",
-    "input_cache_read": "0.000000038"
+    "prompt": "0.00000007",
+    "completion": "0.00000021",
+    "input_cache_read": "0.000000035"
    },
    "top_provider": {
     "max_completion_tokens": 32768
@@ -11995,9 +12002,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000075"
+    "prompt": "0.000000027",
+    "completion": "0.0000001",
+    "input_cache_read": "0.000000024"
    },
    "top_provider": {
     "max_completion_tokens": 65536
@@ -12042,12 +12049,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000018",
-    "completion": "0.00000009",
-    "input_cache_read": "0.000000009"
+    "prompt": "0.00000003",
+    "completion": "0.00000013",
+    "input_cache_read": "0.00000003"
    },
    "top_provider": {
-    "max_completion_tokens": 32768
+    "max_completion_tokens": 117964
    },
    "supported_parameters": [
     "reasoning",
@@ -12424,12 +12431,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000014",
-    "completion": "0.0000008",
-    "input_cache_read": "0.00000005"
+    "prompt": "0.00000009",
+    "completion": "0.00000055"
    },
    "top_provider": {
-    "max_completion_tokens": 117964
+    "max_completion_tokens": 16384
    },
    "supported_parameters": [
     "structured_outputs",
@@ -13905,12 +13911,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000002",
-    "completion": "0.00000052",
-    "input_cache_read": "0.0000001"
+    "prompt": "0.0000001",
+    "completion": "0.00000032"
    },
    "top_provider": {
-    "max_completion_tokens": 128000
+    "max_completion_tokens": 16384
    },
    "supported_parameters": [
     "structured_outputs",

@@ -1,6 +1,55 @@
 {
- "aggiornato": "2026-11-03T22:10:12+00:00",
+ "aggiornato": "2026-11-04T02:51:42+00:00",
  "paper": [
+  {
+   "titolo": "What Remains in Sight? Autoregressive Video Decoding as Representation-Guided Context Rewriting",
+   "data": "2026-11-03",
+   "url": "http://arxiv.org/abs/2611.04164v1",
+   "id": "2611.04164v1",
+   "sommario": "Long-horizon video generation is increasingly moving toward autoregressive rollout, where each newly generated segment becomes part of the evidence used for future prediction. Recent causal decoders, long-context training, and KV-cache mechanisms have extended feasible duration, "
+  },
+  {
+   "titolo": "HyPAIC: Personal AI Computer with High Bandwidth Flash for High Performance Trillion-Parameter LLM Inference",
+   "data": "2026-11-03",
+   "url": "http://arxiv.org/abs/2611.04144v1",
+   "id": "2611.04144v1",
+   "sommario": "LLMs have rapidly expanded from simple chatbots to agentic AI, where models directly use tools to solve complex problems. To improve problem solving, most frontier LLMs adopt an MoE architecture, pushing model sizes into the trillion-parameter regime. While cloud services have do"
+  },
+  {
+   "titolo": "LoopKV: Loop-Aware KV Cache Compression for Serving Looped Transformers",
+   "data": "2026-11-03",
+   "url": "http://arxiv.org/abs/2611.04137v1",
+   "id": "2611.04137v1",
+   "sommario": "Looped transformers apply a shared block several times per token to improve accuracy without adding parameters. For models such as Ouro that keep a separate key-value (KV) cache per loop, cache memory limits the batch size that amortizes repeated weight reads. Uniform-bit quantiz"
+  },
+  {
+   "titolo": "ROCm InferaSim: Cut LLM Serving Trial Costs and Deploy the Best Configuration",
+   "data": "2026-11-02",
+   "url": "http://arxiv.org/abs/2611.04032v1",
+   "id": "2611.04032v1",
+   "sommario": "Serving an LLM efficiently depends on the engine, how the model is split across GPUs, precision, scheduler settings, speculative decoding, KV-cache management, and prefill-decode disaggregation. The best configuration depends on the model, hardware, workload, and objective. Opera"
+  },
+  {
+   "titolo": "Dory1.0-4B: A Looped Normalized-GPT",
+   "data": "2026-11-02",
+   "url": "http://arxiv.org/abs/2611.03998v1",
+   "id": "2611.03998v1",
+   "sommario": "We introduce Dory1.0-4B, a 4-billion-parameter looped (latent-recurrent) language model with elastic depth: a single checkpoint serves different inference compute budgets. Dory1.0-4B is built on a normalized Transformer (nGPT) backbone with interleaved sliding-window and full-att"
+  },
+  {
+   "titolo": "FlagRot: Selective Rotation for Low-Bit KV Caches",
+   "data": "2026-11-02",
+   "url": "http://arxiv.org/abs/2611.03992v1",
+   "id": "2611.03992v1",
+   "sommario": "Long-context inference is bound by the KV cache, which 2-bit codes could shrink about sixfold if their error stays in check. The usual remedy rotates keys before quantizing, assuming rotation always helps. However, we observe that it does not: rotation flattens a spiky piece of a"
+  },
+  {
+   "titolo": "A Conditional Mutual Information Analysis of Response Variety in Language Models",
+   "data": "2026-11-02",
+   "url": "http://arxiv.org/abs/2611.03836v1",
+   "id": "2611.03836v1",
+   "sommario": "Large language models provide a variety of responses at inference (generation) that conventionally depend on a temperature parameter. Using a conditional mutual information approach, a quantitative, entropy based analysis of response variety is given. Three limiting behaviors are"
+  },
   {
    "titolo": "The SIMPLE Law for Energy Cost of LLM Inference",
    "data": "2026-11-02",
@@ -35,55 +84,6 @@
    "url": "http://arxiv.org/abs/2611.02601v1",
    "id": "2611.02601v1",
    "sommario": "On-device multimodal agents are limited by two deployment mismatches: pretrained attention structures may not divide evenly across the compute cores of an edge accelerator, causing irregular partitions; and standard prefix caching keeps historical visual tokens in the persistent "
-  },
-  {
-   "titolo": "BasisKV: Value Latents for Communication and Key Routing",
-   "data": "2026-11-02",
-   "url": "http://arxiv.org/abs/2611.02583v1",
-   "id": "2611.02583v1",
-   "sommario": "Long-context large language model (LLM) inference is increasingly constrained by the cost of maintaining an ever-growing KV-cache. Low-rank K/V projections provide a promising way to compress the KV-cache with minimal quality loss, but prior work has largely optimized KV-cache co"
-  },
-  {
-   "titolo": "Who Should Score the Cache? Mid-Depth Layers Are the Best Judges of KV-Cache Eviction",
-   "data": "2026-11-01",
-   "url": "http://arxiv.org/abs/2611.02230v1",
-   "id": "2611.02230v1",
-   "sommario": "Key-value (KV) cache eviction methods rank tokens by attention scores, and each layer scores its own cache. To our knowledge, no eviction method asks which layer should score. We find, across twenty-one models, that the depth of the scoring layer governs eviction quality. On the "
-  },
-  {
-   "titolo": "Fairway: Load-Aware KV Cache Reuse for LLM Prefill Scheduling",
-   "data": "2026-11-01",
-   "url": "http://arxiv.org/abs/2611.02082v1",
-   "id": "2611.02082v1",
-   "sommario": "LLM-based applications often employ agentic workflows and retrieval-augmented generation (RAG), which build long prompts from shared context. When prefixes are shared across requests, serving engines reuse the key-value (KV) cache to skip parts of the prefill computation. Reuse i"
-  },
-  {
-   "titolo": "MedPsy: State-of-the-Art Small Medical Language Models for Efficient Edge Deployment",
-   "data": "2026-11-01",
-   "url": "http://arxiv.org/abs/2611.02011v1",
-   "id": "2611.02011v1",
-   "sommario": "Medical language models promise expert clinical support, but the strongest open-source LLMs remain too large for private edge-device deployment, while compact medical models still trail substantially on knowledge-intensive and real-world healthcare tasks. Reasoning models that fi"
-  },
-  {
-   "titolo": "Quantizing Recurrent Language Models Is Easier Than You Think",
-   "data": "2026-11-01",
-   "url": "http://arxiv.org/abs/2611.01864v1",
-   "id": "2611.01864v1",
-   "sommario": "Linear recurrences are becoming an increasingly common building block in large language models, replacing the growing KV cache of softmax attention with a fixed-size recurrent state that enables efficient decoding. However, the quantization stack has largely been developed around"
-  },
-  {
-   "titolo": "Learning-to-Memorize: Dynamic Context Management for Long-Horizon Autoregressive Video Generation",
-   "data": "2026-11-01",
-   "url": "http://arxiv.org/abs/2611.01858v1",
-   "id": "2611.01858v1",
-   "sommario": "Autoregressive video generation has achieved impressive results on short clips, yet generating long videos remains challenging due to error accumulation over extended horizons, where each predicted frame depends on potentially imperfect previous frames. Existing approaches typica"
-  },
-  {
-   "titolo": "CacheWeave: Learning to Recompute for Efficient Position-Independent KV Caching",
-   "data": "2026-11-01",
-   "url": "http://arxiv.org/abs/2611.01735v1",
-   "id": "2611.01735v1",
-   "sommario": "Position-independent caching reuses chunk KV caches across positions and requests. Independent encoding, however, omits cross-chunk interactions and can degrade accuracy. In our study, neither PIC training nor rule-based recomputation, alone or combined, consistently recovers ful"
   }
  ]
 }
