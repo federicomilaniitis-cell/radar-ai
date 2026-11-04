@@ -1,6 +1,24 @@
 {
- "aggiornato": "2026-11-04T02:51:42+00:00",
+ "aggiornato": "2026-11-04T12:43:39+00:00",
  "notizie": [
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-11-04",
+   "titolo": "Mercury 3 viene spento fra 4 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-08. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-inception-mercury-3"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-11-04",
+   "titolo": "Mercury 2.5 viene spento fra 4 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-08. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-inception-mercury-2-5"
+  },
   {
    "tag": "crit",
    "tagT": "Chiusura",
@@ -45,6 +63,15 @@
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-05. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-minimax-minimax-m2-7"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-11-04",
+   "titolo": "Mercury 2 viene spento fra 4 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-08. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-inception-mercury-2"
   },
   {
    "tag": "crit",
@@ -189,33 +216,6 @@
    "testo": "Da $0,15 a $0,075 per milione di token in entrata.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
    "id": "prezzo-minimax-minimax-m3-1-flashprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-11-02",
-   "titolo": "MiniMax M3.1 Flash: il prezzo in uscita scende del 50%",
-   "testo": "Da $0,6 a $0,3 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-minimax-minimax-m3-1-flashcompletion"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-11-02",
-   "titolo": "Hy4 preview: il prezzo in entrata scende del 10%",
-   "testo": "Da $0,834 a $0,751 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-tencent-hy4-previewprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-11-02",
-   "titolo": "Hy4 preview: il prezzo in uscita scende del 10%",
-   "testo": "Da $2,5 a $2,25 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-tencent-hy4-previewcompletion"
   }
  ]
 }

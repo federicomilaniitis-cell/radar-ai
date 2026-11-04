@@ -1,6 +1,55 @@
 {
- "aggiornato": "2026-11-04T02:51:42+00:00",
+ "aggiornato": "2026-11-04T12:43:39+00:00",
  "paper": [
+  {
+   "titolo": "LoopVQ: Sub 1-bit KV Cache Quantization for Looped Transformers",
+   "data": "2026-11-03",
+   "url": "http://arxiv.org/abs/2611.05304v1",
+   "id": "2611.05304v1",
+   "sommario": "Looped transformers are a parameter-efficient alternative to standard transformers for language modeling. By reapplying the same layers across multiple loop steps, recent looped language models match the performance of non-looped models several times their size. While this archit"
+  },
+  {
+   "titolo": "Factorized MLLM Embeddings for Composed Image Retrieval",
+   "data": "2026-11-03",
+   "url": "http://arxiv.org/abs/2611.05193v1",
+   "id": "2611.05193v1",
+   "sommario": "Composed Image Retrieval (CIR) aims to retrieve a target image given a reference image and a modification text. Although recent approaches leveraging Multimodal Large Language Models (MLLMs) have shown significant progress, we argue that the MLLM's compositional understanding rem"
+  },
+  {
+   "titolo": "Asymptotic Optimality of $cμ$-Rule for LLM Inference Scheduling under Memory Constraint",
+   "data": "2026-11-03",
+   "url": "http://arxiv.org/abs/2611.04807v1",
+   "id": "2611.04807v1",
+   "sommario": "Large language model (LLM) inference, the process by which a pre-trained model receives an input prompt and generates output tokens sequentially, has become increasingly important with the widespread deployment of LLM-based applications. As inference workloads continue to scale, "
+  },
+  {
+   "titolo": "Koopman Generative Operators for Efficient Probabilistic Time-Series Forecasting",
+   "data": "2026-11-03",
+   "url": "http://arxiv.org/abs/2611.04760v1",
+   "id": "2611.04760v1",
+   "sommario": "Probabilistic time-series forecasting requires models that simultaneously capture structured temporal dynamics, expressive uncertainty, and efficient inference, yet existing approaches fall short of this goal: latent dynamical models impose structure but rely on restrictive gener"
+  },
+  {
+   "titolo": "LeanSparse: Memory-Efficient Serving for Native Sparse-Attention LLMs",
+   "data": "2026-11-03",
+   "url": "http://arxiv.org/abs/2611.04671v1",
+   "id": "2611.04671v1",
+   "sommario": "Sparse attention limits the history read by each query, but serving long contexts still requires substantial GPU memory. Existing KV offloading systems retain the full history of indexer keys on GPU, limiting decode concurrency. Prefill's temporary memory demand can further delay"
+  },
+  {
+   "titolo": "BtsPruner: Role-Aware Visual Token Pruning for Large Vision-Language Models",
+   "data": "2026-11-03",
+   "url": "http://arxiv.org/abs/2611.04537v1",
+   "id": "2611.04537v1",
+   "sommario": "Large Vision-Language Models (LVLMs) often process hundreds or thousands of visual tokens, resulting in substantial computational and memory overhead during inference. Existing training-free pruning methods typically estimate token importance using language-model attention, visua"
+  },
+  {
+   "titolo": "Beyond Compression Ratio: High-Throughput KV Compression for Disaggregated LLM Serving",
+   "data": "2026-11-03",
+   "url": "http://arxiv.org/abs/2611.04382v1",
+   "id": "2611.04382v1",
+   "sommario": "KV cache compression reduces the communication volume of disaggregated large language model serving, but its practical benefit depends not only on compression ratio and model quality, but also on how efficiently the compression pipeline executes. This requirement becomes increasi"
+  },
   {
    "titolo": "What Remains in Sight? Autoregressive Video Decoding as Representation-Guided Context Rewriting",
    "data": "2026-11-03",
@@ -35,55 +84,6 @@
    "url": "http://arxiv.org/abs/2611.03998v1",
    "id": "2611.03998v1",
    "sommario": "We introduce Dory1.0-4B, a 4-billion-parameter looped (latent-recurrent) language model with elastic depth: a single checkpoint serves different inference compute budgets. Dory1.0-4B is built on a normalized Transformer (nGPT) backbone with interleaved sliding-window and full-att"
-  },
-  {
-   "titolo": "FlagRot: Selective Rotation for Low-Bit KV Caches",
-   "data": "2026-11-02",
-   "url": "http://arxiv.org/abs/2611.03992v1",
-   "id": "2611.03992v1",
-   "sommario": "Long-context inference is bound by the KV cache, which 2-bit codes could shrink about sixfold if their error stays in check. The usual remedy rotates keys before quantizing, assuming rotation always helps. However, we observe that it does not: rotation flattens a spiky piece of a"
-  },
-  {
-   "titolo": "A Conditional Mutual Information Analysis of Response Variety in Language Models",
-   "data": "2026-11-02",
-   "url": "http://arxiv.org/abs/2611.03836v1",
-   "id": "2611.03836v1",
-   "sommario": "Large language models provide a variety of responses at inference (generation) that conventionally depend on a temperature parameter. Using a conditional mutual information approach, a quantitative, entropy based analysis of response variety is given. Three limiting behaviors are"
-  },
-  {
-   "titolo": "The SIMPLE Law for Energy Cost of LLM Inference",
-   "data": "2026-11-02",
-   "url": "http://arxiv.org/abs/2611.03330v1",
-   "id": "2611.03330v1",
-   "sommario": "Generative AI is billed per token, yet tokens are not equally expensive. Each token enters the KV-cache and raises the cost of those that follow, so energy grows non-linearly along a sequence whose tokens look identical. No analytical model states what a token costs, and the most"
-  },
-  {
-   "titolo": "R$^2$-Omni: Reducing Structural and Precision Redundancy in Omni-LLMs for Long-Form Generation",
-   "data": "2026-11-02",
-   "url": "http://arxiv.org/abs/2611.03247v1",
-   "id": "2611.03247v1",
-   "sommario": "Omni-modal large language models (Omni-LLMs) typically process large numbers of multimodal tokens from audio-visual inputs, incurring substantial computational costs and a large memory footprint for the key-value (KV) cache. Aggressive token pruning can alleviate this problem whi"
-  },
-  {
-   "titolo": "DepthGraft: Structural Regularization through Hierarchical Cross-Layer KV Reconstruction",
-   "data": "2026-11-02",
-   "url": "http://arxiv.org/abs/2611.03142v1",
-   "id": "2611.03142v1",
-   "sommario": "Scaling depth is a key route to stronger large language models, but Pre-LN architectures often suffer from depth-wise information dilution, limiting the effective use of deep layers. While cross-layer connectivity has proven effective at mitigating this problem, existing designs "
-  },
-  {
-   "titolo": "EffComp: Efficient Prompt Compression via Hybrid Reinforcement &amp; Supervised Learning",
-   "data": "2026-11-02",
-   "url": "http://arxiv.org/abs/2611.02766v1",
-   "id": "2611.02766v1",
-   "sommario": "Prompt compression is aimed at reducing input prompt lengths to enable cheaper, faster, and potentially higher-quality LLM predictions. However, existing prompt compression methods are often limited by modest compression gains, a risk of hallucination, and/or high compression lat"
-  },
-  {
-   "titolo": "Parallelism-Aligned Pruning and Round-Aware Context Reuse for On-Device Multimodal Agents",
-   "data": "2026-11-02",
-   "url": "http://arxiv.org/abs/2611.02601v1",
-   "id": "2611.02601v1",
-   "sommario": "On-device multimodal agents are limited by two deployment mismatches: pretrained attention structures may not divide evenly across the compute cores of an edge accelerator, causing irregular partitions; and standard prefix caching keeps historical visual tokens in the persistent "
   }
  ]
 }
