@@ -1,9 +1,87 @@
 {
- "aggiornato": "2026-11-05T12:53:26+00:00",
+ "aggiornato": "2026-11-05T22:28:39+00:00",
  "aggiornato_it": "5 novembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 376,
+ "totale": 374,
  "modelli": [
+  {
+   "id": "google/gemini-omni-1.2-flash",
+   "name": "Google: Gemini Omni 1.2 Flash",
+   "created": 1793898961,
+   "context_length": 131072,
+   "description": "Gemini Omni 1.2 Flash is Google's native multimodal video generation and editing model, the successor to Gemini Omni 1.1 Flash. It generates clips up to 15 seconds long with native...",
+   "architecture": {
+    "input_modalities": [
+     "text",
+     "image",
+     "video"
+    ],
+    "output_modalities": [
+     "text",
+     "video"
+    ],
+    "modality": "text+image+video->text+video"
+   },
+   "pricing": {
+    "prompt": "0.0000015",
+    "completion": "0.000009",
+    "web_search": "0.014"
+   },
+   "top_provider": {
+    "max_completion_tokens": 65536
+   },
+   "supported_parameters": [
+    "reasoning"
+   ],
+   "reasoning": {
+    "mandatory": true,
+    "supported_efforts": [
+     "high",
+     "low"
+    ],
+    "default_effort": "low"
+   },
+   "ha_versione_gratuita": false
+  },
+  {
+   "id": "google/gemini-omni-1.1-flash",
+   "name": "Google: Gemini Omni 1.1 Flash",
+   "created": 1793825668,
+   "context_length": 131072,
+   "description": "Gemini Omni 1.1 Flash is Google's native multimodal video generation and editing model, the generally available successor to Gemini Omni Flash Preview. It is suited for text-to-video, image-to-video, first and...",
+   "architecture": {
+    "input_modalities": [
+     "text",
+     "image",
+     "video"
+    ],
+    "output_modalities": [
+     "text",
+     "video"
+    ],
+    "modality": "text+image+video->text+video"
+   },
+   "pricing": {
+    "prompt": "0.0000015",
+    "completion": "0.000009",
+    "web_search": "0.014"
+   },
+   "top_provider": {
+    "max_completion_tokens": 65536
+   },
+   "supported_parameters": [
+    "reasoning"
+   ],
+   "reasoning": {
+    "mandatory": true,
+    "supported_efforts": [
+     "high",
+     "low"
+    ],
+    "default_effort": "low"
+   },
+   "ha_versione_gratuita": false
+  },
   {
    "id": "ricursiveai/ripple-65b-preview",
    "name": "ricursiveAI/Ripple-65B-Preview",
@@ -419,9 +497,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000015"
+    "prompt": "0.000000075",
+    "completion": "0.0000003",
+    "input_cache_read": "0.0000000075"
    },
    "top_provider": {
     "max_completion_tokens": 524288
@@ -587,12 +665,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000025",
+    "prompt": "0.0000003",
     "completion": "0.000001",
-    "input_cache_read": "0.00000005"
+    "input_cache_read": "0.00000004"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -3541,9 +3619,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000834",
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042"
+    "prompt": "0.0000007506",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378"
    },
    "top_provider": {
     "max_completion_tokens": 64000
@@ -4736,7 +4814,7 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000059",
+    "prompt": "0.0000000434",
     "completion": "0.0000003",
     "input_cache_read": "0.000000035"
    },
@@ -4779,7 +4857,7 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000059",
+    "prompt": "0.0000000434",
     "completion": "0.0000003",
     "input_cache_read": "0.000000035"
    },
@@ -5784,9 +5862,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000132",
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033"
+    "prompt": "0.0000000825",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -6131,7 +6209,7 @@
    "pricing": {
     "prompt": "0.0000006",
     "completion": "0.0000035",
-    "input_cache_read": "0.00000015"
+    "input_cache_read": "0.00000016"
    },
    "top_provider": {
     "max_completion_tokens": 235929
@@ -7156,7 +7234,7 @@
    },
    "pricing": {
     "prompt": "0.0000001824",
-    "completion": "0.0000093388",
+    "completion": "0.0000101489",
     "input_cache_read": "0.00000018"
    },
    "top_provider": {
@@ -8001,12 +8079,12 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000038",
-    "completion": "0.000000113",
-    "input_cache_read": "0.000000019"
+    "prompt": "0.0000000765",
+    "completion": "0.000000255",
+    "input_cache_read": "0.0000000425"
    },
    "top_provider": {
-    "max_completion_tokens": 32768
+    "max_completion_tokens": 235929
    },
    "supported_parameters": [
     "reasoning",
@@ -8409,7 +8487,6 @@
    "context_length": 204800,
    "description": "MiniMax-M2.7 is a next-generation large language model designed for autonomous, real-world productivity and continuous improvement. Built to actively participate in its own evolution, M2.7 integrates advanced agentic capabilities through multi-agent...",
    "hugging_face_id": "MiniMaxAI/MiniMax-M2.7",
-   "expiration_date": "2026-11-05",
    "architecture": {
     "input_modalities": [
      "text"
@@ -8420,12 +8497,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000003",
-    "completion": "0.0000012",
-    "input_cache_read": "0.00000006"
+    "prompt": "0.00000021",
+    "completion": "0.00000084",
+    "input_cache_read": "0.000000042"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 176947
    },
    "supported_parameters": [
     "reasoning",
@@ -9745,34 +9822,6 @@
    "ha_versione_gratuita": false
   },
   {
-   "id": "minimax/minimax-m2-her",
-   "name": "MiniMax: MiniMax M2-her",
-   "created": 1769177239,
-   "context_length": 65536,
-   "description": "MiniMax M2-her is a dialogue-first large language model built for immersive roleplay, character-driven chat, and expressive multi-turn conversations. Designed to stay consistent in tone and personality, it supports rich message...",
-   "hugging_face_id": "",
-   "expiration_date": "2026-11-05",
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text->text"
-   },
-   "pricing": {
-    "prompt": "0.0000003",
-    "completion": "0.0000012",
-    "input_cache_read": "0.00000003"
-   },
-   "top_provider": {
-    "max_completion_tokens": 2048
-   },
-   "supported_parameters": [],
-   "ha_versione_gratuita": false
-  },
-  {
    "id": "writer/palmyra-x5",
    "name": "Writer: Palmyra X5",
    "created": 1769003823,
@@ -10008,40 +10057,6 @@
    ],
    "reasoning": {
     "mandatory": false
-   },
-   "ha_versione_gratuita": false
-  },
-  {
-   "id": "minimax/minimax-m2.1",
-   "name": "MiniMax: MiniMax M2.1",
-   "created": 1766454997,
-   "context_length": 204800,
-   "description": "MiniMax-M2.1 is a lightweight, state-of-the-art large language model optimized for coding, agentic workflows, and modern application development. With only 10 billion activated parameters, it delivers a major jump in real-world...",
-   "hugging_face_id": "MiniMaxAI/MiniMax-M2.1",
-   "expiration_date": "2026-11-05",
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text->text"
-   },
-   "pricing": {
-    "prompt": "0.0000003",
-    "completion": "0.0000012",
-    "input_cache_read": "0.00000003"
-   },
-   "top_provider": {
-    "max_completion_tokens": 131072
-   },
-   "supported_parameters": [
-    "reasoning",
-    "tools"
-   ],
-   "reasoning": {
-    "mandatory": true
    },
    "ha_versione_gratuita": false
   },
@@ -11058,39 +11073,6 @@
    "supported_parameters": [
     "reasoning",
     "structured_outputs",
-    "tools"
-   ],
-   "reasoning": {
-    "mandatory": true
-   },
-   "ha_versione_gratuita": false
-  },
-  {
-   "id": "minimax/minimax-m2",
-   "name": "MiniMax: MiniMax M2",
-   "created": 1761252093,
-   "context_length": 204800,
-   "description": "MiniMax-M2 is a compact, high-efficiency large language model optimized for end-to-end coding and agentic workflows. With 10 billion activated parameters (230 billion total), it delivers near-frontier intelligence across general reasoning,...",
-   "hugging_face_id": "MiniMaxAI/MiniMax-M2",
-   "expiration_date": "2026-11-05",
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text->text"
-   },
-   "pricing": {
-    "prompt": "0.000000255",
-    "completion": "0.00000102"
-   },
-   "top_provider": {
-    "max_completion_tokens": 131072
-   },
-   "supported_parameters": [
-    "reasoning",
     "tools"
    ],
    "reasoning": {
@@ -13806,34 +13788,6 @@
    "ha_versione_gratuita": false
   },
   {
-   "id": "minimax/minimax-01",
-   "name": "MiniMax: MiniMax-01",
-   "created": 1736915462,
-   "context_length": 1000192,
-   "description": "MiniMax-01 is a combines MiniMax-Text-01 for text generation and MiniMax-VL-01 for image understanding. It has 456 billion parameters, with 45.9 billion parameters activated per inference, and can handle a context...",
-   "hugging_face_id": "MiniMaxAI/MiniMax-Text-01",
-   "expiration_date": "2026-11-05",
-   "architecture": {
-    "input_modalities": [
-     "text",
-     "image"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text+image->text"
-   },
-   "pricing": {
-    "prompt": "0.0000002",
-    "completion": "0.0000011"
-   },
-   "top_provider": {
-    "max_completion_tokens": 900172
-   },
-   "supported_parameters": [],
-   "ha_versione_gratuita": false
-  },
-  {
    "id": "microsoft/phi-4",
    "name": "Microsoft: Phi 4",
    "created": 1736489872,
@@ -13935,12 +13889,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000002",
-    "completion": "0.00000052",
-    "input_cache_read": "0.0000001"
+    "prompt": "0.00000059",
+    "completion": "0.00000079",
+    "input_cache_read": "0.000000295"
    },
    "top_provider": {
-    "max_completion_tokens": 128000
+    "max_completion_tokens": 32768
    },
    "supported_parameters": [
     "structured_outputs",

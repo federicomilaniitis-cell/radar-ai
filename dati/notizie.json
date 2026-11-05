@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-05T12:53:26+00:00",
+ "aggiornato": "2026-11-05T22:28:39+00:00",
  "notizie": [
   {
    "tag": "crit",
@@ -41,28 +41,10 @@
    "tag": "crit",
    "tagT": "Chiusura",
    "data": "2026-11-05",
-   "titolo": "MiniMax M2.7 viene spento fra 0 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-05. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-minimax-minimax-m2-7"
-  },
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-11-05",
    "titolo": "Mercury 2 viene spento fra 3 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-08. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-inception-mercury-2"
-  },
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-11-05",
-   "titolo": "MiniMax M2-her viene spento fra 0 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-05. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-minimax-minimax-m2-her"
   },
   {
    "tag": "crit",
@@ -86,28 +68,10 @@
    "tag": "crit",
    "tagT": "Chiusura",
    "data": "2026-11-05",
-   "titolo": "MiniMax M2.1 viene spento fra 0 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-05. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-minimax-minimax-m2-1"
-  },
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-11-05",
    "titolo": "GLM 4.7 viene spento fra 56 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-12-31. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-z-ai-glm-4-7"
-  },
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-11-05",
-   "titolo": "MiniMax M2 viene spento fra 0 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-05. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-minimax-minimax-m2"
   },
   {
    "tag": "crit",
@@ -135,6 +99,69 @@
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-12-31. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-z-ai-glm-4-5"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-11-05",
+   "titolo": "MiniMax M3.1 Flash: il prezzo in entrata scende del 50%",
+   "testo": "Da $0,15 a $0,075 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-minimax-minimax-m3-1-flashprompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-11-05",
+   "titolo": "MiniMax M3.1 Flash: il prezzo in uscita scende del 50%",
+   "testo": "Da $0,6 a $0,3 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-minimax-minimax-m3-1-flashcompletion"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-11-05",
+   "titolo": "Hy4 preview: il prezzo in entrata scende del 10%",
+   "testo": "Da $0,834 a $0,751 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-tencent-hy4-previewprompt"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-11-05",
+   "titolo": "MiniMax M2.7 viene spento fra 0 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-05. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-minimax-minimax-m2-7"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-11-05",
+   "titolo": "MiniMax M2-her viene spento fra 0 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-05. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-minimax-minimax-m2-her"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-11-05",
+   "titolo": "MiniMax M2.1 viene spento fra 0 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-05. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-minimax-minimax-m2-1"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-11-05",
+   "titolo": "MiniMax M2 viene spento fra 0 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-05. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-minimax-minimax-m2"
   },
   {
    "tag": "crit",
@@ -189,33 +216,6 @@
    "testo": "Da $0,092 a $0,085 per milione di token in uscita.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
    "id": "prezzo-z-ai-glm-5-3-flashcompletion"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-11-03",
-   "titolo": "DeepSeek V4 Flash 0731: il prezzo in entrata scende del 50%",
-   "testo": "Da $0,119 a $0,059 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-deepseek-deepseek-v4-flash-0731prompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-11-03",
-   "titolo": "Gemma 4 26B A4B : il prezzo in entrata scende del 14%",
-   "testo": "Da $0,076 a $0,066 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-google-gemma-4-26b-a4b-itprompt"
-  },
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-11-02",
-   "titolo": "Llama 3.1 70B Instruct viene spento fra 1 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-03. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-meta-llama-llama-3-1-70b-instruct"
   }
  ]
 }
