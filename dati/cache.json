@@ -1,8 +1,8 @@
 {
- "aggiornato": "2026-11-05T03:01:38+00:00",
+ "aggiornato": "2026-11-05T12:53:26+00:00",
  "aggiornato_it": "5 novembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 375,
+ "totale": 376,
  "modelli": [
   {
    "id": "ricursiveai/ripple-65b-preview",
@@ -75,6 +75,13 @@
      "none"
     ],
     "default_effort": "high"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 34.6,
+     "coding_index": null,
+     "agentic_index": null
+    }
    },
    "ha_versione_gratuita": false
   },
@@ -462,9 +469,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.0000003",
-    "completion": "0.0000012",
-    "input_cache_read": "0.000000006"
+    "prompt": "0.00000015",
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000003"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -2507,9 +2514,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000001035",
+    "prompt": "0.0000000927",
     "completion": "0.000008",
-    "input_cache_read": "0.0000001"
+    "input_cache_read": "0.0000000927"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -2624,7 +2631,7 @@
     "input_cache_read": "0.00000005"
    },
    "top_provider": {
-    "max_completion_tokens": 4096
+    "max_completion_tokens": 8192
    },
    "supported_parameters": [
     "structured_outputs"
@@ -4234,9 +4241,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000115",
-    "completion": "0.0000046",
-    "input_cache_read": "0.00000011"
+    "prompt": "0.000000103",
+    "completion": "0.00000411",
+    "input_cache_read": "0.000000098"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -4620,6 +4627,48 @@
    "ha_versione_gratuita": false
   },
   {
+   "id": "inclusionai/ling-3.0-tiny",
+   "name": "inclusionAI: Ling 3.0 Tiny",
+   "created": 1786034890,
+   "context_length": 262144,
+   "description": "Ling 3.0 Tiny is a mixture-of-experts model from InclusionAI, with 1.3B active parameters out of 7.9B total. It is designed for responsive agents, instruction following, and multi-turn conversations, with switchable...",
+   "hugging_face_id": "inclusionAI/Ling-3.0-tiny",
+   "architecture": {
+    "input_modalities": [
+     "text"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text->text"
+   },
+   "pricing": {
+    "prompt": "0.000000015",
+    "completion": "0.000000045",
+    "input_cache_read": "0.000000003"
+   },
+   "top_provider": {
+    "max_completion_tokens": 250000
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": false,
+    "default_enabled": true
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": null,
+     "coding_index": 26.5,
+     "agentic_index": 4.4
+    }
+   },
+   "ha_versione_gratuita": false
+  },
+  {
    "id": "meta/muse-spark-1.2",
    "name": "Meta: Muse Spark 1.2",
    "created": 1785959287,
@@ -4899,7 +4948,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": null,
+     "intelligence_index": 44.2,
      "coding_index": 78,
      "agentic_index": 56.5
     }
@@ -7107,7 +7156,7 @@
    },
    "pricing": {
     "prompt": "0.0000001824",
-    "completion": "0.0000105572",
+    "completion": "0.0000093388",
     "input_cache_read": "0.00000018"
    },
    "top_provider": {
@@ -7952,9 +8001,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000003",
-    "completion": "0.00000009",
-    "input_cache_read": "0.000000015"
+    "prompt": "0.000000038",
+    "completion": "0.000000113",
+    "input_cache_read": "0.000000019"
    },
    "top_provider": {
     "max_completion_tokens": 32768
@@ -8055,7 +8104,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": null,
+     "intelligence_index": 4.4,
      "coding_index": 43.4,
      "agentic_index": 4.2
     }
@@ -8097,7 +8146,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": null,
+     "intelligence_index": 4.4,
      "coding_index": 43.4,
      "agentic_index": 4.2
     }
@@ -11056,6 +11105,7 @@
    "context_length": 400000,
    "description": "GPT-5 Image Mini combines OpenAI's advanced language capabilities, powered by [GPT-5 Mini](https://openrouter.ai/openai/gpt-5-mini), with GPT Image 1 Mini for efficient image generation. This natively multimodal model features superior instruction following, text...",
    "hugging_face_id": "",
+   "expiration_date": "2026-12-01",
    "architecture": {
     "input_modalities": [
      "file",
@@ -11630,12 +11680,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000001",
-    "completion": "0.0000011",
-    "input_cache_read": "0.00000007"
+    "prompt": "0.00000009",
+    "completion": "0.0000011"
    },
    "top_provider": {
-    "max_completion_tokens": 235929
+    "max_completion_tokens": 16384
    },
    "supported_parameters": [
     "structured_outputs",
@@ -11976,9 +12025,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000014",
-    "completion": "0.000000053",
-    "input_cache_read": "0.000000013"
+    "prompt": "0.00000015",
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000075"
    },
    "top_provider": {
     "max_completion_tokens": 65536
@@ -12023,12 +12072,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000018",
-    "completion": "0.00000009",
-    "input_cache_read": "0.000000009"
+    "prompt": "0.00000003",
+    "completion": "0.00000013",
+    "input_cache_read": "0.00000003"
    },
    "top_provider": {
-    "max_completion_tokens": 32768
+    "max_completion_tokens": 117964
    },
    "supported_parameters": [
     "reasoning",

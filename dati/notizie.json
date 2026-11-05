@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-05T03:01:38+00:00",
+ "aggiornato": "2026-11-05T12:53:26+00:00",
  "notizie": [
   {
    "tag": "crit",
@@ -113,6 +113,15 @@
    "tag": "crit",
    "tagT": "Chiusura",
    "data": "2026-11-05",
+   "titolo": "GPT-5 Image Mini viene spento fra 26 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-12-01. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-openai-gpt-5-image-mini"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-11-05",
    "titolo": "GLM 4.5V viene spento fra 56 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-12-31. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
@@ -207,15 +216,6 @@
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-03. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-meta-llama-llama-3-1-70b-instruct"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-11-02",
-   "titolo": "MiniMax M3.1 Flash: il prezzo in entrata scende del 50%",
-   "testo": "Da $0,15 a $0,075 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-minimax-minimax-m3-1-flashprompt"
   }
  ]
 }
