@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-06T03:02:15+00:00",
+ "aggiornato": "2026-11-06T12:40:05+00:00",
  "notizie": [
   {
    "tag": "crit",
@@ -122,6 +122,15 @@
    "tag": "ok",
    "tagT": "Prezzo giu'",
    "data": "2026-11-06",
+   "titolo": "DeepSeek V4.1 Flash 1017: il prezzo in entrata scende del 50%",
+   "testo": "Da $0,3 a $0,15 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-deepseek-deepseek-v4-1-flash-1017prompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-11-06",
    "titolo": "DeepSeek V4 Pro 0423: il prezzo in entrata scende del 40%",
    "testo": "Da $1,6 a $0,955 per milione di token in entrata.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
@@ -207,15 +216,6 @@
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-04. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-thinkingmachines-inkling-free"
-  },
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-11-04",
-   "titolo": "MiniMax-01 viene spento fra 1 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-05. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-minimax-minimax-01"
   }
  ]
 }

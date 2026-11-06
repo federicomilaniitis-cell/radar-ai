@@ -1,8 +1,8 @@
 {
- "aggiornato": "2026-11-06T03:02:15+00:00",
+ "aggiornato": "2026-11-06T12:40:05+00:00",
  "aggiornato_it": "6 novembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 374,
+ "totale": 373,
  "modelli": [
   {
    "id": "google/gemini-omni-1.2-flash",
@@ -547,9 +547,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.0000003",
-    "completion": "0.0000012",
-    "input_cache_read": "0.000000006"
+    "prompt": "0.00000015",
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000003"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -2592,9 +2592,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000927",
+    "prompt": "0.0000000999",
     "completion": "0.000008",
-    "input_cache_read": "0.0000000927"
+    "input_cache_read": "0.0000000999"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -3050,8 +3050,8 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.000000045",
-    "completion": "0.0000005",
+    "prompt": "0.000000051",
+    "completion": "0.000000567",
     "input_cache_read": "0.000000018"
    },
    "top_provider": {
@@ -3661,9 +3661,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000000285",
+    "prompt": "0.0000000284",
     "completion": "0.0000000923",
-    "input_cache_read": "0.0000000285"
+    "input_cache_read": "0.0000000284"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -4319,9 +4319,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000103",
-    "completion": "0.00000411",
-    "input_cache_read": "0.000000098"
+    "prompt": "0.0000001165",
+    "completion": "0.00000466",
+    "input_cache_read": "0.000000111"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -6134,7 +6134,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": null,
+     "intelligence_index": 3.4,
      "coding_index": 36.5,
      "agentic_index": 1.1
     }
@@ -6360,40 +6360,7 @@
     "mandatory": false,
     "default_enabled": true
    },
-   "ha_versione_gratuita": true
-  },
-  {
-   "id": "nvidia/nemotron-3.5-content-safety:free",
-   "name": "NVIDIA: Nemotron 3.5 Content Safety (free)",
-   "created": 1780581864,
-   "context_length": 128000,
-   "description": "NVIDIA Nemotron 3.5 Content Safety is a compact 4B-parameter multimodal guardrail model from NVIDIA, fine-tuned from Google Gemma-3-4B. It moderates both inputs to and responses from LLMs and VLMs, accepting...",
-   "hugging_face_id": "nvidia/Nemotron-3.5-Content-Safety",
-   "architecture": {
-    "input_modalities": [
-     "text",
-     "image"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text+image->text"
-   },
-   "pricing": {
-    "prompt": "0",
-    "completion": "0"
-   },
-   "top_provider": {
-    "max_completion_tokens": 8192
-   },
-   "supported_parameters": [
-    "reasoning"
-   ],
-   "reasoning": {
-    "mandatory": false,
-    "default_enabled": true
-   },
-   "ha_versione_gratuita": true
+   "ha_versione_gratuita": false
   },
   {
    "id": "nvidia/nemotron-3-ultra-550b-a55b",
@@ -7233,9 +7200,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000001824",
-    "completion": "0.0000105539",
-    "input_cache_read": "0.00000018"
+    "prompt": "0.0000001624",
+    "completion": "0.0000101522",
+    "input_cache_read": "0.00000016"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -8079,9 +8046,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000000765",
-    "completion": "0.000000255",
-    "input_cache_read": "0.0000000425"
+    "prompt": "0.00000009",
+    "completion": "0.0000003",
+    "input_cache_read": "0.00000005"
    },
    "top_provider": {
     "max_completion_tokens": 235929
@@ -8725,12 +8692,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000003",
-    "completion": "0.0000024",
-    "input_cache_read": "0.00000015"
+    "prompt": "0.000000075",
+    "completion": "0.0000004"
    },
    "top_provider": {
-    "max_completion_tokens": 262144
+    "max_completion_tokens": 16384
    },
    "supported_parameters": [
     "reasoning",
@@ -13832,11 +13798,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000002574",
-    "completion": "0.0000010287"
+    "prompt": "0.00000032",
+    "completion": "0.00000089"
    },
    "top_provider": {
-    "max_completion_tokens": 16000
+    "max_completion_tokens": 16384
    },
    "supported_parameters": [
     "structured_outputs",

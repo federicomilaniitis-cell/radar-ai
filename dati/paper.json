@@ -1,6 +1,20 @@
 {
- "aggiornato": "2026-11-06T03:02:15+00:00",
+ "aggiornato": "2026-11-06T12:40:05+00:00",
  "paper": [
+  {
+   "titolo": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
+   "data": "2026-11-05",
+   "url": "http://arxiv.org/abs/2611.08483v1",
+   "id": "2611.08483v1",
+   "sommario": "LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iteratively refining solutions and combining high-scoring methods. However, the process is often slow because the LLM generates a long textual chain of thought for eac"
+  },
+  {
+   "titolo": "StrataFlux: Memory-Hierarchy-Native Low-Bit LLM Inference",
+   "data": "2026-11-05",
+   "url": "http://arxiv.org/abs/2611.08363v1",
+   "id": "2611.08363v1",
+   "sommario": "Quantization reduces the memory and bandwidth demands of large language model (LLM) inference but can degrade accuracy; offloading higher-precision data can instead stall generation. We introduce StrataFlux, a framework that challenges this tradeoff by recovering accuracy lost to"
+  },
   {
    "titolo": "QRAE: Query-Relevant Attention Entropy for Context Compression in DeepSearch Agents",
    "data": "2026-11-05",
@@ -14,6 +28,34 @@
    "url": "http://arxiv.org/abs/2611.07759v1",
    "id": "2611.07759v1",
    "sommario": "LLM-based code assistants are increasingly used in iterative repository-level development, where effective assistance requires jointly leveraging evolving conversational history and repository context. Existing memory systems, however, are primarily designed for general-purpose c"
+  },
+  {
+   "titolo": "CAMP: Context-Aware Mapping and Placement for LLMs on 3D-IMC Arrays",
+   "data": "2026-11-05",
+   "url": "http://arxiv.org/abs/2611.07707v1",
+   "id": "2611.07707v1",
+   "sommario": "Large Language Models (LLMs) incur severe memory-access overheads due to the cost of loading large weight matrices and key-value (KV) caches. Analog In-Memory Computing (AIMC) is an emerging solution that enables computation directly on static weights stored in memory, substantia"
+  },
+  {
+   "titolo": "The Gating Mechanism of KV Cache Eviction",
+   "data": "2026-11-05",
+   "url": "http://arxiv.org/abs/2611.07605v1",
+   "id": "2611.07605v1",
+   "sommario": "KV cache eviction must decide which entries carry information that the rest of the cache can no longer supply. A natural way to estimate this is a learnable gate: give each cached entry a gate on its attention weight and train the gate on the model's own objective. The gate belon"
+  },
+  {
+   "titolo": "TACT-KV: Tri-Axis Cosine Transform for Compressing Volumetric KV Caches in Medical VLMs",
+   "data": "2026-11-05",
+   "url": "http://arxiv.org/abs/2611.07593v1",
+   "id": "2611.07593v1",
+   "sommario": "Vision-language models (VLMs) applied to 3D medical scans face a structural memory wall. A single CT or MRI volume produces tens of thousands of vision tokens, and the resulting key-value (KV) cache scales linearly with both batch and context. Existing KV compression methods oper"
+  },
+  {
+   "titolo": "FlashOffloading: Low-Latency KV Cache Offloading for Long-Context LLM Serving",
+   "data": "2026-11-05",
+   "url": "http://arxiv.org/abs/2611.07542v1",
+   "id": "2611.07542v1",
+   "sommario": "In large language model (LLM) serving systems, the key-value (KV) cache grows linearly with sequence length and concurrency, so long-context inference easily hits the high-bandwidth memory (HBM) capacity wall and results in low concurrency. Offloading the KV cache to host dynamic"
   },
   {
    "titolo": "CacheGraft: Enhancing Retrieval-Augmented Generation via Latent-Space Document Enrichment",
@@ -42,48 +84,6 @@
    "url": "http://arxiv.org/abs/2611.07232v1",
    "id": "2611.07232v1",
    "sommario": "At context lengths of about 1M tokens, dense attention is costly in prefill and decoding, and training typically relies on long documents, which become scarcer as the target length increases. Most sparse attention methods score all preceding blocks or tokens, so their selection c"
-  },
-  {
-   "titolo": "LowRAM: Low-Rank Keys and Amortised Values for Composable KV Cache Compression at Test-Time",
-   "data": "2026-11-04",
-   "url": "http://arxiv.org/abs/2611.07025v1",
-   "id": "2611.07025v1",
-   "sommario": "Autoregressive decoding relies on the KV cache, whose memory footprint grows linearly with context length and caps batch size and throughput. Existing post-training methods exploit redundancy across tokens, layers, and feature dimensions, or lower numerical precision. We identify"
-  },
-  {
-   "titolo": "CRESiST: Self-Enhancing Explorative Policy Learning for Simultaneous Speech Translation",
-   "data": "2026-11-04",
-   "url": "http://arxiv.org/abs/2611.06501v1",
-   "id": "2611.06501v1",
-   "sommario": "Simultaneous Speech Translation (SimulST) requires balancing translation quality and latency. While Large Language Models (LLMs) excel in offline translation, current LLM-based SimulST systems predominantly rely on prefix-incremental generation. This paradigm suffers from redunda"
-  },
-  {
-   "titolo": "Tools Need Not Speak in Text: Latent Context Compression for Agents",
-   "data": "2026-11-04",
-   "url": "http://arxiv.org/abs/2611.06500v1",
-   "id": "2611.06500v1",
-   "sommario": "Large language model (LLM) agents typically append raw tool outputs to their context. Over multi-step interactions, long and noisy observations incur substantial context overhead and dilute the agent's attention to task-relevant information. Existing token pruning and summarizati"
-  },
-  {
-   "titolo": "SUMONE: A Simple and Efficient Summarizer for Plug-and-Play Agent Memory",
-   "data": "2026-11-04",
-   "url": "http://arxiv.org/abs/2611.06445v1",
-   "id": "2611.06445v1",
-   "sommario": "Long-horizon language-model agents accumulate increasingly large interaction histories, making context compaction essential for efficient execution. Existing learned compaction methods often rely on downstream task outcomes or solver behavior, coupling training to specific tasks "
-  },
-  {
-   "titolo": "Where Should a KV-Cache Repair Budget Go? Distractor Structure and Contextual Compatibility in Non-Prefix Reuse",
-   "data": "2026-11-04",
-   "url": "http://arxiv.org/abs/2611.06397v1",
-   "id": "2611.06397v1",
-   "sommario": "Non-prefix KV-cache reuse encodes retrieved chunks independently and concatenates their caches. To find where a small repair budget should be spent, we vary the chunks around the answer-bearing one (the target) across three 7B-8B models and four datasets of dialogue memory, open-"
-  },
-  {
-   "titolo": "Does Context Compression Preserve Refusal Alignment?",
-   "data": "2026-11-04",
-   "url": "http://arxiv.org/abs/2611.06380v1",
-   "id": "2611.06380v1",
-   "sommario": "Context compression reduces inference cost by encoding inputs into compact representations while preserving semantic content. An open question is whether semantic preservation alone is sufficient to maintain downstream behaviours such as refusal alignment. We investigate this que"
   }
  ]
 }
