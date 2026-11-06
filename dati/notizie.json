@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-06T12:40:05+00:00",
+ "aggiornato": "2026-11-06T21:54:14+00:00",
  "notizie": [
   {
    "tag": "crit",
@@ -104,8 +104,8 @@
    "tag": "crit",
    "tagT": "Chiusura",
    "data": "2026-11-06",
-   "titolo": "Llama 3.2 1B Instruct viene spento fra 9 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-15. Dopo, le richieste smettono di funzionare.",
+   "titolo": "Llama 3.2 1B Instruct viene spento fra 14 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-20. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-meta-llama-llama-3-2-1b-instruct"
   },
@@ -113,10 +113,19 @@
    "tag": "crit",
    "tagT": "Chiusura",
    "data": "2026-11-06",
-   "titolo": "Llama 3.2 3B Instruct viene spento fra 9 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-15. Dopo, le richieste smettono di funzionare.",
+   "titolo": "Llama 3.2 3B Instruct viene spento fra 14 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-20. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-meta-llama-llama-3-2-3b-instruct"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-11-06",
+   "titolo": "MiniMax M3.1 Flash: il prezzo in entrata scende del 50%",
+   "testo": "Da $0,15 a $0,075 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-minimax-minimax-m3-1-flashprompt"
   },
   {
    "tag": "ok",
@@ -135,15 +144,6 @@
    "testo": "Da $1,6 a $0,955 per milione di token in entrata.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
    "id": "prezzo-deepseek-deepseek-v4-proprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-11-05",
-   "titolo": "MiniMax M3.1 Flash: il prezzo in entrata scende del 50%",
-   "testo": "Da $0,15 a $0,075 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-minimax-minimax-m3-1-flashprompt"
   },
   {
    "tag": "ok",
