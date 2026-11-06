@@ -1,6 +1,55 @@
 {
- "aggiornato": "2026-11-05T22:28:39+00:00",
+ "aggiornato": "2026-11-06T03:02:15+00:00",
  "paper": [
+  {
+   "titolo": "QRAE: Query-Relevant Attention Entropy for Context Compression in DeepSearch Agents",
+   "data": "2026-11-05",
+   "url": "http://arxiv.org/abs/2611.07976v1",
+   "id": "2611.07976v1",
+   "sommario": "DeepSearch LLM agents repeatedly search and carry retrieved sources into subsequent reasoning steps. This expanding context increases token consumption and latency, although many results do not contribute to later reasoning. We propose Query-Relevant Attention Entropy (QRAE), an "
+  },
+  {
+   "titolo": "ReConMem: A Graph-Based Dual Memory System for Repository-Oriented Conversations",
+   "data": "2026-11-05",
+   "url": "http://arxiv.org/abs/2611.07759v1",
+   "id": "2611.07759v1",
+   "sommario": "LLM-based code assistants are increasingly used in iterative repository-level development, where effective assistance requires jointly leveraging evolving conversational history and repository context. Existing memory systems, however, are primarily designed for general-purpose c"
+  },
+  {
+   "titolo": "CacheGraft: Enhancing Retrieval-Augmented Generation via Latent-Space Document Enrichment",
+   "data": "2026-11-05",
+   "url": "http://arxiv.org/abs/2611.07393v1",
+   "id": "2611.07393v1",
+   "sommario": "Recent work in machine learning has demonstrated that transformer-based language model agents can communicate state not only through text, but also directly in latent space via key-value (KV) caches. In this paper, we argue that such cache-to-cache translation can provide utility"
+  },
+  {
+   "titolo": "HyFlash: A Prefix-Memory Prior for On-Device Speculative Decoding",
+   "data": "2026-11-05",
+   "url": "http://arxiv.org/abs/2611.07263v1",
+   "id": "2611.07263v1",
+   "sommario": "Parallel block drafting accelerates speculative decoding by predicting multiple future positions in a single backbone pass, but on-device deployment constrains both drafter capacity and context storage. Under tight memory budgets, drafters must model long-range dependencies and f"
+  },
+  {
+   "titolo": "TriAttention: Unified Sparse Mixed-Precision Attention for Long-Context LLM Inference",
+   "data": "2026-11-05",
+   "url": "http://arxiv.org/abs/2611.07256v1",
+   "id": "2611.07256v1",
+   "sommario": "Sparsity and quantization reduce the cost of attention by skipping interactions and lowering the precision of those retained. However, useful interactions differ in their precision requirements: some tolerate low-precision scores while remaining sensitive to removal. We therefore"
+  },
+  {
+   "titolo": "Recursive Sparse Attention: Million-Token Length Extrapolation at Logarithmic Cost",
+   "data": "2026-11-04",
+   "url": "http://arxiv.org/abs/2611.07232v1",
+   "id": "2611.07232v1",
+   "sommario": "At context lengths of about 1M tokens, dense attention is costly in prefill and decoding, and training typically relies on long documents, which become scarcer as the target length increases. Most sparse attention methods score all preceding blocks or tokens, so their selection c"
+  },
+  {
+   "titolo": "LowRAM: Low-Rank Keys and Amortised Values for Composable KV Cache Compression at Test-Time",
+   "data": "2026-11-04",
+   "url": "http://arxiv.org/abs/2611.07025v1",
+   "id": "2611.07025v1",
+   "sommario": "Autoregressive decoding relies on the KV cache, whose memory footprint grows linearly with context length and caps batch size and throughput. Existing post-training methods exploit redundancy across tokens, layers, and feature dimensions, or lower numerical precision. We identify"
+  },
   {
    "titolo": "CRESiST: Self-Enhancing Explorative Policy Learning for Simultaneous Speech Translation",
    "data": "2026-11-04",
@@ -35,55 +84,6 @@
    "url": "http://arxiv.org/abs/2611.06380v1",
    "id": "2611.06380v1",
    "sommario": "Context compression reduces inference cost by encoding inputs into compact representations while preserving semantic content. An open question is whether semantic preservation alone is sufficient to maintain downstream behaviours such as refusal alignment. We investigate this que"
-  },
-  {
-   "titolo": "NanoKV: High-Ratio KV Cache Compression for Autoregressive Video Generation",
-   "data": "2026-11-04",
-   "url": "http://arxiv.org/abs/2611.06377v1",
-   "id": "2611.06377v1",
-   "sommario": "Autoregressive video models rely on historical key-value (KV) caches to preserve scene consistency over extended rollouts, making KV storage and repeated attention over history a growing memory and computational bottleneck. Aggressive compression can degrade generation quality, w"
-  },
-  {
-   "titolo": "KVGuard: A KV Cache Safety Checker for LLM Serving Systems",
-   "data": "2026-11-04",
-   "url": "http://arxiv.org/abs/2611.06138v1",
-   "id": "2611.06138v1",
-   "sommario": "Modern LLM serving systems manage the KV cache through PagedAttention, a custom GPU allocator that partitions a single CUDA-allocated region into fixed-size physical blocks and maps each request to those blocks through a CPU-built block table. This block-based design exposes a pr"
-  },
-  {
-   "titolo": "RI-Prune: Relation and Information Aware Visual Token Pruning for Multi-Image Vision-Language Models",
-   "data": "2026-11-04",
-   "url": "http://arxiv.org/abs/2611.06047v1",
-   "id": "2611.06047v1",
-   "sommario": "Large vision-language models (LVLMs) have recently been extended to handle multiple input images, but this extension dramatically increases the visual token budget, making visual-token pruning not merely an efficiency option but a practical necessity. Existing visual-token prunin"
-  },
-  {
-   "titolo": "EchoKV: Self-Corrective KV Cache Eviction via Iterative Query Feedback",
-   "data": "2026-11-04",
-   "url": "http://arxiv.org/abs/2611.05903v1",
-   "id": "2611.05903v1",
-   "sommario": "KV cache eviction is not merely a token-ranking problem: the workspace retained for generating eviction queries also determines the quality of those queries. Consequently, an early workspace error can distort later query observations and reinforce an incorrect final eviction deci"
-  },
-  {
-   "titolo": "Doubly robust win statistics for hierarchical survival endpoints in individual- and cluster-randomized trials",
-   "data": "2026-11-04",
-   "url": "http://arxiv.org/abs/2611.05853v1",
-   "id": "2611.05853v1",
-   "sommario": "Prioritized composite endpoints compare trial participants according to a prespecified clinical hierarchy, and the win estimands are increasingly used to summarize treatment effects. When the component event times are right-censored, a pairwise comparison may remain unresolved, a"
-  },
-  {
-   "titolo": "Runway Characters: Serving a 57B Video Diffusion Transformer for Real-Time Conversation",
-   "data": "2026-11-03",
-   "url": "http://arxiv.org/abs/2611.05642v1",
-   "id": "2611.05642v1",
-   "sommario": "Conversational video characters must generate video as fast as it plays, for one user at a time: at 24 fps, a sustained 166.7 ms per four-frame chunk at batch size one, with only a few chunks of buffering. We describe the system behind Runway Characters, which serves a $\\approx$5"
-  },
-  {
-   "titolo": "LoopVQ: Sub 1-bit KV Cache Quantization for Looped Transformers",
-   "data": "2026-11-03",
-   "url": "http://arxiv.org/abs/2611.05304v1",
-   "id": "2611.05304v1",
-   "sommario": "Looped transformers are a parameter-efficient alternative to standard transformers for language modeling. By reapplying the same layers across multiple loop steps, recent looped language models match the performance of non-looped models several times their size. While this archit"
   }
  ]
 }

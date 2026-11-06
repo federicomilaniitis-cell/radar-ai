@@ -1,6 +1,6 @@
 {
- "aggiornato": "2026-11-05T22:28:39+00:00",
- "aggiornato_it": "5 novembre 2026",
+ "aggiornato": "2026-11-06T03:02:15+00:00",
+ "aggiornato_it": "6 novembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 374,
  "modelli": [
@@ -497,9 +497,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000075",
-    "completion": "0.0000003",
-    "input_cache_read": "0.0000000075"
+    "prompt": "0.00000015",
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000015"
    },
    "top_provider": {
     "max_completion_tokens": 524288
@@ -547,9 +547,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000003"
+    "prompt": "0.0000003",
+    "completion": "0.0000012",
+    "input_cache_read": "0.000000006"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -3619,9 +3619,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000007506",
-    "completion": "0.0000022509",
-    "input_cache_read": "0.0000000378"
+    "prompt": "0.000000834",
+    "completion": "0.000002501",
+    "input_cache_read": "0.000000042"
    },
    "top_provider": {
     "max_completion_tokens": 64000
@@ -3836,12 +3836,12 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.0000002156",
-    "completion": "0.0000006468",
-    "input_cache_read": "0.00000000686"
+    "prompt": "0.00000044",
+    "completion": "0.00000132",
+    "input_cache_read": "0.000000014"
    },
    "top_provider": {
-    "max_completion_tokens": 262144
+    "max_completion_tokens": 943717
    },
    "supported_parameters": [
     "reasoning",
@@ -4814,7 +4814,7 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000434",
+    "prompt": "0.000000059",
     "completion": "0.0000003",
     "input_cache_read": "0.000000035"
    },
@@ -4857,7 +4857,7 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000434",
+    "prompt": "0.000000059",
     "completion": "0.0000003",
     "input_cache_read": "0.000000035"
    },
@@ -5862,9 +5862,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000825",
-    "completion": "0.00000033",
-    "input_cache_read": "0.000000020625"
+    "prompt": "0.000000132",
+    "completion": "0.000000528",
+    "input_cache_read": "0.000000033"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -7234,7 +7234,7 @@
    },
    "pricing": {
     "prompt": "0.0000001824",
-    "completion": "0.0000101489",
+    "completion": "0.0000105539",
     "input_cache_read": "0.00000018"
    },
    "top_provider": {
@@ -7620,12 +7620,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000016",
-    "completion": "0.0000032",
-    "input_cache_read": "0.000000135"
+    "prompt": "0.00000095526",
+    "completion": "0.00000191052",
+    "input_cache_read": "0.000000079605"
    },
    "top_provider": {
-    "max_completion_tokens": 393216
+    "max_completion_tokens": 384000
    },
    "supported_parameters": [
     "reasoning",
@@ -14176,6 +14176,7 @@
    "context_length": 60000,
    "description": "Llama 3.2 1B is a 1-billion-parameter language model focused on efficiently performing natural language tasks, such as summarization, dialogue, and multilingual text analysis. Its smaller size allows it to operate...",
    "hugging_face_id": "meta-llama/Llama-3.2-1B-Instruct",
+   "expiration_date": "2026-11-15",
    "architecture": {
     "input_modalities": [
      "text"
@@ -14202,6 +14203,7 @@
    "context_length": 131072,
    "description": "Llama 3.2 3B is a 3-billion-parameter multilingual large language model, optimized for advanced natural language processing tasks like dialogue generation, reasoning, and summarization. Designed with the latest transformer architecture, it...",
    "hugging_face_id": "meta-llama/Llama-3.2-3B-Instruct",
+   "expiration_date": "2026-11-15",
    "architecture": {
     "input_modalities": [
      "text"
