@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-07T11:26:31+00:00",
+ "aggiornato": "2026-11-07T20:37:56+00:00",
  "aggiornato_it": "7 novembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 375,
@@ -564,9 +564,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000015"
+    "prompt": "0.000000075",
+    "completion": "0.0000003",
+    "input_cache_read": "0.0000000075"
    },
    "top_provider": {
     "max_completion_tokens": 524288
@@ -3686,9 +3686,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000834",
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042"
+    "prompt": "0.0000007506",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378"
    },
    "top_provider": {
     "max_completion_tokens": 64000
@@ -3728,9 +3728,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000000285",
-    "completion": "0.0000000923",
-    "input_cache_read": "0.0000000285"
+    "prompt": "0.0000000317",
+    "completion": "0.000000083",
+    "input_cache_read": "0.00000003"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -4386,9 +4386,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000001165",
-    "completion": "0.00000466",
-    "input_cache_read": "0.000000111"
+    "prompt": "0.000000111",
+    "completion": "0.00000444",
+    "input_cache_read": "0.000000106"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -4883,7 +4883,7 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000487",
+    "prompt": "0.0000000434",
     "completion": "0.0000003",
     "input_cache_read": "0.000000035"
    },
@@ -4926,7 +4926,7 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000487",
+    "prompt": "0.0000000434",
     "completion": "0.0000003",
     "input_cache_read": "0.000000035"
    },
@@ -5931,9 +5931,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000132",
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033"
+    "prompt": "0.0000000825",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -7269,9 +7269,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000001539",
-    "completion": "0.0000101489",
-    "input_cache_read": "0.00000015"
+    "prompt": "0.0000001824",
+    "completion": "0.0000101427",
+    "input_cache_read": "0.00000018"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -7656,9 +7656,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000075864",
-    "completion": "0.00000151728",
-    "input_cache_read": "0.00000006322"
+    "prompt": "0.000000555756",
+    "completion": "0.000001111512",
+    "input_cache_read": "0.000000046313"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -9820,6 +9820,7 @@
    "context_length": 262144,
    "description": "Kimi K2.5 is Moonshot AI's native multimodal model, delivering state-of-the-art visual coding capability and a self-directed agent swarm paradigm. Built on Kimi K2 with continued pretraining over approximately 15T mixed...",
    "hugging_face_id": "moonshotai/Kimi-K2.5",
+   "expiration_date": "2026-11-18",
    "architecture": {
     "input_modalities": [
      "text",
@@ -9831,12 +9832,12 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.0000005",
-    "completion": "0.0000025",
-    "input_cache_read": "0.00000015"
+    "prompt": "0.000000532",
+    "completion": "0.000003325",
+    "input_cache_read": "0.000000209"
    },
    "top_provider": {
-    "max_completion_tokens": 235929
+    "max_completion_tokens": 65536
    },
    "supported_parameters": [
     "reasoning",
@@ -12042,9 +12043,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000002",
-    "completion": "0.000000076",
-    "input_cache_read": "0.000000018"
+    "prompt": "0.000000025",
+    "completion": "0.000000094",
+    "input_cache_read": "0.000000023"
    },
    "top_provider": {
     "max_completion_tokens": 65536
