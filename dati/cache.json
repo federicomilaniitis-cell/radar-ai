@@ -1,9 +1,76 @@
 {
- "aggiornato": "2026-11-06T21:54:14+00:00",
- "aggiornato_it": "6 novembre 2026",
+ "aggiornato": "2026-11-07T02:29:41+00:00",
+ "aggiornato_it": "7 novembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 373,
+ "totale": 375,
  "modelli": [
+  {
+   "id": "liquid/lfm-3-1.7b",
+   "name": "LiquidAI: LFM3-1.7B",
+   "created": 1794009477,
+   "context_length": 262144,
+   "description": "A compact 1.7B-parameter text model with a 256K-token context, post-trained for agents, tool calling, and structured outputs. It reasons before it answers. Prompts and outputs may be retained and used...",
+   "hugging_face_id": "LiquidAI/LFM3-1.7B",
+   "architecture": {
+    "input_modalities": [
+     "text"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text->text"
+   },
+   "pricing": {
+    "prompt": "0.00000008",
+    "completion": "0.0000002",
+    "input_cache_read": "0.00000002"
+   },
+   "top_provider": {
+    "max_completion_tokens": 8192
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": true
+   },
+   "ha_versione_gratuita": true
+  },
+  {
+   "id": "liquid/lfm-3-1.7b:free",
+   "name": "LiquidAI: LFM3-1.7B (free)",
+   "created": 1794009477,
+   "context_length": 262144,
+   "description": "A compact 1.7B-parameter text model with a 256K-token context, post-trained for agents, tool calling, and structured outputs. It reasons before it answers. Prompts and outputs may be retained and used...",
+   "hugging_face_id": "LiquidAI/LFM3-1.7B",
+   "architecture": {
+    "input_modalities": [
+     "text"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text->text"
+   },
+   "pricing": {
+    "prompt": "0",
+    "completion": "0"
+   },
+   "top_provider": {
+    "max_completion_tokens": 8192
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": true
+   },
+   "ha_versione_gratuita": true
+  },
   {
    "id": "google/gemini-omni-1.2-flash",
    "name": "Google: Gemini Omni 1.2 Flash",
@@ -497,9 +564,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000075",
-    "completion": "0.0000003",
-    "input_cache_read": "0.0000000075"
+    "prompt": "0.00000015",
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000015"
    },
    "top_provider": {
     "max_completion_tokens": 524288
@@ -1469,9 +1536,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000075",
-    "completion": "0.000000225",
-    "input_cache_read": "0.000000015"
+    "prompt": "0.000000045",
+    "completion": "0.000000135",
+    "input_cache_read": "0.000000009"
    },
    "top_provider": {
     "max_completion_tokens": 262144
@@ -3619,9 +3686,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000007506",
-    "completion": "0.0000022509",
-    "input_cache_read": "0.0000000378"
+    "prompt": "0.000000834",
+    "completion": "0.000002501",
+    "input_cache_read": "0.000000042"
    },
    "top_provider": {
     "max_completion_tokens": 64000
@@ -4408,6 +4475,7 @@
    "context_length": 128000,
    "description": "LFM2.5-2.6B is a compact reasoning model from Liquid AI. It is suited for agent workflows, data extraction, RAG, and long-context processing. Liquid advises against using it for agentic coding or...",
    "hugging_face_id": "LiquidAI/LFM2.5-2.6B",
+   "expiration_date": "2026-11-13",
    "architecture": {
     "input_modalities": [
      "text"
@@ -4449,6 +4517,7 @@
    "context_length": 65536,
    "description": "LFM2.5-2.6B is a compact reasoning model from Liquid AI. It is suited for agent workflows, data extraction, RAG, and long-context processing. Liquid advises against using it for agentic coding or...",
    "hugging_face_id": "LiquidAI/LFM2.5-2.6B",
+   "expiration_date": "2026-11-13",
    "architecture": {
     "input_modalities": [
      "text"
@@ -4814,7 +4883,7 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000434",
+    "prompt": "0.000000059",
     "completion": "0.0000003",
     "input_cache_read": "0.000000035"
    },
@@ -4857,7 +4926,7 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000434",
+    "prompt": "0.000000059",
     "completion": "0.0000003",
     "input_cache_read": "0.000000035"
    },
@@ -5862,9 +5931,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000825",
-    "completion": "0.00000033",
-    "input_cache_read": "0.000000020625"
+    "prompt": "0.000000132",
+    "completion": "0.000000528",
+    "input_cache_read": "0.000000033"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -7200,9 +7269,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000001824",
-    "completion": "0.0000093388",
-    "input_cache_read": "0.00000018"
+    "prompt": "0.0000001539",
+    "completion": "0.0000105539",
+    "input_cache_read": "0.00000015"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -7587,9 +7656,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000729756",
-    "completion": "0.000001459512",
-    "input_cache_read": "0.000000060813"
+    "prompt": "0.000000648672",
+    "completion": "0.000001297344",
+    "input_cache_read": "0.000000054056"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -9575,12 +9644,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000027",
-    "completion": "0.00000095",
-    "input_cache_read": "0.00000003"
+    "prompt": "0.0000003",
+    "completion": "0.0000012",
+    "input_cache_read": "0.00000006"
    },
    "top_provider": {
-    "max_completion_tokens": 32768
+    "max_completion_tokens": 58982
    },
    "supported_parameters": [
     "reasoning",
@@ -11973,9 +12042,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000075"
+    "prompt": "0.00000001",
+    "completion": "0.000000037",
+    "input_cache_read": "0.000000009"
    },
    "top_provider": {
     "max_completion_tokens": 65536
@@ -13383,7 +13452,8 @@
     "max_completion_tokens": 8192
    },
    "supported_parameters": [
-    "structured_outputs"
+    "structured_outputs",
+    "tools"
    ],
    "ha_versione_gratuita": false
   },
@@ -13834,7 +13904,8 @@
     "max_completion_tokens": 4000
    },
    "supported_parameters": [
-    "structured_outputs"
+    "structured_outputs",
+    "tools"
    ],
    "ha_versione_gratuita": false
   },
@@ -14096,7 +14167,8 @@
    },
    "pricing": {
     "prompt": "0.0000025",
-    "completion": "0.000005"
+    "completion": "0.000005",
+    "input_cache_read": "0.0000025"
    },
    "top_provider": {
     "max_completion_tokens": 4096
@@ -14754,7 +14826,8 @@
    },
    "pricing": {
     "prompt": "0.0000004",
-    "completion": "0.00000075"
+    "completion": "0.00000075",
+    "input_cache_read": "0.0000004"
    },
    "top_provider": {
     "max_completion_tokens": 6000
@@ -14780,7 +14853,8 @@
    },
    "pricing": {
     "prompt": "0.00000035",
-    "completion": "0.00000065"
+    "completion": "0.00000065",
+    "input_cache_read": "0.00000035"
    },
    "top_provider": {
     "max_completion_tokens": 5529
