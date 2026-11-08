@@ -1,6 +1,6 @@
 {
- "aggiornato": "2026-11-07T20:37:56+00:00",
- "aggiornato_it": "7 novembre 2026",
+ "aggiornato": "2026-11-08T01:58:47+00:00",
+ "aggiornato_it": "8 novembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 375,
  "modelli": [
@@ -564,9 +564,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000075",
-    "completion": "0.0000003",
-    "input_cache_read": "0.0000000075"
+    "prompt": "0.00000015",
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000015"
    },
    "top_provider": {
     "max_completion_tokens": 524288
@@ -3686,9 +3686,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000007506",
-    "completion": "0.0000022509",
-    "input_cache_read": "0.0000000378"
+    "prompt": "0.000000834",
+    "completion": "0.000002501",
+    "input_cache_read": "0.000000042"
    },
    "top_provider": {
     "max_completion_tokens": 64000
@@ -3728,7 +3728,7 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000000317",
+    "prompt": "0.0000000335",
     "completion": "0.000000083",
     "input_cache_read": "0.00000003"
    },
@@ -3809,12 +3809,12 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000005",
+    "prompt": "0.0000000335",
+    "completion": "0.000000083",
     "input_cache_read": "0.00000003"
    },
    "top_provider": {
-    "max_completion_tokens": 943717
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -5931,9 +5931,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000825",
-    "completion": "0.00000033",
-    "input_cache_read": "0.000000020625"
+    "prompt": "0.000000132",
+    "completion": "0.000000528",
+    "input_cache_read": "0.000000033"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -7270,7 +7270,7 @@
    },
    "pricing": {
     "prompt": "0.0000001824",
-    "completion": "0.0000101427",
+    "completion": "0.0000093388",
     "input_cache_read": "0.00000018"
    },
    "top_provider": {
@@ -7520,11 +7520,11 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000045",
-    "completion": "0.0000027"
+    "prompt": "0.00000032",
+    "completion": "0.0000032"
    },
    "top_provider": {
-    "max_completion_tokens": 65536
+    "max_completion_tokens": 81920
    },
    "supported_parameters": [
     "reasoning",
@@ -7656,12 +7656,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000555756",
-    "completion": "0.000001111512",
-    "input_cache_read": "0.000000046313"
+    "prompt": "0.0000009",
+    "completion": "0.0000015",
+    "input_cache_read": "0.00000025"
    },
    "top_provider": {
-    "max_completion_tokens": 384000
+    "max_completion_tokens": 393216
    },
    "supported_parameters": [
     "reasoning",
@@ -12043,9 +12043,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000025",
-    "completion": "0.000000094",
-    "input_cache_read": "0.000000023"
+    "prompt": "0.000000029",
+    "completion": "0.000000106",
+    "input_cache_read": "0.000000026"
    },
    "top_provider": {
     "max_completion_tokens": 65536
@@ -14242,7 +14242,6 @@
    "context_length": 131072,
    "description": "Llama 3.2 3B is a 3-billion-parameter multilingual large language model, optimized for advanced natural language processing tasks like dialogue generation, reasoning, and summarization. Designed with the latest transformer architecture, it...",
    "hugging_face_id": "meta-llama/Llama-3.2-3B-Instruct",
-   "expiration_date": "2026-11-20",
    "architecture": {
     "input_modalities": [
      "text"
@@ -14253,11 +14252,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000509",
-    "completion": "0.000000335"
+    "prompt": "0.00000005",
+    "completion": "0.00000033"
    },
    "top_provider": {
-    "max_completion_tokens": 72000
+    "max_completion_tokens": 117964
    },
    "supported_parameters": [
     "structured_outputs"
