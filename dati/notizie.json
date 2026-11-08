@@ -1,24 +1,6 @@
 {
- "aggiornato": "2026-11-08T01:58:47+00:00",
+ "aggiornato": "2026-11-08T11:38:16+00:00",
  "notizie": [
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-11-08",
-   "titolo": "Mercury 3 viene spento fra 0 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-08. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-inception-mercury-3"
-  },
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-11-08",
-   "titolo": "Mercury 2.5 viene spento fra 0 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-08. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-inception-mercury-2-5"
-  },
   {
    "tag": "crit",
    "tagT": "Chiusura",
@@ -54,15 +36,6 @@
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-13. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-liquid-lfm-2-5-2-6b-free"
-  },
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-11-08",
-   "titolo": "Mercury 2 viene spento fra 0 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-08. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-inception-mercury-2"
   },
   {
    "tag": "crit",
@@ -130,11 +103,56 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-11-07",
-   "titolo": "Llama 3.2 1B Instruct viene spento fra 13 giorni",
+   "data": "2026-11-08",
+   "titolo": "Llama 3.2 1B Instruct viene spento fra 12 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-20. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-meta-llama-llama-3-2-1b-instruct"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-11-08",
+   "titolo": "DeepSeek V4.1 Flash 1017: il prezzo in entrata scende del 96%",
+   "testo": "Da $0,15 a $0,006 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-deepseek-deepseek-v4-1-flash-1017prompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-11-08",
+   "titolo": "DeepSeek V4.1 Flash 1017: il prezzo in uscita scende del 17%",
+   "testo": "Da $0,6 a $0,5 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-deepseek-deepseek-v4-1-flash-1017completion"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-11-08",
+   "titolo": "Mercury 3 viene spento fra 0 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-08. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-inception-mercury-3"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-11-08",
+   "titolo": "Mercury 2.5 viene spento fra 0 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-08. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-inception-mercury-2-5"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-11-08",
+   "titolo": "Mercury 2 viene spento fra 0 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-08. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-inception-mercury-2"
   },
   {
    "tag": "crit",
@@ -153,15 +171,6 @@
    "testo": "Da $0,15 a $0,075 per milione di token in entrata.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
    "id": "prezzo-minimax-minimax-m3-1-flashprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-11-06",
-   "titolo": "DeepSeek V4.1 Flash 1017: il prezzo in entrata scende del 50%",
-   "testo": "Da $0,3 a $0,15 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-deepseek-deepseek-v4-1-flash-1017prompt"
   },
   {
    "tag": "ok",
@@ -207,15 +216,6 @@
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-05. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-minimax-minimax-m2-her"
-  },
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-11-05",
-   "titolo": "MiniMax M2.1 viene spento fra 0 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-05. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-minimax-minimax-m2-1"
   }
  ]
 }

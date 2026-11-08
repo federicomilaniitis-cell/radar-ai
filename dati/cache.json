@@ -1,8 +1,8 @@
 {
- "aggiornato": "2026-11-08T01:58:47+00:00",
+ "aggiornato": "2026-11-08T11:38:16+00:00",
  "aggiornato_it": "8 novembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 375,
+ "totale": 372,
  "modelli": [
   {
    "id": "liquid/lfm-3-1.7b",
@@ -614,12 +614,12 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000003"
+    "prompt": "0.000000006",
+    "completion": "0.0000005",
+    "input_cache_read": "0.000000005"
    },
    "top_provider": {
-    "max_completion_tokens": 393216
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -761,48 +761,6 @@
      "coding_index": null,
      "agentic_index": null
     }
-   },
-   "ha_versione_gratuita": false
-  },
-  {
-   "id": "inception/mercury-3",
-   "name": "Inception: Mercury 3",
-   "created": 1792158337,
-   "context_length": 1000000,
-   "description": "Mercury 3 is a diffusion-based language model from Inception, and the lab's most capable model to date. It is suited for agentic workflows and real-time applications where latency compounds, such...",
-   "expiration_date": "2026-11-08",
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text->text"
-   },
-   "pricing": {
-    "prompt": "0.0000001",
-    "completion": "0.00000035",
-    "input_cache_read": "0.00000001"
-   },
-   "top_provider": {
-    "max_completion_tokens": 131072
-   },
-   "supported_parameters": [
-    "reasoning",
-    "structured_outputs",
-    "tools"
-   ],
-   "reasoning": {
-    "mandatory": false,
-    "default_enabled": true,
-    "supported_efforts": [
-     "high",
-     "medium",
-     "low",
-     "none"
-    ],
-    "default_effort": "medium"
    },
    "ha_versione_gratuita": false
   },
@@ -3118,8 +3076,8 @@
    },
    "pricing": {
     "prompt": "0.000000051",
-    "completion": "0.000000567",
-    "input_cache_read": "0.000000018"
+    "completion": "0.00000041",
+    "input_cache_read": "0.000000022"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -3139,48 +3097,6 @@
      "none"
     ],
     "default_effort": "high"
-   },
-   "ha_versione_gratuita": false
-  },
-  {
-   "id": "inception/mercury-2.5",
-   "name": "Inception: Mercury 2.5",
-   "created": 1788892137,
-   "context_length": 260000,
-   "description": "Mercury 2.5 is the fastest reasoning LLM, and the latest diffusion LLM (dLLM) from Inception. Instead of generating tokens sequentially, Mercury 2.5 produces and refines multiple tokens in parallel, achieving...",
-   "expiration_date": "2026-11-08",
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text->text"
-   },
-   "pricing": {
-    "prompt": "0.00000004",
-    "completion": "0.00000015",
-    "input_cache_read": "0.000000004"
-   },
-   "top_provider": {
-    "max_completion_tokens": 65536
-   },
-   "supported_parameters": [
-    "reasoning",
-    "structured_outputs",
-    "tools"
-   ],
-   "reasoning": {
-    "mandatory": false,
-    "default_enabled": true,
-    "supported_efforts": [
-     "high",
-     "medium",
-     "low",
-     "none"
-    ],
-    "default_effort": "medium"
    },
    "ha_versione_gratuita": false
   },
@@ -4388,7 +4304,7 @@
    "pricing": {
     "prompt": "0.000000111",
     "completion": "0.00000444",
-    "input_cache_read": "0.000000106"
+    "input_cache_read": "0.000000097"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -7269,9 +7185,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000001824",
-    "completion": "0.0000093388",
-    "input_cache_read": "0.00000018"
+    "prompt": "0.0000001605",
+    "completion": "0.0000101583",
+    "input_cache_read": "0.00000016"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -7656,12 +7572,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000009",
-    "completion": "0.0000015",
-    "input_cache_read": "0.00000025"
+    "prompt": "0.000000282054",
+    "completion": "0.000000564108",
+    "input_cache_read": "0.0000000235045"
    },
    "top_provider": {
-    "max_completion_tokens": 393216
+    "max_completion_tokens": 384000
    },
    "supported_parameters": [
     "reasoning",
@@ -8967,55 +8883,6 @@
      "intelligence_index": null,
      "coding_index": 71.1,
      "agentic_index": null
-    }
-   },
-   "ha_versione_gratuita": false
-  },
-  {
-   "id": "inception/mercury-2",
-   "name": "Inception: Mercury 2",
-   "created": 1772636275,
-   "context_length": 128000,
-   "description": "Mercury 2 is an extremely fast reasoning LLM, and the first reasoning diffusion LLM (dLLM). Instead of generating tokens sequentially, Mercury 2 produces and refines multiple tokens in parallel, achieving...",
-   "expiration_date": "2026-11-08",
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text->text"
-   },
-   "pricing": {
-    "prompt": "0.00000025",
-    "completion": "0.00000075",
-    "input_cache_read": "0.000000025"
-   },
-   "top_provider": {
-    "max_completion_tokens": 50000
-   },
-   "supported_parameters": [
-    "reasoning",
-    "structured_outputs",
-    "tools"
-   ],
-   "reasoning": {
-    "mandatory": false,
-    "default_enabled": true,
-    "supported_efforts": [
-     "high",
-     "medium",
-     "low",
-     "none"
-    ],
-    "default_effort": "medium"
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": null,
-     "coding_index": 31.1,
-     "agentic_index": 1.6
     }
    },
    "ha_versione_gratuita": false
@@ -12043,9 +11910,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000029",
-    "completion": "0.000000106",
-    "input_cache_read": "0.000000026"
+    "prompt": "0.000000012",
+    "completion": "0.000000044",
+    "input_cache_read": "0.000000011"
    },
    "top_provider": {
     "max_completion_tokens": 65536
