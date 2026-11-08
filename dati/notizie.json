@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-08T11:38:16+00:00",
+ "aggiornato": "2026-11-08T20:55:48+00:00",
  "notizie": [
   {
    "tag": "crit",
@@ -113,6 +113,24 @@
    "tag": "ok",
    "tagT": "Prezzo giu'",
    "data": "2026-11-08",
+   "titolo": "MiniMax M3.1 Flash: il prezzo in entrata scende del 50%",
+   "testo": "Da $0,15 a $0,075 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-minimax-minimax-m3-1-flashprompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-11-08",
+   "titolo": "MiniMax M3.1 Flash: il prezzo in uscita scende del 50%",
+   "testo": "Da $0,6 a $0,3 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-minimax-minimax-m3-1-flashcompletion"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-11-08",
    "titolo": "DeepSeek V4.1 Flash 1017: il prezzo in entrata scende del 96%",
    "testo": "Da $0,15 a $0,006 per milione di token in entrata.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
@@ -167,28 +185,10 @@
    "tag": "ok",
    "tagT": "Prezzo giu'",
    "data": "2026-11-06",
-   "titolo": "MiniMax M3.1 Flash: il prezzo in entrata scende del 50%",
-   "testo": "Da $0,15 a $0,075 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-minimax-minimax-m3-1-flashprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-11-06",
    "titolo": "DeepSeek V4 Pro 0423: il prezzo in entrata scende del 40%",
    "testo": "Da $1,6 a $0,955 per milione di token in entrata.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
    "id": "prezzo-deepseek-deepseek-v4-proprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-11-05",
-   "titolo": "MiniMax M3.1 Flash: il prezzo in uscita scende del 50%",
-   "testo": "Da $0,6 a $0,3 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-minimax-minimax-m3-1-flashcompletion"
   },
   {
    "tag": "ok",
