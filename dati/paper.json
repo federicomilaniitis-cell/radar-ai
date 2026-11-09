@@ -1,6 +1,48 @@
 {
- "aggiornato": "2026-11-09T02:18:10+00:00",
+ "aggiornato": "2026-11-09T13:32:35+00:00",
  "paper": [
+  {
+   "titolo": "BitDecoding-FP4: Native FP4 KV Cache Decoding via Algorithm-System Co-Design",
+   "data": "2026-11-06",
+   "url": "http://arxiv.org/abs/2611.09825v1",
+   "id": "2611.09825v1",
+   "sommario": "The key-value (KV) cache dominates memory capacity and bandwidth in long-context LLM serving. While 4-bit microscaling formats (NVFP4, MXFP4) shrink the cache and run attention on FP4 Tensor Cores, a fundamental gap remains between algorithmic quantization and system-aware accele"
+  },
+  {
+   "titolo": "FOSCAR: Accelerating Decode Attention over 2- and 4-Bit KV Caches through Affine Folding",
+   "data": "2026-11-06",
+   "url": "http://arxiv.org/abs/2611.09722v1",
+   "id": "2611.09722v1",
+   "sommario": "Large-language-model decode attention streams the key-value (KV) cache for every generated token. Packing that cache into 2-bit or 4-bit quantized integers reduces memory traffic but does not automatically translate into latency saving. Existing 2-bit fused kernels reach under 31"
+  },
+  {
+   "titolo": "Transformer-FSQ: Discrete Latents for Extreme KV-Cache Compression",
+   "data": "2026-11-06",
+   "url": "http://arxiv.org/abs/2611.09598v1",
+   "id": "2611.09598v1",
+   "sommario": "Private, personalised language models must run on local consumer devices, where large, frontier models cannot fit, and retaining long contexts is non-trivial. Sequential memory---the key-value (KV) cache---grows linearly with context length, quickly dwarfing the model itself: for"
+  },
+  {
+   "titolo": "Nebula: Distributed Position-Independent Caching for LLM Serving",
+   "data": "2026-11-06",
+   "url": "http://arxiv.org/abs/2611.09474v1",
+   "id": "2611.09474v1",
+   "sommario": "Modern LLM workflows, such as retrieval-augmented generation (RAG) and LLM agents, build long prompts from multiple independent text segments, making prefill a major source of computation. Reusing KV caches is therefore important for reducing serving costs and latency: distribute"
+  },
+  {
+   "titolo": "MINE: Entropy-coded Memory-efficient Inference for Large Language Models",
+   "data": "2026-11-06",
+   "url": "http://arxiv.org/abs/2611.09424v1",
+   "id": "2611.09424v1",
+   "sommario": "We present MINE (Memory-efficient INference Engine), a lossless entropy coding approach that accelerates single-stream inference of Large Language Models (LLMs), where existing lossless compression methods yield speedups only for specific data types such as \\texttt{BF16} and unde"
+  },
+  {
+   "titolo": "DARIC: A Position-Independent KV Cache Reuse System with Distribution-Aware Recomputation",
+   "data": "2026-11-06",
+   "url": "http://arxiv.org/abs/2611.09109v1",
+   "id": "2611.09109v1",
+   "sommario": "The context lengths of large language models (LLMs) are rapidly increasing in real-world applications such as agentic systems and retrieval-augmented generation (RAG). To accelerate LLM inference in these scenarios, reusing position-independent key-value (KV) caches across reques"
+  },
   {
    "titolo": "ReKV: Overlapping Quantized KV Transfer and Suffix Recomputation",
    "data": "2026-11-05",
@@ -42,48 +84,6 @@
    "url": "http://arxiv.org/abs/2611.07759v1",
    "id": "2611.07759v1",
    "sommario": "LLM-based code assistants are increasingly used in iterative repository-level development, where effective assistance requires jointly leveraging evolving conversational history and repository context. Existing memory systems, however, are primarily designed for general-purpose c"
-  },
-  {
-   "titolo": "CAMP: Context-Aware Mapping and Placement for LLMs on 3D-IMC Arrays",
-   "data": "2026-11-05",
-   "url": "http://arxiv.org/abs/2611.07707v1",
-   "id": "2611.07707v1",
-   "sommario": "Large Language Models (LLMs) incur severe memory-access overheads due to the cost of loading large weight matrices and key-value (KV) caches. Analog In-Memory Computing (AIMC) is an emerging solution that enables computation directly on static weights stored in memory, substantia"
-  },
-  {
-   "titolo": "The Gating Mechanism of KV Cache Eviction",
-   "data": "2026-11-05",
-   "url": "http://arxiv.org/abs/2611.07605v1",
-   "id": "2611.07605v1",
-   "sommario": "KV cache eviction must decide which entries carry information that the rest of the cache can no longer supply. A natural way to estimate this is a learnable gate: give each cached entry a gate on its attention weight and train the gate on the model's own objective. The gate belon"
-  },
-  {
-   "titolo": "TACT-KV: Tri-Axis Cosine Transform for Compressing Volumetric KV Caches in Medical VLMs",
-   "data": "2026-11-05",
-   "url": "http://arxiv.org/abs/2611.07593v1",
-   "id": "2611.07593v1",
-   "sommario": "Vision-language models (VLMs) applied to 3D medical scans face a structural memory wall. A single CT or MRI volume produces tens of thousands of vision tokens, and the resulting key-value (KV) cache scales linearly with both batch and context. Existing KV compression methods oper"
-  },
-  {
-   "titolo": "FlashOffloading: Low-Latency KV Cache Offloading for Long-Context LLM Serving",
-   "data": "2026-11-05",
-   "url": "http://arxiv.org/abs/2611.07542v1",
-   "id": "2611.07542v1",
-   "sommario": "In large language model (LLM) serving systems, the key-value (KV) cache grows linearly with sequence length and concurrency, so long-context inference easily hits the high-bandwidth memory (HBM) capacity wall and results in low concurrency. Offloading the KV cache to host dynamic"
-  },
-  {
-   "titolo": "CacheGraft: Enhancing Retrieval-Augmented Generation via Latent-Space Document Enrichment",
-   "data": "2026-11-05",
-   "url": "http://arxiv.org/abs/2611.07393v1",
-   "id": "2611.07393v1",
-   "sommario": "Recent work in machine learning has demonstrated that transformer-based language model agents can communicate state not only through text, but also directly in latent space via key-value (KV) caches. In this paper, we argue that such cache-to-cache translation can provide utility"
-  },
-  {
-   "titolo": "HyFlash: A Prefix-Memory Prior for On-Device Speculative Decoding",
-   "data": "2026-11-05",
-   "url": "http://arxiv.org/abs/2611.07263v1",
-   "id": "2611.07263v1",
-   "sommario": "Parallel block drafting accelerates speculative decoding by predicting multiple future positions in a single backbone pass, but on-device deployment constrains both drafter capacity and context storage. Under tight memory budgets, drafters must model long-range dependencies and f"
   }
  ]
 }
