@@ -1,6 +1,20 @@
 {
- "aggiornato": "2026-11-08T20:55:48+00:00",
+ "aggiornato": "2026-11-09T02:18:10+00:00",
  "paper": [
+  {
+   "titolo": "ReKV: Overlapping Quantized KV Transfer and Suffix Recomputation",
+   "data": "2026-11-05",
+   "url": "http://arxiv.org/abs/2611.08770v1",
+   "id": "2611.08770v1",
+   "sommario": "Prefill--decode disaggregation moves a prompt's key--value (KV) cache between workers before the first token can be generated. Reducing this handoff to either cache compression or recomputation misses a useful choice: which layers to transmit, at what precision, and which layers "
+  },
+  {
+   "titolo": "MORTIS: Compiler-Guided KV-Cache Management for LLM Agent Programs",
+   "data": "2026-11-05",
+   "url": "http://arxiv.org/abs/2611.08638v1",
+   "id": "2611.08638v1",
+   "sommario": "Existing agent serving systems divide each prompt into a reusable prefix and an opaque suffix, managing the KV-cache at this coarse granularity without distinguishing the components within each part. We observe that prompt components differ in which LLM calls share their values a"
+  },
   {
    "titolo": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
    "data": "2026-11-05",
@@ -70,20 +84,6 @@
    "url": "http://arxiv.org/abs/2611.07263v1",
    "id": "2611.07263v1",
    "sommario": "Parallel block drafting accelerates speculative decoding by predicting multiple future positions in a single backbone pass, but on-device deployment constrains both drafter capacity and context storage. Under tight memory budgets, drafters must model long-range dependencies and f"
-  },
-  {
-   "titolo": "TriAttention: Unified Sparse Mixed-Precision Attention for Long-Context LLM Inference",
-   "data": "2026-11-05",
-   "url": "http://arxiv.org/abs/2611.07256v1",
-   "id": "2611.07256v1",
-   "sommario": "Sparsity and quantization reduce the cost of attention by skipping interactions and lowering the precision of those retained. However, useful interactions differ in their precision requirements: some tolerate low-precision scores while remaining sensitive to removal. We therefore"
-  },
-  {
-   "titolo": "Recursive Sparse Attention: Million-Token Length Extrapolation at Logarithmic Cost",
-   "data": "2026-11-04",
-   "url": "http://arxiv.org/abs/2611.07232v1",
-   "id": "2611.07232v1",
-   "sommario": "At context lengths of about 1M tokens, dense attention is costly in prefill and decoding, and training typically relies on long documents, which become scarcer as the target length increases. Most sparse attention methods score all preceding blocks or tokens, so their selection c"
   }
  ]
 }
