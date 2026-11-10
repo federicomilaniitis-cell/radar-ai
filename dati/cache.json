@@ -1,9 +1,157 @@
 {
- "aggiornato": "2026-11-09T13:32:35+00:00",
- "aggiornato_it": "9 novembre 2026",
+ "aggiornato": "2026-11-10T00:30:48+00:00",
+ "aggiornato_it": "10 novembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 372,
+ "totale": 373,
  "modelli": [
+  {
+   "id": "thinkingmachines/inkling-2-small:free",
+   "name": "Thinking Machines: Inkling 2 Small (free)",
+   "created": 1794261847,
+   "context_length": 1048576,
+   "description": "Inkling 2 Small is a multimodal mixture-of-experts reasoning model from Thinking Machines Lab, with 17B active parameters out of 594B total. It is the first model in the second Inkling...",
+   "architecture": {
+    "input_modalities": [
+     "text",
+     "image"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image->text"
+   },
+   "pricing": {
+    "prompt": "0",
+    "completion": "0"
+   },
+   "top_provider": {
+    "max_completion_tokens": 131072
+   },
+   "supported_parameters": [
+    "reasoning",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": true,
+    "default_enabled": true,
+    "supported_efforts": [
+     "max",
+     "high",
+     "medium",
+     "low",
+     "minimal"
+    ],
+    "default_effort": "high"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 30.6,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
+   "ha_versione_gratuita": true
+  },
+  {
+   "id": "anthropic/claude-fable-5.2",
+   "name": "Anthropic: Claude Fable 5.2",
+   "created": 1794253781,
+   "context_length": 1000000,
+   "description": "Claude Fable 5.2 is Anthropic's most capable model for the most demanding technical work, with gains over Fable 5.1 in coding, reasoning, and vision. In prerelease testing it completed otherwise-infeasible...",
+   "architecture": {
+    "input_modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image+file->text"
+   },
+   "pricing": {
+    "prompt": "0.000008",
+    "completion": "0.00004",
+    "input_cache_read": "0.0000002",
+    "input_cache_write": "0.00001",
+    "web_search": "0.01"
+   },
+   "top_provider": {
+    "max_completion_tokens": 128000
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": true,
+    "supported_efforts": [
+     "max",
+     "xhigh",
+     "high",
+     "medium",
+     "low"
+    ],
+    "default_effort": "high"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 64.6,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
+   "ha_versione_gratuita": false
+  },
+  {
+   "id": "meta/muse-ember",
+   "name": "Meta: Muse Ember",
+   "created": 1794247648,
+   "context_length": 1048576,
+   "description": "Muse Ember is the smallest and most efficient model from Meta that’s designed for complex reasoning execution and the work agents repeat all day: tool calls, coding agent subtasks, routing,...",
+   "architecture": {
+    "input_modalities": [
+     "text",
+     "image",
+     "video",
+     "file",
+     "audio"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image+file+audio+video->text"
+   },
+   "pricing": {
+    "prompt": "0.0000001",
+    "completion": "0.0000005",
+    "input_cache_read": "0.000000004",
+    "input_cache_write": "0.000000125",
+    "web_search": "0.0025"
+   },
+   "top_provider": {
+    "max_completion_tokens": 943718
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": true,
+    "supported_efforts": [
+     "max",
+     "xhigh",
+     "high",
+     "medium",
+     "low",
+     "minimal"
+    ],
+    "default_effort": "max"
+   },
+   "ha_versione_gratuita": false
+  },
   {
    "id": "liquid/lfm-3-1.7b",
    "name": "LiquidAI: LFM3-1.7B",
@@ -155,6 +303,7 @@
    "created": 1793818990,
    "context_length": 1048576,
    "description": "Ripple-65B-Preview by ricursiveAI, a 65B model with native tool calling, served in BF16.",
+   "hugging_face_id": "ricursiveAI/Ripple-65B-Preview",
    "architecture": {
     "input_modalities": [
      "text"
@@ -173,6 +322,8 @@
     "max_completion_tokens": 131072
    },
    "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
     "tools"
    ],
    "reasoning": {
@@ -227,51 +378,6 @@
      "coding_index": null,
      "agentic_index": null
     }
-   },
-   "ha_versione_gratuita": false
-  },
-  {
-   "id": "stealth/crouton-alpha",
-   "name": "Crouton Alpha",
-   "created": 1793669930,
-   "context_length": 1048576,
-   "description": "Crouton Alpha is a lightweight model built for scalable coding, agentic, and multimodal workflows. It's ideal for executing agentic sub-tasks, tool use, and document analysis in high-volume, repeated work. Developers...",
-   "architecture": {
-    "input_modalities": [
-     "text",
-     "image",
-     "video",
-     "file",
-     "audio"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text+image+file+audio+video->text"
-   },
-   "pricing": {
-    "prompt": "0",
-    "completion": "0"
-   },
-   "top_provider": {
-    "max_completion_tokens": 943718
-   },
-   "supported_parameters": [
-    "reasoning",
-    "structured_outputs",
-    "tools"
-   ],
-   "reasoning": {
-    "mandatory": true,
-    "supported_efforts": [
-     "max",
-     "xhigh",
-     "high",
-     "medium",
-     "low",
-     "minimal"
-    ],
-    "default_effort": "max"
    },
    "ha_versione_gratuita": false
   },
@@ -564,9 +670,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000015"
+    "prompt": "0.000000075",
+    "completion": "0.0000003",
+    "input_cache_read": "0.0000000075"
    },
    "top_provider": {
     "max_completion_tokens": 524288
@@ -938,7 +1044,7 @@
    },
    "pricing": {
     "prompt": "0.00000015",
-    "completion": "0.0000005",
+    "completion": "0.00000047",
     "input_cache_read": "0.00000002"
    },
    "top_provider": {
@@ -1290,7 +1396,7 @@
    "id": "stepfun/step-5-preview",
    "name": "StepFun: Step 5 Preview",
    "created": 1791462849,
-   "context_length": 1048576,
+   "context_length": 1000000,
    "description": "Step 5 Preview is StepFun's flagship model for agentic work, built on a sparse Mixture-of-Experts architecture (27B active / 600B total parameters). It performs strongly in software engineering and professional...",
    "hugging_face_id": "stepfun-ai/Step-5-Preview",
    "architecture": {
@@ -1687,7 +1793,7 @@
     "completion": "-1"
    },
    "top_provider": {
-    "max_completion_tokens": 65536
+    "max_completion_tokens": 64000
    },
    "supported_parameters": [
     "reasoning",
@@ -3725,12 +3831,12 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000000335",
-    "completion": "0.000000083",
+    "prompt": "0.00000015",
+    "completion": "0.0000005",
     "input_cache_read": "0.00000003"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 943717
    },
    "supported_parameters": [
     "reasoning",
@@ -6235,10 +6341,10 @@
     "modality": "text+image+file->text"
    },
    "pricing": {
-    "prompt": "0.00001",
-    "completion": "0.00005",
-    "input_cache_read": "0.00000025",
-    "input_cache_write": "0.0000125",
+    "prompt": "0.000008",
+    "completion": "0.00004",
+    "input_cache_read": "0.0000002",
+    "input_cache_write": "0.00001",
     "web_search": "0.01"
    },
    "top_provider": {
@@ -7185,9 +7291,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000001539",
-    "completion": "0.0000093388",
-    "input_cache_read": "0.00000015"
+    "prompt": "0.0000001824",
+    "completion": "0.0000105572",
+    "input_cache_read": "0.00000018"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -7572,9 +7678,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000894012",
-    "completion": "0.000001788024",
-    "input_cache_read": "0.000000074501"
+    "prompt": "0.00000095526",
+    "completion": "0.00000191052",
+    "input_cache_read": "0.000000079605"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -7700,7 +7806,7 @@
    "id": "xiaomi/mimo-v2.5-pro",
    "name": "Xiaomi: MiMo-V2.5-Pro",
    "created": 1776874273,
-   "context_length": 1050000,
+   "context_length": 1024000,
    "description": "MiMo-V2.5-Pro is Xiaomi’s flagship model, delivering strong performance in general agentic capabilities, complex software engineering, and long-horizon tasks, with top rankings on benchmarks such as ClawEval, GDPVal, and SWE-bench Pro....",
    "hugging_face_id": "XiaomiMiMo/MiMo-V2.5-Pro",
    "architecture": {
@@ -8031,12 +8137,12 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000009",
-    "completion": "0.0000003",
-    "input_cache_read": "0.00000005"
+    "prompt": "0.00000008",
+    "completion": "0.0000001",
+    "input_cache_read": "0.000000046"
    },
    "top_provider": {
-    "max_completion_tokens": 235929
+    "max_completion_tokens": 128000
    },
    "supported_parameters": [
     "reasoning",
@@ -8436,7 +8542,7 @@
    "id": "minimax/minimax-m2.7",
    "name": "MiniMax: MiniMax M2.7",
    "created": 1773836697,
-   "context_length": 204800,
+   "context_length": 196608,
    "description": "MiniMax-M2.7 is a next-generation large language model designed for autonomous, real-world productivity and continuous improvement. Built to actively participate in its own evolution, M2.7 integrates advanced agentic capabilities through multi-agent...",
    "hugging_face_id": "MiniMaxAI/MiniMax-M2.7",
    "architecture": {
@@ -9498,7 +9604,7 @@
    "id": "minimax/minimax-m2.5",
    "name": "MiniMax: MiniMax M2.5",
    "created": 1770908502,
-   "context_length": 204800,
+   "context_length": 200000,
    "description": "MiniMax-M2.5 is a SOTA large language model designed for real-world productivity. Trained in a diverse range of complex real-world digital working environments, M2.5 builds upon the coding expertise of M2.1...",
    "hugging_face_id": "MiniMaxAI/MiniMax-M2.5",
    "architecture": {
@@ -11932,7 +12038,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": null,
+     "intelligence_index": 3.8,
      "coding_index": 30.4,
      "agentic_index": 3.7
     }
@@ -11956,12 +12062,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000018",
-    "completion": "0.00000009",
-    "input_cache_read": "0.000000009"
+    "prompt": "0.00000003",
+    "completion": "0.00000013",
+    "input_cache_read": "0.00000003"
    },
    "top_provider": {
-    "max_completion_tokens": 32768
+    "max_completion_tokens": 117964
    },
    "supported_parameters": [
     "reasoning",
@@ -12525,38 +12631,6 @@
    "ha_versione_gratuita": false
   },
   {
-   "id": "minimax/minimax-m1",
-   "name": "MiniMax: MiniMax M1",
-   "created": 1750200414,
-   "context_length": 1000000,
-   "description": "MiniMax-M1 is a large-scale, open-weight reasoning model designed for extended context and high-efficiency inference. It leverages a hybrid Mixture-of-Experts (MoE) architecture paired with a custom \"lightning attention\" mechanism, allowing it...",
-   "hugging_face_id": "",
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text->text"
-   },
-   "pricing": {
-    "prompt": "0.00000055",
-    "completion": "0.0000022"
-   },
-   "top_provider": {
-    "max_completion_tokens": 40000
-   },
-   "supported_parameters": [
-    "reasoning",
-    "tools"
-   ],
-   "reasoning": {
-    "mandatory": false
-   },
-   "ha_versione_gratuita": false
-  },
-  {
    "id": "google/gemini-2.5-flash",
    "name": "Google: Gemini 2.5 Flash",
    "created": 1750172488,
@@ -12868,11 +12942,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000012",
-    "completion": "0.00000024"
+    "prompt": "0.0000001",
+    "completion": "0.00000022"
    },
    "top_provider": {
-    "max_completion_tokens": 16384
+    "max_completion_tokens": 36864
    },
    "supported_parameters": [
     "reasoning",
@@ -13794,12 +13868,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000059",
-    "completion": "0.00000079",
-    "input_cache_read": "0.000000295"
+    "prompt": "0.00000071",
+    "completion": "0.00000071",
+    "input_cache_read": "0.00000071"
    },
    "top_provider": {
-    "max_completion_tokens": 32768
+    "max_completion_tokens": 115200
    },
    "supported_parameters": [
     "structured_outputs",
