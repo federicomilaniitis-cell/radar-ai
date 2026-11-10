@@ -1,89 +1,89 @@
 {
- "aggiornato": "2026-11-10T00:30:48+00:00",
+ "aggiornato": "2026-11-10T13:11:43+00:00",
  "paper": [
   {
-   "titolo": "BitDecoding-FP4: Native FP4 KV Cache Decoding via Algorithm-System Co-Design",
-   "data": "2026-11-06",
-   "url": "http://arxiv.org/abs/2611.09825v1",
-   "id": "2611.09825v1",
-   "sommario": "The key-value (KV) cache dominates memory capacity and bandwidth in long-context LLM serving. While 4-bit microscaling formats (NVFP4, MXFP4) shrink the cache and run attention on FP4 Tensor Cores, a fundamental gap remains between algorithmic quantization and system-aware accele"
+   "titolo": "MNN-Pocket-0.3B Technical Report",
+   "data": "2026-11-09",
+   "url": "http://arxiv.org/abs/2611.12311v1",
+   "id": "2611.12311v1",
+   "sommario": "This technical report presents MNN-Pocket-0.3B, a compact 300M-parameter dense language model designed for efficient on-device deployment and supporting context lengths of up to 32K tokens. With an INT4 deployment footprint of only 173 MB and decoding throughput of up to 466 toke"
   },
   {
-   "titolo": "FOSCAR: Accelerating Decode Attention over 2- and 4-Bit KV Caches through Affine Folding",
-   "data": "2026-11-06",
-   "url": "http://arxiv.org/abs/2611.09722v1",
-   "id": "2611.09722v1",
-   "sommario": "Large-language-model decode attention streams the key-value (KV) cache for every generated token. Packing that cache into 2-bit or 4-bit quantized integers reduces memory traffic but does not automatically translate into latency saving. Existing 2-bit fused kernels reach under 31"
+   "titolo": "Evolving Infra: Agent-Adaptive LLM Serving at Scale",
+   "data": "2026-11-09",
+   "url": "http://arxiv.org/abs/2611.12304v1",
+   "id": "2611.12304v1",
+   "sommario": "Agentic workloads are a major source of LLM inference demand. Existing prefill--decode (PD) disaggregated serving systems offer limited flexibility for runtime adaptation of compute allocation and KV cache management, and rely on coarse signals that only partly capture the divers"
   },
   {
-   "titolo": "Transformer-FSQ: Discrete Latents for Extreme KV-Cache Compression",
-   "data": "2026-11-06",
-   "url": "http://arxiv.org/abs/2611.09598v1",
-   "id": "2611.09598v1",
-   "sommario": "Private, personalised language models must run on local consumer devices, where large, frontier models cannot fit, and retaining long contexts is non-trivial. Sequential memory---the key-value (KV) cache---grows linearly with context length, quickly dwarfing the model itself: for"
+   "titolo": "Translating KV Caches Between Hybrid-Attention Language Models: MLA Latents, Linear-Attention States and Sparse-Attention Indexers",
+   "data": "2026-11-09",
+   "url": "http://arxiv.org/abs/2611.12062v1",
+   "id": "2611.12062v1",
+   "sommario": "A model that takes over another model's conversation must normally re-read the whole history; a text hand-off shortens the re-read only by dropping content. KV-cache translation instead maps the source's cache into the target's own format, so the target continues from the full co"
   },
   {
-   "titolo": "Nebula: Distributed Position-Independent Caching for LLM Serving",
-   "data": "2026-11-06",
-   "url": "http://arxiv.org/abs/2611.09474v1",
-   "id": "2611.09474v1",
-   "sommario": "Modern LLM workflows, such as retrieval-augmented generation (RAG) and LLM agents, build long prompts from multiple independent text segments, making prefill a major source of computation. Reusing KV caches is therefore important for reducing serving costs and latency: distribute"
+   "titolo": "Infrathon: Benchmarking Language Agents for Real-World, Long-Horizon AI Infra Optimization",
+   "data": "2026-11-09",
+   "url": "http://arxiv.org/abs/2611.11995v1",
+   "id": "2611.11995v1",
+   "sommario": "In this work, we study whether frontier agent can continually improve real-world AI infrastructure over long horizons. We introduce Infrathon, a benchmark of diverse, long-horizon AI infrastructure optimization tasks across different levels. We evaluate six models across 150 runs"
   },
   {
-   "titolo": "MINE: Entropy-coded Memory-efficient Inference for Large Language Models",
-   "data": "2026-11-06",
-   "url": "http://arxiv.org/abs/2611.09424v1",
-   "id": "2611.09424v1",
-   "sommario": "We present MINE (Memory-efficient INference Engine), a lossless entropy coding approach that accelerates single-stream inference of Large Language Models (LLMs), where existing lossless compression methods yield speedups only for specific data types such as \\texttt{BF16} and unde"
+   "titolo": "Semantically Aligned KV Cache Compression for Efficient Agentic Autoregressive Video Generation",
+   "data": "2026-11-08",
+   "url": "http://arxiv.org/abs/2611.11452v1",
+   "id": "2611.11452v1",
+   "sommario": "Agentic autoregressive video generation combines semantic planning, sequential generation, and visual verification for controllable synthesis. Growing visual histories enlarge the key-value (KV) cache, increasing memory use and attention costs across candidate rollouts. Existing "
   },
   {
-   "titolo": "DARIC: A Position-Independent KV Cache Reuse System with Distribution-Aware Recomputation",
-   "data": "2026-11-06",
-   "url": "http://arxiv.org/abs/2611.09109v1",
-   "id": "2611.09109v1",
-   "sommario": "The context lengths of large language models (LLMs) are rapidly increasing in real-world applications such as agentic systems and retrieval-augmented generation (RAG). To accelerate LLM inference in these scenarios, reusing position-independent key-value (KV) caches across reques"
+   "titolo": "How Much Training-Inference Mismatch Can On-Policy Distillation Tolerate?",
+   "data": "2026-11-08",
+   "url": "http://arxiv.org/abs/2611.11450v1",
+   "id": "2611.11450v1",
+   "sommario": "On-policy distillation (OPD) trains a student language model on its own responses, guided by a fixed teacher. Generating these responses is expensive, so systems use quantized inference and asynchronous rollouts to reduce the cost. Both, however, introduce training-inference mism"
   },
   {
-   "titolo": "ReKV: Overlapping Quantized KV Transfer and Suffix Recomputation",
-   "data": "2026-11-05",
-   "url": "http://arxiv.org/abs/2611.08770v1",
-   "id": "2611.08770v1",
-   "sommario": "Prefill--decode disaggregation moves a prompt's key--value (KV) cache between workers before the first token can be generated. Reducing this handoff to either cache compression or recomputation misses a useful choice: which layers to transmit, at what precision, and which layers "
+   "titolo": "Verify Before You Fetch: Reliable KV Cache Compression for LLM Inference",
+   "data": "2026-11-08",
+   "url": "http://arxiv.org/abs/2611.11319v1",
+   "id": "2611.11319v1",
+   "sommario": "Long-context applications, long-lived agents, and multi-agent systems require large language models (LLMs) to process and retain extensive information. In these settings, the KV cache can exceed GPU high-bandwidth memory (HBM) capacity, necessitating offloading to host memory, wh"
   },
   {
-   "titolo": "MORTIS: Compiler-Guided KV-Cache Management for LLM Agent Programs",
-   "data": "2026-11-05",
-   "url": "http://arxiv.org/abs/2611.08638v1",
-   "id": "2611.08638v1",
-   "sommario": "Existing agent serving systems divide each prompt into a reusable prefix and an opaque suffix, managing the KV-cache at this coarse granularity without distinguishing the components within each part. We observe that prompt components differ in which LLM calls share their values a"
+   "titolo": "Efficient VLA Inference via Retrieval-Based Speculation and Hardware Acceleration",
+   "data": "2026-11-08",
+   "url": "http://arxiv.org/abs/2611.11098v1",
+   "id": "2611.11098v1",
+   "sommario": "Vision-language-action (VLA) models enable robots to understand and execute complex instructions, but their autoregressive (AR) action generation introduces significant latency on resource-constrained robotic platforms. Speculative decoding can accelerate AR-based inference by pa"
   },
   {
-   "titolo": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
-   "data": "2026-11-05",
-   "url": "http://arxiv.org/abs/2611.08483v1",
-   "id": "2611.08483v1",
-   "sommario": "LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iteratively refining solutions and combining high-scoring methods. However, the process is often slow because the LLM generates a long textual chain of thought for eac"
+   "titolo": "GARP: Real-Time Generative Agents on Local Hardware in a Game Engine",
+   "data": "2026-11-08",
+   "url": "http://arxiv.org/abs/2611.11064v1",
+   "id": "2611.11064v1",
+   "sommario": "Generative agents are game characters whose plans, conversations, and memories are written on the fly by a large language model (LLM). The original Generative Agents demonstration used cloud inference in a custom simulation. We present GARP, a platform for real-time generative ag"
   },
   {
-   "titolo": "StrataFlux: Memory-Hierarchy-Native Low-Bit LLM Inference",
-   "data": "2026-11-05",
-   "url": "http://arxiv.org/abs/2611.08363v1",
-   "id": "2611.08363v1",
-   "sommario": "Quantization reduces the memory and bandwidth demands of large language model (LLM) inference but can degrade accuracy; offloading higher-precision data can instead stall generation. We introduce StrataFlux, a framework that challenges this tradeoff by recovering accuracy lost to"
+   "titolo": "Prune to Probe: Causal Decision-Stability Probes for Efficient Reasoning",
+   "data": "2026-11-08",
+   "url": "http://arxiv.org/abs/2611.11034v1",
+   "id": "2611.11034v1",
+   "sommario": "Reasoning models often continue generating after producing an answer, yet stopping prematurely may interrupt useful verification or revision. In this work, we investigate whether targeted interventions in a model's internal computation can provide a reliable signal for when to st"
   },
   {
-   "titolo": "QRAE: Query-Relevant Attention Entropy for Context Compression in DeepSearch Agents",
-   "data": "2026-11-05",
-   "url": "http://arxiv.org/abs/2611.07976v1",
-   "id": "2611.07976v1",
-   "sommario": "DeepSearch LLM agents repeatedly search and carry retrieved sources into subsequent reasoning steps. This expanding context increases token consumption and latency, although many results do not contribute to later reasoning. We propose Query-Relevant Attention Entropy (QRAE), an "
+   "titolo": "Mirage: Provable Defense Against LLM KV Cache Timing Side Channels with Topology-Aware Isolation",
+   "data": "2026-11-07",
+   "url": "http://arxiv.org/abs/2611.10756v1",
+   "id": "2611.10756v1",
+   "sommario": "Large Language Models (LLMs) are increasingly deployed as shared multi-tenant services, relying on advanced optimizations like KV cache and prefix sharing to improve throughput and reduce latency. However, these optimizations introduce a critical vulnerability: attackers can expl"
   },
   {
-   "titolo": "ReConMem: A Graph-Based Dual Memory System for Repository-Oriented Conversations",
-   "data": "2026-11-05",
-   "url": "http://arxiv.org/abs/2611.07759v1",
-   "id": "2611.07759v1",
-   "sommario": "LLM-based code assistants are increasingly used in iterative repository-level development, where effective assistance requires jointly leveraging evolving conversational history and repository context. Existing memory systems, however, are primarily designed for general-purpose c"
+   "titolo": "Coverage-Verified Sparse Attention: Closed-Loop Quality Control for Long-Context LLM Decoding",
+   "data": "2026-11-07",
+   "url": "http://arxiv.org/abs/2611.10634v1",
+   "id": "2611.10634v1",
+   "sommario": "Sparse attention accelerates long-context decoding by reading a subset of the KV cache, but existing methods are open-loop: the kernel commits to its selection with no signal indicating whether enough attention mass was preserved and no recovery path when it was not. The needed s"
   }
  ]
 }
