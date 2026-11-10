@@ -1,9 +1,136 @@
 {
- "aggiornato": "2026-11-10T13:11:43+00:00",
+ "aggiornato": "2026-11-10T22:06:30+00:00",
  "aggiornato_it": "10 novembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 374,
+ "totale": 377,
  "modelli": [
+  {
+   "id": "baidu/ernie-5.5-flash-preview",
+   "name": "Baidu: ERNIE-5.5-Flash-Preview",
+   "created": 1794333533,
+   "context_length": 1024000,
+   "description": "ERNIE 5.5 Flash Preview is the latest foundation model in the ERNIE family, with comprehensive improvements in coding, agentic capabilities, knowledge work, and deep research. It has 280 billion total...",
+   "hugging_face_id": "baidu/ERNIE-5.5-Flash-Preview",
+   "architecture": {
+    "input_modalities": [
+     "text"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text->text"
+   },
+   "pricing": {
+    "prompt": "0.00000028",
+    "completion": "0.00000113",
+    "input_cache_read": "0.000000028"
+   },
+   "top_provider": {
+    "max_completion_tokens": 921600
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": true,
+    "default_enabled": true,
+    "supported_efforts": [
+     "high"
+    ],
+    "default_effort": "high"
+   },
+   "ha_versione_gratuita": false
+  },
+  {
+   "id": "baidu/ernie-light-dt-1.0-intl",
+   "name": "Baidu: ERNIE-Light-DT-1.0",
+   "created": 1794331260,
+   "context_length": 1024000,
+   "description": "ERNIE-Light-DT-1.0 is based on open-source GLM models and includes research findings from Baidu Search's Lightning large model. It features Baidu Sparse Attention (BSA), a unique sparse attention mechanism developed by...",
+   "architecture": {
+    "input_modalities": [
+     "text"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text->text"
+   },
+   "pricing": {
+    "prompt": "0.00000113",
+    "completion": "0.00000394",
+    "input_cache_read": "0.000000113"
+   },
+   "top_provider": {
+    "max_completion_tokens": 131072
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": false,
+    "default_enabled": true,
+    "supported_efforts": [
+     "max",
+     "high",
+     "low",
+     "none"
+    ],
+    "default_effort": "max"
+   },
+   "ha_versione_gratuita": false
+  },
+  {
+   "id": "google/gemini-4-carbon",
+   "name": "Google: Gemini 4 Carbon",
+   "created": 1794326871,
+   "context_length": 1048576,
+   "description": "Gemini 4 Carbon is a frontier Gemini 4 model from Google for coding, agentic and complex reasoning work. It takes text, image, audio, video and file input, supports long decode...",
+   "architecture": {
+    "input_modalities": [
+     "audio",
+     "file",
+     "image",
+     "text",
+     "video"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image+file+audio+video->text"
+   },
+   "pricing": {
+    "prompt": "0.000002",
+    "completion": "0.00001",
+    "input_cache_read": "0.0000001",
+    "input_cache_write": "0.0000001875",
+    "image": "0.000002",
+    "audio": "0.000002",
+    "web_search": "0.014"
+   },
+   "top_provider": {
+    "max_completion_tokens": 943718
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": true,
+    "supported_efforts": [
+     "high",
+     "medium",
+     "low"
+    ],
+    "default_effort": "medium"
+   },
+   "ha_versione_gratuita": false
+  },
   {
    "id": "nex-agi/nex-n2.6",
    "name": "Nex AGI: Nex-N2.6",
@@ -710,9 +837,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000015"
+    "prompt": "0.000000075",
+    "completion": "0.0000003",
+    "input_cache_read": "0.0000000075"
    },
    "top_provider": {
     "max_completion_tokens": 524288
@@ -1038,7 +1165,7 @@
     "input_cache_read": "0.00000015"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 262144
    },
    "supported_parameters": [
     "reasoning",
@@ -3221,9 +3348,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.000000006",
-    "completion": "0.0000005",
-    "input_cache_read": "0.000000005"
+    "prompt": "0.0000003",
+    "completion": "0.0000012",
+    "input_cache_read": "0.000000006"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -3748,9 +3875,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000834",
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042"
+    "prompt": "0.0000007506",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378"
    },
    "top_provider": {
     "max_completion_tokens": 64000
@@ -3871,12 +3998,12 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000005",
+    "prompt": "0.0000000399",
+    "completion": "0.0000000784",
     "input_cache_read": "0.00000003"
    },
    "top_provider": {
-    "max_completion_tokens": 943717
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -5993,9 +6120,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000132",
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033"
+    "prompt": "0.0000000825",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -6289,9 +6416,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000062",
+    "prompt": "0.000000007",
     "completion": "0.0000068",
-    "input_cache_read": "0.0000000052"
+    "input_cache_read": "0.000000006"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -7718,9 +7845,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000095526",
-    "completion": "0.00000191052",
-    "input_cache_read": "0.000000079605"
+    "prompt": "0.000000888966",
+    "completion": "0.000001777932",
+    "input_cache_read": "0.0000000740805"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -14805,9 +14932,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000004",
-    "completion": "0.00000075",
-    "input_cache_read": "0.0000004"
+    "prompt": "0.0000003",
+    "completion": "0.0000005",
+    "input_cache_read": "0.0000003"
    },
    "top_provider": {
     "max_completion_tokens": 6000
@@ -14832,9 +14959,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000035",
-    "completion": "0.00000065",
-    "input_cache_read": "0.00000035"
+    "prompt": "0.0000003",
+    "completion": "0.0000005",
+    "input_cache_read": "0.0000002"
    },
    "top_provider": {
     "max_completion_tokens": 5529
