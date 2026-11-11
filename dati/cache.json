@@ -1,12 +1,12 @@
 {
- "aggiornato": "2026-11-11T02:28:20+00:00",
+ "aggiornato": "2026-11-11T12:20:33+00:00",
  "aggiornato_it": "11 novembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 377,
  "modelli": [
   {
-   "id": "baidu/ernie-5.5-flash-preview",
-   "name": "Baidu: ERNIE-5.5-Flash-Preview",
+   "id": "baidu/ernie-5.5-flash-preview:free",
+   "name": "Baidu: ERNIE-5.5-Flash-Preview (free)",
    "created": 1794333533,
    "context_length": 1024000,
    "description": "ERNIE 5.5 Flash Preview is the latest foundation model in the ERNIE family, with comprehensive improvements in coding, agentic capabilities, knowledge work, and deep research. It has 280 billion total...",
@@ -21,9 +21,8 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000028",
-    "completion": "0.00000113",
-    "input_cache_read": "0.000000028"
+    "prompt": "0",
+    "completion": "0"
    },
    "top_provider": {
     "max_completion_tokens": 921600
@@ -41,7 +40,7 @@
     ],
     "default_effort": "high"
    },
-   "ha_versione_gratuita": false
+   "ha_versione_gratuita": true
   },
   {
    "id": "baidu/ernie-light-dt-1.0-intl",
@@ -1242,7 +1241,7 @@
    "created": 1792076662,
    "context_length": 1048576,
    "description": "NVIDIA Nemotron 3.5 Super VL is an open multimodal mixture-of-experts model from NVIDIA, with 12B active parameters out of 120B total. It takes text, images, documents, GUI screenshots, and video...",
-   "hugging_face_id": "nvidia/NVIDIA-Nemotron-3.5-Super-VL",
+   "hugging_face_id": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16",
    "architecture": {
     "input_modalities": [
      "text",
@@ -1285,7 +1284,7 @@
    "created": 1792076662,
    "context_length": 1000000,
    "description": "NVIDIA Nemotron 3.5 Super VL is an open multimodal mixture-of-experts model from NVIDIA, with 12B active parameters out of 120B total. It takes text, images, documents, GUI screenshots, and video...",
-   "hugging_face_id": "nvidia/NVIDIA-Nemotron-3.5-Super-VL",
+   "hugging_face_id": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16",
    "architecture": {
     "input_modalities": [
      "text",
@@ -1802,6 +1801,7 @@
    "created": 1790950024,
    "context_length": 1000000,
    "description": "Ling 3.1 Flash is a hybrid reasoning mixture-of-experts model from inclusionAI, with 25B active parameters out of 560B total.",
+   "hugging_face_id": "inclusionAI/Ling-3.1-flash",
    "architecture": {
     "input_modalities": [
      "text"
@@ -2308,6 +2308,7 @@
    "created": 1790102896,
    "context_length": 192000,
    "description": "Command A+ is Cohere's flagship model for enterprise agentic workflows. It accepts text and image inputs with a 192K context window, supports native tool calling with strict tool schemas, structured...",
+   "hugging_face_id": "CohereLabs/command-a-plus-05-2026-bf16",
    "architecture": {
     "input_modalities": [
      "text",
@@ -4396,6 +4397,7 @@
    "created": 1786680361,
    "context_length": 512000,
    "description": "Dots3-Note Preview is an open-weight mixture-of-experts model from Dots Studio, with 16B active parameters out of 280B total. It is the lightest model in the Dots 3 family and is...",
+   "hugging_face_id": "dots-studio/dots3-note-prev",
    "expiration_date": "2026-12-31",
    "architecture": {
     "input_modalities": [
@@ -7263,6 +7265,7 @@
    "created": 1777570439,
    "context_length": 262144,
    "description": "Mistral Medium 3.5 is a dense 128B instruction-following model from Mistral AI. It supports text and image inputs with text output, and is designed for agentic workflows, coding, and complex...",
+   "hugging_face_id": "mistralai/Mistral-Medium-3.5-128B",
    "architecture": {
     "input_modalities": [
      "text",
@@ -7504,7 +7507,7 @@
    },
    "pricing": {
     "prompt": "0.0000001824",
-    "completion": "0.0000093388",
+    "completion": "0.0000110055",
     "input_cache_read": "0.00000018"
    },
    "top_provider": {
@@ -8982,7 +8985,7 @@
    "id": "nvidia/nemotron-3-super-120b-a12b",
    "name": "NVIDIA: Nemotron 3 Super",
    "created": 1773245239,
-   "context_length": 1048576,
+   "context_length": 262144,
    "description": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications. Built on a hybrid Mamba-Transformer...",
    "hugging_face_id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8",
    "architecture": {
@@ -9829,12 +9832,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000003",
-    "completion": "0.0000012",
-    "input_cache_read": "0.00000006"
+    "prompt": "0.00000027",
+    "completion": "0.00000108",
+    "input_cache_read": "0.000000027"
    },
    "top_provider": {
-    "max_completion_tokens": 58982
+    "max_completion_tokens": 128000
    },
    "supported_parameters": [
     "reasoning",
@@ -10839,7 +10842,7 @@
    "created": 1764624472,
    "context_length": 262144,
    "description": "Mistral Large 3 2512 is Mistral’s most capable model to date, featuring a sparse mixture-of-experts architecture with 41B active parameters (675B total), and released under the Apache 2.0 license.",
-   "hugging_face_id": "",
+   "hugging_face_id": "mistralai/Mistral-Large-3-675B-Instruct-2512",
    "architecture": {
     "input_modalities": [
      "text",
@@ -13840,7 +13843,7 @@
    "created": 1738696718,
    "context_length": 32768,
    "description": "Aion-RP-Llama-3.1-8B ranks the highest in the character evaluation portion of the RPBench-Auto benchmark, a roleplaying-specific variant of Arena-Hard-Auto, where LLMs evaluate each other’s responses. It is a fine-tuned base model...",
-   "hugging_face_id": "",
+   "hugging_face_id": "aion-labs/Aion-RP-Llama-3.1-8B",
    "architecture": {
     "input_modalities": [
      "text"
@@ -14040,7 +14043,7 @@
    "created": 1734158152,
    "context_length": 128000,
    "description": "Command R7B (12-2024) is a small, fast update of the Command R+ model, delivered in December 2024. It excels at RAG, tool use, agents, and similar tasks requiring complex reasoning...",
-   "hugging_face_id": "",
+   "hugging_face_id": "CohereLabs/c4ai-command-r7b-12-2024",
    "architecture": {
     "input_modalities": [
      "text"
@@ -14224,7 +14227,7 @@
    "created": 1731978415,
    "context_length": 131072,
    "description": "This is Mistral AI's flagship model, Mistral Large 2 (version mistral-large-2407). It's a proprietary weights-available model and excels at reasoning, code, JSON, chat, and more. Read the launch announcement [here](https://mistral.ai/news/mistral-large-2407/)....",
-   "hugging_face_id": "",
+   "hugging_face_id": "mistralai/Mistral-Large-Instruct-2407",
    "architecture": {
     "input_modalities": [
      "text",
@@ -14422,6 +14425,7 @@
    "created": 1724976000,
    "context_length": 128000,
    "description": "command-r-08-2024 is an update of the [Command R](/models/cohere/command-r) with improved performance for multilingual retrieval-augmented generation (RAG) and tool use. More broadly, it is better at math, code and reasoning and...",
+   "hugging_face_id": "CohereLabs/c4ai-command-r-08-2024",
    "architecture": {
     "input_modalities": [
      "text"
@@ -14450,6 +14454,7 @@
    "created": 1724976000,
    "context_length": 128000,
    "description": "command-r-plus-08-2024 is an update of the [Command R+](/models/cohere/command-r-plus) with roughly 50% higher throughput and 25% lower latencies as compared to the previous Command R+ version, while keeping the hardware footprint...",
+   "hugging_face_id": "CohereLabs/c4ai-command-r-plus-08-2024",
    "architecture": {
     "input_modalities": [
      "text"

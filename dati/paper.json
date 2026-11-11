@@ -1,6 +1,13 @@
 {
- "aggiornato": "2026-11-11T02:28:20+00:00",
+ "aggiornato": "2026-11-11T12:20:33+00:00",
  "paper": [
+  {
+   "titolo": "Can KV Cache Be Reused Across Model Updates? A DeepSeek-V4-Flash Case Study",
+   "data": "2026-11-10",
+   "url": "http://arxiv.org/abs/2611.14051v1",
+   "id": "2611.14051v1",
+   "sommario": "Reusing key--value (KV) caches across language model updates could avoid repeated computation of shared context, but changes in model weights raise a fundamental question about what these caches preserve. We investigate direct cache reuse across four model updates, with a detaile"
+  },
   {
    "titolo": "Placing LLM Lookup Tables by Per-Layer Prefetch Deadlines",
    "data": "2026-11-10",
@@ -39,8 +46,8 @@
   {
    "titolo": "MNN-Pocket-0.3B Technical Report",
    "data": "2026-11-09",
-   "url": "http://arxiv.org/abs/2611.12311v1",
-   "id": "2611.12311v1",
+   "url": "http://arxiv.org/abs/2611.12311v2",
+   "id": "2611.12311v2",
    "sommario": "This technical report presents MNN-Pocket-0.3B, a compact 300M-parameter dense language model designed for efficient on-device deployment and supporting context lengths of up to 32K tokens. With an INT4 deployment footprint of only 173 MB and decoding throughput of up to 466 toke"
   },
   {
@@ -77,13 +84,6 @@
    "url": "http://arxiv.org/abs/2611.11450v1",
    "id": "2611.11450v1",
    "sommario": "On-policy distillation (OPD) trains a student language model on its own responses, guided by a fixed teacher. Generating these responses is expensive, so systems use quantized inference and asynchronous rollouts to reduce the cost. Both, however, introduce training-inference mism"
-  },
-  {
-   "titolo": "Verify Before You Fetch: Reliable KV Cache Compression for LLM Inference",
-   "data": "2026-11-08",
-   "url": "http://arxiv.org/abs/2611.11319v1",
-   "id": "2611.11319v1",
-   "sommario": "Long-context applications, long-lived agents, and multi-agent systems require large language models (LLMs) to process and retain extensive information. In these settings, the KV cache can exceed GPU high-bandwidth memory (HBM) capacity, necessitating offloading to host memory, wh"
   }
  ]
 }
