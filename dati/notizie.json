@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-11T12:20:33+00:00",
+ "aggiornato": "2026-11-11T23:15:24+00:00",
  "notizie": [
   {
    "tag": "crit",
@@ -9,15 +9,6 @@
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-12-31. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-dots-studio-dots-3-note-preview-free"
-  },
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-11-11",
-   "titolo": "Seed-2.0-Code viene spento fra 0 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-11. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-bytedance-seed-seed-2-0-code"
   },
   {
    "tag": "crit",
@@ -50,28 +41,28 @@
    "tag": "crit",
    "tagT": "Chiusura",
    "data": "2026-11-11",
-   "titolo": "Seed 1.6 Flash viene spento fra 0 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-11. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-bytedance-seed-seed-1-6-flash"
-  },
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-11-11",
-   "titolo": "Seed 1.6 viene spento fra 0 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-11. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-bytedance-seed-seed-1-6"
-  },
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-11-11",
    "titolo": "GPT-5 Image Mini viene spento fra 20 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-12-01. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-openai-gpt-5-image-mini"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-11-11",
+   "titolo": "GPT-5 Image viene spento fra 30 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-12-11. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-openai-gpt-5-image"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-11-11",
+   "titolo": "GPT-5 Pro viene spento fra 30 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-12-11. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-openai-gpt-5-pro"
   },
   {
    "tag": "crit",
@@ -86,10 +77,82 @@
    "tag": "crit",
    "tagT": "Chiusura",
    "data": "2026-11-11",
+   "titolo": "GPT-5 viene spento fra 30 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-12-11. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-openai-gpt-5"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-11-11",
+   "titolo": "GPT-5 Mini viene spento fra 30 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-12-11. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-openai-gpt-5-mini"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-11-11",
+   "titolo": "GPT-5 Nano viene spento fra 30 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-12-11. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-openai-gpt-5-nano"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-11-11",
    "titolo": "GLM 4.5 viene spento fra 50 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-12-31. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-z-ai-glm-4-5"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-11-11",
+   "titolo": "o3 Pro viene spento fra 30 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-12-11. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-openai-o3-pro"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-11-11",
+   "titolo": "o3 viene spento fra 30 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-12-11. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-openai-o3"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-11-11",
+   "titolo": "Seed-2.0-Code viene spento fra 0 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-11. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-bytedance-seed-seed-2-0-code"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-11-11",
+   "titolo": "Seed 1.6 Flash viene spento fra 0 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-11. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-bytedance-seed-seed-1-6-flash"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-11-11",
+   "titolo": "Seed 1.6 viene spento fra 0 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-11. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-bytedance-seed-seed-1-6"
   },
   {
    "tag": "crit",
@@ -153,69 +216,6 @@
    "testo": "Da $4,4 a $4,18 per milione di token in uscita.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
    "id": "prezzo-z-ai-glm-5-1completion"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-11-10",
-   "titolo": "MiniMax M3.1 Flash: il prezzo in entrata scende del 50%",
-   "testo": "Da $0,15 a $0,075 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-minimax-minimax-m3-1-flashprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-11-10",
-   "titolo": "MiniMax M3.1 Flash: il prezzo in uscita scende del 50%",
-   "testo": "Da $0,6 a $0,3 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-minimax-minimax-m3-1-flashcompletion"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-11-10",
-   "titolo": "Hy4 preview: il prezzo in entrata scende del 10%",
-   "testo": "Da $0,834 a $0,751 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-tencent-hy4-previewprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-11-10",
-   "titolo": "GLM Flash Latest: il prezzo in uscita scende del 6%",
-   "testo": "Da $0,083 a $0,078 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo--z-ai-glm-flash-latestcompletion"
-  },
-  {
-   "tag": "hot",
-   "tagT": "Nuovo modello",
-   "data": "2026-11-09",
-   "titolo": "Claude Fable 5.2: e' disponibile da oggi",
-   "testo": "Claude Fable 5.2 entra nel catalogo. Prezzo: $8 per milione di token in entrata, $40 in uscita. Tiene 1.000.000 token di contesto. Punteggio di intelligenza indipendente: 64,6.",
-   "perche": "Un'opzione in piu' da mettere sul tavolo quando scegli con chi lavorare.",
-   "id": "nuovo-anthropic-claude-fable-5-2"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-11-09",
-   "titolo": "Kimi Latest: il prezzo in entrata scende del 6%",
-   "testo": "Da $0,163 a $0,154 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo--moonshotai-kimi-latestprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-11-09",
-   "titolo": "DeepSeek V4 Pro 0423: il prezzo in entrata scende del 6%",
-   "testo": "Da $0,948 a $0,894 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-deepseek-deepseek-v4-proprompt"
   }
  ]
 }
