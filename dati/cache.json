@@ -1,6 +1,6 @@
 {
- "aggiornato": "2026-11-10T22:06:30+00:00",
- "aggiornato_it": "10 novembre 2026",
+ "aggiornato": "2026-11-11T02:28:20+00:00",
+ "aggiornato_it": "11 novembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 377,
  "modelli": [
@@ -128,6 +128,13 @@
      "low"
     ],
     "default_effort": "medium"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 60,
+     "coding_index": null,
+     "agentic_index": null
+    }
    },
    "ha_versione_gratuita": false
   },
@@ -426,6 +433,38 @@
    "ha_versione_gratuita": false
   },
   {
+   "id": "kt/midm-k-3.0-pro",
+   "name": "KT: Mi:dm K 3.0 Pro",
+   "created": 1793897701,
+   "context_length": 261795,
+   "description": "Mi:dm K 3.0 Pro is a Mixture-of-Experts reasoning model from KT, with 120B total and 12B active parameters. It uses a hybrid architecture that mixes Mamba, MoE and attention layers.",
+   "architecture": {
+    "input_modalities": [
+     "text"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text->text"
+   },
+   "pricing": {
+    "prompt": "0.0000002",
+    "completion": "0.0000008",
+    "input_cache_read": "0.00000004"
+   },
+   "top_provider": {
+    "max_completion_tokens": 235615
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs"
+   ],
+   "reasoning": {
+    "mandatory": false
+   },
+   "ha_versione_gratuita": false
+  },
+  {
    "id": "google/gemini-omni-1.1-flash",
    "name": "Google: Gemini Omni 1.1 Flash",
    "created": 1793825668,
@@ -544,6 +583,46 @@
      "intelligence_index": 34.6,
      "coding_index": null,
      "agentic_index": null
+    }
+   },
+   "ha_versione_gratuita": false
+  },
+  {
+   "id": "motif-technologies/motif-3",
+   "name": "Motif Technologies: Motif 3",
+   "created": 1793655334,
+   "context_length": 262144,
+   "description": "Motif 3 is a Mixture-of-Experts language model from Motif Technologies, with 314B total and 13.2B active parameters. It is a general-purpose multilingual model for English and Korean, particularly strong at...",
+   "hugging_face_id": "Motif-Technologies/Motif-3",
+   "architecture": {
+    "input_modalities": [
+     "text"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text->text"
+   },
+   "pricing": {
+    "prompt": "0.0000003",
+    "completion": "0.0000012",
+    "input_cache_read": "0.00000006"
+   },
+   "top_provider": {
+    "max_completion_tokens": 235929
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs"
+   ],
+   "reasoning": {
+    "mandatory": false
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": null,
+     "coding_index": 63.5,
+     "agentic_index": 28.4
     }
    },
    "ha_versione_gratuita": false
@@ -837,9 +916,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000075",
-    "completion": "0.0000003",
-    "input_cache_read": "0.0000000075"
+    "prompt": "0.00000015",
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000015"
    },
    "top_provider": {
     "max_completion_tokens": 524288
@@ -953,40 +1032,6 @@
     "mandatory": false
    },
    "ha_versione_gratuita": false
-  },
-  {
-   "id": "xingchen-agi/xing4.0-29b-a4b:free",
-   "name": "XingChen: Xing4.0 29B A4B (free)",
-   "created": 1792177496,
-   "context_length": 262144,
-   "description": "Xing4.0-29B-A4B is an open-weight mixture-of-experts language model from China Telecom's AI team (TeleAI) and the successor to the TeleChat series. It has 29B total parameters with 4B active per token...",
-   "hugging_face_id": "XingChen-AGI/Xing4.0-29B-A4B",
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text->text"
-   },
-   "pricing": {
-    "prompt": "0",
-    "completion": "0"
-   },
-   "top_provider": {
-    "max_completion_tokens": 235929
-   },
-   "supported_parameters": [
-    "reasoning",
-    "structured_outputs",
-    "tools"
-   ],
-   "reasoning": {
-    "mandatory": false,
-    "default_enabled": true
-   },
-   "ha_versione_gratuita": true
   },
   {
    "id": "reflection/beam-1.0-501b-a23b",
@@ -3348,9 +3393,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.0000003",
-    "completion": "0.0000012",
-    "input_cache_read": "0.000000006"
+    "prompt": "0.000000051",
+    "completion": "0.000000567",
+    "input_cache_read": "0.000000018"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -3875,9 +3920,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000007506",
-    "completion": "0.0000022509",
-    "input_cache_read": "0.0000000378"
+    "prompt": "0.000000834",
+    "completion": "0.000002501",
+    "input_cache_read": "0.000000042"
    },
    "top_provider": {
     "max_completion_tokens": 64000
@@ -6120,9 +6165,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000825",
-    "completion": "0.00000033",
-    "input_cache_read": "0.000000020625"
+    "prompt": "0.000000132",
+    "completion": "0.000000528",
+    "input_cache_read": "0.000000033"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -7845,9 +7890,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000888966",
-    "completion": "0.000001777932",
-    "input_cache_read": "0.0000000740805"
+    "prompt": "0.00000095526",
+    "completion": "0.00000191052",
+    "input_cache_read": "0.000000079605"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -7892,12 +7937,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000091",
-    "completion": "0.000000182",
-    "input_cache_read": "0.0000000182"
+    "prompt": "0.00000009",
+    "completion": "0.00000018",
+    "input_cache_read": "0.000000018"
    },
    "top_provider": {
-    "max_completion_tokens": 943717
+    "max_completion_tokens": 393216
    },
    "supported_parameters": [
     "reasoning",
@@ -8260,9 +8305,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000014",
-    "completion": "0.0000044",
-    "input_cache_read": "0.00000026"
+    "prompt": "0.00000133",
+    "completion": "0.00000418",
+    "input_cache_read": "0.000000247"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -14284,35 +14329,6 @@
    },
    "supported_parameters": [
     "structured_outputs"
-   ],
-   "ha_versione_gratuita": false
-  },
-  {
-   "id": "qwen/qwen-2.5-7b-instruct",
-   "name": "Qwen: Qwen2.5 7B Instruct",
-   "created": 1729036800,
-   "context_length": 32768,
-   "description": "Qwen2.5 7B is the latest series of Qwen large language models. Qwen2.5 brings the following improvements upon Qwen2: - Significantly more knowledge and has greatly improved capabilities in coding and...",
-   "hugging_face_id": "Qwen/Qwen2.5-7B-Instruct",
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text->text"
-   },
-   "pricing": {
-    "prompt": "0.0000001",
-    "completion": "0.0000002"
-   },
-   "top_provider": {
-    "max_completion_tokens": 29491
-   },
-   "supported_parameters": [
-    "structured_outputs",
-    "tools"
    ],
    "ha_versione_gratuita": false
   },

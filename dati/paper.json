@@ -1,6 +1,41 @@
 {
- "aggiornato": "2026-11-10T22:06:30+00:00",
+ "aggiornato": "2026-11-11T02:28:20+00:00",
  "paper": [
+  {
+   "titolo": "Placing LLM Lookup Tables by Per-Layer Prefetch Deadlines",
+   "data": "2026-11-10",
+   "url": "http://arxiv.org/abs/2611.13413v1",
+   "id": "2611.13413v1",
+   "sommario": "DeepSeek-V4.1's 203 GB of Engram n-gram tables sit in host DRAM today, taking 190 of the 223 GiB a 4-GPU serving process uses. Row indices depend only on input tokens, so reads can start with each step and overlap earlier layers. V4.1's two Engram layers have windows that differ "
+  },
+  {
+   "titolo": "Looping Deeper Without Growing the KV Cache: Recurrent Depth for Causal Encoder-Decoders",
+   "data": "2026-11-09",
+   "url": "http://arxiv.org/abs/2611.13378v1",
+   "id": "2611.13378v1",
+   "sommario": "Looped language models deepen computation without adding parameters, yet caching full-context key-value (KV) states across layers and rounds severely bounds serving batch size. We design a looped causal encoder-decoder (CED) that achieves recurrent depth with zero round-wise KV g"
+  },
+  {
+   "titolo": "Decode Token Parallelism: Memory-Efficient Distributed Attention Parallelism for Scalable LLM Decoding",
+   "data": "2026-11-09",
+   "url": "http://arxiv.org/abs/2611.13293v1",
+   "id": "2611.13293v1",
+   "sommario": "Serving large language models at high concurrency with long contexts requires KV-cache capacity and attention bandwidth that grow with the decode pool. Existing parallelization strategies trade one against the other: data parallelism replicates model weights, limiting KV capacity"
+  },
+  {
+   "titolo": "FlowPlan: Reducing the Token Cost of Coding Agents with Abstraction-Guided Planning and Verification",
+   "data": "2026-11-09",
+   "url": "http://arxiv.org/abs/2611.13241v1",
+   "id": "2611.13241v1",
+   "sommario": "LLM-based coding agents such as Claude Code can resolve real-world repository issues, but their iterative interaction loop can be expensive. Existing approaches reduce this cost primarily by limiting, compressing, or selectively avoiding information and actions within the repair "
+  },
+  {
+   "titolo": "SHADOWPREFILL: Keeping Your Next Model Warm for Per-Step Model Routing in Agentic LLM Serving",
+   "data": "2026-11-09",
+   "url": "http://arxiv.org/abs/2611.13176v1",
+   "id": "2611.13176v1",
+   "sommario": "Per-step model routers send each LLM call of an agent to the cost-optimal model dynamically within each session. However, every model switch discards prefix-cache reuse: KV caches are per model, so the new model must prefill the relevant context before it emits a token. Across re"
+  },
   {
    "titolo": "MNN-Pocket-0.3B Technical Report",
    "data": "2026-11-09",
@@ -49,41 +84,6 @@
    "url": "http://arxiv.org/abs/2611.11319v1",
    "id": "2611.11319v1",
    "sommario": "Long-context applications, long-lived agents, and multi-agent systems require large language models (LLMs) to process and retain extensive information. In these settings, the KV cache can exceed GPU high-bandwidth memory (HBM) capacity, necessitating offloading to host memory, wh"
-  },
-  {
-   "titolo": "Efficient VLA Inference via Retrieval-Based Speculation and Hardware Acceleration",
-   "data": "2026-11-08",
-   "url": "http://arxiv.org/abs/2611.11098v1",
-   "id": "2611.11098v1",
-   "sommario": "Vision-language-action (VLA) models enable robots to understand and execute complex instructions, but their autoregressive (AR) action generation introduces significant latency on resource-constrained robotic platforms. Speculative decoding can accelerate AR-based inference by pa"
-  },
-  {
-   "titolo": "GARP: Real-Time Generative Agents on Local Hardware in a Game Engine",
-   "data": "2026-11-08",
-   "url": "http://arxiv.org/abs/2611.11064v1",
-   "id": "2611.11064v1",
-   "sommario": "Generative agents are game characters whose plans, conversations, and memories are written on the fly by a large language model (LLM). The original Generative Agents demonstration used cloud inference in a custom simulation. We present GARP, a platform for real-time generative ag"
-  },
-  {
-   "titolo": "Prune to Probe: Causal Decision-Stability Probes for Efficient Reasoning",
-   "data": "2026-11-08",
-   "url": "http://arxiv.org/abs/2611.11034v1",
-   "id": "2611.11034v1",
-   "sommario": "Reasoning models often continue generating after producing an answer, yet stopping prematurely may interrupt useful verification or revision. In this work, we investigate whether targeted interventions in a model's internal computation can provide a reliable signal for when to st"
-  },
-  {
-   "titolo": "Mirage: Provable Defense Against LLM KV Cache Timing Side Channels with Topology-Aware Isolation",
-   "data": "2026-11-07",
-   "url": "http://arxiv.org/abs/2611.10756v1",
-   "id": "2611.10756v1",
-   "sommario": "Large Language Models (LLMs) are increasingly deployed as shared multi-tenant services, relying on advanced optimizations like KV cache and prefix sharing to improve throughput and reduce latency. However, these optimizations introduce a critical vulnerability: attackers can expl"
-  },
-  {
-   "titolo": "Coverage-Verified Sparse Attention: Closed-Loop Quality Control for Long-Context LLM Decoding",
-   "data": "2026-11-07",
-   "url": "http://arxiv.org/abs/2611.10634v1",
-   "id": "2611.10634v1",
-   "sommario": "Sparse attention accelerates long-context decoding by reading a subset of the KV cache, but existing methods are open-loop: the kernel commits to its selection with no signal indicating whether enough attention mass was preserved and no recovery path when it was not. The needed s"
   }
  ]
 }
