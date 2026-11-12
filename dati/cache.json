@@ -1,9 +1,57 @@
 {
- "aggiornato": "2026-11-12T13:29:13+00:00",
+ "aggiornato": "2026-11-12T22:31:40+00:00",
  "aggiornato_it": "12 novembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 375,
+ "totale": 381,
  "modelli": [
+  {
+   "id": "google/gemini-4-hydrogen",
+   "name": "Google: Gemini 4 Hydrogen",
+   "created": 1794506460,
+   "context_length": 1048576,
+   "description": "Gemini 4 Hydrogen is the high-efficiency workhorse model of the Gemini 4 family from Google, built for high-throughput agentic workflows, coding and multi-model routing at lower cost and latency than...",
+   "architecture": {
+    "input_modalities": [
+     "audio",
+     "file",
+     "image",
+     "text",
+     "video"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image+file+audio+video->text"
+   },
+   "pricing": {
+    "prompt": "0.0000015",
+    "completion": "0.0000075",
+    "input_cache_read": "0.000000075",
+    "input_cache_write": "0.0000000833333333333333",
+    "image": "0.0000015",
+    "audio": "0.0000015",
+    "web_search": "0.014"
+   },
+   "top_provider": {
+    "max_completion_tokens": 943718
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": true,
+    "supported_efforts": [
+     "xhigh",
+     "high",
+     "medium",
+     "low"
+    ],
+    "default_effort": "medium"
+   },
+   "ha_versione_gratuita": false
+  },
   {
    "id": "baidu/ernie-5.5-flash-preview:free",
    "name": "Baidu: ERNIE-5.5-Flash-Preview (free)",
@@ -178,11 +226,63 @@
    "ha_versione_gratuita": false
   },
   {
+   "id": "thinkingmachines/inkling-2-small",
+   "name": "Thinking Machines: Inkling 2 Small",
+   "created": 1794261847,
+   "context_length": 1048576,
+   "description": "Inkling 2 Small is an open-weight multimodal mixture-of-experts reasoning model from Thinking Machines Lab, with 17B active parameters out of 594B total. It is the first model in the second...",
+   "hugging_face_id": "thinkingmachines/Inkling-2-Small",
+   "architecture": {
+    "input_modalities": [
+     "text",
+     "image"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image->text"
+   },
+   "pricing": {
+    "prompt": "0.0000003",
+    "completion": "0.000001",
+    "input_cache_read": "0.00000003"
+   },
+   "top_provider": {
+    "max_completion_tokens": 943718
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": true,
+    "default_enabled": true,
+    "supported_efforts": [
+     "max",
+     "high",
+     "medium",
+     "low",
+     "minimal"
+    ],
+    "default_effort": "high"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 30.6,
+     "coding_index": null,
+     "agentic_index": null
+    }
+   },
+   "ha_versione_gratuita": true
+  },
+  {
    "id": "thinkingmachines/inkling-2-small:free",
    "name": "Thinking Machines: Inkling 2 Small (free)",
    "created": 1794261847,
    "context_length": 1048576,
-   "description": "Inkling 2 Small is a multimodal mixture-of-experts reasoning model from Thinking Machines Lab, with 17B active parameters out of 594B total. It is the first model in the second Inkling...",
+   "description": "Inkling 2 Small is an open-weight multimodal mixture-of-experts reasoning model from Thinking Machines Lab, with 17B active parameters out of 594B total. It is the first model in the second...",
+   "hugging_face_id": "thinkingmachines/Inkling-2-Small",
    "architecture": {
     "input_modalities": [
      "text",
@@ -711,7 +811,51 @@
     ],
     "default_effort": "high"
    },
-   "ha_versione_gratuita": false
+   "ha_versione_gratuita": true
+  },
+  {
+   "id": "particle-ai/particle-1:free",
+   "name": "Particle AI: Particle-1 (free)",
+   "created": 1793207893,
+   "context_length": 1048576,
+   "description": "Particle-1 is a token-efficient agentic coding model from Particle AI, post-trained on DeepSeek V4.1 Flash. It is suited for software engineering work such as terminal workflows, codebase changes, and data...",
+   "architecture": {
+    "input_modalities": [
+     "text",
+     "image"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image->text"
+   },
+   "pricing": {
+    "prompt": "0",
+    "completion": "0"
+   },
+   "top_provider": {
+    "max_completion_tokens": 131072
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": false,
+    "default_enabled": true,
+    "supported_efforts": [
+     "max",
+     "xhigh",
+     "high",
+     "medium",
+     "low",
+     "minimal",
+     "none"
+    ],
+    "default_effort": "high"
+   },
+   "ha_versione_gratuita": true
   },
   {
    "id": "openai/gpt-6.1-terra-pro",
@@ -833,8 +977,8 @@
    },
    "pricing": {
     "prompt": "0.0000002375",
-    "completion": "0.0000087856",
-    "input_cache_read": "0.00000019"
+    "completion": "0.0000084114",
+    "input_cache_read": "0.0000002"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -915,9 +1059,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000015"
+    "prompt": "0.000000075",
+    "completion": "0.0000003",
+    "input_cache_read": "0.0000000075"
    },
    "top_provider": {
     "max_completion_tokens": 524288
@@ -1828,6 +1972,37 @@
     "default_enabled": true
    },
    "ha_versione_gratuita": false
+  },
+  {
+   "id": "apodex/apodex-1.1-mini:free",
+   "name": "Apodex: Apodex 1.1 Mini (free)",
+   "created": 1790875335,
+   "context_length": 262144,
+   "description": "Apodex 1.1 Mini is a reasoning-first model from Apodex, built for complex, long-horizon research and forecasting tasks. It works directly with files, data, code, and tools to produce verifiable results,...",
+   "architecture": {
+    "input_modalities": [
+     "text"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text->text"
+   },
+   "pricing": {
+    "prompt": "0",
+    "completion": "0"
+   },
+   "top_provider": {
+    "max_completion_tokens": 235929
+   },
+   "supported_parameters": [
+    "reasoning",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": false
+   },
+   "ha_versione_gratuita": true
   },
   {
    "id": "unbiased/pareto-26.10-preview",
@@ -2934,6 +3109,7 @@
    },
    "supported_parameters": [
     "reasoning",
+    "structured_outputs",
     "tools"
    ],
    "reasoning": {
@@ -3422,9 +3598,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.000000022",
-    "completion": "0.0000004",
-    "input_cache_read": "0.000000004"
+    "prompt": "0.0000003",
+    "completion": "0.0000012",
+    "input_cache_read": "0.000000006"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -3624,6 +3800,39 @@
      "low"
     ],
     "default_effort": "medium"
+   },
+   "ha_versione_gratuita": false
+  },
+  {
+   "id": "inclusionai/ling-3.0-flash-sante",
+   "name": "inclusionAI: Ling 3.0 Flash Sante",
+   "created": 1788545946,
+   "context_length": 262144,
+   "description": "Ling 3.0 Flash Sante is a health and medicine-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for...",
+   "architecture": {
+    "input_modalities": [
+     "text"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text->text"
+   },
+   "pricing": {
+    "prompt": "0.000000042",
+    "completion": "0.0000001232",
+    "input_cache_read": "0.0000000084"
+   },
+   "top_provider": {
+    "max_completion_tokens": 32768
+   },
+   "supported_parameters": [
+    "reasoning",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": false,
+    "default_enabled": true
    },
    "ha_versione_gratuita": false
   },
@@ -3949,9 +4158,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000834",
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042"
+    "prompt": "0.0000007506",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378"
    },
    "top_provider": {
     "max_completion_tokens": 64000
@@ -3970,6 +4179,46 @@
      "none"
     ],
     "default_effort": "high"
+   },
+   "ha_versione_gratuita": false
+  },
+  {
+   "id": "inclusionai/ling-3.0-flash-fin",
+   "name": "inclusionAI: Ling 3.0 Flash Fin",
+   "created": 1787846290,
+   "context_length": 262144,
+   "description": "Ling 3.0 Flash Fin is a finance-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for real-world investment...",
+   "architecture": {
+    "input_modalities": [
+     "text"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text->text"
+   },
+   "pricing": {
+    "prompt": "0.000000042",
+    "completion": "0.0000001232",
+    "input_cache_read": "0.0000000084"
+   },
+   "top_provider": {
+    "max_completion_tokens": 32768
+   },
+   "supported_parameters": [
+    "reasoning",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": false,
+    "default_enabled": true
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": null,
+     "coding_index": 55.6,
+     "agentic_index": 27.9
+    }
    },
    "ha_versione_gratuita": false
   },
@@ -6153,9 +6402,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000132",
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033"
+    "prompt": "0.0000000825",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -7525,11 +7774,11 @@
    "description": "This model always redirects to the latest model in the Gemini Flash family.",
    "architecture": {
     "input_modalities": [
-     "text",
-     "image",
-     "video",
+     "audio",
      "file",
-     "audio"
+     "image",
+     "text",
+     "video"
     ],
     "output_modalities": [
      "text"
@@ -7537,16 +7786,16 @@
     "modality": "text+image+file+audio+video->text"
    },
    "pricing": {
-    "prompt": "0.00000075",
-    "completion": "0.00000375",
+    "prompt": "0.0000015",
+    "completion": "0.0000075",
     "input_cache_read": "0.000000075",
-    "input_cache_write": "0.0000000416666666666667",
-    "image": "0.00000075",
-    "audio": "0.00000075",
+    "input_cache_write": "0.0000000833333333333333",
+    "image": "0.0000015",
+    "audio": "0.0000015",
     "web_search": "0.014"
    },
    "top_provider": {
-    "max_completion_tokens": 65536
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -7555,8 +7804,8 @@
    ],
    "reasoning": {
     "mandatory": true,
-    "default_enabled": true,
     "supported_efforts": [
+     "xhigh",
      "high",
      "medium",
      "low"
@@ -7879,9 +8128,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000894012",
-    "completion": "0.000001788024",
-    "input_cache_read": "0.000000074501"
+    "prompt": "0.000000888966",
+    "completion": "0.000001777932",
+    "input_cache_read": "0.0000000740805"
    },
    "top_provider": {
     "max_completion_tokens": 384000
@@ -8338,12 +8587,12 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000008",
-    "completion": "0.0000001",
-    "input_cache_read": "0.000000046"
+    "prompt": "0.0000000765",
+    "completion": "0.000000255",
+    "input_cache_read": "0.0000000425"
    },
    "top_provider": {
-    "max_completion_tokens": 128000
+    "max_completion_tokens": 235929
    },
    "supported_parameters": [
     "reasoning",
@@ -9076,9 +9325,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000111",
-    "completion": "0.000000163",
-    "input_cache_read": "0.0000001"
+    "prompt": "0.000000123",
+    "completion": "0.000000181",
+    "input_cache_read": "0.000000111"
    },
    "top_provider": {
     "max_completion_tokens": 40960
@@ -9995,7 +10244,6 @@
    "context_length": 262144,
    "description": "Kimi K2.5 is Moonshot AI's native multimodal model, delivering state-of-the-art visual coding capability and a self-directed agent swarm paradigm. Built on Kimi K2 with continued pretraining over approximately 15T mixed...",
    "hugging_face_id": "moonshotai/Kimi-K2.5",
-   "expiration_date": "2026-11-18",
    "architecture": {
     "input_modalities": [
      "text",
@@ -10007,12 +10255,12 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.000000532",
-    "completion": "0.000003325",
-    "input_cache_read": "0.000000209"
+    "prompt": "0.0000005",
+    "completion": "0.0000025",
+    "input_cache_read": "0.00000015"
    },
    "top_provider": {
-    "max_completion_tokens": 65536
+    "max_completion_tokens": 235929
    },
    "supported_parameters": [
     "reasoning",

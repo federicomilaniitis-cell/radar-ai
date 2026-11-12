@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-12T13:29:13+00:00",
+ "aggiornato": "2026-11-12T22:31:40+00:00",
  "notizie": [
   {
    "tag": "crit",
@@ -27,15 +27,6 @@
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-13. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-liquid-lfm-2-5-2-6b-free"
-  },
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-11-12",
-   "titolo": "Kimi K2.5 viene spento fra 6 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-18. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-moonshotai-kimi-k2-5"
   },
   {
    "tag": "crit",
@@ -130,6 +121,24 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
+   "data": "2026-11-12",
+   "titolo": "Llama 3.2 1B Instruct viene spento fra 8 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-20. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-meta-llama-llama-3-2-1b-instruct"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-11-12",
+   "titolo": "Kimi K2.5 viene spento fra 6 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-18. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-moonshotai-kimi-k2-5"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
    "data": "2026-11-11",
    "titolo": "Seed-2.0-Code viene spento fra 0 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-11. Dopo, le richieste smettono di funzionare.",
@@ -153,15 +162,6 @@
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-11. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-bytedance-seed-seed-1-6"
-  },
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-11-11",
-   "titolo": "Llama 3.2 1B Instruct viene spento fra 9 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-20. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-meta-llama-llama-3-2-1b-instruct"
   },
   {
    "tag": "ok",
