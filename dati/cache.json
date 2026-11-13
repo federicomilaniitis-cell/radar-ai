@@ -1,9 +1,44 @@
 {
- "aggiornato": "2026-11-13T12:46:45+00:00",
+ "aggiornato": "2026-11-13T22:20:18+00:00",
  "aggiornato_it": "13 novembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 378,
+ "totale": 377,
  "modelli": [
+  {
+   "id": "inclusionai/ling-3.2-flash:free",
+   "name": "inclusionAI: Ling 3.2 Flash (free)",
+   "created": 1794591958,
+   "context_length": 1048576,
+   "description": "Ling 3.2 Flash is a hybrid reasoning model from inclusionAI that accepts text and image input, with a 1M-token context window and up to 200 images per request. Thinking can...",
+   "hugging_face_id": "inclusionAI/Ling-3.2-flash",
+   "architecture": {
+    "input_modalities": [
+     "text",
+     "image"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image->text"
+   },
+   "pricing": {
+    "prompt": "0",
+    "completion": "0"
+   },
+   "top_provider": {
+    "max_completion_tokens": 262144
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": false,
+    "default_enabled": true
+   },
+   "ha_versione_gratuita": true
+  },
   {
    "id": "google/gemini-4-hydrogen",
    "name": "Google: Gemini 4 Hydrogen",
@@ -1061,9 +1096,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000015"
+    "prompt": "0.000000075",
+    "completion": "0.0000003",
+    "input_cache_read": "0.0000000075"
    },
    "top_provider": {
     "max_completion_tokens": 524288
@@ -3080,6 +3115,7 @@
    },
    "supported_parameters": [
     "reasoning",
+    "structured_outputs",
     "tools"
    ],
    "reasoning": {
@@ -4095,9 +4131,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000834",
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042"
+    "prompt": "0.0000007506",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378"
    },
    "top_provider": {
     "max_completion_tokens": 64000
@@ -4835,89 +4871,6 @@
     }
    },
    "ha_versione_gratuita": false
-  },
-  {
-   "id": "liquid/lfm-2.5-2.6b",
-   "name": "LiquidAI: LFM2.5-2.6B",
-   "created": 1786470519,
-   "context_length": 128000,
-   "description": "LFM2.5-2.6B is a compact reasoning model from Liquid AI. It is suited for agent workflows, data extraction, RAG, and long-context processing. Liquid advises against using it for agentic coding or...",
-   "hugging_face_id": "LiquidAI/LFM2.5-2.6B",
-   "expiration_date": "2026-11-13",
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text->text"
-   },
-   "pricing": {
-    "prompt": "0.00000035",
-    "completion": "0.0000005",
-    "input_cache_read": "0.00000004"
-   },
-   "top_provider": {
-    "max_completion_tokens": 8192
-   },
-   "supported_parameters": [
-    "reasoning",
-    "structured_outputs",
-    "tools"
-   ],
-   "reasoning": {
-    "mandatory": true
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": null,
-     "coding_index": 7.7,
-     "agentic_index": null
-    }
-   },
-   "ha_versione_gratuita": true
-  },
-  {
-   "id": "liquid/lfm-2.5-2.6b:free",
-   "name": "LiquidAI: LFM2.5-2.6B (free)",
-   "created": 1786470519,
-   "context_length": 65536,
-   "description": "LFM2.5-2.6B is a compact reasoning model from Liquid AI. It is suited for agent workflows, data extraction, RAG, and long-context processing. Liquid advises against using it for agentic coding or...",
-   "hugging_face_id": "LiquidAI/LFM2.5-2.6B",
-   "expiration_date": "2026-11-13",
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text->text"
-   },
-   "pricing": {
-    "prompt": "0",
-    "completion": "0"
-   },
-   "top_provider": {
-    "max_completion_tokens": 8192
-   },
-   "supported_parameters": [
-    "reasoning",
-    "structured_outputs",
-    "tools"
-   ],
-   "reasoning": {
-    "mandatory": true
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": null,
-     "coding_index": 7.7,
-     "agentic_index": null
-    }
-   },
-   "ha_versione_gratuita": true
   },
   {
    "id": "nvidia/nemotron-3.5-lightning",
@@ -6299,9 +6252,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000132",
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033"
+    "prompt": "0.0000000825",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -8484,9 +8437,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000009",
-    "completion": "0.0000003",
-    "input_cache_read": "0.00000005"
+    "prompt": "0.0000000675",
+    "completion": "0.000000225",
+    "input_cache_read": "0.0000000375"
    },
    "top_provider": {
     "max_completion_tokens": 235929
@@ -9222,9 +9175,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000026",
-    "completion": "0.000000039",
-    "input_cache_read": "0.000000024"
+    "prompt": "0.00000015",
+    "completion": "0.000000221",
+    "input_cache_read": "0.000000135"
    },
    "top_provider": {
     "max_completion_tokens": 40960
@@ -14095,11 +14048,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000032",
-    "completion": "0.00000089"
+    "prompt": "0.0000002574",
+    "completion": "0.0000010287"
    },
    "top_provider": {
-    "max_completion_tokens": 16384
+    "max_completion_tokens": 16000
    },
    "supported_parameters": [
     "structured_outputs",
@@ -14439,6 +14392,7 @@
    "context_length": 131072,
    "description": "Llama 3.2 3B is a 3-billion-parameter multilingual large language model, optimized for advanced natural language processing tasks like dialogue generation, reasoning, and summarization. Designed with the latest transformer architecture, it...",
    "hugging_face_id": "meta-llama/Llama-3.2-3B-Instruct",
+   "expiration_date": "2026-11-20",
    "architecture": {
     "input_modalities": [
      "text"
@@ -14449,11 +14403,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000005",
-    "completion": "0.00000033"
+    "prompt": "0.0000000509",
+    "completion": "0.000000335"
    },
    "top_provider": {
-    "max_completion_tokens": 117964
+    "max_completion_tokens": 72000
    },
    "supported_parameters": [
     "structured_outputs"

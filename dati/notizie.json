@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-13T12:46:45+00:00",
+ "aggiornato": "2026-11-13T22:20:18+00:00",
  "notizie": [
   {
    "tag": "crit",
@@ -9,24 +9,6 @@
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-12-31. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-dots-studio-dots-3-note-preview-free"
-  },
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-11-13",
-   "titolo": "LFM2.5-2.6B viene spento fra 0 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-13. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-liquid-lfm-2-5-2-6b"
-  },
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-11-13",
-   "titolo": "LFM2.5-2.6B (free) viene spento fra 0 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-13. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-liquid-lfm-2-5-2-6b-free"
   },
   {
    "tag": "crit",
@@ -144,6 +126,24 @@
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-12-11. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-openai-o3"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-11-13",
+   "titolo": "LFM2.5-2.6B viene spento fra 0 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-13. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-liquid-lfm-2-5-2-6b"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-11-13",
+   "titolo": "LFM2.5-2.6B (free) viene spento fra 0 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-13. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-liquid-lfm-2-5-2-6b-free"
   },
   {
    "tag": "crit",
