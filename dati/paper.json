@@ -1,6 +1,55 @@
 {
- "aggiornato": "2026-11-13T03:05:41+00:00",
+ "aggiornato": "2026-11-13T12:46:45+00:00",
  "paper": [
+  {
+   "titolo": "TTB: Test-time Baking for Efficient Rendering of Decoder-only View Synthesis Models",
+   "data": "2026-11-12",
+   "url": "http://arxiv.org/abs/2611.17331v1",
+   "id": "2611.17331v1",
+   "sommario": "Decoder-only Large View Synthesis Models (LVSMs) with KV-cache have recently achieved state-of-the-art quality by regressing novel views from neural networks without reconstructing 3D geometry, while Test-Time Training (TTT) layers save computation but sacrifice quality. We propo"
+  },
+  {
+   "titolo": "Theoretical and Empirical Analysis of Sparse Convolution",
+   "data": "2026-11-12",
+   "url": "http://arxiv.org/abs/2611.17212v1",
+   "id": "2611.17212v1",
+   "sommario": "Deep neural networks for image processing are increasingly deployed on resource-constrained edge devices such as drones, medical systems, and smartphones, where limited computational resources and memory bandwidth pose significant challenges for efficient inference. Pruning durin"
+  },
+  {
+   "titolo": "Towards Green Text Generation: Memory-Based Speculative Decoding",
+   "data": "2026-11-12",
+   "url": "http://arxiv.org/abs/2611.16714v1",
+   "id": "2611.16714v1",
+   "sommario": "Speculative decoding accelerates text generation with large language models by letting a cheap draft model propose tokens that a large verifier checks in a single forward pass. We introduce Olifant, a draft model built on a memory-based classifier. It predicts the next token from"
+  },
+  {
+   "titolo": "Reducing Batch Makespan for LLM Agent Workloads through Inference-Environment Coordination",
+   "data": "2026-11-12",
+   "url": "http://arxiv.org/abs/2611.16661v1",
+   "id": "2611.16661v1",
+   "sommario": "Efficient batch execution of agent tasks is critical to LLM training and development workflows, including benchmark evaluation, synthetic-data generation, and RL rollouts. Since these tasks alternate between LLM inference and environment interaction, we present coordinated optimi"
+  },
+  {
+   "titolo": "HeMeR: Heterogeneous Memory Reconciliation for Embodied Agents via Structured KV Reuse",
+   "data": "2026-11-12",
+   "url": "http://arxiv.org/abs/2611.16487v1",
+   "id": "2611.16487v1",
+   "sommario": "Embodied agents make decisions by combining information from heterogeneous memory modules, including declarative memory for explicit knowledge, procedural memory for learned routines, and working memory for current observations. During interaction, the memory contents required fo"
+  },
+  {
+   "titolo": "Beyond Compressing Everything: Contrastive Memory Learning for Selective Context Compression",
+   "data": "2026-11-12",
+   "url": "http://arxiv.org/abs/2611.16384v1",
+   "id": "2611.16384v1",
+   "sommario": "As large language models (LLMs) advance toward increasingly long inputs, soft context compression offers a promising approach to efficient inference by converting long inputs into compact memory slots. Under limited memory budgets, effective context compression remains challengin"
+  },
+  {
+   "titolo": "KVPath: Connecting Key-Value Representations Across Transformer Layers",
+   "data": "2026-11-11",
+   "url": "http://arxiv.org/abs/2611.16072v1",
+   "id": "2611.16072v1",
+   "sommario": "Transformers typically cache an independent key-value (KV) representation for each token at every layer. Recent work reveals that a token's KV representations across neighboring layers are correlated and contain shared information. We hypothesize that this correlation implies inc"
+  },
   {
    "titolo": "TraceKV: Policy-Preserving Low-Rank KV Cache Compression for Reasoning Vision-Language Models",
    "data": "2026-11-11",
@@ -35,55 +84,6 @@
    "url": "http://arxiv.org/abs/2611.15100v1",
    "id": "2611.15100v1",
    "sommario": "Long-context multimodal intelligence requires revisiting earlier images as conversations and documents accumulate, yet retaining an image does not guarantee reliable access to its details. By varying context length, redistributing a fixed text passage around the image, and changi"
-  },
-  {
-   "titolo": "Edge-Native Multimodal RAG: Hardware-Aware Quantization and Architectural Optimization for Consumer GPUs",
-   "data": "2026-11-11",
-   "url": "http://arxiv.org/abs/2611.14924v1",
-   "id": "2611.14924v1",
-   "sommario": "Deployment of retrieval-augmented generation (RAG) for Edge-AI is constrained by memory and bandwidth limitations. A standard 7B parameter model consumes 14 GB Video Random Access Memory (VRAM) in half-precision (FP16), precluding co-location of vector indices and Key-Value (KV) "
-  },
-  {
-   "titolo": "Tideway: Phase-Aware Tiered Memory Management for MoE Inference on Consumer Devices",
-   "data": "2026-11-10",
-   "url": "http://arxiv.org/abs/2611.14848v1",
-   "id": "2611.14848v1",
-   "sommario": "Large language model (LLM) agents are rapidly becoming a dominant paradigm for AI applications. Recently, there is a growing demand to deploy large-scale Mixture-of-Experts (MoE) models locally on consumer PCs to balance data privacy, API costs, and inference efficiency. However,"
-  },
-  {
-   "titolo": "AutoAssumption: Searching over Assumptions Discovers ML-Systems Algorithms",
-   "data": "2026-11-10",
-   "url": "http://arxiv.org/abs/2611.14844v1",
-   "id": "2611.14844v1",
-   "sommario": "Many advances in ML systems came from breaking an assumption that earlier methods took for granted: speculative decoding dropped the assumption that a model needs one forward pass per token. Yet algorithms rarely state their assumptions, so experts and discovery harnesses search "
-  },
-  {
-   "titolo": "Can KV Cache Be Reused Across Model Updates? A DeepSeek-V4-Flash Case Study",
-   "data": "2026-11-10",
-   "url": "http://arxiv.org/abs/2611.14051v1",
-   "id": "2611.14051v1",
-   "sommario": "Reusing key--value (KV) caches across language model updates could avoid repeated computation of shared context, but changes in model weights raise a fundamental question about what these caches preserve. We investigate direct cache reuse across four model updates, with a detaile"
-  },
-  {
-   "titolo": "Placing LLM Lookup Tables by Per-Layer Prefetch Deadlines",
-   "data": "2026-11-10",
-   "url": "http://arxiv.org/abs/2611.13413v1",
-   "id": "2611.13413v1",
-   "sommario": "DeepSeek-V4.1's 203 GB of Engram n-gram tables sit in host DRAM today, taking 190 of the 223 GiB a 4-GPU serving process uses. Row indices depend only on input tokens, so reads can start with each step and overlap earlier layers. V4.1's two Engram layers have windows that differ "
-  },
-  {
-   "titolo": "Looping Deeper Without Growing the KV Cache: Recurrent Depth for Causal Encoder-Decoders",
-   "data": "2026-11-09",
-   "url": "http://arxiv.org/abs/2611.13378v1",
-   "id": "2611.13378v1",
-   "sommario": "Looped language models deepen computation without adding parameters, yet caching full-context key-value (KV) states across layers and rounds severely bounds serving batch size. We design a looped causal encoder-decoder (CED) that achieves recurrent depth with zero round-wise KV g"
-  },
-  {
-   "titolo": "Decode Token Parallelism: Memory-Efficient Distributed Attention Parallelism for Scalable LLM Decoding",
-   "data": "2026-11-09",
-   "url": "http://arxiv.org/abs/2611.13293v1",
-   "id": "2611.13293v1",
-   "sommario": "Serving large language models at high concurrency with long contexts requires KV-cache capacity and attention bandwidth that grow with the decode pool. Existing parallelization strategies trade one against the other: data parallelism replicates model weights, limiting KV capacity"
   }
  ]
 }

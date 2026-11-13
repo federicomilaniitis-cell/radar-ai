@@ -1,8 +1,8 @@
 {
- "aggiornato": "2026-11-13T03:05:41+00:00",
+ "aggiornato": "2026-11-13T12:46:45+00:00",
  "aggiornato_it": "13 novembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 381,
+ "totale": 378,
  "modelli": [
   {
    "id": "google/gemini-4-hydrogen",
@@ -556,7 +556,8 @@
    },
    "supported_parameters": [
     "reasoning",
-    "structured_outputs"
+    "structured_outputs",
+    "tools"
    ],
    "reasoning": {
     "mandatory": false
@@ -619,9 +620,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000002",
-    "completion": "0.0000006",
-    "input_cache_read": "0.00000005"
+    "prompt": "0.0000001",
+    "completion": "0.0000003",
+    "input_cache_read": "0.000000025"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -712,7 +713,8 @@
    },
    "supported_parameters": [
     "reasoning",
-    "structured_outputs"
+    "structured_outputs",
+    "tools"
    ],
    "reasoning": {
     "mandatory": false
@@ -976,8 +978,8 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000002375",
-    "completion": "0.0000084114",
+    "prompt": "0.000002",
+    "completion": "0.00001",
     "input_cache_read": "0.0000002"
    },
    "top_provider": {
@@ -1109,12 +1111,12 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.0000003",
-    "completion": "0.0000012",
-    "input_cache_read": "0.000000006"
+    "prompt": "0.000000038",
+    "completion": "0.0000005",
+    "input_cache_read": "0.00000001"
    },
    "top_provider": {
-    "max_completion_tokens": 393216
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -1972,37 +1974,6 @@
     "default_enabled": true
    },
    "ha_versione_gratuita": false
-  },
-  {
-   "id": "apodex/apodex-1.1-mini:free",
-   "name": "Apodex: Apodex 1.1 Mini (free)",
-   "created": 1790875335,
-   "context_length": 262144,
-   "description": "Apodex 1.1 Mini is a reasoning-first model from Apodex, built for complex, long-horizon research and forecasting tasks. It works directly with files, data, code, and tools to produce verifiable results,...",
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text->text"
-   },
-   "pricing": {
-    "prompt": "0",
-    "completion": "0"
-   },
-   "top_provider": {
-    "max_completion_tokens": 235929
-   },
-   "supported_parameters": [
-    "reasoning",
-    "tools"
-   ],
-   "reasoning": {
-    "mandatory": false
-   },
-   "ha_versione_gratuita": true
   },
   {
    "id": "unbiased/pareto-26.10-preview",
@@ -3109,7 +3080,6 @@
    },
    "supported_parameters": [
     "reasoning",
-    "structured_outputs",
     "tools"
    ],
    "reasoning": {
@@ -3804,39 +3774,6 @@
    "ha_versione_gratuita": false
   },
   {
-   "id": "inclusionai/ling-3.0-flash-sante",
-   "name": "inclusionAI: Ling 3.0 Flash Sante",
-   "created": 1788545946,
-   "context_length": 262144,
-   "description": "Ling 3.0 Flash Sante is a health and medicine-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for...",
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text->text"
-   },
-   "pricing": {
-    "prompt": "0.000000042",
-    "completion": "0.0000001232",
-    "input_cache_read": "0.0000000084"
-   },
-   "top_provider": {
-    "max_completion_tokens": 32768
-   },
-   "supported_parameters": [
-    "reasoning",
-    "tools"
-   ],
-   "reasoning": {
-    "mandatory": false,
-    "default_enabled": true
-   },
-   "ha_versione_gratuita": false
-  },
-  {
    "id": "qwen/qwen3.8-max-0902",
    "name": "Qwen: Qwen3.8 Max (0902)",
    "created": 1788469704,
@@ -4111,7 +4048,7 @@
    },
    "pricing": {
     "prompt": "0.00000006",
-    "completion": "0.00000015",
+    "completion": "0.00000025",
     "input_cache_read": "0.000000015"
    },
    "top_provider": {
@@ -4179,46 +4116,6 @@
      "none"
     ],
     "default_effort": "high"
-   },
-   "ha_versione_gratuita": false
-  },
-  {
-   "id": "inclusionai/ling-3.0-flash-fin",
-   "name": "inclusionAI: Ling 3.0 Flash Fin",
-   "created": 1787846290,
-   "context_length": 262144,
-   "description": "Ling 3.0 Flash Fin is a finance-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for real-world investment...",
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text->text"
-   },
-   "pricing": {
-    "prompt": "0.000000042",
-    "completion": "0.0000001232",
-    "input_cache_read": "0.0000000084"
-   },
-   "top_provider": {
-    "max_completion_tokens": 32768
-   },
-   "supported_parameters": [
-    "reasoning",
-    "tools"
-   ],
-   "reasoning": {
-    "mandatory": false,
-    "default_enabled": true
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": null,
-     "coding_index": 55.6,
-     "agentic_index": 27.9
-    }
    },
    "ha_versione_gratuita": false
   },
@@ -8128,12 +8025,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000095526",
-    "completion": "0.00000191052",
-    "input_cache_read": "0.000000079605"
+    "prompt": "0.0000009",
+    "completion": "0.0000015",
+    "input_cache_read": "0.00000025"
    },
    "top_provider": {
-    "max_completion_tokens": 384000
+    "max_completion_tokens": 393216
    },
    "supported_parameters": [
     "reasoning",
@@ -8587,9 +8484,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000000765",
-    "completion": "0.000000255",
-    "input_cache_read": "0.0000000425"
+    "prompt": "0.00000009",
+    "completion": "0.0000003",
+    "input_cache_read": "0.00000005"
    },
    "top_provider": {
     "max_completion_tokens": 235929
@@ -9325,9 +9222,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000095",
-    "completion": "0.000000139",
-    "input_cache_read": "0.000000085"
+    "prompt": "0.000000026",
+    "completion": "0.000000039",
+    "input_cache_read": "0.000000024"
    },
    "top_provider": {
     "max_completion_tokens": 40960
@@ -10055,7 +9952,7 @@
    "id": "minimax/minimax-m2.5",
    "name": "MiniMax: MiniMax M2.5",
    "created": 1770908502,
-   "context_length": 200000,
+   "context_length": 198000,
    "description": "MiniMax-M2.5 is a SOTA large language model designed for real-world productivity. Trained in a diverse range of complex real-world digital working environments, M2.5 builds upon the coding expertise of M2.1...",
    "hugging_face_id": "MiniMaxAI/MiniMax-M2.5",
    "architecture": {
@@ -10069,11 +9966,11 @@
    },
    "pricing": {
     "prompt": "0.00000027",
-    "completion": "0.00000108",
-    "input_cache_read": "0.000000027"
+    "completion": "0.00000095",
+    "input_cache_read": "0.00000003"
    },
    "top_provider": {
-    "max_completion_tokens": 128000
+    "max_completion_tokens": 32768
    },
    "supported_parameters": [
     "reasoning",
@@ -10212,6 +10109,7 @@
    "context_length": 262144,
    "description": "Step 3.5 Flash is StepFun's most capable open-source foundation model. Built on a sparse Mixture of Experts (MoE) architecture, it selectively activates only 11B of its 196B parameters per token....",
    "hugging_face_id": "stepfun-ai/Step-3.5-Flash",
+   "expiration_date": "2026-11-15",
    "architecture": {
     "input_modalities": [
      "text"
@@ -11660,6 +11558,7 @@
    "context_length": 262144,
    "description": "Qwen3-VL-30B-A3B-Thinking is a multimodal model that unifies strong text generation with visual understanding for images and videos. Its Thinking variant enhances reasoning in STEM, math, and complex tasks. It excels...",
    "hugging_face_id": "Qwen/Qwen3-VL-30B-A3B-Thinking",
+   "expiration_date": "2026-11-15",
    "architecture": {
     "input_modalities": [
      "text",
@@ -12901,6 +12800,7 @@
    "context_length": 131072,
    "description": "Hunyuan-A13B is a 13B active parameter Mixture-of-Experts (MoE) language model developed by Tencent, with a total parameter count of 80B and support for reasoning via Chain-of-Thought. It offers competitive benchmark...",
    "hugging_face_id": "tencent/Hunyuan-A13B-Instruct",
+   "expiration_date": "2026-11-15",
    "architecture": {
     "input_modalities": [
      "text"
