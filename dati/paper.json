@@ -1,6 +1,62 @@
 {
- "aggiornato": "2026-11-12T22:31:40+00:00",
+ "aggiornato": "2026-11-13T03:05:41+00:00",
  "paper": [
+  {
+   "titolo": "TraceKV: Policy-Preserving Low-Rank KV Cache Compression for Reasoning Vision-Language Models",
+   "data": "2026-11-11",
+   "url": "http://arxiv.org/abs/2611.15569v1",
+   "id": "2611.15569v1",
+   "sommario": "Reasoning vision-language models (VLMs) impose substantial KV cache demands from both large multimodal contexts and growing reasoning traces. Low-rank KV compression has emerged as a promising paradigm that stores low-dimensional latents of KV states and can be combined with quan"
+  },
+  {
+   "titolo": "LLMRunner: Closed Workload Model Performance Testing Framework for LLM Servings",
+   "data": "2026-11-11",
+   "url": "http://arxiv.org/abs/2611.15372v1",
+   "id": "2611.15372v1",
+   "sommario": "Performance testing large language model (LLM) serving engines is a crucial requirement considering the criticality of the infrastructure for deploying conversational AI at scale. Most of the benchmarking tools used to carryout performance evaluation of LLM serving do not capture"
+  },
+  {
+   "titolo": "Read Once, Answer Many: Parallel Prompting for Shared-Context LLM Inference",
+   "data": "2026-11-11",
+   "url": "http://arxiv.org/abs/2611.15130v1",
+   "id": "2611.15130v1",
+   "sommario": "LLM workloads sometimes ask many independent questions about the same long document, as in document QA, data labeling and LLM-based evaluation. Prefix caching removes the redundant prefill shared by these queries, but each decode step still reads the document's key-value (KV) cac"
+  },
+  {
+   "titolo": "Recompute or Restore? Host-Tier KV for Multi-Model Agent Workflows on a Static-Graph NPU Serving Stack",
+   "data": "2026-11-11",
+   "url": "http://arxiv.org/abs/2611.15126v1",
+   "id": "2611.15126v1",
+   "sommario": "Agent workflows issue dependent model calls that share long context prefixes, so serving them efficiently depends on reusing the key-value (KV) cache of those prefixes. On accelerators that compile model graphs ahead of time, however, the device KV budget is fixed, and prefixes e"
+  },
+  {
+   "titolo": "Keep Images in Sight: Visual Position Re-Anchoring for Long-Context MLLMs",
+   "data": "2026-11-11",
+   "url": "http://arxiv.org/abs/2611.15100v1",
+   "id": "2611.15100v1",
+   "sommario": "Long-context multimodal intelligence requires revisiting earlier images as conversations and documents accumulate, yet retaining an image does not guarantee reliable access to its details. By varying context length, redistributing a fixed text passage around the image, and changi"
+  },
+  {
+   "titolo": "Edge-Native Multimodal RAG: Hardware-Aware Quantization and Architectural Optimization for Consumer GPUs",
+   "data": "2026-11-11",
+   "url": "http://arxiv.org/abs/2611.14924v1",
+   "id": "2611.14924v1",
+   "sommario": "Deployment of retrieval-augmented generation (RAG) for Edge-AI is constrained by memory and bandwidth limitations. A standard 7B parameter model consumes 14 GB Video Random Access Memory (VRAM) in half-precision (FP16), precluding co-location of vector indices and Key-Value (KV) "
+  },
+  {
+   "titolo": "Tideway: Phase-Aware Tiered Memory Management for MoE Inference on Consumer Devices",
+   "data": "2026-11-10",
+   "url": "http://arxiv.org/abs/2611.14848v1",
+   "id": "2611.14848v1",
+   "sommario": "Large language model (LLM) agents are rapidly becoming a dominant paradigm for AI applications. Recently, there is a growing demand to deploy large-scale Mixture-of-Experts (MoE) models locally on consumer PCs to balance data privacy, API costs, and inference efficiency. However,"
+  },
+  {
+   "titolo": "AutoAssumption: Searching over Assumptions Discovers ML-Systems Algorithms",
+   "data": "2026-11-10",
+   "url": "http://arxiv.org/abs/2611.14844v1",
+   "id": "2611.14844v1",
+   "sommario": "Many advances in ML systems came from breaking an assumption that earlier methods took for granted: speculative decoding dropped the assumption that a model needs one forward pass per token. Yet algorithms rarely state their assumptions, so experts and discovery harnesses search "
+  },
   {
    "titolo": "Can KV Cache Be Reused Across Model Updates? A DeepSeek-V4-Flash Case Study",
    "data": "2026-11-10",
@@ -28,62 +84,6 @@
    "url": "http://arxiv.org/abs/2611.13293v1",
    "id": "2611.13293v1",
    "sommario": "Serving large language models at high concurrency with long contexts requires KV-cache capacity and attention bandwidth that grow with the decode pool. Existing parallelization strategies trade one against the other: data parallelism replicates model weights, limiting KV capacity"
-  },
-  {
-   "titolo": "FlowPlan: Reducing the Token Cost of Coding Agents with Abstraction-Guided Planning and Verification",
-   "data": "2026-11-09",
-   "url": "http://arxiv.org/abs/2611.13241v1",
-   "id": "2611.13241v1",
-   "sommario": "LLM-based coding agents such as Claude Code can resolve real-world repository issues, but their iterative interaction loop can be expensive. Existing approaches reduce this cost primarily by limiting, compressing, or selectively avoiding information and actions within the repair "
-  },
-  {
-   "titolo": "SHADOWPREFILL: Keeping Your Next Model Warm for Per-Step Model Routing in Agentic LLM Serving",
-   "data": "2026-11-09",
-   "url": "http://arxiv.org/abs/2611.13176v1",
-   "id": "2611.13176v1",
-   "sommario": "Per-step model routers send each LLM call of an agent to the cost-optimal model dynamically within each session. However, every model switch discards prefix-cache reuse: KV caches are per model, so the new model must prefill the relevant context before it emits a token. Across re"
-  },
-  {
-   "titolo": "MNN-Pocket-0.3B Technical Report",
-   "data": "2026-11-09",
-   "url": "http://arxiv.org/abs/2611.12311v2",
-   "id": "2611.12311v2",
-   "sommario": "This technical report presents MNN-Pocket-0.3B, a compact 300M-parameter dense language model designed for efficient on-device deployment and supporting context lengths of up to 32K tokens. With an INT4 deployment footprint of only 173 MB and decoding throughput of up to 466 toke"
-  },
-  {
-   "titolo": "Evolving Infra: Agent-Adaptive LLM Serving at Scale",
-   "data": "2026-11-09",
-   "url": "http://arxiv.org/abs/2611.12304v1",
-   "id": "2611.12304v1",
-   "sommario": "Agentic workloads are a major source of LLM inference demand. Existing prefill--decode (PD) disaggregated serving systems offer limited flexibility for runtime adaptation of compute allocation and KV cache management, and rely on coarse signals that only partly capture the divers"
-  },
-  {
-   "titolo": "Translating KV Caches Between Hybrid-Attention Language Models: MLA Latents, Linear-Attention States and Sparse-Attention Indexers",
-   "data": "2026-11-09",
-   "url": "http://arxiv.org/abs/2611.12062v1",
-   "id": "2611.12062v1",
-   "sommario": "A model that takes over another model's conversation must normally re-read the whole history; a text hand-off shortens the re-read only by dropping content. KV-cache translation instead maps the source's cache into the target's own format, so the target continues from the full co"
-  },
-  {
-   "titolo": "Infrathon: Benchmarking Language Agents for Real-World, Long-Horizon AI Infra Optimization",
-   "data": "2026-11-09",
-   "url": "http://arxiv.org/abs/2611.11995v1",
-   "id": "2611.11995v1",
-   "sommario": "In this work, we study whether frontier agent can continually improve real-world AI infrastructure over long horizons. We introduce Infrathon, a benchmark of diverse, long-horizon AI infrastructure optimization tasks across different levels. We evaluate six models across 150 runs"
-  },
-  {
-   "titolo": "Semantically Aligned KV Cache Compression for Efficient Agentic Autoregressive Video Generation",
-   "data": "2026-11-08",
-   "url": "http://arxiv.org/abs/2611.11452v1",
-   "id": "2611.11452v1",
-   "sommario": "Agentic autoregressive video generation combines semantic planning, sequential generation, and visual verification for controllable synthesis. Growing visual histories enlarge the key-value (KV) cache, increasing memory use and attention costs across candidate rollouts. Existing "
-  },
-  {
-   "titolo": "How Much Training-Inference Mismatch Can On-Policy Distillation Tolerate?",
-   "data": "2026-11-08",
-   "url": "http://arxiv.org/abs/2611.11450v1",
-   "id": "2611.11450v1",
-   "sommario": "On-policy distillation (OPD) trains a student language model on its own responses, guided by a fixed teacher. Generating these responses is expensive, so systems use quantized inference and asynchronous rollouts to reduce the cost. Both, however, introduce training-inference mism"
   }
  ]
 }
