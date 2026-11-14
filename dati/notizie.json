@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-14T11:53:42+00:00",
+ "aggiornato": "2026-11-14T21:03:12+00:00",
  "notizie": [
   {
    "tag": "crit",
@@ -9,6 +9,15 @@
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-12-31. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-dots-studio-dots-3-note-preview-free"
+  },
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-11-14",
+   "titolo": "GLM 5.1 viene spento fra 6 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-20. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-z-ai-glm-5-1"
   },
   {
    "tag": "crit",
@@ -207,15 +216,6 @@
    "testo": "Da $1,2 a $1,08 per milione di token in uscita.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
    "id": "prezzo-minimax-minimax-m2-5completion"
-  },
-  {
-   "tag": "warn",
-   "tagT": "Prezzo su'",
-   "data": "2026-11-11",
-   "titolo": "Kimi Latest: il prezzo in uscita sale del 18%",
-   "testo": "Da $9,34 a $11,01 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
-   "id": "prezzo--moonshotai-kimi-latestcompletion"
   }
  ]
 }

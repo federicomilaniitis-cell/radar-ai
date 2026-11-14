@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-14T11:53:42+00:00",
+ "aggiornato": "2026-11-14T21:03:12+00:00",
  "aggiornato_it": "14 novembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 377,
@@ -84,6 +84,13 @@
      "low"
     ],
     "default_effort": "medium"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 53.9,
+     "coding_index": null,
+     "agentic_index": null
+    }
    },
    "ha_versione_gratuita": false
   },
@@ -822,7 +829,7 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000005",
+    "prompt": "0.00000006",
     "completion": "0.0000005",
     "input_cache_read": "0.000000003"
    },
@@ -1096,9 +1103,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000015"
+    "prompt": "0.000000075",
+    "completion": "0.0000003",
+    "input_cache_read": "0.0000000075"
    },
    "top_provider": {
     "max_completion_tokens": 524288
@@ -2007,6 +2014,13 @@
    "reasoning": {
     "mandatory": false,
     "default_enabled": true
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 29.6,
+     "coding_index": null,
+     "agentic_index": null
+    }
    },
    "ha_versione_gratuita": false
   },
@@ -4131,9 +4145,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000834",
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042"
+    "prompt": "0.0000007506",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378"
    },
    "top_provider": {
     "max_completion_tokens": 64000
@@ -6252,9 +6266,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000132",
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033"
+    "prompt": "0.0000000825",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -8001,7 +8015,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 12.6,
+     "intelligence_index": 20.8,
      "coding_index": null,
      "agentic_index": null
     }
@@ -8383,6 +8397,7 @@
    "context_length": 204800,
    "description": "GLM-5.1 delivers a major leap in coding capability, with particularly significant gains in handling long-horizon tasks. Unlike previous models built around minute-level interactions, GLM-5.1 can work independently and continuously on...",
    "hugging_face_id": "zai-org/GLM-5.1",
+   "expiration_date": "2026-11-20",
    "architecture": {
     "input_modalities": [
      "text"
@@ -8398,7 +8413,7 @@
     "input_cache_read": "0.00000026"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 182476
    },
    "supported_parameters": [
     "reasoning",
@@ -9175,9 +9190,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000017",
-    "completion": "0.00000025",
-    "input_cache_read": "0.000000153"
+    "prompt": "0.000000143",
+    "completion": "0.00000021",
+    "input_cache_read": "0.000000129"
    },
    "top_provider": {
     "max_completion_tokens": 40960
@@ -13052,12 +13067,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000005",
-    "completion": "0.00000215",
-    "input_cache_read": "0.00000035"
+    "prompt": "0.000000571",
+    "completion": "0.000002286"
    },
    "top_provider": {
-    "max_completion_tokens": 32768
+    "max_completion_tokens": 32000
    },
    "supported_parameters": [
     "reasoning",
