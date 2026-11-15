@@ -1,6 +1,6 @@
 {
- "aggiornato": "2026-11-14T21:03:12+00:00",
- "aggiornato_it": "14 novembre 2026",
+ "aggiornato": "2026-11-15T02:19:14+00:00",
+ "aggiornato_it": "15 novembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 377,
  "modelli": [
@@ -1103,9 +1103,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000075",
-    "completion": "0.0000003",
-    "input_cache_read": "0.0000000075"
+    "prompt": "0.00000015",
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000015"
    },
    "top_provider": {
     "max_completion_tokens": 524288
@@ -4145,9 +4145,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000007506",
-    "completion": "0.0000022509",
-    "input_cache_read": "0.0000000378"
+    "prompt": "0.000000834",
+    "completion": "0.000002501",
+    "input_cache_read": "0.000000042"
    },
    "top_provider": {
     "max_completion_tokens": 64000
@@ -5261,12 +5261,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000434",
-    "completion": "0.0000003",
-    "input_cache_read": "0.000000035"
+    "prompt": "0.00000006",
+    "completion": "0.00000018",
+    "input_cache_read": "0.000000015"
    },
    "top_provider": {
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 384000
    },
    "supported_parameters": [
     "reasoning",
@@ -6054,10 +6054,10 @@
     "modality": "text+image+file->text"
    },
    "pricing": {
-    "prompt": "0.000004",
-    "completion": "0.00002",
-    "input_cache_read": "0.0000004",
-    "input_cache_write": "0.000005",
+    "prompt": "0.0000044",
+    "completion": "0.000022",
+    "input_cache_read": "0.00000044",
+    "input_cache_write": "0.0000055",
     "web_search": "0.01"
    },
    "top_provider": {
@@ -6266,9 +6266,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000825",
-    "completion": "0.00000033",
-    "input_cache_read": "0.000000020625"
+    "prompt": "0.000000132",
+    "completion": "0.000000528",
+    "input_cache_read": "0.000000033"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -9190,9 +9190,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000143",
-    "completion": "0.00000021",
-    "input_cache_read": "0.000000129"
+    "prompt": "0.000000038",
+    "completion": "0.000000055",
+    "input_cache_read": "0.000000034"
    },
    "top_provider": {
     "max_completion_tokens": 40960
@@ -10330,9 +10330,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000006",
-    "completion": "0.0000022",
-    "input_cache_read": "0.00000011"
+    "prompt": "0.0000004",
+    "completion": "0.00000175",
+    "input_cache_read": "0.00000008"
    },
    "top_provider": {
     "max_completion_tokens": 131072
