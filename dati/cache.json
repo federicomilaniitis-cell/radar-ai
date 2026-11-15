@@ -1,8 +1,8 @@
 {
- "aggiornato": "2026-11-15T12:26:03+00:00",
+ "aggiornato": "2026-11-15T21:25:48+00:00",
  "aggiornato_it": "15 novembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 377,
+ "totale": 374,
  "modelli": [
   {
    "id": "inclusionai/ling-3.2-flash:free",
@@ -1020,8 +1020,8 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000002403",
-    "completion": "0.0000084023",
+    "prompt": "0.000002",
+    "completion": "0.00001",
     "input_cache_read": "0.0000002"
    },
    "top_provider": {
@@ -1103,9 +1103,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000015"
+    "prompt": "0.000000075",
+    "completion": "0.0000003",
+    "input_cache_read": "0.0000000075"
    },
    "top_provider": {
     "max_completion_tokens": 524288
@@ -1153,12 +1153,12 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000003"
+    "prompt": "0.00000002",
+    "completion": "0.000000108",
+    "input_cache_read": "0.000000007"
    },
    "top_provider": {
-    "max_completion_tokens": 393216
+    "max_completion_tokens": 384000
    },
    "supported_parameters": [
     "reasoning",
@@ -4098,7 +4098,7 @@
    },
    "pricing": {
     "prompt": "0.00000006",
-    "completion": "0.00000025",
+    "completion": "0.00000015",
     "input_cache_read": "0.000000015"
    },
    "top_provider": {
@@ -4145,9 +4145,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000834",
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042"
+    "prompt": "0.0000007506",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378"
    },
    "top_provider": {
     "max_completion_tokens": 64000
@@ -6266,9 +6266,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000132",
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033"
+    "prompt": "0.0000000825",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -9190,9 +9190,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000021",
-    "completion": "0.000000031",
-    "input_cache_read": "0.000000019"
+    "prompt": "0.00000007",
+    "completion": "0.000000103",
+    "input_cache_read": "0.000000063"
    },
    "top_provider": {
     "max_completion_tokens": 40960
@@ -10067,39 +10067,6 @@
      "coding_index": 36.2,
      "agentic_index": 0.9
     }
-   },
-   "ha_versione_gratuita": false
-  },
-  {
-   "id": "stepfun/step-3.5-flash",
-   "name": "StepFun: Step 3.5 Flash",
-   "created": 1769728337,
-   "context_length": 262144,
-   "description": "Step 3.5 Flash is StepFun's most capable open-source foundation model. Built on a sparse Mixture of Experts (MoE) architecture, it selectively activates only 11B of its 196B parameters per token....",
-   "hugging_face_id": "stepfun-ai/Step-3.5-Flash",
-   "expiration_date": "2026-11-15",
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text->text"
-   },
-   "pricing": {
-    "prompt": "0.0000001",
-    "completion": "0.0000003"
-   },
-   "top_provider": {
-    "max_completion_tokens": 65536
-   },
-   "supported_parameters": [
-    "reasoning",
-    "tools"
-   ],
-   "reasoning": {
-    "mandatory": true
    },
    "ha_versione_gratuita": false
   },
@@ -11520,41 +11487,6 @@
    "ha_versione_gratuita": false
   },
   {
-   "id": "qwen/qwen3-vl-30b-a3b-thinking",
-   "name": "Qwen: Qwen3 VL 30B A3B Thinking",
-   "created": 1759794479,
-   "context_length": 262144,
-   "description": "Qwen3-VL-30B-A3B-Thinking is a multimodal model that unifies strong text generation with visual understanding for images and videos. Its Thinking variant enhances reasoning in STEM, math, and complex tasks. It excels...",
-   "hugging_face_id": "Qwen/Qwen3-VL-30B-A3B-Thinking",
-   "expiration_date": "2026-11-15",
-   "architecture": {
-    "input_modalities": [
-     "text",
-     "image"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text+image->text"
-   },
-   "pricing": {
-    "prompt": "0.00000029",
-    "completion": "0.000001"
-   },
-   "top_provider": {
-    "max_completion_tokens": 235929
-   },
-   "supported_parameters": [
-    "reasoning",
-    "structured_outputs",
-    "tools"
-   ],
-   "reasoning": {
-    "mandatory": true
-   },
-   "ha_versione_gratuita": false
-  },
-  {
    "id": "qwen/qwen3-vl-30b-a3b-instruct",
    "name": "Qwen: Qwen3 VL 30B A3B Instruct",
    "created": 1759794476,
@@ -12312,12 +12244,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000003",
-    "completion": "0.00000013",
-    "input_cache_read": "0.00000003"
+    "prompt": "0.000000075",
+    "completion": "0.0000003",
+    "input_cache_read": "0.0000000375"
    },
    "top_provider": {
-    "max_completion_tokens": 117964
+    "max_completion_tokens": 65536
    },
    "supported_parameters": [
     "reasoning",
@@ -12434,7 +12366,6 @@
     "max_completion_tokens": 235929
    },
    "supported_parameters": [
-    "structured_outputs",
     "tools"
    ],
    "ha_versione_gratuita": false
@@ -12759,39 +12690,6 @@
     "max_completion_tokens": 8192
    },
    "supported_parameters": [],
-   "ha_versione_gratuita": false
-  },
-  {
-   "id": "tencent/hunyuan-a13b-instruct",
-   "name": "Tencent: Hunyuan A13B Instruct",
-   "created": 1751987664,
-   "context_length": 131072,
-   "description": "Hunyuan-A13B is a 13B active parameter Mixture-of-Experts (MoE) language model developed by Tencent, with a total parameter count of 80B and support for reasoning via Chain-of-Thought. It offers competitive benchmark...",
-   "hugging_face_id": "tencent/Hunyuan-A13B-Instruct",
-   "expiration_date": "2026-11-15",
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text->text"
-   },
-   "pricing": {
-    "prompt": "0.00000014",
-    "completion": "0.00000057"
-   },
-   "top_provider": {
-    "max_completion_tokens": 117964
-   },
-   "supported_parameters": [
-    "reasoning",
-    "structured_outputs"
-   ],
-   "reasoning": {
-    "mandatory": false
-   },
    "ha_versione_gratuita": false
   },
   {
