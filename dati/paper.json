@@ -1,6 +1,13 @@
 {
- "aggiornato": "2026-11-16T02:31:06+00:00",
+ "aggiornato": "2026-11-16T13:18:37+00:00",
  "paper": [
+  {
+   "titolo": "SWAM: Saliency-Weighted Asymmetric Merging for Efficient Vision Transformers",
+   "data": "2026-11-13",
+   "url": "http://arxiv.org/abs/2611.18057v1",
+   "id": "2611.18057v1",
+   "sommario": "Vision Transformers (ViTs) achieve strong performance on image recognition tasks, yet their quadratic self-attention complexity over input tokens creates prohibitive computational costs for practical deployment. Token reduction methods offer a practical solution by progressively "
+  },
   {
    "titolo": "S1Pert: Scalable Target-Specific Gene Response Prediction with System-One Intelligence",
    "data": "2026-11-13",
@@ -77,13 +84,6 @@
    "url": "http://arxiv.org/abs/2611.15130v1",
    "id": "2611.15130v1",
    "sommario": "LLM workloads sometimes ask many independent questions about the same long document, as in document QA, data labeling and LLM-based evaluation. Prefix caching removes the redundant prefill shared by these queries, but each decode step still reads the document's key-value (KV) cac"
-  },
-  {
-   "titolo": "Recompute or Restore? Host-Tier KV for Multi-Model Agent Workflows on a Static-Graph NPU Serving Stack",
-   "data": "2026-11-11",
-   "url": "http://arxiv.org/abs/2611.15126v1",
-   "id": "2611.15126v1",
-   "sommario": "Agent workflows issue dependent model calls that share long context prefixes, so serving them efficiently depends on reusing the key-value (KV) cache of those prefixes. On accelerators that compile model graphs ahead of time, however, the device KV budget is fixed, and prefixes e"
   }
  ]
 }
