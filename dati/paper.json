@@ -1,6 +1,13 @@
 {
- "aggiornato": "2026-11-15T21:25:48+00:00",
+ "aggiornato": "2026-11-16T02:31:06+00:00",
  "paper": [
+  {
+   "titolo": "S1Pert: Scalable Target-Specific Gene Response Prediction with System-One Intelligence",
+   "data": "2026-11-13",
+   "url": "http://arxiv.org/abs/2611.17705v1",
+   "id": "2611.17705v1",
+   "sommario": "Predicting transcriptional responses to unseen genetic perturbations is essential for extending CRISPR screens across vast target--gene combinations. However, models can achieve strong aggregate predictive performance by reproducing historical gene-level response frequencies with"
+  },
   {
    "titolo": "TTB: Test-time Baking for Efficient Rendering of Decoder-only View Synthesis Models",
    "data": "2026-11-12",
@@ -77,13 +84,6 @@
    "url": "http://arxiv.org/abs/2611.15126v1",
    "id": "2611.15126v1",
    "sommario": "Agent workflows issue dependent model calls that share long context prefixes, so serving them efficiently depends on reusing the key-value (KV) cache of those prefixes. On accelerators that compile model graphs ahead of time, however, the device KV budget is fixed, and prefixes e"
-  },
-  {
-   "titolo": "Keep Images in Sight: Visual Position Re-Anchoring for Long-Context MLLMs",
-   "data": "2026-11-11",
-   "url": "http://arxiv.org/abs/2611.15100v1",
-   "id": "2611.15100v1",
-   "sommario": "Long-context multimodal intelligence requires revisiting earlier images as conversations and documents accumulate, yet retaining an image does not guarantee reliable access to its details. By varying context length, redistributing a fixed text passage around the image, and changi"
   }
  ]
 }
