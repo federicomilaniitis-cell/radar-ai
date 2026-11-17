@@ -1,89 +1,89 @@
 {
- "aggiornato": "2026-11-17T00:36:55+00:00",
+ "aggiornato": "2026-11-17T14:02:27+00:00",
  "paper": [
   {
-   "titolo": "SWAM: Saliency-Weighted Asymmetric Merging for Efficient Vision Transformers",
-   "data": "2026-11-13",
-   "url": "http://arxiv.org/abs/2611.18057v1",
-   "id": "2611.18057v1",
-   "sommario": "Vision Transformers (ViTs) achieve strong performance on image recognition tasks, yet their quadratic self-attention complexity over input tokens creates prohibitive computational costs for practical deployment. Token reduction methods offer a practical solution by progressively "
+   "titolo": "Latent Lattice Language Models",
+   "data": "2026-11-16",
+   "url": "http://arxiv.org/abs/2611.21608v1",
+   "id": "2611.21608v1",
+   "sommario": "Language models typically increase per-token computation through deeper or looped layers and latent reasoning steps, while richer residual connections improve information flow across layers. We instead increase computational capacity: the number of active computational states a m"
   },
   {
-   "titolo": "S1Pert: Scalable Target-Specific Gene Response Prediction with System-One Intelligence",
-   "data": "2026-11-13",
-   "url": "http://arxiv.org/abs/2611.17705v1",
-   "id": "2611.17705v1",
-   "sommario": "Predicting transcriptional responses to unseen genetic perturbations is essential for extending CRISPR screens across vast target--gene combinations. However, models can achieve strong aggregate predictive performance by reproducing historical gene-level response frequencies with"
+   "titolo": "Reference Forcing: Long Video Generation with Region-Guided Drift Correction",
+   "data": "2026-11-16",
+   "url": "http://arxiv.org/abs/2611.21559v1",
+   "id": "2611.21559v1",
+   "sommario": "Long video generation should keep the subject and background consistent while supporting rich, natural motion. However, autoregressive models are often distilled with distribution matching distillation (DMD) over short windows, which does not train them to keep this consistency o"
   },
   {
-   "titolo": "TTB: Test-time Baking for Efficient Rendering of Decoder-only View Synthesis Models",
-   "data": "2026-11-12",
-   "url": "http://arxiv.org/abs/2611.17331v1",
-   "id": "2611.17331v1",
-   "sommario": "Decoder-only Large View Synthesis Models (LVSMs) with KV-cache have recently achieved state-of-the-art quality by regressing novel views from neural networks without reconstructing 3D geometry, while Test-Time Training (TTT) layers save computation but sacrifice quality. We propo"
+   "titolo": "Out of Sight, Into Memory: Compact Visual Latents Retain Local Evidence in Ultra-High-Resolution Remote Sensing",
+   "data": "2026-11-16",
+   "url": "http://arxiv.org/abs/2611.21457v1",
+   "id": "2611.21457v1",
+   "sommario": "Question answering over ultra-high-resolution (UHR) remote sensing scenes poses a tension for multimodal large language models: global overviews obscure small objects and local attributes, whereas detailed crops consume substantial context. Compressing inspected crops into short "
   },
   {
-   "titolo": "Theoretical and Empirical Analysis of Sparse Convolution",
-   "data": "2026-11-12",
-   "url": "http://arxiv.org/abs/2611.17212v1",
-   "id": "2611.17212v1",
-   "sommario": "Deep neural networks for image processing are increasingly deployed on resource-constrained edge devices such as drones, medical systems, and smartphones, where limited computational resources and memory bandwidth pose significant challenges for efficient inference. Pruning durin"
+   "titolo": "MovieRoll: A Systematic Framework for Rolling Out Long-Form Videos",
+   "data": "2026-11-16",
+   "url": "http://arxiv.org/abs/2611.21339v1",
+   "id": "2611.21339v1",
+   "sommario": "Streaming video generation must sustain quality beyond the training horizon while handling self-generated history and growing cache costs. To address these challenges, we present MovieRoll, a base-to-distilled framework that connects streaming fine-tuning, long-rollout distillati"
   },
   {
-   "titolo": "Towards Green Text Generation: Memory-Based Speculative Decoding",
-   "data": "2026-11-12",
-   "url": "http://arxiv.org/abs/2611.16714v1",
-   "id": "2611.16714v1",
-   "sommario": "Speculative decoding accelerates text generation with large language models by letting a cheap draft model propose tokens that a large verifier checks in a single forward pass. We introduce Olifant, a draft model built on a memory-based classifier. It predicts the next token from"
+   "titolo": "Latent Bridge: Asking for Help Without Words",
+   "data": "2026-11-16",
+   "url": "http://arxiv.org/abs/2611.21301v1",
+   "id": "2611.21301v1",
+   "sommario": "Text-based model collaboration requires a large model to generate intermediate responses before a smaller model can use its guidance, adding large-model decoding cost to inference. We introduce POND (Prefill-Only, No-Decode), a method that uses a frozen large sender for prefill a"
   },
   {
-   "titolo": "Reducing Batch Makespan for LLM Agent Workloads through Inference-Environment Coordination",
-   "data": "2026-11-12",
-   "url": "http://arxiv.org/abs/2611.16661v1",
-   "id": "2611.16661v1",
-   "sommario": "Efficient batch execution of agent tasks is critical to LLM training and development workflows, including benchmark evaluation, synthetic-data generation, and RL rollouts. Since these tasks alternate between LLM inference and environment interaction, we present coordinated optimi"
+   "titolo": "SURMA: Efficient Fine-Grained Communication Offload for SuperPOD",
+   "data": "2026-11-16",
+   "url": "http://arxiv.org/abs/2611.21274v1",
+   "id": "2611.21274v1",
+   "sommario": "GPU SuperPODs underpin large language model (LLM) serving, but growing bandwidth and round-trip times make inter-GPU communication consume increasing compute resources. SM-driven remote memory access occupies shared memory or registers for in-flight data and competes for SM-to-No"
   },
   {
-   "titolo": "HeMeR: Heterogeneous Memory Reconciliation for Embodied Agents via Structured KV Reuse",
-   "data": "2026-11-12",
-   "url": "http://arxiv.org/abs/2611.16487v1",
-   "id": "2611.16487v1",
-   "sommario": "Embodied agents make decisions by combining information from heterogeneous memory modules, including declarative memory for explicit knowledge, procedural memory for learned routines, and working memory for current observations. During interaction, the memory contents required fo"
+   "titolo": "MiSTiQ: MicroScaling Trellis Quantization for Extreme KV Cache Compression",
+   "data": "2026-11-16",
+   "url": "http://arxiv.org/abs/2611.21216v1",
+   "id": "2611.21216v1",
+   "sommario": "Modern large language models (LLMs) increasingly support longer contexts and serve more concurrent requests, increasing both sequence lengths and batch sizes. Both trends increase KV-cache size and memory traffic during inference. KV-cache quantization reduces these costs, with r"
   },
   {
-   "titolo": "Beyond Compressing Everything: Contrastive Memory Learning for Selective Context Compression",
-   "data": "2026-11-12",
-   "url": "http://arxiv.org/abs/2611.16384v1",
-   "id": "2611.16384v1",
-   "sommario": "As large language models (LLMs) advance toward increasingly long inputs, soft context compression offers a promising approach to efficient inference by converting long inputs into compact memory slots. Under limited memory budgets, effective context compression remains challengin"
+   "titolo": "A COMPASS to the Galaxy: Joint nucleosynthetic yield set comparison and parameter inference in Galactic chemical evolution",
+   "data": "2026-11-16",
+   "url": "http://arxiv.org/abs/2611.21175v1",
+   "id": "2611.21175v1",
+   "sommario": "Galactic Chemical Evolution (GCE) models connect stellar nucleosynthesis to observed abundance patterns, but their interpretation requires simultaneous parameter inference and comparison between competing stellar yield prescriptions. This remains challenging due to intractable li"
   },
   {
-   "titolo": "KVPath: Connecting Key-Value Representations Across Transformer Layers",
-   "data": "2026-11-11",
-   "url": "http://arxiv.org/abs/2611.16072v1",
-   "id": "2611.16072v1",
-   "sommario": "Transformers typically cache an independent key-value (KV) representation for each token at every layer. Recent work reveals that a token's KV representations across neighboring layers are correlated and contain shared information. We hypothesize that this correlation implies inc"
+   "titolo": "ScoutCache: Efficient Few-Step Autoregressive Video Diffusion via Conditional Readout and Selective Caching",
+   "data": "2026-11-16",
+   "url": "http://arxiv.org/abs/2611.21038v1",
+   "id": "2611.21038v1",
+   "sommario": "Few-step autoregressive video diffusion enables efficient long video generation, but inference still incurs substantial computational costs from repeated denoising and KV cache operations. Existing acceleration methods reduce parts of this overhead, while historical KV reading an"
   },
   {
-   "titolo": "TraceKV: Policy-Preserving Low-Rank KV Cache Compression for Reasoning Vision-Language Models",
-   "data": "2026-11-11",
-   "url": "http://arxiv.org/abs/2611.15569v1",
-   "id": "2611.15569v1",
-   "sommario": "Reasoning vision-language models (VLMs) impose substantial KV cache demands from both large multimodal contexts and growing reasoning traces. Low-rank KV compression has emerged as a promising paradigm that stores low-dimensional latents of KV states and can be combined with quan"
+   "titolo": "Disaggregated LLM Inference in Space: A Communication Feasibility Study",
+   "data": "2026-11-16",
+   "url": "http://arxiv.org/abs/2611.20893v1",
+   "id": "2611.20893v1",
+   "sommario": "Orbital data centers could enable large-scale AI inference, but efficiently serving a frontier language model to many users may require several compute satellites to cooperate over optical links. While disaggregated inference, which splits large language model (LLM) serving acros"
   },
   {
-   "titolo": "LLMRunner: Closed Workload Model Performance Testing Framework for LLM Servings",
-   "data": "2026-11-11",
-   "url": "http://arxiv.org/abs/2611.15372v1",
-   "id": "2611.15372v1",
-   "sommario": "Performance testing large language model (LLM) serving engines is a crucial requirement considering the criticality of the infrastructure for deploying conversational AI at scale. Most of the benchmarking tools used to carryout performance evaluation of LLM serving do not capture"
+   "titolo": "Memory-Efficient Speculative Decoding with Quantized Draft KV Cache",
+   "data": "2026-11-16",
+   "url": "http://arxiv.org/abs/2611.20565v1",
+   "id": "2611.20565v1",
+   "sommario": "Speculative decoding reduces generation cost, but it stores two KV caches: one for the target model and one for the draft model. We reduce this extra memory by quantizing the draft cache. The target cache and verifier remain in BF16, so that compression cannot change the target m"
   },
   {
-   "titolo": "Read Once, Answer Many: Parallel Prompting for Shared-Context LLM Inference",
-   "data": "2026-11-11",
-   "url": "http://arxiv.org/abs/2611.15130v1",
-   "id": "2611.15130v1",
-   "sommario": "LLM workloads sometimes ask many independent questions about the same long document, as in document QA, data labeling and LLM-based evaluation. Prefix caching removes the redundant prefill shared by these queries, but each decode step still reads the document's key-value (KV) cac"
+   "titolo": "GaugeRoPE: RoPE-Compatible Executable Latent Attention",
+   "data": "2026-11-16",
+   "url": "http://arxiv.org/abs/2611.20524v1",
+   "id": "2611.20524v1",
+   "sommario": "Latent KV cache compression reduces memory footprint by mapping historical keys and values into compact representations. However, generic compressed key states require reconstruction to native dimension before applying RoPE and computing attention scores, adding sequence-scaling "
   }
  ]
 }
