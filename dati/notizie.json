@@ -1,6 +1,15 @@
 {
- "aggiornato": "2026-11-17T14:02:27+00:00",
+ "aggiornato": "2026-11-17T23:42:43+00:00",
  "notizie": [
+  {
+   "tag": "crit",
+   "tagT": "Chiusura",
+   "data": "2026-11-17",
+   "titolo": "Inkling 2 Small (free) viene spento fra 2 giorni",
+   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-19. Dopo, le richieste smettono di funzionare.",
+   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
+   "id": "fine-thinkingmachines-inkling-2-small-free"
+  },
   {
    "tag": "crit",
    "tagT": "Chiusura",
@@ -207,15 +216,6 @@
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-11. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-bytedance-seed-seed-1-6"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-11-11",
-   "titolo": "MiniMax M2.5: il prezzo in entrata scende del 10%",
-   "testo": "Da $0,3 a $0,27 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-minimax-minimax-m2-5prompt"
   }
  ]
 }
