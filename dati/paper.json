@@ -1,89 +1,89 @@
 {
- "aggiornato": "2026-11-17T23:42:43+00:00",
+ "aggiornato": "2026-11-18T13:37:18+00:00",
  "paper": [
   {
-   "titolo": "Latent Lattice Language Models",
-   "data": "2026-11-16",
-   "url": "http://arxiv.org/abs/2611.21608v1",
-   "id": "2611.21608v1",
-   "sommario": "Language models typically increase per-token computation through deeper or looped layers and latent reasoning steps, while richer residual connections improve information flow across layers. We instead increase computational capacity: the number of active computational states a m"
+   "titolo": "FastFrames: Video Generation at Interactive Latency",
+   "data": "2026-11-17",
+   "url": "http://arxiv.org/abs/2611.23226v1",
+   "id": "2611.23226v1",
+   "sommario": "Autoregressive video diffusion models generate frames based on new observations and inputs, making them a promising medium for interactive visual experiences. However, existing models are orders of magnitude too slow for fluid interaction. This paper introduces FastFrames, a fami"
   },
   {
-   "titolo": "Reference Forcing: Long Video Generation with Region-Guided Drift Correction",
-   "data": "2026-11-16",
-   "url": "http://arxiv.org/abs/2611.21559v1",
-   "id": "2611.21559v1",
-   "sommario": "Long video generation should keep the subject and background consistent while supporting rich, natural motion. However, autoregressive models are often distilled with distribution matching distillation (DMD) over short windows, which does not train them to keep this consistency o"
+   "titolo": "Storing the Gemma 4 K=V Cache Once: Exact Global-KV Memory Savings in a Paged Serving Engine with Unchanged Attention Kernels",
+   "data": "2026-11-17",
+   "url": "http://arxiv.org/abs/2611.23035v1",
+   "id": "2611.23035v1",
+   "sommario": "In the global attention layers of Gemma 4 31B, the value is the normalized key projection, and the key is the value scaled by a fixed weight, with rotary position encoding on one quarter of its dimensions. The Gemma 4 report states that this design reduces the global KV cache by "
   },
   {
-   "titolo": "Out of Sight, Into Memory: Compact Visual Latents Retain Local Evidence in Ultra-High-Resolution Remote Sensing",
-   "data": "2026-11-16",
-   "url": "http://arxiv.org/abs/2611.21457v1",
-   "id": "2611.21457v1",
-   "sommario": "Question answering over ultra-high-resolution (UHR) remote sensing scenes poses a tension for multimodal large language models: global overviews obscure small objects and local attributes, whereas detailed crops consume substantial context. Compressing inspected crops into short "
+   "titolo": "Training-Free Building Change Detection with Example-Induced Discriminants",
+   "data": "2026-11-17",
+   "url": "http://arxiv.org/abs/2611.22964v1",
+   "id": "2611.22964v1",
+   "sommario": "Building change detection (BCD) relies on dense annotations that are costly to collect across regions. A few annotated examples offer a more economical way to specify the target, but change maps provide incomplete building supervision: they label only changed buildings and leave "
   },
   {
-   "titolo": "MovieRoll: A Systematic Framework for Rolling Out Long-Form Videos",
-   "data": "2026-11-16",
-   "url": "http://arxiv.org/abs/2611.21339v1",
-   "id": "2611.21339v1",
-   "sommario": "Streaming video generation must sustain quality beyond the training horizon while handling self-generated history and growing cache costs. To address these challenges, we present MovieRoll, a base-to-distilled framework that connects streaming fine-tuning, long-rollout distillati"
+   "titolo": "LaFlash: Capacity-Driven Acceleration for Coding Agent Workflows via QLC-HBF",
+   "data": "2026-11-17",
+   "url": "http://arxiv.org/abs/2611.22746v1",
+   "id": "2611.22746v1",
+   "sommario": "As large language models (LLMs) evolve toward agentic AI, coding agents are emerging as memory-intensive workloads that repeatedly reuse persistent states, including contexts and KV caches. Emerging agentic workflows, including Loop/Graph Engineering, cause state amplification th"
   },
   {
-   "titolo": "Latent Bridge: Asking for Help Without Words",
-   "data": "2026-11-16",
-   "url": "http://arxiv.org/abs/2611.21301v1",
-   "id": "2611.21301v1",
-   "sommario": "Text-based model collaboration requires a large model to generate intermediate responses before a smaller model can use its guidance, adding large-model decoding cost to inference. We introduce POND (Prefill-Only, No-Decode), a method that uses a frozen large sender for prefill a"
+   "titolo": "InfuseLoop: Cross-Trajectory Latent Injection for Scalable Parallel Looped Transformers",
+   "data": "2026-11-17",
+   "url": "http://arxiv.org/abs/2611.22426v1",
+   "id": "2611.22426v1",
+   "sommario": "Parallel Looped Transformers (PLTs) use otherwise idle decoding compute by overlapping recurrent iterations. However, vanilla PLTs scale poorly with depth: they exhibit training-loss spikes, and their quality gains shrink as more loops are added. The benefit of additional loops d"
   },
   {
-   "titolo": "SURMA: Efficient Fine-Grained Communication Offload for SuperPOD",
-   "data": "2026-11-16",
-   "url": "http://arxiv.org/abs/2611.21274v1",
-   "id": "2611.21274v1",
-   "sommario": "GPU SuperPODs underpin large language model (LLM) serving, but growing bandwidth and round-trip times make inter-GPU communication consume increasing compute resources. SM-driven remote memory access occupies shared memory or registers for in-flight data and competes for SM-to-No"
+   "titolo": "SR-VLA: Stall-Reduced VLA Execution via Predicted-Input Lookahead and Selective KV Cache Repair",
+   "data": "2026-11-17",
+   "url": "http://arxiv.org/abs/2611.22356v1",
+   "id": "2611.22356v1",
+   "sommario": "Vision-language-action (VLA) policies incur control stalls when inference blocks the next action chunk. Asynchronous early inference can hide latency, but its results may be inconsistent with the arriving actual inputs. Unconditional reuse risks acting on mismatched inputs, where"
   },
   {
-   "titolo": "MiSTiQ: MicroScaling Trellis Quantization for Extreme KV Cache Compression",
-   "data": "2026-11-16",
-   "url": "http://arxiv.org/abs/2611.21216v1",
-   "id": "2611.21216v1",
-   "sommario": "Modern large language models (LLMs) increasingly support longer contexts and serve more concurrent requests, increasing both sequence lengths and batch sizes. Both trends increase KV-cache size and memory traffic during inference. KV-cache quantization reduces these costs, with r"
+   "titolo": "Cross-Modal StateKV Injection for Communication in Multi-LLM Systems across Temporal Segments",
+   "data": "2026-11-17",
+   "url": "http://arxiv.org/abs/2611.22304v1",
+   "id": "2611.22304v1",
+   "sommario": "Video understanding with multiple multimodal language models requires a communication interface that can transfer complementary visual observations. Text-based communication is interpretable, but introduces an intermediate generation stage and can omit information relevant to sub"
   },
   {
-   "titolo": "A COMPASS to the Galaxy: Joint nucleosynthetic yield set comparison and parameter inference in Galactic chemical evolution",
-   "data": "2026-11-16",
-   "url": "http://arxiv.org/abs/2611.21175v1",
-   "id": "2611.21175v1",
-   "sommario": "Galactic Chemical Evolution (GCE) models connect stellar nucleosynthesis to observed abundance patterns, but their interpretation requires simultaneous parameter inference and comparison between competing stellar yield prescriptions. This remains challenging due to intractable li"
+   "titolo": "XM-Sparse: High-Throughput Sparse-Attention LLM Serving over Scale-up Memory Pools",
+   "data": "2026-11-17",
+   "url": "http://arxiv.org/abs/2611.22280v1",
+   "id": "2611.22280v1",
+   "sommario": "Sparse attention has been increasingly adopted by production LLMs for long-context inference, yet serving systems must still retain the full KV history, making GPU HBM capacity a key limit on serving concurrency. Existing systems offload the KV cache to host memory, but suffer fr"
   },
   {
-   "titolo": "ScoutCache: Efficient Few-Step Autoregressive Video Diffusion via Conditional Readout and Selective Caching",
-   "data": "2026-11-16",
-   "url": "http://arxiv.org/abs/2611.21038v1",
-   "id": "2611.21038v1",
-   "sommario": "Few-step autoregressive video diffusion enables efficient long video generation, but inference still incurs substantial computational costs from repeated denoising and KV cache operations. Existing acceleration methods reduce parts of this overhead, while historical KV reading an"
+   "titolo": "TAILROLL: Tail-Aware Rollout Acceleration for RL-Based LLM Post-Training",
+   "data": "2026-11-17",
+   "url": "http://arxiv.org/abs/2611.22206v1",
+   "id": "2611.22206v1",
+   "sommario": "RL post-training of large language models (LLMs) is bottlenecked by rollout: heavy-tailed responses leave engines idle as each step waits for the longest response. Asynchronous training masks, but does not eliminate, idle time. We distinguish imbalance waste (uneven placement and"
   },
   {
-   "titolo": "Disaggregated LLM Inference in Space: A Communication Feasibility Study",
-   "data": "2026-11-16",
-   "url": "http://arxiv.org/abs/2611.20893v1",
-   "id": "2611.20893v1",
-   "sommario": "Orbital data centers could enable large-scale AI inference, but efficiently serving a frontier language model to many users may require several compute satellites to cooperate over optical links. While disaggregated inference, which splits large language model (LLM) serving acros"
+   "titolo": "RISA: Recoverable Sparse Attention for Block-Diffusion Language Models",
+   "data": "2026-11-17",
+   "url": "http://arxiv.org/abs/2611.22191v1",
+   "id": "2611.22191v1",
+   "sommario": "Block-wise diffusion language models (DLMs) refine multiple tokens in parallel, offering an alternative to token-by-token autoregressive decoding. Their long-context inference, however, remains bottlenecked by memory-bound attention: every denoising step repeatedly reads a growin"
   },
   {
-   "titolo": "Memory-Efficient Speculative Decoding with Quantized Draft KV Cache",
-   "data": "2026-11-16",
-   "url": "http://arxiv.org/abs/2611.20565v1",
-   "id": "2611.20565v1",
-   "sommario": "Speculative decoding reduces generation cost, but it stores two KV caches: one for the target model and one for the draft model. We reduce this extra memory by quantizing the draft cache. The target cache and verifier remain in BF16, so that compression cannot change the target m"
+   "titolo": "HyCoInfer: Cloud-Edge Collaborative Inference for Large Language Models on Heterogeneous GPU-FPGA Architectures",
+   "data": "2026-11-17",
+   "url": "http://arxiv.org/abs/2611.22086v1",
+   "id": "2611.22086v1",
+   "sommario": "Large language model (LLM) serving relies predominantly on cloud GPUs, yet autoregressive decoding is memory-bound and often leaves their arithmetic units underutilized. Edge FPGAs offer attractive decoding efficiency, but are ill suited to sustaining a high-concurrency serving w"
   },
   {
-   "titolo": "GaugeRoPE: RoPE-Compatible Executable Latent Attention",
+   "titolo": "KV-LTM: Persistent Per-Session KV Caches as Long-Term Memory for Personal Assistants",
    "data": "2026-11-16",
-   "url": "http://arxiv.org/abs/2611.20524v1",
-   "id": "2611.20524v1",
-   "sommario": "Latent KV cache compression reduces memory footprint by mapping historical keys and values into compact representations. However, generic compressed key states require reconstruction to native dimension before applying RoPE and computing attention scores, adding sequence-scaling "
+   "url": "http://arxiv.org/abs/2611.21998v1",
+   "id": "2611.21998v1",
+   "sommario": "Personal assistants accumulate months of conversations, but today's long-term memory stacks put derivation or selection between a question and its evidence. In a system-level comparison on LongMemEval, two commercial assistants scored well below the same model reading the history"
   }
  ]
 }

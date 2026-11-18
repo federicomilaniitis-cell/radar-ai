@@ -1,6 +1,6 @@
 {
- "aggiornato": "2026-11-17T23:42:43+00:00",
- "aggiornato_it": "17 novembre 2026",
+ "aggiornato": "2026-11-18T13:37:18+00:00",
+ "aggiornato_it": "18 novembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 380,
  "modelli": [
@@ -94,6 +94,23 @@
     ],
     "default_effort": "medium"
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 62.1,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": 60.9,
+     "strategy_and_ops_index": 63.3,
+     "legal_index": 58.7,
+     "healthcare_and_medical_index": 57,
+     "engineering_index": 66.6,
+     "economics_index": 61.1,
+     "cyber_index": 40.8,
+     "openness_index": null,
+     "multilingual_index": null,
+     "decision_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -186,6 +203,23 @@
     ],
     "default_effort": "medium"
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 57.3,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": 57.2,
+     "strategy_and_ops_index": 59.4,
+     "legal_index": 55,
+     "healthcare_and_medical_index": 53.3,
+     "engineering_index": 61.2,
+     "economics_index": 57.4,
+     "cyber_index": 37.7,
+     "openness_index": null,
+     "multilingual_index": null,
+     "decision_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -194,6 +228,7 @@
    "created": 1794838706,
    "context_length": 1048576,
    "description": "Hy4 flash is a cost-efficient variant of [Hy4](https://openrouter.ai/tencent/hy4) from Tencent, served with roughly a quarter of the flagship's parameter count for lower latency and cost. It targets code assistance, agent...",
+   "hugging_face_id": "tencent/Hy4-flash",
    "architecture": {
     "input_modalities": [
      "text",
@@ -264,6 +299,23 @@
      "none"
     ],
     "default_effort": "high"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 42.9,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": 54.1,
+     "strategy_and_ops_index": 56.9,
+     "legal_index": 49.6,
+     "healthcare_and_medical_index": 48.2,
+     "engineering_index": 50.1,
+     "economics_index": 51.3,
+     "cyber_index": null,
+     "openness_index": null,
+     "multilingual_index": null,
+     "decision_index": null
+    }
    },
    "ha_versione_gratuita": false
   },
@@ -353,12 +405,12 @@
      "intelligence_index": 53.9,
      "coding_index": null,
      "agentic_index": null,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
+     "finance_and_accounting_index": 58.1,
+     "strategy_and_ops_index": 57.7,
+     "legal_index": 56.7,
+     "healthcare_and_medical_index": 53.3,
+     "engineering_index": 60.1,
+     "economics_index": 55,
      "cyber_index": null,
      "openness_index": null,
      "multilingual_index": null,
@@ -496,12 +548,12 @@
      "intelligence_index": 60,
      "coding_index": null,
      "agentic_index": null,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
+     "finance_and_accounting_index": 62.6,
+     "strategy_and_ops_index": 60.9,
+     "legal_index": 62,
+     "healthcare_and_medical_index": 56.8,
+     "engineering_index": 65.3,
+     "economics_index": 59.6,
      "cyber_index": null,
      "openness_index": null,
      "multilingual_index": null,
@@ -597,14 +649,14 @@
      "intelligence_index": 30.6,
      "coding_index": null,
      "agentic_index": null,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
+     "finance_and_accounting_index": 44.3,
+     "strategy_and_ops_index": 43.5,
+     "legal_index": 41.6,
+     "healthcare_and_medical_index": 40.8,
+     "engineering_index": 38.9,
+     "economics_index": 43.4,
      "cyber_index": null,
-     "openness_index": null,
+     "openness_index": 38.9,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -657,14 +709,14 @@
      "intelligence_index": 30.6,
      "coding_index": null,
      "agentic_index": null,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
+     "finance_and_accounting_index": 44.3,
+     "strategy_and_ops_index": 43.5,
+     "legal_index": 41.6,
+     "healthcare_and_medical_index": 40.8,
+     "engineering_index": 38.9,
+     "economics_index": 43.4,
      "cyber_index": null,
-     "openness_index": null,
+     "openness_index": 38.9,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -719,12 +771,12 @@
      "intelligence_index": 64.6,
      "coding_index": null,
      "agentic_index": null,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
+     "finance_and_accounting_index": 64.7,
+     "strategy_and_ops_index": 67.4,
+     "legal_index": 63.3,
+     "healthcare_and_medical_index": 65.4,
+     "engineering_index": 72.6,
+     "economics_index": 66.5,
      "cyber_index": null,
      "openness_index": null,
      "multilingual_index": null,
@@ -779,6 +831,23 @@
     ],
     "default_effort": "max"
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 36,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": 44.6,
+     "strategy_and_ops_index": 48.7,
+     "legal_index": 38.5,
+     "healthcare_and_medical_index": 41.3,
+     "engineering_index": 41.8,
+     "economics_index": 41,
+     "cyber_index": null,
+     "openness_index": null,
+     "multilingual_index": null,
+     "decision_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -813,6 +882,23 @@
    "reasoning": {
     "mandatory": true
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 6,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": 16.8,
+     "strategy_and_ops_index": 8.7,
+     "legal_index": 16.1,
+     "healthcare_and_medical_index": null,
+     "engineering_index": 16.3,
+     "economics_index": 16,
+     "cyber_index": null,
+     "openness_index": null,
+     "multilingual_index": null,
+     "decision_index": null
+    }
+   },
    "ha_versione_gratuita": true
   },
   {
@@ -845,6 +931,23 @@
    ],
    "reasoning": {
     "mandatory": true
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 6,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": 16.8,
+     "strategy_and_ops_index": 8.7,
+     "legal_index": 16.1,
+     "healthcare_and_medical_index": null,
+     "engineering_index": 16.3,
+     "economics_index": 16,
+     "cyber_index": null,
+     "openness_index": null,
+     "multilingual_index": null,
+     "decision_index": null
+    }
    },
    "ha_versione_gratuita": true
   },
@@ -1039,13 +1142,13 @@
      "intelligence_index": 34.6,
      "coding_index": null,
      "agentic_index": null,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
+     "finance_and_accounting_index": 38,
+     "strategy_and_ops_index": 48.7,
+     "legal_index": 35.4,
+     "healthcare_and_medical_index": 42.9,
+     "engineering_index": 41.1,
+     "economics_index": 38.3,
+     "cyber_index": 58,
      "openness_index": null,
      "multilingual_index": null,
      "decision_index": null
@@ -1097,7 +1200,7 @@
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
+     "openness_index": 44.4,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -1331,12 +1434,12 @@
      "intelligence_index": 51.3,
      "coding_index": null,
      "agentic_index": null,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
+     "finance_and_accounting_index": 49,
+     "strategy_and_ops_index": 50,
+     "legal_index": 46.4,
+     "healthcare_and_medical_index": 44.7,
+     "engineering_index": 54.7,
+     "economics_index": 48.5,
      "cyber_index": null,
      "openness_index": null,
      "multilingual_index": null,
@@ -1392,14 +1495,14 @@
      "intelligence_index": 46.5,
      "coding_index": null,
      "agentic_index": null,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
-     "openness_index": null,
+     "finance_and_accounting_index": 53.3,
+     "strategy_and_ops_index": 57.6,
+     "legal_index": 49.2,
+     "healthcare_and_medical_index": 51.6,
+     "engineering_index": 50.9,
+     "economics_index": 49.9,
+     "cyber_index": 64.1,
+     "openness_index": 33.3,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -1457,9 +1560,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000075",
-    "completion": "0.0000003",
-    "input_cache_read": "0.0000000075"
+    "prompt": "0.00000015",
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000015"
    },
    "top_provider": {
     "max_completion_tokens": 524288
@@ -1485,14 +1588,14 @@
      "intelligence_index": 29.1,
      "coding_index": null,
      "agentic_index": null,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
+     "finance_and_accounting_index": 39.1,
+     "strategy_and_ops_index": 50.8,
+     "legal_index": 33,
+     "healthcare_and_medical_index": 36.8,
+     "engineering_index": 34.3,
+     "economics_index": 37.4,
      "cyber_index": null,
-     "openness_index": null,
+     "openness_index": 27.8,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -1542,17 +1645,17 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 28.6,
+     "intelligence_index": 32.6,
      "coding_index": null,
      "agentic_index": null,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
-     "openness_index": null,
+     "finance_and_accounting_index": 42.2,
+     "strategy_and_ops_index": 49.2,
+     "legal_index": 37.7,
+     "healthcare_and_medical_index": 41.3,
+     "engineering_index": 37.6,
+     "economics_index": 38.5,
+     "cyber_index": 56.8,
+     "openness_index": 44.4,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -1639,14 +1742,14 @@
      "intelligence_index": 17.7,
      "coding_index": null,
      "agentic_index": null,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
-     "openness_index": null,
+     "finance_and_accounting_index": 30.2,
+     "strategy_and_ops_index": 34.5,
+     "legal_index": 28.1,
+     "healthcare_and_medical_index": 30.7,
+     "engineering_index": 25.2,
+     "economics_index": 27.1,
+     "cyber_index": 33.7,
+     "openness_index": 38.9,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -1803,14 +1906,14 @@
      "intelligence_index": 24.9,
      "coding_index": null,
      "agentic_index": null,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
+     "finance_and_accounting_index": 42,
+     "strategy_and_ops_index": 43.4,
+     "legal_index": 39.6,
+     "healthcare_and_medical_index": 39.1,
+     "engineering_index": 35.1,
+     "economics_index": 39.6,
      "cyber_index": null,
-     "openness_index": null,
+     "openness_index": 27.8,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -1856,14 +1959,14 @@
      "intelligence_index": 13.6,
      "coding_index": null,
      "agentic_index": null,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
+     "finance_and_accounting_index": 26.7,
+     "strategy_and_ops_index": 21.8,
+     "legal_index": 25.3,
+     "healthcare_and_medical_index": 21,
+     "engineering_index": 23.5,
+     "economics_index": 26.1,
      "cyber_index": null,
-     "openness_index": null,
+     "openness_index": 83.3,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -1908,14 +2011,14 @@
      "intelligence_index": 13.6,
      "coding_index": null,
      "agentic_index": null,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
+     "finance_and_accounting_index": 26.7,
+     "strategy_and_ops_index": 21.8,
+     "legal_index": 25.3,
+     "healthcare_and_medical_index": 21,
+     "engineering_index": 23.5,
+     "economics_index": 26.1,
      "cyber_index": null,
-     "openness_index": null,
+     "openness_index": 83.3,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -2093,12 +2196,12 @@
      "intelligence_index": 50.4,
      "coding_index": null,
      "agentic_index": null,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
+     "finance_and_accounting_index": 55.9,
+     "strategy_and_ops_index": 57.2,
+     "legal_index": 54.6,
+     "healthcare_and_medical_index": 51.3,
+     "engineering_index": 57.3,
+     "economics_index": 52.6,
      "cyber_index": null,
      "openness_index": null,
      "multilingual_index": null,
@@ -2211,12 +2314,12 @@
      "intelligence_index": 43.6,
      "coding_index": null,
      "agentic_index": null,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
+     "finance_and_accounting_index": 51.1,
+     "strategy_and_ops_index": 54.5,
+     "legal_index": 46.9,
+     "healthcare_and_medical_index": 48.7,
+     "engineering_index": 49.6,
+     "economics_index": 49.5,
      "cyber_index": null,
      "openness_index": null,
      "multilingual_index": null,
@@ -2270,14 +2373,14 @@
      "intelligence_index": 28.5,
      "coding_index": null,
      "agentic_index": null,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
-     "openness_index": null,
+     "finance_and_accounting_index": 40.5,
+     "strategy_and_ops_index": 44.2,
+     "legal_index": 38.6,
+     "healthcare_and_medical_index": 39.9,
+     "engineering_index": 37,
+     "economics_index": 38.6,
+     "cyber_index": 47.7,
+     "openness_index": 33.3,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -2333,16 +2436,16 @@
      "intelligence_index": 36.5,
      "coding_index": null,
      "agentic_index": null,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
+     "finance_and_accounting_index": 43.6,
+     "strategy_and_ops_index": 39.1,
+     "legal_index": 38.7,
+     "healthcare_and_medical_index": 37.5,
+     "engineering_index": 42.5,
+     "economics_index": 42.7,
      "cyber_index": null,
      "openness_index": null,
      "multilingual_index": null,
-     "decision_index": null
+     "decision_index": 76.5
     }
    },
    "ha_versione_gratuita": false
@@ -2433,14 +2536,14 @@
      "intelligence_index": 26.1,
      "coding_index": null,
      "agentic_index": null,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
-     "openness_index": null,
+     "finance_and_accounting_index": 39.1,
+     "strategy_and_ops_index": 43.4,
+     "legal_index": 34.6,
+     "healthcare_and_medical_index": 36.7,
+     "engineering_index": 33.4,
+     "economics_index": 35.6,
+     "cyber_index": 50.9,
+     "openness_index": 38.9,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -2484,14 +2587,14 @@
      "intelligence_index": 29.6,
      "coding_index": null,
      "agentic_index": null,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
+     "finance_and_accounting_index": 42.6,
+     "strategy_and_ops_index": 47.6,
+     "legal_index": 35.5,
+     "healthcare_and_medical_index": 38.3,
+     "engineering_index": 35.5,
+     "economics_index": 36.5,
      "cyber_index": null,
-     "openness_index": null,
+     "openness_index": 38.9,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -2622,12 +2725,12 @@
      "intelligence_index": 54.6,
      "coding_index": null,
      "agentic_index": null,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
+     "finance_and_accounting_index": 56.2,
+     "strategy_and_ops_index": 57.6,
+     "legal_index": 53.7,
+     "healthcare_and_medical_index": 52,
+     "engineering_index": 59.4,
+     "economics_index": 56.3,
      "cyber_index": null,
      "openness_index": null,
      "multilingual_index": null,
@@ -2684,12 +2787,12 @@
      "intelligence_index": 54.5,
      "coding_index": null,
      "agentic_index": null,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
+     "finance_and_accounting_index": 55.8,
+     "strategy_and_ops_index": 58.1,
+     "legal_index": 52.2,
+     "healthcare_and_medical_index": 54.2,
+     "engineering_index": 58.5,
+     "economics_index": 54.1,
      "cyber_index": null,
      "openness_index": null,
      "multilingual_index": null,
@@ -3017,6 +3120,23 @@
     ],
     "default_effort": "medium"
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": null,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": null,
+     "strategy_and_ops_index": 21.1,
+     "legal_index": null,
+     "healthcare_and_medical_index": null,
+     "engineering_index": null,
+     "economics_index": null,
+     "cyber_index": null,
+     "openness_index": null,
+     "multilingual_index": null,
+     "decision_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -3057,14 +3177,14 @@
      "intelligence_index": 6.2,
      "coding_index": 27.8,
      "agentic_index": 1,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
+     "finance_and_accounting_index": 17,
+     "strategy_and_ops_index": 7.4,
+     "legal_index": 15.9,
+     "healthcare_and_medical_index": 10.7,
+     "engineering_index": 16.4,
+     "economics_index": 16.7,
      "cyber_index": null,
-     "openness_index": null,
+     "openness_index": 38.9,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -3168,16 +3288,16 @@
      "intelligence_index": 27.9,
      "coding_index": null,
      "agentic_index": null,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
+     "finance_and_accounting_index": 33.9,
+     "strategy_and_ops_index": 43.2,
+     "legal_index": 32.2,
+     "healthcare_and_medical_index": 34.8,
+     "engineering_index": 33.3,
+     "economics_index": 34.5,
+     "cyber_index": 52.7,
      "openness_index": null,
      "multilingual_index": null,
-     "decision_index": null
+     "decision_index": 75.7
     }
    },
    "ha_versione_gratuita": false
@@ -3279,13 +3399,13 @@
      "intelligence_index": 44.2,
      "coding_index": null,
      "agentic_index": null,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
+     "finance_and_accounting_index": 47.5,
+     "strategy_and_ops_index": 52.1,
+     "legal_index": 46.3,
+     "healthcare_and_medical_index": 45.1,
+     "engineering_index": 48.9,
+     "economics_index": 47.7,
+     "cyber_index": 36.8,
      "openness_index": null,
      "multilingual_index": null,
      "decision_index": null
@@ -3341,13 +3461,13 @@
      "intelligence_index": 59.1,
      "coding_index": null,
      "agentic_index": null,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
+     "finance_and_accounting_index": 59.4,
+     "strategy_and_ops_index": 61.4,
+     "legal_index": 58,
+     "healthcare_and_medical_index": 57.9,
+     "engineering_index": 65.3,
+     "economics_index": 60.3,
+     "cyber_index": 28.7,
      "openness_index": null,
      "multilingual_index": null,
      "decision_index": null
@@ -3456,14 +3576,14 @@
      "intelligence_index": 26.7,
      "coding_index": null,
      "agentic_index": null,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
+     "finance_and_accounting_index": 36.9,
+     "strategy_and_ops_index": 45.7,
+     "legal_index": 33.8,
+     "healthcare_and_medical_index": 35.1,
+     "engineering_index": 31,
+     "economics_index": 32.2,
      "cyber_index": null,
-     "openness_index": null,
+     "openness_index": 52.8,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -3510,14 +3630,14 @@
      "intelligence_index": 29.9,
      "coding_index": null,
      "agentic_index": null,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
-     "openness_index": null,
+     "finance_and_accounting_index": 38.9,
+     "strategy_and_ops_index": 46.9,
+     "legal_index": 35,
+     "healthcare_and_medical_index": 35.8,
+     "engineering_index": 34.3,
+     "economics_index": 36.1,
+     "cyber_index": 56.1,
+     "openness_index": 52.8,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -3571,13 +3691,13 @@
      "intelligence_index": 35.5,
      "coding_index": null,
      "agentic_index": null,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
+     "finance_and_accounting_index": 51.7,
+     "strategy_and_ops_index": 54.8,
+     "legal_index": 47.2,
+     "healthcare_and_medical_index": 46.6,
+     "engineering_index": 41.8,
+     "economics_index": 45.7,
+     "cyber_index": 56.4,
      "openness_index": null,
      "multilingual_index": null,
      "decision_index": null
@@ -4167,7 +4287,7 @@
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
+     "openness_index": 44.4,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -4192,12 +4312,12 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.000000051",
-    "completion": "0.000000567",
-    "input_cache_read": "0.000000018"
+    "prompt": "0.0000000507",
+    "completion": "0.0000002028",
+    "input_cache_read": "0.000000001014"
    },
    "top_provider": {
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 393216
    },
    "supported_parameters": [
     "reasoning",
@@ -4214,6 +4334,23 @@
      "none"
     ],
     "default_effort": "high"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": null,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": null,
+     "strategy_and_ops_index": null,
+     "legal_index": null,
+     "healthcare_and_medical_index": null,
+     "engineering_index": null,
+     "economics_index": null,
+     "cyber_index": 40.8,
+     "openness_index": 44.4,
+     "multilingual_index": null,
+     "decision_index": null
+    }
    },
    "ha_versione_gratuita": false
   },
@@ -4347,13 +4484,13 @@
      "intelligence_index": 56.9,
      "coding_index": 76.9,
      "agentic_index": 51,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
+     "finance_and_accounting_index": 57.4,
+     "strategy_and_ops_index": 58,
+     "legal_index": 55.7,
+     "healthcare_and_medical_index": 53.7,
+     "engineering_index": 61.8,
+     "economics_index": 57.2,
+     "cyber_index": 33.4,
      "openness_index": null,
      "multilingual_index": null,
      "decision_index": null
@@ -4454,12 +4591,12 @@
      "intelligence_index": 33.7,
      "coding_index": 76.2,
      "agentic_index": 56,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
+     "finance_and_accounting_index": 45,
+     "strategy_and_ops_index": 47.3,
+     "legal_index": 41,
+     "healthcare_and_medical_index": 40.8,
+     "engineering_index": 39.3,
+     "economics_index": 42.5,
      "cyber_index": null,
      "openness_index": null,
      "multilingual_index": null,
@@ -4563,13 +4700,13 @@
      "intelligence_index": 36.6,
      "coding_index": 75.8,
      "agentic_index": 55.5,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
+     "finance_and_accounting_index": 48.8,
+     "strategy_and_ops_index": 50.3,
+     "legal_index": 45.2,
+     "healthcare_and_medical_index": 43.6,
+     "engineering_index": 44.1,
+     "economics_index": 46.9,
+     "cyber_index": 44.3,
      "openness_index": null,
      "multilingual_index": null,
      "decision_index": null
@@ -4628,13 +4765,13 @@
      "intelligence_index": 30.8,
      "coding_index": 76.3,
      "agentic_index": 40.2,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
+     "finance_and_accounting_index": 42.4,
+     "strategy_and_ops_index": 47.2,
+     "legal_index": 41.7,
+     "healthcare_and_medical_index": 38.3,
+     "engineering_index": 38.8,
+     "economics_index": 40.1,
+     "cyber_index": 25.1,
      "openness_index": null,
      "multilingual_index": null,
      "decision_index": null
@@ -4690,13 +4827,13 @@
      "intelligence_index": 50,
      "coding_index": 80.7,
      "agentic_index": 57.2,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
+     "finance_and_accounting_index": 53.8,
+     "strategy_and_ops_index": 58,
+     "legal_index": 54.5,
+     "healthcare_and_medical_index": 51.2,
+     "engineering_index": 57.2,
+     "economics_index": 57.3,
+     "cyber_index": 25,
      "openness_index": null,
      "multilingual_index": null,
      "decision_index": null
@@ -4748,14 +4885,14 @@
      "intelligence_index": 5.1,
      "coding_index": 22.4,
      "agentic_index": 1.3,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
+     "finance_and_accounting_index": 14.8,
+     "strategy_and_ops_index": 6.9,
+     "legal_index": 14.6,
      "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
+     "engineering_index": 14.6,
+     "economics_index": 14.6,
      "cyber_index": null,
-     "openness_index": null,
+     "openness_index": 72.2,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -4779,9 +4916,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000007506",
-    "completion": "0.0000022509",
-    "input_cache_read": "0.0000000378"
+    "prompt": "0.000000834",
+    "completion": "0.000002501",
+    "input_cache_read": "0.000000042"
    },
    "top_provider": {
     "max_completion_tokens": 64000
@@ -4881,6 +5018,23 @@
     "default_enabled": true,
     "supports_max_tokens": true
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 28.6,
+     "coding_index": 73.1,
+     "agentic_index": 53.6,
+     "finance_and_accounting_index": 39,
+     "strategy_and_ops_index": 44.5,
+     "legal_index": 35.1,
+     "healthcare_and_medical_index": 36.4,
+     "engineering_index": 33,
+     "economics_index": 36.1,
+     "cyber_index": null,
+     "openness_index": 38.9,
+     "multilingual_index": null,
+     "decision_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -4929,14 +5083,14 @@
      "intelligence_index": 27.8,
      "coding_index": 71.5,
      "agentic_index": 50.9,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
-     "openness_index": null,
+     "finance_and_accounting_index": 38.8,
+     "strategy_and_ops_index": 44.5,
+     "legal_index": 34.8,
+     "healthcare_and_medical_index": 36.6,
+     "engineering_index": 34.5,
+     "economics_index": 35.3,
+     "cyber_index": 49.9,
+     "openness_index": 44.4,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -5214,14 +5368,14 @@
      "intelligence_index": 31.7,
      "coding_index": 74.8,
      "agentic_index": 53.1,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
-     "openness_index": null,
+     "finance_and_accounting_index": 42.1,
+     "strategy_and_ops_index": 47.4,
+     "legal_index": 35.8,
+     "healthcare_and_medical_index": 39.3,
+     "engineering_index": 37.6,
+     "economics_index": 37.3,
+     "cyber_index": 36.4,
+     "openness_index": 33.3,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -5247,9 +5401,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.000001875",
-    "input_cache_read": "0.0000000375"
+    "prompt": "0.00000006",
+    "completion": "0.0000022",
+    "input_cache_read": "0.000000059"
    },
    "top_provider": {
     "max_completion_tokens": 235929
@@ -5275,14 +5429,14 @@
      "intelligence_index": 20.1,
      "coding_index": 68.1,
      "agentic_index": 45.8,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
-     "openness_index": null,
+     "finance_and_accounting_index": 35.5,
+     "strategy_and_ops_index": 39,
+     "legal_index": 33.2,
+     "healthcare_and_medical_index": 34.6,
+     "engineering_index": 28.1,
+     "economics_index": 33.7,
+     "cyber_index": 12.7,
+     "openness_index": 38.9,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -5467,14 +5621,14 @@
      "intelligence_index": null,
      "coding_index": 71.9,
      "agentic_index": 50.1,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
+     "finance_and_accounting_index": 41.3,
+     "strategy_and_ops_index": 44.4,
+     "legal_index": 37,
+     "healthcare_and_medical_index": 39,
      "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
-     "openness_index": null,
+     "economics_index": 37.3,
+     "cyber_index": 12.6,
+     "openness_index": 27.8,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -5525,14 +5679,14 @@
      "intelligence_index": 23.1,
      "coding_index": 68.8,
      "agentic_index": 41.3,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
+     "finance_and_accounting_index": 30.4,
+     "strategy_and_ops_index": 41.1,
+     "legal_index": 27.5,
      "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
+     "engineering_index": 29.8,
+     "economics_index": 29.3,
      "cyber_index": null,
-     "openness_index": null,
+     "openness_index": 44.4,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -5586,12 +5740,12 @@
      "intelligence_index": 31,
      "coding_index": 75.9,
      "agentic_index": 52.5,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
+     "finance_and_accounting_index": 47.6,
+     "strategy_and_ops_index": 52.8,
+     "legal_index": 43.5,
+     "healthcare_and_medical_index": 44.1,
+     "engineering_index": 37.4,
+     "economics_index": 42,
      "cyber_index": null,
      "openness_index": null,
      "multilingual_index": null,
@@ -5637,14 +5791,14 @@
      "intelligence_index": 5.5,
      "coding_index": 26.8,
      "agentic_index": 3.5,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
+     "finance_and_accounting_index": 14.9,
+     "strategy_and_ops_index": 7.1,
+     "legal_index": 14.2,
+     "healthcare_and_medical_index": 9,
+     "engineering_index": 15.5,
+     "economics_index": 14.8,
      "cyber_index": null,
-     "openness_index": null,
+     "openness_index": 83.3,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -5686,14 +5840,14 @@
      "intelligence_index": 5.5,
      "coding_index": 26.8,
      "agentic_index": 3.5,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
+     "finance_and_accounting_index": 14.9,
+     "strategy_and_ops_index": 7.1,
+     "legal_index": 14.2,
+     "healthcare_and_medical_index": 9,
+     "engineering_index": 15.5,
+     "economics_index": 14.8,
      "cyber_index": null,
-     "openness_index": null,
+     "openness_index": 83.3,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -5786,15 +5940,15 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 28.2,
-     "coding_index": 52.7,
-     "agentic_index": null,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
+     "intelligence_index": 14.2,
+     "coding_index": null,
+     "agentic_index": 28.8,
+     "finance_and_accounting_index": 28.4,
+     "strategy_and_ops_index": 22.4,
+     "legal_index": 25.1,
      "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
+     "engineering_index": 24.4,
+     "economics_index": 27.2,
      "cyber_index": null,
      "openness_index": null,
      "multilingual_index": null,
@@ -5848,14 +6002,14 @@
      "intelligence_index": 6.3,
      "coding_index": 49,
      "agentic_index": 8.5,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
+     "finance_and_accounting_index": 10,
+     "strategy_and_ops_index": 9.6,
+     "legal_index": 12.5,
      "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
+     "engineering_index": 15.4,
+     "economics_index": 12.2,
      "cyber_index": null,
-     "openness_index": null,
+     "openness_index": 44.4,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -5901,13 +6055,13 @@
      "coding_index": 26.5,
      "agentic_index": 4.4,
      "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
+     "strategy_and_ops_index": 9.7,
      "legal_index": null,
      "healthcare_and_medical_index": null,
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
+     "openness_index": 38.9,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -6070,7 +6224,7 @@
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
+     "openness_index": 44.4,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -6126,14 +6280,14 @@
      "intelligence_index": 12.9,
      "coding_index": 52.9,
      "agentic_index": 23.5,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
+     "finance_and_accounting_index": 23.7,
+     "strategy_and_ops_index": 18,
+     "legal_index": 21.7,
+     "healthcare_and_medical_index": 18.6,
+     "engineering_index": 23.1,
+     "economics_index": 24.9,
      "cyber_index": null,
-     "openness_index": null,
+     "openness_index": 33.3,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -6227,12 +6381,12 @@
      "intelligence_index": 44.2,
      "coding_index": 78,
      "agentic_index": 56.5,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
+     "finance_and_accounting_index": 49.7,
+     "strategy_and_ops_index": 53.7,
+     "legal_index": 50.9,
+     "healthcare_and_medical_index": 47.1,
+     "engineering_index": 51.3,
+     "economics_index": 50.4,
      "cyber_index": null,
      "openness_index": null,
      "multilingual_index": null,
@@ -6285,7 +6439,7 @@
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
+     "openness_index": 44.4,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -6410,12 +6564,12 @@
      "intelligence_index": 11.7,
      "coding_index": 49.3,
      "agentic_index": 14.3,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
+     "finance_and_accounting_index": 23.3,
+     "strategy_and_ops_index": 20.7,
+     "legal_index": 23.9,
+     "healthcare_and_medical_index": 20.5,
+     "engineering_index": 21.2,
+     "economics_index": 21.9,
      "cyber_index": null,
      "openness_index": null,
      "multilingual_index": null,
@@ -6469,7 +6623,7 @@
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
+     "openness_index": 38.9,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -6524,14 +6678,14 @@
      "intelligence_index": 12.5,
      "coding_index": 52.1,
      "agentic_index": 22.5,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
+     "finance_and_accounting_index": 23.2,
+     "strategy_and_ops_index": 18.9,
+     "legal_index": 23.1,
+     "healthcare_and_medical_index": 17.6,
+     "engineering_index": 22,
+     "economics_index": 24.7,
      "cyber_index": null,
-     "openness_index": null,
+     "openness_index": 38.9,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -6585,14 +6739,14 @@
      "intelligence_index": 17.4,
      "coding_index": 72,
      "agentic_index": 29.3,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
-     "openness_index": null,
+     "finance_and_accounting_index": 28.3,
+     "strategy_and_ops_index": 37,
+     "legal_index": 27.7,
+     "healthcare_and_medical_index": 29.2,
+     "engineering_index": 22.8,
+     "economics_index": 27.7,
+     "cyber_index": 41.3,
+     "openness_index": 38.9,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -6758,12 +6912,12 @@
      "intelligence_index": 23.8,
      "coding_index": 71.4,
      "agentic_index": 42.1,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
+     "finance_and_accounting_index": 31.8,
+     "strategy_and_ops_index": 40.7,
+     "legal_index": 27.7,
+     "healthcare_and_medical_index": 32.4,
+     "engineering_index": 29.4,
+     "economics_index": 32.8,
      "cyber_index": null,
      "openness_index": null,
      "multilingual_index": null,
@@ -6869,12 +7023,12 @@
      "intelligence_index": 32.3,
      "coding_index": 76.7,
      "agentic_index": 43.2,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
+     "finance_and_accounting_index": 34.6,
+     "strategy_and_ops_index": 45.1,
+     "legal_index": 32,
+     "healthcare_and_medical_index": 37,
+     "engineering_index": 36.6,
+     "economics_index": 35.7,
      "cyber_index": null,
      "openness_index": null,
      "multilingual_index": null,
@@ -7180,9 +7334,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000825",
-    "completion": "0.00000033",
-    "input_cache_read": "0.000000020625"
+    "prompt": "0.000000132",
+    "completion": "0.000000528",
+    "input_cache_read": "0.000000033"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -7465,14 +7619,14 @@
      "intelligence_index": 3.4,
      "coding_index": 36.5,
      "agentic_index": 1.1,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
+     "finance_and_accounting_index": 9.3,
+     "strategy_and_ops_index": 6.2,
+     "legal_index": 7.9,
+     "healthcare_and_medical_index": 6.3,
+     "engineering_index": 9.9,
+     "economics_index": 9.9,
      "cyber_index": null,
-     "openness_index": null,
+     "openness_index": 41.7,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -7523,14 +7677,14 @@
      "intelligence_index": null,
      "coding_index": 68.8,
      "agentic_index": 38.4,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
+     "finance_and_accounting_index": 32.1,
+     "strategy_and_ops_index": 30,
+     "legal_index": 28.5,
+     "healthcare_and_medical_index": 28.7,
      "engineering_index": null,
-     "economics_index": null,
+     "economics_index": 32.1,
      "cyber_index": null,
-     "openness_index": null,
+     "openness_index": 44.4,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -7583,7 +7737,7 @@
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
+     "openness_index": 27.8,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -7775,14 +7929,14 @@
      "intelligence_index": 11.8,
      "coding_index": 49.3,
      "agentic_index": 20.1,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
-     "openness_index": null,
+     "finance_and_accounting_index": 24.2,
+     "strategy_and_ops_index": 15.3,
+     "legal_index": 22.6,
+     "healthcare_and_medical_index": 18,
+     "engineering_index": 22.8,
+     "economics_index": 24.1,
+     "cyber_index": 13.1,
+     "openness_index": 83.3,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -7832,14 +7986,14 @@
      "intelligence_index": 11.8,
      "coding_index": 49.3,
      "agentic_index": 20.1,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
-     "openness_index": null,
+     "finance_and_accounting_index": 24.2,
+     "strategy_and_ops_index": 15.3,
+     "legal_index": 22.6,
+     "healthcare_and_medical_index": 18,
+     "engineering_index": 22.8,
+     "economics_index": 24.1,
+     "cyber_index": 13.1,
+     "openness_index": 83.3,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -7938,14 +8092,14 @@
      "intelligence_index": 18.9,
      "coding_index": 58.6,
      "agentic_index": 29.5,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
-     "openness_index": null,
+     "finance_and_accounting_index": 25.1,
+     "strategy_and_ops_index": 27.9,
+     "legal_index": 23.5,
+     "healthcare_and_medical_index": 21.7,
+     "engineering_index": 26.2,
+     "economics_index": 27.4,
+     "cyber_index": 22.4,
+     "openness_index": 33.3,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -8004,7 +8158,7 @@
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
+     "openness_index": 38.9,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -8466,14 +8620,14 @@
      "intelligence_index": 4.6,
      "coding_index": 46.9,
      "agentic_index": 7,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
+     "finance_and_accounting_index": 11.1,
+     "strategy_and_ops_index": 9.4,
+     "legal_index": 9.7,
+     "healthcare_and_medical_index": 10.7,
+     "engineering_index": 12.2,
+     "economics_index": 11.6,
      "cyber_index": null,
-     "openness_index": null,
+     "openness_index": 33.3,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -8527,7 +8681,7 @@
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
+     "openness_index": 55.6,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -8925,7 +9079,7 @@
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
+     "openness_index": 38.9,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -8978,7 +9132,7 @@
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
+     "openness_index": 38.9,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -9133,14 +9287,14 @@
      "intelligence_index": 20.8,
      "coding_index": null,
      "agentic_index": null,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
+     "finance_and_accounting_index": 28,
+     "strategy_and_ops_index": 36.6,
+     "legal_index": 26.3,
      "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
+     "engineering_index": 28.7,
+     "economics_index": 28.5,
      "cyber_index": null,
-     "openness_index": null,
+     "openness_index": 50,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -9197,7 +9351,7 @@
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
+     "openness_index": 50,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -9254,7 +9408,7 @@
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
+     "openness_index": 44.4,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -9265,7 +9419,7 @@
    "id": "xiaomi/mimo-v2.5-pro",
    "name": "Xiaomi: MiMo-V2.5-Pro",
    "created": 1776874273,
-   "context_length": 1024000,
+   "context_length": 262144,
    "description": "MiMo-V2.5-Pro is Xiaomi’s flagship model, delivering strong performance in general agentic capabilities, complex software engineering, and long-horizon tasks, with top rankings on benchmarks such as ClawEval, GDPVal, and SWE-bench Pro....",
    "hugging_face_id": "XiaomiMiMo/MiMo-V2.5-Pro",
    "architecture": {
@@ -9278,12 +9432,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000435",
-    "completion": "0.00000087",
-    "input_cache_read": "0.0000000036"
+    "prompt": "0.00000048",
+    "completion": "0.0000018",
+    "input_cache_read": "0.000000096"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 235929
    },
    "supported_parameters": [
     "reasoning",
@@ -9305,7 +9459,7 @@
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
+     "openness_index": 38.9,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -9359,7 +9513,7 @@
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
+     "openness_index": 38.9,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -9504,7 +9658,7 @@
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
+     "openness_index": 33.3,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -9621,7 +9775,7 @@
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
+     "openness_index": 44.4,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -9647,9 +9801,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000000765",
-    "completion": "0.000000255",
-    "input_cache_read": "0.0000000425"
+    "prompt": "0.00000009",
+    "completion": "0.0000003",
+    "input_cache_read": "0.00000005"
    },
    "top_provider": {
     "max_completion_tokens": 235929
@@ -9675,7 +9829,7 @@
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
+     "openness_index": 38.9,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -9727,7 +9881,7 @@
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
+     "openness_index": 38.9,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -9773,14 +9927,14 @@
      "intelligence_index": 4.4,
      "coding_index": 43.4,
      "agentic_index": 4.2,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
+     "finance_and_accounting_index": 8.2,
+     "strategy_and_ops_index": 6.9,
+     "legal_index": 7.3,
      "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
+     "engineering_index": 11.9,
+     "economics_index": 9.5,
      "cyber_index": null,
-     "openness_index": null,
+     "openness_index": 38.9,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -9825,14 +9979,14 @@
      "intelligence_index": 4.4,
      "coding_index": 43.4,
      "agentic_index": 4.2,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
+     "finance_and_accounting_index": 8.2,
+     "strategy_and_ops_index": 6.9,
+     "legal_index": 7.3,
      "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
+     "engineering_index": 11.9,
+     "economics_index": 9.5,
      "cyber_index": null,
-     "openness_index": null,
+     "openness_index": 38.9,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -10008,6 +10162,23 @@
     "mandatory": false,
     "default_enabled": false
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": null,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": null,
+     "strategy_and_ops_index": null,
+     "legal_index": null,
+     "healthcare_and_medical_index": null,
+     "engineering_index": null,
+     "economics_index": null,
+     "cyber_index": null,
+     "openness_index": null,
+     "multilingual_index": 0.895,
+     "decision_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -10141,7 +10312,7 @@
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
+     "openness_index": 22.2,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -10268,7 +10439,7 @@
      "economics_index": null,
      "cyber_index": null,
      "openness_index": null,
-     "multilingual_index": null,
+     "multilingual_index": 0.894,
      "decision_index": null
     }
    },
@@ -10318,14 +10489,14 @@
      "intelligence_index": 4.3,
      "coding_index": 26.6,
      "agentic_index": 0.8,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
+     "finance_and_accounting_index": 11.6,
+     "strategy_and_ops_index": 6.8,
+     "legal_index": 11.6,
+     "healthcare_and_medical_index": 8.8,
+     "engineering_index": 13.3,
+     "economics_index": 11.7,
      "cyber_index": null,
-     "openness_index": null,
+     "openness_index": 38.9,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -10417,7 +10588,7 @@
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
+     "openness_index": 83.3,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -10485,9 +10656,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000093",
-    "completion": "0.000000136",
-    "input_cache_read": "0.000000083"
+    "prompt": "0.000000154",
+    "completion": "0.000000226",
+    "input_cache_read": "0.000000138"
    },
    "top_provider": {
     "max_completion_tokens": 40960
@@ -10512,7 +10683,7 @@
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
+     "openness_index": 38.9,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -10678,12 +10849,12 @@
      "intelligence_index": 6.2,
      "coding_index": 34.7,
      "agentic_index": 1.6,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
+     "finance_and_accounting_index": 12.1,
+     "strategy_and_ops_index": 10.5,
+     "legal_index": 14.7,
+     "healthcare_and_medical_index": 10.6,
+     "engineering_index": 14.6,
+     "economics_index": 13.7,
      "cyber_index": null,
      "openness_index": null,
      "multilingual_index": null,
@@ -10823,8 +10994,8 @@
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
+     "openness_index": 38.9,
+     "multilingual_index": 0.864,
      "decision_index": null
     }
    },
@@ -10849,11 +11020,11 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000026",
-    "completion": "0.0000026"
+    "prompt": "0.0000003",
+    "completion": "0.0000024"
    },
    "top_provider": {
-    "max_completion_tokens": 81920
+    "max_completion_tokens": 65536
    },
    "supported_parameters": [
     "reasoning",
@@ -10862,6 +11033,23 @@
    ],
    "reasoning": {
     "mandatory": false
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": null,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": null,
+     "strategy_and_ops_index": null,
+     "legal_index": null,
+     "healthcare_and_medical_index": null,
+     "engineering_index": null,
+     "economics_index": null,
+     "cyber_index": null,
+     "openness_index": 38.9,
+     "multilingual_index": 0.868,
+     "decision_index": null
+    }
    },
    "ha_versione_gratuita": false
   },
@@ -10910,8 +11098,8 @@
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
+     "openness_index": 38.9,
+     "multilingual_index": 0.891,
      "decision_index": null
     }
    },
@@ -11133,8 +11321,8 @@
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
+     "openness_index": 5.6,
+     "multilingual_index": 0.932,
      "decision_index": null
     }
    },
@@ -11197,7 +11385,7 @@
      "economics_index": null,
      "cyber_index": null,
      "openness_index": null,
-     "multilingual_index": null,
+     "multilingual_index": 0.905,
      "decision_index": null
     }
    },
@@ -11284,8 +11472,8 @@
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
+     "openness_index": 38.9,
+     "multilingual_index": 0.9,
      "decision_index": null
     }
    },
@@ -11323,6 +11511,23 @@
    "reasoning": {
     "mandatory": true
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": null,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": null,
+     "strategy_and_ops_index": null,
+     "legal_index": null,
+     "healthcare_and_medical_index": null,
+     "engineering_index": null,
+     "economics_index": null,
+     "cyber_index": null,
+     "openness_index": 27.8,
+     "multilingual_index": 0.842,
+     "decision_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -11357,6 +11562,23 @@
    "reasoning": {
     "mandatory": false,
     "default_enabled": true
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": null,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": null,
+     "strategy_and_ops_index": null,
+     "legal_index": null,
+     "healthcare_and_medical_index": null,
+     "engineering_index": null,
+     "economics_index": null,
+     "cyber_index": null,
+     "openness_index": 50,
+     "multilingual_index": 0.819,
+     "decision_index": null
+    }
    },
    "ha_versione_gratuita": false
   },
@@ -11406,6 +11628,23 @@
     ],
     "default_effort": "high"
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": null,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": null,
+     "strategy_and_ops_index": null,
+     "legal_index": null,
+     "healthcare_and_medical_index": null,
+     "engineering_index": null,
+     "economics_index": null,
+     "cyber_index": null,
+     "openness_index": null,
+     "multilingual_index": 0.922,
+     "decision_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -11448,8 +11687,8 @@
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
+     "openness_index": 41.7,
+     "multilingual_index": 0.794,
      "decision_index": null
     }
    },
@@ -11501,8 +11740,8 @@
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
+     "openness_index": 33.3,
+     "multilingual_index": 0.84,
      "decision_index": null
     }
    },
@@ -11630,6 +11869,23 @@
     "mandatory": false,
     "default_enabled": true
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": null,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": null,
+     "strategy_and_ops_index": null,
+     "legal_index": null,
+     "healthcare_and_medical_index": null,
+     "engineering_index": null,
+     "economics_index": null,
+     "cyber_index": null,
+     "openness_index": 44.4,
+     "multilingual_index": null,
+     "decision_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -11720,8 +11976,8 @@
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
+     "openness_index": 44.4,
+     "multilingual_index": 0.799,
      "decision_index": null
     }
    },
@@ -11775,6 +12031,23 @@
     ],
     "default_effort": "medium"
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": null,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": null,
+     "strategy_and_ops_index": null,
+     "legal_index": null,
+     "healthcare_and_medical_index": null,
+     "engineering_index": null,
+     "economics_index": null,
+     "cyber_index": null,
+     "openness_index": null,
+     "multilingual_index": 0.914,
+     "decision_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -11821,8 +12094,8 @@
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
+     "openness_index": 83.3,
+     "multilingual_index": 0.612,
      "decision_index": null
     }
    },
@@ -11946,6 +12219,23 @@
     ],
     "default_effort": "medium"
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": null,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": null,
+     "strategy_and_ops_index": null,
+     "legal_index": null,
+     "healthcare_and_medical_index": null,
+     "engineering_index": null,
+     "economics_index": null,
+     "cyber_index": null,
+     "openness_index": null,
+     "multilingual_index": 0.898,
+     "decision_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -11989,8 +12279,8 @@
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
+     "openness_index": 27.8,
+     "multilingual_index": 0.775,
      "decision_index": null
     }
    },
@@ -12044,7 +12334,7 @@
    "pricing": {
     "prompt": "0.0000003",
     "completion": "0.0000009",
-    "input_cache_read": "0.000000055"
+    "input_cache_read": "0.00000005"
    },
    "top_provider": {
     "max_completion_tokens": 32768
@@ -12055,6 +12345,23 @@
    ],
    "reasoning": {
     "mandatory": false
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": null,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": null,
+     "strategy_and_ops_index": null,
+     "legal_index": null,
+     "healthcare_and_medical_index": null,
+     "engineering_index": null,
+     "economics_index": null,
+     "cyber_index": null,
+     "openness_index": null,
+     "multilingual_index": 0.806,
+     "decision_index": null
+    }
    },
    "ha_versione_gratuita": false
   },
@@ -12194,8 +12501,8 @@
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
+     "openness_index": 38.9,
+     "multilingual_index": 0.683,
      "decision_index": null
     }
    },
@@ -12242,8 +12549,8 @@
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
+     "openness_index": 38.9,
+     "multilingual_index": 0.663,
      "decision_index": null
     }
    },
@@ -12290,8 +12597,8 @@
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
+     "openness_index": 38.9,
+     "multilingual_index": 0.567,
      "decision_index": null
     }
    },
@@ -12339,8 +12646,8 @@
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
+     "openness_index": 38.9,
+     "multilingual_index": 0.803,
      "decision_index": null
     }
    },
@@ -12392,7 +12699,7 @@
      "economics_index": null,
      "cyber_index": null,
      "openness_index": null,
-     "multilingual_index": null,
+     "multilingual_index": 0.865,
      "decision_index": null
     }
    },
@@ -12433,6 +12740,23 @@
    ],
    "reasoning": {
     "mandatory": false
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": null,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": null,
+     "strategy_and_ops_index": null,
+     "legal_index": null,
+     "healthcare_and_medical_index": null,
+     "engineering_index": null,
+     "economics_index": null,
+     "cyber_index": null,
+     "openness_index": 11.1,
+     "multilingual_index": 0.913,
+     "decision_index": null
+    }
    },
    "ha_versione_gratuita": false
   },
@@ -12530,8 +12854,8 @@
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
+     "openness_index": 5.6,
+     "multilingual_index": 0.906,
      "decision_index": null
     }
    },
@@ -12577,6 +12901,23 @@
     ],
     "default_effort": "medium"
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": null,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": null,
+     "strategy_and_ops_index": null,
+     "legal_index": null,
+     "healthcare_and_medical_index": null,
+     "engineering_index": null,
+     "economics_index": null,
+     "cyber_index": null,
+     "openness_index": null,
+     "multilingual_index": 0.897,
+     "decision_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -12618,6 +12959,23 @@
      "low"
     ],
     "default_effort": "medium"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": null,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": null,
+     "strategy_and_ops_index": null,
+     "legal_index": null,
+     "healthcare_and_medical_index": null,
+     "engineering_index": null,
+     "economics_index": null,
+     "cyber_index": null,
+     "openness_index": null,
+     "multilingual_index": 0.85,
+     "decision_index": null
+    }
    },
    "ha_versione_gratuita": false
   },
@@ -12666,8 +13024,8 @@
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
+     "openness_index": 88.9,
+     "multilingual_index": 0.735,
      "decision_index": null
     }
    },
@@ -12701,6 +13059,23 @@
    "supported_parameters": [
     "tools"
    ],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": null,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": null,
+     "strategy_and_ops_index": null,
+     "legal_index": null,
+     "healthcare_and_medical_index": null,
+     "engineering_index": null,
+     "economics_index": null,
+     "cyber_index": null,
+     "openness_index": 11.1,
+     "multilingual_index": 0.796,
+     "decision_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -12883,15 +13258,15 @@
      "intelligence_index": 7.4,
      "coding_index": 43.9,
      "agentic_index": 8,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
+     "finance_and_accounting_index": 19.4,
+     "strategy_and_ops_index": 11.2,
+     "legal_index": 18,
+     "healthcare_and_medical_index": 12.1,
+     "engineering_index": 17,
+     "economics_index": 19.1,
      "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
+     "openness_index": 11.1,
+     "multilingual_index": 0.834,
      "decision_index": null
     }
    },
@@ -12926,6 +13301,23 @@
     "structured_outputs",
     "tools"
    ],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": null,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": null,
+     "strategy_and_ops_index": null,
+     "legal_index": null,
+     "healthcare_and_medical_index": null,
+     "engineering_index": null,
+     "economics_index": null,
+     "cyber_index": null,
+     "openness_index": 50,
+     "multilingual_index": null,
+     "decision_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -13029,6 +13421,23 @@
     "structured_outputs",
     "tools"
    ],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": null,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": null,
+     "strategy_and_ops_index": null,
+     "legal_index": null,
+     "healthcare_and_medical_index": null,
+     "engineering_index": null,
+     "economics_index": null,
+     "cyber_index": null,
+     "openness_index": 50,
+     "multilingual_index": null,
+     "decision_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -13116,8 +13525,8 @@
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
+     "openness_index": 44.4,
+     "multilingual_index": 0.856,
      "decision_index": null
     }
    },
@@ -13171,8 +13580,8 @@
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
+     "openness_index": 11.1,
+     "multilingual_index": 0.893,
      "decision_index": null
     }
    },
@@ -13208,6 +13617,23 @@
    ],
    "reasoning": {
     "mandatory": false
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": null,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": null,
+     "strategy_and_ops_index": null,
+     "legal_index": null,
+     "healthcare_and_medical_index": null,
+     "engineering_index": null,
+     "economics_index": null,
+     "cyber_index": null,
+     "openness_index": 44.4,
+     "multilingual_index": 0.867,
+     "decision_index": null
+    }
    },
    "ha_versione_gratuita": false
   },
@@ -13295,6 +13721,23 @@
     "structured_outputs",
     "tools"
    ],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": null,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": null,
+     "strategy_and_ops_index": null,
+     "legal_index": null,
+     "healthcare_and_medical_index": null,
+     "engineering_index": null,
+     "economics_index": null,
+     "cyber_index": null,
+     "openness_index": 50,
+     "multilingual_index": null,
+     "decision_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -13340,8 +13783,8 @@
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
+     "openness_index": 38.9,
+     "multilingual_index": 0.827,
      "decision_index": null
     }
    },
@@ -13394,16 +13837,34 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000009",
-    "completion": "0.0000011"
+    "prompt": "0.0000001",
+    "completion": "0.0000011",
+    "input_cache_read": "0.00000007"
    },
    "top_provider": {
-    "max_completion_tokens": 16384
+    "max_completion_tokens": 235929
    },
    "supported_parameters": [
     "structured_outputs",
     "tools"
    ],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": null,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": null,
+     "strategy_and_ops_index": null,
+     "legal_index": null,
+     "healthcare_and_medical_index": null,
+     "engineering_index": null,
+     "economics_index": null,
+     "cyber_index": null,
+     "openness_index": 44.4,
+     "multilingual_index": null,
+     "decision_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -13433,6 +13894,23 @@
     "structured_outputs",
     "tools"
    ],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": null,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": null,
+     "strategy_and_ops_index": null,
+     "legal_index": null,
+     "healthcare_and_medical_index": null,
+     "engineering_index": null,
+     "economics_index": null,
+     "cyber_index": null,
+     "openness_index": 27.8,
+     "multilingual_index": 0.808,
+     "decision_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -13465,6 +13943,23 @@
    ],
    "reasoning": {
     "mandatory": false
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": null,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": null,
+     "strategy_and_ops_index": null,
+     "legal_index": null,
+     "healthcare_and_medical_index": null,
+     "engineering_index": null,
+     "economics_index": null,
+     "cyber_index": null,
+     "openness_index": 47.2,
+     "multilingual_index": null,
+     "decision_index": null
+    }
    },
    "ha_versione_gratuita": false
   },
@@ -13544,7 +14039,7 @@
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
+     "openness_index": 11.1,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -13583,6 +14078,23 @@
    ],
    "reasoning": {
     "mandatory": false
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": null,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": null,
+     "strategy_and_ops_index": null,
+     "legal_index": null,
+     "healthcare_and_medical_index": null,
+     "engineering_index": null,
+     "economics_index": null,
+     "cyber_index": null,
+     "openness_index": 52.8,
+     "multilingual_index": null,
+     "decision_index": null
+    }
    },
    "ha_versione_gratuita": false
   },
@@ -13641,8 +14153,8 @@
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
+     "openness_index": 5.6,
+     "multilingual_index": 0.907,
      "decision_index": null
     }
    },
@@ -13703,8 +14215,8 @@
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
+     "openness_index": 5.6,
+     "multilingual_index": 0.874,
      "decision_index": null
     }
    },
@@ -13753,6 +14265,23 @@
     ],
     "default_effort": "medium"
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": null,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": null,
+     "strategy_and_ops_index": null,
+     "legal_index": null,
+     "healthcare_and_medical_index": null,
+     "engineering_index": null,
+     "economics_index": null,
+     "cyber_index": null,
+     "openness_index": 5.6,
+     "multilingual_index": 0.812,
+     "decision_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -13798,15 +14327,15 @@
      "intelligence_index": 3.8,
      "coding_index": 30.4,
      "agentic_index": 3.7,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
+     "finance_and_accounting_index": 7.8,
+     "strategy_and_ops_index": 5.5,
+     "legal_index": 8.1,
+     "healthcare_and_medical_index": 5.8,
+     "engineering_index": 11.2,
+     "economics_index": 9,
      "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
+     "openness_index": 38.9,
+     "multilingual_index": 0.828,
      "decision_index": null
     }
    },
@@ -13862,8 +14391,8 @@
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
+     "openness_index": 38.9,
+     "multilingual_index": 0.752,
      "decision_index": null
     }
    },
@@ -13961,8 +14490,26 @@
     "max_completion_tokens": 235929
    },
    "supported_parameters": [
+    "structured_outputs",
     "tools"
    ],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": null,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": null,
+     "strategy_and_ops_index": null,
+     "legal_index": null,
+     "healthcare_and_medical_index": null,
+     "engineering_index": null,
+     "economics_index": null,
+     "cyber_index": null,
+     "openness_index": 44.4,
+     "multilingual_index": null,
+     "decision_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -13993,6 +14540,23 @@
     "structured_outputs",
     "tools"
    ],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": null,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": null,
+     "strategy_and_ops_index": null,
+     "legal_index": null,
+     "healthcare_and_medical_index": null,
+     "engineering_index": null,
+     "economics_index": null,
+     "cyber_index": null,
+     "openness_index": 44.4,
+     "multilingual_index": 0.72,
+     "decision_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -14027,6 +14591,23 @@
    "reasoning": {
     "mandatory": false
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": null,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": null,
+     "strategy_and_ops_index": null,
+     "legal_index": null,
+     "healthcare_and_medical_index": null,
+     "engineering_index": null,
+     "economics_index": null,
+     "cyber_index": null,
+     "openness_index": 55.6,
+     "multilingual_index": null,
+     "decision_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -14059,6 +14640,23 @@
    ],
    "reasoning": {
     "mandatory": false
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": null,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": null,
+     "strategy_and_ops_index": null,
+     "legal_index": null,
+     "healthcare_and_medical_index": null,
+     "engineering_index": null,
+     "economics_index": null,
+     "cyber_index": null,
+     "openness_index": 55.6,
+     "multilingual_index": null,
+     "decision_index": null
+    }
    },
    "ha_versione_gratuita": false
   },
@@ -14104,8 +14702,8 @@
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
+     "openness_index": 44.4,
+     "multilingual_index": 0.853,
      "decision_index": null
     }
    },
@@ -14139,6 +14737,23 @@
     "structured_outputs",
     "tools"
    ],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": null,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": null,
+     "strategy_and_ops_index": null,
+     "legal_index": null,
+     "healthcare_and_medical_index": null,
+     "engineering_index": null,
+     "economics_index": null,
+     "cyber_index": null,
+     "openness_index": 44.4,
+     "multilingual_index": null,
+     "decision_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -14211,6 +14826,23 @@
    "reasoning": {
     "mandatory": false
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": null,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": null,
+     "strategy_and_ops_index": null,
+     "legal_index": null,
+     "healthcare_and_medical_index": null,
+     "engineering_index": null,
+     "economics_index": null,
+     "cyber_index": null,
+     "openness_index": 5.6,
+     "multilingual_index": 0.838,
+     "decision_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -14241,6 +14873,23 @@
     "structured_outputs",
     "tools"
    ],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": null,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": null,
+     "strategy_and_ops_index": null,
+     "legal_index": null,
+     "healthcare_and_medical_index": null,
+     "engineering_index": null,
+     "economics_index": null,
+     "cyber_index": null,
+     "openness_index": 44.4,
+     "multilingual_index": null,
+     "decision_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -14269,6 +14918,23 @@
    "supported_parameters": [
     "tools"
    ],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": null,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": null,
+     "strategy_and_ops_index": null,
+     "legal_index": null,
+     "healthcare_and_medical_index": null,
+     "engineering_index": null,
+     "economics_index": null,
+     "cyber_index": null,
+     "openness_index": 88.9,
+     "multilingual_index": 0.786,
+     "decision_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -14423,6 +15089,23 @@
    "reasoning": {
     "mandatory": false
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": null,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": null,
+     "strategy_and_ops_index": null,
+     "legal_index": null,
+     "healthcare_and_medical_index": null,
+     "engineering_index": null,
+     "economics_index": null,
+     "cyber_index": null,
+     "openness_index": 5.6,
+     "multilingual_index": 0.888,
+     "decision_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -14477,8 +15160,8 @@
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
+     "openness_index": 5.6,
+     "multilingual_index": 0.903,
      "decision_index": null
     }
    },
@@ -14579,12 +15262,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000005",
-    "completion": "0.00000215",
-    "input_cache_read": "0.00000035"
+    "prompt": "0.000000571",
+    "completion": "0.000002286"
    },
    "top_provider": {
-    "max_completion_tokens": 32768
+    "max_completion_tokens": 32000
    },
    "supported_parameters": [
     "reasoning",
@@ -14593,6 +15275,23 @@
    ],
    "reasoning": {
     "mandatory": true
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": null,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": null,
+     "strategy_and_ops_index": null,
+     "legal_index": null,
+     "healthcare_and_medical_index": null,
+     "engineering_index": null,
+     "economics_index": null,
+     "cyber_index": null,
+     "openness_index": 50,
+     "multilingual_index": 0.86,
+     "decision_index": null
+    }
    },
    "ha_versione_gratuita": false
   },
@@ -14825,6 +15524,23 @@
    "reasoning": {
     "mandatory": true
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": null,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": null,
+     "strategy_and_ops_index": null,
+     "legal_index": null,
+     "healthcare_and_medical_index": null,
+     "engineering_index": null,
+     "economics_index": null,
+     "cyber_index": null,
+     "openness_index": 5.6,
+     "multilingual_index": null,
+     "decision_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -15001,8 +15717,8 @@
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
+     "openness_index": 27.8,
+     "multilingual_index": 0.825,
      "decision_index": null
     }
    },
@@ -15048,8 +15764,8 @@
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
+     "openness_index": 27.8,
+     "multilingual_index": 0.741,
      "decision_index": null
     }
    },
@@ -15171,8 +15887,8 @@
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
+     "openness_index": 50,
+     "multilingual_index": 0.544,
      "decision_index": null
     }
    },
@@ -15218,8 +15934,8 @@
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
+     "openness_index": 50,
+     "multilingual_index": 0.709,
      "decision_index": null
     }
    },
@@ -15252,6 +15968,23 @@
     "structured_outputs",
     "tools"
    ],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": null,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": null,
+     "strategy_and_ops_index": null,
+     "legal_index": null,
+     "healthcare_and_medical_index": null,
+     "engineering_index": null,
+     "economics_index": null,
+     "cyber_index": null,
+     "openness_index": 33.3,
+     "multilingual_index": null,
+     "decision_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -15284,6 +16017,23 @@
    "reasoning": {
     "mandatory": true
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": null,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": null,
+     "strategy_and_ops_index": null,
+     "legal_index": null,
+     "healthcare_and_medical_index": null,
+     "engineering_index": null,
+     "economics_index": null,
+     "cyber_index": null,
+     "openness_index": 38.9,
+     "multilingual_index": null,
+     "decision_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -15305,7 +16055,7 @@
    },
    "pricing": {
     "prompt": "0.00000008",
-    "completion": "0.00000035",
+    "completion": "0.00000045",
     "input_cache_read": "0.00000004"
    },
    "top_provider": {
@@ -15327,8 +16077,8 @@
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
+     "openness_index": 50,
+     "multilingual_index": 0.764,
      "decision_index": null
     }
    },
@@ -15656,6 +16406,23 @@
    "supported_parameters": [
     "structured_outputs"
    ],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": null,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": null,
+     "strategy_and_ops_index": null,
+     "legal_index": null,
+     "healthcare_and_medical_index": null,
+     "engineering_index": null,
+     "economics_index": null,
+     "cyber_index": null,
+     "openness_index": 50,
+     "multilingual_index": null,
+     "decision_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -15756,8 +16523,8 @@
      "engineering_index": null,
      "economics_index": null,
      "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
+     "openness_index": 38.9,
+     "multilingual_index": 0.764,
      "decision_index": null
     }
    },
@@ -15790,6 +16557,23 @@
    "supported_parameters": [
     "tools"
    ],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": null,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": null,
+     "strategy_and_ops_index": null,
+     "legal_index": null,
+     "healthcare_and_medical_index": null,
+     "engineering_index": null,
+     "economics_index": null,
+     "cyber_index": null,
+     "openness_index": 11.1,
+     "multilingual_index": null,
+     "decision_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -15818,6 +16602,23 @@
    "supported_parameters": [
     "tools"
    ],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": null,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": null,
+     "strategy_and_ops_index": null,
+     "legal_index": null,
+     "healthcare_and_medical_index": null,
+     "engineering_index": null,
+     "economics_index": null,
+     "cyber_index": null,
+     "openness_index": 11.1,
+     "multilingual_index": null,
+     "decision_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -15847,6 +16648,23 @@
    "supported_parameters": [
     "tools"
    ],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": null,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": null,
+     "strategy_and_ops_index": null,
+     "legal_index": null,
+     "healthcare_and_medical_index": null,
+     "engineering_index": null,
+     "economics_index": null,
+     "cyber_index": null,
+     "openness_index": 11.1,
+     "multilingual_index": null,
+     "decision_index": null
+    }
+   },
    "ha_versione_gratuita": false
   },
   {
@@ -16293,7 +17111,7 @@
      "economics_index": null,
      "cyber_index": null,
      "openness_index": null,
-     "multilingual_index": null,
+     "multilingual_index": 0.351,
      "decision_index": null
     }
    },
