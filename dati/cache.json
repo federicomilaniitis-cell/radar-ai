@@ -1,9 +1,57 @@
 {
- "aggiornato": "2026-11-18T13:37:18+00:00",
+ "aggiornato": "2026-11-18T23:14:49+00:00",
  "aggiornato_it": "18 novembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 380,
+ "totale": 381,
  "modelli": [
+  {
+   "id": "google/gemini-4-neon",
+   "name": "Google: Gemini 4 Neon",
+   "created": 1795006977,
+   "context_length": 1048576,
+   "description": "Gemini 4 Neon is a fast, mid-priced model in the Gemini 4 family from Google, built for coding and agentic work. It is suited for repository and terminal coding, web...",
+   "architecture": {
+    "input_modalities": [
+     "audio",
+     "file",
+     "image",
+     "text",
+     "video"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image+file+audio+video->text"
+   },
+   "pricing": {
+    "prompt": "0.000003",
+    "completion": "0.000015",
+    "input_cache_read": "0.00000015",
+    "input_cache_write": "0.0000000833333333333333",
+    "image": "0.000003",
+    "audio": "0.000003",
+    "web_search": "0.014"
+   },
+   "top_provider": {
+    "max_completion_tokens": 943718
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": true,
+    "supported_efforts": [
+     "xhigh",
+     "high",
+     "medium",
+     "low"
+    ],
+    "default_effort": "medium"
+   },
+   "ha_versione_gratuita": false
+  },
   {
    "id": "openai/gpt-6.2-astra-pro",
    "name": "OpenAI: GPT-6.2 Astra Pro",
@@ -894,7 +942,7 @@
      "engineering_index": 16.3,
      "economics_index": 16,
      "cyber_index": null,
-     "openness_index": null,
+     "openness_index": 38.9,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -944,7 +992,7 @@
      "engineering_index": 16.3,
      "economics_index": 16,
      "cyber_index": null,
-     "openness_index": null,
+     "openness_index": 38.9,
      "multilingual_index": null,
      "decision_index": null
     }
@@ -1191,8 +1239,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 63.5,
-     "agentic_index": 28.4,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
      "legal_index": null,
@@ -1560,9 +1608,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000015"
+    "prompt": "0.000000075",
+    "completion": "0.0000003",
+    "input_cache_read": "0.0000000075"
    },
    "top_provider": {
     "max_completion_tokens": 524288
@@ -1620,12 +1668,12 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.000000036",
-    "completion": "0.0000005",
-    "input_cache_read": "0.00000001"
+    "prompt": "0.00000015",
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000003"
    },
    "top_provider": {
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 393216
    },
    "supported_parameters": [
     "reasoning",
@@ -3175,8 +3223,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": 6.2,
-     "coding_index": 27.8,
-     "agentic_index": 1,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": 17,
      "strategy_and_ops_index": 7.4,
      "legal_index": 15.9,
@@ -3885,9 +3933,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.000000036",
-    "completion": "0.0000005",
-    "input_cache_read": "0.00000001"
+    "prompt": "0.000000035",
+    "completion": "0.00000015",
+    "input_cache_read": "0.0000000015"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -4278,8 +4326,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 57,
-     "agentic_index": 28.7,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
      "legal_index": null,
@@ -4482,8 +4530,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": 56.9,
-     "coding_index": 76.9,
-     "agentic_index": 51,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": 57.4,
      "strategy_and_ops_index": 58,
      "legal_index": 55.7,
@@ -4589,8 +4637,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": 33.7,
-     "coding_index": 76.2,
-     "agentic_index": 56,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": 45,
      "strategy_and_ops_index": 47.3,
      "legal_index": 41,
@@ -4698,8 +4746,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": 36.6,
-     "coding_index": 75.8,
-     "agentic_index": 55.5,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": 48.8,
      "strategy_and_ops_index": 50.3,
      "legal_index": 45.2,
@@ -4763,8 +4811,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": 30.8,
-     "coding_index": 76.3,
-     "agentic_index": 40.2,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": 42.4,
      "strategy_and_ops_index": 47.2,
      "legal_index": 41.7,
@@ -4825,8 +4873,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": 50,
-     "coding_index": 80.7,
-     "agentic_index": 57.2,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": 53.8,
      "strategy_and_ops_index": 58,
      "legal_index": 54.5,
@@ -4883,8 +4931,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": 5.1,
-     "coding_index": 22.4,
-     "agentic_index": 1.3,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": 14.8,
      "strategy_and_ops_index": 6.9,
      "legal_index": 14.6,
@@ -4916,9 +4964,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000834",
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042"
+    "prompt": "0.0000007506",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378"
    },
    "top_provider": {
     "max_completion_tokens": 64000
@@ -5021,8 +5069,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": 28.6,
-     "coding_index": 73.1,
-     "agentic_index": 53.6,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": 39,
      "strategy_and_ops_index": 44.5,
      "legal_index": 35.1,
@@ -5081,8 +5129,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": 27.8,
-     "coding_index": 71.5,
-     "agentic_index": 50.9,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": 38.8,
      "strategy_and_ops_index": 44.5,
      "legal_index": 34.8,
@@ -5182,23 +5230,6 @@
      "none"
     ],
     "default_effort": "high"
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": null,
-     "coding_index": 65,
-     "agentic_index": 47.5,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
-     "decision_index": null
-    }
    },
    "ha_versione_gratuita": false
   },
@@ -5366,8 +5397,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": 31.7,
-     "coding_index": 74.8,
-     "agentic_index": 53.1,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": 42.1,
      "strategy_and_ops_index": 47.4,
      "legal_index": 35.8,
@@ -5427,8 +5458,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": 20.1,
-     "coding_index": 68.1,
-     "agentic_index": 45.8,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": 35.5,
      "strategy_and_ops_index": 39,
      "legal_index": 33.2,
@@ -5524,23 +5555,6 @@
     ],
     "default_effort": "medium"
    },
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": null,
-     "coding_index": 76.1,
-     "agentic_index": 35.2,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
-     "decision_index": null
-    }
-   },
    "ha_versione_gratuita": false
   },
   {
@@ -5619,8 +5633,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 71.9,
-     "agentic_index": 50.1,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": 41.3,
      "strategy_and_ops_index": 44.4,
      "legal_index": 37,
@@ -5677,8 +5691,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": 23.1,
-     "coding_index": 68.8,
-     "agentic_index": 41.3,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": 30.4,
      "strategy_and_ops_index": 41.1,
      "legal_index": 27.5,
@@ -5738,8 +5752,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": 31,
-     "coding_index": 75.9,
-     "agentic_index": 52.5,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": 47.6,
      "strategy_and_ops_index": 52.8,
      "legal_index": 43.5,
@@ -5789,8 +5803,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": 5.5,
-     "coding_index": 26.8,
-     "agentic_index": 3.5,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": 14.9,
      "strategy_and_ops_index": 7.1,
      "legal_index": 14.2,
@@ -5838,8 +5852,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": 5.5,
-     "coding_index": 26.8,
-     "agentic_index": 3.5,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": 14.9,
      "strategy_and_ops_index": 7.1,
      "legal_index": 14.2,
@@ -5942,7 +5956,7 @@
     "artificial_analysis": {
      "intelligence_index": 14.2,
      "coding_index": null,
-     "agentic_index": 28.8,
+     "agentic_index": null,
      "finance_and_accounting_index": 28.4,
      "strategy_and_ops_index": 22.4,
      "legal_index": 25.1,
@@ -6000,8 +6014,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": 6.3,
-     "coding_index": 49,
-     "agentic_index": 8.5,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": 10,
      "strategy_and_ops_index": 9.6,
      "legal_index": 12.5,
@@ -6052,8 +6066,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 26.5,
-     "agentic_index": 4.4,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": 9.7,
      "legal_index": null,
@@ -6111,23 +6125,6 @@
     ],
     "default_effort": "medium"
    },
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": null,
-     "coding_index": 72.2,
-     "agentic_index": 43.2,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
-     "decision_index": null
-    }
-   },
    "ha_versione_gratuita": false
   },
   {
@@ -6146,7 +6143,7 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000434",
+    "prompt": "0.0000000456",
     "completion": "0.0000003",
     "input_cache_read": "0.000000035"
    },
@@ -6215,8 +6212,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 69.1,
-     "agentic_index": 41,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
      "legal_index": null,
@@ -6278,8 +6275,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": 12.9,
-     "coding_index": 52.9,
-     "agentic_index": 23.5,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": 23.7,
      "strategy_and_ops_index": 18,
      "legal_index": 21.7,
@@ -6379,8 +6376,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": 44.2,
-     "coding_index": 78,
-     "agentic_index": 56.5,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": 49.7,
      "strategy_and_ops_index": 53.7,
      "legal_index": 50.9,
@@ -6430,8 +6427,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 50.6,
-     "agentic_index": 19.3,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
      "legal_index": null,
@@ -6493,23 +6490,6 @@
     ],
     "default_effort": "medium"
    },
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": null,
-     "coding_index": 69.2,
-     "agentic_index": 29,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
-     "decision_index": null
-    }
-   },
    "ha_versione_gratuita": false
   },
   {
@@ -6562,8 +6542,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": 11.7,
-     "coding_index": 49.3,
-     "agentic_index": 14.3,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": 23.3,
      "strategy_and_ops_index": 20.7,
      "legal_index": 23.9,
@@ -6614,8 +6594,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 45.3,
-     "agentic_index": 14,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
      "legal_index": null,
@@ -6676,8 +6656,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": 12.5,
-     "coding_index": 52.1,
-     "agentic_index": 22.5,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": 23.2,
      "strategy_and_ops_index": 18.9,
      "legal_index": 23.1,
@@ -6737,8 +6717,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": 17.4,
-     "coding_index": 72,
-     "agentic_index": 29.3,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": 28.3,
      "strategy_and_ops_index": 37,
      "legal_index": 27.7,
@@ -6795,23 +6775,6 @@
      "minimal"
     ],
     "default_effort": "medium"
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": null,
-     "coding_index": 71.3,
-     "agentic_index": 25.8,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
-     "decision_index": null
-    }
    },
    "ha_versione_gratuita": false
   },
@@ -6910,8 +6873,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": 23.8,
-     "coding_index": 71.4,
-     "agentic_index": 42.1,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": 31.8,
      "strategy_and_ops_index": 40.7,
      "legal_index": 27.7,
@@ -7021,8 +6984,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": 32.3,
-     "coding_index": 76.7,
-     "agentic_index": 43.2,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": 34.6,
      "strategy_and_ops_index": 45.1,
      "legal_index": 32,
@@ -7129,23 +7092,6 @@
     ],
     "default_effort": "medium"
    },
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": null,
-     "coding_index": 78.3,
-     "agentic_index": 47.4,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
-     "decision_index": null
-    }
-   },
    "ha_versione_gratuita": false
   },
   {
@@ -7188,23 +7134,6 @@
      "low"
     ],
     "default_effort": "high"
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": null,
-     "coding_index": 72.4,
-     "agentic_index": 41.2,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
-     "decision_index": null
-    }
    },
    "ha_versione_gratuita": false
   },
@@ -7334,9 +7263,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000132",
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033"
+    "prompt": "0.0000000825",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -7402,23 +7331,6 @@
      "none"
     ],
     "default_effort": "high"
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": null,
-     "coding_index": 71.5,
-     "agentic_index": 43.6,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
-     "decision_index": null
-    }
    },
    "ha_versione_gratuita": false
   },
@@ -7617,8 +7529,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": 3.4,
-     "coding_index": 36.5,
-     "agentic_index": 1.1,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": 9.3,
      "strategy_and_ops_index": 6.2,
      "legal_index": 7.9,
@@ -7650,9 +7562,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000007",
-    "completion": "0.0000068",
-    "input_cache_read": "0.000000006"
+    "prompt": "0.00000062",
+    "completion": "0.00000242",
+    "input_cache_read": "0.00000014"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -7675,8 +7587,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 68.8,
-     "agentic_index": 38.4,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": 32.1,
      "strategy_and_ops_index": 30,
      "legal_index": 28.5,
@@ -7709,9 +7621,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.0000007",
-    "completion": "0.00000375",
-    "input_cache_read": "0.00000017"
+    "prompt": "0.0000006",
+    "completion": "0.0000035",
+    "input_cache_read": "0.00000016"
    },
    "top_provider": {
     "max_completion_tokens": 235929
@@ -7728,8 +7640,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 60.8,
-     "agentic_index": 21,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
      "legal_index": null,
@@ -7832,23 +7744,6 @@
     ],
     "default_effort": "high"
    },
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": null,
-     "coding_index": 76.5,
-     "agentic_index": 50.7,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
-     "decision_index": null
-    }
-   },
    "ha_versione_gratuita": false
   },
   {
@@ -7927,8 +7822,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": 11.8,
-     "coding_index": 49.3,
-     "agentic_index": 20.1,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": 24.2,
      "strategy_and_ops_index": 15.3,
      "legal_index": 22.6,
@@ -7984,8 +7879,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": 11.8,
-     "coding_index": 49.3,
-     "agentic_index": 20.1,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": 24.2,
      "strategy_and_ops_index": 15.3,
      "legal_index": 22.6,
@@ -8034,23 +7929,6 @@
     "mandatory": false,
     "default_enabled": true
    },
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": null,
-     "coding_index": 55.9,
-     "agentic_index": 17.5,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
-     "decision_index": null
-    }
-   },
    "ha_versione_gratuita": false
   },
   {
@@ -8090,8 +7968,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": 18.9,
-     "coding_index": 58.6,
-     "agentic_index": 29.5,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": 25.1,
      "strategy_and_ops_index": 27.9,
      "legal_index": 23.5,
@@ -8149,7 +8027,7 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 39.6,
+     "coding_index": null,
      "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
@@ -8210,23 +8088,6 @@
     ],
     "default_effort": "high"
    },
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": null,
-     "coding_index": 74.3,
-     "agentic_index": 41.9,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
-     "decision_index": null
-    }
-   },
    "ha_versione_gratuita": false
   },
   {
@@ -8261,23 +8122,6 @@
    "reasoning": {
     "mandatory": false,
     "default_enabled": true
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": null,
-     "coding_index": 66,
-     "agentic_index": 22.5,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
-     "decision_index": null
-    }
    },
    "ha_versione_gratuita": false
   },
@@ -8314,23 +8158,6 @@
    ],
    "reasoning": {
     "mandatory": true
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": null,
-     "coding_index": 51.5,
-     "agentic_index": null,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
-     "decision_index": null
-    }
    },
    "ha_versione_gratuita": false
   },
@@ -8380,23 +8207,6 @@
      "minimal"
     ],
     "default_effort": "medium"
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": null,
-     "coding_index": 70.1,
-     "agentic_index": 26,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
-     "decision_index": null
-    }
    },
    "ha_versione_gratuita": false
   },
@@ -8557,23 +8367,6 @@
     ],
     "default_effort": "low"
    },
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": null,
-     "coding_index": 42.2,
-     "agentic_index": 15.5,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
-     "decision_index": null
-    }
-   },
    "ha_versione_gratuita": false
   },
   {
@@ -8618,8 +8411,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": 4.6,
-     "coding_index": 46.9,
-     "agentic_index": 7,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": 11.1,
      "strategy_and_ops_index": 9.4,
      "legal_index": 9.7,
@@ -8672,7 +8465,7 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 13.8,
+     "coding_index": null,
      "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
@@ -9070,8 +8863,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 41.9,
-     "agentic_index": 13.1,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
      "legal_index": null,
@@ -9123,8 +8916,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 53.7,
-     "agentic_index": 18.5,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
      "legal_index": null,
@@ -9224,23 +9017,6 @@
      "none"
     ],
     "default_effort": "medium"
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": null,
-     "coding_index": 74.9,
-     "agentic_index": 36.4,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
-     "decision_index": null
-    }
    },
    "ha_versione_gratuita": false
   },
@@ -9342,8 +9118,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 56.2,
-     "agentic_index": 22.2,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
      "legal_index": null,
@@ -9399,8 +9175,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 58.8,
-     "agentic_index": 24.1,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
      "legal_index": null,
@@ -9450,8 +9226,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 60.2,
-     "agentic_index": 21.3,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
      "legal_index": null,
@@ -9504,8 +9280,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 56.8,
-     "agentic_index": 15.8,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
      "legal_index": null,
@@ -9649,8 +9425,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 61.8,
-     "agentic_index": 20.5,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
      "legal_index": null,
@@ -9710,23 +9486,6 @@
     ],
     "default_effort": "high"
    },
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": null,
-     "coding_index": 73.6,
-     "agentic_index": 38.6,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
-     "decision_index": null
-    }
-   },
    "ha_versione_gratuita": false
   },
   {
@@ -9736,7 +9495,6 @@
    "context_length": 204800,
    "description": "GLM-5.1 delivers a major leap in coding capability, with particularly significant gains in handling long-horizon tasks. Unlike previous models built around minute-level interactions, GLM-5.1 can work independently and continuously on...",
    "hugging_face_id": "zai-org/GLM-5.1",
-   "expiration_date": "2026-11-20",
    "architecture": {
     "input_modalities": [
      "text"
@@ -9752,7 +9510,7 @@
     "input_cache_read": "0.00000026"
    },
    "top_provider": {
-    "max_completion_tokens": 182476
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -9766,8 +9524,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 55.8,
-     "agentic_index": 23.9,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
      "legal_index": null,
@@ -9801,9 +9559,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000009",
-    "completion": "0.0000003",
-    "input_cache_read": "0.00000005"
+    "prompt": "0.0000000765",
+    "completion": "0.000000255",
+    "input_cache_read": "0.0000000425"
    },
    "top_provider": {
     "max_completion_tokens": 235929
@@ -9820,8 +9578,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 39.3,
-     "agentic_index": 2.9,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
      "legal_index": null,
@@ -9872,8 +9630,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 39.3,
-     "agentic_index": 2.9,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
      "legal_index": null,
@@ -9925,8 +9683,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": 4.4,
-     "coding_index": 43.4,
-     "agentic_index": 4.2,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": 8.2,
      "strategy_and_ops_index": 6.9,
      "legal_index": 7.3,
@@ -9977,8 +9735,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": 4.4,
-     "coding_index": 43.4,
-     "agentic_index": 4.2,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": 8.2,
      "strategy_and_ops_index": 6.9,
      "legal_index": 7.3,
@@ -10026,23 +9784,6 @@
    ],
    "reasoning": {
     "mandatory": false
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": null,
-     "coding_index": 54.5,
-     "agentic_index": null,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
-     "decision_index": null
-    }
    },
    "ha_versione_gratuita": false
   },
@@ -10303,8 +10044,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 52.6,
-     "agentic_index": 15.3,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
      "legal_index": null,
@@ -10363,23 +10104,6 @@
     ],
     "default_effort": "medium"
    },
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": null,
-     "coding_index": 56.1,
-     "agentic_index": 16,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
-     "decision_index": null
-    }
-   },
    "ha_versione_gratuita": false
   },
   {
@@ -10429,8 +10153,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 56.1,
-     "agentic_index": 17.9,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
      "legal_index": null,
@@ -10487,8 +10211,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": 4.3,
-     "coding_index": 26.6,
-     "agentic_index": 0.8,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": 11.6,
      "strategy_and_ops_index": 6.8,
      "legal_index": 11.6,
@@ -10579,8 +10303,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 37.7,
-     "agentic_index": 1.7,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
      "legal_index": null,
@@ -10656,9 +10380,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000154",
-    "completion": "0.000000226",
-    "input_cache_read": "0.000000138"
+    "prompt": "0.000000142",
+    "completion": "0.00000021",
+    "input_cache_read": "0.000000128"
    },
    "top_provider": {
     "max_completion_tokens": 40960
@@ -10674,8 +10398,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 28.7,
-     "agentic_index": 1.2,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
      "legal_index": null,
@@ -10776,23 +10500,6 @@
     ],
     "default_effort": "medium"
    },
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": null,
-     "coding_index": 71.1,
-     "agentic_index": null,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
-     "decision_index": null
-    }
-   },
    "ha_versione_gratuita": false
   },
   {
@@ -10847,8 +10554,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": 6.2,
-     "coding_index": 34.7,
-     "agentic_index": 1.6,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": 12.1,
      "strategy_and_ops_index": 10.5,
      "legal_index": 14.7,
@@ -10985,7 +10692,7 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 37,
+     "coding_index": null,
      "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
@@ -11089,8 +10796,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 45.7,
-     "agentic_index": 7.6,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
      "legal_index": null,
@@ -11312,8 +11019,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 68.8,
-     "agentic_index": 8.2,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
      "legal_index": null,
@@ -11375,8 +11082,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 63,
-     "agentic_index": 31.8,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
      "legal_index": null,
@@ -11463,8 +11170,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 48.2,
-     "agentic_index": 8.3,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
      "legal_index": null,
@@ -11678,8 +11385,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 36.2,
-     "agentic_index": 0.9,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
      "legal_index": null,
@@ -11731,7 +11438,7 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 46.8,
+     "coding_index": null,
      "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
@@ -11967,7 +11674,7 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 45.3,
+     "coding_index": null,
      "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
@@ -12085,8 +11792,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 14.4,
-     "agentic_index": 1,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
      "legal_index": null,
@@ -12270,8 +11977,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 31.3,
-     "agentic_index": 2.3,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
      "legal_index": null,
@@ -12441,23 +12148,6 @@
    "reasoning": {
     "mandatory": false
    },
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": null,
-     "coding_index": 23,
-     "agentic_index": null,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
-     "decision_index": null
-    }
-   },
    "ha_versione_gratuita": false
   },
   {
@@ -12492,8 +12182,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 14.4,
-     "agentic_index": 1.1,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
      "legal_index": null,
@@ -12540,8 +12230,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 9.7,
-     "agentic_index": 0.6,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
      "legal_index": null,
@@ -12588,8 +12278,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 4.8,
-     "agentic_index": 0.8,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
      "legal_index": null,
@@ -12637,8 +12327,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 20.1,
-     "agentic_index": 1,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
      "legal_index": null,
@@ -12689,7 +12379,7 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 44.2,
+     "coding_index": null,
      "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
@@ -12845,7 +12535,7 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 49.4,
+     "coding_index": null,
      "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
@@ -13015,7 +12705,7 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 21,
+     "coding_index": null,
      "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
@@ -13256,8 +12946,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": 7.4,
-     "coding_index": 43.9,
-     "agentic_index": 8,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": 19.4,
      "strategy_and_ops_index": 11.2,
      "legal_index": 18,
@@ -13516,7 +13206,7 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 45.8,
+     "coding_index": null,
      "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
@@ -13571,8 +13261,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 52.1,
-     "agentic_index": 15.8,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
      "legal_index": null,
@@ -13774,8 +13464,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 43.5,
-     "agentic_index": 6.8,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
      "legal_index": null,
@@ -14030,8 +13720,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 20.5,
-     "agentic_index": 1.9,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
      "legal_index": null,
@@ -14144,7 +13834,7 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 37.8,
+     "coding_index": null,
      "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
@@ -14206,8 +13896,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 15.6,
-     "agentic_index": 6.8,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
      "legal_index": null,
@@ -14325,8 +14015,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": 3.8,
-     "coding_index": 30.4,
-     "agentic_index": 3.7,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": 7.8,
      "strategy_and_ops_index": 5.5,
      "legal_index": 8.1,
@@ -14382,8 +14072,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 20.7,
-     "agentic_index": 1.2,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
      "legal_index": null,
@@ -14693,8 +14383,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 22.1,
-     "agentic_index": 1.3,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
      "legal_index": null,
@@ -15151,8 +14841,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 33.3,
-     "agentic_index": 1.6,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
      "legal_index": null,
@@ -15419,23 +15109,6 @@
    "reasoning": {
     "mandatory": false
    },
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": null,
-     "coding_index": 13.8,
-     "agentic_index": 0.9,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
-     "decision_index": null
-    }
-   },
    "ha_versione_gratuita": false
   },
   {
@@ -15468,23 +15141,6 @@
    ],
    "reasoning": {
     "mandatory": false
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": null,
-     "coding_index": 15.3,
-     "agentic_index": 0.9,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
-     "decision_index": null
-    }
    },
    "ha_versione_gratuita": false
   },
@@ -15607,23 +15263,6 @@
     "structured_outputs",
     "tools"
    ],
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": null,
-     "coding_index": 20.2,
-     "agentic_index": null,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
-     "decision_index": null
-    }
-   },
    "ha_versione_gratuita": false
   },
   {
@@ -15657,23 +15296,6 @@
     "structured_outputs",
     "tools"
    ],
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": null,
-     "coding_index": 11.1,
-     "agentic_index": null,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
-     "decision_index": null
-    }
-   },
    "ha_versione_gratuita": false
   },
   {
@@ -15708,8 +15330,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 16.3,
-     "agentic_index": 0.6,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
      "legal_index": null,
@@ -15755,8 +15377,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 8.2,
-     "agentic_index": 0.5,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
      "legal_index": null,
@@ -15799,23 +15421,6 @@
     "structured_outputs",
     "tools"
    ],
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": null,
-     "coding_index": 21.2,
-     "agentic_index": 0.8,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
-     "decision_index": null
-    }
-   },
    "ha_versione_gratuita": false
   },
   {
@@ -15878,7 +15483,7 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 2.7,
+     "coding_index": null,
      "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
@@ -15925,8 +15530,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 5.8,
-     "agentic_index": 0.1,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
      "legal_index": null,
@@ -16068,8 +15673,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 10.1,
-     "agentic_index": 0.1,
+     "coding_index": null,
+     "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
      "legal_index": null,
@@ -16514,7 +16119,7 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 11.9,
+     "coding_index": null,
      "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
@@ -17101,7 +16706,7 @@
    "benchmarks": {
     "artificial_analysis": {
      "intelligence_index": null,
-     "coding_index": 5.4,
+     "coding_index": null,
      "agentic_index": null,
      "finance_and_accounting_index": null,
      "strategy_and_ops_index": null,
@@ -17175,23 +16780,6 @@
     "structured_outputs",
     "tools"
    ],
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": null,
-     "coding_index": 11.4,
-     "agentic_index": null,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
-     "decision_index": null
-    }
-   },
    "ha_versione_gratuita": false
   },
   {
@@ -17312,23 +16900,6 @@
     "structured_outputs",
     "tools"
    ],
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": null,
-     "coding_index": 24.2,
-     "agentic_index": null,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
-     "decision_index": null
-    }
-   },
    "ha_versione_gratuita": false
   },
   {
@@ -17556,23 +17127,6 @@
    "supported_parameters": [
     "tools"
    ],
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": null,
-     "coding_index": 13.1,
-     "agentic_index": null,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
-     "openness_index": null,
-     "multilingual_index": null,
-     "decision_index": null
-    }
-   },
    "ha_versione_gratuita": false
   }
  ]
