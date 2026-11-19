@@ -1,8 +1,8 @@
 {
- "aggiornato": "2026-11-18T23:14:49+00:00",
- "aggiornato_it": "18 novembre 2026",
+ "aggiornato": "2026-11-19T14:03:41+00:00",
+ "aggiornato_it": "19 novembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 381,
+ "totale": 380,
  "modelli": [
   {
    "id": "google/gemini-4-neon",
@@ -49,6 +49,23 @@
      "low"
     ],
     "default_effort": "medium"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 61.4,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": 65.1,
+     "strategy_and_ops_index": 63.8,
+     "legal_index": 63.8,
+     "healthcare_and_medical_index": 59.9,
+     "engineering_index": 66.8,
+     "economics_index": 61.9,
+     "cyber_index": null,
+     "openness_index": null,
+     "multilingual_index": null,
+     "decision_index": null
+    }
    },
    "ha_versione_gratuita": false
   },
@@ -709,67 +726,7 @@
      "decision_index": null
     }
    },
-   "ha_versione_gratuita": true
-  },
-  {
-   "id": "thinkingmachines/inkling-2-small:free",
-   "name": "Thinking Machines: Inkling 2 Small (free)",
-   "created": 1794261847,
-   "context_length": 1048576,
-   "description": "Inkling 2 Small is an open-weight multimodal mixture-of-experts reasoning model from Thinking Machines Lab, with 17B active parameters out of 594B total. It is the first model in the second...",
-   "hugging_face_id": "thinkingmachines/Inkling-2-Small",
-   "expiration_date": "2026-11-19",
-   "architecture": {
-    "input_modalities": [
-     "text",
-     "image"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text+image->text"
-   },
-   "pricing": {
-    "prompt": "0",
-    "completion": "0"
-   },
-   "top_provider": {
-    "max_completion_tokens": 131072
-   },
-   "supported_parameters": [
-    "reasoning",
-    "tools"
-   ],
-   "reasoning": {
-    "mandatory": true,
-    "default_enabled": true,
-    "supported_efforts": [
-     "max",
-     "high",
-     "medium",
-     "low",
-     "minimal"
-    ],
-    "default_effort": "high"
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": 30.6,
-     "coding_index": null,
-     "agentic_index": null,
-     "finance_and_accounting_index": 44.3,
-     "strategy_and_ops_index": 43.5,
-     "legal_index": 41.6,
-     "healthcare_and_medical_index": 40.8,
-     "engineering_index": 38.9,
-     "economics_index": 43.4,
-     "cyber_index": null,
-     "openness_index": 38.9,
-     "multilingual_index": null,
-     "decision_index": null
-    }
-   },
-   "ha_versione_gratuita": true
+   "ha_versione_gratuita": false
   },
   {
    "id": "anthropic/claude-fable-5.2",
@@ -1515,9 +1472,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000002403",
-    "completion": "0.0000084023",
-    "input_cache_read": "0.0000002"
+    "prompt": "0.000000253",
+    "completion": "0.0000088",
+    "input_cache_read": "0.00000018"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -1608,9 +1565,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000075",
-    "completion": "0.0000003",
-    "input_cache_read": "0.0000000075"
+    "prompt": "0.00000015",
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000015"
    },
    "top_provider": {
     "max_completion_tokens": 524288
@@ -1668,12 +1625,12 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000003"
+    "prompt": "0.000000035",
+    "completion": "0.00000015",
+    "input_cache_read": "0.0000000015"
    },
    "top_provider": {
-    "max_completion_tokens": 393216
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -1762,12 +1719,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000003",
+    "prompt": "0.00000025",
     "completion": "0.000001",
-    "input_cache_read": "0.00000004"
+    "input_cache_read": "0.00000005"
    },
    "top_provider": {
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -4964,9 +4921,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000007506",
-    "completion": "0.0000022509",
-    "input_cache_read": "0.0000000378"
+    "prompt": "0.000000834",
+    "completion": "0.000002501",
+    "input_cache_read": "0.000000042"
    },
    "top_provider": {
     "max_completion_tokens": 64000
@@ -6143,12 +6100,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000456",
-    "completion": "0.0000003",
-    "input_cache_read": "0.000000035"
+    "prompt": "0.00000004664",
+    "completion": "0.00000013992",
+    "input_cache_read": "0.000000001484"
    },
    "top_provider": {
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -6186,12 +6143,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000006",
-    "completion": "0.00000018",
-    "input_cache_read": "0.000000015"
+    "prompt": "0.000000062",
+    "completion": "0.0000003",
+    "input_cache_read": "0.000000035"
    },
    "top_provider": {
-    "max_completion_tokens": 384000
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -7263,9 +7220,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000825",
-    "completion": "0.00000033",
-    "input_cache_read": "0.000000020625"
+    "prompt": "0.000000132",
+    "completion": "0.000000528",
+    "input_cache_read": "0.000000033"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -7621,7 +7578,7 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.0000006",
+    "prompt": "0.00000065",
     "completion": "0.0000035",
     "input_cache_read": "0.00000016"
    },
@@ -9505,9 +9462,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000014",
-    "completion": "0.0000044",
-    "input_cache_read": "0.00000026"
+    "prompt": "0.00000119",
+    "completion": "0.00000374",
+    "input_cache_read": "0.0000006"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -9559,9 +9516,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000000765",
-    "completion": "0.000000255",
-    "input_cache_read": "0.0000000425"
+    "prompt": "0.00000009",
+    "completion": "0.0000003",
+    "input_cache_read": "0.00000005"
    },
    "top_provider": {
     "max_completion_tokens": 235929
@@ -10380,12 +10337,11 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000142",
-    "completion": "0.00000021",
-    "input_cache_read": "0.000000128"
+    "prompt": "0.00000017",
+    "completion": "0.00000025"
    },
    "top_provider": {
-    "max_completion_tokens": 40960
+    "max_completion_tokens": 235929
    },
    "supported_parameters": [
     "reasoning",
@@ -10727,8 +10683,8 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000003",
-    "completion": "0.0000024"
+    "prompt": "0.000000195",
+    "completion": "0.00000156"
    },
    "top_provider": {
     "max_completion_tokens": 65536
@@ -15660,11 +15616,10 @@
    },
    "pricing": {
     "prompt": "0.00000008",
-    "completion": "0.00000045",
-    "input_cache_read": "0.00000004"
+    "completion": "0.00000016"
    },
    "top_provider": {
-    "max_completion_tokens": 117964
+    "max_completion_tokens": 16384
    },
    "supported_parameters": [
     "structured_outputs",
