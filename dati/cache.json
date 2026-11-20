@@ -1,8 +1,8 @@
 {
- "aggiornato": "2026-11-20T13:46:04+00:00",
+ "aggiornato": "2026-11-20T22:55:09+00:00",
  "aggiornato_it": "20 novembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 378,
+ "totale": 377,
  "modelli": [
   {
    "id": "mistralai/pixtral-large-2502",
@@ -1591,9 +1591,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000015"
+    "prompt": "0.000000075",
+    "completion": "0.0000003",
+    "input_cache_read": "0.0000000075"
    },
    "top_provider": {
     "max_completion_tokens": 524288
@@ -1651,12 +1651,12 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000003"
+    "prompt": "0.000000036",
+    "completion": "0.0000005",
+    "input_cache_read": "0.00000001"
    },
    "top_provider": {
-    "max_completion_tokens": 393216
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -3571,7 +3571,7 @@
    "id": "xiaomi/mimo-v2.6-flash",
    "name": "Xiaomi: MiMo-V2.6-Flash",
    "created": 1790021264,
-   "context_length": 1050000,
+   "context_length": 1048576,
    "description": "MiMo-V2.6-Flash is an open-source foundation model developed by Xiaomi. Built on a Mixture-of-Experts architecture with 309B total parameters and 15B activated per token, it employs a hybrid attention mechanism for...",
    "hugging_face_id": "XiaomiMiMo/MiMo-V2.6-Flash-RL",
    "architecture": {
@@ -3625,7 +3625,7 @@
    "id": "xiaomi/mimo-v2.6-pro",
    "name": "Xiaomi: MiMo-V2.6-Pro",
    "created": 1790021259,
-   "context_length": 1050000,
+   "context_length": 1048576,
    "description": "MiMo-V2.6-Pro is the flagship foundation model developed by Xiaomi. Built at a scale of over 1T parameters, it is designed to push the ceiling of capability for the most demanding...",
    "hugging_face_id": "XiaomiMiMo/MiMo-V2.6-Pro-RL",
    "architecture": {
@@ -3875,9 +3875,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000002066",
+    "prompt": "0.0000000999",
     "completion": "0.000008",
-    "input_cache_read": "0.00000021"
+    "input_cache_read": "0.0000000999"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -4343,12 +4343,12 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.0000000507",
-    "completion": "0.0000002028",
-    "input_cache_read": "0.000000001014"
+    "prompt": "0.0000003",
+    "completion": "0.0000012",
+    "input_cache_read": "0.000000006"
    },
    "top_provider": {
-    "max_completion_tokens": 393216
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -4947,9 +4947,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000834",
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042"
+    "prompt": "0.0000007506",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378"
    },
    "top_provider": {
     "max_completion_tokens": 64000
@@ -5191,12 +5191,12 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000044",
-    "completion": "0.00000132",
-    "input_cache_read": "0.000000014"
+    "prompt": "0.0000002156",
+    "completion": "0.0000006468",
+    "input_cache_read": "0.00000000686"
    },
    "top_provider": {
-    "max_completion_tokens": 943717
+    "max_completion_tokens": 262144
    },
    "supported_parameters": [
     "reasoning",
@@ -7244,9 +7244,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000132",
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033"
+    "prompt": "0.0000000825",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -9031,63 +9031,6 @@
    "ha_versione_gratuita": false
   },
   {
-   "id": "tencent/hy3-preview",
-   "name": "Tencent: Hy3 preview",
-   "created": 1776878150,
-   "context_length": 262144,
-   "description": "Hy3 preview is a high-efficiency Mixture-of-Experts model from Tencent designed for agentic workflows and production use. It supports configurable reasoning levels across disabled, low, and high modes, allowing it to...",
-   "hugging_face_id": "tencent/Hy3-preview",
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text->text"
-   },
-   "pricing": {
-    "prompt": "0.00000018",
-    "completion": "0.0000006",
-    "input_cache_read": "0.00000006"
-   },
-   "top_provider": {
-    "max_completion_tokens": 235929
-   },
-   "supported_parameters": [
-    "reasoning",
-    "tools"
-   ],
-   "reasoning": {
-    "mandatory": false,
-    "default_enabled": true,
-    "supported_efforts": [
-     "high",
-     "low",
-     "none"
-    ],
-    "default_effort": "high"
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": null,
-     "coding_index": null,
-     "agentic_index": null,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
-     "openness_index": 44.4,
-     "multilingual_index": null,
-     "decision_index": null
-    }
-   },
-   "ha_versione_gratuita": false
-  },
-  {
    "id": "xiaomi/mimo-v2.5-pro",
    "name": "Xiaomi: MiMo-V2.5-Pro",
    "created": 1776874273,
@@ -9455,9 +9398,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000009",
-    "completion": "0.0000003",
-    "input_cache_read": "0.00000005"
+    "prompt": "0.0000000675",
+    "completion": "0.000000225",
+    "input_cache_read": "0.0000000375"
    },
    "top_provider": {
     "max_completion_tokens": 235929
@@ -9923,12 +9866,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000021",
-    "completion": "0.00000084",
-    "input_cache_read": "0.000000042"
+    "prompt": "0.0000006",
+    "completion": "0.0000018"
    },
    "top_provider": {
-    "max_completion_tokens": 176947
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -10622,11 +10564,11 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000026",
-    "completion": "0.0000026"
+    "prompt": "0.000000195",
+    "completion": "0.00000156"
    },
    "top_provider": {
-    "max_completion_tokens": 81920
+    "max_completion_tokens": 65536
    },
    "supported_parameters": [
     "reasoning",
@@ -13942,9 +13884,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000018",
-    "completion": "0.00000009",
-    "input_cache_read": "0.000000009"
+    "prompt": "0.000000017",
+    "completion": "0.000000085",
+    "input_cache_read": "0.0000000085"
    },
    "top_provider": {
     "max_completion_tokens": 117964
@@ -15304,12 +15246,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000029",
-    "completion": "0.00000114",
-    "input_cache_read": "0.00000011"
+    "prompt": "0.00000025",
+    "completion": "0.000001"
    },
    "top_provider": {
-    "max_completion_tokens": 115200
+    "max_completion_tokens": 147456
    },
    "supported_parameters": [
     "structured_outputs",
@@ -15554,10 +15495,11 @@
    },
    "pricing": {
     "prompt": "0.00000008",
-    "completion": "0.00000016"
+    "completion": "0.00000045",
+    "input_cache_read": "0.00000004"
    },
    "top_provider": {
-    "max_completion_tokens": 16384
+    "max_completion_tokens": 117964
    },
    "supported_parameters": [
     "structured_outputs",

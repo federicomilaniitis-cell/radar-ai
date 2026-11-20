@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-20T13:46:04+00:00",
+ "aggiornato": "2026-11-20T22:55:09+00:00",
  "notizie": [
   {
    "tag": "crit",
@@ -104,6 +104,33 @@
    "tag": "ok",
    "tagT": "Prezzo giu'",
    "data": "2026-11-20",
+   "titolo": "MiniMax M3.1 Flash: il prezzo in entrata scende del 50%",
+   "testo": "Da $0,15 a $0,075 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-minimax-minimax-m3-1-flashprompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-11-20",
+   "titolo": "MiniMax M3.1 Flash: il prezzo in uscita scende del 50%",
+   "testo": "Da $0,6 a $0,3 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-minimax-minimax-m3-1-flashcompletion"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-11-20",
+   "titolo": "DeepSeek V4.1 Flash 1017: il prezzo in entrata scende del 76%",
+   "testo": "Da $0,15 a $0,036 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-deepseek-deepseek-v4-1-flash-1017prompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-11-20",
    "titolo": "GLM 5.3 Flash: il prezzo in entrata scende del 73%",
    "testo": "Da $0,15 a $0,04 per milione di token in entrata.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
@@ -144,24 +171,6 @@
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-20. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-meta-llama-llama-3-2-3b-instruct"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-11-19",
-   "titolo": "MiniMax M3.1 Flash: il prezzo in entrata scende del 50%",
-   "testo": "Da $0,15 a $0,075 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-minimax-minimax-m3-1-flashprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-11-19",
-   "titolo": "DeepSeek V4.1 Flash 1017: il prezzo in entrata scende del 77%",
-   "testo": "Da $0,15 a $0,035 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-deepseek-deepseek-v4-1-flash-1017prompt"
   },
   {
    "tag": "crit",
@@ -207,15 +216,6 @@
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-15. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-tencent-hunyuan-a13b-instruct"
-  },
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-11-13",
-   "titolo": "LFM2.5-2.6B viene spento fra 0 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-13. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-liquid-lfm-2-5-2-6b"
   }
  ]
 }
