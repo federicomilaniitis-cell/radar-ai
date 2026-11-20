@@ -1,9 +1,35 @@
 {
- "aggiornato": "2026-11-19T23:21:57+00:00",
- "aggiornato_it": "19 novembre 2026",
+ "aggiornato": "2026-11-20T13:46:04+00:00",
+ "aggiornato_it": "20 novembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 380,
+ "totale": 378,
  "modelli": [
+  {
+   "id": "mistralai/pixtral-large-2502",
+   "name": "Mistral: Pixtral Large 2502",
+   "created": 1795135865,
+   "context_length": 128000,
+   "description": "Pixtral Large 2502 is the February 2025 version of Mistral AI's large multimodal model, following [Pixtral Large 2411](https://openrouter.ai/mistralai/pixtral-large-2411). It accepts text and image input, including documents, charts, and natural images,...",
+   "architecture": {
+    "input_modalities": [
+     "text",
+     "image"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image->text"
+   },
+   "pricing": {
+    "prompt": "0.000002",
+    "completion": "0.000006"
+   },
+   "top_provider": {
+    "max_completion_tokens": 102400
+   },
+   "supported_parameters": [],
+   "ha_versione_gratuita": false
+  },
   {
    "id": "google/gemini-4-neon",
    "name": "Google: Gemini 4 Neon",
@@ -58,7 +84,7 @@
      "finance_and_accounting_index": 65.1,
      "strategy_and_ops_index": 63.8,
      "legal_index": 63.8,
-     "healthcare_and_medical_index": 59.9,
+     "healthcare_and_medical_index": 60.1,
      "engineering_index": 66.8,
      "economics_index": 61.9,
      "cyber_index": null,
@@ -1271,9 +1297,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000006",
+    "prompt": "0.00000007",
     "completion": "0.0000005",
-    "input_cache_read": "0.000000003"
+    "input_cache_read": "0.000000006"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -1565,9 +1591,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000075",
-    "completion": "0.0000003",
-    "input_cache_read": "0.0000000075"
+    "prompt": "0.00000015",
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000015"
    },
    "top_provider": {
     "max_completion_tokens": 524288
@@ -2572,9 +2598,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000045",
-    "completion": "0.000000135",
-    "input_cache_read": "0.000000009"
+    "prompt": "0.00000006",
+    "completion": "0.00000018",
+    "input_cache_read": "0.000000012"
    },
    "top_provider": {
     "max_completion_tokens": 262144
@@ -3651,10 +3677,10 @@
   },
   {
    "id": "x-ai/grok-4.7",
-   "name": "SpaceXAI: Grok 4.7",
+   "name": "SpaceXSI: Grok 4.7",
    "created": 1790007541,
    "context_length": 500000,
-   "description": "Grok 4.7 is SpaceXAI's flagship model for coding, agentic tasks, and knowledge work, succeeding Grok 4.6. It is particularly strong at long-running software engineering tasks, verifying its own work, and...",
+   "description": "Grok 4.7 is SpaceXSI's flagship model for coding, agentic tasks, and knowledge work, succeeding Grok 4.6. It is particularly strong at long-running software engineering tasks, verifying its own work, and...",
    "architecture": {
     "input_modalities": [
      "text",
@@ -3849,9 +3875,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000001211",
+    "prompt": "0.0000002066",
     "completion": "0.000008",
-    "input_cache_read": "0.00000012"
+    "input_cache_read": "0.00000021"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -4921,9 +4947,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000007506",
-    "completion": "0.0000022509",
-    "input_cache_read": "0.0000000378"
+    "prompt": "0.000000834",
+    "completion": "0.000002501",
+    "input_cache_read": "0.000000042"
    },
    "top_provider": {
     "max_completion_tokens": 64000
@@ -5061,12 +5087,12 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000005",
+    "prompt": "0.0000000399",
+    "completion": "0.0000000784",
     "input_cache_read": "0.00000003"
    },
    "top_provider": {
-    "max_completion_tokens": 943717
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -5390,7 +5416,7 @@
    },
    "pricing": {
     "prompt": "0.00000006",
-    "completion": "0.0000022",
+    "completion": "0.00000196",
     "input_cache_read": "0.000000059"
    },
    "top_provider": {
@@ -5623,9 +5649,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000022",
-    "completion": "0.0000095",
-    "input_cache_read": "0.00000017"
+    "prompt": "0.00000132",
+    "completion": "0.00000396",
+    "input_cache_read": "0.000000044"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -5666,10 +5692,10 @@
   },
   {
    "id": "x-ai/grok-4.6",
-   "name": "SpaceXAI: Grok 4.6",
+   "name": "SpaceXSI: Grok 4.6",
    "created": 1786548957,
    "context_length": 500000,
-   "description": "Grok 4.6 is a model from SpaceXAI with frontier performance on coding, knowledge work, and STEM. It is succeeded by [Grok 4.7](/x-ai/grok-4.7).",
+   "description": "Grok 4.6 is a model from SpaceXSI with frontier performance on coding, knowledge work, and STEM. It is succeeded by [Grok 4.7](/x-ai/grok-4.7).",
    "architecture": {
     "input_modalities": [
      "text",
@@ -6100,9 +6126,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000004664",
-    "completion": "0.00000013992",
-    "input_cache_read": "0.000000001484"
+    "prompt": "0.000000044",
+    "completion": "0.000000132",
+    "input_cache_read": "0.0000000014"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -6123,7 +6149,6 @@
     ],
     "default_effort": "high"
    },
-   "supported_voices": [],
    "ha_versione_gratuita": false
   },
   {
@@ -6143,7 +6168,7 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000062",
+    "prompt": "0.0000000443",
     "completion": "0.0000003",
     "input_cache_read": "0.000000035"
    },
@@ -6183,7 +6208,6 @@
      "decision_index": null
     }
    },
-   "supported_voices": [],
    "ha_versione_gratuita": false
   },
   {
@@ -7053,10 +7077,10 @@
   },
   {
    "id": "x-ai/grok-4.5",
-   "name": "SpaceXAI: Grok 4.5",
+   "name": "SpaceXSI: Grok 4.5",
    "created": 1783523154,
    "context_length": 500000,
-   "description": "Grok 4.5 is a model from SpaceXAI with frontier performance on coding, knowledge work, and STEM.",
+   "description": "Grok 4.5 is a model from SpaceXSI with frontier performance on coding, knowledge work, and STEM.",
    "architecture": {
     "input_modalities": [
      "text",
@@ -7220,9 +7244,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000825",
-    "completion": "0.00000033",
-    "input_cache_read": "0.000000020625"
+    "prompt": "0.000000132",
+    "completion": "0.000000528",
+    "input_cache_read": "0.000000033"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -7454,55 +7478,6 @@
    "ha_versione_gratuita": false
   },
   {
-   "id": "cohere/north-mini-code:free",
-   "name": "Cohere: North Mini Code (free)",
-   "created": 1781723748,
-   "context_length": 256000,
-   "description": "North Mini Code is Cohere's first agentic coding model and the debut of its North family. A sparse mixture-of-experts model with 30B total parameters and 3B active, it is optimized...",
-   "hugging_face_id": "CohereLabs/North-Mini-Code-1.0",
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text->text"
-   },
-   "pricing": {
-    "prompt": "0",
-    "completion": "0"
-   },
-   "top_provider": {
-    "max_completion_tokens": 64000
-   },
-   "supported_parameters": [
-    "reasoning",
-    "tools"
-   ],
-   "reasoning": {
-    "mandatory": false
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": 3.4,
-     "coding_index": null,
-     "agentic_index": null,
-     "finance_and_accounting_index": 9.3,
-     "strategy_and_ops_index": 6.2,
-     "legal_index": 7.9,
-     "healthcare_and_medical_index": 6.3,
-     "engineering_index": 9.9,
-     "economics_index": 9.9,
-     "cyber_index": null,
-     "openness_index": 41.7,
-     "multilingual_index": null,
-     "decision_index": null
-    }
-   },
-   "ha_versione_gratuita": true
-  },
-  {
    "id": "z-ai/glm-5.2",
    "name": "Z.ai: GLM 5.2",
    "created": 1781631930,
@@ -7578,9 +7553,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000065",
-    "completion": "0.0000035",
-    "input_cache_read": "0.00000016"
+    "prompt": "0.0000006",
+    "completion": "0.000003",
+    "input_cache_read": "0.00000012"
    },
    "top_provider": {
     "max_completion_tokens": 235929
@@ -8083,42 +8058,6 @@
    "ha_versione_gratuita": false
   },
   {
-   "id": "x-ai/grok-build-0.1",
-   "name": "SpaceXAI: Grok Build 0.1",
-   "created": 1779298123,
-   "context_length": 256000,
-   "description": "Grok Build 0.1 is SpaceXAI’s fast coding model trained specifically for agentic software engineering workflows. It supports text and image inputs with text output, and is optimized for interactive coding...",
-   "architecture": {
-    "input_modalities": [
-     "text",
-     "image",
-     "file"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text+image+file->text"
-   },
-   "pricing": {
-    "prompt": "0.000001",
-    "completion": "0.000002",
-    "input_cache_read": "0.0000002",
-    "web_search": "0.005"
-   },
-   "top_provider": {
-    "max_completion_tokens": 230400
-   },
-   "supported_parameters": [
-    "reasoning",
-    "structured_outputs",
-    "tools"
-   ],
-   "reasoning": {
-    "mandatory": true
-   },
-   "ha_versione_gratuita": false
-  },
-  {
    "id": "google/gemini-3.5-flash",
    "name": "Google: Gemini 3.5 Flash",
    "created": 1779193800,
@@ -8284,10 +8223,10 @@
   },
   {
    "id": "x-ai/grok-4.3",
-   "name": "SpaceXAI: Grok 4.3",
+   "name": "SpaceXSI: Grok 4.3",
    "created": 1777591821,
    "context_length": 1000000,
-   "description": "Grok 4.3 is a reasoning model from SpaceXAI. It accepts text and image inputs with text output, and is suited for agentic workflows, instruction-following tasks, and applications requiring high factual...",
+   "description": "Grok 4.3 is a reasoning model from SpaceXSI. It accepts text and image inputs with text output, and is suited for agentic workflows, instruction-following tasks, and applications requiring high factual...",
    "architecture": {
     "input_modalities": [
      "text",
@@ -9516,9 +9455,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000000765",
-    "completion": "0.000000255",
-    "input_cache_read": "0.0000000425"
+    "prompt": "0.00000009",
+    "completion": "0.0000003",
+    "input_cache_read": "0.00000005"
    },
    "top_provider": {
     "max_completion_tokens": 235929
@@ -9782,10 +9721,10 @@
   },
   {
    "id": "x-ai/grok-4.20-multi-agent",
-   "name": "SpaceXAI: Grok 4.20 Multi-Agent",
+   "name": "SpaceXSI: Grok 4.20 Multi-Agent",
    "created": 1774979158,
    "context_length": 2000000,
-   "description": "Grok 4.20 Multi-Agent is a variant of SpaceXAI’s Grok 4.20 designed for collaborative, agent-based workflows. Multiple agents operate in parallel to conduct deep research, coordinate tool use, and synthesize information...",
+   "description": "Grok 4.20 Multi-Agent is a variant of SpaceXSI’s Grok 4.20 designed for collaborative, agent-based workflows. Multiple agents operate in parallel to conduct deep research, coordinate tool use, and synthesize information...",
    "hugging_face_id": "",
    "architecture": {
     "input_modalities": [
@@ -9826,10 +9765,10 @@
   },
   {
    "id": "x-ai/grok-4.20",
-   "name": "SpaceXAI: Grok 4.20",
+   "name": "SpaceXSI: Grok 4.20",
    "created": 1774979019,
    "context_length": 2000000,
-   "description": "Grok 4.20 is a reasoning model from SpaceXAI with industry-leading speed and agentic tool calling capabilities. It combines the lowest hallucination rate on the market with strict prompt adherance, delivering...",
+   "description": "Grok 4.20 is a reasoning model from SpaceXSI with industry-leading speed and agentic tool calling capabilities. It combines the lowest hallucination rate on the market with strict prompt adherance, delivering...",
    "hugging_face_id": "",
    "architecture": {
     "input_modalities": [
@@ -10683,11 +10622,11 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000195",
-    "completion": "0.00000156"
+    "prompt": "0.00000026",
+    "completion": "0.0000026"
    },
    "top_provider": {
-    "max_completion_tokens": 65536
+    "max_completion_tokens": 81920
    },
    "supported_parameters": [
     "reasoning",
@@ -13947,12 +13886,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000075"
+    "prompt": "0.00000009",
+    "completion": "0.00000036"
    },
    "top_provider": {
-    "max_completion_tokens": 65536
+    "max_completion_tokens": 117964
    },
    "supported_parameters": [
     "reasoning",
@@ -16374,40 +16312,12 @@
    "ha_versione_gratuita": false
   },
   {
-   "id": "meta-llama/llama-3.2-1b-instruct",
-   "name": "Meta: Llama 3.2 1B Instruct",
-   "created": 1727222400,
-   "context_length": 60000,
-   "description": "Llama 3.2 1B is a 1-billion-parameter language model focused on efficiently performing natural language tasks, such as summarization, dialogue, and multilingual text analysis. Its smaller size allows it to operate...",
-   "hugging_face_id": "meta-llama/Llama-3.2-1B-Instruct",
-   "expiration_date": "2026-11-20",
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text->text"
-   },
-   "pricing": {
-    "prompt": "0.000000027",
-    "completion": "0.000000201"
-   },
-   "top_provider": {
-    "max_completion_tokens": 54000
-   },
-   "supported_parameters": [],
-   "ha_versione_gratuita": false
-  },
-  {
    "id": "meta-llama/llama-3.2-3b-instruct",
    "name": "Meta: Llama 3.2 3B Instruct",
    "created": 1727222400,
    "context_length": 131072,
    "description": "Llama 3.2 3B is a 3-billion-parameter multilingual large language model, optimized for advanced natural language processing tasks like dialogue generation, reasoning, and summarization. Designed with the latest transformer architecture, it...",
    "hugging_face_id": "meta-llama/Llama-3.2-3B-Instruct",
-   "expiration_date": "2026-11-20",
    "architecture": {
     "input_modalities": [
      "text"
@@ -16418,11 +16328,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000509",
-    "completion": "0.000000335"
+    "prompt": "0.00000005",
+    "completion": "0.00000033"
    },
    "top_provider": {
-    "max_completion_tokens": 72000
+    "max_completion_tokens": 117964
    },
    "supported_parameters": [
     "structured_outputs"

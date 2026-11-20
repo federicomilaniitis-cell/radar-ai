@@ -1,89 +1,89 @@
 {
- "aggiornato": "2026-11-19T23:21:57+00:00",
+ "aggiornato": "2026-11-20T13:46:04+00:00",
  "paper": [
   {
-   "titolo": "Hypnos: A Dual-Phase End-to-End Platform for Scalable Continual Learning at the Edge",
-   "data": "2026-11-18",
-   "url": "http://arxiv.org/abs/2611.24637v1",
-   "id": "2611.24637v1",
-   "sommario": "Continual learning (CL) enables neural networks to adapt to non-stationary data streams by mitigating catastrophic forgetting, offering a path to robust, private, and adaptable edge devices. Yet, porting CL to real-world edge devices remains challenging for two reasons: (i) onlin"
+   "titolo": "AURA: AUdio-dRiven streaming Avatar",
+   "data": "2026-11-19",
+   "url": "http://arxiv.org/abs/2611.26540v1",
+   "id": "2611.26540v1",
+   "sommario": "Current audio-driven video diffusion models can synthesize realistic talking-head videos but generally require dozens of diffusion denoising steps over multi-second video chunks, making them unsuitable for streaming applications such as voice assistants and virtual avatars, where"
   },
   {
-   "titolo": "GateWatch: Low-Overhead LLM Monitoring with Boolean Circuits",
-   "data": "2026-11-18",
-   "url": "http://arxiv.org/abs/2611.24619v1",
-   "id": "2611.24619v1",
-   "sommario": "As large language models (LLMs) and LLM-based agents are increasingly deployed, monitoring their behavior becomes important for detecting unsafe or unintended actions. Activation probes offer an efficient approach, but existing methods face trade-offs between accuracy, interpreta"
+   "titolo": "Aggron: Aggressive Compression of Agentic KV Caches during Head-of-Line Stalls in the Request Queue",
+   "data": "2026-11-19",
+   "url": "http://arxiv.org/abs/2611.26435v1",
+   "id": "2611.26435v1",
+   "sommario": "LLM agents run long, multi-turn programs whose contexts grow at every step, and serving them is limited by KV cache capacity. To alleviate this limitation, systems use context compression techniques, which typically wait until the KV cache crosses a large threshold and then summa"
   },
   {
-   "titolo": "CanopyKV: Remember beyond the Crop for Fast Active Visual Reasoning",
-   "data": "2026-11-18",
-   "url": "http://arxiv.org/abs/2611.24373v1",
-   "id": "2611.24373v1",
-   "sommario": "Active visual reasoning enables multimodal models to answer challenging visual questions by gathering fine-grained evidence through iterative image inspection and tool use. However, accumulating crops and reasoning tokens expands the key-value (KV) cache, making compression impor"
+   "titolo": "Online Temporal Rotations for 2 Bit KV-Cache Quantization in Video Diffusion Transformers",
+   "data": "2026-11-19",
+   "url": "http://arxiv.org/abs/2611.26334v1",
+   "id": "2611.26334v1",
+   "sommario": "Video diffusion transformers reuse key--value (KV) caches across denoising steps, which quickly becomes a bottleneck for long video generation. We find that quantizing temporally distant cache vectors leads to a large range and high quantization error, but that nearby video token"
   },
   {
-   "titolo": "LoopCache: Accelerating Long-Context Self-Speculative Decoding for Looped Transformers",
-   "data": "2026-11-18",
-   "url": "http://arxiv.org/abs/2611.24301v1",
-   "id": "2611.24301v1",
-   "sommario": "Looped Transformers achieve large effective depth with compact models by repeatedly applying a weight-shared block across R recurrent steps, each maintaining a loop-specific key-value (KV) cache. To accelerate sequential loop execution, recent wave-style self-speculative methods "
+   "titolo": "AscMLA: Unlocking FP4 Efficiency for Long-Context MLA Decoding through Asymmetric Scaling",
+   "data": "2026-11-19",
+   "url": "http://arxiv.org/abs/2611.26106v1",
+   "id": "2611.26106v1",
+   "sommario": "Long-context decoding repeatedly reads a growing KV cache. FP4 reduces cache storage and traffic but needs block scaling to handle its limited dynamic range. Applying FP4 to multi-head latent attention (MLA) requires reconciling different K/V scaling requirements on a shared late"
   },
   {
-   "titolo": "When Shuffling Fails: Token Recovery from Obfuscated KV Caches",
-   "data": "2026-11-18",
-   "url": "http://arxiv.org/abs/2611.24276v1",
-   "id": "2611.24276v1",
-   "sommario": "LLM serving systems store, offload, and share KV caches, exposing token-level representations to infrastructure operators and co-tenants. Shuffled obfuscation combines secret linear transforms with fresh permutations, claiming security from b! possible shufflings. We show that in"
+   "titolo": "FrontierReplay: Split-Free Exact Prefix Caching for Hybrid Language Models",
+   "data": "2026-11-19",
+   "url": "http://arxiv.org/abs/2611.26020v1",
+   "id": "2611.26020v1",
+   "sommario": "Hybrid language models combine self-attention with recurrent layers whose in-place state updates restrict prefix reuse to exact saved positions. Saving states on a coarse grid wastes reusable prefixes, whereas existing fine-grained exact caches must cut the prefill forward pass a"
   },
   {
-   "titolo": "Do Thinking VLMs Need to Keep Looking at Long Videos? Write It Down, Then Look Away",
-   "data": "2026-11-18",
-   "url": "http://arxiv.org/abs/2611.24259v1",
-   "id": "2611.24259v1",
-   "sommario": "Vision-language models (VLMs) reason about long videos over hundreds to thousands of tokens. Every decoding step re-reads the key-value (KV) cache of the entire video. Must the model keep looking while it reasons? In LookAway, the model first writes timestamped notes on what the "
+   "titolo": "BlockJack: Cross-Tenant Redirection Fault Attacks on Paged KV Cache Address Translation in LLM Serving",
+   "data": "2026-11-19",
+   "url": "http://arxiv.org/abs/2611.25945v1",
+   "id": "2611.25945v1",
+   "sommario": "Large language model (LLM) serving frameworks accelerate inference by retaining previously computed states in a key-value (KV) cache. Paged serving frameworks such as vLLM organize this cache through block tables analogous to OS page tables, which map each request's logical KV bl"
   },
   {
-   "titolo": "ReCIM-HD: A 40 nm On-Device Learning Accelerator with Hyperdimensional Computing via Importance-Based Hybrid Digital-ReRAM CIM",
-   "data": "2026-11-18",
-   "url": "http://arxiv.org/abs/2611.23973v1",
-   "id": "2611.23973v1",
-   "sommario": "ReCIM-HD is an on-device learning (ODL) accelerator that integrates gradient-free hyperdimensional computing (HDC) with resistive RAM (ReRAM)-based analog compute-in-memory (CIM). ReCIM-HD introduces three key techniques: (1) ultra-low-power HDC-based edge ODL without costly back"
+   "titolo": "Thinking in Streams: Proactive Spatial Reasoning with Vision-Language Models",
+   "data": "2026-11-19",
+   "url": "http://arxiv.org/abs/2611.25865v1",
+   "id": "2611.25865v1",
+   "sommario": "Recognizing when a requested spatial condition holds in streaming video can require maintaining and updating spatial knowledge across changing viewpoints. We study this capability through proactive spatial reasoning, where a model receives a query in advance and determines whethe"
   },
   {
-   "titolo": "Inference-Time Scaling in Agentic Hardware Verification Workflows: A Multi-Strategy Characterization Across Protocol Complexity",
-   "data": "2026-11-18",
-   "url": "http://arxiv.org/abs/2611.23905v1",
-   "id": "2611.23905v1",
-   "sommario": "Inference-time scaling, allocating more compute during generation rather than pre-training, has demonstrated dramatic quality improvements for LLM reasoning tasks. Its behaviour in structured hardware verification code generation, where outputs must satisfy compiler correctness, "
+   "titolo": "Rank2Replace: VLM-Ranked Slot Replacement for Out-of-Distribution Generalization",
+   "data": "2026-11-19",
+   "url": "http://arxiv.org/abs/2611.25834v1",
+   "id": "2611.25834v1",
+   "sommario": "Spurious correlations can give image predictors high in-distribution accuracy but poor generalization under distribution shift. We introduce $\\textbf{Rank2Replace}$, which transfers knowledge of task-relevant evidence from pretrained vision--language models (VLMs) to small predic"
   },
   {
-   "titolo": "Keep the Reasoning, Read the Image: On-Demand Visual KV for Multi-Turn Reasoning VLMs",
-   "data": "2026-11-18",
-   "url": "http://arxiv.org/abs/2611.23769v1",
-   "id": "2611.23769v1",
-   "sommario": "Reasoning vision-language models (VLMs) think for thousands of tokens before they answer, and retention policies keep the KV cache affordable by pruning it as the reasoning grows. We find that this pruning sacrifices the image in multi-turn conversations: the image and the reason"
+   "titolo": "Efficient and Robust Drafting with Multi-Token Prediction",
+   "data": "2026-11-19",
+   "url": "http://arxiv.org/abs/2611.25813v1",
+   "id": "2611.25813v1",
+   "sommario": "Speculative decoding has emerged as a critical technique for accelerating Large Language Model (LLM) inference by decoupling generation into a drafting phase and a parallel verification phase. A crucial challenge is therefore designing a drafter that is both lightweight and accur"
   },
   {
-   "titolo": "Safe to Omit, Worth Omitting? Keeping the Answer and Cutting Latency When an LLM Agent Skips Another's Message",
-   "data": "2026-11-17",
-   "url": "http://arxiv.org/abs/2611.23570v1",
-   "id": "2611.23570v1",
-   "sommario": "In multi-agent systems, a receiver agent often waits for a helper agent's message (text or its latent KV cache), which can improve performance but adds latency. We study when a receiver agent can skip the message safely (the final answer rarely changes) and beneficially (the time"
+   "titolo": "Ask in the Crowd: Differentially Private LLM Inference via Dummy-Augmented Shuffling",
+   "data": "2026-11-19",
+   "url": "http://arxiv.org/abs/2611.25669v1",
+   "id": "2611.25669v1",
+   "sommario": "Large language models are increasingly deployed as LLM-as-a-Service (LLMaaS), where user queries are sent to remote LLMs for inference, raising severe privacy concerns about the exposure of sensitive user inputs. Differentially private inference mitigates these risks by injecting"
   },
   {
-   "titolo": "FastFrames: Video Generation at Interactive Latency",
-   "data": "2026-11-17",
-   "url": "http://arxiv.org/abs/2611.23226v1",
-   "id": "2611.23226v1",
-   "sommario": "Autoregressive video diffusion models generate frames based on new observations and inputs, making them a promising medium for interactive visual experiences. However, existing models are orders of magnitude too slow for fluid interaction. This paper introduces FastFrames, a fami"
+   "titolo": "Don't Lose the Future: Latent-Aware 4-Bit Quantization of World Action Models",
+   "data": "2026-11-19",
+   "url": "http://arxiv.org/abs/2611.25614v1",
+   "id": "2611.25614v1",
+   "sommario": "World action models (WAMs) predict how a scene will evolve and condition their actions on this predicted future. Deploying them on a robot's onboard computer calls for 4-bit weights, activations and key-value caches (W4A4KV4). Existing 4-bit quantizers for WAMs preserve the gener"
   },
   {
-   "titolo": "Storing the Gemma 4 K=V Cache Once: Exact Global-KV Memory Savings in a Paged Serving Engine with Unchanged Attention Kernels",
-   "data": "2026-11-17",
-   "url": "http://arxiv.org/abs/2611.23035v1",
-   "id": "2611.23035v1",
-   "sommario": "In the global attention layers of Gemma 4 31B, the value is the normalized key projection, and the key is the value scaled by a fixed weight, with rotary position encoding on one quarter of its dimensions. The Gemma 4 report states that this design reduces the global KV cache by "
+   "titolo": "Reinforcement-Aligned Probabilistic Weather Forecasting with Discrete Tokens",
+   "data": "2026-11-19",
+   "url": "http://arxiv.org/abs/2611.25570v1",
+   "id": "2611.25570v1",
+   "sommario": "Global medium-range weather forecasting must not only generate ensembles efficiently to characterize uncertainty in future states, but also serve downstream applications such as extreme-event warnings and cross-sphere coupled simulations. We introduce WeatherCraft, a framework th"
   }
  ]
 }
