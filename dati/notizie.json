@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-21T13:11:14+00:00",
+ "aggiornato": "2026-11-21T21:58:48+00:00",
  "notizie": [
   {
    "tag": "crit",
@@ -92,6 +92,42 @@
    "id": "fine-openai-o3"
   },
   {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-11-21",
+   "titolo": "Inkling 2 Mini: il prezzo in entrata scende del 25%",
+   "testo": "Da $0,1 a $0,075 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-thinkingmachines-inkling-2-miniprompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-11-21",
+   "titolo": "Inkling 2 Mini: il prezzo in uscita scende del 25%",
+   "testo": "Da $0,4 a $0,3 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-thinkingmachines-inkling-2-minicompletion"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-11-21",
+   "titolo": "MiniMax M3.1 Flash: il prezzo in entrata scende del 50%",
+   "testo": "Da $0,15 a $0,075 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-minimax-minimax-m3-1-flashprompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-11-21",
+   "titolo": "MiniMax M3.1 Flash: il prezzo in uscita scende del 50%",
+   "testo": "Da $0,6 a $0,3 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-minimax-minimax-m3-1-flashcompletion"
+  },
+  {
    "tag": "warn",
    "tagT": "Prezzo su'",
    "data": "2026-11-21",
@@ -149,24 +185,6 @@
    "tag": "ok",
    "tagT": "Prezzo giu'",
    "data": "2026-11-20",
-   "titolo": "MiniMax M3.1 Flash: il prezzo in entrata scende del 50%",
-   "testo": "Da $0,15 a $0,075 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-minimax-minimax-m3-1-flashprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-11-20",
-   "titolo": "MiniMax M3.1 Flash: il prezzo in uscita scende del 50%",
-   "testo": "Da $0,6 a $0,3 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-minimax-minimax-m3-1-flashcompletion"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-11-20",
    "titolo": "DeepSeek V4.1 Flash 1017: il prezzo in entrata scende del 76%",
    "testo": "Da $0,15 a $0,036 per milione di token in entrata.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
@@ -198,24 +216,6 @@
    "testo": "Da $2,2 a $1,96 per milione di token in uscita.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
    "id": "prezzo-qwen-qwen3-8-27bcompletion"
-  },
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-11-19",
-   "titolo": "Llama 3.2 1B Instruct viene spento fra 1 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-20. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-meta-llama-llama-3-2-1b-instruct"
-  },
-  {
-   "tag": "crit",
-   "tagT": "Chiusura",
-   "data": "2026-11-19",
-   "titolo": "Llama 3.2 3B Instruct viene spento fra 1 giorni",
-   "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-20. Dopo, le richieste smettono di funzionare.",
-   "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
-   "id": "fine-meta-llama-llama-3-2-3b-instruct"
   }
  ]
 }
