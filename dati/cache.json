@@ -1,9 +1,114 @@
 {
- "aggiornato": "2026-11-20T22:55:09+00:00",
- "aggiornato_it": "20 novembre 2026",
+ "aggiornato": "2026-11-21T03:42:20+00:00",
+ "aggiornato_it": "21 novembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 377,
+ "totale": 379,
  "modelli": [
+  {
+   "id": "thinkingmachines/inkling-2-mini",
+   "name": "Thinking Machines: Inkling 2 Mini",
+   "created": 1795227585,
+   "context_length": 1048576,
+   "description": "Inkling 2 Mini is an open-weight multimodal looped transformer from Thinking Machines Lab, with 3.4B active parameters out of 26.4B total (MoE). Its middle layers run three times with shared...",
+   "hugging_face_id": "thinkingmachines/Inkling-2-Mini",
+   "architecture": {
+    "input_modalities": [
+     "text",
+     "image"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image->text"
+   },
+   "pricing": {
+    "prompt": "0.0000001",
+    "completion": "0.0000004",
+    "input_cache_read": "0.00000002"
+   },
+   "top_provider": {
+    "max_completion_tokens": 65536
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": false,
+    "default_enabled": true,
+    "supported_efforts": [
+     "max",
+     "high",
+     "medium",
+     "low",
+     "minimal",
+     "none"
+    ],
+    "default_effort": "high"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": 20.1,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": 35.3,
+     "strategy_and_ops_index": 35.2,
+     "legal_index": 31,
+     "healthcare_and_medical_index": null,
+     "engineering_index": 27.6,
+     "economics_index": 33,
+     "cyber_index": null,
+     "openness_index": null,
+     "multilingual_index": null,
+     "decision_index": null
+    }
+   },
+   "ha_versione_gratuita": false
+  },
+  {
+   "id": "radixark/daisyrose-27b",
+   "name": "RadixArk: DaisyRose 27B",
+   "created": 1795222188,
+   "context_length": 262144,
+   "description": "DaisyRose 27B is an open-weight multimodal reasoning model from RadixArk, trained from [Qwen3.8 27B](https://openrouter.ai/qwen/qwen3.8-27b) using reinforcement learning only on long-horizon agent tasks, with no supervised fine-tuning or distillation. It is...",
+   "hugging_face_id": "RadixArk/DaisyRose-27B",
+   "architecture": {
+    "input_modalities": [
+     "text",
+     "image"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image->text"
+   },
+   "pricing": {
+    "prompt": "0.00000015",
+    "completion": "0.000001875",
+    "input_cache_read": "0.0000000375"
+   },
+   "top_provider": {
+    "max_completion_tokens": 235929
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": false,
+    "default_enabled": true,
+    "supported_efforts": [
+     "xhigh",
+     "medium",
+     "low",
+     "none"
+    ],
+    "default_effort": "xhigh"
+   },
+   "ha_versione_gratuita": false
+  },
   {
    "id": "mistralai/pixtral-large-2502",
    "name": "Mistral: Pixtral Large 2502",
@@ -1591,9 +1696,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000075",
-    "completion": "0.0000003",
-    "input_cache_read": "0.0000000075"
+    "prompt": "0.00000015",
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000015"
    },
    "top_provider": {
     "max_completion_tokens": 524288
@@ -1651,12 +1756,12 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.000000036",
-    "completion": "0.0000005",
-    "input_cache_read": "0.00000001"
+    "prompt": "0.00000015",
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000003"
    },
    "top_provider": {
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 393216
    },
    "supported_parameters": [
     "reasoning",
@@ -1971,11 +2076,11 @@
    },
    "pricing": {
     "prompt": "0.00000015",
-    "completion": "0.0000005",
+    "completion": "0.00000047",
     "input_cache_read": "0.00000002"
    },
    "top_provider": {
-    "max_completion_tokens": 235929
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -4343,12 +4448,12 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.0000003",
-    "completion": "0.0000012",
-    "input_cache_read": "0.000000006"
+    "prompt": "0.0000000507",
+    "completion": "0.0000002028",
+    "input_cache_read": "0.000000001014"
    },
    "top_provider": {
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 393216
    },
    "supported_parameters": [
     "reasoning",
@@ -4947,9 +5052,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000007506",
-    "completion": "0.0000022509",
-    "input_cache_read": "0.0000000378"
+    "prompt": "0.000000834",
+    "completion": "0.000002501",
+    "input_cache_read": "0.000000042"
    },
    "top_provider": {
     "max_completion_tokens": 64000
@@ -7244,9 +7349,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000825",
-    "completion": "0.00000033",
-    "input_cache_read": "0.000000020625"
+    "prompt": "0.000000132",
+    "completion": "0.000000528",
+    "input_cache_read": "0.000000033"
    },
    "top_provider": {
     "max_completion_tokens": 128000
@@ -9419,12 +9524,12 @@
      "intelligence_index": null,
      "coding_index": null,
      "agentic_index": null,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
+     "finance_and_accounting_index": 7.1,
+     "strategy_and_ops_index": 5.3,
+     "legal_index": 6.9,
      "healthcare_and_medical_index": null,
      "engineering_index": null,
-     "economics_index": null,
+     "economics_index": 8.2,
      "cyber_index": null,
      "openness_index": 38.9,
      "multilingual_index": null,
@@ -9471,12 +9576,12 @@
      "intelligence_index": null,
      "coding_index": null,
      "agentic_index": null,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
+     "finance_and_accounting_index": 7.1,
+     "strategy_and_ops_index": 5.3,
+     "legal_index": 6.9,
      "healthcare_and_medical_index": null,
      "engineering_index": null,
-     "economics_index": null,
+     "economics_index": 8.2,
      "cyber_index": null,
      "openness_index": 38.9,
      "multilingual_index": null,
@@ -11040,12 +11145,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000295",
-    "completion": "0.0000012",
-    "input_cache_read": "0.00000006"
+    "prompt": "0.00000027",
+    "completion": "0.00000095",
+    "input_cache_read": "0.00000003"
    },
    "top_provider": {
-    "max_completion_tokens": 176947
+    "max_completion_tokens": 32768
    },
    "supported_parameters": [
     "reasoning",
@@ -11878,7 +11983,7 @@
    "pricing": {
     "prompt": "0.0000003",
     "completion": "0.0000009",
-    "input_cache_read": "0.00000005"
+    "input_cache_read": "0.000000055"
    },
    "top_provider": {
     "max_completion_tokens": 32768
@@ -14009,8 +14114,8 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000006"
+    "prompt": "0.00000007",
+    "completion": "0.00000028"
    },
    "top_provider": {
     "max_completion_tokens": 235929
