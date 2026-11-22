@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-22T02:46:50+00:00",
+ "aggiornato": "2026-11-22T12:59:34+00:00",
  "notizie": [
   {
    "tag": "crit",
@@ -95,6 +95,42 @@
    "tag": "ok",
    "tagT": "Prezzo giu'",
    "data": "2026-11-22",
+   "titolo": "Kimi K3.1 Pro: il prezzo in entrata scende del 5%",
+   "testo": "Da $0,253 a $0,24 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-moonshotai-kimi-k3-1-proprompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-11-22",
+   "titolo": "GLM Flash Latest: il prezzo in uscita scende del 7%",
+   "testo": "Da $0,078 a $0,073 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo--z-ai-glm-flash-latestcompletion"
+  },
+  {
+   "tag": "warn",
+   "tagT": "Prezzo su'",
+   "data": "2026-11-22",
+   "titolo": "GLM Flash Latest: il prezzo in entrata sale del 16%",
+   "testo": "Da $0,04 a $0,046 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
+   "id": "prezzo--z-ai-glm-flash-latestprompt"
+  },
+  {
+   "tag": "warn",
+   "tagT": "Prezzo su'",
+   "data": "2026-11-22",
+   "titolo": "GLM 5.3 Flash: il prezzo in entrata sale del 276%",
+   "testo": "Da $0,04 a $0,15 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
+   "id": "prezzo-z-ai-glm-5-3-flashprompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-11-22",
    "titolo": "Qwen3.8 27B: il prezzo in entrata scende del 42%",
    "testo": "Da $0,06 a $0,035 per milione di token in entrata.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
@@ -180,42 +216,6 @@
    "testo": "Da $0,5 a $0,47 per milione di token in uscita.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
    "id": "prezzo-nvidia-nemotron-3-5-super-vlcompletion"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-11-21",
-   "titolo": "DeepSeek V4.1 Flash: il prezzo in entrata scende del 83%",
-   "testo": "Da $0,3 a $0,051 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-deepseek-deepseek-v4-1-flashprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-11-21",
-   "titolo": "DeepSeek V4.1 Flash: il prezzo in uscita scende del 83%",
-   "testo": "Da $1,2 a $0,203 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-deepseek-deepseek-v4-1-flashcompletion"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-11-20",
-   "titolo": "DeepSeek V4.1 Flash 1017: il prezzo in entrata scende del 76%",
-   "testo": "Da $0,15 a $0,036 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-deepseek-deepseek-v4-1-flash-1017prompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-11-20",
-   "titolo": "GLM 5.3 Flash: il prezzo in entrata scende del 73%",
-   "testo": "Da $0,15 a $0,04 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-z-ai-glm-5-3-flashprompt"
   }
  ]
 }
