@@ -1,6 +1,76 @@
 {
- "aggiornato": "2026-11-22T22:15:43+00:00",
+ "aggiornato": "2026-11-23T03:26:48+00:00",
  "paper": [
+  {
+   "titolo": "FOREST: Coordinating Tree-based HBF, RRAM, and HBM for Efficient Speculative LLM Inference",
+   "data": "2026-11-20",
+   "url": "http://arxiv.org/abs/2611.27701v1",
+   "id": "2611.27701v1",
+   "sommario": "Speculative decoding (SD) accelerates large language model (LLM) inference by combining lightweight drafting with parallel target-model verification. However, its stages impose distinct resource demands: target verification requires high-throughput access to large weight sets, se"
+  },
+  {
+   "titolo": "Jagged Robustness: Uneven Safety Transfer and Emerging Vulnerabilities under LLM Quantization",
+   "data": "2026-11-20",
+   "url": "http://arxiv.org/abs/2611.27424v1",
+   "id": "2611.27424v1",
+   "sommario": "Quantization enables efficient inference in language models through model parameter compression. This work audits the impact of quantization on capability and safety domains including model safeguards, instruction-following, ethics and bias. Through benchmarks, we find that model"
+  },
+  {
+   "titolo": "Cruella: A Unified Microscaling and Floating-Point Dot-Product Unit for LLM Inference on FPGAs",
+   "data": "2026-11-20",
+   "url": "http://arxiv.org/abs/2611.27323v1",
+   "id": "2611.27323v1",
+   "sommario": "The number formats that accelerators execute natively are fixed at fabrication, yet large language model (LLM) checkpoints are released with MXFP4 weights in the Microscaling (MX) formats standardized in 2023. FPGAs adopt new formats through bitstreams. However, to the best of ou"
+  },
+  {
+   "titolo": "Do Language Models Know Which Words Steer Their Reasoning?",
+   "data": "2026-11-20",
+   "url": "http://arxiv.org/abs/2611.27317v1",
+   "id": "2611.27317v1",
+   "sommario": "While chain-of-thought (CoT) prompting elicits intermediate reasoning steps from language models, it is unclear which words in the context actually steer the CoT. We identify Phantom Context Influence (PCI): language models are disproportionately steered by semantically irrelevan"
+  },
+  {
+   "titolo": "Hindsight Forcing: Learning Better History from the Future in Autoregressive Video Diffusion",
+   "data": "2026-11-20",
+   "url": "http://arxiv.org/abs/2611.27074v1",
+   "id": "2611.27074v1",
+   "sommario": "Few-step autoregressive video diffusion enables real-time streaming generation, with each generated chunk serving as historical context for subsequent generation. To avoid the memory explosion of backpropagation through time, previous self-rollout methods typically truncate cross"
+  },
+  {
+   "titolo": "Contexture: Runtime Context Eviction for High-Throughput Agent Serving",
+   "data": "2026-11-20",
+   "url": "http://arxiv.org/abs/2611.26980v1",
+   "id": "2611.26980v1",
+   "sommario": "LLM agents such as Hermes, OpenClaw, and Codex repeatedly resend growing execution histories, increasing shared GPU key-value (KV) cache demand in high-bandwidth memory (HBM). We show that shared KV capacity limits agent-serving throughput. Existing context-reduction methods lack"
+  },
+  {
+   "titolo": "Run One, Get Two: Near-Free Streaming Safety Checks for Local LLMs",
+   "data": "2026-11-20",
+   "url": "http://arxiv.org/abs/2611.26975v1",
+   "id": "2611.26975v1",
+   "sommario": "Local LLM assistants decode for one user at a time, so decoding is bound by memory bandwidth and leaves compute idle. Streaming safety checks today trade accuracy against cost. A dedicated guard model is accurate but nearly doubles the latency per token, while a hidden-state prob"
+  },
+  {
+   "titolo": "Perceive Once, Escalate on Demand: Handing Off Visual KV Memory from Small to Large VLMs",
+   "data": "2026-11-19",
+   "url": "http://arxiv.org/abs/2611.26902v1",
+   "id": "2611.26902v1",
+   "sommario": "An embodied agent cannot afford a large vision-language model (VLM) at every step of a long video, so a cascade runs a small VLM continuously and escalates only uncertain decisions to a large one. Each escalation, however, forces the large model to re-encode a history the small m"
+  },
+  {
+   "titolo": "CarrierKV: An Edge LLM Accelerator with Positional Carrier Decomposition for Low-Bit KV Cache",
+   "data": "2026-11-19",
+   "url": "http://arxiv.org/abs/2611.26857v1",
+   "id": "2611.26857v1",
+   "sommario": "Long-context decoding on edge devices is limited by DRAM, because every generated token reads the whole, growing KV cache. 4-bit block-scaled formats such as NVFP4 reduce this traffic but degrade accuracy: on Qwen3-4B, NVFP4 lowers 32K RULER (seven tasks) from 92.6 to 79.4, and a"
+  },
+  {
+   "titolo": "Tracktail: Multi-View 3D Point Tracking without Depth Input",
+   "data": "2026-11-19",
+   "url": "http://arxiv.org/abs/2611.26779v1",
+   "id": "2611.26779v1",
+   "sommario": "We introduce Tracktail, a novel architecture designed to efficiently track query points in 3D from multiple calibrated views without any depth input. Our architecture separates the task as a per-camera video encoding of features and a per-query decoder. Notably, camera cross-atte"
+  },
   {
    "titolo": "AURA: AUdio-dRiven streaming Avatar",
    "data": "2026-11-19",
@@ -14,76 +84,6 @@
    "url": "http://arxiv.org/abs/2611.26435v1",
    "id": "2611.26435v1",
    "sommario": "LLM agents run long, multi-turn programs whose contexts grow at every step, and serving them is limited by KV cache capacity. To alleviate this limitation, systems use context compression techniques, which typically wait until the KV cache crosses a large threshold and then summa"
-  },
-  {
-   "titolo": "Online Temporal Rotations for 2 Bit KV-Cache Quantization in Video Diffusion Transformers",
-   "data": "2026-11-19",
-   "url": "http://arxiv.org/abs/2611.26334v1",
-   "id": "2611.26334v1",
-   "sommario": "Video diffusion transformers reuse key--value (KV) caches across denoising steps, which quickly becomes a bottleneck for long video generation. We find that quantizing temporally distant cache vectors leads to a large range and high quantization error, but that nearby video token"
-  },
-  {
-   "titolo": "AscMLA: Unlocking FP4 Efficiency for Long-Context MLA Decoding through Asymmetric Scaling",
-   "data": "2026-11-19",
-   "url": "http://arxiv.org/abs/2611.26106v1",
-   "id": "2611.26106v1",
-   "sommario": "Long-context decoding repeatedly reads a growing KV cache. FP4 reduces cache storage and traffic but needs block scaling to handle its limited dynamic range. Applying FP4 to multi-head latent attention (MLA) requires reconciling different K/V scaling requirements on a shared late"
-  },
-  {
-   "titolo": "FrontierReplay: Split-Free Exact Prefix Caching for Hybrid Language Models",
-   "data": "2026-11-19",
-   "url": "http://arxiv.org/abs/2611.26020v1",
-   "id": "2611.26020v1",
-   "sommario": "Hybrid language models combine self-attention with recurrent layers whose in-place state updates restrict prefix reuse to exact saved positions. Saving states on a coarse grid wastes reusable prefixes, whereas existing fine-grained exact caches must cut the prefill forward pass a"
-  },
-  {
-   "titolo": "BlockJack: Cross-Tenant Redirection Fault Attacks on Paged KV Cache Address Translation in LLM Serving",
-   "data": "2026-11-19",
-   "url": "http://arxiv.org/abs/2611.25945v1",
-   "id": "2611.25945v1",
-   "sommario": "Large language model (LLM) serving frameworks accelerate inference by retaining previously computed states in a key-value (KV) cache. Paged serving frameworks such as vLLM organize this cache through block tables analogous to OS page tables, which map each request's logical KV bl"
-  },
-  {
-   "titolo": "Thinking in Streams: Proactive Spatial Reasoning with Vision-Language Models",
-   "data": "2026-11-19",
-   "url": "http://arxiv.org/abs/2611.25865v1",
-   "id": "2611.25865v1",
-   "sommario": "Recognizing when a requested spatial condition holds in streaming video can require maintaining and updating spatial knowledge across changing viewpoints. We study this capability through proactive spatial reasoning, where a model receives a query in advance and determines whethe"
-  },
-  {
-   "titolo": "Rank2Replace: VLM-Ranked Slot Replacement for Out-of-Distribution Generalization",
-   "data": "2026-11-19",
-   "url": "http://arxiv.org/abs/2611.25834v1",
-   "id": "2611.25834v1",
-   "sommario": "Spurious correlations can give image predictors high in-distribution accuracy but poor generalization under distribution shift. We introduce $\\textbf{Rank2Replace}$, which transfers knowledge of task-relevant evidence from pretrained vision--language models (VLMs) to small predic"
-  },
-  {
-   "titolo": "Efficient and Robust Drafting with Multi-Token Prediction",
-   "data": "2026-11-19",
-   "url": "http://arxiv.org/abs/2611.25813v1",
-   "id": "2611.25813v1",
-   "sommario": "Speculative decoding has emerged as a critical technique for accelerating Large Language Model (LLM) inference by decoupling generation into a drafting phase and a parallel verification phase. A crucial challenge is therefore designing a drafter that is both lightweight and accur"
-  },
-  {
-   "titolo": "Ask in the Crowd: Differentially Private LLM Inference via Dummy-Augmented Shuffling",
-   "data": "2026-11-19",
-   "url": "http://arxiv.org/abs/2611.25669v1",
-   "id": "2611.25669v1",
-   "sommario": "Large language models are increasingly deployed as LLM-as-a-Service (LLMaaS), where user queries are sent to remote LLMs for inference, raising severe privacy concerns about the exposure of sensitive user inputs. Differentially private inference mitigates these risks by injecting"
-  },
-  {
-   "titolo": "Don't Lose the Future: Latent-Aware 4-Bit Quantization of World Action Models",
-   "data": "2026-11-19",
-   "url": "http://arxiv.org/abs/2611.25614v1",
-   "id": "2611.25614v1",
-   "sommario": "World action models (WAMs) predict how a scene will evolve and condition their actions on this predicted future. Deploying them on a robot's onboard computer calls for 4-bit weights, activations and key-value caches (W4A4KV4). Existing 4-bit quantizers for WAMs preserve the gener"
-  },
-  {
-   "titolo": "Reinforcement-Aligned Probabilistic Weather Forecasting with Discrete Tokens",
-   "data": "2026-11-19",
-   "url": "http://arxiv.org/abs/2611.25570v1",
-   "id": "2611.25570v1",
-   "sommario": "Global medium-range weather forecasting must not only generate ensembles efficiently to characterize uncertainty in future states, but also serve downstream applications such as extreme-event warnings and cross-sphere coupled simulations. We introduce WeatherCraft, a framework th"
   }
  ]
 }

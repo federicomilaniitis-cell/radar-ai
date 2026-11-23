@@ -1,6 +1,6 @@
 {
- "aggiornato": "2026-11-22T22:15:43+00:00",
- "aggiornato_it": "22 novembre 2026",
+ "aggiornato": "2026-11-23T03:26:48+00:00",
+ "aggiornato_it": "23 novembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 377,
  "modelli": [
@@ -1696,9 +1696,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000075",
-    "completion": "0.0000003",
-    "input_cache_read": "0.0000000075"
+    "prompt": "0.00000015",
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000015"
    },
    "top_provider": {
     "max_completion_tokens": 524288
@@ -1756,9 +1756,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000003"
+    "prompt": "0.0000003",
+    "completion": "0.0000012",
+    "input_cache_read": "0.000000006"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -3980,9 +3980,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000999",
-    "completion": "0.000008",
-    "input_cache_read": "0.0000000999"
+    "prompt": "0.0000001188",
+    "completion": "0.000005",
+    "input_cache_read": "0.00000012"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -5052,9 +5052,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000007506",
-    "completion": "0.0000022509",
-    "input_cache_read": "0.0000000378"
+    "prompt": "0.000000834",
+    "completion": "0.000002501",
+    "input_cache_read": "0.000000042"
    },
    "top_provider": {
     "max_completion_tokens": 64000
@@ -7703,6 +7703,7 @@
    "context_length": 131072,
    "description": "NVIDIA Nemotron 3.5 Content Safety is a compact 4B-parameter multimodal guardrail model from NVIDIA, fine-tuned from Google Gemma-3-4B. It moderates both inputs to and responses from LLMs and VLMs, accepting...",
    "hugging_face_id": "nvidia/Nemotron-3.5-Content-Safety",
+   "expiration_date": "2026-11-30",
    "architecture": {
     "input_modalities": [
      "text",
@@ -8758,8 +8759,8 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000001",
-    "completion": "0.0000009",
+    "prompt": "0.00000005",
+    "completion": "0.0000007",
     "input_cache_read": "0.000000025"
    },
    "top_provider": {
@@ -13846,8 +13847,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000009",
-    "completion": "0.00000036"
+    "prompt": "0.00000005",
+    "completion": "0.00000025",
+    "input_cache_read": "0.00000005"
    },
    "top_provider": {
     "max_completion_tokens": 117964
@@ -15514,11 +15516,10 @@
    },
    "pricing": {
     "prompt": "0.00000008",
-    "completion": "0.00000045",
-    "input_cache_read": "0.00000004"
+    "completion": "0.00000016"
    },
    "top_provider": {
-    "max_completion_tokens": 117964
+    "max_completion_tokens": 16384
    },
    "supported_parameters": [
     "structured_outputs",
