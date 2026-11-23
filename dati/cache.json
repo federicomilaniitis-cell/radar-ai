@@ -1,8 +1,8 @@
 {
- "aggiornato": "2026-11-23T03:26:48+00:00",
+ "aggiornato": "2026-11-23T15:36:54+00:00",
  "aggiornato_it": "23 novembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 377,
+ "totale": 378,
  "modelli": [
   {
    "id": "thinkingmachines/inkling-2-mini",
@@ -1696,9 +1696,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000015"
+    "prompt": "0.000000075",
+    "completion": "0.0000003",
+    "input_cache_read": "0.0000000075"
    },
    "top_provider": {
     "max_completion_tokens": 524288
@@ -1756,9 +1756,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.0000003",
-    "completion": "0.0000012",
-    "input_cache_read": "0.000000006"
+    "prompt": "0.00000015",
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000003"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -2690,7 +2690,7 @@
    "id": "inclusionai/ling-3.1-flash",
    "name": "inclusionAI: Ling 3.1 Flash",
    "created": 1790950024,
-   "context_length": 1000000,
+   "context_length": 1048576,
    "description": "Ling 3.1 Flash is a hybrid reasoning mixture-of-experts model from inclusionAI, with 25B active parameters out of 560B total.",
    "hugging_face_id": "inclusionAI/Ling-3.1-flash",
    "architecture": {
@@ -2712,6 +2712,7 @@
    },
    "supported_parameters": [
     "reasoning",
+    "structured_outputs",
     "tools"
    ],
    "reasoning": {
@@ -3980,9 +3981,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000001188",
+    "prompt": "0.0000000999",
     "completion": "0.000005",
-    "input_cache_read": "0.00000012"
+    "input_cache_read": "0.0000000999"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -5095,7 +5096,7 @@
    },
    "pricing": {
     "prompt": "0.0000000399",
-    "completion": "0.0000000784",
+    "completion": "0.000000074",
     "input_cache_read": "0.00000003"
    },
    "top_provider": {
@@ -5193,7 +5194,7 @@
    },
    "pricing": {
     "prompt": "0.0000000399",
-    "completion": "0.0000000784",
+    "completion": "0.000000074",
     "input_cache_read": "0.00000003"
    },
    "top_provider": {
@@ -5561,6 +5562,41 @@
     }
    },
    "ha_versione_gratuita": false
+  },
+  {
+   "id": "dots-studio/dots-3-note-preview:free",
+   "name": "Dots Studio: Dots3-Note Preview (free)",
+   "created": 1786680361,
+   "context_length": 512000,
+   "description": "Dots3-Note Preview is an open-weight mixture-of-experts model from Dots Studio, with 16B active parameters out of 280B total. It is the lightest model in the Dots 3 family and is...",
+   "hugging_face_id": "dots-studio/dots3-note-prev",
+   "expiration_date": "2026-12-31",
+   "architecture": {
+    "input_modalities": [
+     "text",
+     "image"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image->text"
+   },
+   "pricing": {
+    "prompt": "0",
+    "completion": "0"
+   },
+   "top_provider": {
+    "max_completion_tokens": 460800
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": false
+   },
+   "ha_versione_gratuita": true
   },
   {
    "id": "google/gemini-3.7-flash",
@@ -6196,12 +6232,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000044",
-    "completion": "0.000000132",
-    "input_cache_read": "0.0000000014"
+    "prompt": "0.0000000434",
+    "completion": "0.0000003",
+    "input_cache_read": "0.000000035"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -6238,7 +6274,7 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000443",
+    "prompt": "0.0000000434",
     "completion": "0.0000003",
     "input_cache_read": "0.000000035"
    },
@@ -9417,9 +9453,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000000675",
-    "completion": "0.000000225",
-    "input_cache_read": "0.0000000375"
+    "prompt": "0.00000009",
+    "completion": "0.0000003",
+    "input_cache_read": "0.00000005"
    },
    "top_provider": {
     "max_completion_tokens": 235929

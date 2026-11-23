@@ -1,6 +1,27 @@
 {
- "aggiornato": "2026-11-23T03:26:48+00:00",
+ "aggiornato": "2026-11-23T15:36:54+00:00",
  "paper": [
+  {
+   "titolo": "MemOnce: A Scalable Memory Architecture for Large Language Models",
+   "data": "2026-11-20",
+   "url": "http://arxiv.org/abs/2611.27973v1",
+   "id": "2611.27973v1",
+   "sommario": "Deploying large language models (LLMs) in long-horizon and continual interactions requires maintaining reusable memory states for future inference, posing challenges for existing architectures. Standard Transformers accumulate layer-wise, token-level KV caches, incurring linear G"
+  },
+  {
+   "titolo": "QuantStream3D: Geometry-Aligned Low-Bit KV Cache Quantization for Streaming Visual Geometry Transformers",
+   "data": "2026-11-20",
+   "url": "http://arxiv.org/abs/2611.27901v1",
+   "id": "2611.27901v1",
+   "sommario": "Streaming visual geometry transformers retain historical key-value (KV) states as cross-view geometric memory, but growing caches constrain long-sequence inference. We systematically characterize KV quantization in streaming geometry and uncover two linked challenges: Nonuniform "
+  },
+  {
+   "titolo": "World Models for Learning Quantum Many-Body Dynamics",
+   "data": "2026-11-20",
+   "url": "http://arxiv.org/abs/2611.27871v1",
+   "id": "2611.27871v1",
+   "sommario": "We propose using world models for learning Hamiltonians from measured dynamics of a quantum computer or simulator. Implicitly, the parameters of a Hamiltonian are encoded in how the measured few-body observables evolve. By using a joint-embedding predictive architecture (JEPA) to"
+  },
   {
    "titolo": "FOREST: Coordinating Tree-based HBF, RRAM, and HBM for Efficient Speculative LLM Inference",
    "data": "2026-11-20",
@@ -63,27 +84,6 @@
    "url": "http://arxiv.org/abs/2611.26857v1",
    "id": "2611.26857v1",
    "sommario": "Long-context decoding on edge devices is limited by DRAM, because every generated token reads the whole, growing KV cache. 4-bit block-scaled formats such as NVFP4 reduce this traffic but degrade accuracy: on Qwen3-4B, NVFP4 lowers 32K RULER (seven tasks) from 92.6 to 79.4, and a"
-  },
-  {
-   "titolo": "Tracktail: Multi-View 3D Point Tracking without Depth Input",
-   "data": "2026-11-19",
-   "url": "http://arxiv.org/abs/2611.26779v1",
-   "id": "2611.26779v1",
-   "sommario": "We introduce Tracktail, a novel architecture designed to efficiently track query points in 3D from multiple calibrated views without any depth input. Our architecture separates the task as a per-camera video encoding of features and a per-query decoder. Notably, camera cross-atte"
-  },
-  {
-   "titolo": "AURA: AUdio-dRiven streaming Avatar",
-   "data": "2026-11-19",
-   "url": "http://arxiv.org/abs/2611.26540v1",
-   "id": "2611.26540v1",
-   "sommario": "Current audio-driven video diffusion models can synthesize realistic talking-head videos but generally require dozens of diffusion denoising steps over multi-second video chunks, making them unsuitable for streaming applications such as voice assistants and virtual avatars, where"
-  },
-  {
-   "titolo": "Aggron: Aggressive Compression of Agentic KV Caches during Head-of-Line Stalls in the Request Queue",
-   "data": "2026-11-19",
-   "url": "http://arxiv.org/abs/2611.26435v1",
-   "id": "2611.26435v1",
-   "sommario": "LLM agents run long, multi-turn programs whose contexts grow at every step, and serving them is limited by KV cache capacity. To alleviate this limitation, systems use context compression techniques, which typically wait until the KV cache crosses a large threshold and then summa"
   }
  ]
 }
