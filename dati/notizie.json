@@ -1,11 +1,11 @@
 {
- "aggiornato": "2026-11-23T15:36:54+00:00",
+ "aggiornato": "2026-11-24T03:07:41+00:00",
  "notizie": [
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-11-23",
-   "titolo": "Dots3-Note Preview (free) viene spento fra 38 giorni",
+   "data": "2026-11-24",
+   "titolo": "Dots3-Note Preview (free) viene spento fra 37 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-12-31. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-dots-studio-dots-3-note-preview-free"
@@ -13,8 +13,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-11-23",
-   "titolo": "Nemotron 3.5 Content Safety viene spento fra 7 giorni",
+   "data": "2026-11-24",
+   "titolo": "Nemotron 3.5 Content Safety viene spento fra 6 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-11-30. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-nvidia-nemotron-3-5-content-safety"
@@ -22,8 +22,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-11-23",
-   "titolo": "GPT-5 Image Mini viene spento fra 8 giorni",
+   "data": "2026-11-24",
+   "titolo": "GPT-5 Image Mini viene spento fra 7 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-12-01. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-openai-gpt-5-image-mini"
@@ -31,8 +31,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-11-23",
-   "titolo": "GPT-5 Image viene spento fra 18 giorni",
+   "data": "2026-11-24",
+   "titolo": "GPT-5 Image viene spento fra 17 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-12-11. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-openai-gpt-5-image"
@@ -40,8 +40,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-11-23",
-   "titolo": "GPT-5 Pro viene spento fra 18 giorni",
+   "data": "2026-11-24",
+   "titolo": "GPT-5 Pro viene spento fra 17 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-12-11. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-openai-gpt-5-pro"
@@ -49,8 +49,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-11-23",
-   "titolo": "GLM 4.5V viene spento fra 38 giorni",
+   "data": "2026-11-24",
+   "titolo": "GLM 4.5V viene spento fra 37 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-12-31. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-z-ai-glm-4-5v"
@@ -58,8 +58,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-11-23",
-   "titolo": "GPT-5 viene spento fra 18 giorni",
+   "data": "2026-11-24",
+   "titolo": "GPT-5 viene spento fra 17 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-12-11. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-openai-gpt-5"
@@ -67,8 +67,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-11-23",
-   "titolo": "GPT-5 Mini viene spento fra 18 giorni",
+   "data": "2026-11-24",
+   "titolo": "GPT-5 Mini viene spento fra 17 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-12-11. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-openai-gpt-5-mini"
@@ -76,8 +76,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-11-23",
-   "titolo": "GPT-5 Nano viene spento fra 18 giorni",
+   "data": "2026-11-24",
+   "titolo": "GPT-5 Nano viene spento fra 17 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-12-11. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-openai-gpt-5-nano"
@@ -85,8 +85,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-11-23",
-   "titolo": "GLM 4.5 viene spento fra 38 giorni",
+   "data": "2026-11-24",
+   "titolo": "GLM 4.5 viene spento fra 37 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-12-31. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-z-ai-glm-4-5"
@@ -94,8 +94,8 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-11-23",
-   "titolo": "o3 Pro viene spento fra 18 giorni",
+   "data": "2026-11-24",
+   "titolo": "o3 Pro viene spento fra 17 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-12-11. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-openai-o3-pro"
@@ -103,11 +103,29 @@
   {
    "tag": "crit",
    "tagT": "Chiusura",
-   "data": "2026-11-23",
-   "titolo": "o3 viene spento fra 18 giorni",
+   "data": "2026-11-24",
+   "titolo": "o3 viene spento fra 17 giorni",
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-12-11. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-openai-o3"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-11-24",
+   "titolo": "DeepSeek V4.1 Flash 1017: il prezzo in entrata scende del 80%",
+   "testo": "Da $0,15 a $0,03 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-deepseek-deepseek-v4-1-flash-1017prompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-11-24",
+   "titolo": "DeepSeek V4.1 Flash 1017: il prezzo in uscita scende del 67%",
+   "testo": "Da $0,6 a $0,2 per milione di token in uscita.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-deepseek-deepseek-v4-1-flash-1017completion"
   },
   {
    "tag": "ok",
@@ -198,24 +216,6 @@
    "testo": "Da $0,04 a $0,046 per milione di token in entrata.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
    "id": "prezzo--z-ai-glm-flash-latestprompt"
-  },
-  {
-   "tag": "warn",
-   "tagT": "Prezzo su'",
-   "data": "2026-11-22",
-   "titolo": "GLM 5.3 Flash: il prezzo in entrata sale del 276%",
-   "testo": "Da $0,04 a $0,15 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo sale: vale la pena rifare due conti.",
-   "id": "prezzo-z-ai-glm-5-3-flashprompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-11-22",
-   "titolo": "Qwen3.8 27B: il prezzo in entrata scende del 42%",
-   "testo": "Da $0,06 a $0,035 per milione di token in entrata.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-qwen-qwen3-8-27bprompt"
   }
  ]
 }

@@ -1,89 +1,89 @@
 {
- "aggiornato": "2026-11-23T15:36:54+00:00",
+ "aggiornato": "2026-11-24T03:07:41+00:00",
  "paper": [
   {
-   "titolo": "MemOnce: A Scalable Memory Architecture for Large Language Models",
+   "titolo": "RVLM: Fewer Tokens, Better Resolution Scaling, Fine-Grained Spatial Grounding",
+   "data": "2026-11-22",
+   "url": "http://arxiv.org/abs/2611.29146v1",
+   "id": "2611.29146v1",
+   "sommario": "Vision-Language Models (VLMs) tokenize images using fixed spatial grids, so visual token count grows with pixel area rather than scene content. We propose to group neighboring patches based on their visual appearance, allowing tokens to represent coherent image regions rather tha"
+  },
+  {
+   "titolo": "One Million Tokens in 20GB: Calibration-Free 2-Bit SRFT KV-Cache Compression for Looped MoE Inference on Apple Silicon",
+   "data": "2026-11-21",
+   "url": "http://arxiv.org/abs/2611.29092v1",
+   "id": "2611.29092v1",
+   "sommario": "Long-context inference on unified-memory edge machines is governed by KV-cache capacity and memory bandwidth. On a 32 GB Apple M6 Mac mini (26.8 GB Metal working set, 150 GB/s DRAM), the 26.4B looped Mixture-of-Experts model Inkling-2-Mini (48 logical visits, 1M native context) e"
+  },
+  {
+   "titolo": "RES: Accelerating Diffusion Language Models with Rolling Entropy Sampling",
+   "data": "2026-11-21",
+   "url": "http://arxiv.org/abs/2611.29066v1",
+   "id": "2611.29066v1",
+   "sommario": "A diffusion language sampler makes two choices for every position in its denoising window: where the next token comes from, and when the position is committed to the KV cache. Using the entropy-bound sampler in DiffusionGemma, we study two extremes of the second choice. Committin"
+  },
+  {
+   "titolo": "NoHairCache: Calibrate-Once KV Cache Eviction with One Power-Law Exponent",
+   "data": "2026-11-21",
+   "url": "http://arxiv.org/abs/2611.29006v1",
+   "id": "2611.29006v1",
+   "sommario": "The decay exponent $α$ in KV-cache eviction is an intrinsic property of the model: calibrated once on a single corpus, it transfers directly across domains. Attention-based accumulation (H2O) and recency-based sliding windows (StreamingLLM) are two dominant eviction frameworks, o"
+  },
+  {
+   "titolo": "STAC++: Plug-and-Play Adaptive Spatio-Temporal Aware Cache Compression for Streaming 3D Reconstruction",
+   "data": "2026-11-21",
+   "url": "http://arxiv.org/abs/2611.28793v1",
+   "id": "2611.28793v1",
+   "sommario": "Streaming 3D reconstruction must preserve geometry under limited memory, yet STAC's fixed-resolution spatial key-value (KV) cache grows as scenes expand. We propose STAC++, a plug-and-play, training-free framework that compresses and reuses spatial memory for long-term reconstruc"
+  },
+  {
+   "titolo": "HiPerfCC-KVCache: Accelerating Confidential LLM Serving with Hierarchical KV Caching",
+   "data": "2026-11-21",
+   "url": "http://arxiv.org/abs/2611.28702v1",
+   "id": "2611.28702v1",
+   "sommario": "Hierarchical key-value (KV) caching reduces repeated prefill computation in large language model serving by retaining reusable state beyond GPU memory. Under GPU confidential computing (CC), however, protected transfers can erase this benefit. We show that bulk KV copies hold dri"
+  },
+  {
+   "titolo": "The Evaluation Substrate Matters: Benchmarking Multi-Agent Serving Substrates",
+   "data": "2026-11-21",
+   "url": "http://arxiv.org/abs/2611.28671v1",
+   "id": "2611.28671v1",
+   "sommario": "Multi-agent systems (MAS) usually coordinate heterogeneous models and tools to solve complex tasks, creating a growing need for reliable evaluation. However, a multi-agent workflow that is fastest in one serving environment can lose its advantage in another, even when its models,"
+  },
+  {
+   "titolo": "Selective ROM Weight Storage for Responsive LLM Control on Edge Robots",
+   "data": "2026-11-21",
+   "url": "http://arxiv.org/abs/2611.28563v1",
+   "id": "2611.28563v1",
+   "sommario": "Edge robots increasingly use large language models (LLMs) for complex tasks, demanding efficient inference alongside timely control. Limited memory capacity constrains model deployment, while repeated weight transfers during decoding compete with activations and KV cache for exte"
+  },
+  {
+   "titolo": "DisSparse: Pipelined Top-$p$ Sparse Attention for Long-Context LLM Serving",
+   "data": "2026-11-21",
+   "url": "http://arxiv.org/abs/2611.28522v1",
+   "id": "2611.28522v1",
+   "sommario": "Long-context LLM inference is bottlenecked by the memory demands of the key-value (KV) cache, whose size scales linearly with context length. Dynamic sparse attention reduces this bottleneck by fetching and attending only to a critical subset of tokens. The dominant primitive in "
+  },
+  {
+   "titolo": "Plan Big, Paint Small: Semantic-Aware Computation Allocation for Efficient Autoregressive Video Generation",
    "data": "2026-11-20",
-   "url": "http://arxiv.org/abs/2611.27973v1",
-   "id": "2611.27973v1",
-   "sommario": "Deploying large language models (LLMs) in long-horizon and continual interactions requires maintaining reusable memory states for future inference, posing challenges for existing architectures. Standard Transformers accumulate layer-wise, token-level KV caches, incurring linear G"
+   "url": "http://arxiv.org/abs/2611.28402v1",
+   "id": "2611.28402v1",
+   "sommario": "Autoregressive (AR) video diffusion streams a video chunk by chunk, but large AR models are too slow for real-time use. We ask where in an AR rollout a large model is actually needed. Pairing Krea-Realtime-14B with Self-Forcing-1.3B, which share their latent space and denoising s"
   },
   {
-   "titolo": "QuantStream3D: Geometry-Aligned Low-Bit KV Cache Quantization for Streaming Visual Geometry Transformers",
+   "titolo": "Specialized Large Language Models for Markovian Reasoning: Structural Cache Compression, Transition Pretraining, and Dual-Loop Transformers",
    "data": "2026-11-20",
-   "url": "http://arxiv.org/abs/2611.27901v1",
-   "id": "2611.27901v1",
-   "sommario": "Streaming visual geometry transformers retain historical key-value (KV) states as cross-view geometric memory, but growing caches constrain long-sequence inference. We systematically characterize KV quantization in streaming geometry and uncover two linked challenges: Nonuniform "
+   "url": "http://arxiv.org/abs/2611.28285v1",
+   "id": "2611.28285v1",
+   "sommario": "Standard autoregressive large language models attend to the growing history of generated tokens, making the key-value (KV) cache a central memory and throughput bottleneck in long-chain reasoning and multi-branch sampling. Yet an important class of reasoning problems is naturally"
   },
   {
-   "titolo": "World Models for Learning Quantum Many-Body Dynamics",
+   "titolo": "FlowPAC: Flow-Guided Visual Pruning and Action Caching for Efficient VLA Inference",
    "data": "2026-11-20",
-   "url": "http://arxiv.org/abs/2611.27871v1",
-   "id": "2611.27871v1",
-   "sommario": "We propose using world models for learning Hamiltonians from measured dynamics of a quantum computer or simulator. Implicitly, the parameters of a Hamiltonian are encoded in how the measured few-body observables evolve. By using a joint-embedding predictive architecture (JEPA) to"
-  },
-  {
-   "titolo": "FOREST: Coordinating Tree-based HBF, RRAM, and HBM for Efficient Speculative LLM Inference",
-   "data": "2026-11-20",
-   "url": "http://arxiv.org/abs/2611.27701v1",
-   "id": "2611.27701v1",
-   "sommario": "Speculative decoding (SD) accelerates large language model (LLM) inference by combining lightweight drafting with parallel target-model verification. However, its stages impose distinct resource demands: target verification requires high-throughput access to large weight sets, se"
-  },
-  {
-   "titolo": "Jagged Robustness: Uneven Safety Transfer and Emerging Vulnerabilities under LLM Quantization",
-   "data": "2026-11-20",
-   "url": "http://arxiv.org/abs/2611.27424v1",
-   "id": "2611.27424v1",
-   "sommario": "Quantization enables efficient inference in language models through model parameter compression. This work audits the impact of quantization on capability and safety domains including model safeguards, instruction-following, ethics and bias. Through benchmarks, we find that model"
-  },
-  {
-   "titolo": "Cruella: A Unified Microscaling and Floating-Point Dot-Product Unit for LLM Inference on FPGAs",
-   "data": "2026-11-20",
-   "url": "http://arxiv.org/abs/2611.27323v1",
-   "id": "2611.27323v1",
-   "sommario": "The number formats that accelerators execute natively are fixed at fabrication, yet large language model (LLM) checkpoints are released with MXFP4 weights in the Microscaling (MX) formats standardized in 2023. FPGAs adopt new formats through bitstreams. However, to the best of ou"
-  },
-  {
-   "titolo": "Do Language Models Know Which Words Steer Their Reasoning?",
-   "data": "2026-11-20",
-   "url": "http://arxiv.org/abs/2611.27317v1",
-   "id": "2611.27317v1",
-   "sommario": "While chain-of-thought (CoT) prompting elicits intermediate reasoning steps from language models, it is unclear which words in the context actually steer the CoT. We identify Phantom Context Influence (PCI): language models are disproportionately steered by semantically irrelevan"
-  },
-  {
-   "titolo": "Hindsight Forcing: Learning Better History from the Future in Autoregressive Video Diffusion",
-   "data": "2026-11-20",
-   "url": "http://arxiv.org/abs/2611.27074v1",
-   "id": "2611.27074v1",
-   "sommario": "Few-step autoregressive video diffusion enables real-time streaming generation, with each generated chunk serving as historical context for subsequent generation. To avoid the memory explosion of backpropagation through time, previous self-rollout methods typically truncate cross"
-  },
-  {
-   "titolo": "Contexture: Runtime Context Eviction for High-Throughput Agent Serving",
-   "data": "2026-11-20",
-   "url": "http://arxiv.org/abs/2611.26980v1",
-   "id": "2611.26980v1",
-   "sommario": "LLM agents such as Hermes, OpenClaw, and Codex repeatedly resend growing execution histories, increasing shared GPU key-value (KV) cache demand in high-bandwidth memory (HBM). We show that shared KV capacity limits agent-serving throughput. Existing context-reduction methods lack"
-  },
-  {
-   "titolo": "Run One, Get Two: Near-Free Streaming Safety Checks for Local LLMs",
-   "data": "2026-11-20",
-   "url": "http://arxiv.org/abs/2611.26975v1",
-   "id": "2611.26975v1",
-   "sommario": "Local LLM assistants decode for one user at a time, so decoding is bound by memory bandwidth and leaves compute idle. Streaming safety checks today trade accuracy against cost. A dedicated guard model is accurate but nearly doubles the latency per token, while a hidden-state prob"
-  },
-  {
-   "titolo": "Perceive Once, Escalate on Demand: Handing Off Visual KV Memory from Small to Large VLMs",
-   "data": "2026-11-19",
-   "url": "http://arxiv.org/abs/2611.26902v1",
-   "id": "2611.26902v1",
-   "sommario": "An embodied agent cannot afford a large vision-language model (VLM) at every step of a long video, so a cascade runs a small VLM continuously and escalates only uncertain decisions to a large one. Each escalation, however, forces the large model to re-encode a history the small m"
-  },
-  {
-   "titolo": "CarrierKV: An Edge LLM Accelerator with Positional Carrier Decomposition for Low-Bit KV Cache",
-   "data": "2026-11-19",
-   "url": "http://arxiv.org/abs/2611.26857v1",
-   "id": "2611.26857v1",
-   "sommario": "Long-context decoding on edge devices is limited by DRAM, because every generated token reads the whole, growing KV cache. 4-bit block-scaled formats such as NVFP4 reduce this traffic but degrade accuracy: on Qwen3-4B, NVFP4 lowers 32K RULER (seven tasks) from 92.6 to 79.4, and a"
+   "url": "http://arxiv.org/abs/2611.28256v1",
+   "id": "2611.28256v1",
+   "sommario": "Vision-Language-Action (VLA) models have emerged as a powerful paradigm for embodied AI, yet their high inference latency and memory footprint remain major barriers to edge deployment. Existing training-free acceleration techniques, such as visual token pruning and action caching"
   }
  ]
 }
