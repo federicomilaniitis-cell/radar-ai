@@ -1,89 +1,89 @@
 {
- "aggiornato": "2026-11-24T03:07:41+00:00",
+ "aggiornato": "2026-11-24T15:28:26+00:00",
  "paper": [
   {
-   "titolo": "RVLM: Fewer Tokens, Better Resolution Scaling, Fine-Grained Spatial Grounding",
+   "titolo": "On-Policy Codec Distillation for Efficient All-in-One Video Generation",
+   "data": "2026-11-23",
+   "url": "http://arxiv.org/abs/2611.31184v1",
+   "id": "2611.31184v1",
+   "sommario": "Modern visual generative models operate on tokens, and every visual asset they receive, whether an identity, a scribble, a depth map, or a motion video, is tokenized and appended to the input token sequence. Consequently, conditioning quickly dominates the computation cost. Yet m"
+  },
+  {
+   "titolo": "LiveLoRA: Exact KV Cache Migration Across LoRA Updates for LLM Agents",
+   "data": "2026-11-23",
+   "url": "http://arxiv.org/abs/2611.31105v1",
+   "id": "2611.31105v1",
+   "sommario": "Updating an LLM adapter should not require replaying the full interaction history of every active session. Yet reusing key-value (KV) cache entries computed under an earlier version mixes model versions, while full-history re-prefill becomes increasingly costly as histories and s"
+  },
+  {
+   "titolo": "Token Pruning Needs a Protected Sink Token: Coherent Spatial Aggregation in Vision Transformers",
+   "data": "2026-11-23",
+   "url": "http://arxiv.org/abs/2611.31025v1",
+   "id": "2611.31025v1",
+   "sommario": "Vision Transformers (ViTs) are a predominant architecture for computer vision, with token reduction emerging as a popular paradigm to improve their efficiency. Prior work compares reduction algorithms, but not how models respond to them, nor how their response changes with model "
+  },
+  {
+   "titolo": "Testing Quantized KV-Cache Maintenance: Encoding Layout and Historical Restoration",
+   "data": "2026-11-23",
+   "url": "http://arxiv.org/abs/2611.30720v1",
+   "id": "2611.30720v1",
+   "sommario": "Repeating rows then selecting originals retains layout-dependent drift despite equal encoding counts. We measure when existing checks fail to establish preservation contracts in fixed quantized KV-cache implementations. In four-bit HQQ axis zero at sixteen cycles, median paired r"
+  },
+  {
+   "titolo": "ANOR: Scaling Sparse Attention with a GPU-PNM Computing Hierarchy",
+   "data": "2026-11-23",
+   "url": "http://arxiv.org/abs/2611.30417v1",
+   "id": "2611.30417v1",
+   "sommario": "Serving large language models with long contexts requires keeping the key-value (KV) cache of every request, which can exceed GPU memory capacity. Sparse attention reads only a small, query-dependent subset of this cache at each decoding step, yet must retain the full cache becau"
+  },
+  {
+   "titolo": "DMC-5: Dual-Model Collaboration with Cache-aware Context Compression for Long-horizon Agents",
+   "data": "2026-11-23",
+   "url": "http://arxiv.org/abs/2611.30412v1",
+   "id": "2611.30412v1",
+   "sommario": "Long-horizon agents repeatedly feed an ever-growing interaction trajectory to a specialized agent model. Prefix caching reuses computation over repeated history, but cannot prevent context growth or remove information irrelevant to the current decision. This is especially costly "
+  },
+  {
+   "titolo": "Time Series Foundation Models on the Edge",
+   "data": "2026-11-23",
+   "url": "http://arxiv.org/abs/2611.30404v1",
+   "id": "2611.30404v1",
+   "sommario": "Time series foundation models (TSFMs) forecast zero-shot with accuracy exceeding that of task-specific models, and the smaller ones fit on edge devices. Operational deployments must refresh their forecast as new observations arrive, and privacy and latency requirements often forc"
+  },
+  {
+   "titolo": "PackLoop: Row-Packed Self-Speculative Decoding for Looped Language Models under Concurrency",
+   "data": "2026-11-23",
+   "url": "http://arxiv.org/abs/2611.30205v1",
+   "id": "2611.30205v1",
+   "sommario": "Looped language models reuse one block of weights T times per token, trading parameters for test-time depth, but autoregressive decoding then pays T sequential passes per token. Self-speculative decoders recover 2-10x for a single request, yet their gains fade as requests share a"
+  },
+  {
+   "titolo": "Fast 4-bit KV-Cache Decoding on Hopper GPUs: Why Existing Kernels Are Slow and How to Fix Them",
+   "data": "2026-11-23",
+   "url": "http://arxiv.org/abs/2611.30027v1",
+   "id": "2611.30027v1",
+   "sommario": "A 4-bit KV cache reads about half the bytes of FP8, but Hopper GPUs have no FP4 hardware and little instruction-issue capacity per byte of memory bandwidth, so 4-bit values must be decoded in software. On H200, vLLM's NVFP4 KV path (FlashInfer's decode) reaches 10-20% of memory b"
+  },
+  {
+   "titolo": "Measuring GPU Memory Traffic on the NVIDIA GB10 Without C2C Telemetry",
+   "data": "2026-11-23",
+   "url": "http://arxiv.org/abs/2611.29915v1",
+   "id": "2611.29915v1",
+   "sommario": "The NVIDIA GB10, used in the DGX Spark and in desktop AI systems from several vendors, joins an Arm CPU die and a Blackwell GPU die with NVLink C2C. The GPU has no local memory, so every GPU access that misses in its L2 cache crosses C2C to the LPDDR5X attached to the CPU die. Ye"
+  },
+  {
+   "titolo": "Motion Mamba 2.0: Autoregressive Diffusion Mamba for Long-Horizon Humanoid Control",
+   "data": "2026-11-23",
+   "url": "http://arxiv.org/abs/2611.29897v1",
+   "id": "2611.29897v1",
+   "sommario": "Long-horizon, real-time controllable motion generation is essential for interactive animation and humanoid robotics, where an agent must respond to changing instructions and spatial goals while moving. Existing autoregressive diffusion methods generate motion incrementally, but b"
+  },
+  {
+   "titolo": "Exact on Paper: Which LLM Serving Shortcuts Flip Graded Answers, Measured Against the Noise of Reordering the Same Requests",
    "data": "2026-11-22",
-   "url": "http://arxiv.org/abs/2611.29146v1",
-   "id": "2611.29146v1",
-   "sommario": "Vision-Language Models (VLMs) tokenize images using fixed spatial grids, so visual token count grows with pixel area rather than scene content. We propose to group neighboring patches based on their visual appearance, allowing tokens to represent coherent image regions rather tha"
-  },
-  {
-   "titolo": "One Million Tokens in 20GB: Calibration-Free 2-Bit SRFT KV-Cache Compression for Looped MoE Inference on Apple Silicon",
-   "data": "2026-11-21",
-   "url": "http://arxiv.org/abs/2611.29092v1",
-   "id": "2611.29092v1",
-   "sommario": "Long-context inference on unified-memory edge machines is governed by KV-cache capacity and memory bandwidth. On a 32 GB Apple M6 Mac mini (26.8 GB Metal working set, 150 GB/s DRAM), the 26.4B looped Mixture-of-Experts model Inkling-2-Mini (48 logical visits, 1M native context) e"
-  },
-  {
-   "titolo": "RES: Accelerating Diffusion Language Models with Rolling Entropy Sampling",
-   "data": "2026-11-21",
-   "url": "http://arxiv.org/abs/2611.29066v1",
-   "id": "2611.29066v1",
-   "sommario": "A diffusion language sampler makes two choices for every position in its denoising window: where the next token comes from, and when the position is committed to the KV cache. Using the entropy-bound sampler in DiffusionGemma, we study two extremes of the second choice. Committin"
-  },
-  {
-   "titolo": "NoHairCache: Calibrate-Once KV Cache Eviction with One Power-Law Exponent",
-   "data": "2026-11-21",
-   "url": "http://arxiv.org/abs/2611.29006v1",
-   "id": "2611.29006v1",
-   "sommario": "The decay exponent $α$ in KV-cache eviction is an intrinsic property of the model: calibrated once on a single corpus, it transfers directly across domains. Attention-based accumulation (H2O) and recency-based sliding windows (StreamingLLM) are two dominant eviction frameworks, o"
-  },
-  {
-   "titolo": "STAC++: Plug-and-Play Adaptive Spatio-Temporal Aware Cache Compression for Streaming 3D Reconstruction",
-   "data": "2026-11-21",
-   "url": "http://arxiv.org/abs/2611.28793v1",
-   "id": "2611.28793v1",
-   "sommario": "Streaming 3D reconstruction must preserve geometry under limited memory, yet STAC's fixed-resolution spatial key-value (KV) cache grows as scenes expand. We propose STAC++, a plug-and-play, training-free framework that compresses and reuses spatial memory for long-term reconstruc"
-  },
-  {
-   "titolo": "HiPerfCC-KVCache: Accelerating Confidential LLM Serving with Hierarchical KV Caching",
-   "data": "2026-11-21",
-   "url": "http://arxiv.org/abs/2611.28702v1",
-   "id": "2611.28702v1",
-   "sommario": "Hierarchical key-value (KV) caching reduces repeated prefill computation in large language model serving by retaining reusable state beyond GPU memory. Under GPU confidential computing (CC), however, protected transfers can erase this benefit. We show that bulk KV copies hold dri"
-  },
-  {
-   "titolo": "The Evaluation Substrate Matters: Benchmarking Multi-Agent Serving Substrates",
-   "data": "2026-11-21",
-   "url": "http://arxiv.org/abs/2611.28671v1",
-   "id": "2611.28671v1",
-   "sommario": "Multi-agent systems (MAS) usually coordinate heterogeneous models and tools to solve complex tasks, creating a growing need for reliable evaluation. However, a multi-agent workflow that is fastest in one serving environment can lose its advantage in another, even when its models,"
-  },
-  {
-   "titolo": "Selective ROM Weight Storage for Responsive LLM Control on Edge Robots",
-   "data": "2026-11-21",
-   "url": "http://arxiv.org/abs/2611.28563v1",
-   "id": "2611.28563v1",
-   "sommario": "Edge robots increasingly use large language models (LLMs) for complex tasks, demanding efficient inference alongside timely control. Limited memory capacity constrains model deployment, while repeated weight transfers during decoding compete with activations and KV cache for exte"
-  },
-  {
-   "titolo": "DisSparse: Pipelined Top-$p$ Sparse Attention for Long-Context LLM Serving",
-   "data": "2026-11-21",
-   "url": "http://arxiv.org/abs/2611.28522v1",
-   "id": "2611.28522v1",
-   "sommario": "Long-context LLM inference is bottlenecked by the memory demands of the key-value (KV) cache, whose size scales linearly with context length. Dynamic sparse attention reduces this bottleneck by fetching and attending only to a critical subset of tokens. The dominant primitive in "
-  },
-  {
-   "titolo": "Plan Big, Paint Small: Semantic-Aware Computation Allocation for Efficient Autoregressive Video Generation",
-   "data": "2026-11-20",
-   "url": "http://arxiv.org/abs/2611.28402v1",
-   "id": "2611.28402v1",
-   "sommario": "Autoregressive (AR) video diffusion streams a video chunk by chunk, but large AR models are too slow for real-time use. We ask where in an AR rollout a large model is actually needed. Pairing Krea-Realtime-14B with Self-Forcing-1.3B, which share their latent space and denoising s"
-  },
-  {
-   "titolo": "Specialized Large Language Models for Markovian Reasoning: Structural Cache Compression, Transition Pretraining, and Dual-Loop Transformers",
-   "data": "2026-11-20",
-   "url": "http://arxiv.org/abs/2611.28285v1",
-   "id": "2611.28285v1",
-   "sommario": "Standard autoregressive large language models attend to the growing history of generated tokens, making the key-value (KV) cache a central memory and throughput bottleneck in long-chain reasoning and multi-branch sampling. Yet an important class of reasoning problems is naturally"
-  },
-  {
-   "titolo": "FlowPAC: Flow-Guided Visual Pruning and Action Caching for Efficient VLA Inference",
-   "data": "2026-11-20",
-   "url": "http://arxiv.org/abs/2611.28256v1",
-   "id": "2611.28256v1",
-   "sommario": "Vision-Language-Action (VLA) models have emerged as a powerful paradigm for embodied AI, yet their high inference latency and memory footprint remain major barriers to edge deployment. Existing training-free acceleration techniques, such as visual token pruning and action caching"
+   "url": "http://arxiv.org/abs/2611.29663v1",
+   "id": "2611.29663v1",
+   "sommario": "Teams enable serving features such as prefix caching, chunked prefill and speculative decoding after checking that benchmark accuracy is unchanged, because the engine documents them as exact. Accuracy is an aggregate, so a feature can hold it while flipping which requests are ans"
   }
  ]
 }

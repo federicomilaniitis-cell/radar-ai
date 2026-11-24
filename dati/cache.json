@@ -1,8 +1,8 @@
 {
- "aggiornato": "2026-11-24T03:07:41+00:00",
+ "aggiornato": "2026-11-24T15:28:26+00:00",
  "aggiornato_it": "24 novembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 375,
+ "totale": 374,
  "modelli": [
   {
    "id": "thinkingmachines/inkling-2-mini",
@@ -1696,9 +1696,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000015"
+    "prompt": "0.000000075",
+    "completion": "0.0000003",
+    "input_cache_read": "0.0000000075"
    },
    "top_provider": {
     "max_completion_tokens": 524288
@@ -4449,9 +4449,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.0000000498",
-    "completion": "0.0000001992",
-    "input_cache_read": "0.000000000996"
+    "prompt": "0.0000000507",
+    "completion": "0.0000002028",
+    "input_cache_read": "0.000000001014"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -5193,12 +5193,12 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000012",
-    "completion": "0.00000038",
-    "input_cache_read": "0.00000002"
+    "prompt": "0.00000015",
+    "completion": "0.0000005",
+    "input_cache_read": "0.00000003"
    },
    "top_provider": {
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 943717
    },
    "supported_parameters": [
     "reasoning",
@@ -6232,9 +6232,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000044",
-    "completion": "0.000000132",
-    "input_cache_read": "0.0000000014"
+    "prompt": "0.00000004532",
+    "completion": "0.00000013596",
+    "input_cache_read": "0.000000001442"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -6274,9 +6274,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000055",
-    "completion": "0.000000375",
-    "input_cache_read": "0.000000044"
+    "prompt": "0.0000000456",
+    "completion": "0.0000003",
+    "input_cache_read": "0.000000035"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -6483,7 +6483,7 @@
    "id": "inclusionai/ling-3.0-flash",
    "name": "inclusionAI: Ling 3.0 Flash",
    "created": 1784818580,
-   "context_length": 131072,
+   "context_length": 262144,
    "description": "*Ling-3.0-flash* is a *124B-parameter Mixture-of-Experts (MoE) model*, with approximately *5.1B parameters activated per token*. The model is designed with *token efficiency and production-scale agentic inference* as key priorities, enabling developers...",
    "hugging_face_id": "inclusionAI/Ling-3.0-flash",
    "architecture": {
@@ -6496,15 +6496,16 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000006",
-    "completion": "0.00000018",
-    "input_cache_read": "0.000000012"
+    "prompt": "0.000000021",
+    "completion": "0.000000063",
+    "input_cache_read": "0.0000000042"
    },
    "top_provider": {
     "max_completion_tokens": 32768
    },
    "supported_parameters": [
     "reasoning",
+    "structured_outputs",
     "tools"
    ],
    "reasoning": {
@@ -9402,9 +9403,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000000765",
-    "completion": "0.000000255",
-    "input_cache_read": "0.0000000425"
+    "prompt": "0.00000009",
+    "completion": "0.0000003",
+    "input_cache_read": "0.00000005"
    },
    "top_provider": {
     "max_completion_tokens": 235929
@@ -13341,52 +13342,6 @@
      "cyber_index": null,
      "openness_index": 44.4,
      "multilingual_index": null,
-     "decision_index": null
-    }
-   },
-   "ha_versione_gratuita": false
-  },
-  {
-   "id": "moonshotai/kimi-k2-0905",
-   "name": "MoonshotAI: Kimi K2 0905",
-   "created": 1757021147,
-   "context_length": 262144,
-   "description": "Kimi K2 0905 is the September update of [Kimi K2 0711](moonshotai/kimi-k2). It is a large-scale Mixture-of-Experts (MoE) language model developed by Moonshot AI, featuring 1 trillion total parameters with 32...",
-   "hugging_face_id": "moonshotai/Kimi-K2-Instruct-0905",
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text->text"
-   },
-   "pricing": {
-    "prompt": "0.0000006",
-    "completion": "0.0000025"
-   },
-   "top_provider": {
-    "max_completion_tokens": 98304
-   },
-   "supported_parameters": [
-    "structured_outputs",
-    "tools"
-   ],
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": null,
-     "coding_index": null,
-     "agentic_index": null,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
-     "openness_index": 27.8,
-     "multilingual_index": 0.808,
      "decision_index": null
     }
    },
