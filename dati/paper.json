@@ -1,6 +1,76 @@
 {
- "aggiornato": "2026-11-25T01:13:23+00:00",
+ "aggiornato": "2026-11-25T15:14:08+00:00",
  "paper": [
+  {
+   "titolo": "LoomKV: Lossless KV Cache Compression from GPU Memory to SSD for LLM Serving",
+   "data": "2026-11-24",
+   "url": "http://arxiv.org/abs/2611.32954v1",
+   "id": "2611.32954v1",
+   "sommario": "Large language model (LLM) serving engines offload the key/value (KV) cache from GPU memory to host DRAM and SSD so multi-turn and agent requests can reuse prompt prefixes. Capacity then limits service at two levels: external tiers govern prefix reuse before eviction, while the G"
+  },
+  {
+   "titolo": "Bathys: Advancing Deep Search Agents",
+   "data": "2026-11-24",
+   "url": "http://arxiv.org/abs/2611.32660v1",
+   "id": "2611.32660v1",
+   "sommario": "Deep search is a critical capability for agents tackling complex, open-ended tasks, where solving a problem requires iterative information gathering, query reformulation, and evidence-based verification rather than a single retrieval step. To address these requirements, we presen"
+  },
+  {
+   "titolo": "ModelLess: A Serverless System for Multi-Tier LLM Inference on Shared GPUs",
+   "data": "2026-11-24",
+   "url": "http://arxiv.org/abs/2611.32634v1",
+   "id": "2611.32634v1",
+   "sommario": "LLM inference platforms sell online, asynchronous, batch and rollout products on GPUs provisioned per product, so a service's cards sit idle between bursts while other work waits. We present ModelLess, a serverless system for LLM inference. Users declare model services and the pl"
+  },
+  {
+   "titolo": "See the Answer, Learn to Embed: Learning Universal Multimodal Embeddings from Hindsight",
+   "data": "2026-11-24",
+   "url": "http://arxiv.org/abs/2611.32439v1",
+   "id": "2611.32439v1",
+   "sommario": "Universal Multimodal Embedding (UME) models map heterogeneous multimodal inputs into a shared embedding space, where pairwise similarity supports diverse downstream tasks. Recent reasoning-driven UME approaches use intermediate reasoning to generate additional context for embeddi"
+  },
+  {
+   "titolo": "Factorized Context Attention: From Emulated to Native Grid Probing",
+   "data": "2026-11-24",
+   "url": "http://arxiv.org/abs/2611.32423v1",
+   "id": "2611.32423v1",
+   "sommario": "Models read a book, an hour of video, or an image in one forward pass. As the context grows, this pass slows down, loses accuracy, and stops at the context window. Sparse attention is efficient, but keeps the other two limitations. Grid probing, a recent training-free method, rec"
+  },
+  {
+   "titolo": "Beyond Hard Tokens: Predictive Memory for Multimodal Protein Generation",
+   "data": "2026-11-24",
+   "url": "http://arxiv.org/abs/2611.32347v1",
+   "id": "2611.32347v1",
+   "sommario": "Multimodal protein language models unify sequence and discrete structural tokens via iterative masked decoding, offering a promising paradigm for joint protein design. However, standard decoders rely on a memoryless mask reset at each iteration: only a sparse subset of newly comm"
+  },
+  {
+   "titolo": "Norn: Context-Length-Aware Optimization of Weight and KV Cache Placement for Offloaded LLM Inference",
+   "data": "2026-11-24",
+   "url": "http://arxiv.org/abs/2611.32295v1",
+   "id": "2611.32295v1",
+   "sommario": "Offloading model weights and the key-value (KV) cache to host memory enables large language models (LLMs) to run on a single memory-constrained GPU. As the KV cache grows during decoding, GPU memory requirements and the costs of KV cache transfers and attention computation change"
+  },
+  {
+   "titolo": "Mayfly: Lifecycle-Aware High-Bandwidth Flash for Recursive Self-Improvement",
+   "data": "2026-11-24",
+   "url": "http://arxiv.org/abs/2611.32264v1",
+   "id": "2611.32264v1",
+   "sommario": "Recursive self-improvement (RSI) lets an LLM improve its agent system by proposing and evaluating candidate variants across tasks. A generation's sessions grow their KV caches together and release them as they finish, creating a burst followed by a decline. At high concurrency, e"
+  },
+  {
+   "titolo": "DraftKV: Protecting Persistent Worlds through Hierarchical Streaming Retrieval",
+   "data": "2026-11-24",
+   "url": "http://arxiv.org/abs/2611.31944v1",
+   "id": "2611.31944v1",
+   "sommario": "Interactive video world models enable action- and camera-controlled exploration, yet struggle to maintain consistent spatial geometry and appearance when revisiting previously explored locations. Historical KV caches help auto-regressive video diffusion models maintain long-term "
+  },
+  {
+   "titolo": "Cheap Memory Costs Future Compute: Co-Designing Persistent KV and GPU Execution for Efficient Streaming Video Diffusion",
+   "data": "2026-11-24",
+   "url": "http://arxiv.org/abs/2611.31892v1",
+   "id": "2611.31892v1",
+   "sommario": "Block-causal video diffusion generates long videos block by block, conditioned on a persistent key-value (KV) cache. After each block is denoised, an extra noise-free ($t=0$) forward pass writes its clean KV into the cache; once distillation and speculative early exit make denois"
+  },
   {
    "titolo": "On-Policy Codec Distillation for Efficient All-in-One Video Generation",
    "data": "2026-11-23",
@@ -14,76 +84,6 @@
    "url": "http://arxiv.org/abs/2611.31105v1",
    "id": "2611.31105v1",
    "sommario": "Updating an LLM adapter should not require replaying the full interaction history of every active session. Yet reusing key-value (KV) cache entries computed under an earlier version mixes model versions, while full-history re-prefill becomes increasingly costly as histories and s"
-  },
-  {
-   "titolo": "Token Pruning Needs a Protected Sink Token: Coherent Spatial Aggregation in Vision Transformers",
-   "data": "2026-11-23",
-   "url": "http://arxiv.org/abs/2611.31025v1",
-   "id": "2611.31025v1",
-   "sommario": "Vision Transformers (ViTs) are a predominant architecture for computer vision, with token reduction emerging as a popular paradigm to improve their efficiency. Prior work compares reduction algorithms, but not how models respond to them, nor how their response changes with model "
-  },
-  {
-   "titolo": "Testing Quantized KV-Cache Maintenance: Encoding Layout and Historical Restoration",
-   "data": "2026-11-23",
-   "url": "http://arxiv.org/abs/2611.30720v1",
-   "id": "2611.30720v1",
-   "sommario": "Repeating rows then selecting originals retains layout-dependent drift despite equal encoding counts. We measure when existing checks fail to establish preservation contracts in fixed quantized KV-cache implementations. In four-bit HQQ axis zero at sixteen cycles, median paired r"
-  },
-  {
-   "titolo": "ANOR: Scaling Sparse Attention with a GPU-PNM Computing Hierarchy",
-   "data": "2026-11-23",
-   "url": "http://arxiv.org/abs/2611.30417v1",
-   "id": "2611.30417v1",
-   "sommario": "Serving large language models with long contexts requires keeping the key-value (KV) cache of every request, which can exceed GPU memory capacity. Sparse attention reads only a small, query-dependent subset of this cache at each decoding step, yet must retain the full cache becau"
-  },
-  {
-   "titolo": "DMC-5: Dual-Model Collaboration with Cache-aware Context Compression for Long-horizon Agents",
-   "data": "2026-11-23",
-   "url": "http://arxiv.org/abs/2611.30412v1",
-   "id": "2611.30412v1",
-   "sommario": "Long-horizon agents repeatedly feed an ever-growing interaction trajectory to a specialized agent model. Prefix caching reuses computation over repeated history, but cannot prevent context growth or remove information irrelevant to the current decision. This is especially costly "
-  },
-  {
-   "titolo": "Time Series Foundation Models on the Edge",
-   "data": "2026-11-23",
-   "url": "http://arxiv.org/abs/2611.30404v1",
-   "id": "2611.30404v1",
-   "sommario": "Time series foundation models (TSFMs) forecast zero-shot with accuracy exceeding that of task-specific models, and the smaller ones fit on edge devices. Operational deployments must refresh their forecast as new observations arrive, and privacy and latency requirements often forc"
-  },
-  {
-   "titolo": "PackLoop: Row-Packed Self-Speculative Decoding for Looped Language Models under Concurrency",
-   "data": "2026-11-23",
-   "url": "http://arxiv.org/abs/2611.30205v1",
-   "id": "2611.30205v1",
-   "sommario": "Looped language models reuse one block of weights T times per token, trading parameters for test-time depth, but autoregressive decoding then pays T sequential passes per token. Self-speculative decoders recover 2-10x for a single request, yet their gains fade as requests share a"
-  },
-  {
-   "titolo": "Fast 4-bit KV-Cache Decoding on Hopper GPUs: Why Existing Kernels Are Slow and How to Fix Them",
-   "data": "2026-11-23",
-   "url": "http://arxiv.org/abs/2611.30027v1",
-   "id": "2611.30027v1",
-   "sommario": "A 4-bit KV cache reads about half the bytes of FP8, but Hopper GPUs have no FP4 hardware and little instruction-issue capacity per byte of memory bandwidth, so 4-bit values must be decoded in software. On H200, vLLM's NVFP4 KV path (FlashInfer's decode) reaches 10-20% of memory b"
-  },
-  {
-   "titolo": "Measuring GPU Memory Traffic on the NVIDIA GB10 Without C2C Telemetry",
-   "data": "2026-11-23",
-   "url": "http://arxiv.org/abs/2611.29915v1",
-   "id": "2611.29915v1",
-   "sommario": "The NVIDIA GB10, used in the DGX Spark and in desktop AI systems from several vendors, joins an Arm CPU die and a Blackwell GPU die with NVLink C2C. The GPU has no local memory, so every GPU access that misses in its L2 cache crosses C2C to the LPDDR5X attached to the CPU die. Ye"
-  },
-  {
-   "titolo": "Motion Mamba 2.0: Autoregressive Diffusion Mamba for Long-Horizon Humanoid Control",
-   "data": "2026-11-23",
-   "url": "http://arxiv.org/abs/2611.29897v1",
-   "id": "2611.29897v1",
-   "sommario": "Long-horizon, real-time controllable motion generation is essential for interactive animation and humanoid robotics, where an agent must respond to changing instructions and spatial goals while moving. Existing autoregressive diffusion methods generate motion incrementally, but b"
-  },
-  {
-   "titolo": "Exact on Paper: Which LLM Serving Shortcuts Flip Graded Answers, Measured Against the Noise of Reordering the Same Requests",
-   "data": "2026-11-22",
-   "url": "http://arxiv.org/abs/2611.29663v1",
-   "id": "2611.29663v1",
-   "sommario": "Teams enable serving features such as prefix caching, chunked prefill and speculative decoding after checking that benchmark accuracy is unchanged, because the engine documents them as exact. Accuracy is an aggregate, so a feature can hold it while flipping which requests are ans"
   }
  ]
 }

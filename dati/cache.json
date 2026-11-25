@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-25T01:13:23+00:00",
+ "aggiornato": "2026-11-25T15:14:08+00:00",
  "aggiornato_it": "25 novembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 373,
@@ -66,7 +66,7 @@
    "pricing": {
     "prompt": "0.00000009",
     "completion": "0.00000036",
-    "input_cache_read": "0.000000009"
+    "input_cache_read": "0.000000018"
    },
    "top_provider": {
     "max_completion_tokens": 131072
@@ -112,15 +112,16 @@
     "modality": "text+image+audio+video->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.00000042",
-    "input_cache_read": "0.00000002"
+    "prompt": "0.0000005",
+    "completion": "0.000001",
+    "input_cache_read": "0.00000005"
    },
    "top_provider": {
     "max_completion_tokens": 32768
    },
    "supported_parameters": [
     "reasoning",
+    "structured_outputs",
     "tools"
    ],
    "reasoning": {
@@ -1820,9 +1821,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000015"
+    "prompt": "0.000000075",
+    "completion": "0.0000003",
+    "input_cache_read": "0.0000000075"
    },
    "top_provider": {
     "max_completion_tokens": 524288
@@ -1880,9 +1881,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000003",
-    "completion": "0.0000002",
-    "input_cache_read": "0.000000001"
+    "prompt": "0.00000015",
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000003"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -4150,12 +4151,12 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000003",
-    "completion": "0.0000002",
-    "input_cache_read": "0.000000001"
+    "prompt": "0.000000036",
+    "completion": "0.0000005",
+    "input_cache_read": "0.00000001"
    },
    "top_provider": {
-    "max_completion_tokens": 393216
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -4577,9 +4578,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000014",
-    "completion": "0.00000042",
-    "input_cache_read": "0.0000000042"
+    "prompt": "0.0000000507",
+    "completion": "0.0000002028",
+    "input_cache_read": "0.000000001014"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -5967,9 +5968,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000005",
+    "prompt": "0.00000007",
     "completion": "0.0000002",
-    "input_cache_read": "0.00000001"
+    "input_cache_read": "0.00000004"
    },
    "top_provider": {
     "max_completion_tokens": 235929
@@ -6325,12 +6326,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000047",
-    "completion": "0.0000003",
-    "input_cache_read": "0.000000035"
+    "prompt": "0.00000004532",
+    "completion": "0.00000013596",
+    "input_cache_read": "0.000000001442"
    },
    "top_provider": {
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -6367,7 +6368,7 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000047",
+    "prompt": "0.0000000456",
     "completion": "0.0000003",
     "input_cache_read": "0.000000035"
    },
@@ -9082,9 +9083,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000128",
-    "completion": "0.00000256",
-    "input_cache_read": "0.000000108"
+    "prompt": "0.0000008012",
+    "completion": "0.0000015629",
+    "input_cache_read": "0.0000002"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -9442,9 +9443,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000000765",
-    "completion": "0.000000255",
-    "input_cache_read": "0.0000000425"
+    "prompt": "0.00000009",
+    "completion": "0.0000003",
+    "input_cache_read": "0.00000005"
    },
    "top_provider": {
     "max_completion_tokens": 235929
@@ -11429,7 +11430,7 @@
    "id": "z-ai/glm-4.7-flash",
    "name": "Z.ai: GLM 4.7 Flash",
    "created": 1768833913,
-   "context_length": 200000,
+   "context_length": 131072,
    "description": "As a 30B-class SOTA model, GLM-4.7-Flash offers a new option that balances performance and efficiency. It is further optimized for agentic coding use cases, strengthening coding capabilities, long-horizon task planning,...",
    "hugging_face_id": "zai-org/GLM-4.7-Flash",
    "architecture": {
@@ -11922,7 +11923,7 @@
    "pricing": {
     "prompt": "0.0000003",
     "completion": "0.0000009",
-    "input_cache_read": "0.000000055"
+    "input_cache_read": "0.00000005"
    },
    "top_provider": {
     "max_completion_tokens": 32768
@@ -14051,12 +14052,11 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000013",
-    "completion": "0.00000085",
-    "input_cache_read": "0.000000025"
+    "prompt": "0.00000014",
+    "completion": "0.00000086"
    },
    "top_provider": {
-    "max_completion_tokens": 98304
+    "max_completion_tokens": 117964
    },
    "supported_parameters": [
     "reasoning",
@@ -14435,6 +14435,7 @@
    "context_length": 1048576,
    "description": "Gemini 2.5 Flash is Google's state-of-the-art workhorse model, specifically designed for advanced reasoning, coding, mathematics, and scientific tasks. It includes built-in \"thinking\" capabilities, enabling it to provide responses with greater...",
    "hugging_face_id": "",
+   "expiration_date": "2026-12-01",
    "architecture": {
     "input_modalities": [
      "file",
@@ -14494,6 +14495,7 @@
    "context_length": 1048576,
    "description": "Gemini 2.5 Pro is Google’s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks. It employs “thinking” capabilities, enabling it to reason through responses with enhanced accuracy...",
    "hugging_face_id": "",
+   "expiration_date": "2026-12-01",
    "architecture": {
     "input_modalities": [
      "text",
