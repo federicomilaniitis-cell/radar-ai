@@ -1,9 +1,133 @@
 {
- "aggiornato": "2026-11-24T15:28:26+00:00",
- "aggiornato_it": "24 novembre 2026",
+ "aggiornato": "2026-11-25T01:13:23+00:00",
+ "aggiornato_it": "25 novembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 374,
+ "totale": 373,
  "modelli": [
+  {
+   "id": "upstage/solar-mini-4-5",
+   "name": "Upstage: Solar Mini 4.5 (Preview)",
+   "created": 1795562304,
+   "context_length": 524288,
+   "description": "Solar Mini 4.5 is Upstage's compact language model, built on a proprietary mixture-of-experts architecture with 35B total and 3B active parameters and a 524K context window. It is a step...",
+   "architecture": {
+    "input_modalities": [
+     "text"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text->text"
+   },
+   "pricing": {
+    "prompt": "0.00000001",
+    "completion": "0.00000004",
+    "input_cache_read": "0.000000001"
+   },
+   "top_provider": {
+    "max_completion_tokens": 131072
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": false,
+    "default_enabled": false,
+    "supported_efforts": [
+     "max",
+     "xhigh",
+     "high",
+     "medium",
+     "low",
+     "minimal",
+     "none"
+    ],
+    "default_effort": "medium"
+   },
+   "ha_versione_gratuita": false
+  },
+  {
+   "id": "upstage/solar-pro-4-contributor",
+   "name": "Upstage: Solar Pro 4 Contributor",
+   "created": 1795562304,
+   "context_length": 524288,
+   "description": "Solar Pro 4 Contributor is the same Solar Pro 4 model from Upstage, offered at a lower rate in exchange for allowing Upstage to use interaction data to improve its...",
+   "architecture": {
+    "input_modalities": [
+     "text"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text->text"
+   },
+   "pricing": {
+    "prompt": "0.00000009",
+    "completion": "0.00000036",
+    "input_cache_read": "0.000000009"
+   },
+   "top_provider": {
+    "max_completion_tokens": 131072
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": false,
+    "default_enabled": false,
+    "supported_efforts": [
+     "max",
+     "xhigh",
+     "high",
+     "medium",
+     "low",
+     "minimal",
+     "none"
+    ],
+    "default_effort": "medium"
+   },
+   "ha_versione_gratuita": false
+  },
+  {
+   "id": "xiaomi/mimo-v2.6-flash-mopd",
+   "name": "Xiaomi: MiMo-V2.6-Flash-MOPD",
+   "created": 1795456634,
+   "context_length": 1048576,
+   "description": "MiMo-V2.6-Flash-MOPD is an updated checkpoint of Xiaomi's MiMo-V2.6-Flash, a Mixture-of-Experts model with 309B total and 15B active parameters, a 1M-token context window, and native multimodal input. It adds a multi-teacher...",
+   "hugging_face_id": "XiaomiMiMo/MiMo-V2.6-Flash-MOPD",
+   "architecture": {
+    "input_modalities": [
+     "text",
+     "image",
+     "video",
+     "audio"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text+image+audio+video->text"
+   },
+   "pricing": {
+    "prompt": "0.00000015",
+    "completion": "0.00000042",
+    "input_cache_read": "0.00000002"
+   },
+   "top_provider": {
+    "max_completion_tokens": 32768
+   },
+   "supported_parameters": [
+    "reasoning",
+    "tools"
+   ],
+   "reasoning": {
+    "mandatory": false
+   },
+   "ha_versione_gratuita": false
+  },
   {
    "id": "thinkingmachines/inkling-2-mini",
    "name": "Thinking Machines: Inkling 2 Mini",
@@ -183,14 +307,14 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 61.4,
+     "intelligence_index": 61.5,
      "coding_index": null,
      "agentic_index": null,
      "finance_and_accounting_index": 65.1,
      "strategy_and_ops_index": 63.8,
      "legal_index": 63.8,
      "healthcare_and_medical_index": 60.1,
-     "engineering_index": 66.8,
+     "engineering_index": 67,
      "economics_index": 61.9,
      "cyber_index": null,
      "openness_index": null,
@@ -292,14 +416,14 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 62.1,
+     "intelligence_index": 62.2,
      "coding_index": null,
      "agentic_index": null,
      "finance_and_accounting_index": 60.9,
      "strategy_and_ops_index": 63.3,
      "legal_index": 58.7,
      "healthcare_and_medical_index": 57,
-     "engineering_index": 66.6,
+     "engineering_index": 66.7,
      "economics_index": 61.1,
      "cyber_index": 40.8,
      "openness_index": null,
@@ -498,14 +622,14 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 42.9,
+     "intelligence_index": 42.8,
      "coding_index": null,
      "agentic_index": null,
      "finance_and_accounting_index": 54.1,
      "strategy_and_ops_index": 56.9,
      "legal_index": 49.6,
      "healthcare_and_medical_index": 48.2,
-     "engineering_index": 50.1,
+     "engineering_index": 50,
      "economics_index": 51.3,
      "cyber_index": null,
      "openness_index": null,
@@ -598,14 +722,14 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 53.9,
+     "intelligence_index": 54.1,
      "coding_index": null,
      "agentic_index": null,
      "finance_and_accounting_index": 58.1,
      "strategy_and_ops_index": 57.7,
      "legal_index": 56.7,
      "healthcare_and_medical_index": 53.3,
-     "engineering_index": 60.1,
+     "engineering_index": 60.2,
      "economics_index": 55,
      "cyber_index": null,
      "openness_index": null,
@@ -741,14 +865,14 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 60,
+     "intelligence_index": 60.1,
      "coding_index": null,
      "agentic_index": null,
      "finance_and_accounting_index": 62.6,
      "strategy_and_ops_index": 60.9,
      "legal_index": 62,
      "healthcare_and_medical_index": 56.8,
-     "engineering_index": 65.3,
+     "engineering_index": 65.4,
      "economics_index": 59.6,
      "cyber_index": null,
      "openness_index": null,
@@ -842,7 +966,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 30.6,
+     "intelligence_index": 30.7,
      "coding_index": null,
      "agentic_index": null,
      "finance_and_accounting_index": 44.3,
@@ -904,14 +1028,14 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 64.6,
+     "intelligence_index": 64.8,
      "coding_index": null,
      "agentic_index": null,
      "finance_and_accounting_index": 64.7,
      "strategy_and_ops_index": 67.4,
      "legal_index": 63.3,
      "healthcare_and_medical_index": 65.4,
-     "engineering_index": 72.6,
+     "engineering_index": 72.8,
      "economics_index": 66.5,
      "cyber_index": null,
      "openness_index": null,
@@ -969,7 +1093,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 36,
+     "intelligence_index": 36.1,
      "coding_index": null,
      "agentic_index": null,
      "finance_and_accounting_index": 44.6,
@@ -1567,14 +1691,14 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 51.3,
+     "intelligence_index": 51.4,
      "coding_index": null,
      "agentic_index": null,
      "finance_and_accounting_index": 49,
      "strategy_and_ops_index": 50,
      "legal_index": 46.4,
      "healthcare_and_medical_index": 44.7,
-     "engineering_index": 54.7,
+     "engineering_index": 54.8,
      "economics_index": 48.5,
      "cyber_index": null,
      "openness_index": null,
@@ -1628,14 +1752,14 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 46.5,
+     "intelligence_index": 46.6,
      "coding_index": null,
      "agentic_index": null,
      "finance_and_accounting_index": 53.3,
      "strategy_and_ops_index": 57.6,
      "legal_index": 49.2,
      "healthcare_and_medical_index": 51.6,
-     "engineering_index": 50.9,
+     "engineering_index": 51,
      "economics_index": 49.9,
      "cyber_index": 64.1,
      "openness_index": 33.3,
@@ -1696,9 +1820,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000075",
-    "completion": "0.0000003",
-    "input_cache_read": "0.0000000075"
+    "prompt": "0.00000015",
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000015"
    },
    "top_provider": {
     "max_completion_tokens": 524288
@@ -1781,14 +1905,14 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 32.6,
+     "intelligence_index": 32.4,
      "coding_index": null,
      "agentic_index": null,
      "finance_and_accounting_index": 42.2,
      "strategy_and_ops_index": 49.2,
      "legal_index": 37.7,
      "healthcare_and_medical_index": 41.3,
-     "engineering_index": 37.6,
+     "engineering_index": 37.5,
      "economics_index": 38.5,
      "cyber_index": 56.8,
      "openness_index": 44.4,
@@ -2167,6 +2291,7 @@
    "created": 1792073620,
    "context_length": 1048576,
    "description": "Pareto is a multimodal composite model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks.",
+   "expiration_date": "2026-11-25",
    "architecture": {
     "input_modalities": [
      "text",
@@ -2196,6 +2321,7 @@
    "created": 1791933050,
    "context_length": 1048576,
    "description": "This model always redirects to the latest model in the Pareto family.",
+   "expiration_date": "2026-11-25",
    "architecture": {
     "input_modalities": [
      "text",
@@ -2225,6 +2351,7 @@
    "created": 1791930537,
    "context_length": 262144,
    "description": "Pareto is a multimodal composite model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks.",
+   "expiration_date": "2026-11-25",
    "architecture": {
     "input_modalities": [
      "text",
@@ -2329,14 +2456,14 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 50.4,
+     "intelligence_index": 50.5,
      "coding_index": null,
      "agentic_index": null,
      "finance_and_accounting_index": 55.9,
      "strategy_and_ops_index": 57.2,
      "legal_index": 54.6,
      "healthcare_and_medical_index": 51.3,
-     "engineering_index": 57.3,
+     "engineering_index": 57.4,
      "economics_index": 52.6,
      "cyber_index": null,
      "openness_index": null,
@@ -2447,14 +2574,14 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 43.6,
+     "intelligence_index": 43.7,
      "coding_index": null,
      "agentic_index": null,
      "finance_and_accounting_index": 51.1,
      "strategy_and_ops_index": 54.5,
      "legal_index": 46.9,
      "healthcare_and_medical_index": 48.7,
-     "engineering_index": 49.6,
+     "engineering_index": 49.7,
      "economics_index": 49.5,
      "cyber_index": null,
      "openness_index": null,
@@ -2576,7 +2703,7 @@
      "strategy_and_ops_index": 39.1,
      "legal_index": 38.7,
      "healthcare_and_medical_index": 37.5,
-     "engineering_index": 42.5,
+     "engineering_index": 42.6,
      "economics_index": 42.7,
      "cyber_index": null,
      "openness_index": null,
@@ -2721,7 +2848,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 29.6,
+     "intelligence_index": 29.7,
      "coding_index": null,
      "agentic_index": null,
      "finance_and_accounting_index": 42.6,
@@ -2744,6 +2871,7 @@
    "created": 1790863623,
    "context_length": 1048576,
    "description": "Pareto is a multimodal composite model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks. This is a preview of the...",
+   "expiration_date": "2026-11-25",
    "architecture": {
     "input_modalities": [
      "text",
@@ -2859,7 +2987,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 54.6,
+     "intelligence_index": 54.7,
      "coding_index": null,
      "agentic_index": null,
      "finance_and_accounting_index": 56.2,
@@ -2921,14 +3049,14 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 54.5,
+     "intelligence_index": 54.7,
      "coding_index": null,
      "agentic_index": null,
      "finance_and_accounting_index": 55.8,
      "strategy_and_ops_index": 58.1,
      "legal_index": 52.2,
      "healthcare_and_medical_index": 54.2,
-     "engineering_index": 58.5,
+     "engineering_index": 58.6,
      "economics_index": 54.1,
      "cyber_index": null,
      "openness_index": null,
@@ -3533,7 +3661,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 44.2,
+     "intelligence_index": 44.1,
      "coding_index": null,
      "agentic_index": null,
      "finance_and_accounting_index": 47.5,
@@ -3710,14 +3838,14 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 26.7,
+     "intelligence_index": 26.8,
      "coding_index": null,
      "agentic_index": null,
      "finance_and_accounting_index": 36.9,
      "strategy_and_ops_index": 45.7,
      "legal_index": 33.8,
      "healthcare_and_medical_index": 35.1,
-     "engineering_index": 31,
+     "engineering_index": 31.1,
      "economics_index": 32.2,
      "cyber_index": null,
      "openness_index": 52.8,
@@ -3825,14 +3953,14 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 35.5,
+     "intelligence_index": 35.4,
      "coding_index": null,
      "agentic_index": null,
      "finance_and_accounting_index": 51.7,
      "strategy_and_ops_index": 54.8,
      "legal_index": 47.2,
      "healthcare_and_medical_index": 46.6,
-     "engineering_index": 41.8,
+     "engineering_index": 41.7,
      "economics_index": 45.7,
      "cyber_index": 56.4,
      "openness_index": null,
@@ -4449,9 +4577,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.0000000507",
-    "completion": "0.0000002028",
-    "input_cache_read": "0.000000001014"
+    "prompt": "0.00000014",
+    "completion": "0.00000042",
+    "input_cache_read": "0.0000000042"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -4899,14 +5027,14 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 30.8,
+     "intelligence_index": 30.7,
      "coding_index": null,
      "agentic_index": null,
      "finance_and_accounting_index": 42.4,
      "strategy_and_ops_index": 47.2,
      "legal_index": 41.7,
      "healthcare_and_medical_index": 38.3,
-     "engineering_index": 38.8,
+     "engineering_index": 38.7,
      "economics_index": 40.1,
      "cyber_index": 25.1,
      "openness_index": null,
@@ -4968,7 +5096,7 @@
      "strategy_and_ops_index": 58,
      "legal_index": 54.5,
      "healthcare_and_medical_index": 51.2,
-     "engineering_index": 57.2,
+     "engineering_index": 57.3,
      "economics_index": 57.3,
      "cyber_index": 25,
      "openness_index": null,
@@ -5019,14 +5147,14 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 5.1,
+     "intelligence_index": null,
      "coding_index": null,
      "agentic_index": null,
      "finance_and_accounting_index": 14.8,
      "strategy_and_ops_index": 6.9,
      "legal_index": 14.6,
      "healthcare_and_medical_index": null,
-     "engineering_index": 14.6,
+     "engineering_index": null,
      "economics_index": 14.6,
      "cyber_index": null,
      "openness_index": 72.2,
@@ -5157,14 +5285,14 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 28.6,
+     "intelligence_index": 28.5,
      "coding_index": null,
      "agentic_index": null,
      "finance_and_accounting_index": 39,
      "strategy_and_ops_index": 44.5,
      "legal_index": 35.1,
      "healthcare_and_medical_index": 36.4,
-     "engineering_index": 33,
+     "engineering_index": 32.9,
      "economics_index": 36.1,
      "cyber_index": null,
      "openness_index": 38.9,
@@ -5193,12 +5321,12 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000005",
-    "input_cache_read": "0.00000003"
+    "prompt": "0.00000012",
+    "completion": "0.00000038",
+    "input_cache_read": "0.00000002"
    },
    "top_provider": {
-    "max_completion_tokens": 943717
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -5217,14 +5345,14 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 27.8,
+     "intelligence_index": 27.7,
      "coding_index": null,
      "agentic_index": null,
      "finance_and_accounting_index": 38.8,
      "strategy_and_ops_index": 44.5,
      "legal_index": 34.8,
      "healthcare_and_medical_index": 36.6,
-     "engineering_index": 34.5,
+     "engineering_index": 34.4,
      "economics_index": 35.3,
      "cyber_index": 49.9,
      "openness_index": 44.4,
@@ -5297,12 +5425,12 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.0000002156",
-    "completion": "0.0000006468",
-    "input_cache_read": "0.00000000686"
+    "prompt": "0.00000044",
+    "completion": "0.00000132",
+    "input_cache_read": "0.000000028"
    },
    "top_provider": {
-    "max_completion_tokens": 262144
+    "max_completion_tokens": 393216
    },
    "supported_parameters": [
     "reasoning",
@@ -5485,14 +5613,14 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 31.7,
+     "intelligence_index": 31.6,
      "coding_index": null,
      "agentic_index": null,
      "finance_and_accounting_index": 42.1,
      "strategy_and_ops_index": 47.4,
      "legal_index": 35.8,
      "healthcare_and_medical_index": 39.3,
-     "engineering_index": 37.6,
+     "engineering_index": 37.5,
      "economics_index": 37.3,
      "cyber_index": 36.4,
      "openness_index": 33.3,
@@ -5562,41 +5690,6 @@
     }
    },
    "ha_versione_gratuita": false
-  },
-  {
-   "id": "dots-studio/dots-3-note-preview:free",
-   "name": "Dots Studio: Dots3-Note Preview (free)",
-   "created": 1786680361,
-   "context_length": 512000,
-   "description": "Dots3-Note Preview is an open-weight mixture-of-experts model from Dots Studio, with 16B active parameters out of 280B total. It is the lightest model in the Dots 3 family and is...",
-   "hugging_face_id": "dots-studio/dots3-note-prev",
-   "expiration_date": "2026-12-31",
-   "architecture": {
-    "input_modalities": [
-     "text",
-     "image"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text+image->text"
-   },
-   "pricing": {
-    "prompt": "0",
-    "completion": "0"
-   },
-   "top_provider": {
-    "max_completion_tokens": 460800
-   },
-   "supported_parameters": [
-    "reasoning",
-    "structured_outputs",
-    "tools"
-   ],
-   "reasoning": {
-    "mandatory": false
-   },
-   "ha_versione_gratuita": true
   },
   {
    "id": "google/gemini-3.7-flash",
@@ -6232,12 +6325,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000004532",
-    "completion": "0.00000013596",
-    "input_cache_read": "0.000000001442"
+    "prompt": "0.000000047",
+    "completion": "0.0000003",
+    "input_cache_read": "0.000000035"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -6274,7 +6367,7 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000456",
+    "prompt": "0.000000047",
     "completion": "0.0000003",
     "input_cache_read": "0.000000035"
    },
@@ -7019,7 +7112,7 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 32.3,
+     "intelligence_index": 32.2,
      "coding_index": null,
      "agentic_index": null,
      "finance_and_accounting_index": 34.6,
@@ -7955,14 +8048,14 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "intelligence_index": 18.9,
+     "intelligence_index": 19,
      "coding_index": null,
      "agentic_index": null,
      "finance_and_accounting_index": 25.1,
      "strategy_and_ops_index": 27.9,
      "legal_index": 23.5,
      "healthcare_and_medical_index": 21.7,
-     "engineering_index": 26.2,
+     "engineering_index": 26.3,
      "economics_index": 27.4,
      "cyber_index": 22.4,
      "openness_index": 33.3,
@@ -8796,9 +8889,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000005",
-    "completion": "0.0000007",
-    "input_cache_read": "0.000000025"
+    "prompt": "0.0000001",
+    "completion": "0.00000089",
+    "input_cache_read": "0.000000035"
    },
    "top_provider": {
     "max_completion_tokens": 235929
@@ -9087,60 +9180,6 @@
    "ha_versione_gratuita": false
   },
   {
-   "id": "xiaomi/mimo-v2.5",
-   "name": "Xiaomi: MiMo-V2.5",
-   "created": 1776874269,
-   "context_length": 1000000,
-   "description": "MiMo-V2.5 is a native omnimodal model by Xiaomi. It delivers Pro-level agentic performance at roughly half the inference cost, while surpassing MiMo-V2-Omni in multimodal perception across image and video understanding...",
-   "hugging_face_id": "XiaomiMiMo/MiMo-V2.5",
-   "architecture": {
-    "input_modalities": [
-     "text",
-     "audio",
-     "image",
-     "video"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text+image+audio+video->text"
-   },
-   "pricing": {
-    "prompt": "0.0000004",
-    "completion": "0.000002",
-    "input_cache_read": "0.00000008"
-   },
-   "top_provider": {
-    "max_completion_tokens": 65536
-   },
-   "supported_parameters": [
-    "reasoning",
-    "structured_outputs",
-    "tools"
-   ],
-   "reasoning": {
-    "mandatory": false
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": null,
-     "coding_index": null,
-     "agentic_index": null,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
-     "openness_index": 38.9,
-     "multilingual_index": null,
-     "decision_index": null
-    }
-   },
-   "ha_versione_gratuita": false
-  },
-  {
    "id": "openai/gpt-5.4-image-2",
    "name": "OpenAI: GPT-5.4 Image 2",
    "created": 1776797528,
@@ -9403,9 +9442,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000009",
-    "completion": "0.0000003",
-    "input_cache_read": "0.00000005"
+    "prompt": "0.0000000765",
+    "completion": "0.000000255",
+    "input_cache_read": "0.0000000425"
    },
    "top_provider": {
     "max_completion_tokens": 235929
@@ -11032,7 +11071,7 @@
    "id": "minimax/minimax-m2.5",
    "name": "MiniMax: MiniMax M2.5",
    "created": 1770908502,
-   "context_length": 198000,
+   "context_length": 65536,
    "description": "MiniMax-M2.5 is a SOTA large language model designed for real-world productivity. Trained in a diverse range of complex real-world digital working environments, M2.5 builds upon the coding expertise of M2.1...",
    "hugging_face_id": "MiniMaxAI/MiniMax-M2.5",
    "architecture": {
@@ -11045,12 +11084,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000027",
-    "completion": "0.00000095",
-    "input_cache_read": "0.00000003"
+    "prompt": "0.0000003",
+    "completion": "0.0000012",
+    "input_cache_read": "0.00000006"
    },
    "top_provider": {
-    "max_completion_tokens": 32768
+    "max_completion_tokens": 58982
    },
    "supported_parameters": [
     "reasoning",
@@ -13432,55 +13471,6 @@
    "ha_versione_gratuita": false
   },
   {
-   "id": "mistralai/mistral-medium-3.1",
-   "name": "Mistral: Mistral Medium 3.1",
-   "created": 1755095639,
-   "context_length": 131072,
-   "description": "Mistral Medium 3.1 is an updated version of Mistral Medium 3, which is a high-performance enterprise-grade language model designed to deliver frontier-level capabilities at significantly reduced operational cost. It balances...",
-   "hugging_face_id": "",
-   "architecture": {
-    "input_modalities": [
-     "text",
-     "image",
-     "file"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text+image+file->text"
-   },
-   "pricing": {
-    "prompt": "0.00000044",
-    "completion": "0.0000022",
-    "input_cache_read": "0.000000044"
-   },
-   "top_provider": {
-    "max_completion_tokens": 104857
-   },
-   "supported_parameters": [
-    "structured_outputs",
-    "tools"
-   ],
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": null,
-     "coding_index": null,
-     "agentic_index": null,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
-     "openness_index": 11.1,
-     "multilingual_index": null,
-     "decision_index": null
-    }
-   },
-   "ha_versione_gratuita": false
-  },
-  {
    "id": "z-ai/glm-4.5v",
    "name": "Z.ai: GLM 4.5V",
    "created": 1754922288,
@@ -14682,38 +14672,6 @@
      "decision_index": null
     }
    },
-   "ha_versione_gratuita": false
-  },
-  {
-   "id": "mistralai/mistral-medium-3",
-   "name": "Mistral: Mistral Medium 3",
-   "created": 1746627341,
-   "context_length": 131072,
-   "description": "Mistral Medium 3 is a high-performance enterprise-grade language model designed to deliver frontier-level capabilities at significantly reduced operational cost. It balances state-of-the-art reasoning and multimodal performance with 8× lower cost...",
-   "hugging_face_id": "",
-   "architecture": {
-    "input_modalities": [
-     "text",
-     "image",
-     "file"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text+image+file->text"
-   },
-   "pricing": {
-    "prompt": "0.00000044",
-    "completion": "0.0000022",
-    "input_cache_read": "0.000000044"
-   },
-   "top_provider": {
-    "max_completion_tokens": 104857
-   },
-   "supported_parameters": [
-    "structured_outputs",
-    "tools"
-   ],
    "ha_versione_gratuita": false
   },
   {
