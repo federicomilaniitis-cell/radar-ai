@@ -1,6 +1,76 @@
 {
- "aggiornato": "2026-11-26T00:48:24+00:00",
+ "aggiornato": "2026-11-26T14:38:57+00:00",
  "paper": [
+  {
+   "titolo": "LiveVAE: Causal Window Attention Makes Efficient Streaming Video VAE",
+   "data": "2026-11-25",
+   "url": "http://arxiv.org/abs/2611.34912v1",
+   "id": "2611.34912v1",
+   "sommario": "While video diffusion models have grown faster and increasingly streamable, the video VAE remains a primary latency bottleneck across interactive generation and editing pipelines. Existing VAEs and their acceleration methods rely mainly on heavy convolutions or full frame attenti"
+  },
+  {
+   "titolo": "LoopTitan: What Does Parameter Revisit Buy a Mixture-of-Experts?",
+   "data": "2026-11-25",
+   "url": "http://arxiv.org/abs/2611.34821v1",
+   "id": "2611.34821v1",
+   "sommario": "Looped Mixture-of-Experts (MoE) architectures revisit layer parameters across depths. This design increases effective depth without adding parameters. Recent looped MoE studies report substantial gains over the standard MoE at matched budgets (parameters, FLOPs and KV cache). How"
+  },
+  {
+   "titolo": "DuCo: Exploiting Dual Cross-Layer Consistency for Sparse Geometric Attention",
+   "data": "2026-11-25",
+   "url": "http://arxiv.org/abs/2611.34608v1",
+   "id": "2611.34608v1",
+   "sommario": "Dense global attention is crucial for capturing cross-view geometry in visual geometry foundation models, yet its quadratic complexity limits efficient inference on long image sequences. Existing sparse attention methods primarily select entries of the global attention matrix bas"
+  },
+  {
+   "titolo": "Routing and Cache Retention for Multi-Turn LLM Inference: Theory and Implementation",
+   "data": "2026-11-25",
+   "url": "http://arxiv.org/abs/2611.34584v1",
+   "id": "2611.34584v1",
+   "sommario": "Multi-turn AI agents execute iterative loops of large language model (LLM) inference and external tool calls, transforming cluster serving into a dynamic resource-allocation problem where routing and key-value (KV) cache retention jointly govern prefix reuse across inter-turn del"
+  },
+  {
+   "titolo": "TACC: Target-Aware Carrier Compression for Dense-Context Novel View Synthesis",
+   "data": "2026-11-25",
+   "url": "http://arxiv.org/abs/2611.34476v1",
+   "id": "2611.34476v1",
+   "sommario": "Recent feed-forward approaches mark a paradigm shift in novel view synthesis by eliminating the reliance on per-scene optimization, directly inferring 3D representations from input views. However, their reliance on global scene-token context incurs substantial memory and latency "
+  },
+  {
+   "titolo": "Latent-in-the-Middle: On the Security of Cross-Model Latent Communication in Multi-Agent Systems",
+   "data": "2026-11-25",
+   "url": "http://arxiv.org/abs/2611.34278v1",
+   "id": "2611.34278v1",
+   "sommario": "As large language models increasingly collaborate in heterogeneous multi-agent systems, latent communication has emerged as an efficient alternative to exchanging natural-language messages. By sharing internal representations, agents can avoid repeatedly processing the same conte"
+  },
+  {
+   "titolo": "TigerTTS: Draft-Guided Multi-Frame Parallel Speech-Token Language Model for Fast and Robust Text-to-Speech",
+   "data": "2026-11-25",
+   "url": "http://arxiv.org/abs/2611.34241v1",
+   "id": "2611.34241v1",
+   "sommario": "Autoregressive speech-token language models enable high-quality TTS but suffer from latency growth with sequence length, word omission or repetition without explicit alignment, and fidelity limits from discrete codebooks. We present TigerTTS, a production-grade LLM TTS system bui"
+  },
+  {
+   "titolo": "Letting Models Manage Their Own Context: Where We Stand",
+   "data": "2026-11-25",
+   "url": "http://arxiv.org/abs/2611.34147v1",
+   "id": "2611.34147v1",
+   "sommario": "Agent harnesses today manage context on the model's behalf: when the window fills, the harness triggers a compaction that summarizes the history. We study the alternative, \\emph{model-driven} context management, in which the model itself decides when and what to compact through a"
+  },
+  {
+   "titolo": "VAPOR: Improving Multimodal Reasoning with Sparse Visual Updates",
+   "data": "2026-11-25",
+   "url": "http://arxiv.org/abs/2611.33751v1",
+   "id": "2611.33751v1",
+   "sommario": "Multimodal large language models (MLLMs) have made substantial progress in visual reasoning, but extended generation over large visual contexts remains computationally expensive. During autoregressive decoding, visual attention is recomputed for every generated token, even when c"
+  },
+  {
+   "titolo": "State Space Attention: Learning Context-Dependent Memory Retention",
+   "data": "2026-11-25",
+   "url": "http://arxiv.org/abs/2611.33625v1",
+   "id": "2611.33625v1",
+   "sommario": "Standard attention's key-value cache grows linearly with context length. Bounding it raises the question of what a sequence model should retain for long-context reasoning. We argue this choice should be learned, and introduce State Space Attention (SSA), which learns to keep a bo"
+  },
   {
    "titolo": "LoomKV: Lossless KV Cache Compression from GPU Memory to SSD for LLM Serving",
    "data": "2026-11-24",
@@ -14,76 +84,6 @@
    "url": "http://arxiv.org/abs/2611.32660v1",
    "id": "2611.32660v1",
    "sommario": "Deep search is a critical capability for agents tackling complex, open-ended tasks, where solving a problem requires iterative information gathering, query reformulation, and evidence-based verification rather than a single retrieval step. To address these requirements, we presen"
-  },
-  {
-   "titolo": "ModelLess: A Serverless System for Multi-Tier LLM Inference on Shared GPUs",
-   "data": "2026-11-24",
-   "url": "http://arxiv.org/abs/2611.32634v1",
-   "id": "2611.32634v1",
-   "sommario": "LLM inference platforms sell online, asynchronous, batch and rollout products on GPUs provisioned per product, so a service's cards sit idle between bursts while other work waits. We present ModelLess, a serverless system for LLM inference. Users declare model services and the pl"
-  },
-  {
-   "titolo": "See the Answer, Learn to Embed: Learning Universal Multimodal Embeddings from Hindsight",
-   "data": "2026-11-24",
-   "url": "http://arxiv.org/abs/2611.32439v1",
-   "id": "2611.32439v1",
-   "sommario": "Universal Multimodal Embedding (UME) models map heterogeneous multimodal inputs into a shared embedding space, where pairwise similarity supports diverse downstream tasks. Recent reasoning-driven UME approaches use intermediate reasoning to generate additional context for embeddi"
-  },
-  {
-   "titolo": "Factorized Context Attention: From Emulated to Native Grid Probing",
-   "data": "2026-11-24",
-   "url": "http://arxiv.org/abs/2611.32423v1",
-   "id": "2611.32423v1",
-   "sommario": "Models read a book, an hour of video, or an image in one forward pass. As the context grows, this pass slows down, loses accuracy, and stops at the context window. Sparse attention is efficient, but keeps the other two limitations. Grid probing, a recent training-free method, rec"
-  },
-  {
-   "titolo": "Beyond Hard Tokens: Predictive Memory for Multimodal Protein Generation",
-   "data": "2026-11-24",
-   "url": "http://arxiv.org/abs/2611.32347v1",
-   "id": "2611.32347v1",
-   "sommario": "Multimodal protein language models unify sequence and discrete structural tokens via iterative masked decoding, offering a promising paradigm for joint protein design. However, standard decoders rely on a memoryless mask reset at each iteration: only a sparse subset of newly comm"
-  },
-  {
-   "titolo": "Norn: Context-Length-Aware Optimization of Weight and KV Cache Placement for Offloaded LLM Inference",
-   "data": "2026-11-24",
-   "url": "http://arxiv.org/abs/2611.32295v1",
-   "id": "2611.32295v1",
-   "sommario": "Offloading model weights and the key-value (KV) cache to host memory enables large language models (LLMs) to run on a single memory-constrained GPU. As the KV cache grows during decoding, GPU memory requirements and the costs of KV cache transfers and attention computation change"
-  },
-  {
-   "titolo": "Mayfly: Lifecycle-Aware High-Bandwidth Flash for Recursive Self-Improvement",
-   "data": "2026-11-24",
-   "url": "http://arxiv.org/abs/2611.32264v1",
-   "id": "2611.32264v1",
-   "sommario": "Recursive self-improvement (RSI) lets an LLM improve its agent system by proposing and evaluating candidate variants across tasks. A generation's sessions grow their KV caches together and release them as they finish, creating a burst followed by a decline. At high concurrency, e"
-  },
-  {
-   "titolo": "DraftKV: Protecting Persistent Worlds through Hierarchical Streaming Retrieval",
-   "data": "2026-11-24",
-   "url": "http://arxiv.org/abs/2611.31944v1",
-   "id": "2611.31944v1",
-   "sommario": "Interactive video world models enable action- and camera-controlled exploration, yet struggle to maintain consistent spatial geometry and appearance when revisiting previously explored locations. Historical KV caches help auto-regressive video diffusion models maintain long-term "
-  },
-  {
-   "titolo": "Cheap Memory Costs Future Compute: Co-Designing Persistent KV and GPU Execution for Efficient Streaming Video Diffusion",
-   "data": "2026-11-24",
-   "url": "http://arxiv.org/abs/2611.31892v1",
-   "id": "2611.31892v1",
-   "sommario": "Block-causal video diffusion generates long videos block by block, conditioned on a persistent key-value (KV) cache. After each block is denoised, an extra noise-free ($t=0$) forward pass writes its clean KV into the cache; once distillation and speculative early exit make denois"
-  },
-  {
-   "titolo": "On-Policy Codec Distillation for Efficient All-in-One Video Generation",
-   "data": "2026-11-23",
-   "url": "http://arxiv.org/abs/2611.31184v1",
-   "id": "2611.31184v1",
-   "sommario": "Modern visual generative models operate on tokens, and every visual asset they receive, whether an identity, a scribble, a depth map, or a motion video, is tokenized and appended to the input token sequence. Consequently, conditioning quickly dominates the computation cost. Yet m"
-  },
-  {
-   "titolo": "LiveLoRA: Exact KV Cache Migration Across LoRA Updates for LLM Agents",
-   "data": "2026-11-23",
-   "url": "http://arxiv.org/abs/2611.31105v1",
-   "id": "2611.31105v1",
-   "sommario": "Updating an LLM adapter should not require replaying the full interaction history of every active session. Yet reusing key-value (KV) cache entries computed under an earlier version mixes model versions, while full-history re-prefill becomes increasingly costly as histories and s"
   }
  ]
 }

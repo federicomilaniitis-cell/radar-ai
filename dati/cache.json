@@ -1,8 +1,8 @@
 {
- "aggiornato": "2026-11-26T00:48:24+00:00",
+ "aggiornato": "2026-11-26T14:38:57+00:00",
  "aggiornato_it": "26 novembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 371,
+ "totale": 372,
  "modelli": [
   {
    "id": "upstage/solar-mini-4-5",
@@ -1532,7 +1532,7 @@
     "input_cache_read": "0.00000003"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -1576,7 +1576,7 @@
     "completion": "0"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -1821,9 +1821,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000075",
-    "completion": "0.0000003",
-    "input_cache_read": "0.0000000075"
+    "prompt": "0.00000015",
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000015"
    },
    "top_provider": {
     "max_completion_tokens": 524288
@@ -4016,12 +4016,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000999",
-    "completion": "0.000005",
-    "input_cache_read": "0.0000000999"
+    "prompt": "0.000000111",
+    "completion": "0.00000444",
+    "input_cache_read": "0.000000097"
    },
    "top_provider": {
-    "max_completion_tokens": 393216
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -4484,9 +4484,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000014",
-    "completion": "0.00000042",
-    "input_cache_read": "0.0000000042"
+    "prompt": "0.0000000507",
+    "completion": "0.0000002028",
+    "input_cache_read": "0.000000001014"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -5228,12 +5228,12 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000012",
-    "completion": "0.00000038",
-    "input_cache_read": "0.00000002"
+    "prompt": "0.00000015",
+    "completion": "0.0000005",
+    "input_cache_read": "0.00000003"
    },
    "top_provider": {
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 943717
    },
    "supported_parameters": [
     "reasoning",
@@ -5556,12 +5556,12 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000035",
-    "completion": "0.0000015",
-    "input_cache_read": "0.0000000175"
+    "prompt": "0.00000006",
+    "completion": "0.00000196",
+    "input_cache_read": "0.000000059"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 235929
    },
    "supported_parameters": [
     "reasoning",
@@ -6274,12 +6274,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000006",
-    "completion": "0.00000018",
-    "input_cache_read": "0.000000015"
+    "prompt": "0.000000047",
+    "completion": "0.0000003",
+    "input_cache_read": "0.000000035"
    },
    "top_provider": {
-    "max_completion_tokens": 384000
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -8989,8 +8989,8 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000888188",
-    "completion": "0.0000015082",
+    "prompt": "0.000000855302",
+    "completion": "0.0000015228",
     "input_cache_read": "0.0000002"
    },
    "top_provider": {
@@ -9349,9 +9349,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000000765",
-    "completion": "0.000000255",
-    "input_cache_read": "0.0000000425"
+    "prompt": "0.00000009",
+    "completion": "0.0000003",
+    "input_cache_read": "0.00000005"
    },
    "top_provider": {
     "max_completion_tokens": 235929
@@ -14224,6 +14224,51 @@
    "ha_versione_gratuita": false
   },
   {
+   "id": "moonshotai/kimi-k2",
+   "name": "MoonshotAI: Kimi K2 0711",
+   "created": 1752263252,
+   "context_length": 131072,
+   "description": "Kimi K2 Instruct is a large-scale Mixture-of-Experts (MoE) language model developed by Moonshot AI, featuring 1 trillion total parameters with 32 billion active per forward pass. It is optimized for...",
+   "hugging_face_id": "moonshotai/Kimi-K2-Instruct",
+   "architecture": {
+    "input_modalities": [
+     "text"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text->text"
+   },
+   "pricing": {
+    "prompt": "0.00000057",
+    "completion": "0.0000023"
+   },
+   "top_provider": {
+    "max_completion_tokens": 98304
+   },
+   "supported_parameters": [
+    "tools"
+   ],
+   "benchmarks": {
+    "artificial_analysis": {
+     "intelligence_index": null,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": null,
+     "strategy_and_ops_index": null,
+     "legal_index": null,
+     "healthcare_and_medical_index": null,
+     "engineering_index": null,
+     "economics_index": null,
+     "cyber_index": null,
+     "openness_index": 88.9,
+     "multilingual_index": 0.786,
+     "decision_index": null
+    }
+   },
+   "ha_versione_gratuita": false
+  },
+  {
    "id": "cognitivecomputations/dolphin-mistral-24b-venice-edition",
    "name": "Venice: Uncensored",
    "created": 1752094966,
@@ -15259,10 +15304,11 @@
    },
    "pricing": {
     "prompt": "0.00000008",
-    "completion": "0.00000016"
+    "completion": "0.00000045",
+    "input_cache_read": "0.00000004"
    },
    "top_provider": {
-    "max_completion_tokens": 16384
+    "max_completion_tokens": 117964
    },
    "supported_parameters": [
     "structured_outputs",
