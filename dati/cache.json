@@ -1,8 +1,8 @@
 {
- "aggiornato": "2026-11-25T15:14:08+00:00",
- "aggiornato_it": "25 novembre 2026",
+ "aggiornato": "2026-11-26T00:48:24+00:00",
+ "aggiornato_it": "26 novembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 373,
+ "totale": 371,
  "modelli": [
   {
    "id": "upstage/solar-mini-4-5",
@@ -1975,12 +1975,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000025",
+    "prompt": "0.0000003",
     "completion": "0.000001",
-    "input_cache_read": "0.00000005"
+    "input_cache_read": "0.00000004"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -2287,72 +2287,11 @@
    "ha_versione_gratuita": true
   },
   {
-   "id": "unbiased/pareto-26.10",
-   "name": "Pareto 26.10",
-   "created": 1792073620,
-   "context_length": 1048576,
-   "description": "Pareto is a multimodal composite model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks.",
-   "expiration_date": "2026-11-25",
-   "architecture": {
-    "input_modalities": [
-     "text",
-     "image"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text+image->text"
-   },
-   "pricing": {
-    "prompt": "0.0000008",
-    "completion": "0.0000032",
-    "input_cache_read": "0.00000003"
-   },
-   "top_provider": {
-    "max_completion_tokens": 131072
-   },
-   "supported_parameters": [
-    "tools"
-   ],
-   "ha_versione_gratuita": false
-  },
-  {
    "id": "~unbiased/pareto-latest",
    "name": "Pareto Latest",
    "created": 1791933050,
-   "context_length": 1048576,
-   "description": "This model always redirects to the latest model in the Pareto family.",
-   "expiration_date": "2026-11-25",
-   "architecture": {
-    "input_modalities": [
-     "text",
-     "image"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text+image->text"
-   },
-   "pricing": {
-    "prompt": "0.0000008",
-    "completion": "0.0000032",
-    "input_cache_read": "0.00000003"
-   },
-   "top_provider": {
-    "max_completion_tokens": 131072
-   },
-   "supported_parameters": [
-    "tools"
-   ],
-   "ha_versione_gratuita": false
-  },
-  {
-   "id": "unbiased/pareto-26.9",
-   "name": "Pareto 26.9",
-   "created": 1791930537,
    "context_length": 262144,
-   "description": "Pareto is a multimodal composite model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks.",
-   "expiration_date": "2026-11-25",
+   "description": "This model always redirects to the latest model in the Pareto family.",
    "architecture": {
     "input_modalities": [
      "text",
@@ -2364,16 +2303,13 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.0000025",
-    "completion": "0.0000075",
-    "input_cache_read": "0.00000025"
+    "prompt": "-1",
+    "completion": "-1"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": null
    },
-   "supported_parameters": [
-    "tools"
-   ],
+   "supported_parameters": [],
    "ha_versione_gratuita": false
   },
   {
@@ -2864,36 +2800,6 @@
      "decision_index": null
     }
    },
-   "ha_versione_gratuita": false
-  },
-  {
-   "id": "unbiased/pareto-26.10-preview",
-   "name": "Pareto 26.10 Preview",
-   "created": 1790863623,
-   "context_length": 1048576,
-   "description": "Pareto is a multimodal composite model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks. This is a preview of the...",
-   "expiration_date": "2026-11-25",
-   "architecture": {
-    "input_modalities": [
-     "text",
-     "image"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text+image->text"
-   },
-   "pricing": {
-    "prompt": "0.0000008",
-    "completion": "0.0000032",
-    "input_cache_read": "0.00000003"
-   },
-   "top_provider": {
-    "max_completion_tokens": 131072
-   },
-   "supported_parameters": [
-    "tools"
-   ],
    "ha_versione_gratuita": false
   },
   {
@@ -4578,9 +4484,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.0000000507",
-    "completion": "0.0000002028",
-    "input_cache_read": "0.000000001014"
+    "prompt": "0.00000014",
+    "completion": "0.00000042",
+    "input_cache_read": "0.0000000042"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -4939,7 +4845,7 @@
     "prompt": "0.00000125",
     "completion": "0.00000425",
     "input_cache_read": "0.00000015",
-    "web_search": "0.0025"
+    "web_search": "0.01"
    },
    "top_provider": {
     "max_completion_tokens": 943718
@@ -5684,7 +5590,7 @@
      "healthcare_and_medical_index": 34.6,
      "engineering_index": 28.1,
      "economics_index": 33.7,
-     "cyber_index": 12.7,
+     "cyber_index": 39.5,
      "openness_index": 38.9,
      "multilingual_index": null,
      "decision_index": null
@@ -6326,12 +6232,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000004532",
-    "completion": "0.00000013596",
-    "input_cache_read": "0.000000001442"
+    "prompt": "0.000000047",
+    "completion": "0.0000003",
+    "input_cache_read": "0.000000035"
    },
    "top_provider": {
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -6368,12 +6274,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000000456",
-    "completion": "0.0000003",
-    "input_cache_read": "0.000000035"
+    "prompt": "0.00000006",
+    "completion": "0.00000018",
+    "input_cache_read": "0.000000015"
    },
    "top_provider": {
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 384000
    },
    "supported_parameters": [
     "reasoning",
@@ -9083,8 +8989,8 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000008012",
-    "completion": "0.0000015629",
+    "prompt": "0.000000888188",
+    "completion": "0.0000015082",
     "input_cache_read": "0.0000002"
    },
    "top_provider": {
@@ -9443,9 +9349,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000009",
-    "completion": "0.0000003",
-    "input_cache_read": "0.00000005"
+    "prompt": "0.0000000765",
+    "completion": "0.000000255",
+    "input_cache_read": "0.0000000425"
    },
    "top_provider": {
     "max_completion_tokens": 235929
@@ -10263,7 +10169,7 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000017",
+    "prompt": "0.0000001",
     "completion": "0.00000025"
    },
    "top_provider": {
@@ -11034,12 +10940,12 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000045",
-    "completion": "0.000003",
-    "input_cache_read": "0.00000022"
+    "prompt": "0.0000005",
+    "completion": "0.0000036",
+    "input_cache_read": "0.0000003"
    },
    "top_provider": {
-    "max_completion_tokens": 81920
+    "max_completion_tokens": 235929
    },
    "supported_parameters": [
     "reasoning",
@@ -14052,11 +13958,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000014",
-    "completion": "0.00000086"
+    "prompt": "0.0000002",
+    "completion": "0.0000011",
+    "input_cache_read": "0.00000003"
    },
    "top_provider": {
-    "max_completion_tokens": 117964
+    "max_completion_tokens": 98304
    },
    "supported_parameters": [
     "reasoning",
@@ -14340,6 +14247,39 @@
     "max_completion_tokens": 8192
    },
    "supported_parameters": [],
+   "ha_versione_gratuita": false
+  },
+  {
+   "id": "tngtech/deepseek-r1t2-chimera",
+   "name": "TNG: DeepSeek R1T2 Chimera",
+   "created": 1751986985,
+   "context_length": 131072,
+   "description": "DeepSeek-TNG-R1T2-Chimera is the second-generation Chimera model from TNG Tech. It is a 671 B-parameter mixture-of-experts text-generation model assembled from DeepSeek-AI’s R1-0528, R1, and V3-0324 checkpoints with an Assembly-of-Experts merge. The...",
+   "hugging_face_id": "tngtech/DeepSeek-TNG-R1T2-Chimera",
+   "architecture": {
+    "input_modalities": [
+     "text"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "modality": "text->text"
+   },
+   "pricing": {
+    "prompt": "0.000001",
+    "completion": "0.000002625",
+    "input_cache_read": "0.00000002"
+   },
+   "top_provider": {
+    "max_completion_tokens": 32768
+   },
+   "supported_parameters": [
+    "reasoning",
+    "structured_outputs"
+   ],
+   "reasoning": {
+    "mandatory": true
+   },
    "ha_versione_gratuita": false
   },
   {
