@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-27T00:54:49+00:00",
+ "aggiornato": "2026-11-27T14:36:00+00:00",
  "notizie": [
   {
    "tag": "crit",
@@ -122,6 +122,15 @@
    "tag": "ok",
    "tagT": "Prezzo giu'",
    "data": "2026-11-27",
+   "titolo": "Inkling 2 Mini: il prezzo in entrata scende del 20%",
+   "testo": "Da $0,075 a $0,06 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-thinkingmachines-inkling-2-miniprompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-11-27",
    "titolo": "MiniMax M3.1 Flash: il prezzo in entrata scende del 50%",
    "testo": "Da $0,15 a $0,075 per milione di token in entrata.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
@@ -207,15 +216,6 @@
    "testo": "Da $0,15 a $0,03 per milione di token in entrata.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
    "id": "prezzo-deepseek-deepseek-v4-1-flash-1017prompt"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-11-24",
-   "titolo": "DeepSeek V4.1 Flash 1017: il prezzo in uscita scende del 67%",
-   "testo": "Da $0,6 a $0,2 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-deepseek-deepseek-v4-1-flash-1017completion"
   }
  ]
 }

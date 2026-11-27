@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-27T00:54:49+00:00",
+ "aggiornato": "2026-11-27T14:36:00+00:00",
  "aggiornato_it": "27 novembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
  "totale": 374,
@@ -183,9 +183,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.000000075",
-    "completion": "0.0000003",
-    "input_cache_read": "0.000000015"
+    "prompt": "0.00000006",
+    "completion": "0.00000024",
+    "input_cache_read": "0.000000012"
    },
    "top_provider": {
     "max_completion_tokens": 65536
@@ -677,8 +677,8 @@
    "ha_versione_gratuita": false
   },
   {
-   "id": "inclusionai/ling-3.2-flash:free",
-   "name": "inclusionAI: Ling 3.2 Flash (free)",
+   "id": "inclusionai/ling-3.2-flash",
+   "name": "inclusionAI: Ling 3.2 Flash",
    "created": 1794591958,
    "context_length": 1048576,
    "description": "Ling 3.2 Flash is a hybrid reasoning model from inclusionAI that accepts text and image input, with a 1M-token context window and up to 200 images per request. Thinking can...",
@@ -694,8 +694,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0",
-    "completion": "0"
+    "prompt": "0.0000003",
+    "completion": "0.0000009",
+    "input_cache_read": "0.00000006"
    },
    "top_provider": {
     "max_completion_tokens": 262144
@@ -709,7 +710,7 @@
     "mandatory": false,
     "default_enabled": true
    },
-   "ha_versione_gratuita": true
+   "ha_versione_gratuita": false
   },
   {
    "id": "google/gemini-4-hydrogen",
@@ -805,10 +806,13 @@
     "tools"
    ],
    "reasoning": {
-    "mandatory": true,
+    "mandatory": false,
     "default_enabled": true,
     "supported_efforts": [
-     "high"
+     "high",
+     "medium",
+     "low",
+     "none"
     ],
     "default_effort": "high"
    },
@@ -1857,9 +1861,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.000000075",
-    "completion": "0.0000003",
-    "input_cache_read": "0.0000000075"
+    "prompt": "0.00000015",
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000015"
    },
    "top_provider": {
     "max_completion_tokens": 524288
@@ -4052,12 +4056,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000111",
-    "completion": "0.00000444",
-    "input_cache_read": "0.000000097"
+    "prompt": "0.0000000999",
+    "completion": "0.000005",
+    "input_cache_read": "0.0000000999"
    },
    "top_provider": {
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 393216
    },
    "supported_parameters": [
     "reasoning",
@@ -4520,9 +4524,9 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000014",
-    "completion": "0.00000042",
-    "input_cache_read": "0.0000000042"
+    "prompt": "0.0000000507",
+    "completion": "0.0000002028",
+    "input_cache_read": "0.000000001014"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -5368,12 +5372,12 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000044",
-    "completion": "0.00000132",
-    "input_cache_read": "0.000000028"
+    "prompt": "0.0000002156",
+    "completion": "0.0000006468",
+    "input_cache_read": "0.00000000686"
    },
    "top_provider": {
-    "max_completion_tokens": 393216
+    "max_completion_tokens": 262144
    },
    "supported_parameters": [
     "reasoning",
@@ -5720,7 +5724,7 @@
    "id": "qwen/qwen3.8-2.4t-a95b",
    "name": "Qwen: Qwen3.8 2.4T A95B",
    "created": 1786551702,
-   "context_length": 1048576,
+   "context_length": 1000000,
    "description": "Qwen3.8 2.4T A95B is an open-weight sparse mixture-of-experts model from Qwen and the open-weight variant of [Qwen3.8 Max](/qwen/qwen3.8-max), with 95 billion active parameters out of 2.4 trillion total. It is...",
    "hugging_face_id": "Qwen/Qwen3.8-2.4T-A95B",
    "architecture": {
@@ -5791,9 +5795,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000025",
+    "prompt": "0.0000000999",
     "completion": "0.000005",
-    "input_cache_read": "0.000000125"
+    "input_cache_read": "0.0000000999"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -6268,12 +6272,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000047",
-    "completion": "0.0000003",
-    "input_cache_read": "0.000000035"
+    "prompt": "0.00000004532",
+    "completion": "0.00000013596",
+    "input_cache_read": "0.000000001442"
    },
    "top_provider": {
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -6310,7 +6314,7 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000047",
+    "prompt": "0.0000000456",
     "completion": "0.0000003",
     "input_cache_read": "0.000000035"
    },
@@ -9025,8 +9029,8 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.000000888188",
-    "completion": "0.0000015887",
+    "prompt": "0.00000082655",
+    "completion": "0.0000015381",
     "input_cache_read": "0.0000002"
    },
    "top_provider": {
@@ -9385,9 +9389,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000000765",
-    "completion": "0.000000255",
-    "input_cache_read": "0.0000000425"
+    "prompt": "0.00000009",
+    "completion": "0.0000003",
+    "input_cache_read": "0.00000005"
    },
    "top_provider": {
     "max_completion_tokens": 235929
@@ -15384,11 +15388,10 @@
    },
    "pricing": {
     "prompt": "0.00000008",
-    "completion": "0.00000045",
-    "input_cache_read": "0.00000004"
+    "completion": "0.00000016"
    },
    "top_provider": {
-    "max_completion_tokens": 117964
+    "max_completion_tokens": 16384
    },
    "supported_parameters": [
     "structured_outputs",
