@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-28T00:19:41+00:00",
+ "aggiornato": "2026-11-28T13:48:46+00:00",
  "notizie": [
   {
    "tag": "crit",
@@ -122,6 +122,15 @@
    "tag": "ok",
    "tagT": "Prezzo giu'",
    "data": "2026-11-28",
+   "titolo": "Nemotron 3.5 Lightning: il prezzo in entrata scende del 29%",
+   "testo": "Da $0,07 a $0,05 per milione di token in entrata.",
+   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
+   "id": "prezzo-nvidia-nemotron-3-5-lightningprompt"
+  },
+  {
+   "tag": "ok",
+   "tagT": "Prezzo giu'",
+   "data": "2026-11-28",
    "titolo": "Inkling 2 Small: il prezzo in entrata scende del 50%",
    "testo": "Da $0,3 a $0,15 per milione di token in entrata.",
    "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
@@ -207,15 +216,6 @@
    "testo": "Il fornitore ha fissato la data di dismissione al 2026-12-31. Dopo, le richieste smettono di funzionare.",
    "perche": "Se qualcosa nel tuo lavoro passa da qui, spostalo prima di quella data.",
    "id": "fine-dots-studio-dots-3-note-preview-free"
-  },
-  {
-   "tag": "ok",
-   "tagT": "Prezzo giu'",
-   "data": "2026-11-24",
-   "titolo": "MiniMax M3.1 Flash: il prezzo in uscita scende del 50%",
-   "testo": "Da $0,6 a $0,3 per milione di token in uscita.",
-   "perche": "Se lo stai usando, la bolletta del mese prossimo cala da sola.",
-   "id": "prezzo-minimax-minimax-m3-1-flashcompletion"
   }
  ]
 }
