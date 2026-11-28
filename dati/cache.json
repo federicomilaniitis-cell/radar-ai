@@ -1,8 +1,8 @@
 {
- "aggiornato": "2026-11-27T14:36:00+00:00",
- "aggiornato_it": "27 novembre 2026",
+ "aggiornato": "2026-11-28T00:19:41+00:00",
+ "aggiornato_it": "28 novembre 2026",
  "fonte": "OpenRouter (openrouter.ai/api/v1/models)",
- "totale": 374,
+ "totale": 373,
  "modelli": [
   {
    "id": "inclusionai/lingsante-3.1-air-vl",
@@ -981,8 +981,8 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.0000003",
-    "completion": "0.000001",
+    "prompt": "0.00000015",
+    "completion": "0.0000005",
     "input_cache_read": "0.00000003"
    },
    "top_provider": {
@@ -1861,9 +1861,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000015",
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000015"
+    "prompt": "0.000000075",
+    "completion": "0.0000003",
+    "input_cache_read": "0.0000000075"
    },
    "top_provider": {
     "max_completion_tokens": 524288
@@ -2015,12 +2015,12 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.0000003",
+    "prompt": "0.00000025",
     "completion": "0.000001",
-    "input_cache_read": "0.00000004"
+    "input_cache_read": "0.00000005"
    },
    "top_provider": {
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -2241,11 +2241,11 @@
    },
    "pricing": {
     "prompt": "0.00000015",
-    "completion": "0.00000047",
+    "completion": "0.00000045",
     "input_cache_read": "0.00000002"
    },
    "top_provider": {
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 131072
    },
    "supported_parameters": [
     "reasoning",
@@ -4524,12 +4524,12 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.0000000507",
-    "completion": "0.0000002028",
-    "input_cache_read": "0.000000001014"
+    "prompt": "0.000000051",
+    "completion": "0.000000567",
+    "input_cache_read": "0.000000018"
    },
    "top_provider": {
-    "max_completion_tokens": 393216
+    "max_completion_tokens": 943718
    },
    "supported_parameters": [
     "reasoning",
@@ -5742,7 +5742,7 @@
     "input_cache_read": "0.00000025"
    },
    "top_provider": {
-    "max_completion_tokens": 65536
+    "max_completion_tokens": 900000
    },
    "supported_parameters": [
     "reasoning",
@@ -9029,9 +9029,9 @@
     "modality": "text->text"
    },
    "pricing": {
-    "prompt": "0.00000082655",
-    "completion": "0.0000015381",
-    "input_cache_read": "0.0000002"
+    "prompt": "0.00000052235",
+    "completion": "0.0000015651",
+    "input_cache_read": "0.00000022"
    },
    "top_provider": {
     "max_completion_tokens": 393216
@@ -9389,9 +9389,9 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.00000009",
-    "completion": "0.0000003",
-    "input_cache_read": "0.00000005"
+    "prompt": "0.0000000675",
+    "completion": "0.000000225",
+    "input_cache_read": "0.0000000375"
    },
    "top_provider": {
     "max_completion_tokens": 235929
@@ -10209,11 +10209,12 @@
     "modality": "text+image+video->text"
    },
    "pricing": {
-    "prompt": "0.0000001",
-    "completion": "0.00000025"
+    "prompt": "0.000000085",
+    "completion": "0.000000125",
+    "input_cache_read": "0.0000000765"
    },
    "top_provider": {
-    "max_completion_tokens": 235929
+    "max_completion_tokens": 40960
    },
    "supported_parameters": [
     "reasoning",
@@ -14077,55 +14078,6 @@
    "ha_versione_gratuita": false
   },
   {
-   "id": "qwen/qwen3-235b-a22b-thinking-2507",
-   "name": "Qwen: Qwen3 235B A22B Thinking 2507",
-   "created": 1753449557,
-   "context_length": 128000,
-   "description": "Qwen3-235B-A22B-Thinking-2507 is a high-performance, open-weight Mixture-of-Experts (MoE) language model optimized for complex reasoning tasks. It activates 22B of its 235B parameters per forward pass and natively supports up to 262,144...",
-   "hugging_face_id": "Qwen/Qwen3-235B-A22B-Thinking-2507",
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "output_modalities": [
-     "text"
-    ],
-    "modality": "text->text"
-   },
-   "pricing": {
-    "prompt": "0.00000045",
-    "completion": "0.0000035"
-   },
-   "top_provider": {
-    "max_completion_tokens": 16384
-   },
-   "supported_parameters": [
-    "reasoning",
-    "tools"
-   ],
-   "reasoning": {
-    "mandatory": true
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "intelligence_index": null,
-     "coding_index": null,
-     "agentic_index": null,
-     "finance_and_accounting_index": null,
-     "strategy_and_ops_index": null,
-     "legal_index": null,
-     "healthcare_and_medical_index": null,
-     "engineering_index": null,
-     "economics_index": null,
-     "cyber_index": null,
-     "openness_index": 44.4,
-     "multilingual_index": 0.853,
-     "decision_index": null
-    }
-   },
-   "ha_versione_gratuita": false
-  },
-  {
    "id": "qwen/qwen3-coder",
    "name": "Qwen: Qwen3 Coder 480B A35B",
    "created": 1753230546,
@@ -15199,11 +15151,12 @@
     "modality": "text+image->text"
    },
    "pricing": {
-    "prompt": "0.00000005",
-    "completion": "0.0000001"
+    "prompt": "0.00000004",
+    "completion": "0.00000005",
+    "input_cache_read": "0.00000002"
    },
    "top_provider": {
-    "max_completion_tokens": 16384
+    "max_completion_tokens": 117964
    },
    "supported_parameters": [
     "structured_outputs"
